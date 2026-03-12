@@ -1,0 +1,11 @@
+{
+  "demo_account": [
+    {
+      "seatId": "seat_demo_001",
+      "accountId": "demo_account",
+      "machineId": "studio_mac",
+      "productId": "therum",
+      "status": "active"
+    }
+  ]
+}

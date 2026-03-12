@@ -1,0 +1,180 @@
+{
+  "groups": [
+    {
+      "groupId": "independent_headline_products",
+      "displayName": "Independent Headline Products",
+      "products": [
+        "freeeq8",
+        "therum",
+        "wurp",
+        "aether",
+        "whispergate",
+        "paintmask"
+      ]
+    },
+    {
+      "groupId": "maid_suite",
+      "displayName": "Maid Suite",
+      "products": [
+        "bassmaid",
+        "gluemaid",
+        "spacemaid",
+        "mixmaid"
+      ]
+    },
+    {
+      "groupId": "riftwave_suite",
+      "displayName": "RiftWave Suite",
+      "products": [
+        "waveform_riftsynth_lite",
+        "waveform_pro",
+        "riftsynth_pro"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "productId": "freeeq8",
+      "displayName": "FreeEQ8",
+      "groupId": "independent_headline_products",
+      "edition": "standard",
+      "licenseClass": "FREE_OPEN",
+      "status": "source_ready",
+      "includedInOwnsEveryVST": false,
+      "priceModel": "free"
+    },
+    {
+      "productId": "therum",
+      "displayName": "Therum",
+      "groupId": "independent_headline_products",
+      "edition": "pro",
+      "licenseClass": "PRO_PUBLIC_REPO",
+      "status": "source_ready",
+      "includedInOwnsEveryVST": true,
+      "priceModel": "one_time"
+    },
+    {
+      "productId": "wurp",
+      "displayName": "WURP",
+      "groupId": "independent_headline_products",
+      "edition": "standard",
+      "licenseClass": "PRO_PUBLIC_REPO",
+      "status": "source_ready",
+      "includedInOwnsEveryVST": true,
+      "priceModel": "one_time",
+      "upcomingEditions": [
+        {
+          "editionId": "toxicron_edition",
+          "displayName": "Toxicron Edition",
+          "status": "coming_soon"
+        }
+      ]
+    },
+    {
+      "productId": "aether",
+      "displayName": "AETHER",
+      "groupId": "independent_headline_products",
+      "edition": "standard",
+      "licenseClass": "PRO_PUBLIC_REPO",
+      "status": "source_ready",
+      "includedInOwnsEveryVST": true,
+      "priceModel": "one_time"
+    },
+    {
+      "productId": "whispergate",
+      "displayName": "WhisperGate",
+      "groupId": "independent_headline_products",
+      "edition": "standard",
+      "licenseClass": "FREE_OPEN",
+      "status": "source_ready",
+      "includedInOwnsEveryVST": false,
+      "priceModel": "free"
+    },
+    {
+      "productId": "paintmask",
+      "displayName": "PaintMask",
+      "groupId": "independent_headline_products",
+      "edition": "studio",
+      "licenseClass": "PRO_PUBLIC_REPO",
+      "status": "source_ready",
+      "includedInOwnsEveryVST": true,
+      "priceModel": "subscription_or_one_time"
+    },
+    {
+      "productId": "bassmaid",
+      "displayName": "BassMaid",
+      "groupId": "maid_suite",
+      "edition": "pro",
+      "licenseClass": "PRO_PUBLIC_REPO",
+      "status": "source_ready",
+      "includedInOwnsEveryVST": true,
+      "priceModel": "one_time"
+    },
+    {
+      "productId": "gluemaid",
+      "displayName": "GlueMaid",
+      "groupId": "maid_suite",
+      "edition": "pro",
+      "licenseClass": "PRO_PUBLIC_REPO",
+      "status": "source_ready",
+      "includedInOwnsEveryVST": true,
+      "priceModel": "one_time"
+    },
+    {
+      "productId": "spacemaid",
+      "displayName": "SpaceMaid",
+      "groupId": "maid_suite",
+      "edition": "pro",
+      "licenseClass": "PRO_PUBLIC_REPO",
+      "status": "source_ready",
+      "includedInOwnsEveryVST": true,
+      "priceModel": "one_time"
+    },
+    {
+      "productId": "mixmaid",
+      "displayName": "MixMaid",
+      "groupId": "maid_suite",
+      "edition": "pro",
+      "licenseClass": "PRO_PUBLIC_REPO",
+      "status": "source_ready",
+      "includedInOwnsEveryVST": true,
+      "priceModel": "one_time",
+      "bundleRule": "unlock_with_complete_collection_or_full_pro_set"
+    },
+    {
+      "productId": "waveform_riftsynth_lite",
+      "displayName": "WaveForm / RiftSynth Lite",
+      "groupId": "riftwave_suite",
+      "edition": "lite",
+      "licenseClass": "FREE_LITE",
+      "status": "source_ready",
+      "includedInOwnsEveryVST": false,
+      "priceModel": "free"
+    },
+    {
+      "productId": "waveform_pro",
+      "displayName": "WaveForm Pro",
+      "groupId": "riftwave_suite",
+      "edition": "pro",
+      "licenseClass": "PRO_PUBLIC_REPO",
+      "status": "source_ready",
+      "includedInOwnsEveryVST": true,
+      "priceModel": "one_time"
+    },
+    {
+      "productId": "riftsynth_pro",
+      "displayName": "RiftSynth Pro",
+      "groupId": "riftwave_suite",
+      "edition": "pro",
+      "licenseClass": "PRO_PUBLIC_REPO",
+      "status": "source_ready",
+      "includedInOwnsEveryVST": true,
+      "priceModel": "one_time"
+    }
+  ],
+  "globalFlags": {
+    "completeCollectionFlag": "ownsEveryVST",
+    "maxExtraSeats": 9,
+    "extraSeatMonthlyPriceUsd": 3
+  }
+}

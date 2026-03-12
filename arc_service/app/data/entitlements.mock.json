@@ -1,0 +1,20 @@
+{
+  "demo_account": {
+    "accountId": "demo_account",
+    "ownsEveryVST": true,
+    "ownedProducts": [],
+    "ownedBundles": [
+      "complete_collection"
+    ],
+    "extraSeatQuantity": 2,
+    "billingState": "active"
+  },
+  "free_account": {
+    "accountId": "free_account",
+    "ownsEveryVST": false,
+    "ownedProducts": [],
+    "ownedBundles": [],
+    "extraSeatQuantity": 0,
+    "billingState": "active"
+  }
+}

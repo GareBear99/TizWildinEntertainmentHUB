@@ -1,0 +1,15 @@
+{
+  "bundleFlags": {
+    "completeCollection": "ownsEveryVST"
+  },
+  "seatSubscription": {
+    "productKey": "tizwildin_extra_seats",
+    "monthlyPriceUsd": 3,
+    "maxQuantity": 9,
+    "billingMode": "recurring_quantity"
+  },
+  "notes": [
+    "Fill real Stripe product and price IDs after dashboard setup.",
+    "ARC enforces seat quantity cap even if Stripe quantity is edited elsewhere."
+  ]
+}

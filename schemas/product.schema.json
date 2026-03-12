@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Product",
+  "type": "object",
+  "required": [
+    "productId",
+    "displayName",
+    "groupId",
+    "edition",
+    "licenseClass",
+    "status",
+    "priceModel"
+  ],
+  "properties": {
+    "productId": {
+      "type": "string"
+    },
+    "displayName": {
+      "type": "string"
+    },
+    "groupId": {
+      "type": "string"
+    },
+    "edition": {
+      "type": "string"
+    },
+    "licenseClass": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "includedInOwnsEveryVST": {
+      "type": "boolean"
+    },
+    "priceModel": {
+      "type": "string"
+    },
+    "upcomingEditions": {
+      "type": "array"
+    }
+  }
+}

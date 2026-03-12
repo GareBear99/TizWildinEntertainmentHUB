@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Proposal",
+  "type": "object",
+  "required": [
+    "proposalId",
+    "type",
+    "accountId",
+    "machineId"
+  ],
+  "properties": {
+    "proposalId": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "accountId": {
+      "type": "string"
+    },
+    "machineId": {
+      "type": "string"
+    },
+    "requestedProducts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
