@@ -1,11 +1,22 @@
-from pathlib import Path
-import json
+from app.db import get_db, fetch_account
 from app.services.catalog_service import load_catalog
 
-DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "entitlements.mock.json"
 
-def load_entitlements():
-    return json.loads(DATA_PATH.read_text())
+def load_entitlements() -> dict:
+    """Return a dict keyed by account_id (matches old JSON shape for compat)."""
+    with get_db() as conn:
+        rows = conn.execute("SELECT account_id FROM accounts").fetchall()
+        return {
+            r["account_id"]: fetch_account(conn, r["account_id"])
+            for r in rows
+        }
+
+
+def get_entitlement(account_id: str) -> dict | None:
+    """Fetch a single account's entitlement from the DB."""
+    with get_db() as conn:
+        return fetch_account(conn, account_id)
+
 
 def resolve_product_access(entitlement: dict, product_id: str) -> dict:
     catalog = load_catalog()
