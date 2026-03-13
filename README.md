@@ -2,16 +2,20 @@
 
 > **The central management plane for every TizWildin plugin — entitlements, seats, releases, and Stripe billing in one service.**
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688.svg)](https://fastapi.tiangolo.com)
-[![Tests](https://img.shields.io/badge/tests-20%20passing-brightgreen.svg)](#testing)
-[![Code Style](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://docs.astral.sh/ruff/)
-[![Sponsor](https://img.shields.io/badge/sponsor-GareBear99-ea4aaa.svg)](https://github.com/sponsors/GareBear99)
-[![Buy Me a Coffee](https://img.shields.io/badge/buy%20me%20a%20coffee-garebear99-FFDD00.svg)](https://buymeacoffee.com/garebear99)
-[![Ko-fi](https://img.shields.io/badge/ko--fi-luciferai-FF5E5B.svg)](https://ko-fi.com/luciferai)
+[![Try the API](https://img.shields.io/badge/Try%20the%20API-Swagger%20UI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](#-quick-start)
 
-## What Is This?
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.11%2B-blue?logo=python&logoColor=white)](https://www.python.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688.svg?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![Tests](https://img.shields.io/badge/tests-20%20passing-brightgreen.svg)](#-testing)
+[![Code Style](https://img.shields.io/badge/code%20style-ruff-000000.svg?logo=ruff&logoColor=white)](https://docs.astral.sh/ruff/)
+[![Stars](https://img.shields.io/github/stars/GareBear99/TizWildinEntertainmentHUB?style=social)](https://github.com/GareBear99/TizWildinEntertainmentHUB)
+
+[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/GareBear99)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/garebear99)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-ff5e5b?logo=ko-fi&logoColor=white)](https://ko-fi.com/luciferai)
+
+## 🔍 What Is This?
 
 TizWildin Entertainment Hub is the **authority + orchestration backend** for the TizWildin plugin ecosystem. It answers a single question for every plugin, on every machine, at every launch:
 
@@ -39,7 +43,7 @@ The system is split into three layers:
 
 **ARC** (Authority, Registry, Control) is the Python/FastAPI service at the heart of the system. It owns the canonical product catalog, entitlement records, seat allocations, receipts, and release state. The JUCE-based Hub desktop app and the thin plugin bridges are consumers of ARC's decisions — they never make authorization calls on their own.
 
-## Product Catalog
+## 🎛️ Product Catalog
 
 The Hub manages **13 products** across **14 GitHub repositories**:
 
@@ -71,7 +75,7 @@ The Hub manages **13 products** across **14 GitHub repositories**:
 ### Complete Collection
 Purchase all Pro products with a single "Owns Every VST" flag. Extra seats are **$3/month** each (max 9).
 
-## Quick Start
+## 🚀 Quick Start
 
 ### Prerequisites
 - Python 3.11+
@@ -100,7 +104,7 @@ python ../scripts/migrate_mock_to_db.py
 
 This populates the SQLite database with sample accounts, entitlements, and seats for local development.
 
-## API Reference
+## 📡 API Reference
 
 All endpoints are served under `http://127.0.0.1:8000` by default.
 
@@ -209,7 +213,7 @@ Requires the `STRIPE_WEBHOOK_SECRET` environment variable.
 |--------|----------|-------------|
 | `POST` | `/install-scan` | Hub reports installed plugin state |
 
-## Architecture
+## 🔧 Architecture
 
 See [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) for the full system design. The short version:
 
@@ -233,7 +237,7 @@ Each plugin identifies itself and calls `validate-runtime` through the plugin br
 - **Static JSON** for the product catalog (it's configuration, not user data).
 - **JSON schemas** in `schemas/` for entitlement, product, and proposal validation.
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 TizWildinEntertainmentHUB/
@@ -284,7 +288,7 @@ TizWildinEntertainmentHUB/
 └── .gitattributes
 ```
 
-## Testing
+## 🧪 Testing
 
 ```bash
 cd arc_service
@@ -297,14 +301,14 @@ pytest -v
 - Seat allocation (assign, list, deduplication, limit enforcement)
 - Proposal decisions (install_missing, update, unknown types)
 
-## Environment Variables
+## ⚙️ Environment Variables
 
 | Variable | Required | Description |
 |----------|----------|-------------|
 | `STRIPE_WEBHOOK_SECRET` | For Stripe | Webhook signature verification secret |
 | `GITHUB_TOKEN` | Optional | Raises GitHub API rate limit for release polling |
 
-## Tech Stack
+## 🏗️ Tech Stack
 
 | Component | Technology |
 |-----------|------------|
@@ -319,7 +323,7 @@ pytest -v
 | Payments | Stripe Webhooks |
 | Release Tracking | GitHub Releases API |
 
-## Roadmap
+## 🛣️ Roadmap
 
 ### Shipped
 - [x] Canonical product catalog with 13 products
@@ -340,18 +344,88 @@ pytest -v
 - [ ] Automated release binary packaging
 - [ ] Admin dashboard
 
-## Contributing
+## ⚠️ Known Issues & Current State
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on reporting bugs, suggesting features, and submitting pull requests.
+This project is a **serious implementation scaffold** — the ARC API is functional and tested, but not yet production-deployed.
 
-## Security
+- Stripe webhook handler validates signatures but needs real Stripe keys for live use
+- GitHub release polling works against the public API; a `GITHUB_TOKEN` is recommended to avoid rate limits
+- JUCE Hub desktop app and plugin bridge are **scaffolds only** — class/file structure is in place but no compiled UI yet
+- SQLite is great for development and moderate load; production may need PostgreSQL
+- No Docker image yet (coming soon)
 
-See [SECURITY.md](SECURITY.md) for the vulnerability reporting process. **Do not open public issues for security vulnerabilities.**
+## 💡 Tips for Developers
 
-## License
+### Working with the API
+- Use `/docs` (Swagger UI) or `/redoc` for interactive API exploration
+- Seed test data with `scripts/migrate_mock_to_db.py` before hitting endpoints
+- The `/release-check` endpoint deduplicates shared repos (e.g., RiftWave Suite uses one repo for 3 products)
+
+### Extending the Catalog
+- Add new products to both `manifests/products.catalog.json` and `arc_service/app/data/products.catalog.json`
+- Every product needs a `repoSlug` for release polling to work
+- Use the JSON schemas in `schemas/` to validate your additions
+
+### Authorization Model
+- **Complete Collection** (`ownsEveryVST`) overrides individual product ownership
+- Seat limits are per-account, not per-product
+- Free/open products skip entitlement checks entirely
+
+## 🤝 Contributing
+
+Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
+
+1. **Fork the repository**
+2. **Create a feature branch**: `git checkout -b feat/your-change`
+3. **Run tests + lint**: `pytest -v` and `ruff check .`
+4. **Open a Pull Request**
+
+### Areas for Contribution
+- 🐳 Docker / production deployment
+- 🖥️ JUCE Hub desktop app UI
+- 🔌 Plugin bridge runtime integration
+- 📊 Admin dashboard
+- 🧪 Additional test coverage
+- 📚 Documentation improvements
+
+## 🔐 Security
+
+See [SECURITY.md](SECURITY.md) for the vulnerability reporting process. **Do not open public issues for security vulnerabilities** — this service handles entitlements and billing-adjacent workflows.
+
+## 🙏 Acknowledgments
+
+- **[FastAPI](https://fastapi.tiangolo.com)** — Modern Python web framework
+- **[JUCE](https://juce.com)** — Cross-platform audio plugin framework
+- **[Stripe](https://stripe.com)** — Payment infrastructure
+- **[Pydantic](https://docs.pydantic.dev)** — Data validation
+- **Audio Plugin Development Community** — For knowledge sharing and inspiration
+
+## 💖 Support the Project
+
+TizWildin Entertainment Hub is free and open source. If it's useful to you, consider supporting development:
+
+<a href="https://github.com/sponsors/GareBear99"><img src="https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors&style=for-the-badge" alt="GitHub Sponsors"></a>
+<a href="https://buymeacoffee.com/garebear99"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?logo=buy-me-a-coffee&logoColor=black&style=for-the-badge" alt="Buy Me a Coffee"></a>
+<a href="https://ko-fi.com/luciferai"><img src="https://img.shields.io/badge/Ko--fi-ff5e5b?logo=ko-fi&logoColor=white&style=for-the-badge" alt="Ko-fi"></a>
+
+Other ways to help:
+- ⭐ **Star this repo** — helps others find the project
+- 🐛 **Report bugs** — [open an issue](https://github.com/GareBear99/TizWildinEntertainmentHUB/issues)
+- 🔀 **Contribute** — PRs are welcome
+- 📣 **Spread the word** — tell a fellow developer or producer
+
+## 📧 Contact
+
+- **Issues**: [GitHub Issues](https://github.com/GareBear99/TizWildinEntertainmentHUB/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/GareBear99/TizWildinEntertainmentHUB/discussions)
+- **Email**: neovectr.inc@gmail.com
+
+## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Built by [GareBear99](https://github.com/GareBear99) · TizWildin Entertainment
+**Built with 🎵 by [GareBear99](https://github.com/GareBear99) · TizWildin Entertainment**
+
+*"Stripe bills. ARC decides. Hub operates. Plugins ask."*
