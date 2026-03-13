@@ -1,0 +1,133 @@
+name: Build & Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build-macos:
+    runs-on: macos-14
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Pin JUCE version
+        run: cd JUCE && git checkout 7.0.12
+
+      - name: Install CMake
+        run: brew install cmake
+
+      - name: Build universal binary
+        run: |
+          mkdir -p build
+          cmake -S . -B build \
+            -DCMAKE_BUILD_TYPE=Release \
+            -DCMAKE_OSX_ARCHITECTURES="arm64;x86_64" \
+            -DCMAKE_OSX_DEPLOYMENT_TARGET="10.13"
+          cmake --build build --config Release
+
+      - name: Verify universal binary
+        run: |
+          echo "=== VST3 ==="
+          file build/TizWildinHub_artefacts/Release/VST3/TizWildinHub.vst3/Contents/MacOS/TizWildinHub
+          lipo -info build/TizWildinHub_artefacts/Release/VST3/TizWildinHub.vst3/Contents/MacOS/TizWildinHub
+          echo "=== AU ==="
+          file build/TizWildinHub_artefacts/Release/AU/TizWildinHub.component/Contents/MacOS/TizWildinHub
+          lipo -info build/TizWildinHub_artefacts/Release/AU/TizWildinHub.component/Contents/MacOS/TizWildinHub
+
+      - name: Package DMG
+        run: ./package_macos.sh build
+
+      - name: Upload macOS DMG
+        uses: actions/upload-artifact@v4
+        with:
+          name: macos-dmg
+          path: build/TizWildinHub-v*-macOS.dmg
+
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Pin JUCE version
+        run: cd JUCE && git checkout 7.0.12
+
+      - name: Configure
+        run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+
+      - name: Build
+        run: cmake --build build --config Release
+
+      - name: Package zip
+        shell: pwsh
+        run: |
+          $version = (Select-String -Path CMakeLists.txt -Pattern 'project\(TizWildinHub VERSION ([0-9.]+)').Matches.Groups[1].Value
+          $zipName = "TizWildinHub-v${version}-Windows"
+          $staging = "build\$zipName"
+          New-Item -ItemType Directory -Path $staging -Force | Out-Null
+
+          # Copy VST3
+          $vst3 = "build\TizWildinHub_artefacts\Release\VST3\TizWildinHub.vst3"
+          if (Test-Path $vst3) {
+            Copy-Item -Recurse $vst3 "$staging\"
+          }
+
+          # Create install instructions
+          @"
+          TizWildinHub v${version} — Windows Installation
+          =================================================
+
+          1. Copy the TizWildinHub.vst3 folder to:
+               C:\Program Files\Common Files\VST3\
+
+          2. Rescan plugins in your DAW:
+               - Ableton Live: Preferences > Plug-ins > Rescan
+               - FL Studio: Options > Manage plugins > Find plugins
+               - Reaper: Options > Preferences > VST > Re-scan
+
+          The plugin will appear under "TizWildin Entertainment"
+          in your DAW's plugin browser.
+
+          https://github.com/GareBear99/TizWildinEntertainmentHUB
+          License: MIT
+          "@ | Out-File -FilePath "$staging\README.txt" -Encoding utf8
+
+          Compress-Archive -Path "$staging\*" -DestinationPath "build\${zipName}.zip" -Force
+
+      - name: Upload Windows zip
+        uses: actions/upload-artifact@v4
+        with:
+          name: windows-zip
+          path: build/TizWildinHub-v*-Windows.zip
+
+  release:
+    needs: [build-macos, build-windows]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download macOS artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: macos-dmg
+          path: artifacts
+
+      - name: Download Windows artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: windows-zip
+          path: artifacts
+
+      - name: Upload assets to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            artifacts/*.dmg
+            artifacts/*.zip
