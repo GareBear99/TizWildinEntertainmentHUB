@@ -1,0 +1,8 @@
+services:
+  arc:
+    build:
+      context: ./arc_service
+    ports:
+      - "8000:8000"
+    environment:
+      ARC_WEBHOOK_SECRET: arc_demo_secret

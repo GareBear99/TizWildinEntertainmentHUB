@@ -1,12 +1,18 @@
 # Stripe Products To Create
 
-## Bundle / Ownership
+## Ownership products
 - Complete Collection
-- Optional individual paid product prices per plugin
+- Therum
+- WURP
+- AETHER
+- PaintMask
+- Maid products as needed
+- WaveForm Pro
+- RiftSynth Pro
 
-## Seats
+## Seat subscription
 - TizWildin Extra Seats
-  - recurring monthly
-  - 3 USD
-  - quantity-enabled
-  - ARC cap: 9 extra seats
+- recurring monthly
+- price: 3 USD
+- quantity-enabled
+- ARC-enforced cap: 9
