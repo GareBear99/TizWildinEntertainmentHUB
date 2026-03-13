@@ -22,7 +22,6 @@ public:
     explicit TizPluginBridge(std::string arcBaseUrl);
     TizRuntimeDecision validate(const TizRuntimeRequest& request);
     void openHub();
-
 private:
     std::string arcBaseUrl;
 };

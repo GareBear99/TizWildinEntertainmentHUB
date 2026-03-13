@@ -1,9 +1,5 @@
-# TizWildin Plugin Bridge
+# TizWildin Entertainment Plugin Bridge
 
-Thin shared client for plugins.
+This bridge now performs a real JSON runtime validation request to ARC.
 
-## Responsibilities
-- identify product/version/edition
-- request authority from ARC/Hub
-- expose simple `isProAuthorized()` style helpers
-- open hub UI for purchases/upgrades/manage actions
+It is still intentionally small and should be embedded into plugin projects with project-specific wrapping.
