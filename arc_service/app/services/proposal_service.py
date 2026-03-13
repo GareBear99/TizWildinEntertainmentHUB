@@ -1,10 +1,10 @@
 from app.models.domain import ProposalRequest
 from app.services.catalog_service import load_catalog
-from app.services.entitlement_service import load_entitlements, resolve_product_access
+from app.services.entitlement_service import get_entitlement, resolve_product_access
 
 
 def decide_proposal(request: ProposalRequest) -> dict:
-    ent = load_entitlements().get(request.accountId)
+    ent = get_entitlement(request.accountId)
     catalog = load_catalog()
     if not ent:
         return {"proposalId": request.proposalId, "approved": False, "reason": "unknown_account"}

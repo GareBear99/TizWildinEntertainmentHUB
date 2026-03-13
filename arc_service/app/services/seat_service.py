@@ -1,48 +1,54 @@
-from pathlib import Path
-import json
 import uuid
+from app.db import get_db, fetch_account, fetch_seats
 from app.models.domain import SeatAssignment
 
-DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "seats.mock.json"
-ENT_PATH = Path(__file__).resolve().parent.parent / "data" / "entitlements.mock.json"
 
-def _load_json(path: Path):
-    return json.loads(path.read_text())
+def list_seats(account_id: str) -> list[SeatAssignment]:
+    with get_db() as conn:
+        rows = fetch_seats(conn, account_id)
+    return [SeatAssignment(**s) for s in rows]
 
-def _save_json(path: Path, data):
-    path.write_text(json.dumps(data, indent=2))
-
-def list_seats(account_id: str):
-    seats = _load_json(DATA_PATH)
-    return [SeatAssignment(**s) for s in seats.get(account_id, [])]
 
 def assign_seat(account_id: str, machine_id: str, product_id: str) -> dict:
-    entitlements = _load_json(ENT_PATH)
-    seats = _load_json(DATA_PATH)
+    with get_db() as conn:
+        account = fetch_account(conn, account_id)
+        if not account:
+            return {"approved": False, "reason": "unknown_account"}
 
-    account_ent = entitlements.get(account_id)
-    if not account_ent:
-        return {"approved": False, "reason": "unknown_account"}
+        max_seats = 1 + int(account.get("extraSeatQuantity", 0))
+        current_seats = fetch_seats(conn, account_id)
 
-    max_seats = 1 + int(account_ent.get("extraSeatQuantity", 0))
-    account_seats = seats.setdefault(account_id, [])
+        # Reuse existing machine seat
+        existing = next(
+            (s for s in current_seats if s["machineId"] == machine_id), None
+        )
+        if existing:
+            conn.execute(
+                "UPDATE seats SET product_id = ? WHERE seat_id = ?",
+                (product_id, existing["seatId"]),
+            )
+            existing["productId"] = product_id
+            return {"approved": True, "reason": "existing_machine", "seat": existing}
 
-    existing = next((s for s in account_seats if s["machineId"] == machine_id), None)
-    if existing:
-        existing["productId"] = product_id
-        _save_json(DATA_PATH, seats)
-        return {"approved": True, "reason": "existing_machine", "seat": existing}
+        # Enforce seat cap
+        if len(current_seats) >= max_seats:
+            return {
+                "approved": False,
+                "reason": "seat_limit_reached",
+                "maxSeats": max_seats,
+            }
 
-    if len(account_seats) >= max_seats:
-        return {"approved": False, "reason": "seat_limit_reached", "maxSeats": max_seats}
-
-    seat = {
-        "seatId": f"seat_{uuid.uuid4().hex[:10]}",
-        "accountId": account_id,
-        "machineId": machine_id,
-        "productId": product_id,
-        "status": "active"
-    }
-    account_seats.append(seat)
-    _save_json(DATA_PATH, seats)
-    return {"approved": True, "reason": "seat_assigned", "seat": seat}
+        # Create new seat
+        seat_id = f"seat_{uuid.uuid4().hex[:10]}"
+        conn.execute(
+            "INSERT INTO seats (seat_id, account_id, machine_id, product_id) VALUES (?, ?, ?, ?)",
+            (seat_id, account_id, machine_id, product_id),
+        )
+        seat = {
+            "seatId": seat_id,
+            "accountId": account_id,
+            "machineId": machine_id,
+            "productId": product_id,
+            "status": "active",
+        }
+        return {"approved": True, "reason": "seat_assigned", "seat": seat}
