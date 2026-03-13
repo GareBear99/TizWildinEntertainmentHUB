@@ -69,3 +69,63 @@ This package is stronger, but still not retail-complete. The biggest unfinished 
 - `/support/bundle/{account}` endpoint that packages diagnostics + backup + support snapshot into one zip
 - package cleanup: removed shipped cache folders from the deliverable
 - ARC service version advanced to 1.2.0
+
+# TizWildinEntertainment HUB
+
+Universal launcher and update manager for the TizWildin audio plugin ecosystem.
+
+Installs, updates, and manages:
+
+• FreeEQ8
+• WhisperGate
+• PaintMask
+• WURP
+• WaveForm / RiftSynth
+• future plugins
+
+Built with a modular ARC control system inspired by the ARC intelligence system from the series Continuum.
+
+---
+
+## Features
+
+✔ Plugin installer / updater  
+✔ Seat licensing system  
+✔ Machine registration  
+✔ Artifact verification (SHA256)  
+✔ Rollback and repair  
+✔ Plugin entitlement system  
+✔ Update channels (stable / beta)  
+✔ Support diagnostics bundles  
+✔ Local demo server included  
+
+---
+
+## Ecosystem
+
+Plugins supported by the HUB:
+
+| Plugin | Type |
+|------|------|
+| FreeEQ8 | Professional EQ |
+| WhisperGate | Ritual Whisper FX |
+| PaintMask | Paint-to-MIDI generator |
+| WURP | Toxic gas modulation FX |
+| WaveForm / RiftSynth | audio-reactive synth system |
+
+---
+
+## Architecture
+
+The hub is powered by **ARC**, a control-plane service that manages:
+
+- accounts
+- entitlements
+- installs
+- machines
+- artifacts
+- diagnostics
+
+ARC was conceptually inspired by the global surveillance AI **ARC** from the TV series *Continuum*.
+
+---
