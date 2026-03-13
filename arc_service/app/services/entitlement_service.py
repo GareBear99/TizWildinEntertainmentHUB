@@ -1,21 +1,22 @@
-from pathlib import Path
-import json
-from app.services.catalog_service import load_catalog
+from app.services.store import load_entitlements
+from app.services.catalog_service import find_product
 
-DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "entitlements.mock.json"
 
-def load_entitlements():
-    return json.loads(DATA_PATH.read_text())
+def get_entitlement(account_id: str) -> dict | None:
+    return load_entitlements().get(account_id)
+
 
 def resolve_product_access(entitlement: dict, product_id: str) -> dict:
-    catalog = load_catalog()
-    product = next((p for p in catalog["products"] if p["productId"] == product_id), None)
+    product = find_product(product_id)
     if not product:
         return {"allowed": False, "reason": "unknown_product", "features": []}
 
-    license_class = product["licenseClass"]
+    license_class = product.get("licenseClass")
     if license_class in {"FREE_OPEN", "FREE_LITE"}:
-        return {"allowed": True, "reason": "free_access", "features": ["standard"]}
+        features = ["standard"]
+        if license_class == "FREE_LITE":
+            features.append("lite")
+        return {"allowed": True, "reason": "free_access", "features": features}
 
     if entitlement.get("billingState") == "payment_issue":
         return {"allowed": False, "reason": "payment_issue", "features": []}

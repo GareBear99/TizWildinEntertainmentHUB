@@ -1,0 +1,18 @@
+[
+  {
+    "timestamp": "2026-03-13T19:24:21.215045+00:00",
+    "provider": "billing_local",
+    "eventType": "checkout.completed",
+    "payload": {
+      "accountId": "acct_importer",
+      "productId": "paintmask",
+      "quantity": 1
+    },
+    "signatureVerified": true,
+    "verificationReason": "local_checkout",
+    "mutation": {
+      "mutated": true,
+      "reason": "local_checkout_complete"
+    }
+  }
+]

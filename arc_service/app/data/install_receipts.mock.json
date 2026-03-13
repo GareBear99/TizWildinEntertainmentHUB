@@ -1,0 +1,17 @@
+[
+  {
+    "receiptId": "rcpt_8b8ed0d698a9",
+    "timestamp": "2026-03-13T19:24:21.269237+00:00",
+    "accountId": "acct_importer",
+    "machineId": "mac_import",
+    "productId": "paintmask",
+    "action": "build_from_source",
+    "targetVersion": "2.0.0",
+    "artifactMode": "zip",
+    "sha256": "60ecf0754dc61f5be1d9054292ca7873ff4e4228419ef35dd974816dc2260d41",
+    "status": "executed",
+    "channel": "stable",
+    "verificationPassed": true,
+    "installedPath": "/mnt/data/hub_v10_test_installs/paintmask/2.0.0"
+  }
+]

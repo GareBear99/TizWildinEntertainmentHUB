@@ -1,7 +1,6 @@
-from pathlib import Path
-import json
+from app.services.store import load_catalog
 
-DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "products.catalog.json"
 
-def load_catalog():
-    return json.loads(DATA_PATH.read_text())
+def find_product(product_id: str) -> dict | None:
+    catalog = load_catalog()
+    return next((p for p in catalog.get("products", []) if p.get("productId") == product_id), None)

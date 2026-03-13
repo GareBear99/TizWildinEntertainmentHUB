@@ -1,0 +1,29 @@
+{
+  "demo_account": {
+    "machineId": "mac_demo",
+    "preferredChannel": "stable",
+    "theme": "dark",
+    "arcBaseUrl": "http://127.0.0.1:8000",
+    "installRoot": "/tmp/tizhub_installs",
+    "autoStageOnBootstrap": true,
+    "autoBackupBeforeExecute": true
+  },
+  "free_account": {
+    "machineId": "mac_free",
+    "preferredChannel": "stable",
+    "theme": "light",
+    "arcBaseUrl": "http://127.0.0.1:8000",
+    "installRoot": "/tmp/tizhub_installs",
+    "autoStageOnBootstrap": true,
+    "autoBackupBeforeExecute": false
+  },
+  "acct_importer": {
+    "machineId": "mac_local",
+    "preferredChannel": "stable",
+    "theme": "dark",
+    "arcBaseUrl": "http://127.0.0.1:8000",
+    "installRoot": "/tmp/tizhub_installs",
+    "autoStageOnBootstrap": true,
+    "autoBackupBeforeExecute": true
+  }
+}

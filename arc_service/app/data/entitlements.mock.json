@@ -16,5 +16,15 @@
     "ownedBundles": [],
     "extraSeatQuantity": 0,
     "billingState": "active"
+  },
+  "acct_importer": {
+    "accountId": "acct_importer",
+    "ownsEveryVST": false,
+    "ownedProducts": [
+      "paintmask"
+    ],
+    "ownedBundles": [],
+    "extraSeatQuantity": 0,
+    "billingState": "active"
   }
 }
