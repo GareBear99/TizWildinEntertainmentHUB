@@ -62,6 +62,8 @@ GlueMaid — glue and cohesion - https://github.com/GareBear99/GlueMaid
 - **Standalone:** ❌ No
 - **In HUB:** ✅ Yes
 
+https://github.com/GareBear99/Instrudio
+
 ---
 
 ### 🎻 Studio Violin (Flagship Instrument)
