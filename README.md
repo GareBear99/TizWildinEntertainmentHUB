@@ -30,6 +30,9 @@ All plugins are:
 - **Status:** ✅ Production Ready
 - **Standalone:** ✅ Yes
 - **In HUB:** ✅ Yes
+  
+FreeEQ8 — free parametric EQ - https://github.com/GareBear99/FreeEQ8
+
 
 ---
 
@@ -41,6 +44,13 @@ All plugins are:
 - **Status:** ⚠️ Polishing
 - **Standalone:** ✅ Yes
 - **In HUB:** ✅ Yes
+
+BassMaid — low-end enhancement - https://github.com/GareBear99/BassMaid
+
+SpaceMaid — depth and space - https://github.com/GareBear99/SpaceMaid
+
+GlueMaid — glue and cohesion - https://github.com/GareBear99/GlueMaid
+
 
 ---
 
@@ -138,4 +148,34 @@ cd TizWildinEntertainmentHUB
 
 # ⭐ Support
 
+Other Projects by Me!
+
+https://github.com/GareBear99/TizWildinEntertainmentHUB
+
+https://github.com/GareBear99/PaintMask_Free-JUCE-Plugin
+
+https://github.com/GareBear99/WURP_Toxic-Motion-Engine_JUCE
+
+https://github.com/GareBear99/RiftWaveSuite_RiftSynth_WaveForm_Lite
+
+https://github.com/GareBear99/AETHER_Choir-Atmosphere-Designer
+
+https://github.com/GareBear99/WhisperGate_Free-JUCE-Plugin
+
+https://github.com/GareBear99/Therum_JUCE-Plugin
+
+https://github.com/GareBear99/MixMaid
+
+https://github.com/GareBear99/BassMaid
+
+https://github.com/GareBear99/SpaceMaid
+
+https://github.com/GareBear99/GlueMaid
+
+Built with ❤️ by Gary Doman (GareBear99/TizWildin)
+
+"Great sound shouldn't cost anything"
+
 Star the repo ⭐
+
+
