@@ -101,7 +101,7 @@ https://github.com/GareBear99/Instrudio
 | Maid Suite | FX | ⚠️ | ✅ | ✅ |
 | Instrudio | Instrument Platform | ⚠️ | ✅ | ❌ |
 | Studio Violin | Instrument | ✅ | ✅ | ❌ |
-| RiftWave Suite | Suite Lite | ⚠️ | ❌ | ❌ |
+| RiftWave Suite | SynthSuite Lite | ⚠️ | ❌ | ❌ |
 | AETHER | Choir | ⚠️ | ❌ | ❌ |
 | XyloCore | Instrument | 🚧 | ❌ | ❌ |
 | FreeSampler | Sampler | 🚧 | ❌ | ❌ |
