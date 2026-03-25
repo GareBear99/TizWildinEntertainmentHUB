@@ -4,7 +4,13 @@
 
 <div align="center">
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=6C7BBD&center=true&vCenter=true&width=700&lines=14+Free+Audio+Plugins+%7C+VST3+%2F+AU;Live+Update+Dashboard+%7C+GitHub+Release+Checker;EQ+%E2%80%A2+Synths+%E2%80%A2+Instruments+%E2%80%A2+Effects;Great+sound+shouldn't+cost+anything." alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=6C7BBD&center=true&vCenter=true&width=840&lines=14+Free+Plugin+Versions+%2B+The+HUB;Updater+%7C+Version+Controller+%7C+Downloader;Every+plugin+has+a+free+version+on+the+HUB;Payments+and+upgrades+live+inside+each+product" alt="Typing SVG" /></a>
+
+<br>
+
+<a href="https://github.com/GareBear99/TizWildinEntertainmentHUB/releases/latest"><img src="https://img.shields.io/badge/⬇_DOWNLOAD_HUB_(macOS)-22c55e?style=for-the-badge&logo=apple&logoColor=white" alt="Download macOS" /></a>
+<a href="https://github.com/GareBear99/TizWildinEntertainmentHUB/releases/latest"><img src="https://img.shields.io/badge/⬇_DOWNLOAD_HUB_(Windows)-6c7bbd?style=for-the-badge&logo=windows&logoColor=white" alt="Download Windows" /></a>
+<a href="https://github.com/GareBear99/TizWildinEntertainmentHUB/releases/latest"><img src="https://img.shields.io/badge/⬇_DOWNLOAD_HUB_(Linux)-eab308?style=for-the-badge&logo=linux&logoColor=white" alt="Download Linux" /></a>
 
 <br>
 
@@ -25,14 +31,18 @@
 
 ## 🚀 What This Is
 
-A **unified hub** for the entire TizWildin audio plugin ecosystem:
+The HUB is its own **TizWildinEntertainment product** — a **VST3/AU plugin + Standalone app** that lives right inside your DAW (Ableton, Logic, Reaper, etc.) or runs on its own:
 
-- **🌐 Web Dashboard** — browse all plugins, check for updates, download latest releases
-- **🔄 Live Version Checker** — GitHub Releases API → 🟢 up to date · 🟡 new release · 🔴 no release yet
-- **⬇️ One-click downloads** — direct links to GitHub release assets
-- **🔁 Auto-check toggle** — persisted in localStorage
+- **🎛️ In-DAW Plugin (VST3/AU)** — load the HUB inside your DAW like any other plugin to browse, install, and update every free TizWildin plugin without leaving your session
+- **🖥️ Standalone App** — also runs as a standalone desktop app on macOS, Windows, and Linux
+- **🌐 Web Dashboard** — browse every plugin, check versions, grab free builds, or jump straight to source
+- **🔄 Version Controller** — compare local plugin versions against GitHub releases
+- **⬇️ One-Click Install / Install All** — download and install individual plugins or hit "Install All" to grab the whole ecosystem
+- **🔁 Auto-Update Toggle** — opt into automatic update checks on launch
+- **🆓 Free-version-first delivery** — every plugin on the HUB has a free version
+- **💳 Payments stay in the plugin** — optional upgrades, unlocks, or purchases happen inside each product instead of inside the HUB
 
-> No backend required. Runs entirely in the browser via GitHub Pages.
+> Available as: **VST3** · **AU** · **Standalone** — [download the latest release](https://github.com/GareBear99/TizWildinEntertainmentHUB/releases/latest)
 
 <p align="center"><img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%"></p>
 
@@ -102,8 +112,8 @@ The dashboard at **[garebear99.github.io/TizWildinEntertainmentHUB](https://gare
 
 - 🟢 **Green** — latest version, up to date
 - 🟡 **Yellow "NEW RELEASE"** — released in the last 7 days
-- 🔴 **Red "NO RELEASE YET"** — source available, no binary release
-- ⬇️ **Download buttons** — direct links to release assets
+- 🟣 **Purple "FREE SOURCE READY"** — no packaged release yet, but the free source/repo is ready
+- ⬇️ **Download buttons** — direct links to free releases or source repos
 - 🔁 **Auto-check toggle** — remembered across visits
 
 > Reads from [`plugins.json`](plugins.json) · Fetches from GitHub API (unauthenticated, 60 req/hr)
@@ -117,14 +127,19 @@ The dashboard at **[garebear99.github.io/TizWildinEntertainmentHUB](https://gare
 TizWildinEntertainmentHUB/
 ├── docs/index.html          # Web dashboard (GitHub Pages)
 ├── plugins.json             # Plugin manifest (source of truth)
-├── arc_service/             # FastAPI backend (future infrastructure)
-├── hub_app/                 # JUCE desktop app (future infrastructure)
-├── hub_scaffold/            # JUCE app scaffold
-├── plugin_bridge/           # C++ bridge for plugin communication
-├── manifests/               # Product catalog & Stripe mapping
+├── hub_app/                 # JUCE plugin (VST3/AU/Standalone)
+│   ├── Source/
+│   │   ├── HubProcessor.*   # AudioProcessor (utility, no audio)
+│   │   ├── HubEditor.h      # Plugin editor wrapping the HUB UI
+│   │   ├── TizHubMainComponent.*  # Full HUB UI
+│   │   ├── PluginManifest.h # Embedded plugin catalog
+│   │   ├── GitHubClient.*   # GitHub API release fetcher
+│   │   └── HubSettings.*    # Persistent config
+│   └── CMakeLists.txt
+├── manifests/               # Product catalog
 ├── schemas/                 # JSON schemas
-├── scripts/                 # Python utility scripts
-└── docs/                    # Architecture & quickstart docs
+├── scripts/                 # Utility scripts
+└── .github/workflows/       # CI/CD (macOS/Windows/Linux builds)
 ```
 
 </details>
@@ -133,7 +148,7 @@ TizWildinEntertainmentHUB/
 <summary>⚡ QUICK START</summary>
 
 ### Use the Dashboard (recommended)
-Visit **[garebear99.github.io/TizWildinEntertainmentHUB](https://garebear99.github.io/TizWildinEntertainmentHUB/)** → click "Check All Updates" → download plugins.
+Visit **[garebear99.github.io/TizWildinEntertainmentHUB](https://garebear99.github.io/TizWildinEntertainmentHUB/)** → click "Check All Updates" → download the free version or jump to source.
 
 ### Add a Plugin
 Edit `plugins.json` and add an entry:
@@ -156,9 +171,11 @@ The dashboard automatically picks it up and checks for releases.
 <details>
 <summary>🛣️ ROADMAP</summary>
 
-- [ ] Create GitHub releases for all plugins (currently only FreeEQ8 has releases)
-- [ ] Add CI/CD build pipelines per plugin
-- [ ] Desktop HUB app (JUCE) with local install/update capability
+- [x] HUB plugin (VST3/AU/Standalone) with in-DAW install, update, and version checking
+- [x] CI/CD build pipeline for HUB (macOS/Windows/Linux)
+- [x] Web dashboard with live GitHub release checking
+- [ ] Create packaged releases for every plugin so the HUB can offer binaries before source
+- [ ] Add CI/CD build pipelines per individual plugin
 - [ ] Plugin preset sharing via the HUB
 - [ ] Audio demos and before/after comparisons
 - [ ] Preset packs per plugin
@@ -203,7 +220,7 @@ The dashboard automatically picks it up and checks for releases.
 
 ```diff
 + Project Status: Active
-! Plugins: 14 (Free & Open Source)
+! Delivery Model: Free versions first · upgrades in product
 # Formats: VST3, AU, Standalone
 ```
 

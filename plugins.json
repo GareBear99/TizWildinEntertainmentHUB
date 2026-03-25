@@ -1,6 +1,17 @@
 {
   "owner": "GareBear99",
   "ecosystem": "TizWildin Entertainment",
+  "hub": {
+    "name": "TizWildin Entertainment HUB",
+    "productClass": "TizWildinEntertainment product",
+    "description": "Updater, version controller, and downloader for every free plugin edition in the ecosystem.",
+    "pluginPayments": "handled_inside_each_product"
+  },
+  "defaults": {
+    "freeVersionAvailable": true,
+    "paymentsHandledByProduct": true,
+    "downloadMode": "release_or_repo"
+  },
   "categories": [
     { "id": "flagship", "name": "Flagship", "icon": "🥇" },
     { "id": "instruments", "name": "Instruments", "icon": "🎹" },

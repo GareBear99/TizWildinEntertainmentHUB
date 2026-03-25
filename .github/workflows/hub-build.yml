@@ -1,0 +1,111 @@
+name: Build HUB App
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: macos-14
+            name: macOS
+            artifact: TizWildinEntertainmentHUB-macOS
+            cmake_extra: -DCMAKE_OSX_ARCHITECTURES="arm64;x86_64"
+          - os: windows-latest
+            name: Windows
+            artifact: TizWildinEntertainmentHUB-Windows
+            cmake_extra: ""
+          - os: ubuntu-latest
+            name: Linux
+            artifact: TizWildinEntertainmentHUB-Linux
+            cmake_extra: ""
+
+    runs-on: ${{ matrix.os }}
+    name: ${{ matrix.name }}
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Install Linux dependencies
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libasound2-dev libcurl4-openssl-dev libfreetype6-dev \
+            libx11-dev libxcomposite-dev libxcursor-dev libxext-dev \
+            libxinerama-dev libxrandr-dev libxrender-dev \
+            libwebkit2gtk-4.0-dev libglu1-mesa-dev mesa-common-dev
+
+      - name: Configure CMake
+        working-directory: hub_app
+        run: cmake -B build -DCMAKE_BUILD_TYPE=Release ${{ matrix.cmake_extra }}
+
+      - name: Build
+        working-directory: hub_app
+        run: cmake --build build --config Release --parallel 4
+
+      - name: Package (macOS)
+        if: runner.os == 'macOS'
+        working-directory: hub_app
+        run: |
+          APP_PATH=$(find build -name "TizWildin Entertainment HUB.app" -type d | head -1)
+          mkdir -p staging
+          cp -R "$APP_PATH" staging/
+          hdiutil create -volname "TizWildin Entertainment HUB" \
+            -srcfolder staging \
+            -ov -format UDZO \
+            "build/TizWildinEntertainmentHUB-macOS.dmg"
+
+      - name: Package (Windows)
+        if: runner.os == 'Windows'
+        working-directory: hub_app
+        shell: bash
+        run: |
+          EXE_PATH=$(find build -name "TizWildin Entertainment HUB.exe" -type f | head -1)
+          mkdir -p staging
+          cp "$EXE_PATH" staging/
+          cd staging && 7z a -tzip "../build/TizWildinEntertainmentHUB-Windows.zip" .
+
+      - name: Package (Linux)
+        if: runner.os == 'Linux'
+        working-directory: hub_app
+        run: |
+          BIN_PATH=$(find build -name "TizWildin Entertainment HUB" -type f -executable | head -1)
+          mkdir -p staging
+          cp "$BIN_PATH" staging/
+          tar -czf "build/TizWildinEntertainmentHUB-Linux.tar.gz" -C staging .
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.artifact }}
+          path: |
+            hub_app/build/*.dmg
+            hub_app/build/*.zip
+            hub_app/build/*.tar.gz
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/')
+    permissions:
+      contents: write
+
+    steps:
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: artifacts/**/*
+          generate_release_notes: true
