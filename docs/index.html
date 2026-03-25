@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TizWildin Entertainment HUB</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#0a0b12;--card:#131222;--card-border:#1e2240;--text:#e8eaf0;
+  --sub:#a0a6bc;--accent:#6c7bbd;--green:#22c55e;--yellow:#eab308;
+  --red:#ef4444;--orange:#f97316;--btn:#1e2754;--btn-hover:#2a3568;
+  --badge-free:#164e32;--badge-free-text:#4ade80;
+}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;min-height:100vh}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* Header */
+.header{padding:32px 32px 0;max-width:1280px;margin:0 auto}
+.header h1{font-size:28px;font-weight:700;letter-spacing:-0.5px}
+.header h1 span{color:var(--accent)}
+.header p{color:var(--sub);margin-top:6px;font-size:14px}
+
+/* Controls bar */
+.controls{display:flex;align-items:center;gap:12px;padding:20px 32px;max-width:1280px;margin:0 auto;flex-wrap:wrap}
+.controls button{background:var(--btn);color:var(--text);border:1px solid var(--card-border);padding:8px 18px;border-radius:8px;cursor:pointer;font-size:13px;transition:background .15s}
+.controls button:hover{background:var(--btn-hover)}
+.controls button.checking{opacity:.6;cursor:wait}
+.toggle-wrap{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--sub)}
+.toggle{width:40px;height:22px;border-radius:11px;background:#2a2d48;position:relative;cursor:pointer;transition:background .2s}
+.toggle.on{background:var(--accent)}
+.toggle::after{content:'';position:absolute;top:3px;left:3px;width:16px;height:16px;border-radius:50%;background:#fff;transition:left .2s}
+.toggle.on::after{left:21px}
+.stats{margin-left:auto;font-size:13px;color:var(--sub)}
+
+/* Category */
+.category{max-width:1280px;margin:0 auto;padding:0 32px 24px}
+.category-title{font-size:16px;font-weight:600;margin-bottom:14px;display:flex;align-items:center;gap:8px;color:var(--sub)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:14px}
+
+/* Card */
+.card{background:var(--card);border:1px solid var(--card-border);border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:10px;transition:border-color .2s}
+.card:hover{border-color:var(--accent)}
+.card-top{display:flex;justify-content:space-between;align-items:flex-start}
+.card-name{font-size:17px;font-weight:600}
+.card-badge{font-size:11px;font-weight:600;padding:3px 10px;border-radius:6px;text-transform:uppercase;letter-spacing:.5px}
+.badge-free{background:var(--badge-free);color:var(--badge-free-text)}
+.card-desc{font-size:13px;color:var(--sub);line-height:1.5}
+.card-formats{font-size:11px;color:var(--sub)}
+.card-formats span{background:#1a1d30;padding:2px 7px;border-radius:4px;margin-right:4px}
+
+/* Version row */
+.version-row{display:flex;align-items:center;gap:10px;margin-top:4px;flex-wrap:wrap}
+.version-tag{font-size:12px;padding:3px 10px;border-radius:6px;font-weight:600}
+.v-checking{background:#2a2d48;color:var(--sub)}
+.v-uptodate{background:#14352a;color:var(--green)}
+.v-newrelease{background:#422006;color:var(--yellow)}
+.v-outdated{background:#3b1010;color:var(--red)}
+.v-norelease{background:#1f1520;color:#a78bfa}
+.version-info{font-size:12px;color:var(--sub)}
+
+/* Buttons row */
+.card-actions{display:flex;gap:8px;margin-top:auto;padding-top:6px}
+.card-actions a,.card-actions button{font-size:12px;padding:6px 14px;border-radius:7px;border:1px solid var(--card-border);background:var(--btn);color:var(--text);cursor:pointer;text-decoration:none;transition:background .15s}
+.card-actions a:hover,.card-actions button:hover{background:var(--btn-hover);text-decoration:none}
+.card-actions .download-btn{background:#1b3a26;border-color:#22543d;color:var(--green)}
+.card-actions .download-btn:hover{background:#22543d}
+.card-actions .update-btn{background:#422006;border-color:#854d0e;color:var(--yellow)}
+.card-actions .update-btn:hover{background:#854d0e}
+
+/* Footer */
+.footer{text-align:center;padding:40px 32px;color:var(--sub);font-size:13px}
+
+/* Spinner */
+@keyframes spin{to{transform:rotate(360deg)}}
+.spinner{display:inline-block;width:14px;height:14px;border:2px solid var(--sub);border-top-color:transparent;border-radius:50%;animation:spin .6s linear infinite;vertical-align:middle}
+
+/* Responsive */
+@media(max-width:480px){
+  .header,.controls,.category{padding-left:16px;padding-right:16px}
+  .grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🎛️ <span>TizWildin</span> Entertainment HUB</h1>
+  <p>Free modular audio plugin ecosystem — plugins, instruments, synths, and a live update checker.</p>
+</div>
+
+<div class="controls">
+  <button id="checkAllBtn" onclick="checkAllUpdates()">⟳ Check All Updates</button>
+  <div class="toggle-wrap">
+    <div class="toggle" id="autoToggle" onclick="toggleAuto()"></div>
+    <span>Auto-check on load</span>
+  </div>
+  <div class="stats" id="stats"></div>
+</div>
+
+<div id="pluginContainer"></div>
+
+<div class="footer">
+  Built with ❤️ by Gary Doman (GareBear99 / TizWildin)<br>
+  "Great sound shouldn't cost anything" — ⭐ <a href="https://github.com/GareBear99/TizWildinEntertainmentHUB">Star the repo</a>
+</div>
+
+<script>
+const OWNER = 'GareBear99';
+const MANIFEST_URL = 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/plugins.json';
+let pluginData = [];
+let releaseCache = {};
+
+// ── Load manifest and render ──
+async function init() {
+  try {
+    const resp = await fetch(MANIFEST_URL);
+    const manifest = await resp.json();
+    pluginData = manifest.plugins;
+    render(manifest);
+    loadAutoToggle();
+    if (localStorage.getItem('tiz_autocheck') === 'true') {
+      checkAllUpdates();
+    }
+  } catch (e) {
+    document.getElementById('pluginContainer').innerHTML =
+      '<p style="padding:32px;color:var(--red)">Failed to load plugin manifest. Check your connection.</p>';
+  }
+}
+
+// ── Render plugin cards grouped by category ──
+function render(manifest) {
+  const container = document.getElementById('pluginContainer');
+  container.innerHTML = '';
+  for (const cat of manifest.categories) {
+    const plugins = manifest.plugins.filter(p => p.category === cat.id);
+    if (!plugins.length) continue;
+    const section = document.createElement('div');
+    section.className = 'category';
+    section.innerHTML = `<div class="category-title">${cat.icon} ${cat.name}</div><div class="grid" id="grid-${cat.id}"></div>`;
+    container.appendChild(section);
+    const grid = section.querySelector('.grid');
+    for (const p of plugins) {
+      grid.appendChild(createCard(p));
+    }
+  }
+  updateStats();
+}
+
+// ── Create a single plugin card ──
+function createCard(plugin) {
+  const card = document.createElement('div');
+  card.className = 'card';
+  card.id = `card-${plugin.id}`;
+  const statusEmoji = plugin.status === 'production' ? '✅' : plugin.status === 'beta' ? '⚠️' : '🚧';
+  const formats = plugin.formats.map(f => `<span>${f}</span>`).join('');
+  card.innerHTML = `
+    <div class="card-top">
+      <div class="card-name">${statusEmoji} ${plugin.name}</div>
+      <div class="card-badge badge-free">${plugin.license}</div>
+    </div>
+    <div class="card-desc">${plugin.description}</div>
+    <div class="card-formats">${formats}</div>
+    <div class="version-row" id="version-${plugin.id}">
+      <span class="version-tag v-checking"><span class="spinner"></span> Waiting…</span>
+    </div>
+    <div class="card-actions">
+      <a href="https://github.com/${OWNER}/${plugin.repo}" target="_blank">📂 View Repo</a>
+      <span id="actions-${plugin.id}"></span>
+    </div>
+  `;
+  return card;
+}
+
+// ── Check updates for all plugins ──
+async function checkAllUpdates() {
+  const btn = document.getElementById('checkAllBtn');
+  btn.classList.add('checking');
+  btn.textContent = '⟳ Checking…';
+  const promises = pluginData.map(p => checkPlugin(p));
+  await Promise.allSettled(promises);
+  btn.classList.remove('checking');
+  btn.textContent = '⟳ Check All Updates';
+  updateStats();
+}
+
+// ── Check a single plugin against GitHub releases ──
+async function checkPlugin(plugin) {
+  const versionEl = document.getElementById(`version-${plugin.id}`);
+  const actionsEl = document.getElementById(`actions-${plugin.id}`);
+  versionEl.innerHTML = '<span class="version-tag v-checking"><span class="spinner"></span> Checking…</span>';
+  try {
+    const resp = await fetch(`https://api.github.com/repos/${OWNER}/${plugin.repo}/releases/latest`);
+    if (resp.status === 404) {
+      // No releases yet
+      releaseCache[plugin.id] = null;
+      versionEl.innerHTML = '<span class="version-tag v-norelease">🔴 NO RELEASE YET</span><span class="version-info">Source code available on GitHub</span>';
+      actionsEl.innerHTML = '';
+      return;
+    }
+    const release = await resp.json();
+    releaseCache[plugin.id] = release;
+    const tag = release.tag_name;
+    const version = tag.replace(/^v/, '');
+    const published = new Date(release.published_at);
+    const daysAgo = Math.floor((Date.now() - published) / 86400000);
+    const timeText = daysAgo === 0 ? 'today' : daysAgo === 1 ? 'yesterday' : `${daysAgo}d ago`;
+    // Check if this is a recent release (within 7 days)
+    const isNew = daysAgo <= 7;
+    if (isNew) {
+      versionEl.innerHTML = `
+        <span class="version-tag v-newrelease">🟡 NEW RELEASE</span>
+        <span class="version-info">${tag} — released ${timeText}</span>
+      `;
+      actionsEl.innerHTML = `<a class="update-btn" href="${release.html_url}" target="_blank">⬇ Download ${tag}</a>`;
+    } else {
+      versionEl.innerHTML = `
+        <span class="version-tag v-uptodate">🟢 ${tag}</span>
+        <span class="version-info">Released ${timeText}</span>
+      `;
+      // Check for assets
+      if (release.assets && release.assets.length > 0) {
+        actionsEl.innerHTML = `<a class="download-btn" href="${release.assets[0].browser_download_url}" target="_blank">⬇ Download</a>`;
+      } else {
+        actionsEl.innerHTML = `<a class="download-btn" href="${release.html_url}" target="_blank">⬇ Download ${tag}</a>`;
+      }
+    }
+  } catch (e) {
+    versionEl.innerHTML = '<span class="version-tag v-outdated">⚠ CHECK FAILED</span><span class="version-info">Could not reach GitHub API</span>';
+    actionsEl.innerHTML = '';
+  }
+}
+
+// ── Stats bar ──
+function updateStats() {
+  const total = pluginData.length;
+  const withRelease = Object.values(releaseCache).filter(v => v !== null && v !== undefined).length;
+  const noRelease = Object.values(releaseCache).filter(v => v === null).length;
+  const newReleases = Object.values(releaseCache).filter(v => {
+    if (!v) return false;
+    const days = Math.floor((Date.now() - new Date(v.published_at)) / 86400000);
+    return days <= 7;
+  }).length;
+  const checked = Object.keys(releaseCache).length;
+  let text = `${total} plugins`;
+  if (checked > 0) {
+    text += ` · ${withRelease} with releases · ${noRelease} pending · ${newReleases} new`;
+  }
+  document.getElementById('stats').textContent = text;
+}
+
+// ── Auto-check toggle ──
+function toggleAuto() {
+  const el = document.getElementById('autoToggle');
+  const current = localStorage.getItem('tiz_autocheck') === 'true';
+  localStorage.setItem('tiz_autocheck', !current);
+  el.classList.toggle('on', !current);
+}
+function loadAutoToggle() {
+  const on = localStorage.getItem('tiz_autocheck') === 'true';
+  document.getElementById('autoToggle').classList.toggle('on', on);
+}
+
+// ── Boot ──
+init();
+</script>
+</body>
+</html>

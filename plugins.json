@@ -1,0 +1,132 @@
+{
+  "owner": "GareBear99",
+  "ecosystem": "TizWildin Entertainment",
+  "categories": [
+    { "id": "flagship", "name": "Flagship Plugins", "icon": "🥇" },
+    { "id": "maid_suite", "name": "Maid Suite", "icon": "🧹" },
+    { "id": "sound_design", "name": "Sound Design", "icon": "🔊" },
+    { "id": "experimental", "name": "Experimental", "icon": "🧪" }
+  ],
+  "plugins": [
+    {
+      "id": "freeeq8",
+      "name": "FreeEQ8",
+      "description": "Free open-source 8-band parametric EQ with dynamic EQ, linear phase, match EQ, per-band drive, M/S, oversampling, and spectrum analyzer.",
+      "category": "flagship",
+      "repo": "FreeEQ8",
+      "license": "FREE",
+      "formats": ["VST3", "AU"],
+      "status": "production"
+    },
+    {
+      "id": "paintmask",
+      "name": "PaintMask",
+      "description": "Visual paint-based audio processing — shape sound with brush strokes, splashes, and geometry that become MIDI patterns.",
+      "category": "flagship",
+      "repo": "PaintMask_Free-JUCE-Plugin",
+      "license": "FREE",
+      "formats": ["VST3", "AU"],
+      "status": "production"
+    },
+    {
+      "id": "wurp",
+      "name": "WURP",
+      "description": "Toxic Motion Engine — mutates audio with formant motion, corrosive saturation, elastic pitch, and reactive animated UI.",
+      "category": "flagship",
+      "repo": "WURP_Toxic-Motion-Engine_JUCE",
+      "license": "FREE",
+      "formats": ["VST3", "AU"],
+      "status": "production"
+    },
+    {
+      "id": "aether",
+      "name": "AETHER",
+      "description": "Choir & atmosphere designer for cinematic sound design — procedural choirs, pads, and evolving textures.",
+      "category": "flagship",
+      "repo": "AETHER_Choir-Atmosphere-Designer",
+      "license": "FREE",
+      "formats": ["VST3", "AU"],
+      "status": "beta"
+    },
+    {
+      "id": "whispergate",
+      "name": "WhisperGate",
+      "description": "Procedural whispers, ghost choirs, and ritual atmospheres through an interactive geometry interface.",
+      "category": "flagship",
+      "repo": "WhisperGate_Free-JUCE-Plugin",
+      "license": "FREE",
+      "formats": ["VST3", "AU"],
+      "status": "production"
+    },
+    {
+      "id": "therum",
+      "name": "Therum",
+      "description": "Bootleg Serum — free wavetable synthesizer with visual waveform editing and modulation.",
+      "category": "flagship",
+      "repo": "Therum_JUCE-Plugin",
+      "license": "FREE",
+      "formats": ["VST3", "AU"],
+      "status": "production"
+    },
+    {
+      "id": "bassmaid",
+      "name": "BassMaid",
+      "description": "Bass enhancement and low-end processing toolkit.",
+      "category": "maid_suite",
+      "repo": "BassMaid",
+      "license": "FREE",
+      "formats": ["VST3", "AU"],
+      "status": "production"
+    },
+    {
+      "id": "spacemaid",
+      "name": "SpaceMaid",
+      "description": "Spatial audio processing — depth, width, and reverb tools.",
+      "category": "maid_suite",
+      "repo": "SpaceMaid",
+      "license": "FREE",
+      "formats": ["VST3", "AU"],
+      "status": "production"
+    },
+    {
+      "id": "gluemaid",
+      "name": "GlueMaid",
+      "description": "Mix bus glue and cohesion tool — compression and tonal shaping.",
+      "category": "maid_suite",
+      "repo": "GlueMaid",
+      "license": "FREE",
+      "formats": ["VST3", "AU"],
+      "status": "production"
+    },
+    {
+      "id": "mixmaid",
+      "name": "MixMaid",
+      "description": "All-in-one mixing utility toolkit.",
+      "category": "maid_suite",
+      "repo": "MixMaid",
+      "license": "FREE",
+      "formats": ["VST3", "AU"],
+      "status": "production"
+    },
+    {
+      "id": "riftwavesuite",
+      "name": "RiftWave Suite",
+      "description": "Modular synth engine + waveform synthesis — RiftSynth + WaveForm in Lite and Pro editions.",
+      "category": "sound_design",
+      "repo": "RiftWaveSuite_RiftSynth_WaveForm_Lite",
+      "license": "FREE",
+      "formats": ["VST3", "AU"],
+      "status": "beta"
+    },
+    {
+      "id": "freesampler",
+      "name": "FreeSampler",
+      "description": "Lightweight high-performance audio sampler plugin.",
+      "category": "experimental",
+      "repo": "FreeSampler_v0.3",
+      "license": "FREE",
+      "formats": ["VST3", "AU"],
+      "status": "dev"
+    }
+  ]
+}

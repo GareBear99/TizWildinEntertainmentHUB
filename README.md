@@ -1,183 +1,131 @@
-# 🎛️ TizWildinEntertainment HUB
-### The Free Modular Audio Ecosystem (Plugins • Instruments • Synths • Updater)
+# 🎛️ TizWildin Entertainment HUB
 
-> A unified, free-first audio plugin ecosystem with a single-source-of-truth updater, hybrid HTML/plugin instruments, and production-ready mixing tools.
+### The Free Modular Audio Plugin Ecosystem
 
----
+> 12 free audio plugins — EQ, synths, instruments, effects — with a live update dashboard that checks GitHub releases in real time.
 
-# 🚀 What This Is
-
-TizWildinEntertainment HUB is a **launcher + update system** that manages a growing suite of:
-
-- 🎛️ Mixing plugins
-- 🎹 Interactive instruments
-- 🔊 Synth / sound design tools
-- 🧠 Experimental audio systems
-
-All plugins are:
-- Free-first
-- Modular
-- Continuously updated via the HUB
+**🌐 [Open the Dashboard](https://garebear99.github.io/TizWildinEntertainmentHUB/)**
 
 ---
 
-# 🧩 Ecosystem Overview
+## 🚀 What This Is
 
-## 🎛️ Mixing & FX
+A unified hub for the entire TizWildin plugin ecosystem:
 
-### 🥇 FreeEQ8 (Flagship)
-- **Type:** Parametric EQ
-- **Status:** ✅ Production Ready
-- **Standalone:** ✅ Yes
-- **In HUB:** ✅ Yes
-  
-FreeEQ8 — free parametric EQ - https://github.com/GareBear99/FreeEQ8
+- **Web Dashboard** — browse all plugins, check for updates, download latest releases
+- **Live Version Checker** — hits GitHub Releases API to show 🟢 up to date, 🟡 new release, or 🔴 no release yet
+- **Auto-check toggle** — enable auto-check on page load
+- **One-click downloads** — direct links to GitHub release assets
 
+No backend required. Runs entirely in the browser via GitHub Pages.
 
 ---
 
-### 🧹 Maid Suite (Pro FX Bundle)
-- BassMaid (Low-end)
-- SpaceMaid (Reverb/Space)
-- GlueMaid (Compression)
+## 🧩 Plugin Ecosystem
 
-- **Status:** ⚠️ Polishing
-- **Standalone:** ✅ Yes
-- **In HUB:** ✅ Yes
+### 🥇 Flagship Plugins
 
-BassMaid — low-end enhancement - https://github.com/GareBear99/BassMaid
+| Plugin | Description | Status |
+|--------|-------------|--------|
+| [**FreeEQ8**](https://github.com/GareBear99/FreeEQ8) | 8-band parametric EQ — dynamic EQ, linear phase, match EQ, M/S, spectrum analyzer | ✅ Production |
+| [**PaintMask**](https://github.com/GareBear99/PaintMask_Free-JUCE-Plugin) | Visual paint-based audio processing — shape sound with brush strokes | ✅ Production |
+| [**WURP**](https://github.com/GareBear99/WURP_Toxic-Motion-Engine_JUCE) | Toxic Motion Engine — formant motion, corrosive saturation, elastic pitch | ✅ Production |
+| [**AETHER**](https://github.com/GareBear99/AETHER_Choir-Atmosphere-Designer) | Choir & atmosphere designer for cinematic sound | ⚠️ Beta |
+| [**WhisperGate**](https://github.com/GareBear99/WhisperGate_Free-JUCE-Plugin) | Procedural whispers and ritual atmospheres via geometry | ✅ Production |
+| [**Therum**](https://github.com/GareBear99/Therum_JUCE-Plugin) | Bootleg Serum — free wavetable synth | ✅ Production |
 
-SpaceMaid — depth and space - https://github.com/GareBear99/SpaceMaid
+### 🧹 Maid Suite
 
-GlueMaid — glue and cohesion - https://github.com/GareBear99/GlueMaid
+| Plugin | Description | Status |
+|--------|-------------|--------|
+| [**BassMaid**](https://github.com/GareBear99/BassMaid) | Bass enhancement and low-end processing | ✅ Production |
+| [**SpaceMaid**](https://github.com/GareBear99/SpaceMaid) | Spatial audio — depth, width, reverb | ✅ Production |
+| [**GlueMaid**](https://github.com/GareBear99/GlueMaid) | Mix bus glue and cohesion | ✅ Production |
+| [**MixMaid**](https://github.com/GareBear99/MixMaid) | All-in-one mixing utility toolkit | ✅ Production |
 
+### 🔊 Sound Design & Experimental
 
----
-
-## 🎹 Instruments (Instrudio Platform)
-
-### 🎼 Instrudio (Instrument Engine)
-- **Type:** Instrument platform
-- **Status:** ⚠️ Beta
-- **Standalone:** ❌ No
-- **In HUB:** ✅ Yes
-
-https://github.com/GareBear99/Instrudio
-
----
-
-### 🎻 Studio Violin (Flagship Instrument)
-- **Status:** ✅ Most Polished
-
-### 🎹 Studio Grand  
-### 🎵 Celestial Harp  
-### 🥁 Bongos  
-
-### 🎷 Saxophone — 🚧 Dev  
-### 🪗 Accordion — 🚧 Dev  
-### 🔺 Advanced Triangle — 🚧 Experimental  
+| Plugin | Description | Status |
+|--------|-------------|--------|
+| [**RiftWave Suite**](https://github.com/GareBear99/RiftWaveSuite_RiftSynth_WaveForm_Lite) | Modular synth + waveform synthesis | ⚠️ Beta |
+| [**FreeSampler**](https://github.com/GareBear99/FreeSampler_v0.3) | Lightweight audio sampler plugin | 🚧 Dev |
 
 ---
 
-## 🔊 Sound Design
+## 🌐 Dashboard
 
-### 🌊 RiftSynth / WaveForm — ⚠️ Advanced  
-### 🌌 AETHER (Choir Plugin) — ⚠️ Pre-Release  
+The web dashboard at **[garebear99.github.io/TizWildinEntertainmentHUB](https://garebear99.github.io/TizWildinEntertainmentHUB/)** provides:
 
----
+- **Plugin cards** grouped by category with descriptions and format badges
+- **Live version status** per plugin:
+  - 🟢 **Green** — latest release tag and age
+  - 🟡 **Yellow "NEW RELEASE"** — released within the last 7 days
+  - 🔴 **Red "NO RELEASE YET"** — source available but no binary release
+- **Download buttons** — links directly to GitHub release assets
+- **Auto-check toggle** — remembered in localStorage
 
-## 🧪 Experimental
-
-### 🎼 XyloCore — 🚧 Dev  
-### 🎛️ FreeSampler — 🚧 Dev  
-
----
-
-# 📊 Plugin Matrix
-
-| Plugin | Type | Status | In HUB | Standalone |
-|------|------|--------|--------|-----------|
-| FreeEQ8 | EQ | ✅ | ✅ | ✅ |
-| Maid Suite | FX | ⚠️ | ✅ | ✅ |
-| Instrudio | Instrument Platform | ⚠️ | ✅ | ❌ |
-| Studio Violin | Instrument | ✅ | ✅ | ❌ |
-| RiftWave Suite | SynthSuite Lite | ⚠️ | ❌ | ❌ |
-| AETHER | Choir | ⚠️ | ❌ | ❌ |
-| XyloCore | Instrument | 🚧 | ❌ | ❌ |
-| FreeSampler | Sampler | 🚧 | ❌ | ❌ |
+The dashboard reads from [`plugins.json`](plugins.json) and fetches release data from the GitHub API (unauthenticated, 60 requests/hour).
 
 ---
 
-# ⚙️ Quick Start
+## 📁 Repository Structure
 
-```bash
-git clone https://github.com/GareBear99/TizWildinEntertainmentHUB
-cd TizWildinEntertainmentHUB
+```
+TizWildinEntertainmentHUB/
+├── docs/index.html          # Web dashboard (GitHub Pages)
+├── plugins.json             # Plugin manifest (source of truth)
+├── arc_service/             # FastAPI backend (future infrastructure)
+├── hub_app/                 # JUCE desktop app (future infrastructure)
+├── hub_scaffold/            # JUCE app scaffold
+├── plugin_bridge/           # C++ bridge for plugin communication
+├── manifests/               # Product catalog & Stripe mapping
+├── schemas/                 # JSON schemas
+├── scripts/                 # Python utility scripts
+└── docs/                    # Architecture & quickstart docs
 ```
 
-1. Launch HUB  
-2. Install FreeEQ8  
-3. Open Instrudio  
-4. Play instruments  
+---
+
+## ⚡ Quick Start
+
+### Use the Dashboard (recommended)
+Visit **[garebear99.github.io/TizWildinEntertainmentHUB](https://garebear99.github.io/TizWildinEntertainmentHUB/)** → click "Check All Updates" → download plugins.
+
+### Add a Plugin
+Edit `plugins.json` and add an entry:
+```json
+{
+  "id": "myplugin",
+  "name": "MyPlugin",
+  "description": "What it does.",
+  "category": "flagship",
+  "repo": "MyPlugin-Repo-Name",
+  "license": "FREE",
+  "formats": ["VST3", "AU"],
+  "status": "production"
+}
+```
+The dashboard will automatically pick it up and check for releases.
 
 ---
 
-# 🧭 Status
+## 🛣️ Roadmap
 
-- ✅ Core working  
-- ⚠️ Some plugins polishing  
-- 🚧 Full release pending  
-
----
-
-# 🔥 Why This Is Different
-
-- Hybrid HTML + plugin instruments  
-- Free-first ecosystem  
-- Single-source updates  
-- Modular architecture  
+- [ ] Create GitHub releases for all plugins (currently only FreeEQ8 has releases)
+- [ ] Add CI/CD build pipelines per plugin
+- [ ] Desktop HUB app (JUCE) with local install/update capability
+- [ ] Plugin preset sharing via the HUB
 
 ---
 
-# 🛣️ Roadmap
+## ⭐ Support
 
-- Finish Instrudio instruments  
-- Polish Maid Suite  
-- Integrate RiftSynth  
-- Add sheet parsing  
+All plugins are **free**. Star the repos you use:
 
----
+- [TizWildinEntertainmentHUB](https://github.com/GareBear99/TizWildinEntertainmentHUB) — this repo
+- [FreeEQ8](https://github.com/GareBear99/FreeEQ8) — flagship EQ
+- [awesome-audio-plugins-dev](https://github.com/GareBear99/awesome-audio-plugins-dev) — curated list of 50+ free audio tools
 
-# ⭐ Support
+Built with ❤️ by Gary Doman (GareBear99 / TizWildin)
 
-Other Projects by Me!
-
-https://github.com/GareBear99/TizWildinEntertainmentHUB
-
-https://github.com/GareBear99/PaintMask_Free-JUCE-Plugin
-
-https://github.com/GareBear99/WURP_Toxic-Motion-Engine_JUCE
-
-https://github.com/GareBear99/RiftWaveSuite_RiftSynth_WaveForm_Lite
-
-https://github.com/GareBear99/AETHER_Choir-Atmosphere-Designer
-
-https://github.com/GareBear99/WhisperGate_Free-JUCE-Plugin
-
-https://github.com/GareBear99/Therum_JUCE-Plugin
-
-https://github.com/GareBear99/MixMaid
-
-https://github.com/GareBear99/BassMaid
-
-https://github.com/GareBear99/SpaceMaid
-
-https://github.com/GareBear99/GlueMaid
-
-Built with ❤️ by Gary Doman (GareBear99/TizWildin)
-
-"Great sound shouldn't cost anything"
-
-Star the repo ⭐
-
-
+*"Great sound shouldn't cost anything."*
