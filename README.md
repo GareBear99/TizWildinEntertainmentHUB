@@ -229,7 +229,7 @@ Explore the full plugin and resource list: [**Awesome Audio Plugins & Dev**](htt
 
 ### 🔗 More from TizWildin
 
-<a href="https://github.com/GareBear99/awesome-audio-plugins-dev"><img src="https://img.shields.io/badge/Awesome_Audio_Plugins-50%2B_Free_Tools-6c7bbd?style=for-the-badge&logo=github&logoColor=white" alt="Awesome List" /></a>
+<a href="https://github.com/GareBear99/awesome-audio-plugins-dev"><img src="https://img.shields.io/badge/Awesome_Audio_Plugins-200%2B_Free_Tools-6c7bbd?style=for-the-badge&logo=github&logoColor=white" alt="Awesome List" /></a>
 
 <br><br>
 
