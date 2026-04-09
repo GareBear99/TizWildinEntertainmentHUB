@@ -196,6 +196,21 @@ The dashboard automatically picks it up and checks for releases.
 
 <div align="center">
 
+## 🔗 Free Sound Packs from TizWildin
+
+| Pack | Description |
+|------|-------------|
+| [**Free 808 Producer Kit**](https://github.com/GareBear99/Free-808-Producer-Kit) | 94 hand-crafted 808 bass samples tuned to every chromatic key |
+| [**Free Riser Producer Kit**](https://github.com/GareBear99/Free-Riser-Producer-Kit) | 115+ risers and 63 downlifters — noise, synth, drum, FX, cinematic |
+| [**Phonk Producer Toolkit**](https://github.com/GareBear99/Phonk_Producer_Toolkit) | Drift phonk starter kit — 808s, cowbells, drums, MIDI, templates |
+| [**Free Future Bass Producer Kit**](https://github.com/GareBear99/Free-Future-Bass-Producer-Kit) | Loops, fills, drums, bass, synths, pads, and FX |
+| [**Free Dark Piano Sound Kit**](https://github.com/GareBear99/Free-Dark-Piano-Sound-Kit) | 88 piano notes + dark/cinematic loops and MIDI |
+
+
+Explore the full plugin and resource list: [**Awesome Audio Plugins & Dev**](https://github.com/GareBear99/awesome-audio-plugins-dev)
+
+---
+
 ### 💫 Thanks to our supporters
 
 <a href="https://github.com/GareBear99/TizWildinEntertainmentHUB/stargazers">
