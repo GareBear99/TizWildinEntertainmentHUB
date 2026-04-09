@@ -209,7 +209,7 @@ The dashboard automatically picks it up and checks for releases.
 
 Explore the full plugin and resource list: [**Awesome Audio Plugins & Dev**](https://github.com/GareBear99/awesome-audio-plugins-dev)
 
----
+<p align="center"><img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%"></p>
 
 ### 💫 Thanks to our supporters
 
