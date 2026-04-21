@@ -51,7 +51,7 @@ The HUB is its own **TizWildinEntertainment product** — a **VST3/AU plugin + S
 | Plugin | Description | Status |
 |--------|-------------|--------|
 | [**FreeEQ8**](https://github.com/GareBear99/FreeEQ8) | 8-band parametric EQ — dynamic EQ, linear phase, match EQ, M/S, spectrum analyzer | ✅ Production |
-| [**PaintMask**](https://github.com/GareBear99/PaintMask_Free-JUCE-Plugin) | Visual paint-based audio processing — brush strokes become MIDI patterns | ✅ Production |
+| [**PaintMask**](https://github.com/GareBear99/PaintMask_Free-JUCE-Plugin) | Visual paint-based audio processing — brush strokes become MIDI patterns | ⚠️ Beta |
 | [**WURP**](https://github.com/GareBear99/WURP_Toxic-Motion-Engine_JUCE) | Toxic Motion Engine — formant motion, corrosive saturation, elastic pitch | ✅ Production |
 | [**AETHER**](https://github.com/GareBear99/AETHER_Choir-Atmosphere-Designer) | Choir & atmosphere designer — procedural choirs, pads, evolving textures | ⚠️ Beta |
 | [**WhisperGate**](https://github.com/GareBear99/WhisperGate_Free-JUCE-Plugin) | Procedural whispers and ritual atmospheres via interactive geometry | ✅ Production |
