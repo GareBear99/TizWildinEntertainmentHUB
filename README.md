@@ -29,6 +29,30 @@
 
 <p align="center"><img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%"></p>
 
+## 🔐 Built on ARC-Core
+
+> The HUB's authority, entitlement, and release-polling backbone is **[ARC-Core](https://github.com/GareBear99/ARC-Core)** — the deterministic event / receipt / authority kernel used across the whole ARC ecosystem.
+
+| HUB capability | ARC-Core pattern |
+|---|---|
+| Plugin entitlements & license state | Signed receipts — every activation/deactivation is an event, not a mutable row |
+| Seat assignment + transfer | Authority-gated mutations with full audit trail |
+| Stripe billing reconciliation | Webhook events ingested into the ARC-Core event chain; disputes resolved by replay |
+| GitHub release polling | New releases are events; update-eligibility derived by replaying release chain vs entitlement chain |
+| Activation check (machine fingerprint + session) | ARC-Core's authority primitive applied to plugin activation |
+| Support tickets | Case-management pattern (events attached to the case) |
+| Version controller (local vs release) | Event-sourced diff against the canonical release log |
+
+Because the HUB inherits ARC-Core's discipline, every entitlement, activation, update, and billing transaction is **replayable**, **tamper-evident**, and **SHA-256 addressable**.
+
+Related ARC repos:
+
+- [ARC-Core](https://github.com/GareBear99/ARC-Core) — authority / event / receipt kernel *(backbone of this HUB)*
+- [Arc-RAR](https://github.com/GareBear99/Arc-RAR) — archive / rollback bundles (future: per-plugin entitlement snapshots)
+- [ARC-Neuron-LLMBuilder](https://github.com/GareBear99/ARC-Neuron-LLMBuilder) — governed AI build loop (same author, same doctrine)
+
+<p align="center"><img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%"></p>
+
 ## 🚀 What This Is
 
 The HUB is its own **TizWildinEntertainment product** — a **VST3/AU plugin + Standalone app** that lives right inside your DAW (Ableton, Logic, Reaper, etc.) or runs on its own:
