@@ -90,6 +90,7 @@ The HUB is its own **TizWildinEntertainment product** — a **VST3/AU plugin + S
 | Plugin | Description | Status |
 |--------|-------------|--------|
 | [**Instrudio**](https://github.com/GareBear99/Instrudio) | 10 fully playable instruments — cross-platform instrument ecosystem | ⚠️ Beta |
+| [**XyloCore**](https://github.com/GareBear99/XyloCore) | Playable xylophone / tuned-percussion instrument with velocity-mapped samples | ⚠️ Beta |
 
 ## 🧹 Maid Suite
 
@@ -116,6 +117,8 @@ The HUB is its own **TizWildinEntertainment product** — a **VST3/AU plugin + S
 | [**AETHER**](https://github.com/GareBear99/AETHER_Choir-Atmosphere-Designer) | Choir & atmosphere designer — procedural choirs, pads, evolving textures | ⚠️ Beta |
 | [**WhisperGate**](https://github.com/GareBear99/WhisperGate_Free-JUCE-Plugin) | Procedural whispers and ritual atmospheres via interactive geometry | ✅ Production |
 | [**FreeSampler**](https://github.com/GareBear99/FreeSampler_v0.3) | Lightweight audio sampler plugin | 🚧 Dev |
+| [**VF-PlexLab**](https://github.com/GareBear99/VF-PlexLab) | VocalForge PersonaPlex Lab — JUCE plugin + backend + HTML tester for voice-conditioned vocal asset generation | 🚧 Dev |
+| [**PAP-Forge-Audio**](https://github.com/GareBear99/PAP-Forge-Audio) | Procedural Autonomous Plugins runtime for generating and validating plugin projects from natural-language sound intent | 🚧 Dev |
 
 <p align="center"><img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%"></p>
 

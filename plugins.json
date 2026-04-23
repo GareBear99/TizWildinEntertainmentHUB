@@ -41,6 +41,16 @@
       "status": "beta"
     },
     {
+      "id": "xylocore",
+      "name": "XyloCore",
+      "description": "Playable xylophone / tuned-percussion instrument with velocity-mapped samples and keyboard control.",
+      "category": "instruments",
+      "repo": "XyloCore",
+      "license": "FREE",
+      "formats": ["VST3", "AU"],
+      "status": "beta"
+    },
+    {
       "id": "bassmaid",
       "name": "BassMaid",
       "description": "Bass enhancement and low-end processing toolkit.",
@@ -156,6 +166,26 @@
       "description": "Lightweight high-performance audio sampler plugin.",
       "category": "experimental",
       "repo": "FreeSampler_v0.3",
+      "license": "FREE",
+      "formats": ["VST3", "AU"],
+      "status": "dev"
+    },
+    {
+      "id": "vf_plexlab",
+      "name": "VF-PlexLab",
+      "description": "VocalForge PersonaPlex Lab — JUCE plugin + local backend + HTML tester around NVIDIA PersonaPlex for voice-conditioned vocal asset generation, spoken hooks, whispers, chants, and sample-pack export.",
+      "category": "experimental",
+      "repo": "VF-PlexLab",
+      "license": "FREE",
+      "formats": ["VST3", "AU"],
+      "status": "dev"
+    },
+    {
+      "id": "pap_forge_audio",
+      "name": "PAP-Forge-Audio",
+      "description": "Procedural Autonomous Plugins runtime for generating, branching, mutating, validating, and restoring plugin projects from natural-language sound intent.",
+      "category": "experimental",
+      "repo": "PAP-Forge-Audio",
       "license": "FREE",
       "formats": ["VST3", "AU"],
       "status": "dev"
