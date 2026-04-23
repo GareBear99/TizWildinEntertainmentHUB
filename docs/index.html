@@ -157,10 +157,16 @@ function switchScreen(name) {
   document.getElementById('screen-' + name).classList.add('active');
 }
 
+// ── Cache-busted fetch so manifest updates propagate without hard refresh ──
+function fetchNoCache(url) {
+  const sep = url.includes('?') ? '&' : '?';
+  return fetch(`${url}${sep}t=${Date.now()}`, { cache: 'no-store' });
+}
+
 // ── Load manifests and render both screens ──
 async function init() {
   try {
-    const resp = await fetch(MANIFEST_URL);
+    const resp = await fetchNoCache(MANIFEST_URL);
     const manifest = await resp.json();
     pluginData = manifest.plugins;
     render(manifest);
@@ -173,7 +179,7 @@ async function init() {
       '<p style="padding:32px;color:var(--red)">Failed to load plugin manifest. Check your connection.</p>';
   }
   try {
-    const respP = await fetch(PACKS_URL);
+    const respP = await fetchNoCache(PACKS_URL);
     const packsManifest = await respP.json();
     packData = packsManifest.packs;
     renderPacks(packsManifest);
