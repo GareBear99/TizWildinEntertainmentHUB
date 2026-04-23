@@ -83,10 +83,6 @@ The HUB is its own **TizWildinEntertainment product** — a **VST3/AU plugin + S
 | Plugin | Description | Status |
 |--------|-------------|--------|
 | [**FreeEQ8**](https://github.com/GareBear99/FreeEQ8) | 8-band parametric EQ — dynamic EQ, linear phase, match EQ, M/S, spectrum analyzer | ✅ Production |
-| [**PaintMask**](https://github.com/GareBear99/PaintMask_Free-JUCE-Plugin) | Visual paint-based audio processing — brush strokes become MIDI patterns | ⚠️ Beta |
-| [**WURP**](https://github.com/GareBear99/WURP_Toxic-Motion-Engine_JUCE) | Toxic Motion Engine — formant motion, corrosive saturation, elastic pitch | ✅ Production |
-| [**AETHER**](https://github.com/GareBear99/AETHER_Choir-Atmosphere-Designer) | Choir & atmosphere designer — procedural choirs, pads, evolving textures | ⚠️ Beta |
-| [**WhisperGate**](https://github.com/GareBear99/WhisperGate_Free-JUCE-Plugin) | Procedural whispers and ritual atmospheres via interactive geometry | ✅ Production |
 | [**Therum**](https://github.com/GareBear99/Therum_JUCE-Plugin) | Bootleg Serum — free wavetable synth | ✅ Production |
 
 ## 🎹 Instruments
@@ -105,11 +101,20 @@ The HUB is its own **TizWildinEntertainment product** — a **VST3/AU plugin + S
 | [**MixMaid**](https://github.com/GareBear99/MixMaid) | Spectral balance and mix correction | ✅ Production |
 | [**ChainMaid**](https://github.com/GareBear99/ChainMaid) | Sidechain ducking and pumping effects | ✅ Production |
 
-## 🔊 Sound Design & Experimental
+## 🔊 Sound Design
 
 | Plugin | Description | Status |
 |--------|-------------|--------|
 | [**RiftWave Suite**](https://github.com/GareBear99/RiftWaveSuite_RiftSynth_WaveForm_Lite) | Modular synth + waveform synthesis | ⚠️ Beta |
+
+## 🧪 Experimental
+
+| Plugin | Description | Status |
+|--------|-------------|--------|
+| [**PaintMask**](https://github.com/GareBear99/PaintMask_Free-JUCE-Plugin) | Visual paint-based audio processing — brush strokes become MIDI patterns | ⚠️ Beta |
+| [**WURP**](https://github.com/GareBear99/WURP_Toxic-Motion-Engine_JUCE) | Toxic Motion Engine — formant motion, corrosive saturation, elastic pitch | ✅ Production |
+| [**AETHER**](https://github.com/GareBear99/AETHER_Choir-Atmosphere-Designer) | Choir & atmosphere designer — procedural choirs, pads, evolving textures | ⚠️ Beta |
+| [**WhisperGate**](https://github.com/GareBear99/WhisperGate_Free-JUCE-Plugin) | Procedural whispers and ritual atmospheres via interactive geometry | ✅ Production |
 | [**FreeSampler**](https://github.com/GareBear99/FreeSampler_v0.3) | Lightweight audio sampler plugin | 🚧 Dev |
 
 <p align="center"><img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%"></p>
@@ -269,26 +274,6 @@ Built with ❤️ by **Gary Doman** (GareBear99 / TizWildin)
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0a0b12,50:1e2754,100:6c7bbd&section=footer" width="100%">
-
-## TizWildin FREE sample packs
-
-| Pack | Description |
-|------|-------------|
-| [**TizWildin-Aurora**](https://github.com/GareBear99/TizWildin-Aurora) | 3-segment original synth melody pack with loops, stems, demo renders, and neon/cinematic phrasing |
-| [**TizWildin-Obsidian**](https://github.com/GareBear99/TizWildin-Obsidian) | Dark cinematic sample pack with choir textures, menu loops, transitions, bass, atmosphere, drums, and electric-banjo extensions |
-| [**TizWildin-Skyline**](https://github.com/GareBear99/TizWildin-Skyline) | 30 BPM-tagged synthwave and darkwave loops with generator snapshot and dark neon additions |
-| [**TizWildin-Chroma**](https://github.com/GareBear99/TizWildin-Chroma) | Multi-segment game synthwave loop sample pack from TizWildin Entertainment |
-| [**TizWildin-Chime**](https://github.com/GareBear99/TizWildin-Chime) | Multi-part 88 BPM chime collection spanning glass, void, halo, reed, and neon synthwave lanes |
-| [**Free Violin Synth Sample Kit**](https://github.com/GareBear99/Free-Violin-Synth-Sample-Kit) | Physical-model violin sample kit rendered from the Instrudio violin instrument |
-| [**Free Dark Piano Sound Kit**](https://github.com/GareBear99/Free-Dark-Piano-Sound-Kit) | 88 piano notes + dark/cinematic loops and MIDI |
-| [**Free 808 Producer Kit**](https://github.com/GareBear99/Free-808-Producer-Kit) | 94 hand-crafted 808 bass samples tuned to every chromatic key |
-| [**Free Riser Producer Kit**](https://github.com/GareBear99/Free-Riser-Producer-Kit) | 115+ risers and 63 downlifters - noise, synth, drum, FX, cinematic |
-| [**Phonk Producer Toolkit**](https://github.com/GareBear99/Phonk_Producer_Toolkit) | Drift phonk starter kit - 808s, cowbells, drums, MIDI, templates |
-| [**Free Future Bass Producer Kit**](https://github.com/GareBear99/Free-Future-Bass-Producer-Kit) | Loops, fills, drums, bass, synths, pads, and FX |
-
-### Related audio projects
-- [**VF-PlexLab**](https://github.com/GareBear99/VF-PlexLab) - VocalForge PersonaPlex Lab starter repo for a JUCE plugin + local backend + HTML tester around NVIDIA PersonaPlex.
-- [**PAP-Forge-Audio**](https://github.com/GareBear99/PAP-Forge-Audio) - Procedural Autonomous Plugins runtime for generating, branching, validating, and restoring plugin projects from natural-language sound intent.
 
 ## TizWildin FREE sample packs
 
