@@ -25,6 +25,18 @@ a:hover{text-decoration:underline}
 .hub-note-box{background:#12182f;border:1px solid var(--card-border);border-radius:12px;padding:14px 16px;color:var(--sub);font-size:13px;line-height:1.6}
 .hub-note-box strong{color:var(--text)}
 
+/* Tabs */
+.tabs{display:flex;gap:6px;padding:20px 32px 0;max-width:1280px;margin:0 auto;border-bottom:1px solid var(--card-border)}
+.tab{background:transparent;color:var(--sub);border:1px solid transparent;border-bottom:none;padding:10px 18px;border-radius:10px 10px 0 0;cursor:pointer;font-size:14px;font-weight:600;transition:color .15s,background .15s}
+.tab:hover{color:var(--text);background:#12182f}
+.tab.active{color:var(--text);background:var(--card);border-color:var(--card-border)}
+.screen{display:none}
+.screen.active{display:block}
+
+/* Pack-specific tweaks */
+.pack-tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
+.pack-tag{font-size:10px;background:#1a1d30;color:var(--sub);padding:2px 7px;border-radius:4px;text-transform:lowercase}
+
 /* Controls bar */
 .controls{display:flex;align-items:center;gap:12px;padding:20px 32px;max-width:1280px;margin:0 auto;flex-wrap:wrap}
 .controls button{background:var(--btn);color:var(--text);border:1px solid var(--card-border);padding:8px 18px;border-radius:8px;cursor:pointer;font-size:13px;transition:background .15s}
@@ -98,16 +110,31 @@ a:hover{text-decoration:underline}
   </div>
 </div>
 
-<div class="controls">
-  <button id="checkAllBtn" onclick="checkAllUpdates()">⟳ Check All Updates</button>
-  <div class="toggle-wrap">
-    <div class="toggle" id="autoToggle" onclick="toggleAuto()"></div>
-    <span>Auto-check on load</span>
-  </div>
-  <div class="stats" id="stats"></div>
+<div class="tabs">
+  <button class="tab active" id="tab-plugins" onclick="switchScreen('plugins')">🔌 Plugins</button>
+  <button class="tab" id="tab-packs" onclick="switchScreen('packs')">🎁 Packs &amp; Samples</button>
 </div>
 
-<div id="pluginContainer"></div>
+<div id="screen-plugins" class="screen active">
+  <div class="controls">
+    <button id="checkAllBtn" onclick="checkAllUpdates()">⟳ Check All Updates</button>
+    <div class="toggle-wrap">
+      <div class="toggle" id="autoToggle" onclick="toggleAuto()"></div>
+      <span>Auto-check on load</span>
+    </div>
+    <div class="stats" id="stats"></div>
+  </div>
+
+  <div id="pluginContainer"></div>
+</div>
+
+<div id="screen-packs" class="screen">
+  <div class="controls">
+    <div class="stats" id="packStats"></div>
+  </div>
+
+  <div id="packContainer"></div>
+</div>
 
 <div class="footer">
   Built with ❤️ by Gary Doman (GareBear99 / TizWildin)<br>
@@ -117,10 +144,20 @@ a:hover{text-decoration:underline}
 <script>
 const OWNER = 'GareBear99';
 const MANIFEST_URL = 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/plugins.json';
+const PACKS_URL    = 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/packs.json';
 let pluginData = [];
+let packData = [];
 let releaseCache = {};
 
-// ── Load manifest and render ──
+// ── Tab / screen switcher ──
+function switchScreen(name) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  document.getElementById('screen-' + name).classList.add('active');
+}
+
+// ── Load manifests and render both screens ──
 async function init() {
   try {
     const resp = await fetch(MANIFEST_URL);
@@ -134,6 +171,15 @@ async function init() {
   } catch (e) {
     document.getElementById('pluginContainer').innerHTML =
       '<p style="padding:32px;color:var(--red)">Failed to load plugin manifest. Check your connection.</p>';
+  }
+  try {
+    const respP = await fetch(PACKS_URL);
+    const packsManifest = await respP.json();
+    packData = packsManifest.packs;
+    renderPacks(packsManifest);
+  } catch (e) {
+    document.getElementById('packContainer').innerHTML =
+      '<p style="padding:32px;color:var(--red)">Failed to load pack manifest. Check your connection.</p>';
   }
 }
 
@@ -256,6 +302,47 @@ function updateStats() {
     text += ` · ${withRelease} with releases · ${noRelease} source-only · ${newReleases} new`;
   }
   document.getElementById('stats').textContent = text;
+}
+
+// ── Render pack cards grouped by category ──
+function renderPacks(manifest) {
+  const container = document.getElementById('packContainer');
+  container.innerHTML = '';
+  for (const cat of manifest.categories) {
+    const packs = manifest.packs.filter(p => p.category === cat.id);
+    if (!packs.length) continue;
+    const section = document.createElement('div');
+    section.className = 'category';
+    section.innerHTML = `<div class="category-title">${cat.icon} ${cat.name}</div><div class="grid" id="pack-grid-${cat.id}"></div>`;
+    container.appendChild(section);
+    const grid = section.querySelector('.grid');
+    for (const p of packs) {
+      grid.appendChild(createPackCard(p));
+    }
+  }
+  document.getElementById('packStats').textContent =
+    `${manifest.packs.length} free packs · all open-source on GitHub`;
+}
+
+// ── Create a single pack card ──
+function createPackCard(pack) {
+  const card = document.createElement('div');
+  card.className = 'card';
+  const tags = (pack.tags || []).map(t => `<span class="pack-tag">${t}</span>`).join('');
+  const zipUrl = `https://github.com/${OWNER}/${pack.repo}/archive/refs/heads/main.zip`;
+  card.innerHTML = `
+    <div class="card-top">
+      <div class="card-name">🎁 ${pack.name}</div>
+      <div class="card-badge badge-free">FREE PACK</div>
+    </div>
+    <div class="card-desc">${pack.description}</div>
+    <div class="pack-tags">${tags}</div>
+    <div class="card-actions">
+      <a href="https://github.com/${OWNER}/${pack.repo}" target="_blank">📂 Repo / Source</a>
+      <a class="download-btn" href="${zipUrl}" target="_blank">⬇ Download ZIP</a>
+    </div>
+  `;
+  return card;
 }
 
 // ── Auto-check toggle ──
