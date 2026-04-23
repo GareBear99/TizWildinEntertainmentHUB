@@ -1,4 +1,4 @@
-> 🎛️ Part of the [TizWildin Plugin Ecosystem](https://garebear99.github.io/TizWildinEntertainmentHUB/) — 17 free audio plugins with a live update dashboard.
+> 🎛️ Part of the [TizWildin Plugin Ecosystem](https://garebear99.github.io/TizWildinEntertainmentHUB/) — 19 free audio plugins with a live update dashboard.
 >
 > [FreeEQ8](https://github.com/GareBear99/FreeEQ8) · [XyloCore](https://github.com/GareBear99/XyloCore) · [Instrudio](https://github.com/GareBear99/Instrudio) · [Therum](https://github.com/GareBear99/Therum_JUCE-Plugin) · [BassMaid](https://github.com/GareBear99/BassMaid) · [SpaceMaid](https://github.com/GareBear99/SpaceMaid) · [GlueMaid](https://github.com/GareBear99/GlueMaid) · [MixMaid](https://github.com/GareBear99/MixMaid) · [MultiMaid](https://github.com/GareBear99/MultiMaid) · [MeterMaid](https://github.com/GareBear99/MeterMaid) · [ChainMaid](https://github.com/GareBear99/ChainMaid) · [PaintMask](https://github.com/GareBear99/PaintMask_Free-JUCE-Plugin) · [WURP](https://github.com/GareBear99/WURP_Toxic-Motion-Engine_JUCE) · [AETHER](https://github.com/GareBear99/AETHER_Choir-Atmosphere-Designer) · [WhisperGate](https://github.com/GareBear99/WhisperGate_Free-JUCE-Plugin) · [RiftWave](https://github.com/GareBear99/RiftWaveSuite_RiftSynth_WaveForm_Lite) · [FreeSampler](https://github.com/GareBear99/FreeSampler_v0.3) · [VF-PlexLab](https://github.com/GareBear99/VF-PlexLab) · [PAP-Forge-Audio](https://github.com/GareBear99/PAP-Forge-Audio)
 >
@@ -12,7 +12,7 @@
 
 <div align="center">
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=6C7BBD&center=true&vCenter=true&width=840&lines=14+Free+Plugin+Versions+%2B+The+HUB;Updater+%7C+Version+Controller+%7C+Downloader;Every+plugin+has+a+free+version+on+the+HUB;Payments+and+upgrades+live+inside+each+product" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=6C7BBD&center=true&vCenter=true&width=840&lines=19+Free+Plugin+Versions+%2B+The+HUB;Updater+%7C+Version+Controller+%7C+Downloader;Every+plugin+has+a+free+version+on+the+HUB;Payments+and+upgrades+live+inside+each+product" alt="Typing SVG" /></a>
 
 <br>
 
@@ -27,7 +27,7 @@
 
 <br><br>
 
-<img src="https://img.shields.io/badge/Plugins-14-22c55e?style=flat&logo=audacity&logoColor=white" alt="Plugins" />
+<img src="https://img.shields.io/badge/Plugins-19-22c55e?style=flat&logo=audacity&logoColor=white" alt="Plugins" />
 <img src="https://img.shields.io/github/stars/GareBear99/TizWildinEntertainmentHUB?style=flat&color=eab308&logo=github&logoColor=white&label=Stars" alt="Stars" />
 <img src="https://img.shields.io/github/forks/GareBear99/TizWildinEntertainmentHUB?style=flat&color=6c7bbd&logo=github&logoColor=white&label=Forks" alt="Forks" />
 <img src="https://img.shields.io/github/last-commit/GareBear99/TizWildinEntertainmentHUB?style=flat&color=a78bfa&logo=git&logoColor=white&label=Last%20Commit" alt="Last Commit" />
@@ -100,6 +100,8 @@ The HUB is its own **TizWildinEntertainment product** — a **VST3/AU plugin + S
 | [**SpaceMaid**](https://github.com/GareBear99/SpaceMaid) | Spatial audio — depth, width, reverb | ✅ Production |
 | [**GlueMaid**](https://github.com/GareBear99/GlueMaid) | Mix bus glue and cohesion | ✅ Production |
 | [**MixMaid**](https://github.com/GareBear99/MixMaid) | Spectral balance and mix correction | ✅ Production |
+| [**MultiMaid**](https://github.com/GareBear99/MultiMaid) | Focused multiband dynamics, non-overlapping with the rest of the Maid suite | ⚠️ Beta |
+| [**MeterMaid**](https://github.com/GareBear99/MeterMaid) | ITU-R BS.1770-4 / EBU R128 mastering & metering suite with an octagonal target radar | ⚠️ Beta |
 | [**ChainMaid**](https://github.com/GareBear99/ChainMaid) | Sidechain ducking and pumping effects | ✅ Production |
 
 ## 🔊 Sound Design
