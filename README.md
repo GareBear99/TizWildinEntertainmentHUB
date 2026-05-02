@@ -316,4 +316,19 @@ Built with ❤️ by **Gary Doman** (GareBear99 / TizWildin)
 
 ## V1 Stable Release Checks
 
-The V1 public dashboard now avoids red `CHECK FAILED` cards when GitHub's release API is throttled, offline, or temporarily unavailable. It falls back to `FREE SOURCE READY` and keeps the repo/source buttons usable.
+The V1 public dashboard now avoids red failure cards when GitHub's release API is throttled, offline, or temporarily unavailable. It falls back to `FREE SOURCE READY` and keeps the repo/source buttons usable.
+
+
+## Public Page Routing
+
+- `docs/index.html` — V1 public dashboard default
+- `docs/index-seo.html` — SEO landing page
+- V1 header buttons include:
+  - SEO Landing Page
+  - Release Vault Repo
+
+GitHub Pages setting:
+
+```text
+Settings → Pages → Deploy from branch → main → /docs
+```
