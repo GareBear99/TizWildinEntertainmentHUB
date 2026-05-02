@@ -312,3 +312,8 @@ Built with ❤️ by **Gary Doman** (GareBear99 / TizWildin)
 ### Related audio projects
 - [**VF-PlexLab**](https://github.com/GareBear99/VF-PlexLab) - VocalForge PersonaPlex Lab starter repo for a JUCE plugin + local backend + HTML tester around NVIDIA PersonaPlex.
 - [**PAP-Forge-Audio**](https://github.com/GareBear99/PAP-Forge-Audio) - Procedural Autonomous Plugins runtime for generating, branching, validating, and restoring plugin projects from natural-language sound intent.
+
+
+## V1 Stable Release Checks
+
+The V1 public dashboard now avoids red `CHECK FAILED` cards when GitHub's release API is throttled, offline, or temporarily unavailable. It falls back to `FREE SOURCE READY` and keeps the repo/source buttons usable.

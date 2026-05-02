@@ -250,8 +250,12 @@ async function checkAllUpdates() {
   const btn = document.getElementById('checkAllBtn');
   btn.classList.add('checking');
   btn.textContent = '⟳ Checking…';
-  const promises = pluginData.map(p => checkPlugin(p));
-  await Promise.allSettled(promises);
+  // Stable V1 behavior: check repos one-by-one instead of blasting GitHub API all at once.
+  // This prevents secondary rate-limit / transient API failures from making the page look broken.
+  for (const plugin of pluginData) {
+    await checkPlugin(plugin);
+    await new Promise(resolve => setTimeout(resolve, 140));
+  }
   btn.classList.remove('checking');
   btn.textContent = '⟳ Check All Updates';
   updateStats();
@@ -261,46 +265,68 @@ async function checkAllUpdates() {
 async function checkPlugin(plugin) {
   const versionEl = document.getElementById(`version-${plugin.id}`);
   const actionsEl = document.getElementById(`actions-${plugin.id}`);
+  const repoUrl = `https://github.com/${OWNER}/${plugin.repo}`;
   versionEl.innerHTML = '<span class="version-tag v-checking"><span class="spinner"></span> Checking…</span>';
+
   try {
-    const resp = await fetch(`https://api.github.com/repos/${OWNER}/${plugin.repo}/releases/latest`);
+    const resp = await fetch(`https://api.github.com/repos/${OWNER}/${plugin.repo}/releases/latest`, {
+      cache: 'no-store',
+      headers: { 'Accept': 'application/vnd.github+json' }
+    });
+
     if (resp.status === 404) {
-      // No releases yet
+      // No packaged release yet. This is not a failure: the source repo is still the free version.
       releaseCache[plugin.id] = null;
-      versionEl.innerHTML = '<span class="version-tag v-norelease">🟣 FREE SOURCE READY</span><span class="version-info">No packaged release yet — clone or download the free version from the repo. Payments live inside the product.</span>';
-      actionsEl.innerHTML = `<a class="download-btn" href="https://github.com/${OWNER}/${plugin.repo}" target="_blank">⬇ Get Free Version</a>`;
+      versionEl.innerHTML = '<span class="version-tag v-norelease">🟣 FREE SOURCE READY</span><span class="version-info">No packaged release yet — clone or download from the repo.</span>';
+      actionsEl.innerHTML = `<a class="download-btn" href="${repoUrl}" target="_blank">⬇ Get Free Version</a>`;
       return;
     }
+
+    if (!resp.ok) {
+      // GitHub API throttled/offline/transient. Do not scare users with red failure.
+      releaseCache[plugin.id] = null;
+      versionEl.innerHTML = '<span class="version-tag v-norelease">🟣 FREE SOURCE READY</span><span class="version-info">Release API paused — repo/source still available.</span>';
+      actionsEl.innerHTML = `<a class="download-btn" href="${repoUrl}" target="_blank">⬇ Open Repo / Source</a>`;
+      return;
+    }
+
     const release = await resp.json();
+    if (!release || !release.tag_name) {
+      releaseCache[plugin.id] = null;
+      versionEl.innerHTML = '<span class="version-tag v-norelease">🟣 FREE SOURCE READY</span><span class="version-info">No release tag found — repo/source available.</span>';
+      actionsEl.innerHTML = `<a class="download-btn" href="${repoUrl}" target="_blank">⬇ Open Repo / Source</a>`;
+      return;
+    }
+
     releaseCache[plugin.id] = release;
     const tag = release.tag_name;
-    const version = tag.replace(/^v/, '');
-    const published = new Date(release.published_at);
-    const daysAgo = Math.floor((Date.now() - published) / 86400000);
+    const published = new Date(release.published_at || Date.now());
+    const daysAgo = Math.max(0, Math.floor((Date.now() - published) / 86400000));
     const timeText = daysAgo === 0 ? 'today' : daysAgo === 1 ? 'yesterday' : `${daysAgo}d ago`;
-    // Check if this is a recent release (within 7 days)
     const isNew = daysAgo <= 7;
+
     if (isNew) {
       versionEl.innerHTML = `
         <span class="version-tag v-newrelease">🟡 NEW FREE RELEASE</span>
         <span class="version-info">${tag} — released ${timeText}</span>
       `;
-      actionsEl.innerHTML = `<a class="update-btn" href="${release.html_url}" target="_blank">⬇ Download Free Version</a>`;
+      actionsEl.innerHTML = `<a class="update-btn" href="${release.html_url || repoUrl}" target="_blank">⬇ Download Free Version</a>`;
     } else {
       versionEl.innerHTML = `
         <span class="version-tag v-uptodate">🟢 ${tag}</span>
         <span class="version-info">Released ${timeText}</span>
       `;
-      // Check for assets
       if (release.assets && release.assets.length > 0) {
         actionsEl.innerHTML = `<a class="download-btn" href="${release.assets[0].browser_download_url}" target="_blank">⬇ Download Free Version</a>`;
       } else {
-        actionsEl.innerHTML = `<a class="download-btn" href="${release.html_url}" target="_blank">⬇ Open Release</a>`;
+        actionsEl.innerHTML = `<a class="download-btn" href="${release.html_url || repoUrl}" target="_blank">⬇ Open Release</a>`;
       }
     }
   } catch (e) {
-    versionEl.innerHTML = '<span class="version-tag v-outdated">⚠ CHECK FAILED</span><span class="version-info">Could not reach GitHub API</span>';
-    actionsEl.innerHTML = '';
+    // Offline, browser block, API hiccup, or GitHub transient. Keep V1 dashboard clean and usable.
+    releaseCache[plugin.id] = null;
+    versionEl.innerHTML = '<span class="version-tag v-norelease">🟣 FREE SOURCE READY</span><span class="version-info">GitHub API unavailable — repo/source still works.</span>';
+    actionsEl.innerHTML = `<a class="download-btn" href="${repoUrl}" target="_blank">⬇ Open Repo / Source</a>`;
   }
 }
 
