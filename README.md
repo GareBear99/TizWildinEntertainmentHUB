@@ -17,6 +17,27 @@
 
 
 
+## Public Page Default
+
+The GitHub Pages public default is now the **V1 Public Dashboard** at:
+
+```text
+docs/index.html
+```
+
+The newer SEO landing page has been preserved as:
+
+```text
+docs/index-seo.html
+```
+
+Use GitHub Pages with:
+
+```text
+Settings → Pages → Deploy from branch → main → /docs
+```
+
+
 ## V1 Toggle Default
 
 The Hub dashboard keeps the V1/free-version auto-check toggle ON by default for first-time visitors. User choice is still respected after they toggle it manually.
