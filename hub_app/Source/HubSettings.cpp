@@ -23,7 +23,7 @@ HubSettings::HubSettings()
 
 bool HubSettings::getAutoUpdate() const
 {
-    return props->getBoolValue ("autoUpdate", false);
+    return props->getBoolValue ("autoUpdate", true);
 }
 
 void HubSettings::setAutoUpdate (bool on)

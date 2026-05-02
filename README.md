@@ -15,6 +15,12 @@
 
 > 🗂️ **Release Vault Repo:** [https://github.com/GareBear99/TizWildin-Release-Vault](https://github.com/GareBear99/TizWildin-Release-Vault)
 
+
+
+## V1 Toggle Default
+
+The Hub dashboard keeps the V1/free-version auto-check toggle ON by default for first-time visitors. User choice is still respected after they toggle it manually.
+
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0a0b12,50:1e2754,100:6c7bbd&text=TizWildin%20Entertainment%20HUB&fontSize=36&fontColor=e8eaf0&animation=fadeIn&fontAlignY=36&desc=The%20Free%20Modular%20Audio%20Plugin%20Ecosystem&descSize=16&descColor=a0a6bc&descAlignY=56" width="100%">
 </div>
