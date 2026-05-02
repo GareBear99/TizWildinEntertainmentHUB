@@ -1,0 +1,299 @@
+{
+  "owner": "GareBear99",
+  "ecosystem": "TizWildin Entertainment",
+  "hub": {
+    "name": "TizWildin Entertainment HUB",
+    "productClass": "TizWildinEntertainment product",
+    "description": "Updater, version controller, and downloader for every free plugin edition in the ecosystem.",
+    "pluginPayments": "handled_inside_each_product"
+  },
+  "defaults": {
+    "freeVersionAvailable": true,
+    "paymentsHandledByProduct": true,
+    "downloadMode": "release_or_repo"
+  },
+  "categories": [
+    {
+      "id": "flagship",
+      "name": "Flagship",
+      "icon": "🥇"
+    },
+    {
+      "id": "instruments",
+      "name": "Instruments",
+      "icon": "🎹"
+    },
+    {
+      "id": "maid_suite",
+      "name": "Maid Suite",
+      "icon": "🧹"
+    },
+    {
+      "id": "sound_design",
+      "name": "Sound Design",
+      "icon": "🔊"
+    },
+    {
+      "id": "experimental",
+      "name": "Experimental",
+      "icon": "🧪"
+    }
+  ],
+  "plugins": [
+    {
+      "id": "freeeq8",
+      "name": "FreeEQ8",
+      "description": "Free open-source 8-band parametric EQ with dynamic EQ, linear phase, match EQ, per-band drive, M/S, oversampling, and spectrum analyzer.",
+      "category": "flagship",
+      "repo": "FreeEQ8",
+      "license": "FREE",
+      "formats": [
+        "VST3",
+        "AU",
+        "Standalone"
+      ],
+      "status": "production"
+    },
+    {
+      "id": "instrudio",
+      "name": "Instrudio",
+      "description": "10 fully playable instruments — cross-platform instrument ecosystem with hybrid HTML/plugin architecture.",
+      "category": "instruments",
+      "repo": "Instrudio",
+      "license": "FREE",
+      "formats": [
+        "VST3",
+        "AU",
+        "Standalone"
+      ],
+      "status": "beta"
+    },
+    {
+      "id": "xylocore",
+      "name": "XyloCore",
+      "description": "Playable xylophone / tuned-percussion instrument with velocity-mapped samples and keyboard control.",
+      "category": "instruments",
+      "repo": "XyloCore",
+      "license": "FREE",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "status": "beta"
+    },
+    {
+      "id": "bassmaid",
+      "name": "BassMaid",
+      "description": "Bass enhancement and low-end processing toolkit.",
+      "category": "maid_suite",
+      "repo": "BassMaid",
+      "license": "FREE",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "status": "production"
+    },
+    {
+      "id": "spacemaid",
+      "name": "SpaceMaid",
+      "description": "Spatial audio processing — depth, width, and reverb tools.",
+      "category": "maid_suite",
+      "repo": "SpaceMaid",
+      "license": "FREE",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "status": "production"
+    },
+    {
+      "id": "gluemaid",
+      "name": "GlueMaid",
+      "description": "Mix bus glue and cohesion tool — compression and tonal shaping.",
+      "category": "maid_suite",
+      "repo": "GlueMaid",
+      "license": "FREE",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "status": "production"
+    },
+    {
+      "id": "mixmaid",
+      "name": "MixMaid",
+      "description": "Real-time spectral balance and mix correction — gently guides mixes toward balanced tonal distribution, proper headroom, and controlled dynamics.",
+      "category": "maid_suite",
+      "repo": "MixMaid",
+      "license": "FREE",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "status": "production"
+    },
+    {
+      "id": "chainmaid",
+      "name": "ChainMaid",
+      "description": "Sidechain plugin — clean sidechain ducking and pumping effects for EDM, trap, and mix engineering.",
+      "category": "maid_suite",
+      "repo": "ChainMaid",
+      "license": "FREE",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "status": "production"
+    },
+    {
+      "id": "multimaid",
+      "name": "MultiMaid",
+      "description": "Focused multiband dynamics plugin for the Maid suite — deliberately non-overlapping with FreeEQ8, GlueMaid, MixMaid, BassMaid, SpaceMaid, ChainMaid, and MeterMaid.",
+      "category": "maid_suite",
+      "repo": "MultiMaid",
+      "license": "FREE",
+      "formats": [
+        "VST3",
+        "AU",
+        "Standalone"
+      ],
+      "downloadMode": "release_or_repo",
+      "homepage": "https://github.com/GareBear99/MultiMaid",
+      "releasesUrl": "https://github.com/GareBear99/MultiMaid/releases/latest"
+    },
+    {
+      "id": "metermaid",
+      "name": "MeterMaid",
+      "description": "Single-plugin mastering + metering suite: BS.1770-4 K-weighted loudness, EBU R128 gated integration, 4× oversampled true peak, spectrogram, chromagram, goniometer, and an octagonal target radar.",
+      "category": "maid_suite",
+      "repo": "MeterMaid",
+      "license": "FREE",
+      "formats": [
+        "VST3",
+        "AU",
+        "Standalone"
+      ],
+      "downloadMode": "release_or_repo",
+      "homepage": "https://github.com/GareBear99/MeterMaid",
+      "releasesUrl": "https://github.com/GareBear99/MeterMaid/releases/latest"
+    },
+    {
+      "id": "paintmask",
+      "name": "PaintMask",
+      "description": "Visual paint-based audio processing — shape sound with brush strokes, splashes, and geometry that become MIDI patterns.",
+      "category": "experimental",
+      "repo": "PaintMask_Free-JUCE-Plugin",
+      "license": "FREE",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "status": "production"
+    },
+    {
+      "id": "wurp",
+      "name": "WURP",
+      "description": "Toxic Motion Engine — mutates audio with formant motion, corrosive saturation, elastic pitch, and reactive animated UI.",
+      "category": "experimental",
+      "repo": "WURP_Toxic-Motion-Engine_JUCE",
+      "license": "FREE",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "status": "production"
+    },
+    {
+      "id": "aether",
+      "name": "AETHER",
+      "description": "Choir & atmosphere designer for cinematic sound design — procedural choirs, pads, and evolving textures.",
+      "category": "experimental",
+      "repo": "AETHER_Choir-Atmosphere-Designer",
+      "license": "FREE",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "status": "beta"
+    },
+    {
+      "id": "whispergate",
+      "name": "WhisperGate",
+      "description": "Procedural whispers, ghost choirs, and ritual atmospheres through an interactive geometry interface.",
+      "category": "experimental",
+      "repo": "WhisperGate_Free-JUCE-Plugin",
+      "license": "FREE",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "status": "production"
+    },
+    {
+      "id": "therum",
+      "name": "Therum",
+      "description": "Bootleg Serum — free wavetable synthesizer with visual waveform editing and modulation.",
+      "category": "flagship",
+      "repo": "Therum_JUCE-Plugin",
+      "license": "FREE",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "status": "production"
+    },
+    {
+      "id": "riftwavesuite",
+      "name": "RiftWave Suite",
+      "description": "Modular synth engine + waveform synthesis — RiftSynth + WaveForm in Lite and Pro editions.",
+      "category": "sound_design",
+      "repo": "RiftWaveSuite_RiftSynth_WaveForm_Lite",
+      "license": "FREE",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "status": "beta"
+    },
+    {
+      "id": "freesampler",
+      "name": "FreeSampler",
+      "description": "Lightweight high-performance audio sampler plugin.",
+      "category": "experimental",
+      "repo": "FreeSampler_v0.3",
+      "license": "FREE",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "status": "dev"
+    },
+    {
+      "id": "vf_plexlab",
+      "name": "VF-PlexLab",
+      "description": "VocalForge PersonaPlex Lab — JUCE plugin + local backend + HTML tester around NVIDIA PersonaPlex for voice-conditioned vocal asset generation, spoken hooks, whispers, chants, and sample-pack export.",
+      "category": "experimental",
+      "repo": "VF-PlexLab",
+      "license": "FREE",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "status": "dev"
+    },
+    {
+      "id": "pap_forge_audio",
+      "name": "PAP-Forge-Audio",
+      "description": "Procedural Autonomous Plugins runtime for generating, branching, mutating, validating, and restoring plugin projects from natural-language sound intent.",
+      "category": "experimental",
+      "repo": "PAP-Forge-Audio",
+      "license": "FREE",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "status": "dev"
+    }
+  ]
+}

@@ -1,0 +1,626 @@
+{
+  "generatedUtc": "2026-05-02T13:39:19.207152+00:00",
+  "fileCount": 124,
+  "files": [
+    {
+      "path": ".github/FUNDING.yml",
+      "bytes": 128,
+      "sha256": "7a910ab97ca411e7bab9fdeac1dcb2ad972a5ad7d9a68e4fa13ac63065d0cb2e"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "bytes": 500,
+      "sha256": "dfd162722be534515c4f8d64c0057b865dcf31449492d71ecf1e9e2765dc8fb6"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/catalog_update.md",
+      "bytes": 652,
+      "sha256": "66c95c66b9ec24f4f3a500908ce1801006ad1a83a0314e0615ea733b1c68663b"
+    },
+    {
+      "path": ".github/workflows/hub-build.yml",
+      "bytes": 665,
+      "sha256": "c692441dff185bfc0d956cfebe304f887126dd085a2627665ce7db1b10d4d489"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 446,
+      "sha256": "49e9533287b9c729ed3a6d1bbe6a7cab8732ce7b4d97db64dd22b2c0d60566b4"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 975,
+      "sha256": "901cf3963c34e6f670ef50e237b080b68b7c300583fdb2a61039975915c673fa"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "bytes": 184,
+      "sha256": "f71d04298c0b9c74c1beabc029ec47f396610f0a04455a077bb07a437fea8dc5"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 505,
+      "sha256": "5ec694672333ab24d11334f2d837bc142d63a66175f9cf55623d2a47cea40622"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1106,
+      "sha256": "a49bb24d0e7c328456331afaec39e3ceabddb609a3f0f58d42641cb72387dfd7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5991,
+      "sha256": "9c468dc4132df8aa84af396b3b279bbfe8effd05d1a9c483e054157ae7ec23ca"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 589,
+      "sha256": "7beeb101c9db9446d476a72161e02198ed46cccb8f6f47f058b9ac731b8fda5f"
+    },
+    {
+      "path": "arc_service/Dockerfile",
+      "bytes": 225,
+      "sha256": "6a949ba263a659ee88740b67e96d40b399cb10d9ccbd4180c478251bbe19139c"
+    },
+    {
+      "path": "arc_service/app/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "arc_service/app/api/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "arc_service/app/api/routes.py",
+      "bytes": 12761,
+      "sha256": "c012918548d01a029d80adb8696c1ee60298e19b02e5846e4384daf1aecfc1e3"
+    },
+    {
+      "path": "arc_service/app/data/auth_tokens.mock.json",
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "arc_service/app/data/entitlements.mock.json",
+      "bytes": 603,
+      "sha256": "c6ff4444b6e2d27c27e18f9aacb165e92289429ff3c001e8652552db7a44cbca"
+    },
+    {
+      "path": "arc_service/app/data/install_receipts.mock.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "arc_service/app/data/install_scans.mock.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "arc_service/app/data/products.catalog.json",
+      "bytes": 8328,
+      "sha256": "8f436d67d4ebf83ce22f4a44dc68f6368079754bd0a316dc0cc6b8e928f9f73f"
+    },
+    {
+      "path": "arc_service/app/data/release_manifests.mock.json",
+      "bytes": 3075,
+      "sha256": "5d90b5ad8d97b4a4387337a30311aad05eb437622ec312207cad9bd88b67eb6c"
+    },
+    {
+      "path": "arc_service/app/data/seats.mock.json",
+      "bytes": 3,
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    {
+      "path": "arc_service/app/data/settings.mock.json",
+      "bytes": 266,
+      "sha256": "8ed04e2b93dbba70b15eaf3f5c118b9ed6ae9067ab37174dc246ccddc9f8a86b"
+    },
+    {
+      "path": "arc_service/app/data/webhooks.mock.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "arc_service/app/main.py",
+      "bytes": 342,
+      "sha256": "0b50b22e41f2c96139e33d95658b060c39171ad4fd4bb2b421f5b59039291eba"
+    },
+    {
+      "path": "arc_service/app/models/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "arc_service/app/models/domain.py",
+      "bytes": 4706,
+      "sha256": "c5df26c5c4e93801ec97fc1afde131a486d4028239edf3b4804b91810b1d0e3a"
+    },
+    {
+      "path": "arc_service/app/services/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "arc_service/app/services/account_service.py",
+      "bytes": 1678,
+      "sha256": "c23de3031e835e827c80274269ccada4e346e601e4376c7aa0312bfe70fd5c47"
+    },
+    {
+      "path": "arc_service/app/services/activity_service.py",
+      "bytes": 1352,
+      "sha256": "dcd90a4fc6a13308c7361a818706d3166336754897cea24a102bc5e2f3f56a9f"
+    },
+    {
+      "path": "arc_service/app/services/artifact_service.py",
+      "bytes": 2959,
+      "sha256": "e98e83e90775b0da09429094ae8226aabf84143e5fcc6559514b3d542775d7aa"
+    },
+    {
+      "path": "arc_service/app/services/audit_service.py",
+      "bytes": 2128,
+      "sha256": "4134149cda4e03336e4b7944cf5dfb29983f75ea8688aef2f930b551f032a367"
+    },
+    {
+      "path": "arc_service/app/services/auth_service.py",
+      "bytes": 2295,
+      "sha256": "eace3d264422733d0d50d8a2e1514af6d0feb477900fa1d35a0ae9c751f434f5"
+    },
+    {
+      "path": "arc_service/app/services/backup_service.py",
+      "bytes": 2529,
+      "sha256": "e4883b67b2806dd3eaffcf9bb25ad00ebacae9156dee71abc3eac104c79e5021"
+    },
+    {
+      "path": "arc_service/app/services/billing_service.py",
+      "bytes": 2751,
+      "sha256": "ddca92c12d5e9912aee9413894779fe280fc2b462f7ebd3858ff678a14a362ac"
+    },
+    {
+      "path": "arc_service/app/services/bootstrap_service.py",
+      "bytes": 5052,
+      "sha256": "ee5f39d2d1989430e25741758ef2d800e0b9f39880c3cf1139f46805c7afd849"
+    },
+    {
+      "path": "arc_service/app/services/catalog_service.py",
+      "bytes": 225,
+      "sha256": "56e921217dcd924c6082e133d674b83dc504a01204ee960868dfa44478153dac"
+    },
+    {
+      "path": "arc_service/app/services/diagnostics_service.py",
+      "bytes": 1622,
+      "sha256": "45af50dcf4336d05b758f5fb864b84c65b5173ac6efbea0a978b76c34b2734fe"
+    },
+    {
+      "path": "arc_service/app/services/download_service.py",
+      "bytes": 3225,
+      "sha256": "5cc10f38cf88dc68893966702e494aae5184f090f4ee360219f8ceb443fc986e"
+    },
+    {
+      "path": "arc_service/app/services/entitlement_service.py",
+      "bytes": 1426,
+      "sha256": "f819e70d7d69611a6db31f437ce28dc9f85009ff7e9c20b2f581cdfec682b201"
+    },
+    {
+      "path": "arc_service/app/services/execute_downloads_service.py",
+      "bytes": 9582,
+      "sha256": "2ed2aaedb45b9ee4fdd0809ba3a4d7705be5d944c132184417c3e43c7e760966"
+    },
+    {
+      "path": "arc_service/app/services/install_plan_service.py",
+      "bytes": 3776,
+      "sha256": "1404d8735e4a7acc015e5ada7fc804d7383b12e3fd02a7f26a961b7af436df3a"
+    },
+    {
+      "path": "arc_service/app/services/install_scan_service.py",
+      "bytes": 689,
+      "sha256": "f8efad77920d6adc21c1e4baf71422147c07de434e47b5936a0a84855bc91169"
+    },
+    {
+      "path": "arc_service/app/services/launchpad_service.py",
+      "bytes": 2471,
+      "sha256": "1b82d4809a96036a4edaf706deefbb16a0645db92d9b507c06f885db5a9f3f46"
+    },
+    {
+      "path": "arc_service/app/services/machine_service.py",
+      "bytes": 1824,
+      "sha256": "422363c95e10b2c45536da6d0e637806dea022ce6f1a6906b9e5aa9465b28ad8"
+    },
+    {
+      "path": "arc_service/app/services/preflight_service.py",
+      "bytes": 2036,
+      "sha256": "bd043aa70dd095464d47678f4afd7bcf7768668da9387dbca2bd1d0c2e3ef10e"
+    },
+    {
+      "path": "arc_service/app/services/proposal_service.py",
+      "bytes": 2176,
+      "sha256": "48625756e08e2e6e48b8b9654c1cdd2e020f1f2701fb3128ee5091fbadc27cb1"
+    },
+    {
+      "path": "arc_service/app/services/readiness_service.py",
+      "bytes": 1164,
+      "sha256": "062ab1a984aef2d7991a255c0b79dc6f34965aead181cf80d5d1378e5c90191a"
+    },
+    {
+      "path": "arc_service/app/services/release_import_service.py",
+      "bytes": 1373,
+      "sha256": "3e7ebd7c8ca8baaa9d16ad20f2d1d3244051e06d9c4644c17eb2d3bb75354b90"
+    },
+    {
+      "path": "arc_service/app/services/release_service.py",
+      "bytes": 1166,
+      "sha256": "0cfe1db7e15d905840666357b6901c0ef20c4874b6c060715ec78c4a92a9c4e9"
+    },
+    {
+      "path": "arc_service/app/services/remote_artifact_service.py",
+      "bytes": 879,
+      "sha256": "383438761e49727a420f1e31a7bb493f64d0dd88cdc377366c86f694a1f8e681"
+    },
+    {
+      "path": "arc_service/app/services/seat_service.py",
+      "bytes": 2145,
+      "sha256": "98018aa4d465feb843f2ae2a67afcd883773340a9e4a4d19097190a798bbc05a"
+    },
+    {
+      "path": "arc_service/app/services/settings_service.py",
+      "bytes": 899,
+      "sha256": "072cb4633e3e91938224392da7f736d9e5aeed49df133eda2503eab8673aab0b"
+    },
+    {
+      "path": "arc_service/app/services/sqlite_auth_service.py",
+      "bytes": 7248,
+      "sha256": "3849317065e2149121875114c806464d44c38ad39ee1f2dc414f7ead0b784a52"
+    },
+    {
+      "path": "arc_service/app/services/store.py",
+      "bytes": 2420,
+      "sha256": "47e0462f2bdf291cbe881ebe75f990f8debeb7b0513abb2883c8485bed7d8889"
+    },
+    {
+      "path": "arc_service/app/services/support_bundle_service.py",
+      "bytes": 2580,
+      "sha256": "622d876cab3572b93b2d2ce8cf73eaae8c9f998148e75962e308e84d235f5e16"
+    },
+    {
+      "path": "arc_service/app/services/sync_service.py",
+      "bytes": 2355,
+      "sha256": "836e4b469263fcf9cb2c0d00d8cb0c5dcf6820e07ac156ae665c2953c3d189f0"
+    },
+    {
+      "path": "arc_service/app/services/webhook_service.py",
+      "bytes": 3073,
+      "sha256": "1b8c37b24803fcbfa3684c9294110bed8ecf640272076c15ace3edc61856364e"
+    },
+    {
+      "path": "arc_service/requirements.txt",
+      "bytes": 87,
+      "sha256": "491b16b4d24e446dda8fd464c3cba470ac69cf4a061c340fe892587a519d3b3c"
+    },
+    {
+      "path": "arc_service/tests/test_arc.py",
+      "bytes": 16749,
+      "sha256": "aa21c38dd3f5a632302b7d438232ff943813b70f5be0e6adfa4b6b347670b35e"
+    },
+    {
+      "path": "assets/branding/favicon.svg",
+      "bytes": 488,
+      "sha256": "cdfed4dbf360b4ea4f16990bf3334eb5446ad506d22076921d73ee8bccc02625"
+    },
+    {
+      "path": "assets/social/tizwildin-hub-og.svg",
+      "bytes": 1773,
+      "sha256": "d49a28bc91553255cb46d0537e6cf4a982ae29034a5072b6f9476f71584abf5b"
+    },
+    {
+      "path": "docker-compose.yml",
+      "bytes": 147,
+      "sha256": "8b9a6b3af64feeae04fd01b7949a982eb00f542b600aff06b7ccde3c52d4faf2"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 812,
+      "sha256": "d2baf7de1907c6f112cd33b917dec0dd7a3b6ddf45b22b63970b4efd81269a83"
+    },
+    {
+      "path": "docs/CATALOG_POLICY.md",
+      "bytes": 654,
+      "sha256": "16f1adee98cf1f4f661053f6406b199a318127e4ca6c1c7f57a1dfa69df05fa8"
+    },
+    {
+      "path": "docs/ENGINEERING_AUDIT.md",
+      "bytes": 2161,
+      "sha256": "7222e4ff0216f61886de8b10db366f38fc28ac768e37eb8883e53487bb0077bc"
+    },
+    {
+      "path": "docs/FILE_INVENTORY.json",
+      "bytes": 29463,
+      "sha256": "7f0e7e93afb836fb8185ac1976e69464fd9bf1cef2420c6743ea1031ddaab3aa"
+    },
+    {
+      "path": "docs/OPERATOR_RUNBOOK.md",
+      "bytes": 859,
+      "sha256": "b607ca797480b558a2e85d177940184e42895ae2410119f1dcfb3f737d585953"
+    },
+    {
+      "path": "docs/PUBLIC_ROADMAP.md",
+      "bytes": 633,
+      "sha256": "11f2c5f54b6fa2c39da19e353e6319504e58d4f3aa41beb140cb6e082609260c"
+    },
+    {
+      "path": "docs/QUICKSTART.md",
+      "bytes": 659,
+      "sha256": "a46753a441328b359a2fdd9059b85ce6acaa1ab2826cd3fbf836c5d4b319b083"
+    },
+    {
+      "path": "docs/READINESS.md",
+      "bytes": 584,
+      "sha256": "8e9df8e911cdb12fa111cc49e5543b9e042b733e74e2de6b4fa6765dfe2a9eb2"
+    },
+    {
+      "path": "docs/RELEASE_CHECKLIST.md",
+      "bytes": 767,
+      "sha256": "2ac7c89990671a76f44d617e1200c7840240f7f73195647119dec081261fe6a7"
+    },
+    {
+      "path": "docs/SEO_PROMOTION.md",
+      "bytes": 1208,
+      "sha256": "8e7b34d3049ae94d1952ef6a9447ba9715e8da80cc89f383dd48bff7e813187f"
+    },
+    {
+      "path": "docs/SEO_TRACTION_PLAN.md",
+      "bytes": 1298,
+      "sha256": "06994cd9ee553ef6fc0c082be00930326fa0b3babbac0da4bc2fbb41a27c8c75"
+    },
+    {
+      "path": "docs/SHIP_NEXT_STEPS.md",
+      "bytes": 390,
+      "sha256": "f1ca34f96c957ef0218cf3ce0ceb1fa297b68f27c38c91c92aca5760081235d1"
+    },
+    {
+      "path": "docs/STATE_MODEL.md",
+      "bytes": 825,
+      "sha256": "6331def848a4a52a188ab64a333d78cb749885e2e310b6a3e020db0e4b57a7c8"
+    },
+    {
+      "path": "docs/STRIPE_NOTES.md",
+      "bytes": 732,
+      "sha256": "c33a8f2e8d9a9207e3aa53553438ea48038c47418d5f2456a3707bccfab1db8a"
+    },
+    {
+      "path": "docs/data/packs.json",
+      "bytes": 4048,
+      "sha256": "9f48509ac127a1a3ec22cbc7698f72810b38cd553c386fb2b98cfa965871c27e"
+    },
+    {
+      "path": "docs/data/plugins.json",
+      "bytes": 8539,
+      "sha256": "0e851f8dc044a329565da84f80ab770d9948c3e183fbb909e06b0370d0bf21b9"
+    },
+    {
+      "path": "docs/index.html",
+      "bytes": 14085,
+      "sha256": "ab423b15ec2a0c37fa63bc5e916e1f005d1c80a740955042c3a2e8d4043ccec9"
+    },
+    {
+      "path": "docs/robots.txt",
+      "bytes": 99,
+      "sha256": "8d095670dbbd2791d8206df8db85805c41185fe399c3ca1c2749f734a6d24a3c"
+    },
+    {
+      "path": "docs/site.webmanifest",
+      "bytes": 434,
+      "sha256": "3650c6c2cc9d9491edc94e3a70bbfbc4b90c0687aee62689ff066faefdba14c7"
+    },
+    {
+      "path": "docs/sitemap.xml",
+      "bytes": 587,
+      "sha256": "ddf439500593486195b9222f5e7ceb7d0251c538c1da4bd450fe2b16579c348b"
+    },
+    {
+      "path": "hub_app/CMakeLists.txt",
+      "bytes": 1791,
+      "sha256": "d74e31eebd7ebf7671fe543650f823e68ffc1a39ad94c929b3418d09f2fcf2f3"
+    },
+    {
+      "path": "hub_app/README.md",
+      "bytes": 178,
+      "sha256": "91a2cc8f80f6c8c86dc972280d49afbbe09cd5724a1ebd8683bbc4df2aa1d59d"
+    },
+    {
+      "path": "hub_app/Source/GitHubClient.cpp",
+      "bytes": 3866,
+      "sha256": "f4deae1d9191cfe45d286adf326e9763517021be98760fbfe22f2d1b718104f4"
+    },
+    {
+      "path": "hub_app/Source/GitHubClient.h",
+      "bytes": 1321,
+      "sha256": "8bd97e1f87f0fd073fb6a280e25133cd8b9273eb212f135495d1652c1c0ae18e"
+    },
+    {
+      "path": "hub_app/Source/HubEditor.h",
+      "bytes": 817,
+      "sha256": "f3386bbbe6bda03e07d499d020be15347b748e616934afa4f62b673833153e43"
+    },
+    {
+      "path": "hub_app/Source/HubProcessor.cpp",
+      "bytes": 548,
+      "sha256": "3b8b2b3bc7615227cadb80aa8fc65d1121a4f9dc86daab72e376f3918349569f"
+    },
+    {
+      "path": "hub_app/Source/HubProcessor.h",
+      "bytes": 1418,
+      "sha256": "dc8838841fd971cfad21c9e2b12f23357b401145af7cfc74a5635e475a999a17"
+    },
+    {
+      "path": "hub_app/Source/HubSettings.cpp",
+      "bytes": 2626,
+      "sha256": "49499a8e3e5b7974a891b76fd6273fe461c3cb902486f9386f6eb7be2bc134a4"
+    },
+    {
+      "path": "hub_app/Source/HubSettings.h",
+      "bytes": 1027,
+      "sha256": "ab8e0551d4e8d8bfd2930b5156d5d312a545fe81f889b154ddae89867571336c"
+    },
+    {
+      "path": "hub_app/Source/PluginManifest.h",
+      "bytes": 4495,
+      "sha256": "abbf9d8b60f31fe75cf159733fc345256d71efe7e3bf377599f97b36e0cc488b"
+    },
+    {
+      "path": "hub_app/Source/TizHubMainComponent.cpp",
+      "bytes": 16938,
+      "sha256": "1cef73faf73d8bd072fa396ae4bd314d93420ce1b0c5e9e438e46eb709604bf8"
+    },
+    {
+      "path": "hub_app/Source/TizHubMainComponent.h",
+      "bytes": 2902,
+      "sha256": "b09f2ad4507442f19746bd3a5df247ae8d1d27ae9e224df5c9b5076632960eec"
+    },
+    {
+      "path": "hub_scaffold/README.md",
+      "bytes": 439,
+      "sha256": "2e4fed1e79f3004f951a6e89f75f37b5b826af98609f2f220b35f9199dae56a6"
+    },
+    {
+      "path": "hub_scaffold/Source/ArcClient.cpp",
+      "bytes": 570,
+      "sha256": "99f4024a3783fc4b959da6311ccc1c1d3acc3aba945fa7d2631b7e735bcab0af"
+    },
+    {
+      "path": "hub_scaffold/Source/ArcClient.h",
+      "bytes": 341,
+      "sha256": "769e8b3fe1cbe4b48c1a064cfdbee4e8ee50f390b1a511b53409914a87b2b709"
+    },
+    {
+      "path": "hub_scaffold/Source/Main.cpp",
+      "bytes": 99,
+      "sha256": "136730d5a6670f43c9a1c9ca4ae8d008b5c4e049d236296f60e1b5277b01605b"
+    },
+    {
+      "path": "hub_scaffold/Source/TizHubApplication.cpp",
+      "bytes": 577,
+      "sha256": "50295659f6ee8c5548557dd9eca42a952683b3b6f140d2b01d8776379e0637ca"
+    },
+    {
+      "path": "hub_scaffold/Source/TizHubApplication.h",
+      "bytes": 498,
+      "sha256": "de59201fe816cbfbd3c8a10e2d6ac0412bfb0ac0018d48125005530e4df63089"
+    },
+    {
+      "path": "hub_scaffold/Source/TizHubMainComponent.cpp",
+      "bytes": 1413,
+      "sha256": "e6541291bcfb96d2401afc2bc907f8e5227dee7d081ee12b9ad47df68e98405d"
+    },
+    {
+      "path": "hub_scaffold/Source/TizHubMainComponent.h",
+      "bytes": 668,
+      "sha256": "c9857b71c78e1f142134115c3d254f5c57eabce0b39cc4d7876a76158023e625"
+    },
+    {
+      "path": "hub_scaffold/Source/TizHubState.h",
+      "bytes": 138,
+      "sha256": "51516041309e4836deaf2ed388bb33141e961f3085cd65ec188c4549acfc230b"
+    },
+    {
+      "path": "manifests/products.catalog.json",
+      "bytes": 7976,
+      "sha256": "0ab191f5f1723148653bd1c374d0d3afd109e949ed565db3251e3ddee547169f"
+    },
+    {
+      "path": "manifests/stripe.mapping.json",
+      "bytes": 396,
+      "sha256": "dbc099338298b0f90db6389d1bf613ba6a823609c9f85e779646ae16afdd0f29"
+    },
+    {
+      "path": "packs.json",
+      "bytes": 4048,
+      "sha256": "9f48509ac127a1a3ec22cbc7698f72810b38cd553c386fb2b98cfa965871c27e"
+    },
+    {
+      "path": "plugin_bridge/README.md",
+      "bytes": 222,
+      "sha256": "bf19f001b0f2f93a1380c1c7b81909ed05b7cb5083d52e816a853de2b7256b8c"
+    },
+    {
+      "path": "plugin_bridge/include/TizPluginBridge.h",
+      "bytes": 497,
+      "sha256": "8da11aea5b01f70bfc5ee7ef32b3c805ab6725e14cdadac132457bbc1fbf3c05"
+    },
+    {
+      "path": "plugin_bridge/src/TizPluginBridge.cpp",
+      "bytes": 3279,
+      "sha256": "f06d6201883fc5aa0a0951e035391899c372543dae480590af407135203f7303"
+    },
+    {
+      "path": "plugins.json",
+      "bytes": 8539,
+      "sha256": "0e851f8dc044a329565da84f80ab770d9948c3e183fbb909e06b0370d0bf21b9"
+    },
+    {
+      "path": "schemas/entitlement.schema.json",
+      "bytes": 711,
+      "sha256": "dcfd77e7c60be248e90db2e101495576dfe635bc6f9fc38f77bde8dcd9f3c0bf"
+    },
+    {
+      "path": "schemas/product.schema.json",
+      "bytes": 725,
+      "sha256": "ec2d0b4d67b702fe52107c8997e1ff8cf6335fe8a5f965e88f9a1a7567c6095f"
+    },
+    {
+      "path": "schemas/proposal.schema.json",
+      "bytes": 511,
+      "sha256": "87619792aca6346b2e34658eb78228eb6343b57c591fb3b5a18bae3438639859"
+    },
+    {
+      "path": "scripts/backup_state.py",
+      "bytes": 242,
+      "sha256": "d6890b5c5536ac598a9cba24778932ac36c9c8c40fe88f5a7f40ad0db7835388"
+    },
+    {
+      "path": "scripts/execute_install_plan.py",
+      "bytes": 1201,
+      "sha256": "83f636212edfc246931330469f2eaac8dccfbe47afb570fec73cb014c01abf51"
+    },
+    {
+      "path": "scripts/generate_release_manifest.py",
+      "bytes": 930,
+      "sha256": "115596c22737527e156539b9f8cb322e0b7ab55c978e7c12c389af0f4d28c24f"
+    },
+    {
+      "path": "scripts/mock_install_runner.py",
+      "bytes": 1374,
+      "sha256": "5c4af20b1f2b55b8ef418b92a2773ff8618d34bde47392f5e182996a4fb7f1e7"
+    },
+    {
+      "path": "scripts/restore_state.py",
+      "bytes": 202,
+      "sha256": "191e4bc0e6a656cd6d1623b37e18a52f7c664e5c630940269af8c9cd0cd0327a"
+    },
+    {
+      "path": "scripts/run_arc_demo.sh",
+      "bytes": 225,
+      "sha256": "cafc47fa1ee669ce63203d0a911e9b8b76df7c53f720173e6305baec20177692"
+    },
+    {
+      "path": "scripts/seed_demo_data.py",
+      "bytes": 905,
+      "sha256": "4860307293ea38287607f42d9d94f1ff21df3532a3e7d4ff1683cfc4cf7b22cd"
+    },
+    {
+      "path": "scripts/validate_repo.py",
+      "bytes": 3986,
+      "sha256": "1935e7b04daa79a2c5ca3fa5d1f238eebf99e39d83f50fcb216584ddaa78021d"
+    },
+    {
+      "path": "stripe/PRODUCTS_TO_CREATE.md",
+      "bytes": 289,
+      "sha256": "76de99a88a0e8a275d2315b6f23cb30775377226c81d0072076241310bf62bc6"
+    },
+    {
+      "path": "stripe/stripe.env.example",
+      "bytes": 174,
+      "sha256": "68b282b0880babe925b0588155793a7f8b91737911df28cb756b2b5619377d1f"
+    }
+  ]
+}

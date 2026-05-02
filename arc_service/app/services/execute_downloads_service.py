@@ -168,7 +168,9 @@ def uninstall_product(request: UninstallRequest) -> dict:
     installed_path = Path(found.get("installedPath", ""))
     if installed_path.exists():
         shutil.rmtree(installed_path, ignore_errors=True)
-    current_file = installed_path.parents[1] / "CURRENT" if len(installed_path.parents) >= 2 else None
+    # install_artifact writes CURRENT beside version directories: <root>/<productId>/CURRENT.
+    # installed_path points at <root>/<productId>/<version>, so parent is the product folder.
+    current_file = installed_path.parent / "CURRENT" if installed_path else None
     if current_file and current_file.exists():
         current_file.unlink()
 
