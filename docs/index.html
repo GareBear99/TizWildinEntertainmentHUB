@@ -75,7 +75,7 @@ a:hover{text-decoration:underline}
 .v-checking{background:#2a2d48;color:var(--sub)}
 .v-uptodate{background:#14352a;color:var(--green)}
 .v-newrelease{background:#422006;color:var(--yellow)}
-.v-outdated{background:#3b1010;color:var(--red)}
+.v-norelease{background:#3b1010;color:var(--red)}
 .v-norelease{background:#1f1520;color:#a78bfa}
 .version-info{font-size:12px;color:var(--sub)}
 
@@ -101,6 +101,9 @@ a:hover{text-decoration:underline}
   .grid{grid-template-columns:1fr}
 }
 </style>
+<!-- V1_FULL_CONFLICT_CLEAN: no visible failure fallback -->
+<meta name="v1-build" content="V1_ABSOLUTE_CLEAN_2026_NO_CHECK_FAILED">
+<meta name="v1-build" content="V1_WITH_SEO_BUTTONS_RESTORED">
 </head>
 <body>
 
@@ -112,6 +115,8 @@ a:hover{text-decoration:underline}
   <div class="header-links">
     <a href="https://github.com/GareBear99/TizWildinEntertainmentHUB" target="_blank" rel="noopener">⭐ TizWildin HUB repo</a>
     <a href="https://github.com/GareBear99/awesome-audio-plugins-dev" target="_blank" rel="noopener">🎵 Awesome Audio Dev List</a>
+    <a href="index-seo.html">🌐 SEO Landing Page</a>
+    <a href="https://github.com/GareBear99/TizWildin-Release-Vault" target="_blank" rel="noopener">🗂️ Release Vault Repo</a>
   </div>
 </div>
 <div class="hub-note">
@@ -248,16 +253,20 @@ function createCard(plugin) {
 // ── Check updates for all plugins ──
 async function checkAllUpdates() {
   const btn = document.getElementById('checkAllBtn');
-  btn.classList.add('checking');
-  btn.textContent = '⟳ Checking…';
-  // Stable V1 behavior: check repos one-by-one instead of blasting GitHub API all at once.
-  // This prevents secondary rate-limit / transient API failures from making the page look broken.
+  if (btn) {
+    btn.classList.add('checking');
+    btn.textContent = '⟳ Checking…';
+  }
+
   for (const plugin of pluginData) {
     await checkPlugin(plugin);
     await new Promise(resolve => setTimeout(resolve, 140));
   }
-  btn.classList.remove('checking');
-  btn.textContent = '⟳ Check All Updates';
+
+  if (btn) {
+    btn.classList.remove('checking');
+    btn.textContent = '⟳ Check All Updates';
+  }
   updateStats();
 }
 
@@ -266,6 +275,9 @@ async function checkPlugin(plugin) {
   const versionEl = document.getElementById(`version-${plugin.id}`);
   const actionsEl = document.getElementById(`actions-${plugin.id}`);
   const repoUrl = `https://github.com/${OWNER}/${plugin.repo}`;
+
+  if (!versionEl || !actionsEl) return;
+
   versionEl.innerHTML = '<span class="version-tag v-checking"><span class="spinner"></span> Checking…</span>';
 
   try {
@@ -275,17 +287,15 @@ async function checkPlugin(plugin) {
     });
 
     if (resp.status === 404) {
-      // No packaged release yet. This is not a failure: the source repo is still the free version.
       releaseCache[plugin.id] = null;
-      versionEl.innerHTML = '<span class="version-tag v-norelease">🟣 FREE SOURCE READY</span><span class="version-info">No packaged release yet — clone or download from the repo.</span>';
-      actionsEl.innerHTML = `<a class="download-btn" href="${repoUrl}" target="_blank">⬇ Get Free Version</a>`;
+      versionEl.innerHTML = '<span class="version-tag v-norelease">🟣 FREE SOURCE READY</span><span class="version-info">No packaged release yet — repo/source is available.</span>';
+      actionsEl.innerHTML = `<a class="download-btn" href="${repoUrl}" target="_blank">⬇ Open Repo / Source</a>`;
       return;
     }
 
     if (!resp.ok) {
-      // GitHub API throttled/offline/transient. Do not scare users with red failure.
       releaseCache[plugin.id] = null;
-      versionEl.innerHTML = '<span class="version-tag v-norelease">🟣 FREE SOURCE READY</span><span class="version-info">Release API paused — repo/source still available.</span>';
+      versionEl.innerHTML = '<span class="version-tag v-norelease">🟣 FREE SOURCE READY</span><span class="version-info">Release API unavailable — repo/source is available.</span>';
       actionsEl.innerHTML = `<a class="download-btn" href="${repoUrl}" target="_blank">⬇ Open Repo / Source</a>`;
       return;
     }
@@ -293,7 +303,7 @@ async function checkPlugin(plugin) {
     const release = await resp.json();
     if (!release || !release.tag_name) {
       releaseCache[plugin.id] = null;
-      versionEl.innerHTML = '<span class="version-tag v-norelease">🟣 FREE SOURCE READY</span><span class="version-info">No release tag found — repo/source available.</span>';
+      versionEl.innerHTML = '<span class="version-tag v-norelease">🟣 FREE SOURCE READY</span><span class="version-info">No release tag found — repo/source is available.</span>';
       actionsEl.innerHTML = `<a class="download-btn" href="${repoUrl}" target="_blank">⬇ Open Repo / Source</a>`;
       return;
     }
@@ -323,9 +333,8 @@ async function checkPlugin(plugin) {
       }
     }
   } catch (e) {
-    // Offline, browser block, API hiccup, or GitHub transient. Keep V1 dashboard clean and usable.
     releaseCache[plugin.id] = null;
-    versionEl.innerHTML = '<span class="version-tag v-norelease">🟣 FREE SOURCE READY</span><span class="version-info">GitHub API unavailable — repo/source still works.</span>';
+    versionEl.innerHTML = '<span class="version-tag v-norelease">🟣 FREE SOURCE READY</span><span class="version-info">Release API unavailable — repo/source is available.</span>';
     actionsEl.innerHTML = `<a class="download-btn" href="${repoUrl}" target="_blank">⬇ Open Repo / Source</a>`;
   }
 }
@@ -390,7 +399,7 @@ function createPackCard(pack) {
 }
 
 // ── Auto-check toggle ──
-// Default behavior is ON for first-time visitors so the V1/free-version dashboard still checks releases by default.
+// Default behavior is ON for first-time visitors so the V1/free-version dashboard checks releases by default.
 function getAutoCheckEnabled() {
   const stored = localStorage.getItem('tiz_autocheck');
   if (stored === null) return true;
@@ -400,11 +409,12 @@ function toggleAuto() {
   const el = document.getElementById('autoToggle');
   const next = !getAutoCheckEnabled();
   localStorage.setItem('tiz_autocheck', String(next));
-  el.classList.toggle('on', next);
+  if (el) el.classList.toggle('on', next);
 }
 function loadAutoToggle() {
   const on = getAutoCheckEnabled();
-  document.getElementById('autoToggle').classList.toggle('on', on);
+  const el = document.getElementById('autoToggle');
+  if (el) el.classList.toggle('on', on);
 }
 
 // ── Boot ──

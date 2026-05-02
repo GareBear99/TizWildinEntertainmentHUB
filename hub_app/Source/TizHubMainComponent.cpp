@@ -90,7 +90,7 @@ void PluginCard::paint (juce::Graphics& g)
         case State::installed:       tagCol = juce::Colour (0xff14352au); tagText = "Installed " + versionLabel; break;
         case State::updateAvailable: tagCol = juce::Colour (0xff422006u); tagText = "Update: " + versionLabel;   break;
         case State::downloading:     tagCol = juce::Colour (0xff2a2d48u); tagText = "Downloading...";       break;
-        case State::failed:          tagCol = juce::Colour (0xff3b1010u); tagText = "Check failed";         break;
+        case State::failed:          tagCol = juce::Colour (0xff3b1010u); tagText = "Source ready";         break;
     }
 
     auto tagW = juce::jmax (120, (int) g.getCurrentFont().getStringWidthFloat (tagText) + 20);

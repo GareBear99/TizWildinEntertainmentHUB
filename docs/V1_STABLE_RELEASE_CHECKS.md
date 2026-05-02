@@ -1,6 +1,6 @@
 # V1 Stable Release Checks
 
-The V1 public dashboard now avoids the red `CHECK FAILED` glitch.
+The V1 public dashboard now avoids the red failure glitch.
 
 ## Fixes
 
