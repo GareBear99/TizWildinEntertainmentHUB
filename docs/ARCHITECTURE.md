@@ -1,34 +1,31 @@
 # Architecture
 
-TizWildin Entertainment HUB has three layers.
+## Rule
+**Stripe bills. ARC decides. Hub operates. Plugins ask.**
 
-## 1. Public discovery layer
+## Components
 
-- `README.md`
-- `docs/index.html`
-- `plugins.json`
-- `packs.json`
-- Release Vault / SoundCloud / YouTube / FreeEQ8 links
+### ARC
+Authority service for:
+- catalog truth
+- entitlements
+- seat assignment and release
+- runtime validation
+- install/update planning
+- account summary aggregation
+- webhook ingestion and mock entitlement mutation
 
-This layer is the SEO and trust surface.
+### HUB
+Desktop operator surface for:
+- catalog browsing
+- entitlement visibility
+- install / update plans
+- seat visibility and release
+- billing handoff
+- local scan reporting
 
-## 2. Local app layer
-
-- `hub_app/`
-- `hub_scaffold/`
-- `plugin_bridge/`
-
-This layer represents the desktop hub, plugin bridge, and product launcher direction.
-
-## 3. Local service layer
-
-- `arc_service/`
-- `manifests/`
-- `schemas/`
-- `scripts/`
-
-This layer handles catalog, mock auth, entitlements, install plans, staged releases, receipts, backups, diagnostics, and future account/payment integration.
-
-## Core doctrine
-
-The HUB is a router first: every feature should route the user toward a clear next useful action without overclaiming what is live.
+### Plugin Bridge
+Thin in-plugin client for:
+- runtime validation
+- hub handoff
+- denial reason handling

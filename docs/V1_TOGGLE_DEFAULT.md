@@ -1,6 +1,8 @@
 # V1 / Free-Version Toggle Default
 
-The dashboard auto-check toggle defaults **ON** for first-time visitors.
+This package is based on the user's previous default package, not the newer SEO-default package.
+
+`docs/index.html` remains the default V1 public dashboard.
 
 Behavior:
 
@@ -13,5 +15,3 @@ Native JUCE hub behavior is aligned:
 ```cpp
 return props->getBoolValue ("autoUpdate", true);
 ```
-
-This preserves the V1/free-version dashboard as the default active update-check experience.

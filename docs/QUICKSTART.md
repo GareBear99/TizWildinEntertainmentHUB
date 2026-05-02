@@ -1,35 +1,40 @@
-# Quickstart
+# TizWildinEntertainment HUB Quickstart
 
-## View the public site
+## Fast local demo
+1. Start ARC:
+   `./scripts/run_arc_demo.sh`
+2. Bootstrap demo data:
+   `curl -X POST "http://127.0.0.1:8000/demo/bootstrap?stage_artifacts=true"`
+3. Open these useful endpoints:
+   - `/launchpad/demo_account?machine_id=mac_demo&channel=stable`
+   - `/account-summary/demo_account`
+   - `/catalog/owned/demo_account`
+   - `/releases`
 
-```bash
-python3 -m http.server 8080
-# open http://localhost:8080/docs/
-```
+## Docker route
+Run:
+`docker compose up --build`
 
-## Run the local API
+Then bootstrap the same way.
 
-```bash
-cd arc_service
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-uvicorn app.main:app --reload
-```
+## What v1.0 adds
+- one-shot demo bootstrap
+- consolidated launchpad endpoint
+- Dockerfile + compose
+- cleaner local run path
+- richer machine summaries with product counts
 
-Health check:
 
-```bash
-curl http://127.0.0.1:8000/health
-```
+### Extra operator endpoints
+- `POST /sync` for a one-call readiness and install/download summary
+- `GET /audit/{account_id}` for a quick readiness score
+- `GET /support/bundle/{account_id}` to write a support zip with diagnostics + backup
 
-## Run tests
 
-```bash
-cd arc_service
-python -m pytest
-```
-
-## Important public-facing note
-
-This repo contains production-facing docs and scaffolding, but checkout/account systems should only be described as live after real infrastructure, secrets, payment providers, signed builds, and deployment controls are connected.
+## New in v1.3
+- `POST /auth/register` creates a local user and seeds entitlements/settings.
+- `POST /auth/login` returns access + refresh tokens.
+- `POST /auth/refresh` rotates a new access token.
+- `POST /billing/checkout-session` creates a local checkout intent.
+- `POST /billing/checkout-complete` mutates entitlements for testing purchases.
+- `POST /releases/import` imports release manifests from a JSON file path, `file://`, or URL.

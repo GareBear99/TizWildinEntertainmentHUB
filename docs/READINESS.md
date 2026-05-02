@@ -1,22 +1,24 @@
-# Production Readiness
+# Readiness Snapshot v0.9
 
-## Strong today
+## Strong now
+- full mock ARC lifecycle with receipts and rollback
+- backup / restore snapshots for mock data safety
+- preflight checks for install readiness review
+- exportable diagnostics and machine aggregation
+- JUCE scaffold with operator actions surfaced in UI
+- 27 passing ARC tests
 
-- Public catalog architecture
-- SEO-first README and GitHub Pages landing page
-- Free plugin / sample pack routing
-- FastAPI service scaffold with tests
-- Release manifest, receipt, backup, and diagnostics concepts
+## Still missing for ship
+- real user auth and account identity
+- live Stripe checkout/session/webhook verification
+- real remote artifact delivery and updater UX
+- code signing, notarization, and production packaging
+- local verified JUCE desktop builds across target platforms
+- production database and deployment hardening
 
-## Not production-live until wired
 
-- real accounts
-- real Stripe checkout
-- signed installer delivery
-- remote entitlement enforcement
-- production analytics
-- creator submissions
-
-## Launch rule
-
-Public copy must always distinguish between **live**, **beta**, **scaffold**, and **roadmap**. Trust is more valuable than hype.
+## v1.0 status
+- Local demo completeness: strong
+- ARC operator flow: strong
+- Docker/local bootstrap: present
+- Real billing/auth/updater/notarization: still pending for commercial ship
