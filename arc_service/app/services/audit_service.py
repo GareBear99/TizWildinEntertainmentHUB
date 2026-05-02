@@ -48,7 +48,7 @@ def audit_account(account_id: str, machine_id: str = "mac_demo", channel: str = 
             "activeSeats": stats.get("activeSeatCount", 0),
             "maxSeats": stats.get("maxSeats", 0),
             "machines": len(summary.get("machines", [])),
-            "receipts": stats.get("installReceiptCount", 0),
+            "receipts": len(summary.get("receipts", [])),
             "activityItems": activity.get("count", 0),
             "releaseManifests": len(releases),
         },

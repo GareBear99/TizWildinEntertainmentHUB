@@ -1,22 +1,15 @@
 {
   "groups": [
     {
-      "groupId": "flagship",
-      "displayName": "Flagship",
+      "groupId": "independent_headline_products",
+      "displayName": "Independent Headline Products",
       "products": [
         "freeeq8",
-        "paintmask",
+        "therum",
         "wurp",
         "aether",
         "whispergate",
-        "therum"
-      ]
-    },
-    {
-      "groupId": "instruments",
-      "displayName": "Instruments",
-      "products": [
-        "instrudio"
+        "paintmask"
       ]
     },
     {
@@ -24,24 +17,18 @@
       "displayName": "Maid Suite",
       "products": [
         "bassmaid",
-        "spacemaid",
         "gluemaid",
-        "mixmaid",
-        "chainmaid"
+        "spacemaid",
+        "mixmaid"
       ]
     },
     {
-      "groupId": "sound_design",
-      "displayName": "Sound Design",
+      "groupId": "riftwave_suite",
+      "displayName": "RiftWave Suite",
       "products": [
-        "riftwavesuite"
-      ]
-    },
-    {
-      "groupId": "experimental",
-      "displayName": "Experimental",
-      "products": [
-        "freesampler"
+        "waveform_riftsynth_lite",
+        "waveform_pro",
+        "riftsynth_pro"
       ]
     }
   ],
@@ -49,275 +36,145 @@
     {
       "productId": "freeeq8",
       "displayName": "FreeEQ8",
-      "groupId": "flagship",
-      "edition": "free",
+      "groupId": "independent_headline_products",
+      "edition": "standard",
       "licenseClass": "FREE_OPEN",
       "status": "source_ready",
       "includedInOwnsEveryVST": false,
-      "priceModel": "free",
-      "freeVersionAvailable": true,
-      "paymentSurface": "in_product",
-      "distributionMode": "release_or_source",
-      "repo": "FreeEQ8",
-      "formats": [
-        "VST3",
-        "AU",
-        "Standalone"
-      ],
-      "developmentStage": "production"
-    },
-    {
-      "productId": "paintmask",
-      "displayName": "PaintMask",
-      "groupId": "flagship",
-      "edition": "free",
-      "licenseClass": "FREE_OPEN",
-      "status": "source_ready",
-      "includedInOwnsEveryVST": false,
-      "priceModel": "free",
-      "freeVersionAvailable": true,
-      "paymentSurface": "in_product",
-      "distributionMode": "release_or_source",
-      "repo": "PaintMask_Free-JUCE-Plugin",
-      "formats": [
-        "VST3",
-        "AU"
-      ],
-      "developmentStage": "production"
-    },
-    {
-      "productId": "wurp",
-      "displayName": "WURP",
-      "groupId": "flagship",
-      "edition": "free",
-      "licenseClass": "FREE_OPEN",
-      "status": "source_ready",
-      "includedInOwnsEveryVST": false,
-      "priceModel": "free",
-      "freeVersionAvailable": true,
-      "paymentSurface": "in_product",
-      "distributionMode": "release_or_source",
-      "repo": "WURP_Toxic-Motion-Engine_JUCE",
-      "formats": [
-        "VST3",
-        "AU"
-      ],
-      "developmentStage": "production"
-    },
-    {
-      "productId": "aether",
-      "displayName": "AETHER",
-      "groupId": "flagship",
-      "edition": "free",
-      "licenseClass": "FREE_OPEN",
-      "status": "source_ready",
-      "includedInOwnsEveryVST": false,
-      "priceModel": "free",
-      "freeVersionAvailable": true,
-      "paymentSurface": "in_product",
-      "distributionMode": "release_or_source",
-      "repo": "AETHER_Choir-Atmosphere-Designer",
-      "formats": [
-        "VST3",
-        "AU"
-      ],
-      "developmentStage": "beta"
-    },
-    {
-      "productId": "whispergate",
-      "displayName": "WhisperGate",
-      "groupId": "flagship",
-      "edition": "free",
-      "licenseClass": "FREE_OPEN",
-      "status": "source_ready",
-      "includedInOwnsEveryVST": false,
-      "priceModel": "free",
-      "freeVersionAvailable": true,
-      "paymentSurface": "in_product",
-      "distributionMode": "release_or_source",
-      "repo": "WhisperGate_Free-JUCE-Plugin",
-      "formats": [
-        "VST3",
-        "AU"
-      ],
-      "developmentStage": "production"
+      "priceModel": "free"
     },
     {
       "productId": "therum",
       "displayName": "Therum",
-      "groupId": "flagship",
-      "edition": "free",
-      "licenseClass": "FREE_OPEN",
+      "groupId": "independent_headline_products",
+      "edition": "pro",
+      "licenseClass": "PRO_PUBLIC_REPO",
       "status": "source_ready",
-      "includedInOwnsEveryVST": false,
-      "priceModel": "free",
-      "freeVersionAvailable": true,
-      "paymentSurface": "in_product",
-      "distributionMode": "release_or_source",
-      "repo": "Therum_JUCE-Plugin",
-      "formats": [
-        "VST3",
-        "AU"
-      ],
-      "developmentStage": "production"
+      "includedInOwnsEveryVST": true,
+      "priceModel": "one_time"
     },
     {
-      "productId": "instrudio",
-      "displayName": "Instrudio",
-      "groupId": "instruments",
-      "edition": "free",
+      "productId": "wurp",
+      "displayName": "WURP",
+      "groupId": "independent_headline_products",
+      "edition": "standard",
+      "licenseClass": "PRO_PUBLIC_REPO",
+      "status": "source_ready",
+      "includedInOwnsEveryVST": true,
+      "priceModel": "one_time",
+      "upcomingEditions": [
+        {
+          "editionId": "toxicron_edition",
+          "displayName": "Toxicron Edition",
+          "status": "coming_soon"
+        }
+      ]
+    },
+    {
+      "productId": "aether",
+      "displayName": "AETHER",
+      "groupId": "independent_headline_products",
+      "edition": "standard",
+      "licenseClass": "PRO_PUBLIC_REPO",
+      "status": "source_ready",
+      "includedInOwnsEveryVST": true,
+      "priceModel": "one_time"
+    },
+    {
+      "productId": "whispergate",
+      "displayName": "WhisperGate",
+      "groupId": "independent_headline_products",
+      "edition": "standard",
       "licenseClass": "FREE_OPEN",
       "status": "source_ready",
       "includedInOwnsEveryVST": false,
-      "priceModel": "free",
-      "freeVersionAvailable": true,
-      "paymentSurface": "in_product",
-      "distributionMode": "release_or_source",
-      "repo": "Instrudio",
-      "formats": [
-        "VST3",
-        "AU",
-        "Standalone"
-      ],
-      "developmentStage": "beta"
+      "priceModel": "free"
+    },
+    {
+      "productId": "paintmask",
+      "displayName": "PaintMask",
+      "groupId": "independent_headline_products",
+      "edition": "studio",
+      "licenseClass": "PRO_PUBLIC_REPO",
+      "status": "source_ready",
+      "includedInOwnsEveryVST": true,
+      "priceModel": "subscription_or_one_time"
     },
     {
       "productId": "bassmaid",
       "displayName": "BassMaid",
       "groupId": "maid_suite",
-      "edition": "free",
-      "licenseClass": "FREE_OPEN",
+      "edition": "pro",
+      "licenseClass": "PRO_PUBLIC_REPO",
       "status": "source_ready",
-      "includedInOwnsEveryVST": false,
-      "priceModel": "free",
-      "freeVersionAvailable": true,
-      "paymentSurface": "in_product",
-      "distributionMode": "release_or_source",
-      "repo": "BassMaid",
-      "formats": [
-        "VST3",
-        "AU"
-      ],
-      "developmentStage": "production"
-    },
-    {
-      "productId": "spacemaid",
-      "displayName": "SpaceMaid",
-      "groupId": "maid_suite",
-      "edition": "free",
-      "licenseClass": "FREE_OPEN",
-      "status": "source_ready",
-      "includedInOwnsEveryVST": false,
-      "priceModel": "free",
-      "freeVersionAvailable": true,
-      "paymentSurface": "in_product",
-      "distributionMode": "release_or_source",
-      "repo": "SpaceMaid",
-      "formats": [
-        "VST3",
-        "AU"
-      ],
-      "developmentStage": "production"
+      "includedInOwnsEveryVST": true,
+      "priceModel": "one_time"
     },
     {
       "productId": "gluemaid",
       "displayName": "GlueMaid",
       "groupId": "maid_suite",
-      "edition": "free",
-      "licenseClass": "FREE_OPEN",
+      "edition": "pro",
+      "licenseClass": "PRO_PUBLIC_REPO",
       "status": "source_ready",
-      "includedInOwnsEveryVST": false,
-      "priceModel": "free",
-      "freeVersionAvailable": true,
-      "paymentSurface": "in_product",
-      "distributionMode": "release_or_source",
-      "repo": "GlueMaid",
-      "formats": [
-        "VST3",
-        "AU"
-      ],
-      "developmentStage": "production"
+      "includedInOwnsEveryVST": true,
+      "priceModel": "one_time"
+    },
+    {
+      "productId": "spacemaid",
+      "displayName": "SpaceMaid",
+      "groupId": "maid_suite",
+      "edition": "pro",
+      "licenseClass": "PRO_PUBLIC_REPO",
+      "status": "source_ready",
+      "includedInOwnsEveryVST": true,
+      "priceModel": "one_time"
     },
     {
       "productId": "mixmaid",
       "displayName": "MixMaid",
       "groupId": "maid_suite",
-      "edition": "free",
-      "licenseClass": "FREE_OPEN",
+      "edition": "pro",
+      "licenseClass": "PRO_PUBLIC_REPO",
       "status": "source_ready",
-      "includedInOwnsEveryVST": false,
-      "priceModel": "free",
-      "freeVersionAvailable": true,
-      "paymentSurface": "in_product",
-      "distributionMode": "release_or_source",
-      "repo": "MixMaid",
-      "formats": [
-        "VST3",
-        "AU"
-      ],
-      "developmentStage": "production"
+      "includedInOwnsEveryVST": true,
+      "priceModel": "one_time",
+      "bundleRule": "unlock_with_complete_collection_or_full_pro_set"
     },
     {
-      "productId": "chainmaid",
-      "displayName": "ChainMaid",
-      "groupId": "maid_suite",
-      "edition": "free",
-      "licenseClass": "FREE_OPEN",
+      "productId": "waveform_riftsynth_lite",
+      "displayName": "WaveForm / RiftSynth Lite",
+      "groupId": "riftwave_suite",
+      "edition": "lite",
+      "licenseClass": "FREE_LITE",
       "status": "source_ready",
       "includedInOwnsEveryVST": false,
-      "priceModel": "free",
-      "freeVersionAvailable": true,
-      "paymentSurface": "in_product",
-      "distributionMode": "release_or_source",
-      "repo": "ChainMaid",
-      "formats": [
-        "VST3",
-        "AU"
-      ],
-      "developmentStage": "production"
+      "priceModel": "free"
     },
     {
-      "productId": "riftwavesuite",
-      "displayName": "RiftWave Suite",
-      "groupId": "sound_design",
-      "edition": "free",
-      "licenseClass": "FREE_OPEN",
+      "productId": "waveform_pro",
+      "displayName": "WaveForm Pro",
+      "groupId": "riftwave_suite",
+      "edition": "pro",
+      "licenseClass": "PRO_PUBLIC_REPO",
       "status": "source_ready",
-      "includedInOwnsEveryVST": false,
-      "priceModel": "free",
-      "freeVersionAvailable": true,
-      "paymentSurface": "in_product",
-      "distributionMode": "release_or_source",
-      "repo": "RiftWaveSuite_RiftSynth_WaveForm_Lite",
-      "formats": [
-        "VST3",
-        "AU"
-      ],
-      "developmentStage": "beta"
+      "includedInOwnsEveryVST": true,
+      "priceModel": "one_time"
     },
     {
-      "productId": "freesampler",
-      "displayName": "FreeSampler",
-      "groupId": "experimental",
-      "edition": "free",
-      "licenseClass": "FREE_OPEN",
+      "productId": "riftsynth_pro",
+      "displayName": "RiftSynth Pro",
+      "groupId": "riftwave_suite",
+      "edition": "pro",
+      "licenseClass": "PRO_PUBLIC_REPO",
       "status": "source_ready",
-      "includedInOwnsEveryVST": false,
-      "priceModel": "free",
-      "freeVersionAvailable": true,
-      "paymentSurface": "in_product",
-      "distributionMode": "release_or_source",
-      "repo": "FreeSampler_v0.3",
-      "formats": [
-        "VST3",
-        "AU"
-      ],
-      "developmentStage": "dev"
+      "includedInOwnsEveryVST": true,
+      "priceModel": "one_time"
     }
   ],
   "globalFlags": {
-    "hubActsAs": "updater_version_controller_downloader",
-    "defaultDelivery": "free_versions_first",
-    "pluginPayments": "inside_each_product"
+    "completeCollectionFlag": "ownsEveryVST",
+    "maxExtraSeats": 9,
+    "extraSeatMonthlyPriceUsd": 3
   }
 }
