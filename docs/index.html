@@ -88,6 +88,14 @@ a:hover{text-decoration:underline}
 .card-actions .update-btn{background:#422006;border-color:#854d0e;color:var(--yellow)}
 .card-actions .update-btn:hover{background:#854d0e}
 
+
+/* Start Here / featured list card */
+.start-here-note{max-width:1280px;margin:0 auto 16px;padding:0 32px;color:var(--sub);font-size:13px;line-height:1.6}
+.start-here-note strong{color:var(--text)}
+.card.start-here-card{border-color:var(--green);background:linear-gradient(135deg,rgba(34,197,94,.14),rgba(108,123,189,.12)),var(--card);box-shadow:0 0 0 1px rgba(34,197,94,.18),0 18px 44px rgba(0,0,0,.22)}
+.card.start-here-card .card-name{font-size:19px;color:#dcffe9}
+.card.start-here-card .card-badge{background:#12391f;color:#86efac;border:1px solid rgba(74,222,128,.36)}
+
 /* Footer */
 .footer{text-align:center;padding:40px 32px;color:var(--sub);font-size:13px}
 
@@ -105,6 +113,7 @@ a:hover{text-decoration:underline}
 <meta name="v1-build" content="V1_ABSOLUTE_CLEAN_2026_NO_CHECK_FAILED">
 <meta name="v1-build" content="V1_WITH_SEO_BUTTONS_RESTORED">
 <meta name="v1-build" content="V1_WITH_LISTS_TAB_2026">
+<meta name="v1-build" content="V1_START_HERE_AUDIO_PLUGINS_DEV_2026">
 </head>
 <body>
 
@@ -115,16 +124,17 @@ a:hover{text-decoration:underline}
   </div>
   <div class="header-links">
     <a href="https://github.com/GareBear99/TizWildinEntertainmentHUB" target="_blank" rel="noopener">⭐ TizWildin HUB repo</a>
-    <a href="https://github.com/GareBear99/awesome-audio-plugins-dev" target="_blank" rel="noopener">🎵 Awesome Audio Dev List</a>
+    <a href="https://github.com/GareBear99/awesome-audio-plugins-dev" target="_blank" rel="noopener">🚀 Start Here: Audio Plugins Dev</a>
     <a href="https://github.com/GareBear99/awesome-audio-lists" target="_blank" rel="noopener">📚 Awesome Audio Lists</a>
     <a href="https://github.com/GareBear99/awesome-music-platforms" target="_blank" rel="noopener">🌎 Music Platforms List</a>
+    <a href="https://github.com/GareBear99/awesome-python-audio-science" target="_blank" rel="noopener">🐍 Python Audio Science</a>
     <a href="index-seo.html">🌐 SEO Landing Page</a>
     <a href="https://github.com/GareBear99/TizWildin-Release-Vault" target="_blank" rel="noopener">🗂️ Release Vault Repo</a>
   </div>
 </div>
 <div class="hub-note">
   <div class="hub-note-box">
-    <strong>The HUB is not the checkout.</strong> Every plugin listed here has a free version. The HUB handles updates, downloads, release checks, repo/source access, and public list routing. Any payments, upgrades, or unlocks happen <strong>inside each product</strong>.
+    <strong>The HUB is not the checkout.</strong> Every plugin listed here has a free version. The HUB handles updates, downloads, release checks, repo/source access, and public list routing. Any payments, upgrades, or unlocks happen <strong>inside each product</strong>.<br><strong>Start Here:</strong> <a href="https://github.com/GareBear99/awesome-audio-plugins-dev" target="_blank" rel="noopener">awesome-audio-plugins-dev</a> is now the canonical first list for plugin discovery, audio-development links, FreeEQ8/FreeVox8 routing, and the rest of the GareBear99 audio network.
   </div>
 </div>
 
@@ -156,6 +166,9 @@ a:hover{text-decoration:underline}
 </div>
 
 <div id="screen-lists" class="screen">
+  <div class="start-here-note" id="startHereListsNote">
+    <strong>Start Here list:</strong> <a href="https://github.com/GareBear99/awesome-audio-plugins-dev" target="_blank" rel="noopener">awesome-audio-plugins-dev</a> is the first click for the public audio ecosystem. From there, visitors branch into plugin development, FreeEQ8, FreeVox8, music-platform lists, Python audio science, sample packs, release proof, and the .io router.
+  </div>
   <div class="controls">
     <div class="stats" id="listStats"></div>
   </div>
@@ -426,8 +439,11 @@ function createPackCard(pack) {
 function renderLists(manifest) {
   const container = document.getElementById('listContainer');
   container.innerHTML = '';
-  for (const cat of manifest.categories) {
-    const lists = manifest.lists.filter(item => item.category === cat.id);
+  const categories = [...manifest.categories].sort((a, b) => (a.id === 'start_here' ? -1 : b.id === 'start_here' ? 1 : 0));
+  for (const cat of categories) {
+    const lists = manifest.lists
+      .filter(item => item.category === cat.id)
+      .sort((a, b) => (a.priority || 99) - (b.priority || 99));
     if (!lists.length) continue;
     const section = document.createElement('div');
     section.className = 'category';
@@ -439,18 +455,18 @@ function renderLists(manifest) {
     }
   }
   document.getElementById('listStats').textContent =
-    `${manifest.lists.length} public list/project anchors · GitHub discovery network`;
+    `${manifest.lists.length} public list/project anchors · Start Here: awesome-audio-plugins-dev`;
 }
 
 // ── Create a single public discovery/list card ──
 function createListCard(item) {
   const card = document.createElement('div');
-  card.className = 'card';
+  card.className = item.startHere ? 'card start-here-card' : 'card';
   const tags = (item.tags || []).map(t => `<span class="pack-tag">${t}</span>`).join('');
-  const repoUrl = `https://github.com/${OWNER}/${item.repo}`;
+  const repoUrl = item.url || `https://github.com/${OWNER}/${item.repo}`;
   card.innerHTML = `
     <div class="card-top">
-      <div class="card-name">📚 ${item.name}</div>
+      <div class="card-name">${item.startHere ? '🚀' : '📚'} ${item.name}</div>
       <div class="card-badge badge-free">${item.type || 'LIST'}</div>
     </div>
     <div class="card-desc">${item.description}</div>
@@ -459,7 +475,7 @@ function createListCard(item) {
       <span class="version-tag v-uptodate">${item.status || 'canonical'}</span>
     </div>
     <div class="card-actions">
-      <a href="${repoUrl}" target="_blank">📂 Open GitHub</a>
+      <a href="${repoUrl}" target="_blank" rel="noopener">${item.startHere ? '🚀 Start Here' : (item.url ? '🌐 Open Route' : '📂 Open GitHub')}</a>
     </div>
   `;
   return card;

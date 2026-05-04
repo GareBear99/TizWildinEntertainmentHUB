@@ -6,8 +6,8 @@
   },
   {
     "path": "CHANGELOG.md",
-    "lines": 30,
-    "bytes": 1558
+    "lines": 39,
+    "bytes": 2181
   },
   {
     "path": "CODE_OF_CONDUCT.md",
@@ -21,8 +21,8 @@
   },
   {
     "path": "README.md",
-    "lines": 342,
-    "bytes": 21395
+    "lines": 344,
+    "bytes": 21862
   },
   {
     "path": "arc_service/Dockerfile",
@@ -746,8 +746,8 @@
   },
   {
     "path": "docs/FILE_INVENTORY.json",
-    "lines": 626,
-    "bytes": 20654
+    "lines": 1087,
+    "bytes": 22121
   },
   {
     "path": "docs/OPERATOR_RUNBOOK.md",
@@ -815,6 +815,11 @@
     "bytes": 611
   },
   {
+    "path": "docs/V1_LISTS_TAB_AUDIT.md",
+    "lines": 240,
+    "bytes": 14157
+  },
+  {
     "path": "docs/V1_SEO_BUTTONS_RESTORED_AUDIT.md",
     "lines": 24,
     "bytes": 672
@@ -825,14 +830,19 @@
     "bytes": 559
   },
   {
+    "path": "docs/V1_START_HERE_LIST_AUDIT.md",
+    "lines": 38,
+    "bytes": 2007
+  },
+  {
     "path": "docs/V1_TOGGLE_DEFAULT.md",
     "lines": 17,
     "bytes": 506
   },
   {
     "path": "docs/data/lists.json",
-    "lines": 121,
-    "bytes": 3730
+    "lines": 198,
+    "bytes": 6252
   },
   {
     "path": "docs/data/packs.json",
@@ -847,12 +857,12 @@
   {
     "path": "docs/index-seo.html",
     "lines": 55,
-    "bytes": 15221
+    "bytes": 16672
   },
   {
     "path": "docs/index.html",
-    "lines": 491,
-    "bytes": 22168
+    "lines": 507,
+    "bytes": 24084
   },
   {
     "path": "docs/robots.txt",
@@ -866,8 +876,8 @@
   },
   {
     "path": "docs/sitemap.xml",
-    "lines": 11,
-    "bytes": 891
+    "lines": 12,
+    "bytes": 998
   },
   {
     "path": "hub_app/CMakeLists.txt",
@@ -976,8 +986,8 @@
   },
   {
     "path": "lists.json",
-    "lines": 121,
-    "bytes": 3730
+    "lines": 198,
+    "bytes": 6252
   },
   {
     "path": "manifests/products.catalog.json",

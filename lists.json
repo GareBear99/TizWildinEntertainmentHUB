@@ -4,6 +4,11 @@
   "description": "Canonical public awesome-list and discovery surfaces linked from the TizWildinEntertainment HUB.",
   "categories": [
     {
+      "id": "start_here",
+      "name": "Start Here",
+      "icon": "\ud83d\ude80"
+    },
+    {
       "id": "hub_lists",
       "name": "Hub & Discovery Lists",
       "icon": "\ud83d\udcda"
@@ -22,9 +27,36 @@
       "id": "project_anchors",
       "name": "Project Anchors",
       "icon": "\u2693"
+    },
+    {
+      "id": "python_audio_science",
+      "name": "Python Audio Science Lists",
+      "icon": "\ud83d\udc0d"
     }
   ],
   "lists": [
+    {
+      "id": "awesome-audio-plugins-dev",
+      "name": "Awesome Audio Plugins Dev",
+      "description": "START HERE: the main public entry list for the GareBear99 / TizWildin audio ecosystem. Curated audio plugin development and discovery resources for JUCE, VST3/AU, DSP, open-source plugin projects, FreeEQ8, FreeVox8, and developer visibility.",
+      "category": "start_here",
+      "repo": "awesome-audio-plugins-dev",
+      "type": "START HERE",
+      "status": "canonical entry point",
+      "tags": [
+        "start here",
+        "audio plugins",
+        "JUCE",
+        "DSP",
+        "VST3",
+        "AU",
+        "FreeEQ8",
+        "FreeVox8",
+        "developer resources"
+      ],
+      "priority": 1,
+      "startHere": true
+    },
     {
       "id": "awesome-audio-lists",
       "name": "Awesome Audio Lists",
@@ -38,7 +70,8 @@
         "submission targets",
         "SEO hub",
         "discovery"
-      ]
+      ],
+      "priority": 2
     },
     {
       "id": "awesome-music-platforms",
@@ -54,22 +87,26 @@
         "beat selling",
         "sample packs",
         "sync licensing"
-      ]
+      ],
+      "priority": 3
     },
     {
-      "id": "awesome-audio-plugins-dev",
-      "name": "Awesome Audio Plugins Dev",
-      "description": "Curated audio plugin development and discovery list for JUCE, VST3/AU, DSP resources, open-source plugin projects, and developer visibility.",
-      "category": "audio_dev",
-      "repo": "awesome-audio-plugins-dev",
+      "id": "awesome-python-audio-science",
+      "name": "Awesome Python Audio Science",
+      "description": "Python scientific audio, DSP, MIR, machine-learning audio, datasets, notebooks, plugin testing, and creator-audio research tooling; linked to the TizWildin HUB and deconstructed-loop/router ecosystem.",
+      "category": "python_audio_science",
+      "repo": "awesome-python-audio-science",
       "type": "Satellite List",
       "status": "canonical",
+      "priority": 4,
       "tags": [
-        "audio plugins",
-        "JUCE",
+        "python audio",
+        "scientific audio",
         "DSP",
-        "VST3",
-        "developer resources"
+        "MIR",
+        "machine learning audio",
+        "datasets",
+        "plugin testing"
       ]
     },
     {
@@ -86,7 +123,8 @@
         "VST3",
         "AU",
         "producer tool"
-      ]
+      ],
+      "priority": 5
     },
     {
       "id": "freevox8",
@@ -101,7 +139,8 @@
         "ghost resynthesis",
         "audio plugin",
         "FreeVox8"
-      ]
+      ],
+      "priority": 6
     },
     {
       "id": "tizwildin-release-vault",
@@ -115,6 +154,44 @@
         "release vault",
         "catalog proof",
         "music releases"
+      ],
+      "priority": 7
+    },
+    {
+      "id": "tizwildin-io-router",
+      "name": "TizWildin .io Router",
+      "description": "Public GitHub Pages router for plugins, lists, packs, deconstructed loops, visualizers, release proof, and TizWildin ecosystem navigation.",
+      "category": "project_anchors",
+      "repo": "TizWildinEntertainmentHUB",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/",
+      "type": "IO Router",
+      "status": "public route",
+      "priority": 8,
+      "tags": [
+        "io router",
+        "deconstructed loops",
+        "sample packs",
+        "plugins",
+        "lists",
+        "visualizers"
+      ]
+    },
+    {
+      "id": "deconstructed-loops-router",
+      "name": "Deconstructed Loops / Packs Router",
+      "description": "Public route for TizWildin deconstructed loops, stems, free sample packs, producer assets, and future pack-store/Release Vault handoff.",
+      "category": "project_anchors",
+      "repo": "TizWildinEntertainmentHUB",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/#packs",
+      "type": "Packs Route",
+      "status": "public route",
+      "priority": 9,
+      "tags": [
+        "deconstructed loops",
+        "stems",
+        "sample packs",
+        "producer packs",
+        "router"
       ]
     }
   ]
