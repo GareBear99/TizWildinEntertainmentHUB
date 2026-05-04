@@ -1,3 +1,12 @@
+
+## 2026-05-03 — V1 Start Here List Routing Update
+
+- Promoted `awesome-audio-plugins-dev` as the canonical **Start Here** list on the default public V1 dashboard.
+- Added/retained visible public routing to `awesome-audio-lists`, `awesome-music-platforms`, and `awesome-python-audio-science`.
+- Updated `lists.json` and `docs/data/lists.json` with priority ordering, Start Here metadata, and Python audio science routing.
+- Updated `docs/index.html` and `docs/index-seo.html` so the `.io` public page exposes crawlable links to the complete list network.
+- Added audit evidence under `docs/V1_START_HERE_LIST_AUDIT.md`.
+
 # Changelog
 
 ## 2026-05-04 — V1 public dashboard Lists tab + discovery network routing
