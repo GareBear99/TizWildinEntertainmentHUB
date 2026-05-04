@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-05-04 — V1 public dashboard Lists tab + discovery network routing
+
+- Added a visible **📚 Lists** tab to the default public `.io` dashboard (`docs/index.html`).
+- Added `lists.json` and `docs/data/lists.json` as the data source for canonical list/project anchors.
+- Linked the HUB to `awesome-audio-lists`, `awesome-music-platforms`, `awesome-audio-plugins-dev`, FreeEQ8, FreeVox8, and Release Vault.
+- Updated the SEO landing page, sitemap, README, and audit docs to reflect the list-network routing.
+- Preserved V1 default behavior and the auto-check toggle default.
+
+
 ## v2.0.0 — Public production hardening audit
 
 - Rebuilt README as a public SEO and trust funnel.
