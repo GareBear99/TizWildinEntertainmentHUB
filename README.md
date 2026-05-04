@@ -8,6 +8,10 @@
 >
 > 🎵 [Awesome Audio](https://github.com/GareBear99/awesome-audio-plugins-dev) — My (FREE) Awesome Audio Dev List
 >
+> 📚 [Awesome Audio Lists](https://github.com/GareBear99/awesome-audio-lists) — parent discovery hub for audio directories, plugin submission targets, sample-pack directories, and platform lists.
+>
+> 🌎 [Awesome Music Platforms](https://github.com/GareBear99/awesome-music-platforms) — music distribution, beat selling, sample packs, sync licensing, promotion, storefronts, analytics, and independent artist tools.
+>
 > ▶️ **[YouTube](https://www.youtube.com/@gfgfvmhj)** — music, visuals, demos, and releases  
 > 🌊 **[Voxel Audio](https://github.com/GareBear99/Voxel_Audio)** — free RGB waveform visualizer and audio export tool  
 > 📘 **[Facebook Page](https://www.facebook.com/profile.php?id=61564485196765)** — TizWildin / GareBearProductionz updates and Media  
@@ -18,6 +22,10 @@
 ## V1 Toggle Default
 
 This build is based on the previous default package. `docs/index.html` remains the default V1 public dashboard, and the auto-check toggle defaults ON for first-time visitors while still respecting manual user choice.
+
+## V1 Lists Tab
+
+The default `.io` public dashboard (`docs/index.html`) now includes a **📚 Lists** tab. It routes visitors into the GareBear99 Audio Discovery Network: `awesome-audio-lists`, `awesome-music-platforms`, `awesome-audio-plugins-dev`, FreeEQ8, FreeVox8, and Release Vault. The tab is data-driven by `lists.json` and `docs/data/lists.json` so future list/project anchors can be added without editing layout code.
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0a0b12,50:1e2754,100:6c7bbd&text=TizWildin%20Entertainment%20HUB&fontSize=36&fontColor=e8eaf0&animation=fadeIn&fontAlignY=36&desc=The%20Free%20Modular%20Audio%20Plugin%20Ecosystem&descSize=16&descColor=a0a6bc&descAlignY=56" width="100%">

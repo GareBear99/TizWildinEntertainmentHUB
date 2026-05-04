@@ -104,6 +104,7 @@ a:hover{text-decoration:underline}
 <!-- V1_FULL_CONFLICT_CLEAN: no visible failure fallback -->
 <meta name="v1-build" content="V1_ABSOLUTE_CLEAN_2026_NO_CHECK_FAILED">
 <meta name="v1-build" content="V1_WITH_SEO_BUTTONS_RESTORED">
+<meta name="v1-build" content="V1_WITH_LISTS_TAB_2026">
 </head>
 <body>
 
@@ -115,19 +116,22 @@ a:hover{text-decoration:underline}
   <div class="header-links">
     <a href="https://github.com/GareBear99/TizWildinEntertainmentHUB" target="_blank" rel="noopener">⭐ TizWildin HUB repo</a>
     <a href="https://github.com/GareBear99/awesome-audio-plugins-dev" target="_blank" rel="noopener">🎵 Awesome Audio Dev List</a>
+    <a href="https://github.com/GareBear99/awesome-audio-lists" target="_blank" rel="noopener">📚 Awesome Audio Lists</a>
+    <a href="https://github.com/GareBear99/awesome-music-platforms" target="_blank" rel="noopener">🌎 Music Platforms List</a>
     <a href="index-seo.html">🌐 SEO Landing Page</a>
     <a href="https://github.com/GareBear99/TizWildin-Release-Vault" target="_blank" rel="noopener">🗂️ Release Vault Repo</a>
   </div>
 </div>
 <div class="hub-note">
   <div class="hub-note-box">
-    <strong>The HUB is not the checkout.</strong> Every plugin listed here has a free version. The HUB handles updates, downloads, release checks, and repo/source access. Any payments, upgrades, or unlocks happen <strong>inside each product</strong>.
+    <strong>The HUB is not the checkout.</strong> Every plugin listed here has a free version. The HUB handles updates, downloads, release checks, repo/source access, and public list routing. Any payments, upgrades, or unlocks happen <strong>inside each product</strong>.
   </div>
 </div>
 
 <div class="tabs">
   <button class="tab active" id="tab-plugins" onclick="switchScreen('plugins')">🔌 Plugins</button>
   <button class="tab" id="tab-packs" onclick="switchScreen('packs')">🎁 Packs &amp; Samples</button>
+  <button class="tab" id="tab-lists" onclick="switchScreen('lists')">📚 Lists</button>
 </div>
 
 <div id="screen-plugins" class="screen active">
@@ -151,17 +155,27 @@ a:hover{text-decoration:underline}
   <div id="packContainer"></div>
 </div>
 
+<div id="screen-lists" class="screen">
+  <div class="controls">
+    <div class="stats" id="listStats"></div>
+  </div>
+
+  <div id="listContainer"></div>
+</div>
+
 <div class="footer">
   Built with ❤️ by Gary Doman (GareBear99 / TizWildin)<br>
-  "Great sound shouldn't cost anything" — ⭐ <a href="https://github.com/GareBear99/TizWildinEntertainmentHUB">Star the repo</a>
+  "Great sound shouldn't cost anything" — ⭐ <a href="https://github.com/GareBear99/TizWildinEntertainmentHUB">Star the repo</a> · 📚 <a href="https://github.com/GareBear99/awesome-audio-lists">Audio Lists Hub</a>
 </div>
 
 <script>
 const OWNER = 'GareBear99';
 const MANIFEST_URL = 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/plugins.json';
 const PACKS_URL    = 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/packs.json';
+const LISTS_URL    = 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/lists.json';
 let pluginData = [];
 let packData = [];
+let listData = [];
 let releaseCache = {};
 
 // ── Tab / screen switcher ──
@@ -203,6 +217,15 @@ async function init() {
   } catch (e) {
     document.getElementById('packContainer').innerHTML =
       '<p style="padding:32px;color:var(--red)">Failed to load pack manifest. Check your connection.</p>';
+  }
+  try {
+    const respL = await fetchNoCache(LISTS_URL);
+    const listsManifest = await respL.json();
+    listData = listsManifest.lists;
+    renderLists(listsManifest);
+  } catch (e) {
+    document.getElementById('listContainer').innerHTML =
+      '<p style="padding:32px;color:var(--red)">Failed to load lists manifest. Check your connection.</p>';
   }
 }
 
@@ -393,6 +416,50 @@ function createPackCard(pack) {
     <div class="card-actions">
       <a href="https://github.com/${OWNER}/${pack.repo}" target="_blank">📂 Repo / Source</a>
       <a class="download-btn" href="${zipUrl}" target="_blank">⬇ Download ZIP</a>
+    </div>
+  `;
+  return card;
+}
+
+
+// ── Render public discovery/list cards grouped by category ──
+function renderLists(manifest) {
+  const container = document.getElementById('listContainer');
+  container.innerHTML = '';
+  for (const cat of manifest.categories) {
+    const lists = manifest.lists.filter(item => item.category === cat.id);
+    if (!lists.length) continue;
+    const section = document.createElement('div');
+    section.className = 'category';
+    section.innerHTML = `<div class="category-title">${cat.icon} ${cat.name}</div><div class="grid" id="list-grid-${cat.id}"></div>`;
+    container.appendChild(section);
+    const grid = section.querySelector('.grid');
+    for (const item of lists) {
+      grid.appendChild(createListCard(item));
+    }
+  }
+  document.getElementById('listStats').textContent =
+    `${manifest.lists.length} public list/project anchors · GitHub discovery network`;
+}
+
+// ── Create a single public discovery/list card ──
+function createListCard(item) {
+  const card = document.createElement('div');
+  card.className = 'card';
+  const tags = (item.tags || []).map(t => `<span class="pack-tag">${t}</span>`).join('');
+  const repoUrl = `https://github.com/${OWNER}/${item.repo}`;
+  card.innerHTML = `
+    <div class="card-top">
+      <div class="card-name">📚 ${item.name}</div>
+      <div class="card-badge badge-free">${item.type || 'LIST'}</div>
+    </div>
+    <div class="card-desc">${item.description}</div>
+    <div class="pack-tags">${tags}</div>
+    <div class="version-row">
+      <span class="version-tag v-uptodate">${item.status || 'canonical'}</span>
+    </div>
+    <div class="card-actions">
+      <a href="${repoUrl}" target="_blank">📂 Open GitHub</a>
     </div>
   `;
   return card;

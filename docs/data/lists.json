@@ -1,0 +1,121 @@
+{
+  "owner": "GareBear99",
+  "ecosystem": "TizWildin Entertainment / GareBear99 Audio Discovery Network",
+  "description": "Canonical public awesome-list and discovery surfaces linked from the TizWildinEntertainment HUB.",
+  "categories": [
+    {
+      "id": "hub_lists",
+      "name": "Hub & Discovery Lists",
+      "icon": "\ud83d\udcda"
+    },
+    {
+      "id": "audio_dev",
+      "name": "Audio Development Lists",
+      "icon": "\ud83e\uddf0"
+    },
+    {
+      "id": "artist_platforms",
+      "name": "Artist Platform Lists",
+      "icon": "\ud83c\udfa7"
+    },
+    {
+      "id": "project_anchors",
+      "name": "Project Anchors",
+      "icon": "\u2693"
+    }
+  ],
+  "lists": [
+    {
+      "id": "awesome-audio-lists",
+      "name": "Awesome Audio Lists",
+      "description": "Parent hub for audio directories, plugin submission targets, sample-pack directories, music-platform lists, and public discovery surfaces.",
+      "category": "hub_lists",
+      "repo": "awesome-audio-lists",
+      "type": "Parent Hub",
+      "status": "canonical",
+      "tags": [
+        "audio lists",
+        "submission targets",
+        "SEO hub",
+        "discovery"
+      ]
+    },
+    {
+      "id": "awesome-music-platforms",
+      "name": "Awesome Music Platforms",
+      "description": "SEO-maximized list of music platforms for streaming, distribution, beat selling, sample packs, sync licensing, promotion, storefronts, analytics, and independent artist tools.",
+      "category": "artist_platforms",
+      "repo": "awesome-music-platforms",
+      "type": "Satellite List",
+      "status": "canonical",
+      "tags": [
+        "music platforms",
+        "distribution",
+        "beat selling",
+        "sample packs",
+        "sync licensing"
+      ]
+    },
+    {
+      "id": "awesome-audio-plugins-dev",
+      "name": "Awesome Audio Plugins Dev",
+      "description": "Curated audio plugin development and discovery list for JUCE, VST3/AU, DSP resources, open-source plugin projects, and developer visibility.",
+      "category": "audio_dev",
+      "repo": "awesome-audio-plugins-dev",
+      "type": "Satellite List",
+      "status": "canonical",
+      "tags": [
+        "audio plugins",
+        "JUCE",
+        "DSP",
+        "VST3",
+        "developer resources"
+      ]
+    },
+    {
+      "id": "freeeq8",
+      "name": "FreeEQ8",
+      "description": "Flagship free/open audio plugin anchor for GitHub SEO, producer trust, plugin-discovery traffic, and the larger TizWildin audio ecosystem.",
+      "category": "project_anchors",
+      "repo": "FreeEQ8",
+      "type": "Plugin Anchor",
+      "status": "production",
+      "tags": [
+        "free EQ",
+        "audio plugin",
+        "VST3",
+        "AU",
+        "producer tool"
+      ]
+    },
+    {
+      "id": "freevox8",
+      "name": "FreeVox8",
+      "description": "Canonical spectral vocoder and ghost-resynthesis continuation anchor for future HUB routing, plugin list visibility, and public audio-tech credibility.",
+      "category": "project_anchors",
+      "repo": "FreeVox8",
+      "type": "Plugin Anchor",
+      "status": "release candidate",
+      "tags": [
+        "spectral vocoder",
+        "ghost resynthesis",
+        "audio plugin",
+        "FreeVox8"
+      ]
+    },
+    {
+      "id": "tizwildin-release-vault",
+      "name": "TizWildin Release Vault",
+      "description": "Release proof and catalog routing surface for distributed tracks, monetized releases, and official TizWildin music catalog status.",
+      "category": "project_anchors",
+      "repo": "TizWildin-Release-Vault",
+      "type": "Release Proof",
+      "status": "canonical",
+      "tags": [
+        "release vault",
+        "catalog proof",
+        "music releases"
+      ]
+    }
+  ]
+}
