@@ -6,32 +6,37 @@
     {
       "id": "start_here",
       "name": "Start Here",
-      "icon": "\ud83d\ude80"
+      "icon": "🚀"
     },
     {
       "id": "hub_lists",
       "name": "Hub & Discovery Lists",
-      "icon": "\ud83d\udcda"
+      "icon": "📚"
     },
     {
       "id": "audio_dev",
       "name": "Audio Development Lists",
-      "icon": "\ud83e\uddf0"
+      "icon": "🧰"
     },
     {
       "id": "artist_platforms",
       "name": "Artist Platform Lists",
-      "icon": "\ud83c\udfa7"
+      "icon": "🎧"
     },
     {
       "id": "project_anchors",
       "name": "Project Anchors",
-      "icon": "\u2693"
+      "icon": "⚓"
     },
     {
       "id": "python_audio_science",
       "name": "Python Audio Science Lists",
-      "icon": "\ud83d\udc0d"
+      "icon": "🐍"
+    },
+    {
+      "id": "arc_source_spine",
+      "name": "ARC Source Spine",
+      "icon": "🧠"
     }
   ],
   "lists": [
@@ -193,6 +198,104 @@
         "producer packs",
         "router"
       ]
+    },
+    {
+      "id": "arc-neuron-llmbuilder",
+      "name": "ARC-Neuron-LLMBuilder",
+      "description": "Local-first cognition-core builder for ARC: dataset preparation, model-building experiments, GGUF-oriented local AI workflows, receipts, and reproducible AI growth pipelines.",
+      "category": "arc_source_spine",
+      "repo": "ARC-Neuron-LLMBuilder",
+      "type": "ARC Route",
+      "status": "public route",
+      "tags": [
+        "local AI",
+        "LLM",
+        "GGUF",
+        "cognition core",
+        "receipts"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "arc-core",
+      "name": "ARC-Core",
+      "description": "Signal-intelligence event spine and local-first AI governance console for deterministic routing, authority gates, receipts, calibration, incident tracking, and replayable evidence.",
+      "category": "arc_source_spine",
+      "repo": "ARC-Core",
+      "type": "ARC Route",
+      "status": "public route",
+      "tags": [
+        "ARC",
+        "AI governance",
+        "receipts",
+        "event sourcing",
+        "FastAPI"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "arc-lucifer-cleanroom-runtime",
+      "name": "arc-lucifer-cleanroom-runtime",
+      "description": "Local-first cleanroom AI runtime route for offline model execution, token streaming, deterministic event capture, and reproducible inference behavior.",
+      "category": "arc_source_spine",
+      "repo": "arc-lucifer-cleanroom-runtime",
+      "type": "ARC Route",
+      "status": "public route",
+      "tags": [
+        "local AI",
+        "runtime",
+        "offline AI",
+        "token streaming"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "arc-language-module",
+      "name": "arc-language-module",
+      "description": "Language and cognition foundation route for linguistic structure, transliteration, lineage, phonology, and language-learning data.",
+      "category": "arc_source_spine",
+      "repo": "arc-language-module",
+      "type": "ARC Route",
+      "status": "public route",
+      "tags": [
+        "NLP",
+        "linguistics",
+        "language learning",
+        "cognition"
+      ],
+      "priority": 23
+    },
+    {
+      "id": "arc-rar",
+      "name": "Arc-RAR",
+      "description": "CLI-first archive manager with native-app control plane, autowrap intent validation, receipts, restore paths, and reproducible project archive handling.",
+      "category": "arc_source_spine",
+      "repo": "Arc-RAR",
+      "type": "ARC Route",
+      "status": "public route",
+      "tags": [
+        "archive",
+        "CLI",
+        "receipts",
+        "reproducibility"
+      ],
+      "priority": 24
+    },
+    {
+      "id": "omnibinary-runtime",
+      "name": "OmniBinary Runtime",
+      "description": "Native-first binary intake and execution-fabric scaffold for file inspection, host profiling, lane selection, receipts, audits, and runtime-readiness reporting.",
+      "category": "arc_source_spine",
+      "repo": "omnibinary-runtime",
+      "type": "ARC Route",
+      "status": "public route",
+      "tags": [
+        "binary runtime",
+        "native first",
+        "receipts",
+        "audits"
+      ],
+      "priority": 25
     }
   ]
 }

@@ -1,16 +1,8 @@
 {
   "owner": "GareBear99",
   "categories": [
-    {
-      "id": "tizwildin_packs",
-      "name": "TizWildin Sample Packs",
-      "icon": "🧬"
-    },
-    {
-      "id": "producer_kits",
-      "name": "Free Producer Kits",
-      "icon": "🥁"
-    }
+    { "id": "tizwildin_packs", "name": "TizWildin Sample Packs", "icon": "🧬" },
+    { "id": "producer_kits", "name": "Free Producer Kits", "icon": "🥁" }
   ],
   "packs": [
     {
@@ -19,12 +11,7 @@
       "description": "3-segment original synth melody pack with loops, stems, demo renders, and neon/cinematic phrasing.",
       "category": "tizwildin_packs",
       "repo": "TizWildin-Aurora",
-      "tags": [
-        "loops",
-        "stems",
-        "synth",
-        "neon"
-      ]
+      "tags": ["loops", "stems", "synth", "neon"]
     },
     {
       "id": "tizwildin_obsidian",
@@ -32,12 +19,7 @@
       "description": "Dark cinematic sample pack with choir textures, menu loops, transitions, bass, atmosphere, drums, and electric-banjo extensions.",
       "category": "tizwildin_packs",
       "repo": "TizWildin-Obsidian",
-      "tags": [
-        "cinematic",
-        "choir",
-        "dark",
-        "atmosphere"
-      ]
+      "tags": ["cinematic", "choir", "dark", "atmosphere"]
     },
     {
       "id": "tizwildin_skyline",
@@ -45,11 +27,7 @@
       "description": "30 BPM-tagged synthwave and darkwave loops with generator snapshot and dark neon additions.",
       "category": "tizwildin_packs",
       "repo": "TizWildin-Skyline",
-      "tags": [
-        "synthwave",
-        "darkwave",
-        "loops"
-      ]
+      "tags": ["synthwave", "darkwave", "loops"]
     },
     {
       "id": "tizwildin_chroma",
@@ -57,11 +35,7 @@
       "description": "Multi-segment game synthwave loop sample pack from TizWildin Entertainment.",
       "category": "tizwildin_packs",
       "repo": "TizWildin-Chroma",
-      "tags": [
-        "game",
-        "synthwave",
-        "loops"
-      ]
+      "tags": ["game", "synthwave", "loops"]
     },
     {
       "id": "tizwildin_chime",
@@ -69,11 +43,7 @@
       "description": "Multi-part 88 BPM chime collection spanning glass, void, halo, reed, and neon synthwave lanes.",
       "category": "tizwildin_packs",
       "repo": "TizWildin-Chime",
-      "tags": [
-        "chime",
-        "glass",
-        "88bpm"
-      ]
+      "tags": ["chime", "glass", "88bpm"]
     },
     {
       "id": "free_violin_synth",
@@ -81,11 +51,7 @@
       "description": "Physical-model violin sample kit rendered from the Instrudio violin instrument.",
       "category": "producer_kits",
       "repo": "Free-Violin-Synth-Sample-Kit",
-      "tags": [
-        "violin",
-        "physical-model",
-        "instrudio"
-      ]
+      "tags": ["violin", "physical-model", "instrudio"]
     },
     {
       "id": "free_dark_piano",
@@ -93,11 +59,7 @@
       "description": "88 piano notes plus dark and cinematic loops and MIDI.",
       "category": "producer_kits",
       "repo": "Free-Dark-Piano-Sound-Kit",
-      "tags": [
-        "piano",
-        "cinematic",
-        "midi"
-      ]
+      "tags": ["piano", "cinematic", "midi"]
     },
     {
       "id": "free_808_producer",
@@ -105,11 +67,7 @@
       "description": "94 hand-crafted 808 bass samples tuned to every chromatic key.",
       "category": "producer_kits",
       "repo": "Free-808-Producer-Kit",
-      "tags": [
-        "808",
-        "bass",
-        "trap"
-      ]
+      "tags": ["808", "bass", "trap"]
     },
     {
       "id": "free_riser_producer",
@@ -117,11 +75,7 @@
       "description": "115+ risers and 63 downlifters - noise, synth, drum, FX, cinematic.",
       "category": "producer_kits",
       "repo": "Free-Riser-Producer-Kit",
-      "tags": [
-        "risers",
-        "downlifters",
-        "fx"
-      ]
+      "tags": ["risers", "downlifters", "fx"]
     },
     {
       "id": "phonk_producer",
@@ -129,11 +83,7 @@
       "description": "Drift phonk starter kit - 808s, cowbells, drums, MIDI, templates.",
       "category": "producer_kits",
       "repo": "Phonk_Producer_Toolkit",
-      "tags": [
-        "phonk",
-        "drift",
-        "starter"
-      ]
+      "tags": ["phonk", "drift", "starter"]
     },
     {
       "id": "free_future_bass",
@@ -141,11 +91,7 @@
       "description": "Loops, fills, drums, bass, synths, pads, and FX.",
       "category": "producer_kits",
       "repo": "Free-Future-Bass-Producer-Kit",
-      "tags": [
-        "future-bass",
-        "loops",
-        "synths"
-      ]
+      "tags": ["future-bass", "loops", "synths"]
     }
   ]
 }

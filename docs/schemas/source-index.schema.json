@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TizWildin Hub Source Index",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "generatedAt",
+    "repositories",
+    "files",
+    "summary"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "string"
+    },
+    "generatedAt": {
+      "type": "string"
+    },
+    "repositories": {
+      "type": "array"
+    },
+    "files": {
+      "type": "array"
+    },
+    "summary": {
+      "type": "object"
+    },
+    "errors": {
+      "type": "array"
+    }
+  }
+}

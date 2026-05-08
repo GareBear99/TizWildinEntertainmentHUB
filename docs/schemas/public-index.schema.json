@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://garebear99.github.io/TizWildinEntertainmentHUB/schemas/public-index.schema.json",
+  "title": "TizWildin Entertainment HUB Public Index",
+  "type": "object",
+  "required": ["schemaVersion", "generatedAt", "name", "description", "owner", "baseUrl", "itemCount", "items"],
+  "properties": {
+    "schemaVersion": {"type": "string"},
+    "generatedAt": {"type": "string"},
+    "name": {"type": "string"},
+    "description": {"type": "string"},
+    "owner": {"type": "string"},
+    "baseUrl": {"type": "string"},
+    "itemCount": {"type": "integer"},
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "cluster", "kind", "name", "description", "page", "pageUrl", "canonicalUrl"],
+        "properties": {
+          "id": {"type": "string"},
+          "cluster": {"type": "string"},
+          "kind": {"type": "string"},
+          "name": {"type": "string"},
+          "description": {"type": "string"},
+          "repo": {"type": "string"},
+          "url": {"type": "string"},
+          "docs": {"type": "string"},
+          "status": {"type": "string"},
+          "tags": {"type": ["array", "null"], "items": {"type": "string"}},
+          "priority": {"type": "integer"},
+          "license": {"type": "string"},
+          "language": {"type": "string"},
+          "source_manifest": {"type": "string"},
+          "page": {"type": "string"},
+          "pageUrl": {"type": "string"},
+          "canonicalUrl": {"type": "string"},
+          "repoUrl": {"type": "string"},
+          "docsUrl": {"type": "string"}
+        }
+      }
+    }
+  }
+}
