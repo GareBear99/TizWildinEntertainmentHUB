@@ -1,0 +1,250 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-05-08T20:52:24Z",
+  "repositories": [
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "name": "TizWildinEntertainmentHUB",
+      "cluster": "TizWildin Public Hub",
+      "sourceStatus": "indexed-folder",
+      "hydrated": true,
+      "score": 78,
+      "maxScore": 100,
+      "grade": "B+",
+      "fileCount": 393,
+      "linkCount": 2204,
+      "passed": [
+        "README present",
+        "Changelog present",
+        "Contributing guide present",
+        "Code of conduct present",
+        "CI workflow present",
+        "Docs folder indexed",
+        "External/internal links found",
+        "Meaningful file coverage"
+      ],
+      "missing": [
+        "License present",
+        "Security policy present"
+      ],
+      "recommendation": "Add missing credibility files/docs."
+    },
+    {
+      "repoId": "arc-core",
+      "name": "ARC-Core",
+      "cluster": "ARC Source Spine",
+      "sourceStatus": "indexed-archive",
+      "hydrated": true,
+      "score": 90,
+      "maxScore": 100,
+      "grade": "A",
+      "fileCount": 136,
+      "linkCount": 274,
+      "passed": [
+        "README present",
+        "License present",
+        "Changelog present",
+        "Contributing guide present",
+        "Security policy present",
+        "Code of conduct present",
+        "Docs folder indexed",
+        "External/internal links found",
+        "Meaningful file coverage"
+      ],
+      "missing": [
+        "CI workflow present"
+      ],
+      "recommendation": "Add missing credibility files/docs."
+    },
+    {
+      "repoId": "arc-rar",
+      "name": "Arc-RAR",
+      "cluster": "ARC Source Spine",
+      "sourceStatus": "indexed-archive",
+      "hydrated": true,
+      "score": 52,
+      "maxScore": 100,
+      "grade": "C",
+      "fileCount": 68,
+      "linkCount": 1,
+      "passed": [
+        "README present",
+        "License present",
+        "Docs folder indexed",
+        "Meaningful file coverage"
+      ],
+      "missing": [
+        "Changelog present",
+        "Contributing guide present",
+        "Security policy present",
+        "Code of conduct present",
+        "CI workflow present",
+        "External/internal links found"
+      ],
+      "recommendation": "Add missing credibility files/docs."
+    },
+    {
+      "repoId": "omnibinary-runtime",
+      "name": "OmniBinary Runtime",
+      "cluster": "ARC Source Spine",
+      "sourceStatus": "indexed-archive",
+      "hydrated": true,
+      "score": 82,
+      "maxScore": 100,
+      "grade": "A-",
+      "fileCount": 137,
+      "linkCount": 0,
+      "passed": [
+        "README present",
+        "License present",
+        "Changelog present",
+        "Contributing guide present",
+        "Security policy present",
+        "Code of conduct present",
+        "Docs folder indexed",
+        "Meaningful file coverage"
+      ],
+      "missing": [
+        "CI workflow present",
+        "External/internal links found"
+      ],
+      "recommendation": "Add missing credibility files/docs."
+    },
+    {
+      "repoId": "arc-neuron-llmbuilder",
+      "name": "ARC-Neuron-LLMBuilder",
+      "cluster": "ARC Source Spine",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "arc-lucifer-cleanroom-runtime",
+      "name": "arc-lucifer-cleanroom-runtime",
+      "cluster": "ARC Source Spine",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "arc-language-module",
+      "name": "arc-language-module",
+      "cluster": "ARC Source Spine",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "freeeq8",
+      "name": "FreeEQ8",
+      "cluster": "TizWildin Audio Plugins",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "freevox8",
+      "name": "FreeVox8",
+      "cluster": "TizWildin Audio Plugins",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "awesome-audio-plugins-dev",
+      "name": "awesome-audio-plugins-dev",
+      "cluster": "TizWildin Discovery Lists",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    }
+  ],
+  "averageScore": 66.2,
+  "averageHydratedScore": 75.5,
+  "hydratedRepositories": 4,
+  "pendingHydration": 6
+}

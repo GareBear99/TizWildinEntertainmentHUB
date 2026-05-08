@@ -1133,6 +1133,22 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/sitemap.xml",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/ecosystem-file-search-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/assets/social/ecosystem-file-search-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/sitemap.xml",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/ecosystem-search-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/assets/social/ecosystem-search-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/sitemap.xml",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/free-808-producer-kit-card.svg",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/assets/social/free-808-producer-kit-card.svg garebear99.github.io"
@@ -1325,9 +1341,25 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/sitemap.xml",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/public-index-health-dashboard-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/assets/social/public-index-health-dashboard-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/sitemap.xml",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/release-candidate-branch-card.svg",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/assets/social/release-candidate-branch-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/sitemap.xml",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/repository-readiness-report-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/assets/social/repository-readiness-report-card.svg garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -1637,6 +1669,22 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/sitemap.xml",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/ecosystem-file-search.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/pages/ecosystem-file-search.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/sitemap.xml",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/ecosystem-search.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/pages/ecosystem-search.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/sitemap.xml",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/free-808-producer-kit.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/pages/free-808-producer-kit.html garebear99.github.io"
@@ -1821,9 +1869,25 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/sitemap.xml",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/public-index-health-dashboard.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/pages/public-index-health-dashboard.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/sitemap.xml",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/release-candidate-branch.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/pages/release-candidate-branch.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/sitemap.xml",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/repository-readiness-report.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/pages/repository-readiness-report.html garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -2133,6 +2197,22 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/public-index.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/ecosystem-file-search.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebear99.github.io/tizwildinentertainmenthub/pages/ecosystem-file-search.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/public-index.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/ecosystem-search.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebear99.github.io/tizwildinentertainmenthub/pages/ecosystem-search.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/public-index.json",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/free-808-producer-kit.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebear99.github.io/tizwildinentertainmenthub/pages/free-808-producer-kit.html garebear99.github.io"
@@ -2317,9 +2397,25 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/public-index.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/public-index-health-dashboard.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebear99.github.io/tizwildinentertainmenthub/pages/public-index-health-dashboard.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/public-index.json",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/release-candidate-branch.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebear99.github.io/tizwildinentertainmenthub/pages/release-candidate-branch.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/public-index.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/repository-readiness-report.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebear99.github.io/tizwildinentertainmenthub/pages/repository-readiness-report.html garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -3333,6 +3429,22 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/ecosystem-index.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/ecosystem-file-search.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebear99.github.io/tizwildinentertainmenthub/pages/ecosystem-file-search.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ecosystem-index.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/ecosystem-search.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebear99.github.io/tizwildinentertainmenthub/pages/ecosystem-search.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ecosystem-index.html",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/free-808-producer-kit.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebear99.github.io/tizwildinentertainmenthub/pages/free-808-producer-kit.html garebear99.github.io"
@@ -3517,9 +3629,25 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/ecosystem-index.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/public-index-health-dashboard.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebear99.github.io/tizwildinentertainmenthub/pages/public-index-health-dashboard.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ecosystem-index.html",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/release-candidate-branch.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebear99.github.io/tizwildinentertainmenthub/pages/release-candidate-branch.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ecosystem-index.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/repository-readiness-report.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebear99.github.io/tizwildinentertainmenthub/pages/repository-readiness-report.html garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -4221,6 +4349,22 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/llms.txt",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/ecosystem-file-search.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebear99.github.io/tizwildinentertainmenthub/pages/ecosystem-file-search.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/llms.txt",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/ecosystem-search.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebear99.github.io/tizwildinentertainmenthub/pages/ecosystem-search.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/llms.txt",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/free-808-producer-kit.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebear99.github.io/tizwildinentertainmenthub/pages/free-808-producer-kit.html garebear99.github.io"
@@ -4405,9 +4549,25 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/llms.txt",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/public-index-health-dashboard.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebear99.github.io/tizwildinentertainmenthub/pages/public-index-health-dashboard.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/llms.txt",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/release-candidate-branch.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebear99.github.io/tizwildinentertainmenthub/pages/release-candidate-branch.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/llms.txt",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/repository-readiness-report.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebear99.github.io/tizwildinentertainmenthub/pages/repository-readiness-report.html garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -5389,6 +5549,22 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
+      "url": "pages/ecosystem-file-search.html",
+      "domain": "",
+      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md pages/ecosystem-file-search.html "
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
+      "url": "pages/ecosystem-search.html",
+      "domain": "",
+      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md pages/ecosystem-search.html "
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
       "url": "pages/free-808-producer-kit.html",
       "domain": "",
       "queryText": "tizwildinentertainmenthub docs/public_link_graph.md pages/free-808-producer-kit.html "
@@ -5573,9 +5749,25 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
+      "url": "pages/public-index-health-dashboard.html",
+      "domain": "",
+      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md pages/public-index-health-dashboard.html "
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
       "url": "pages/release-candidate-branch.html",
       "domain": "",
       "queryText": "tizwildinentertainmenthub docs/public_link_graph.md pages/release-candidate-branch.html "
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
+      "url": "pages/repository-readiness-report.html",
+      "domain": "",
+      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md pages/repository-readiness-report.html "
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -5980,6 +6172,2030 @@
     {
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/search.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/search.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/search.html https://garebear99.github.io/tizwildinentertainmenthub/search.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "http://127.0.0.1",
+      "domain": "127.0.0.1",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json http://127.0.0.1 127.0.0.1"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "http://127.0.0.1:8000",
+      "domain": "127.0.0.1:8000",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json http://127.0.0.1:8000 127.0.0.1:8000"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "http://127.0.0.1:8000/`",
+      "domain": "127.0.0.1:8000",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json http://127.0.0.1:8000/` 127.0.0.1:8000"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "http://127.0.0.1:8000/api/health",
+      "domain": "127.0.0.1:8000",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json http://127.0.0.1:8000/api/health 127.0.0.1:8000"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "http://127.0.0.1:8000/api/manifest",
+      "domain": "127.0.0.1:8000",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json http://127.0.0.1:8000/api/manifest 127.0.0.1:8000"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "http://127.0.0.1:8000/demo/bootstrap?stage_artifacts=true",
+      "domain": "127.0.0.1:8000",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json http://127.0.0.1:8000/demo/bootstrap?stage_artifacts=true 127.0.0.1:8000"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "http://127.0.0.1:8000/health",
+      "domain": "127.0.0.1:8000",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json http://127.0.0.1:8000/health 127.0.0.1:8000"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "http://127.0.0.1:8000/ui/dashboard.html`",
+      "domain": "127.0.0.1:8000",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json http://127.0.0.1:8000/ui/dashboard.html` 127.0.0.1:8000"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "http://127.0.0.1:8000`",
+      "domain": "127.0.0.1:8000`",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json http://127.0.0.1:8000` 127.0.0.1:8000`"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "http://localhost/cancel",
+      "domain": "localhost",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json http://localhost/cancel localhost"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "http://localhost/success",
+      "domain": "localhost",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json http://localhost/success localhost"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "http://localhost:8080/docs/",
+      "domain": "localhost:8080",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json http://localhost:8080/docs/ localhost:8080"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "http://reporoster.com/forks/dark/GareBear99/TizWildinEntertainmentHUB",
+      "domain": "reporoster.com",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json http://reporoster.com/forks/dark/garebear99/tizwildinentertainmenthub reporoster.com"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "http://reporoster.com/stars/dark/GareBear99/TizWildinEntertainmentHUB",
+      "domain": "reporoster.com",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json http://reporoster.com/stars/dark/garebear99/tizwildinentertainmenthub reporoster.com"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "http://testserver",
+      "domain": "testserver",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json http://testserver testserver"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "http://www.freedesktop.org/standards/shared-mime-info",
+      "domain": "www.freedesktop.org",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json http://www.freedesktop.org/standards/shared-mime-info www.freedesktop.org"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "http://www.sitemaps.org/schemas/sitemap/0.9",
+      "domain": "www.sitemaps.org",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json http://www.sitemaps.org/schemas/sitemap/0.9 www.sitemaps.org"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "http://www.w3.org/1999/xhtml",
+      "domain": "www.w3.org",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json http://www.w3.org/1999/xhtml www.w3.org"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "http://www.w3.org/2000/svg",
+      "domain": "www.w3.org",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json http://www.w3.org/2000/svg www.w3.org"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://api.github.com/repos/",
+      "domain": "api.github.com",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://api.github.com/repos/ api.github.com"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://api.github.com/repos/${OWNER}/${plugin.repo}/releases/latest`",
+      "domain": "api.github.com",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://api.github.com/repos/${owner}/${plugin.repo}/releases/latest` api.github.com"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://api.github.com/repos/{owner}/{name}/git/trees/{branch}?recursive=1",
+      "domain": "api.github.com",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://api.github.com/repos/{owner}/{name}/git/trees/{branch}?recursive=1 api.github.com"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://arc-ai-operator.admension.workers.dev",
+      "domain": "arc-ai-operator.admension.workers.dev",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://arc-ai-operator.admension.workers.dev arc-ai-operator.admension.workers.dev"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://capsule-render.vercel.app/api?type=waving&amp;height=120&amp;color=0:0a0b12,50:1e2754,100:6c7bbd&amp;section=footer",
+      "domain": "capsule-render.vercel.app",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://capsule-render.vercel.app/api?type=waving&amp;height=120&amp;color=0:0a0b12,50:1e2754,100:6c7bbd&amp;section=footer capsule-render.vercel.app"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://capsule-render.vercel.app/api?type=waving&amp;height=200&amp;color=0:0a0b12,50:1e2754,100:6c7bbd&amp;text=TizWildin%20Entertainment%20HUB&amp;fontSize=36&amp;fontColor=e8eaf0&amp;animation=fadeIn&amp;fontAlignY=36&amp;desc=The%20Free%20Modular%20Audio%20Plugin%20Ecosystem&amp;descSize=16&amp;descColor=a0a6bc&amp;descAlignY=56",
+      "domain": "capsule-render.vercel.app",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://capsule-render.vercel.app/api?type=waving&amp;height=200&amp;color=0:0a0b12,50:1e2754,100:6c7bbd&amp;text=tizwildin%20entertainment%20hub&amp;fontsize=36&amp;fontcolor=e8eaf0&amp;animation=fadein&amp;fontaligny=36&amp;desc=the%20free%20modular%20audio%20plugin%20ecosystem&amp;descsize=16&amp;desccolor=a0a6bc&amp;descaligny=56 capsule-render.vercel.app"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0a0b12,50:1e2754,100:6c7bbd&section=footer",
+      "domain": "capsule-render.vercel.app",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0a0b12,50:1e2754,100:6c7bbd&section=footer capsule-render.vercel.app"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0a0b12,50:1e2754,100:6c7bbd&text=TizWildin%20Entertainment%20HUB&fontSize=36&fontColor=e8eaf0&animation=fadeIn&fontAlignY=36&desc=The%20Free%20Modular%20Audio%20Plugin%20Ecosystem&descSize=16&descColor=a0a6bc&descAlignY=56",
+      "domain": "capsule-render.vercel.app",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0a0b12,50:1e2754,100:6c7bbd&text=tizwildin%20entertainment%20hub&fontsize=36&fontcolor=e8eaf0&animation=fadein&fontaligny=36&desc=the%20free%20modular%20audio%20plugin%20ecosystem&descsize=16&desccolor=a0a6bc&descaligny=56 capsule-render.vercel.app"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://dash.cloudflare.com/profile/api-tokens",
+      "domain": "dash.cloudflare.com",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://dash.cloudflare.com/profile/api-tokens dash.cloudflare.com"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://example.local/a.png",
+      "domain": "example.local",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://example.local/a.png example.local"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://example.local/b.png",
+      "domain": "example.local",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://example.local/b.png example.local"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://example.local/overlay.png",
+      "domain": "example.local",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://example.local/overlay.png example.local"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://example.local/test.png",
+      "domain": "example.local",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://example.local/test.png example.local"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://example.local/{s[",
+      "domain": "example.local",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://example.local/{s[ example.local"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://fastapi.tiangolo.com/",
+      "domain": "fastapi.tiangolo.com",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://fastapi.tiangolo.com/ fastapi.tiangolo.com"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/ADMENSION/",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/admension/ garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/BrokeBot/",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/brokebot/ garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/Charm/",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/charm/ garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/DecaGrid/",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/decagrid/ garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/EdgeStack_Currency/",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/edgestack_currency/ garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/Harvest/",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/harvest/ garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/One-Shot-Multi-Shot/",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/one-shot-multi-shot/ garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/Portfolio/review.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/portfolio/review.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildin-Release-Vault/",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildin-release-vault/ garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/ garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/#packs",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/#packs garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/PUBLIC_LINK_GRAPH.md",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/public_link_graph.md garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/arc-index.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/arc-index.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/aether-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/aether-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/arc-core-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/arc-core-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/arc-language-module-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/arc-language-module-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/arc-lucifer-cleanroom-runtime-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/arc-lucifer-cleanroom-runtime-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/arc-neuron-llmbuilder-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/arc-neuron-llmbuilder-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/arc-rar-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/arc-rar-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/arc-source-spine-branch-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/arc-source-spine-branch-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/audio-directory-submission-route-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/audio-directory-submission-route-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/awesome-audio-lists-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/awesome-audio-lists-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/awesome-audio-plugins-dev-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/awesome-audio-plugins-dev-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/awesome-lists-submission-route-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/awesome-lists-submission-route-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/awesome-music-platforms-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/awesome-music-platforms-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/awesome-python-audio-science-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/awesome-python-audio-science-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/bassmaid-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/bassmaid-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/branching-strategy-route-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/branching-strategy-route-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/chainmaid-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/chainmaid-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/deconstructed-loops-packs-router-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/deconstructed-loops-packs-router-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/ecosystem-file-search-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/ecosystem-file-search-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/ecosystem-search-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/ecosystem-search-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/free-808-producer-kit-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/free-808-producer-kit-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/free-dark-piano-sound-kit-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/free-dark-piano-sound-kit-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/free-future-bass-producer-kit-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/free-future-bass-producer-kit-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/free-riser-producer-kit-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/free-riser-producer-kit-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/free-violin-synth-sample-kit-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/free-violin-synth-sample-kit-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/freeeq8-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/freeeq8-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/freesampler-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/freesampler-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/freevox8-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/freevox8-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/github-topics-cleanup-route-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/github-topics-cleanup-route-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/gluemaid-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/gluemaid-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/hub-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/hub-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/instrudio-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/instrudio-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/libhunt-submission-branch-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/libhunt-submission-branch-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/libhunt-submission-route-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/libhunt-submission-route-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/metermaid-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/metermaid-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/mixmaid-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/mixmaid-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/multimaid-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/multimaid-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/omnibinary-runtime-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/omnibinary-runtime-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/open-hub-submission-route-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/open-hub-submission-route-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/openalternative-submission-route-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/openalternative-submission-route-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/paintmask-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/paintmask-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/pap-forge-audio-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/pap-forge-audio-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/phonk-producer-toolkit-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/phonk-producer-toolkit-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/public-credibility-seo-tracker-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/public-credibility-seo-tracker-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/public-index-health-dashboard-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/public-index-health-dashboard-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/release-candidate-branch-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/release-candidate-branch-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/repository-readiness-report-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/repository-readiness-report-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/riftwave-suite-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/riftwave-suite-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/seo-public-index-branch-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/seo-public-index-branch-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/sourceforge-mirror-route-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/sourceforge-mirror-route-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/spacemaid-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/spacemaid-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/therum-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/therum-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/tizwildin-audio-cluster-branch-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/tizwildin-audio-cluster-branch-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/tizwildin-aurora-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/tizwildin-aurora-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/tizwildin-chime-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/tizwildin-chime-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/tizwildin-chroma-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/tizwildin-chroma-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/tizwildin-hub-og.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/tizwildin-hub-og.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/tizwildin-io-router-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/tizwildin-io-router-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/tizwildin-obsidian-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/tizwildin-obsidian-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/tizwildin-release-vault-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/tizwildin-release-vault-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/tizwildin-skyline-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/tizwildin-skyline-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/vf-plexlab-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/vf-plexlab-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/whispergate-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/whispergate-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/wurp-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/wurp-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/xylocore-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/assets/social/xylocore-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/ecosystem-index.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/ecosystem-index.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/index-seo.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/index-seo.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/index.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/index.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/llms.txt",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/llms.txt garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/aether.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/aether.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-core.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/arc-core.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-language-module.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/arc-language-module.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-lucifer-cleanroom-runtime.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/arc-lucifer-cleanroom-runtime.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-neuron-llmbuilder.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/arc-neuron-llmbuilder.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-rar.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/arc-rar.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-source-spine-arc-core.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/arc-source-spine-arc-core.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-source-spine-arc-language-module.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/arc-source-spine-arc-language-module.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-source-spine-arc-lucifer-cleanroom-runtime.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/arc-source-spine-arc-lucifer-cleanroom-runtime.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-source-spine-arc-neuron-llmbuilder.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/arc-source-spine-arc-neuron-llmbuilder.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-source-spine-arc-rar.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/arc-source-spine-arc-rar.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-source-spine-branch.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/arc-source-spine-branch.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-source-spine-omnibinary-runtime.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/arc-source-spine-omnibinary-runtime.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/audio-directory-submission-route.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/audio-directory-submission-route.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/awesome-audio-lists.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/awesome-audio-lists.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/awesome-audio-plugins-dev.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/awesome-audio-plugins-dev.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/awesome-lists-submission-route.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/awesome-lists-submission-route.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/awesome-music-platforms.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/awesome-music-platforms.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/awesome-python-audio-science.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/awesome-python-audio-science.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/bassmaid.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/bassmaid.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/branching-strategy-route.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/branching-strategy-route.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/chainmaid.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/chainmaid.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/deconstructed-loops-packs-router.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/deconstructed-loops-packs-router.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-arc-core.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/discovery-lists-and-public-routes-arc-core.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-arc-language-module.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/discovery-lists-and-public-routes-arc-language-module.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-arc-lucifer-cleanroom-runtime.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/discovery-lists-and-public-routes-arc-lucifer-cleanroom-runtime.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-arc-neuron-llmbuilder.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/discovery-lists-and-public-routes-arc-neuron-llmbuilder.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-arc-rar.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/discovery-lists-and-public-routes-arc-rar.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-awesome-audio-lists.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/discovery-lists-and-public-routes-awesome-audio-lists.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-awesome-audio-plugins-dev.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/discovery-lists-and-public-routes-awesome-audio-plugins-dev.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-awesome-music-platforms.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/discovery-lists-and-public-routes-awesome-music-platforms.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-awesome-python-audio-science.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/discovery-lists-and-public-routes-awesome-python-audio-science.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-deconstructed-loops-packs-router.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/discovery-lists-and-public-routes-deconstructed-loops-packs-router.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-freeeq8.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/discovery-lists-and-public-routes-freeeq8.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-freevox8.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/discovery-lists-and-public-routes-freevox8.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-omnibinary-runtime.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/discovery-lists-and-public-routes-omnibinary-runtime.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-tizwildin-io-router.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/discovery-lists-and-public-routes-tizwildin-io-router.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-tizwildin-release-vault.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/discovery-lists-and-public-routes-tizwildin-release-vault.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/ecosystem-file-search.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/ecosystem-file-search.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/ecosystem-search.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/ecosystem-search.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/free-808-producer-kit.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/free-808-producer-kit.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/free-dark-piano-sound-kit.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/free-dark-piano-sound-kit.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/free-future-bass-producer-kit.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/free-future-bass-producer-kit.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/free-riser-producer-kit.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/free-riser-producer-kit.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/free-violin-synth-sample-kit.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/free-violin-synth-sample-kit.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/freeeq8.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/freeeq8.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/freesampler.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/freesampler.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/freevox8.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/freevox8.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/github-topics-cleanup-route.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/github-topics-cleanup-route.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/gluemaid.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/gluemaid.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/instrudio.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/instrudio.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/libhunt-submission-branch.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/libhunt-submission-branch.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/libhunt-submission-route.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/libhunt-submission-route.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/metermaid.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/metermaid.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/mixmaid.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/mixmaid.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/multimaid.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/multimaid.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/omnibinary-runtime.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/omnibinary-runtime.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/open-hub-submission-route.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/open-hub-submission-route.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/openalternative-submission-route.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/openalternative-submission-route.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/paintmask.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/paintmask.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/pap-forge-audio.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/pap-forge-audio.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/phonk-producer-toolkit.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/phonk-producer-toolkit.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/public-credibility-seo-tracker.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/public-credibility-seo-tracker.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/public-index-health-dashboard.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/public-index-health-dashboard.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/release-candidate-branch.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/release-candidate-branch.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/repository-readiness-report.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/repository-readiness-report.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/riftwave-suite.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/riftwave-suite.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/seo-public-index-branch.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/seo-public-index-branch.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-core.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/source-arc-core.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-language-module.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/source-arc-language-module.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-lucifer-cleanroom-runtime.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/source-arc-lucifer-cleanroom-runtime.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-neuron-llmbuilder.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/source-arc-neuron-llmbuilder.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-rar.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/source-arc-rar.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-awesome-audio-plugins-dev.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/source-awesome-audio-plugins-dev.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freeeq8.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/source-freeeq8.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freevox8.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/source-freevox8.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-omnibinary-runtime.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/source-omnibinary-runtime.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-entertainment-hub.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/source-tizwildin-entertainment-hub.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/sourceforge-mirror-route.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/sourceforge-mirror-route.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/spacemaid.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/spacemaid.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/therum.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/therum.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-cluster-branch.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-audio-cluster-branch.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-aether.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-audio-plugins-aether.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-bassmaid.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-audio-plugins-bassmaid.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-chainmaid.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-audio-plugins-chainmaid.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-freeeq8.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-audio-plugins-freeeq8.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-freesampler.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-audio-plugins-freesampler.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-gluemaid.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-audio-plugins-gluemaid.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-instrudio.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-audio-plugins-instrudio.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-metermaid.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-audio-plugins-metermaid.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-mixmaid.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-audio-plugins-mixmaid.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-multimaid.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-audio-plugins-multimaid.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-paintmask.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-audio-plugins-paintmask.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-pap-forge-audio.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-audio-plugins-pap-forge-audio.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-riftwave-suite.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-audio-plugins-riftwave-suite.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-spacemaid.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-audio-plugins-spacemaid.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-therum.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-audio-plugins-therum.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-vf-plexlab.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-audio-plugins-vf-plexlab.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-whispergate.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-audio-plugins-whispergate.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-wurp.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-audio-plugins-wurp.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-xylocore.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-audio-plugins-xylocore.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-aurora.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-aurora.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-chime.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-chime.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-chroma.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-chroma.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-io-router.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-io-router.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-obsidian.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-obsidian.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-release-vault.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-release-vault.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-sample-packs-free-808-producer-kit.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-sample-packs-free-808-producer-kit.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-sample-packs-free-dark-piano-sound-kit.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-sample-packs-free-dark-piano-sound-kit.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-sample-packs-free-future-bass-producer-kit.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-sample-packs-free-future-bass-producer-kit.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-sample-packs-free-riser-producer-kit.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-sample-packs-free-riser-producer-kit.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-sample-packs-free-violin-synth-sample-kit.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-sample-packs-free-violin-synth-sample-kit.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-sample-packs-phonk-producer-toolkit.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-sample-packs-phonk-producer-toolkit.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-sample-packs-tizwildin-aurora.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-sample-packs-tizwildin-aurora.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-sample-packs-tizwildin-chime.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-sample-packs-tizwildin-chime.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-sample-packs-tizwildin-chroma.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-sample-packs-tizwildin-chroma.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-sample-packs-tizwildin-obsidian.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-sample-packs-tizwildin-obsidian.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-sample-packs-tizwildin-skyline.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-sample-packs-tizwildin-skyline.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-skyline.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/tizwildin-skyline.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/vf-plexlab.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/vf-plexlab.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/whispergate.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/whispergate.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/wurp.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/wurp.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/xylocore.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/pages/xylocore.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/public-index.json",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/public-index.json garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/repo-file-search.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/repo-file-search.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/schemas/public-index.schema.json",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/schemas/public-index.schema.json garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/search.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/search.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/sitemap.xml",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://garebear99.github.io/tizwildinentertainmenthub/sitemap.xml garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://git.io/typing-svg",
+      "domain": "git.io",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://git.io/typing-svg git.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://github-readme-stats.vercel.app/api?username=GareBear99&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=0a0b12&amp;title_color=6c7bbd&amp;icon_color=22c55e&amp;text_color=e8eaf0",
+      "domain": "github-readme-stats.vercel.app",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://github-readme-stats.vercel.app/api?username=garebear99&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=0a0b12&amp;title_color=6c7bbd&amp;icon_color=22c55e&amp;text_color=e8eaf0 github-readme-stats.vercel.app"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://github-readme-stats.vercel.app/api?username=GareBear99&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0b12&title_color=6c7bbd&icon_color=22c55e&text_color=e8eaf0",
+      "domain": "github-readme-stats.vercel.app",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://github-readme-stats.vercel.app/api?username=garebear99&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0b12&title_color=6c7bbd&icon_color=22c55e&text_color=e8eaf0 github-readme-stats.vercel.app"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://github.com/${OWNER}/${item.repo}`",
+      "domain": "github.com",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://github.com/${owner}/${item.repo}` github.com"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://github.com/${OWNER}/${pack.repo}",
+      "domain": "github.com",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://github.com/${owner}/${pack.repo} github.com"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://github.com/${OWNER}/${pack.repo}/archive/refs/heads/main.zip`",
+      "domain": "github.com",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://github.com/${owner}/${pack.repo}/archive/refs/heads/main.zip` github.com"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/LINK_CHECK_REPORT.json",
+      "url": "https://github.com/${OWNER}/${plugin.repo}",
+      "domain": "github.com",
+      "queryText": "tizwildinentertainmenthub docs/link_check_report.json https://github.com/${owner}/${plugin.repo} github.com"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/repo-readiness.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/repo-readiness.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/repo-readiness.html https://garebear99.github.io/tizwildinentertainmenthub/repo-readiness.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/index-health.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/index-health.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/index-health.html https://garebear99.github.io/tizwildinentertainmenthub/index-health.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "hub_app/CMakeLists.txt",
       "url": "https://github.com/juce-framework/JUCE.git",
       "domain": "github.com",
@@ -6176,6 +8392,62 @@
       "url": "https://raw.githubusercontent.com/{owner}/{name}/{branch}/{rel}",
       "domain": "raw.githubusercontent.com",
       "queryText": "tizwildinentertainmenthub scripts/build_source_repo_index.py https://raw.githubusercontent.com/{owner}/{name}/{branch}/{rel} raw.githubusercontent.com"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "scripts/hydrate_source_archives.py",
+      "url": "https://github.com/{owner}/{name}/archive/refs/heads/master.zip",
+      "domain": "github.com",
+      "queryText": "tizwildinentertainmenthub scripts/hydrate_source_archives.py https://github.com/{owner}/{name}/archive/refs/heads/master.zip github.com"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "scripts/hydrate_source_archives.py",
+      "url": "https://github.com/{owner}/{name}/archive/refs/heads/{branch}.zip",
+      "domain": "github.com",
+      "queryText": "tizwildinentertainmenthub scripts/hydrate_source_archives.py https://github.com/{owner}/{name}/archive/refs/heads/{branch}.zip github.com"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "scripts/hydrate_source_archives.py",
+      "url": "https://github\\.com/([^/",
+      "domain": "github\\.com",
+      "queryText": "tizwildinentertainmenthub scripts/hydrate_source_archives.py https://github\\.com/([^/ github\\.com"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "scripts/build_search_index.py",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub scripts/build_search_index.py https://garebear99.github.io/tizwildinentertainmenthub garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "scripts/build_search_index.py",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/search.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub scripts/build_search_index.py https://garebear99.github.io/tizwildinentertainmenthub/search.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "scripts/score_repository_readiness.py",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub scripts/score_repository_readiness.py https://garebear99.github.io/tizwildinentertainmenthub garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "scripts/build_index_health.py",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub scripts/build_index_health.py https://garebear99.github.io/tizwildinentertainmenthub garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -11237,14 +13509,6 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB",
-      "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebear99.github.io/tizwildinentertainmenthub garebear99.github.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebear99.github.io/tizwildinentertainmenthub/ garebear99.github.io"
@@ -11408,6 +13672,22 @@
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/deconstructed-loops-packs-router-card.svg",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebear99.github.io/tizwildinentertainmenthub/assets/social/deconstructed-loops-packs-router-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/ecosystem-file-search-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebear99.github.io/tizwildinentertainmenthub/assets/social/ecosystem-file-search-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/ecosystem-search-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebear99.github.io/tizwildinentertainmenthub/assets/social/ecosystem-search-card.svg garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -11605,9 +13885,25 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/public-index-health-dashboard-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebear99.github.io/tizwildinentertainmenthub/assets/social/public-index-health-dashboard-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/release-candidate-branch-card.svg",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebear99.github.io/tizwildinentertainmenthub/assets/social/release-candidate-branch-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/repository-readiness-report-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebear99.github.io/tizwildinentertainmenthub/assets/social/repository-readiness-report-card.svg garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -11925,6 +14221,22 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/ecosystem-file-search.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebear99.github.io/tizwildinentertainmenthub/pages/ecosystem-file-search.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/ecosystem-search.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebear99.github.io/tizwildinentertainmenthub/pages/ecosystem-search.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/free-808-producer-kit.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebear99.github.io/tizwildinentertainmenthub/pages/free-808-producer-kit.html garebear99.github.io"
@@ -12109,9 +14421,25 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/public-index-health-dashboard.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebear99.github.io/tizwildinentertainmenthub/pages/public-index-health-dashboard.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/release-candidate-branch.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebear99.github.io/tizwildinentertainmenthub/pages/release-candidate-branch.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/repository-readiness-report.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebear99.github.io/tizwildinentertainmenthub/pages/repository-readiness-report.html garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -12232,38 +14560,6 @@
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/vf-plexlab.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebear99.github.io/tizwildinentertainmenthub/pages/vf-plexlab.html garebear99.github.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/whispergate.html",
-      "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebear99.github.io/tizwildinentertainmenthub/pages/whispergate.html garebear99.github.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/wurp.html",
-      "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebear99.github.io/tizwildinentertainmenthub/pages/wurp.html garebear99.github.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/xylocore.html",
-      "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebear99.github.io/tizwildinentertainmenthub/pages/xylocore.html garebear99.github.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/public-index.json",
-      "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebear99.github.io/tizwildinentertainmenthub/public-index.json garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -13908,6 +16204,198 @@
     {
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/ecosystem-file-search.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/ecosystem-file-search.html https://garebear99.github.io/tizwildinentertainmenthub garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/ecosystem-file-search.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/ecosystem-file-search-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/ecosystem-file-search.html https://garebear99.github.io/tizwildinentertainmenthub/assets/social/ecosystem-file-search-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/ecosystem-file-search.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/ecosystem-file-search.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/ecosystem-file-search.html https://garebear99.github.io/tizwildinentertainmenthub/pages/ecosystem-file-search.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/ecosystem-file-search.html",
+      "url": "https://github.com/GareBear99/TizWildinEntertainmentHUB",
+      "domain": "github.com",
+      "queryText": "tizwildinentertainmenthub docs/pages/ecosystem-file-search.html https://github.com/garebear99/tizwildinentertainmenthub github.com"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/ecosystem-file-search.html",
+      "url": "https://github.com/GareBear99/TizWildinEntertainmentHUB#readme",
+      "domain": "github.com",
+      "queryText": "tizwildinentertainmenthub docs/pages/ecosystem-file-search.html https://github.com/garebear99/tizwildinentertainmenthub#readme github.com"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/ecosystem-file-search.html",
+      "url": "https://schema.org",
+      "domain": "schema.org",
+      "queryText": "tizwildinentertainmenthub docs/pages/ecosystem-file-search.html https://schema.org schema.org"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/ecosystem-search.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/ecosystem-search.html https://garebear99.github.io/tizwildinentertainmenthub garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/ecosystem-search.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/ecosystem-search-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/ecosystem-search.html https://garebear99.github.io/tizwildinentertainmenthub/assets/social/ecosystem-search-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/ecosystem-search.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/ecosystem-search.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/ecosystem-search.html https://garebear99.github.io/tizwildinentertainmenthub/pages/ecosystem-search.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/ecosystem-search.html",
+      "url": "https://github.com/GareBear99/TizWildinEntertainmentHUB",
+      "domain": "github.com",
+      "queryText": "tizwildinentertainmenthub docs/pages/ecosystem-search.html https://github.com/garebear99/tizwildinentertainmenthub github.com"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/ecosystem-search.html",
+      "url": "https://github.com/GareBear99/TizWildinEntertainmentHUB#readme",
+      "domain": "github.com",
+      "queryText": "tizwildinentertainmenthub docs/pages/ecosystem-search.html https://github.com/garebear99/tizwildinentertainmenthub#readme github.com"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/ecosystem-search.html",
+      "url": "https://schema.org",
+      "domain": "schema.org",
+      "queryText": "tizwildinentertainmenthub docs/pages/ecosystem-search.html https://schema.org schema.org"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/public-index-health-dashboard.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/public-index-health-dashboard.html https://garebear99.github.io/tizwildinentertainmenthub garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/public-index-health-dashboard.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/public-index-health-dashboard-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/public-index-health-dashboard.html https://garebear99.github.io/tizwildinentertainmenthub/assets/social/public-index-health-dashboard-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/public-index-health-dashboard.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/public-index-health-dashboard.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/public-index-health-dashboard.html https://garebear99.github.io/tizwildinentertainmenthub/pages/public-index-health-dashboard.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/public-index-health-dashboard.html",
+      "url": "https://github.com/GareBear99/TizWildinEntertainmentHUB",
+      "domain": "github.com",
+      "queryText": "tizwildinentertainmenthub docs/pages/public-index-health-dashboard.html https://github.com/garebear99/tizwildinentertainmenthub github.com"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/public-index-health-dashboard.html",
+      "url": "https://github.com/GareBear99/TizWildinEntertainmentHUB#readme",
+      "domain": "github.com",
+      "queryText": "tizwildinentertainmenthub docs/pages/public-index-health-dashboard.html https://github.com/garebear99/tizwildinentertainmenthub#readme github.com"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/public-index-health-dashboard.html",
+      "url": "https://schema.org",
+      "domain": "schema.org",
+      "queryText": "tizwildinentertainmenthub docs/pages/public-index-health-dashboard.html https://schema.org schema.org"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/repository-readiness-report.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/repository-readiness-report.html https://garebear99.github.io/tizwildinentertainmenthub garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/repository-readiness-report.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/repository-readiness-report-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/repository-readiness-report.html https://garebear99.github.io/tizwildinentertainmenthub/assets/social/repository-readiness-report-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/repository-readiness-report.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/repository-readiness-report.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/repository-readiness-report.html https://garebear99.github.io/tizwildinentertainmenthub/pages/repository-readiness-report.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/repository-readiness-report.html",
+      "url": "https://github.com/GareBear99/TizWildinEntertainmentHUB",
+      "domain": "github.com",
+      "queryText": "tizwildinentertainmenthub docs/pages/repository-readiness-report.html https://github.com/garebear99/tizwildinentertainmenthub github.com"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/repository-readiness-report.html",
+      "url": "https://github.com/GareBear99/TizWildinEntertainmentHUB#readme",
+      "domain": "github.com",
+      "queryText": "tizwildinentertainmenthub docs/pages/repository-readiness-report.html https://github.com/garebear99/tizwildinentertainmenthub#readme github.com"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/repository-readiness-report.html",
+      "url": "https://schema.org",
+      "domain": "schema.org",
+      "queryText": "tizwildinentertainmenthub docs/pages/repository-readiness-report.html https://schema.org schema.org"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/schemas/public-index.schema.json",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/schemas/public-index.schema.json",
       "domain": "garebear99.github.io",
@@ -14872,6 +17360,70 @@
       "url": "http://www.w3.org/2000/svg",
       "domain": "www.w3.org",
       "queryText": "tizwildinentertainmenthub docs/assets/social/release-candidate-branch-card.svg http://www.w3.org/2000/svg www.w3.org"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/assets/social/ecosystem-file-search-card.svg",
+      "url": "http://www.w3.org/1999/xhtml",
+      "domain": "www.w3.org",
+      "queryText": "tizwildinentertainmenthub docs/assets/social/ecosystem-file-search-card.svg http://www.w3.org/1999/xhtml www.w3.org"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/assets/social/ecosystem-file-search-card.svg",
+      "url": "http://www.w3.org/2000/svg",
+      "domain": "www.w3.org",
+      "queryText": "tizwildinentertainmenthub docs/assets/social/ecosystem-file-search-card.svg http://www.w3.org/2000/svg www.w3.org"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/assets/social/ecosystem-search-card.svg",
+      "url": "http://www.w3.org/1999/xhtml",
+      "domain": "www.w3.org",
+      "queryText": "tizwildinentertainmenthub docs/assets/social/ecosystem-search-card.svg http://www.w3.org/1999/xhtml www.w3.org"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/assets/social/ecosystem-search-card.svg",
+      "url": "http://www.w3.org/2000/svg",
+      "domain": "www.w3.org",
+      "queryText": "tizwildinentertainmenthub docs/assets/social/ecosystem-search-card.svg http://www.w3.org/2000/svg www.w3.org"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/assets/social/public-index-health-dashboard-card.svg",
+      "url": "http://www.w3.org/1999/xhtml",
+      "domain": "www.w3.org",
+      "queryText": "tizwildinentertainmenthub docs/assets/social/public-index-health-dashboard-card.svg http://www.w3.org/1999/xhtml www.w3.org"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/assets/social/public-index-health-dashboard-card.svg",
+      "url": "http://www.w3.org/2000/svg",
+      "domain": "www.w3.org",
+      "queryText": "tizwildinentertainmenthub docs/assets/social/public-index-health-dashboard-card.svg http://www.w3.org/2000/svg www.w3.org"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/assets/social/repository-readiness-report-card.svg",
+      "url": "http://www.w3.org/1999/xhtml",
+      "domain": "www.w3.org",
+      "queryText": "tizwildinentertainmenthub docs/assets/social/repository-readiness-report-card.svg http://www.w3.org/1999/xhtml www.w3.org"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/assets/social/repository-readiness-report-card.svg",
+      "url": "http://www.w3.org/2000/svg",
+      "domain": "www.w3.org",
+      "queryText": "tizwildinentertainmenthub docs/assets/social/repository-readiness-report-card.svg http://www.w3.org/2000/svg www.w3.org"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -17283,44 +19835,44 @@
     }
   ],
   "summary": {
-    "linkCount": 2160,
+    "linkCount": 2479,
     "domains": {
-      "github.com": 924,
-      "garebear99.github.io": 724,
-      "www.w3.org": 126,
-      "schema.org": 115,
+      "garebear99.github.io": 975,
+      "github.com": 938,
+      "www.w3.org": 136,
+      "schema.org": 119,
       "img.shields.io": 46,
-      "127.0.0.1:8000": 25,
-      "testserver": 11,
-      "example.local": 10,
+      "127.0.0.1:8000": 32,
+      "example.local": 15,
+      "testserver": 12,
       "raw.githubusercontent.com": 9,
-      "www.sitemaps.org": 5,
+      "capsule-render.vercel.app": 8,
+      "api.github.com": 7,
+      "reporoster.com": 6,
+      "www.sitemaps.org": 6,
       "json-schema.org": 5,
-      "reporoster.com": 4,
-      "capsule-render.vercel.app": 4,
-      "api.github.com": 4,
+      "github-readme-stats.vercel.app": 4,
+      "localhost": 4,
       "www.contributor-covenant.org": 4,
+      "git.io": 3,
       "soundcloud.com": 3,
       "www.youtube.com": 3,
-      "git.io": 2,
-      "github-readme-stats.vercel.app": 2,
+      "localhost:8080": 3,
+      "127.0.0.1:8000`": 3,
+      "www.freedesktop.org": 3,
+      "arc-ai-operator.admension.workers.dev": 3,
+      "dash.cloudflare.com": 3,
+      "fastapi.tiangolo.com": 3,
       "i.imgur.com": 2,
       "www.facebook.com": 2,
-      "localhost:8080": 2,
-      "127.0.0.1:8000`": 2,
-      "arc-ai-operator.admension.workers.dev": 2,
-      "dash.cloudflare.com": 2,
-      "fastapi.tiangolo.com": 2,
+      "127.0.0.1": 2,
+      "github\\.com": 2,
       "keepachangelog.com": 2,
       "ko-fi.com": 2,
       "www.buymeacoffee.com": 2,
       "www.python.org": 2,
-      "www.freedesktop.org": 2,
-      "localhost": 2,
       "readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=6C7BBD&center=true&vCenter=true&width=840&lines=19+Free+Plugin+Versions+%2B+The+HUB;Updater+%7C+Version+Controller+%7C+Downloader;Every+plugin+has+a+free+version+on+the+HUB;Payments+and+upgrades+live+inside+each+product": 1,
-      "github\\.com": 1,
-      "readme-typing-svg.demolab.com?font=Fira+Code&amp;size=22&amp;duration=4000&amp;pause=1000&amp;color=6C7BBD&amp;center=true&amp;vCenter=true&amp;width=840&amp;lines=19+Free+Plugin+Versions+%2B+The+HUB;Updater+%7C+Version+Controller+%7C+Downloader;Every+plugin+has+a+free+version+on+the+HUB;Payments+and+upgrades+live+inside+each+product": 1,
-      "127.0.0.1": 1
+      "readme-typing-svg.demolab.com?font=Fira+Code&amp;size=22&amp;duration=4000&amp;pause=1000&amp;color=6C7BBD&amp;center=true&amp;vCenter=true&amp;width=840&amp;lines=19+Free+Plugin+Versions+%2B+The+HUB;Updater+%7C+Version+Controller+%7C+Downloader;Every+plugin+has+a+free+version+on+the+HUB;Payments+and+upgrades+live+inside+each+product": 1
     }
   }
 }

@@ -6,7 +6,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 
 ## Summary
 
-- Total indexed records: **58**
+- Total indexed records: **62**
 - Total clusters: **5**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -17,6 +17,10 @@ This file documents every static route generated for the TizWildinEntertainmentH
 
 | Route | Type | Repository | Tags |
 |---|---|---|---|
+| [Ecosystem File Search](pages/ecosystem-file-search.html) | Source File Search Route | https://github.com/GareBear99/TizWildinEntertainmentHUB | file-search, source-index, repo-search, link-search |
+| [Ecosystem Search](pages/ecosystem-search.html) | Public Search Route | https://github.com/GareBear99/TizWildinEntertainmentHUB | search, source-index, link-graph, seo, public-index |
+| [Public Index Health Dashboard](pages/public-index-health-dashboard.html) | Index Health Route | https://github.com/GareBear99/TizWildinEntertainmentHUB | index-health, benchmark, validation, quality, seo |
+| [Repository Readiness Report](pages/repository-readiness-report.html) | Repository Quality Route | https://github.com/GareBear99/TizWildinEntertainmentHUB | readiness, repository-quality, submission-readiness, seo, open-source |
 | [Branching Strategy Route](pages/branching-strategy-route.html) | Repository Governance Route | https://github.com/GareBear99/TizWildinEntertainmentHUB | branching, git, release-management, seo, governance |
 | [SEO Public Index Branch](pages/seo-public-index-branch.html) | SEO Branch Route | https://github.com/GareBear99/TizWildinEntertainmentHUB | seo, sitemap, structured-data, public-index, github-pages |
 | [LibHunt Submission Branch](pages/libhunt-submission-branch.html) | Submission Branch Route | https://github.com/GareBear99/public-credibility-seo-tracker | libhunt, submission, alternatives, project-discovery |

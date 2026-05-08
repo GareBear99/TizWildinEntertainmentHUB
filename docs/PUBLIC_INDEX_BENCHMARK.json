@@ -1,26 +1,26 @@
 {
   "schemaVersion": "2.0",
-  "generatedAt": "2026-05-08T20:33:48Z",
+  "generatedAt": "2026-05-08T20:52:28Z",
   "results": [
     {
       "name": "public-index-build",
-      "seconds": 3.189,
+      "seconds": 1.681,
       "timeoutSeconds": 120,
       "returncode": 0,
-      "stdout": "Built public index: 58 records, 125 sitemap URLs, 59 social cards",
+      "stdout": "Built public index: 62 records, 133 sitemap URLs, 63 social cards",
       "stderr": ""
     },
     {
       "name": "public-index-validate",
-      "seconds": 4.181,
+      "seconds": 2.906,
       "timeoutSeconds": 60,
       "returncode": 0,
-      "stdout": "VALIDATION OK: 58 items, 125 sitemap URLs, 58 route pages",
+      "stdout": "VALIDATION OK: 62 items, 133 sitemap URLs, 62 route pages",
       "stderr": ""
     },
     {
       "name": "branch-map-validate",
-      "seconds": 4.447,
+      "seconds": 2.811,
       "timeoutSeconds": 60,
       "returncode": 0,
       "stdout": "BRANCH MAP VALIDATION OK: 9 tracked branches",
@@ -28,22 +28,54 @@
     },
     {
       "name": "source-index-build",
-      "seconds": 6.686,
+      "seconds": 3.74,
       "timeoutSeconds": 180,
       "returncode": 0,
-      "stdout": "SOURCE INDEX OK: 10 repos, 713 files, 2160 links, budget 56.0s",
+      "stdout": "SOURCE INDEX OK: 10 repos, 734 files, 2479 links, budget 56.0s",
       "stderr": ""
     },
     {
       "name": "source-index-validate",
-      "seconds": 4.173,
+      "seconds": 1.784,
       "timeoutSeconds": 60,
       "returncode": 0,
-      "stdout": "SOURCE VALIDATION OK: 10 repos, 713 files, 2160 links",
+      "stdout": "SOURCE VALIDATION OK: 10 repos, 734 files, 2479 links",
+      "stderr": ""
+    },
+    {
+      "name": "search-index-build",
+      "seconds": 3.134,
+      "timeoutSeconds": 90,
+      "returncode": 0,
+      "stdout": "SEARCH INDEX OK: 3285 records, 6603 tokens",
+      "stderr": ""
+    },
+    {
+      "name": "public-links-check",
+      "seconds": 2.867,
+      "timeoutSeconds": 90,
+      "returncode": 0,
+      "stdout": "LINK CHECK OK: 464 links, 0 issues, mode=offline-format",
+      "stderr": ""
+    },
+    {
+      "name": "repo-readiness-score",
+      "seconds": 2.441,
+      "timeoutSeconds": 90,
+      "returncode": 0,
+      "stdout": "READINESS SCORE OK: 10 repos, hydrated avg 75.5",
+      "stderr": ""
+    },
+    {
+      "name": "index-health-build",
+      "seconds": 3.249,
+      "timeoutSeconds": 60,
+      "returncode": 0,
+      "stdout": "INDEX HEALTH OK: A+ (100/100)",
       "stderr": ""
     }
   ],
-  "totalSeconds": 22.676,
+  "totalSeconds": 24.614,
   "grade": "A- - validated and production-ready; monitor as repo graph grows",
-  "recommendation": "Keep public-index, branch validation, and source-index as separate CI jobs once the graph passes 25 repositories."
+  "recommendation": "Keep public-index, branch validation, source-index, search-index, link-check, and readiness scoring as separate CI jobs once the graph passes 25 repositories."
 }

@@ -7,6 +7,30 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
 
 ## ARC Source Spine
 
+- Ecosystem File Search: Queryable source-repository file and link lookup page for indexed ARC and TizWildin repositories.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/ecosystem-file-search.html
+  Public URL: https://github.com/GareBear99/TizWildinEntertainmentHUB
+  GitHub: https://github.com/GareBear99/TizWildinEntertainmentHUB
+  Tags: file-search, source-index, repo-search, link-search
+
+- Ecosystem Search: Static full-text search route across public project pages, source repository files, extracted links, route metadata, and submission/discovery records.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/ecosystem-search.html
+  Public URL: https://github.com/GareBear99/TizWildinEntertainmentHUB
+  GitHub: https://github.com/GareBear99/TizWildinEntertainmentHUB
+  Tags: search, source-index, link-graph, seo, public-index
+
+- Public Index Health Dashboard: Public health dashboard for route counts, sitemap coverage, source repository indexing, extracted links, full-text search records, readiness scores, and benchmark grade.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/public-index-health-dashboard.html
+  Public URL: https://github.com/GareBear99/TizWildinEntertainmentHUB
+  GitHub: https://github.com/GareBear99/TizWildinEntertainmentHUB
+  Tags: index-health, benchmark, validation, quality, seo
+
+- Repository Readiness Report: Scored readiness report for indexed repositories covering README, license, changelog, contributing guide, security policy, CI, docs, links, and source coverage.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/repository-readiness-report.html
+  Public URL: https://github.com/GareBear99/TizWildinEntertainmentHUB
+  GitHub: https://github.com/GareBear99/TizWildinEntertainmentHUB
+  Tags: readiness, repository-quality, submission-readiness, seo, open-source
+
 - Branching Strategy Route: Public branch governance route for the TizWildin / ARC public-index operating system: main, develop, seo, submission, route, arc, audio, release, and hotfix branches with validation gates.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/branching-strategy-route.html
   Public URL: https://github.com/GareBear99/TizWildinEntertainmentHUB

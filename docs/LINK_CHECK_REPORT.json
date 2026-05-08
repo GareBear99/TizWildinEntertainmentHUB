@@ -1,0 +1,3728 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-05-08T20:52:22Z",
+  "mode": "offline-format",
+  "totalLinks": 464,
+  "checked": 0,
+  "skippedExternal": 464,
+  "issues": 0,
+  "timeoutPolicy": {
+    "mode": "generation-based",
+    "secondsPerLink": 3.0,
+    "maxLinks": 1500
+  },
+  "results": [
+    {
+      "url": "https://github.com/GareBear99/TizWildinEntertainmentHUB",
+      "source": "public-index",
+      "item": "Ecosystem File Search",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/TizWildinEntertainmentHUB#readme",
+      "source": "public-index",
+      "item": "Ecosystem File Search",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/ecosystem-file-search.html",
+      "source": "public-index",
+      "item": "Ecosystem File Search",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/ecosystem-search.html",
+      "source": "public-index",
+      "item": "Ecosystem Search",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/public-index-health-dashboard.html",
+      "source": "public-index",
+      "item": "Public Index Health Dashboard",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/repository-readiness-report.html",
+      "source": "public-index",
+      "item": "Repository Readiness Report",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/branching-strategy-route.html",
+      "source": "public-index",
+      "item": "Branching Strategy Route",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/seo-public-index-branch.html",
+      "source": "public-index",
+      "item": "SEO Public Index Branch",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/public-credibility-seo-tracker",
+      "source": "public-index",
+      "item": "LibHunt Submission Branch",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/public-credibility-seo-tracker#readme",
+      "source": "public-index",
+      "item": "LibHunt Submission Branch",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/libhunt-submission-branch.html",
+      "source": "public-index",
+      "item": "LibHunt Submission Branch",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-source-spine-branch.html",
+      "source": "public-index",
+      "item": "ARC Source-Spine Branch",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-cluster-branch.html",
+      "source": "public-index",
+      "item": "TizWildin Audio Cluster Branch",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/release-candidate-branch.html",
+      "source": "public-index",
+      "item": "Release Candidate Branch",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/libhunt-submission-route.html",
+      "source": "public-index",
+      "item": "LibHunt Submission Route",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/github-topics-cleanup-route.html",
+      "source": "public-index",
+      "item": "GitHub Topics Cleanup Route",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/open-hub-submission-route.html",
+      "source": "public-index",
+      "item": "Open Hub Submission Route",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/sourceforge-mirror-route.html",
+      "source": "public-index",
+      "item": "SourceForge Mirror Route",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/awesome-lists-submission-route.html",
+      "source": "public-index",
+      "item": "Awesome Lists Submission Route",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/openalternative-submission-route.html",
+      "source": "public-index",
+      "item": "OpenAlternative Submission Route",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/audio-directory-submission-route.html",
+      "source": "public-index",
+      "item": "Audio Directory Submission Route",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/public-credibility-seo-tracker.html",
+      "source": "public-index",
+      "item": "Public Credibility SEO Tracker",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/awesome-audio-plugins-dev",
+      "source": "public-index",
+      "item": "Awesome Audio Plugins Dev",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/awesome-audio-plugins-dev#readme",
+      "source": "public-index",
+      "item": "Awesome Audio Plugins Dev",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/awesome-audio-plugins-dev.html",
+      "source": "public-index",
+      "item": "Awesome Audio Plugins Dev",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/awesome-audio-lists",
+      "source": "public-index",
+      "item": "Awesome Audio Lists",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/awesome-audio-lists#readme",
+      "source": "public-index",
+      "item": "Awesome Audio Lists",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/awesome-audio-lists.html",
+      "source": "public-index",
+      "item": "Awesome Audio Lists",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/awesome-music-platforms",
+      "source": "public-index",
+      "item": "Awesome Music Platforms",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/awesome-music-platforms#readme",
+      "source": "public-index",
+      "item": "Awesome Music Platforms",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/awesome-music-platforms.html",
+      "source": "public-index",
+      "item": "Awesome Music Platforms",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/awesome-python-audio-science",
+      "source": "public-index",
+      "item": "Awesome Python Audio Science",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/awesome-python-audio-science#readme",
+      "source": "public-index",
+      "item": "Awesome Python Audio Science",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/awesome-python-audio-science.html",
+      "source": "public-index",
+      "item": "Awesome Python Audio Science",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/FreeEQ8",
+      "source": "public-index",
+      "item": "FreeEQ8",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/FreeEQ8#readme",
+      "source": "public-index",
+      "item": "FreeEQ8",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/freeeq8.html",
+      "source": "public-index",
+      "item": "FreeEQ8",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/FreeVox8",
+      "source": "public-index",
+      "item": "FreeVox8",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/FreeVox8#readme",
+      "source": "public-index",
+      "item": "FreeVox8",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/freevox8.html",
+      "source": "public-index",
+      "item": "FreeVox8",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/TizWildin-Release-Vault",
+      "source": "public-index",
+      "item": "TizWildin Release Vault",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/TizWildin-Release-Vault#readme",
+      "source": "public-index",
+      "item": "TizWildin Release Vault",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-release-vault.html",
+      "source": "public-index",
+      "item": "TizWildin Release Vault",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/",
+      "source": "public-index",
+      "item": "TizWildin .io Router",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-io-router.html",
+      "source": "public-index",
+      "item": "TizWildin .io Router",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/#packs",
+      "source": "public-index",
+      "item": "Deconstructed Loops / Packs Router",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/deconstructed-loops-packs-router.html",
+      "source": "public-index",
+      "item": "Deconstructed Loops / Packs Router",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/ARC-Neuron-LLMBuilder",
+      "source": "public-index",
+      "item": "ARC-Neuron-LLMBuilder",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/ARC-Neuron-LLMBuilder#readme",
+      "source": "public-index",
+      "item": "ARC-Neuron-LLMBuilder",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-neuron-llmbuilder.html",
+      "source": "public-index",
+      "item": "ARC-Neuron-LLMBuilder",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/ARC-Core",
+      "source": "public-index",
+      "item": "ARC-Core",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/ARC-Core#readme",
+      "source": "public-index",
+      "item": "ARC-Core",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-core.html",
+      "source": "public-index",
+      "item": "ARC-Core",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/arc-lucifer-cleanroom-runtime",
+      "source": "public-index",
+      "item": "arc-lucifer-cleanroom-runtime",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/arc-lucifer-cleanroom-runtime#readme",
+      "source": "public-index",
+      "item": "arc-lucifer-cleanroom-runtime",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-lucifer-cleanroom-runtime.html",
+      "source": "public-index",
+      "item": "arc-lucifer-cleanroom-runtime",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/arc-language-module",
+      "source": "public-index",
+      "item": "arc-language-module",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/arc-language-module#readme",
+      "source": "public-index",
+      "item": "arc-language-module",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-language-module.html",
+      "source": "public-index",
+      "item": "arc-language-module",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Arc-RAR",
+      "source": "public-index",
+      "item": "Arc-RAR",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Arc-RAR#readme",
+      "source": "public-index",
+      "item": "Arc-RAR",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-rar.html",
+      "source": "public-index",
+      "item": "Arc-RAR",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/omnibinary-runtime",
+      "source": "public-index",
+      "item": "OmniBinary Runtime",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/omnibinary-runtime#readme",
+      "source": "public-index",
+      "item": "OmniBinary Runtime",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/omnibinary-runtime.html",
+      "source": "public-index",
+      "item": "OmniBinary Runtime",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Therum_JUCE-Plugin",
+      "source": "public-index",
+      "item": "Therum",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Therum_JUCE-Plugin#readme",
+      "source": "public-index",
+      "item": "Therum",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/therum.html",
+      "source": "public-index",
+      "item": "Therum",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/XyloCore",
+      "source": "public-index",
+      "item": "XyloCore",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/XyloCore#readme",
+      "source": "public-index",
+      "item": "XyloCore",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/xylocore.html",
+      "source": "public-index",
+      "item": "XyloCore",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/AETHER_Choir-Atmosphere-Designer",
+      "source": "public-index",
+      "item": "AETHER",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/AETHER_Choir-Atmosphere-Designer#readme",
+      "source": "public-index",
+      "item": "AETHER",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/aether.html",
+      "source": "public-index",
+      "item": "AETHER",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/BassMaid",
+      "source": "public-index",
+      "item": "BassMaid",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/BassMaid#readme",
+      "source": "public-index",
+      "item": "BassMaid",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/bassmaid.html",
+      "source": "public-index",
+      "item": "BassMaid",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/ChainMaid",
+      "source": "public-index",
+      "item": "ChainMaid",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/ChainMaid#readme",
+      "source": "public-index",
+      "item": "ChainMaid",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/chainmaid.html",
+      "source": "public-index",
+      "item": "ChainMaid",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/FreeSampler_v0.3",
+      "source": "public-index",
+      "item": "FreeSampler",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/FreeSampler_v0.3#readme",
+      "source": "public-index",
+      "item": "FreeSampler",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/freesampler.html",
+      "source": "public-index",
+      "item": "FreeSampler",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/GlueMaid",
+      "source": "public-index",
+      "item": "GlueMaid",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/GlueMaid#readme",
+      "source": "public-index",
+      "item": "GlueMaid",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/gluemaid.html",
+      "source": "public-index",
+      "item": "GlueMaid",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Instrudio",
+      "source": "public-index",
+      "item": "Instrudio",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Instrudio#readme",
+      "source": "public-index",
+      "item": "Instrudio",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/instrudio.html",
+      "source": "public-index",
+      "item": "Instrudio",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/MeterMaid",
+      "source": "public-index",
+      "item": "MeterMaid",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/MeterMaid#readme",
+      "source": "public-index",
+      "item": "MeterMaid",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/metermaid.html",
+      "source": "public-index",
+      "item": "MeterMaid",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/MixMaid",
+      "source": "public-index",
+      "item": "MixMaid",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/MixMaid#readme",
+      "source": "public-index",
+      "item": "MixMaid",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/mixmaid.html",
+      "source": "public-index",
+      "item": "MixMaid",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/MultiMaid",
+      "source": "public-index",
+      "item": "MultiMaid",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/MultiMaid#readme",
+      "source": "public-index",
+      "item": "MultiMaid",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/multimaid.html",
+      "source": "public-index",
+      "item": "MultiMaid",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/PaintMask_Free-JUCE-Plugin",
+      "source": "public-index",
+      "item": "PaintMask",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/PaintMask_Free-JUCE-Plugin#readme",
+      "source": "public-index",
+      "item": "PaintMask",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/paintmask.html",
+      "source": "public-index",
+      "item": "PaintMask",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/PAP-Forge-Audio",
+      "source": "public-index",
+      "item": "PAP-Forge-Audio",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/PAP-Forge-Audio#readme",
+      "source": "public-index",
+      "item": "PAP-Forge-Audio",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/pap-forge-audio.html",
+      "source": "public-index",
+      "item": "PAP-Forge-Audio",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/RiftWaveSuite_RiftSynth_WaveForm_Lite",
+      "source": "public-index",
+      "item": "RiftWave Suite",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/RiftWaveSuite_RiftSynth_WaveForm_Lite#readme",
+      "source": "public-index",
+      "item": "RiftWave Suite",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/riftwave-suite.html",
+      "source": "public-index",
+      "item": "RiftWave Suite",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/SpaceMaid",
+      "source": "public-index",
+      "item": "SpaceMaid",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/SpaceMaid#readme",
+      "source": "public-index",
+      "item": "SpaceMaid",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/spacemaid.html",
+      "source": "public-index",
+      "item": "SpaceMaid",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/VF-PlexLab",
+      "source": "public-index",
+      "item": "VF-PlexLab",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/VF-PlexLab#readme",
+      "source": "public-index",
+      "item": "VF-PlexLab",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/vf-plexlab.html",
+      "source": "public-index",
+      "item": "VF-PlexLab",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/WhisperGate_Free-JUCE-Plugin",
+      "source": "public-index",
+      "item": "WhisperGate",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/WhisperGate_Free-JUCE-Plugin#readme",
+      "source": "public-index",
+      "item": "WhisperGate",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/whispergate.html",
+      "source": "public-index",
+      "item": "WhisperGate",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/WURP_Toxic-Motion-Engine_JUCE",
+      "source": "public-index",
+      "item": "WURP",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/WURP_Toxic-Motion-Engine_JUCE#readme",
+      "source": "public-index",
+      "item": "WURP",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/wurp.html",
+      "source": "public-index",
+      "item": "WURP",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Free-808-Producer-Kit",
+      "source": "public-index",
+      "item": "Free 808 Producer Kit",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Free-808-Producer-Kit#readme",
+      "source": "public-index",
+      "item": "Free 808 Producer Kit",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/free-808-producer-kit.html",
+      "source": "public-index",
+      "item": "Free 808 Producer Kit",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Free-Dark-Piano-Sound-Kit",
+      "source": "public-index",
+      "item": "Free Dark Piano Sound Kit",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Free-Dark-Piano-Sound-Kit#readme",
+      "source": "public-index",
+      "item": "Free Dark Piano Sound Kit",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/free-dark-piano-sound-kit.html",
+      "source": "public-index",
+      "item": "Free Dark Piano Sound Kit",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Free-Future-Bass-Producer-Kit",
+      "source": "public-index",
+      "item": "Free Future Bass Producer Kit",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Free-Future-Bass-Producer-Kit#readme",
+      "source": "public-index",
+      "item": "Free Future Bass Producer Kit",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/free-future-bass-producer-kit.html",
+      "source": "public-index",
+      "item": "Free Future Bass Producer Kit",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Free-Riser-Producer-Kit",
+      "source": "public-index",
+      "item": "Free Riser Producer Kit",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Free-Riser-Producer-Kit#readme",
+      "source": "public-index",
+      "item": "Free Riser Producer Kit",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/free-riser-producer-kit.html",
+      "source": "public-index",
+      "item": "Free Riser Producer Kit",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Free-Violin-Synth-Sample-Kit",
+      "source": "public-index",
+      "item": "Free Violin Synth Sample Kit",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Free-Violin-Synth-Sample-Kit#readme",
+      "source": "public-index",
+      "item": "Free Violin Synth Sample Kit",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/free-violin-synth-sample-kit.html",
+      "source": "public-index",
+      "item": "Free Violin Synth Sample Kit",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Phonk_Producer_Toolkit",
+      "source": "public-index",
+      "item": "Phonk Producer Toolkit",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Phonk_Producer_Toolkit#readme",
+      "source": "public-index",
+      "item": "Phonk Producer Toolkit",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/phonk-producer-toolkit.html",
+      "source": "public-index",
+      "item": "Phonk Producer Toolkit",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/TizWildin-Aurora",
+      "source": "public-index",
+      "item": "TizWildin-Aurora",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/TizWildin-Aurora#readme",
+      "source": "public-index",
+      "item": "TizWildin-Aurora",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-aurora.html",
+      "source": "public-index",
+      "item": "TizWildin-Aurora",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/TizWildin-Chime",
+      "source": "public-index",
+      "item": "TizWildin-Chime",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/TizWildin-Chime#readme",
+      "source": "public-index",
+      "item": "TizWildin-Chime",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-chime.html",
+      "source": "public-index",
+      "item": "TizWildin-Chime",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/TizWildin-Chroma",
+      "source": "public-index",
+      "item": "TizWildin-Chroma",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/TizWildin-Chroma#readme",
+      "source": "public-index",
+      "item": "TizWildin-Chroma",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-chroma.html",
+      "source": "public-index",
+      "item": "TizWildin-Chroma",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/TizWildin-Obsidian",
+      "source": "public-index",
+      "item": "TizWildin-Obsidian",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/TizWildin-Obsidian#readme",
+      "source": "public-index",
+      "item": "TizWildin-Obsidian",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-obsidian.html",
+      "source": "public-index",
+      "item": "TizWildin-Obsidian",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/TizWildin-Skyline",
+      "source": "public-index",
+      "item": "TizWildin-Skyline",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/TizWildin-Skyline#readme",
+      "source": "public-index",
+      "item": "TizWildin-Skyline",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-skyline.html",
+      "source": "public-index",
+      "item": "TizWildin-Skyline",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "http://reporoster.com/forks/dark/GareBear99/TizWildinEntertainmentHUB",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "http://reporoster.com/stars/dark/GareBear99/TizWildinEntertainmentHUB",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0a0b12,50:1e2754,100:6c7bbd&section=footer",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0a0b12,50:1e2754,100:6c7bbd&text=TizWildin%20Entertainment%20HUB&fontSize=36&fontColor=e8eaf0&animation=fadeIn&fontAlignY=36&desc=The%20Free%20Modular%20Audio%20Plugin%20Ecosystem&descSize=16&descColor=a0a6bc&descAlignY=56",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildin-Release-Vault/",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://git.io/typing-svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github-readme-stats.vercel.app/api?username=GareBear99&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0b12&title_color=6c7bbd&icon_color=22c55e&text_color=e8eaf0",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/TizWildinEntertainmentHUB/fork",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/TizWildinEntertainmentHUB/network/members",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/TizWildinEntertainmentHUB/releases/latest",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/TizWildinEntertainmentHUB/stargazers",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Voxel_Audio",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://i.imgur.com/dBaSKWF.gif",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/Awesome_Audio_Plugins-200%2B_Free_Tools-6c7bbd?style=for-the-badge&logo=github&logoColor=white",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/License-Free-4ade80?style=flat&logo=creative-commons&logoColor=white",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/Plugins-19-22c55e?style=flat&logo=audacity&logoColor=white",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/\u2b07_DOWNLOAD_HUB_(Linux",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/\u2b07_DOWNLOAD_HUB_(Windows",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/\u2b07_DOWNLOAD_HUB_(macOS",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/\u2b50_FORK_&_STAR-1e2754?style=for-the-badge&logo=github&logoColor=white",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/\ud83c\udf10_OPEN_DASHBOARD-6c7bbd?style=for-the-badge&logoColor=white",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/\ud83c\udf10_OPEN_LIVE_DASHBOARD-22c55e?style=for-the-badge",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/github/forks/GareBear99/TizWildinEntertainmentHUB?style=flat&color=6c7bbd&logo=github&logoColor=white&label=Forks",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/github/last-commit/GareBear99/TizWildinEntertainmentHUB?style=flat&color=a78bfa&logo=git&logoColor=white&label=Last%20Commit",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/github/stars/GareBear99/TizWildinEntertainmentHUB?style=flat&color=eab308&logo=github&logoColor=white&label=Stars",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=6C7BBD&center=true&vCenter=true&width=840&lines=19+Free+Plugin+Versions+%2B+The+HUB;Updater+%7C+Version+Controller+%7C+Downloader;Every+plugin+has+a+free+version+on+the+HUB;Payments+and+upgrades+live+inside+each+product",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://soundcloud.com/tizwildin",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://www.facebook.com/profile.php?id=61564485196765",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://www.youtube.com/@gfgfvmhj",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/MeterMaid/releases/latest",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/MultiMaid/releases/latest",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "http://127.0.0.1:8000/demo/bootstrap?stage_artifacts=true",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "http://localhost:8080/docs/",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/index-seo.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/TizWildin-Release-Vault`",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/tizwildin-hub-og.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/${OWNER}/${repo}`",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://schema.org",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://api.github.com/repos/${OWNER}/${plugin.repo}/releases/latest`",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/${OWNER}/${item.repo}`",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/${OWNER}/${pack.repo}",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/${OWNER}/${pack.repo}/archive/refs/heads/main.zip`",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/${OWNER}/${plugin.repo}",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/${OWNER}/${plugin.repo}`",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/lists.json",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/packs.json",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/plugins.json",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/sitemap.xml",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "http://www.sitemaps.org/schemas/sitemap/0.9",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/PUBLIC_LINK_GRAPH.md",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/arc-index.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/aether-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/arc-core-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/arc-language-module-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/arc-lucifer-cleanroom-runtime-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/arc-neuron-llmbuilder-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/arc-rar-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/arc-source-spine-branch-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/audio-directory-submission-route-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/awesome-audio-lists-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/awesome-audio-plugins-dev-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/awesome-lists-submission-route-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/awesome-music-platforms-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/awesome-python-audio-science-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/bassmaid-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/branching-strategy-route-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/chainmaid-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/deconstructed-loops-packs-router-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/ecosystem-file-search-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/ecosystem-search-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/free-808-producer-kit-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/free-dark-piano-sound-kit-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/free-future-bass-producer-kit-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/free-riser-producer-kit-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/free-violin-synth-sample-kit-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/freeeq8-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/freesampler-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/freevox8-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/github-topics-cleanup-route-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/gluemaid-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/hub-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/instrudio-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/libhunt-submission-branch-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/libhunt-submission-route-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/metermaid-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/mixmaid-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/multimaid-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/omnibinary-runtime-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/open-hub-submission-route-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/openalternative-submission-route-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/paintmask-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/pap-forge-audio-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/phonk-producer-toolkit-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/public-credibility-seo-tracker-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/public-index-health-dashboard-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/release-candidate-branch-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/repository-readiness-report-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/riftwave-suite-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/seo-public-index-branch-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/sourceforge-mirror-route-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/spacemaid-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/therum-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/tizwildin-audio-cluster-branch-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/tizwildin-aurora-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/tizwildin-chime-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/tizwildin-chroma-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/tizwildin-io-router-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/tizwildin-obsidian-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/tizwildin-release-vault-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/tizwildin-skyline-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/vf-plexlab-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/whispergate-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/wurp-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/xylocore-card.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/ecosystem-index.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/index.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/llms.txt",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/public-index.json",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/example-repo",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/example-repo#readme",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/repo-file-search.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/search.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "http://127.0.0.1",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "http://127.0.0.1:8000",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "http://127.0.0.1:8000/`",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/health",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/manifest",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "http://127.0.0.1:8000/health",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "http://127.0.0.1:8000/ui/dashboard.html`",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "http://127.0.0.1:8000`",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "http://localhost/cancel",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "http://localhost/success",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "http://testserver",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "http://www.freedesktop.org/standards/shared-mime-info",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "http://www.w3.org/1999/xhtml",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "http://www.w3.org/2000/svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://api.github.com/repos/",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://api.github.com/repos/{owner}/{name}/git/trees/{branch}?recursive=1",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://arc-ai-operator.admension.workers.dev",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://capsule-render.vercel.app/api?type=waving&amp;height=120&amp;color=0:0a0b12,50:1e2754,100:6c7bbd&amp;section=footer",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://capsule-render.vercel.app/api?type=waving&amp;height=200&amp;color=0:0a0b12,50:1e2754,100:6c7bbd&amp;text=TizWildin%20Entertainment%20HUB&amp;fontSize=36&amp;fontColor=e8eaf0&amp;animation=fadeIn&amp;fontAlignY=36&amp;desc=The%20Free%20Modular%20Audio%20Plugin%20Ecosystem&amp;descSize=16&amp;descColor=a0a6bc&amp;descAlignY=56",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://dash.cloudflare.com/profile/api-tokens",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://example.local/a.png",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://example.local/b.png",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://example.local/overlay.png",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://example.local/test.png",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://example.local/{s[",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://fastapi.tiangolo.com/",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/ADMENSION/",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/BrokeBot/",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/Charm/",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/DecaGrid/",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/EdgeStack_Currency/",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/Harvest/",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/One-Shot-Multi-Shot/",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/Portfolio/review.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-source-spine-arc-core.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-source-spine-arc-language-module.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-source-spine-arc-lucifer-cleanroom-runtime.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-source-spine-arc-neuron-llmbuilder.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-source-spine-arc-rar.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-source-spine-omnibinary-runtime.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-arc-core.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-arc-language-module.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-arc-lucifer-cleanroom-runtime.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-arc-neuron-llmbuilder.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-arc-rar.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-awesome-audio-lists.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-awesome-audio-plugins-dev.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-awesome-music-platforms.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-awesome-python-audio-science.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-deconstructed-loops-packs-router.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-freeeq8.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-freevox8.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-omnibinary-runtime.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-tizwildin-io-router.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-tizwildin-release-vault.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-core.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-language-module.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-lucifer-cleanroom-runtime.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-neuron-llmbuilder.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-rar.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-awesome-audio-plugins-dev.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freeeq8.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freevox8.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-omnibinary-runtime.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-entertainment-hub.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-aether.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-bassmaid.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-chainmaid.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-freeeq8.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-freesampler.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-gluemaid.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-instrudio.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-metermaid.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-mixmaid.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-multimaid.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-paintmask.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-pap-forge-audio.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-riftwave-suite.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-spacemaid.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-therum.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-vf-plexlab.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-whispergate.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-wurp.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-plugins-xylocore.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-sample-packs-free-808-producer-kit.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-sample-packs-free-dark-piano-sound-kit.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-sample-packs-free-future-bass-producer-kit.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-sample-packs-free-riser-producer-kit.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-sample-packs-free-violin-synth-sample-kit.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-sample-packs-phonk-producer-toolkit.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-sample-packs-tizwildin-aurora.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-sample-packs-tizwildin-chime.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-sample-packs-tizwildin-chroma.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-sample-packs-tizwildin-obsidian.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-sample-packs-tizwildin-skyline.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/schemas/public-index.schema.json",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github-readme-stats.vercel.app/api?username=GareBear99&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true&amp;bg_color=0a0b12&amp;title_color=6c7bbd&amp;icon_color=22c55e&amp;text_color=e8eaf0",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/repo-readiness.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/index-health.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/juce-framework/JUCE.git",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://json-schema.org/draft/2020-12/schema",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/{product_id}",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/topics/{quote(slug((self.tags",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/{OWNER}",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github\\.com/([^/",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://raw.githubusercontent.com/{owner}/{name}/{branch}/{rel}",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/{owner}/{name}/archive/refs/heads/master.zip",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/{owner}/{name}/archive/refs/heads/{branch}.zip",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/AETHER",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/PaintMask",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/RiftSynth-Pro",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Therum",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/WURP",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/WaveForm-Pro",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/WaveForm-RiftSynth-Lite",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/WhisperGate",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/Awesome_Audio_Plugins-200%2B_Free_Tools-6c7bbd?style=for-the-badge&amp;logo=github&amp;logoColor=white",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/License-Free-4ade80?style=flat&amp;logo=creative-commons&amp;logoColor=white",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/Plugins-19-22c55e?style=flat&amp;logo=audacity&amp;logoColor=white",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/\u2b50_FORK_&amp;_STAR-1e2754?style=for-the-badge&amp;logo=github&amp;logoColor=white",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/\ud83c\udf10_OPEN_DASHBOARD-6c7bbd?style=for-the-badge&amp;logoColor=white",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/github/forks/GareBear99/TizWildinEntertainmentHUB?style=flat&amp;color=6c7bbd&amp;logo=github&amp;logoColor=white&amp;label=Forks",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/github/last-commit/GareBear99/TizWildinEntertainmentHUB?style=flat&amp;color=a78bfa&amp;logo=git&amp;logoColor=white&amp;label=Last%20Commit",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/github/stars/GareBear99/TizWildinEntertainmentHUB?style=flat&amp;color=eab308&amp;logo=github&amp;logoColor=white&amp;label=Stars",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=22&amp;duration=4000&amp;pause=1000&amp;color=6C7BBD&amp;center=true&amp;vCenter=true&amp;width=840&amp;lines=19+Free+Plugin+Versions+%2B+The+HUB;Updater+%7C+Version+Controller+%7C+Downloader;Every+plugin+has+a+free+version+on+the+HUB;Payments+and+upgrades+live+inside+each+product",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/A-real-time-spatial-signal-intelligence-engine",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/ADMENSION",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/AGI_Photon-Quantum-Computing",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/ARC-Core.git",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/ARC-Core/compare/HEAD",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/ARC-Core/discussions",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/ARC-Core/issues",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/ARC-Core/security/advisories/new",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/ARC-Core/security/advisories/new**",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/ARC-Core/tree/main/docs",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/ARC-Neuron-LLMBuilder/blob/main/ROADMAP.md",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/ARC-Neuron-LLMBuilder/blob/main/docs/LIVE_DEPLOYMENT_LEARNING.md",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/ARC-Neuron-LLMBuilder/security/advisories/new",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/ARC-Turbo-OS",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Arc-RAR/security/advisories/new",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/BrokeBot",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Charm",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/DecaGrid",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Doman.ai_Arbritrage_Bot",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/EdgeStack_Currency",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Harvest",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/LuciferAI_Local",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Neo-VECTR_Solar_Sim_NASA_Standard",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/One-Shot-Multi-Shot",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Portfolio",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Portfolio/issues/1",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Proto-AGI",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Proto-Synth_Grid_Engine",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/RAG-Command-Center",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/RiftAscent",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Robotics-Master-Controller",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/Seeded-Universe-Recreation-Engine",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/VALLIS_Liquidity",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/arc-cognition-core",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/arc-cognition-core/security/advisories/new",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/arc-language-module/security/advisories/new",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/arc-lucifer-cleanroom-runtime/security/advisories/new",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/gh-ai-operator",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/gh-ai-operator/blob/main/cloudflare/README.md",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/omnibinary-runtime/security/advisories/new",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/sponsors/GareBear99",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/ARC%20Ecosystem-7%20repos-orange",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/Buy%20Me%20a%20Coffee-garebear99-FFDD00?logo=buymeacoffee&amp;logoColor=black",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/FastAPI-powered-009688?logo=fastapi",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/GitHub%20Sponsors-GareBear99-ea4aaa?logo=githubsponsors&amp;logoColor=white",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/Ko--fi-garebear99-FF5E5B?logo=ko-fi&amp;logoColor=white",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/License-MIT-yellow.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/Sponsor-GareBear99-ea4aaa?logo=githubsponsors&amp;logoColor=white",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/hardware%20floor-2012%20Intel%20Mac-0e8a16",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/python-3.10+-blue.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/role-authority%20spine-b60205",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/tests-23%20passing-brightgreen.svg",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://keepachangelog.com/en/1.1.0/",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://ko-fi.com/garebear99",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://www.buymeacoffee.com/garebear99",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://www.contributor-covenant.org/version/2/1/code_of_conduct.html",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://www.contributor-covenant.org/version/2/1/code_of_conduct/",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://www.python.org/downloads/",
+      "source": "source-link-index",
+      "item": "TizWildinEntertainmentHUB",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/Buy%20Me%20a%20Coffee-garebear99-FFDD00?logo=buymeacoffee&logoColor=black",
+      "source": "source-link-index",
+      "item": "ARC-Core",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/GitHub%20Sponsors-GareBear99-ea4aaa?logo=githubsponsors&logoColor=white",
+      "source": "source-link-index",
+      "item": "ARC-Core",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/Ko--fi-garebear99-FF5E5B?logo=ko-fi&logoColor=white",
+      "source": "source-link-index",
+      "item": "ARC-Core",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://img.shields.io/badge/Sponsor-GareBear99-ea4aaa?logo=githubsponsors&logoColor=white",
+      "source": "source-link-index",
+      "item": "ARC-Core",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    },
+    {
+      "url": "https://github.com/GareBear99/ARC-Core/blob/main/ECOSYSTEM.md",
+      "source": "source-link-index",
+      "item": "ARC-Core",
+      "status": "valid-format",
+      "statusCode": null,
+      "error": ""
+    }
+  ]
+}
