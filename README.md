@@ -230,6 +230,11 @@ TizWildinEntertainmentHUB/
 ### Use the Dashboard (recommended)
 Visit **[garebear99.github.io/TizWildinEntertainmentHUB](https://garebear99.github.io/TizWildinEntertainmentHUB/)** → click "Check All Updates" → download the free version or jump to source.
 
+
+### Source Spine Autosync
+
+The Hub now includes a manifest-driven source-spine sync. Add a project to `plugins.json`, `packs.json`, or `lists.json`, then run `python scripts/sync_source_spine_from_manifests.py` before rebuilding the public/source/search indexes. See [`docs/SOURCE_SPINE_AUTOSYNC.md`](docs/SOURCE_SPINE_AUTOSYNC.md).
+
 ### Add a Plugin
 Edit `plugins.json` and add an entry:
 ```json
