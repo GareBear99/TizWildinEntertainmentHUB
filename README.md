@@ -65,7 +65,7 @@ The default `.io` public dashboard (`docs/index.html`) includes a **📚 Lists**
 
 <br><br>
 
-<img src="https://img.shields.io/badge/Plugins-19-22c55e?style=flat&logo=audacity&logoColor=white" alt="Plugins" />
+<img src="https://img.shields.io/badge/Plugins-20+-22c55e?style=flat&logo=audacity&logoColor=white" alt="Plugins" />
 <img src="https://img.shields.io/github/stars/GareBear99/TizWildinEntertainmentHUB?style=flat&color=eab308&logo=github&logoColor=white&label=Stars" alt="Stars" />
 <img src="https://img.shields.io/github/forks/GareBear99/TizWildinEntertainmentHUB?style=flat&color=6c7bbd&logo=github&logoColor=white&label=Forks" alt="Forks" />
 <img src="https://img.shields.io/github/last-commit/GareBear99/TizWildinEntertainmentHUB?style=flat&color=a78bfa&logo=git&logoColor=white&label=Last%20Commit" alt="Last Commit" />
