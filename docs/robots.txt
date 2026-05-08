@@ -1,3 +1,8 @@
 User-agent: *
 Allow: /
+
 Sitemap: https://garebear99.github.io/TizWildinEntertainmentHUB/sitemap.xml
+
+# Public machine-readable indexes
+Allow: /TizWildinEntertainmentHUB/public-index.json
+Allow: /TizWildinEntertainmentHUB/llms.txt

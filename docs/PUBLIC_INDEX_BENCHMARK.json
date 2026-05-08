@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "2.0",
+  "generatedAt": "2026-05-08T20:33:48Z",
+  "results": [
+    {
+      "name": "public-index-build",
+      "seconds": 3.189,
+      "timeoutSeconds": 120,
+      "returncode": 0,
+      "stdout": "Built public index: 58 records, 125 sitemap URLs, 59 social cards",
+      "stderr": ""
+    },
+    {
+      "name": "public-index-validate",
+      "seconds": 4.181,
+      "timeoutSeconds": 60,
+      "returncode": 0,
+      "stdout": "VALIDATION OK: 58 items, 125 sitemap URLs, 58 route pages",
+      "stderr": ""
+    },
+    {
+      "name": "branch-map-validate",
+      "seconds": 4.447,
+      "timeoutSeconds": 60,
+      "returncode": 0,
+      "stdout": "BRANCH MAP VALIDATION OK: 9 tracked branches",
+      "stderr": ""
+    },
+    {
+      "name": "source-index-build",
+      "seconds": 6.686,
+      "timeoutSeconds": 180,
+      "returncode": 0,
+      "stdout": "SOURCE INDEX OK: 10 repos, 713 files, 2160 links, budget 56.0s",
+      "stderr": ""
+    },
+    {
+      "name": "source-index-validate",
+      "seconds": 4.173,
+      "timeoutSeconds": 60,
+      "returncode": 0,
+      "stdout": "SOURCE VALIDATION OK: 10 repos, 713 files, 2160 links",
+      "stderr": ""
+    }
+  ],
+  "totalSeconds": 22.676,
+  "grade": "A- - validated and production-ready; monitor as repo graph grows",
+  "recommendation": "Keep public-index, branch validation, and source-index as separate CI jobs once the graph passes 25 repositories."
+}

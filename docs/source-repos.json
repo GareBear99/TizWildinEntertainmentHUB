@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.0",
+  "purpose": "Defines source repositories that can be indexed into the public Hub source graph. Add one entry to auto-generate file manifests, link extraction, route pages, and search records.",
+  "timeoutPolicy": {
+    "mode": "generation-based",
+    "baseSeconds": 20,
+    "secondsPerThousandFiles": 8,
+    "maxSeconds": 240,
+    "description": "Build scripts calculate a time budget from repository size so larger source graphs get more time without allowing silent hangs. Override with SOURCE_INDEX_TIMEOUT_SECONDS when needed."
+  },
+  "repositories": [
+    {
+      "id": "tizwildin-entertainment-hub",
+      "name": "TizWildinEntertainmentHUB",
+      "cluster": "TizWildin Public Hub",
+      "url": "https://github.com/GareBear99/TizWildinEntertainmentHUB",
+      "docs": "https://garebear99.github.io/TizWildinEntertainmentHUB/",
+      "sourceType": "local-path",
+      "path": ".",
+      "priority": 1,
+      "tags": [
+        "hub",
+        "github-pages",
+        "seo",
+        "public-index",
+        "audio-tools"
+      ]
+    },
+    {
+      "id": "arc-core",
+      "name": "ARC-Core",
+      "cluster": "ARC Source Spine",
+      "url": "https://github.com/GareBear99/ARC-Core",
+      "docs": "https://github.com/GareBear99/ARC-Core#readme",
+      "sourceType": "archive-or-clone",
+      "path": "source_archives/ARC-Core-main.zip",
+      "priority": 2,
+      "tags": [
+        "arc",
+        "local-ai",
+        "governance",
+        "receipts"
+      ]
+    },
+    {
+      "id": "arc-rar",
+      "name": "Arc-RAR",
+      "cluster": "ARC Source Spine",
+      "url": "https://github.com/GareBear99/Arc-RAR",
+      "docs": "https://github.com/GareBear99/Arc-RAR#readme",
+      "sourceType": "archive-or-clone",
+      "path": "source_archives/Arc-RAR-main.zip",
+      "priority": 3,
+      "tags": [
+        "archive",
+        "cli",
+        "reproducibility",
+        "receipts"
+      ]
+    },
+    {
+      "id": "omnibinary-runtime",
+      "name": "OmniBinary Runtime",
+      "cluster": "ARC Source Spine",
+      "url": "https://github.com/GareBear99/omnibinary-runtime",
+      "docs": "https://github.com/GareBear99/omnibinary-runtime#readme",
+      "sourceType": "archive-or-clone",
+      "path": "source_archives/omnibinary-runtime-main.zip",
+      "priority": 4,
+      "tags": [
+        "binary-runtime",
+        "receipts",
+        "native-first"
+      ]
+    },
+    {
+      "id": "arc-neuron-llmbuilder",
+      "name": "ARC-Neuron-LLMBuilder",
+      "cluster": "ARC Source Spine",
+      "url": "https://github.com/GareBear99/ARC-Neuron-LLMBuilder",
+      "docs": "https://github.com/GareBear99/ARC-Neuron-LLMBuilder#readme",
+      "sourceType": "remote-url",
+      "priority": 5,
+      "tags": [
+        "llm",
+        "gguf",
+        "local-ai",
+        "cognition-core"
+      ]
+    },
+    {
+      "id": "arc-lucifer-cleanroom-runtime",
+      "name": "arc-lucifer-cleanroom-runtime",
+      "cluster": "ARC Source Spine",
+      "url": "https://github.com/GareBear99/arc-lucifer-cleanroom-runtime",
+      "docs": "https://github.com/GareBear99/arc-lucifer-cleanroom-runtime#readme",
+      "sourceType": "remote-url",
+      "priority": 6,
+      "tags": [
+        "runtime",
+        "offline-ai",
+        "llamafile",
+        "token-streaming"
+      ]
+    },
+    {
+      "id": "arc-language-module",
+      "name": "arc-language-module",
+      "cluster": "ARC Source Spine",
+      "url": "https://github.com/GareBear99/arc-language-module",
+      "docs": "https://github.com/GareBear99/arc-language-module#readme",
+      "sourceType": "remote-url",
+      "priority": 7,
+      "tags": [
+        "nlp",
+        "linguistics",
+        "language-learning"
+      ]
+    },
+    {
+      "id": "freeeq8",
+      "name": "FreeEQ8",
+      "cluster": "TizWildin Audio Plugins",
+      "url": "https://github.com/GareBear99/FreeEQ8",
+      "docs": "https://github.com/GareBear99/FreeEQ8#readme",
+      "sourceType": "remote-url",
+      "priority": 8,
+      "tags": [
+        "audio-plugin",
+        "juce",
+        "dsp",
+        "vst3"
+      ]
+    },
+    {
+      "id": "freevox8",
+      "name": "FreeVox8",
+      "cluster": "TizWildin Audio Plugins",
+      "url": "https://github.com/GareBear99/FreeVox8",
+      "docs": "https://github.com/GareBear99/FreeVox8#readme",
+      "sourceType": "remote-url",
+      "priority": 9,
+      "tags": [
+        "audio-plugin",
+        "vocoder",
+        "spectral-processing",
+        "juce"
+      ]
+    },
+    {
+      "id": "awesome-audio-plugins-dev",
+      "name": "awesome-audio-plugins-dev",
+      "cluster": "TizWildin Discovery Lists",
+      "url": "https://github.com/GareBear99/awesome-audio-plugins-dev",
+      "docs": "https://github.com/GareBear99/awesome-audio-plugins-dev#readme",
+      "sourceType": "remote-url",
+      "priority": 10,
+      "tags": [
+        "awesome-list",
+        "audio-plugins",
+        "music-production"
+      ]
+    }
+  ]
+}

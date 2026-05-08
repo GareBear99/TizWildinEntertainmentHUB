@@ -1,16 +1,9 @@
 {
   "name": "TizWildin Entertainment HUB",
   "short_name": "TizWildin HUB",
-  "description": "FreeEQ8, free audio plugins, sample packs, Release Vault routing, and TizWildin music-tech ecosystem.",
-  "start_url": "./",
+  "description": "Static crawler-friendly index of TizWildin audio, producer, public list, credibility, and ARC source-spine routes.",
+  "start_url": "/TizWildinEntertainmentHUB/",
   "display": "standalone",
-  "background_color": "#050612",
-  "theme_color": "#7c8cff",
-  "icons": [
-    {
-      "src": "assets/branding/favicon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml"
-    }
-  ]
+  "background_color": "#070914",
+  "theme_color": "#8ea2ff"
 }

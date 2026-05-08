@@ -1,0 +1,377 @@
+# TizWildin Entertainment HUB Public Index
+
+Generated: 2026-05-08
+Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
+
+This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
+
+## ARC Source Spine
+
+- Branching Strategy Route: Public branch governance route for the TizWildin / ARC public-index operating system: main, develop, seo, submission, route, arc, audio, release, and hotfix branches with validation gates.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/branching-strategy-route.html
+  Public URL: https://github.com/GareBear99/TizWildinEntertainmentHUB
+  GitHub: https://github.com/GareBear99/TizWildinEntertainmentHUB
+  Tags: branching, git, release-management, seo, governance
+
+- SEO Public Index Branch: Branch route for sitemap, public-index JSON, route pages, schema metadata, OpenGraph cards, Twitter cards, social previews, llms.txt, and public link graph generation.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/seo-public-index-branch.html
+  Public URL: https://github.com/GareBear99/TizWildinEntertainmentHUB
+  GitHub: https://github.com/GareBear99/TizWildinEntertainmentHUB
+  Tags: seo, sitemap, structured-data, public-index, github-pages
+
+- LibHunt Submission Branch: Branch route for completing LibHunt project details, alternatives, evidence notes, status tracking, and cross-linking across ARC and TizWildin ecosystem projects.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/libhunt-submission-branch.html
+  Public URL: https://github.com/GareBear99/public-credibility-seo-tracker
+  GitHub: https://github.com/GareBear99/public-credibility-seo-tracker
+  Tags: libhunt, submission, alternatives, project-discovery
+
+- ARC Source-Spine Branch: Branch route for ARC-Neuron, ARC-Core, Lucifer Runtime, arc-language-module, Arc-RAR, OmniBinary, local AI lists, LLM lists, governance routes, and source-spine indexing.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-source-spine-branch.html
+  Public URL: https://github.com/GareBear99/TizWildinEntertainmentHUB
+  GitHub: https://github.com/GareBear99/TizWildinEntertainmentHUB
+  Tags: arc, local-ai, llm, source-spine, ai-governance
+
+- TizWildin Audio Cluster Branch: Branch route for FreeEQ8, FreeVox8, TizWildinEntertainmentHUB, awesome-audio-plugins-dev, sample packs, audio directories, plugin lists, and creator-tool indexing.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-audio-cluster-branch.html
+  Public URL: https://github.com/GareBear99/TizWildinEntertainmentHUB
+  GitHub: https://github.com/GareBear99/TizWildinEntertainmentHUB
+  Tags: audio-plugin, juce, dsp, sample-packs, music-production
+
+- Release Candidate Branch: Branch route for freezing validated public-index builds after JSON, sitemap, route-page, branch-map, social-card, and release-readiness checks pass.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/release-candidate-branch.html
+  Public URL: https://github.com/GareBear99/TizWildinEntertainmentHUB
+  GitHub: https://github.com/GareBear99/TizWildinEntertainmentHUB
+  Tags: release, validation, ci, public-index, github-actions
+
+- LibHunt Submission Route: First public SEO and credibility submission platform for ARC and TizWildin project pages, alternatives, topic metadata, and public comparison graphs.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/libhunt-submission-route.html
+  Public URL: https://github.com/GareBear99/public-credibility-seo-tracker
+  GitHub: https://github.com/GareBear99/public-credibility-seo-tracker
+  Tags: libhunt, project-discovery, alternatives, seo
+
+- GitHub Topics Cleanup Route: GitHub repository topic optimization route for local-ai, offline-ai, audio-plugin, juce, dsp, sample-pack, open-source-audio, and project discovery tags.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/github-topics-cleanup-route.html
+  Public URL: https://github.com/GareBear99/public-credibility-seo-tracker
+  GitHub: https://github.com/GareBear99/public-credibility-seo-tracker
+  Tags: github-topics, seo, repo-discovery, metadata
+
+- Open Hub Submission Route: Open Hub / Black Duck project indexing route for open-source credibility, activity metadata, repository history, and public project discovery.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/open-hub-submission-route.html
+  Public URL: https://github.com/GareBear99/public-credibility-seo-tracker
+  GitHub: https://github.com/GareBear99/public-credibility-seo-tracker
+  Tags: openhub, open-source, credibility, project-index
+
+- SourceForge Mirror Route: SourceForge project mirror and release route for plugin/tool downloads, project pages, release metadata, and externally indexed distribution surfaces.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/sourceforge-mirror-route.html
+  Public URL: https://github.com/GareBear99/public-credibility-seo-tracker
+  GitHub: https://github.com/GareBear99/public-credibility-seo-tracker
+  Tags: sourceforge, downloads, release-mirror, open-source
+
+- Awesome Lists Submission Route: GitHub PR-based submission route for awesome-local-llm, awesome-local-ai, awesome-ai-agents, awesome-juce, audio DSP lists, and music-production discovery lists.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/awesome-lists-submission-route.html
+  Public URL: https://github.com/GareBear99/public-credibility-seo-tracker
+  GitHub: https://github.com/GareBear99/public-credibility-seo-tracker
+  Tags: awesome-lists, curated-lists, pull-request, seo
+
+- OpenAlternative Submission Route: OpenAlternative and OpenSourceAlternative.to submission route for positioning ARC and TizWildin projects as open-source alternatives to paid, cloud, or closed creator and AI tools.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/openalternative-submission-route.html
+  Public URL: https://github.com/GareBear99/public-credibility-seo-tracker
+  GitHub: https://github.com/GareBear99/public-credibility-seo-tracker
+  Tags: openalternative, open-source-alternative, directory, seo
+
+- Audio Directory Submission Route: Audio directory route for KVR Audio, Audio Plugins for Free, Bedroom Producers Blog, OpenAudio, JUCE lists, and producer-facing plugin discovery surfaces.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/audio-directory-submission-route.html
+  Public URL: https://github.com/GareBear99/public-credibility-seo-tracker
+  GitHub: https://github.com/GareBear99/public-credibility-seo-tracker
+  Tags: audio-directory, vst3, juce, music-production
+
+## Credibility and Submission Tracking
+
+- Public Credibility SEO Tracker: Public credibility, SEO, and directory-submission tracker for the GareBear99 / TizWildin / ARC open-source ecosystem. Tracks LibHunt, GitHub Topics, Open Hub, SourceForge, awesome lists, audio directories, AI directories, and evidence notes.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/public-credibility-seo-tracker.html
+  Public URL: https://github.com/GareBear99/public-credibility-seo-tracker
+  GitHub: https://github.com/GareBear99/public-credibility-seo-tracker
+  Tags: seo, submission-tracker, credibility, libhunt
+
+## Discovery Lists and Public Routes
+
+- Awesome Audio Plugins Dev: START HERE: the main public entry list for the GareBear99 / TizWildin audio ecosystem. Curated audio plugin development and discovery resources for JUCE, VST3/AU, DSP, open-source plugin projects, FreeEQ8, FreeVox8, and developer visibility.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/awesome-audio-plugins-dev.html
+  Public URL: https://github.com/GareBear99/awesome-audio-plugins-dev
+  GitHub: https://github.com/GareBear99/awesome-audio-plugins-dev
+  Tags: start here, audio plugins, JUCE, DSP, VST3, AU, FreeEQ8, FreeVox8, developer resources, discovery, seo
+
+- Awesome Audio Lists: Parent hub for audio directories, plugin submission targets, sample-pack directories, music-platform lists, and public discovery surfaces.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/awesome-audio-lists.html
+  Public URL: https://github.com/GareBear99/awesome-audio-lists
+  GitHub: https://github.com/GareBear99/awesome-audio-lists
+  Tags: audio lists, submission targets, SEO hub, discovery, discovery, seo
+
+- Awesome Music Platforms: SEO-maximized list of music platforms for streaming, distribution, beat selling, sample packs, sync licensing, promotion, storefronts, analytics, and independent artist tools.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/awesome-music-platforms.html
+  Public URL: https://github.com/GareBear99/awesome-music-platforms
+  GitHub: https://github.com/GareBear99/awesome-music-platforms
+  Tags: music platforms, distribution, beat selling, sample packs, sync licensing, discovery, seo
+
+- Awesome Python Audio Science: Python scientific audio, DSP, MIR, machine-learning audio, datasets, notebooks, plugin testing, and creator-audio research tooling; linked to the TizWildin HUB and deconstructed-loop/router ecosystem.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/awesome-python-audio-science.html
+  Public URL: https://github.com/GareBear99/awesome-python-audio-science
+  GitHub: https://github.com/GareBear99/awesome-python-audio-science
+  Tags: python audio, scientific audio, DSP, MIR, machine learning audio, datasets, plugin testing, discovery, seo
+
+- FreeEQ8: Flagship free/open audio plugin anchor for GitHub SEO, producer trust, plugin-discovery traffic, and the larger TizWildin audio ecosystem.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/freeeq8.html
+  Public URL: https://github.com/GareBear99/FreeEQ8
+  GitHub: https://github.com/GareBear99/FreeEQ8
+  Tags: free EQ, audio plugin, VST3, AU, producer tool, discovery, seo
+
+- FreeVox8: Canonical spectral vocoder and ghost-resynthesis continuation anchor for future HUB routing, plugin list visibility, and public audio-tech credibility.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/freevox8.html
+  Public URL: https://github.com/GareBear99/FreeVox8
+  GitHub: https://github.com/GareBear99/FreeVox8
+  Tags: spectral vocoder, ghost resynthesis, audio plugin, FreeVox8, discovery, seo
+
+- TizWildin Release Vault: Release proof and catalog routing surface for distributed tracks, monetized releases, and official TizWildin music catalog status.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-release-vault.html
+  Public URL: https://github.com/GareBear99/TizWildin-Release-Vault
+  GitHub: https://github.com/GareBear99/TizWildin-Release-Vault
+  Tags: release vault, catalog proof, music releases, discovery, seo
+
+- TizWildin .io Router: Public GitHub Pages router for plugins, lists, packs, deconstructed loops, visualizers, release proof, and TizWildin ecosystem navigation.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-io-router.html
+  Public URL: https://garebear99.github.io/TizWildinEntertainmentHUB/
+  GitHub: https://github.com/GareBear99/TizWildinEntertainmentHUB
+  Tags: io router, deconstructed loops, sample packs, plugins, lists, visualizers, discovery, seo
+
+- Deconstructed Loops / Packs Router: Public route for TizWildin deconstructed loops, stems, free sample packs, producer assets, and future pack-store/Release Vault handoff.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/deconstructed-loops-packs-router.html
+  Public URL: https://garebear99.github.io/TizWildinEntertainmentHUB/#packs
+  GitHub: https://github.com/GareBear99/TizWildinEntertainmentHUB
+  Tags: deconstructed loops, stems, sample packs, producer packs, router, discovery, seo
+
+- ARC-Neuron-LLMBuilder: Local-first cognition-core builder for ARC: dataset preparation, model-building experiments, GGUF-oriented local AI workflows, receipts, and reproducible AI growth pipelines.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-neuron-llmbuilder.html
+  Public URL: https://github.com/GareBear99/ARC-Neuron-LLMBuilder
+  GitHub: https://github.com/GareBear99/ARC-Neuron-LLMBuilder
+  Tags: local AI, LLM, GGUF, cognition core, receipts, discovery, seo
+
+- ARC-Core: Signal-intelligence event spine and local-first AI governance console for deterministic routing, authority gates, receipts, calibration, incident tracking, and replayable evidence.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-core.html
+  Public URL: https://github.com/GareBear99/ARC-Core
+  GitHub: https://github.com/GareBear99/ARC-Core
+  Tags: ARC, AI governance, receipts, event sourcing, FastAPI, discovery, seo
+
+- arc-lucifer-cleanroom-runtime: Local-first cleanroom AI runtime route for offline model execution, token streaming, deterministic event capture, and reproducible inference behavior.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-lucifer-cleanroom-runtime.html
+  Public URL: https://github.com/GareBear99/arc-lucifer-cleanroom-runtime
+  GitHub: https://github.com/GareBear99/arc-lucifer-cleanroom-runtime
+  Tags: local AI, runtime, offline AI, token streaming, discovery, seo
+
+- arc-language-module: Language and cognition foundation route for linguistic structure, transliteration, lineage, phonology, and language-learning data.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-language-module.html
+  Public URL: https://github.com/GareBear99/arc-language-module
+  GitHub: https://github.com/GareBear99/arc-language-module
+  Tags: NLP, linguistics, language learning, cognition, discovery, seo
+
+- Arc-RAR: CLI-first archive manager with native-app control plane, autowrap intent validation, receipts, restore paths, and reproducible project archive handling.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-rar.html
+  Public URL: https://github.com/GareBear99/Arc-RAR
+  GitHub: https://github.com/GareBear99/Arc-RAR
+  Tags: archive, CLI, receipts, reproducibility, discovery, seo
+
+- OmniBinary Runtime: Native-first binary intake and execution-fabric scaffold for file inspection, host profiling, lane selection, receipts, audits, and runtime-readiness reporting.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/omnibinary-runtime.html
+  Public URL: https://github.com/GareBear99/omnibinary-runtime
+  GitHub: https://github.com/GareBear99/omnibinary-runtime
+  Tags: binary runtime, native first, receipts, audits, discovery, seo
+
+## TizWildin Audio Plugins
+
+- Therum: Bootleg Serum — free wavetable synthesizer with visual waveform editing and modulation.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/therum.html
+  Public URL: https://github.com/GareBear99/Therum_JUCE-Plugin
+  GitHub: https://github.com/GareBear99/Therum_JUCE-Plugin
+  Tags: VST3, AU, flagship, audio-plugin, music-production
+
+- XyloCore: Playable xylophone / tuned-percussion instrument with velocity-mapped samples and keyboard control.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/xylocore.html
+  Public URL: https://github.com/GareBear99/XyloCore
+  GitHub: https://github.com/GareBear99/XyloCore
+  Tags: VST3, AU, instruments, audio-plugin, music-production
+
+- AETHER: Choir & atmosphere designer for cinematic sound design — procedural choirs, pads, and evolving textures.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/aether.html
+  Public URL: https://github.com/GareBear99/AETHER_Choir-Atmosphere-Designer
+  GitHub: https://github.com/GareBear99/AETHER_Choir-Atmosphere-Designer
+  Tags: VST3, AU, experimental, audio-plugin, music-production
+
+- BassMaid: Bass enhancement and low-end processing toolkit.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/bassmaid.html
+  Public URL: https://github.com/GareBear99/BassMaid
+  GitHub: https://github.com/GareBear99/BassMaid
+  Tags: VST3, AU, maid_suite, audio-plugin, music-production
+
+- ChainMaid: Sidechain plugin — clean sidechain ducking and pumping effects for EDM, trap, and mix engineering.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/chainmaid.html
+  Public URL: https://github.com/GareBear99/ChainMaid
+  GitHub: https://github.com/GareBear99/ChainMaid
+  Tags: VST3, AU, maid_suite, audio-plugin, music-production
+
+- FreeSampler: Lightweight high-performance audio sampler plugin.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/freesampler.html
+  Public URL: https://github.com/GareBear99/FreeSampler_v0.3
+  GitHub: https://github.com/GareBear99/FreeSampler_v0.3
+  Tags: VST3, AU, experimental, audio-plugin, music-production
+
+- GlueMaid: Mix bus glue and cohesion tool — compression and tonal shaping.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/gluemaid.html
+  Public URL: https://github.com/GareBear99/GlueMaid
+  GitHub: https://github.com/GareBear99/GlueMaid
+  Tags: VST3, AU, maid_suite, audio-plugin, music-production
+
+- Instrudio: 10 fully playable instruments — cross-platform instrument ecosystem with hybrid HTML/plugin architecture.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/instrudio.html
+  Public URL: https://github.com/GareBear99/Instrudio
+  GitHub: https://github.com/GareBear99/Instrudio
+  Tags: VST3, AU, Standalone, instruments, audio-plugin, music-production
+
+- MeterMaid: Single-plugin mastering + metering suite: BS.1770-4 K-weighted loudness, EBU R128 gated integration, 4× oversampled true peak, spectrogram, chromagram, goniometer, and an octagonal target radar.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/metermaid.html
+  Public URL: https://github.com/GareBear99/MeterMaid
+  GitHub: https://github.com/GareBear99/MeterMaid
+  Tags: VST3, AU, Standalone, maid_suite, audio-plugin, music-production
+
+- MixMaid: Real-time spectral balance and mix correction — gently guides mixes toward balanced tonal distribution, proper headroom, and controlled dynamics.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/mixmaid.html
+  Public URL: https://github.com/GareBear99/MixMaid
+  GitHub: https://github.com/GareBear99/MixMaid
+  Tags: VST3, AU, maid_suite, audio-plugin, music-production
+
+- MultiMaid: Focused multiband dynamics plugin for the Maid suite — deliberately non-overlapping with FreeEQ8, GlueMaid, MixMaid, BassMaid, SpaceMaid, ChainMaid, and MeterMaid.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/multimaid.html
+  Public URL: https://github.com/GareBear99/MultiMaid
+  GitHub: https://github.com/GareBear99/MultiMaid
+  Tags: VST3, AU, Standalone, maid_suite, audio-plugin, music-production
+
+- PaintMask: Visual paint-based audio processing — shape sound with brush strokes, splashes, and geometry that become MIDI patterns.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/paintmask.html
+  Public URL: https://github.com/GareBear99/PaintMask_Free-JUCE-Plugin
+  GitHub: https://github.com/GareBear99/PaintMask_Free-JUCE-Plugin
+  Tags: VST3, AU, experimental, audio-plugin, music-production
+
+- PAP-Forge-Audio: Procedural Autonomous Plugins runtime for generating, branching, mutating, validating, and restoring plugin projects from natural-language sound intent.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/pap-forge-audio.html
+  Public URL: https://github.com/GareBear99/PAP-Forge-Audio
+  GitHub: https://github.com/GareBear99/PAP-Forge-Audio
+  Tags: VST3, AU, experimental, audio-plugin, music-production
+
+- RiftWave Suite: Modular synth engine + waveform synthesis — RiftSynth + WaveForm in Lite and Pro editions.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/riftwave-suite.html
+  Public URL: https://github.com/GareBear99/RiftWaveSuite_RiftSynth_WaveForm_Lite
+  GitHub: https://github.com/GareBear99/RiftWaveSuite_RiftSynth_WaveForm_Lite
+  Tags: VST3, AU, sound_design, audio-plugin, music-production
+
+- SpaceMaid: Spatial audio processing — depth, width, and reverb tools.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/spacemaid.html
+  Public URL: https://github.com/GareBear99/SpaceMaid
+  GitHub: https://github.com/GareBear99/SpaceMaid
+  Tags: VST3, AU, maid_suite, audio-plugin, music-production
+
+- VF-PlexLab: VocalForge PersonaPlex Lab — JUCE plugin + local backend + HTML tester around NVIDIA PersonaPlex for voice-conditioned vocal asset generation, spoken hooks, whispers, chants, and sample-pack export.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/vf-plexlab.html
+  Public URL: https://github.com/GareBear99/VF-PlexLab
+  GitHub: https://github.com/GareBear99/VF-PlexLab
+  Tags: VST3, AU, experimental, audio-plugin, music-production
+
+- WhisperGate: Procedural whispers, ghost choirs, and ritual atmospheres through an interactive geometry interface.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/whispergate.html
+  Public URL: https://github.com/GareBear99/WhisperGate_Free-JUCE-Plugin
+  GitHub: https://github.com/GareBear99/WhisperGate_Free-JUCE-Plugin
+  Tags: VST3, AU, experimental, audio-plugin, music-production
+
+- WURP: Toxic Motion Engine — mutates audio with formant motion, corrosive saturation, elastic pitch, and reactive animated UI.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/wurp.html
+  Public URL: https://github.com/GareBear99/WURP_Toxic-Motion-Engine_JUCE
+  GitHub: https://github.com/GareBear99/WURP_Toxic-Motion-Engine_JUCE
+  Tags: VST3, AU, experimental, audio-plugin, music-production
+
+## TizWildin Sample Packs
+
+- Free 808 Producer Kit: 94 hand-crafted 808 bass samples tuned to every chromatic key.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/free-808-producer-kit.html
+  Public URL: https://github.com/GareBear99/Free-808-Producer-Kit
+  GitHub: https://github.com/GareBear99/Free-808-Producer-Kit
+  Tags: 808, bass, trap, sample-pack, producer-tools
+
+- Free Dark Piano Sound Kit: 88 piano notes plus dark and cinematic loops and MIDI.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/free-dark-piano-sound-kit.html
+  Public URL: https://github.com/GareBear99/Free-Dark-Piano-Sound-Kit
+  GitHub: https://github.com/GareBear99/Free-Dark-Piano-Sound-Kit
+  Tags: piano, cinematic, midi, sample-pack, producer-tools
+
+- Free Future Bass Producer Kit: Loops, fills, drums, bass, synths, pads, and FX.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/free-future-bass-producer-kit.html
+  Public URL: https://github.com/GareBear99/Free-Future-Bass-Producer-Kit
+  GitHub: https://github.com/GareBear99/Free-Future-Bass-Producer-Kit
+  Tags: future-bass, loops, synths, sample-pack, producer-tools
+
+- Free Riser Producer Kit: 115+ risers and 63 downlifters - noise, synth, drum, FX, cinematic.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/free-riser-producer-kit.html
+  Public URL: https://github.com/GareBear99/Free-Riser-Producer-Kit
+  GitHub: https://github.com/GareBear99/Free-Riser-Producer-Kit
+  Tags: risers, downlifters, fx, sample-pack, producer-tools
+
+- Free Violin Synth Sample Kit: Physical-model violin sample kit rendered from the Instrudio violin instrument.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/free-violin-synth-sample-kit.html
+  Public URL: https://github.com/GareBear99/Free-Violin-Synth-Sample-Kit
+  GitHub: https://github.com/GareBear99/Free-Violin-Synth-Sample-Kit
+  Tags: violin, physical-model, instrudio, sample-pack, producer-tools
+
+- Phonk Producer Toolkit: Drift phonk starter kit - 808s, cowbells, drums, MIDI, templates.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/phonk-producer-toolkit.html
+  Public URL: https://github.com/GareBear99/Phonk_Producer_Toolkit
+  GitHub: https://github.com/GareBear99/Phonk_Producer_Toolkit
+  Tags: phonk, drift, starter, sample-pack, producer-tools
+
+- TizWildin-Aurora: 3-segment original synth melody pack with loops, stems, demo renders, and neon/cinematic phrasing.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-aurora.html
+  Public URL: https://github.com/GareBear99/TizWildin-Aurora
+  GitHub: https://github.com/GareBear99/TizWildin-Aurora
+  Tags: loops, stems, synth, neon, sample-pack, producer-tools
+
+- TizWildin-Chime: Multi-part 88 BPM chime collection spanning glass, void, halo, reed, and neon synthwave lanes.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-chime.html
+  Public URL: https://github.com/GareBear99/TizWildin-Chime
+  GitHub: https://github.com/GareBear99/TizWildin-Chime
+  Tags: chime, glass, 88bpm, sample-pack, producer-tools
+
+- TizWildin-Chroma: Multi-segment game synthwave loop sample pack from TizWildin Entertainment.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-chroma.html
+  Public URL: https://github.com/GareBear99/TizWildin-Chroma
+  GitHub: https://github.com/GareBear99/TizWildin-Chroma
+  Tags: game, synthwave, loops, sample-pack, producer-tools
+
+- TizWildin-Obsidian: Dark cinematic sample pack with choir textures, menu loops, transitions, bass, atmosphere, drums, and electric-banjo extensions.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-obsidian.html
+  Public URL: https://github.com/GareBear99/TizWildin-Obsidian
+  GitHub: https://github.com/GareBear99/TizWildin-Obsidian
+  Tags: cinematic, choir, dark, atmosphere, sample-pack, producer-tools
+
+- TizWildin-Skyline: 30 BPM-tagged synthwave and darkwave loops with generator snapshot and dark neon additions.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-skyline.html
+  Public URL: https://github.com/GareBear99/TizWildin-Skyline
+  GitHub: https://github.com/GareBear99/TizWildin-Skyline
+  Tags: synthwave, darkwave, loops, sample-pack, producer-tools
+
+## Source Repository Search Index
+- Repository file search: https://garebear99.github.io/TizWildinEntertainmentHUB/repo-file-search.html
+- TizWildinEntertainmentHUB source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-entertainment-hub.html
+- ARC-Core source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-core.html
+- Arc-RAR source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-rar.html
+- OmniBinary Runtime source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-omnibinary-runtime.html
+- ARC-Neuron-LLMBuilder source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-neuron-llmbuilder.html
+- arc-lucifer-cleanroom-runtime source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-lucifer-cleanroom-runtime.html
+- arc-language-module source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-language-module.html
+- FreeEQ8 source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freeeq8.html
+- FreeVox8 source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freevox8.html
+- awesome-audio-plugins-dev source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-awesome-audio-plugins-dev.html
