@@ -21,6 +21,21 @@
 
 > 🗂️ **Release Vault Repo:** [https://github.com/GareBear99/TizWildin-Release-Vault](https://github.com/GareBear99/TizWildin-Release-Vault)
 
+
+## Branching / Release Governance
+
+This repo now includes a branch-based operating system for public SEO, directory submissions, ARC source-spine indexing, and TizWildin audio indexing. Start with [`docs/BRANCHING_STRATEGY.md`](docs/BRANCHING_STRATEGY.md), [`docs/branch-map.json`](docs/branch-map.json), and [`docs/BRANCH_EXECUTION_QUEUE.md`](docs/BRANCH_EXECUTION_QUEUE.md).
+
+Required validation before merging index/submission work:
+
+```bash
+python scripts/build_public_index.py
+python scripts/validate_public_index.py
+python scripts/validate_branch_map.py
+```
+
+Current recommended branch: `seo/public-index-v8-branching`. Next queued branches: `submission/libhunt-arc-graph`, `submission/libhunt-tizwildin-audio-graph`, `route/github-topics-cleanup`, `route/openhub-sourceforge`, `route/awesome-lists`, `arc/source-spine-index`, and `audio/tizwildin-directory-index`.
+
 ## V1 Toggle Default
 
 This build is based on the previous default package. `docs/index.html` remains the default V1 public dashboard, and the auto-check toggle defaults ON for first-time visitors while still respecting manual user choice.
@@ -342,3 +357,83 @@ GitHub Pages setting:
 ```text
 Settings → Pages → Deploy from branch → main → /docs
 ```
+
+## Public ecosystem indexing layer
+
+This repo includes a crawler-friendly indexing layer for the GitHub Pages HUB. The interactive dashboard remains `docs/index.html`, while the static discovery layer exposes the same ecosystem as direct pages and machine-readable files.
+
+Key public index routes:
+
+- `docs/ecosystem-index.html` — static index of plugins, sample packs, public lists, and ARC source-spine routes.
+- `docs/arc-index.html` — ARC-focused source-spine index.
+- `docs/public-index.json` — machine-readable link/catalog graph.
+- `docs/llms.txt` — compact LLM/crawler-friendly text index.
+- `docs/PUBLIC_LINK_GRAPH.md` — Markdown link graph for GitHub readers.
+- `docs/sitemap.xml` and `docs/robots.txt` — crawler discovery files for GitHub Pages.
+
+Regenerate the public index after editing `plugins.json`, `packs.json`, or `lists.json`:
+
+```bash
+python3 scripts/build_public_index.py
+```
+
+The current index is designed to expose every linked route from the TizWildin audio ecosystem and the connected ARC source spine without relying on JavaScript-only rendering.
+
+## Production-Grade Public Index Validation
+
+This HUB includes a generated static public index layer for the TizWildin / GareBear99 / ARC ecosystem.
+
+Regenerate and validate it with:
+
+```bash
+python scripts/build_public_index.py
+python scripts/validate_public_index.py
+```
+
+Generated public outputs include:
+
+- `docs/ecosystem-index.html`
+- `docs/arc-index.html`
+- `docs/pages/*.html`
+- `docs/public-index.json`
+- `docs/llms.txt`
+- `docs/sitemap.xml`
+- `docs/PUBLIC_LINK_GRAPH.md`
+- `docs/assets/social/*.svg`
+- `docs/SEO_BUILD_REPORT.json`
+
+The GitHub Actions workflow at `.github/workflows/public-index.yml` rebuilds and validates the index on push and pull request.
+
+See `docs/PUBLIC_INDEX_READINESS_REPORT.md` for the readiness report.
+
+
+## Source Repository Indexing
+
+The Hub includes a static source-indexing system for repository files and extracted links. Add a repository to `docs/source-repos.json`, run `python scripts/build_source_repo_index.py`, and the Hub generates queryable file records, link records, per-repo source pages, and a browser-search page at `docs/repo-file-search.html`.
+
+Validation and benchmarking:
+
+```bash
+python scripts/build_public_index.py
+python scripts/validate_public_index.py
+python scripts/build_source_repo_index.py
+python scripts/validate_source_index.py
+python scripts/benchmark_public_index.py
+```
+
+See `docs/SOURCE_INDEXING_SYSTEM.md` and `docs/PUBLIC_INDEX_READINESS_REPORT.md`.
+
+## Public Source and Link Index
+
+The Hub can generate a searchable public index from the ecosystem source graph. Add one repository entry to `docs/source-repos.json`, then run:
+
+```bash
+python scripts/build_public_index.py
+python scripts/build_source_repo_index.py
+python scripts/validate_public_index.py
+python scripts/validate_source_index.py
+python scripts/benchmark_public_index.py
+```
+
+Generated output includes `docs/source-index.json`, `docs/source-link-index.json`, `docs/repo-file-search.html`, per-repository source pages, sitemap entries, and `llms.txt` entries. Remote GitHub hydration is available with `SOURCE_INDEX_FETCH_REMOTE=1`.
+
