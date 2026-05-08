@@ -437,3 +437,30 @@ python scripts/benchmark_public_index.py
 
 Generated output includes `docs/source-index.json`, `docs/source-link-index.json`, `docs/repo-file-search.html`, per-repository source pages, sitemap entries, and `llms.txt` entries. Remote GitHub hydration is available with `SOURCE_INDEX_FETCH_REMOTE=1`.
 
+
+
+## Ecosystem Index Quality Layer
+
+The HUB now includes a production public-index quality layer:
+
+- `docs/search.html` — static full-text search across route pages, indexed source files, and extracted links.
+- `docs/index-health.html` — public index-health dashboard.
+- `docs/repo-readiness.html` — readiness scoring for indexed repositories.
+- `docs/search-index.json` — machine-readable search index.
+- `docs/index-health.json` — machine-readable health summary.
+- `docs/REPOSITORY_READINESS_REPORT.json` — per-repo public submission readiness report.
+- `docs/LINK_CHECK_REPORT.json` — offline-safe or live external link check report.
+
+Standard rebuild:
+
+```bash
+python scripts/build_public_index.py
+python scripts/build_source_repo_index.py
+python scripts/build_search_index.py
+python scripts/check_public_links.py
+python scripts/score_repository_readiness.py
+python scripts/build_index_health.py
+python scripts/validate_public_index.py
+python scripts/validate_source_index.py
+python scripts/benchmark_public_index.py
+```
