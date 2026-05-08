@@ -41,6 +41,28 @@
   ],
   "lists": [
     {
+      "id": "tizwildin-all-links-ffm",
+      "name": "TizWildin All Links / FFM Bio",
+      "description": "Primary all-links route for TizWildin / GareBearProductionz: music, releases, SoundCloud, Spotify, YouTube, social pages, sample packs, tools, and public ecosystem links.",
+      "category": "start_here",
+      "url": "https://ffm.bio/no4km87",
+      "type": "Primary All-Links Route",
+      "status": "canonical external hub",
+      "tags": [
+        "all links",
+        "ffm bio",
+        "music links",
+        "tizwildin",
+        "soundcloud",
+        "spotify",
+        "youtube",
+        "creator ecosystem",
+        "public links"
+      ],
+      "priority": 0,
+      "startHere": true
+    },
+    {
       "id": "awesome-audio-plugins-dev",
       "name": "Awesome Audio Plugins Dev",
       "description": "START HERE: the main public entry list for the GareBear99 / TizWildin audio ecosystem. Curated audio plugin development and discovery resources for JUCE, VST3/AU, DSP, open-source plugin projects, FreeEQ8, FreeVox8, and developer visibility.",

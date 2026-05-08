@@ -6,7 +6,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 
 ## Summary
 
-- Total indexed records: **62**
+- Total indexed records: **63**
 - Total clusters: **5**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -45,6 +45,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 
 | Route | Type | Repository | Tags |
 |---|---|---|---|
+| [TizWildin All Links / FFM Bio](pages/tizwildin-all-links-ffm-bio.html) | Primary All-Links Route | https://ffm.bio/no4km87 | all links, ffm bio, music links, tizwildin, soundcloud, spotify, youtube, creator ecosystem, public links, discovery, seo |
 | [Awesome Audio Plugins Dev](pages/awesome-audio-plugins-dev.html) | START HERE | https://github.com/GareBear99/awesome-audio-plugins-dev | start here, audio plugins, JUCE, DSP, VST3, AU, FreeEQ8, FreeVox8, developer resources, discovery, seo |
 | [Awesome Audio Lists](pages/awesome-audio-lists.html) | Parent Hub | https://github.com/GareBear99/awesome-audio-lists | audio lists, submission targets, SEO hub, discovery, discovery, seo |
 | [Awesome Music Platforms](pages/awesome-music-platforms.html) | Satellite List | https://github.com/GareBear99/awesome-music-platforms | music platforms, distribution, beat selling, sample packs, sync licensing, discovery, seo |

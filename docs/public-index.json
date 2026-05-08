@@ -5,7 +5,7 @@
   "description": "Static crawler-friendly index of TizWildin audio, producer, public list, credibility, and ARC source-spine routes.",
   "owner": "GareBear99",
   "baseUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB",
-  "itemCount": 62,
+  "itemCount": 63,
   "items": [
     {
       "cluster": "ARC Source Spine",
@@ -482,6 +482,39 @@
       "canonicalUrl": "https://github.com/GareBear99/public-credibility-seo-tracker",
       "repoUrl": "https://github.com/GareBear99/public-credibility-seo-tracker",
       "docsUrl": "https://github.com/GareBear99/public-credibility-seo-tracker#readme"
+    },
+    {
+      "cluster": "Discovery Lists and Public Routes",
+      "kind": "Primary All-Links Route",
+      "name": "TizWildin All Links / FFM Bio",
+      "description": "Primary all-links route for TizWildin / GareBearProductionz: music, releases, SoundCloud, Spotify, YouTube, social pages, sample packs, tools, and public ecosystem links.",
+      "repo": "",
+      "url": "https://ffm.bio/no4km87",
+      "docs": "",
+      "status": "canonical external hub",
+      "tags": [
+        "all links",
+        "ffm bio",
+        "music links",
+        "tizwildin",
+        "soundcloud",
+        "spotify",
+        "youtube",
+        "creator ecosystem",
+        "public links",
+        "discovery",
+        "seo"
+      ],
+      "priority": 0,
+      "license": "See repository",
+      "language": "Web",
+      "source_manifest": "lists.json",
+      "id": "tizwildin-all-links-ffm-bio",
+      "page": "pages/tizwildin-all-links-ffm-bio.html",
+      "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-all-links-ffm-bio.html",
+      "canonicalUrl": "https://ffm.bio/no4km87",
+      "repoUrl": "",
+      "docsUrl": "https://ffm.bio/no4km87"
     },
     {
       "cluster": "Discovery Lists and Public Routes",

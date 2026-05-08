@@ -2,13 +2,48 @@
 
 This file is generated from `docs/source-repos.json`. Add a repository entry and run `python scripts/build_source_repo_index.py` to rebuild the static file/link search index. To hydrate remote GitHub repos, run with `SOURCE_INDEX_FETCH_REMOTE=1`.
 
-- [TizWildinEntertainmentHUB](pages/source-tizwildin-entertainment-hub.html) — 393 files, 2204 links, indexed-folder
-- [ARC-Core](pages/source-arc-core.html) — 136 files, 274 links, indexed-archive
-- [Arc-RAR](pages/source-arc-rar.html) — 68 files, 1 links, indexed-archive
-- [OmniBinary Runtime](pages/source-omnibinary-runtime.html) — 137 files, 0 links, indexed-archive
-- [ARC-Neuron-LLMBuilder](pages/source-arc-neuron-llmbuilder.html) — 0 files, 0 links, remote-record-only
-- [arc-lucifer-cleanroom-runtime](pages/source-arc-lucifer-cleanroom-runtime.html) — 0 files, 0 links, remote-record-only
-- [arc-language-module](pages/source-arc-language-module.html) — 0 files, 0 links, remote-record-only
+- [Awesome Audio Plugins Dev](pages/source-awesome-audio-plugins-dev.html) — 0 files, 0 links, remote-record-only
+- [TizWildinEntertainmentHUB](pages/source-tizwildin-entertainment-hub.html) — 425 files, 2348 links, indexed-folder
+- [Awesome Audio Lists](pages/source-awesome-audio-lists.html) — 0 files, 0 links, remote-record-only
+- [Awesome Music Platforms](pages/source-awesome-music-platforms.html) — 0 files, 0 links, remote-record-only
+- [Awesome Python Audio Science](pages/source-awesome-python-audio-science.html) — 0 files, 0 links, remote-record-only
 - [FreeEQ8](pages/source-freeeq8.html) — 0 files, 0 links, remote-record-only
 - [FreeVox8](pages/source-freevox8.html) — 0 files, 0 links, remote-record-only
-- [awesome-audio-plugins-dev](pages/source-awesome-audio-plugins-dev.html) — 0 files, 0 links, remote-record-only
+- [TizWildin Release Vault](pages/source-tizwildin-release-vault.html) — 149 files, 13509 links, indexed-archive
+- [TizWildin .io Router](pages/source-tizwildin-io-router.html) — 0 files, 0 links, remote-record-only
+- [Deconstructed Loops / Packs Router](pages/source-deconstructed-loops-router.html) — 0 files, 0 links, remote-record-only
+- [ARC-Neuron-LLMBuilder](pages/source-arc-neuron-llmbuilder.html) — 0 files, 0 links, remote-record-only
+- [Therum](pages/source-therum.html) — 0 files, 0 links, remote-record-only
+- [XyloCore](pages/source-xylocore.html) — 0 files, 0 links, remote-record-only
+- [ARC-Core](pages/source-arc-core.html) — 136 files, 274 links, indexed-archive
+- [arc-lucifer-cleanroom-runtime](pages/source-arc-lucifer-cleanroom-runtime.html) — 0 files, 0 links, remote-record-only
+- [arc-language-module](pages/source-arc-language-module.html) — 0 files, 0 links, remote-record-only
+- [Arc-RAR](pages/source-arc-rar.html) — 68 files, 1 links, indexed-archive
+- [OmniBinary Runtime](pages/source-omnibinary-runtime.html) — 137 files, 0 links, indexed-archive
+- [AETHER](pages/source-aether.html) — 0 files, 0 links, remote-record-only
+- [BassMaid](pages/source-bassmaid.html) — 0 files, 0 links, remote-record-only
+- [ChainMaid](pages/source-chainmaid.html) — 0 files, 0 links, remote-record-only
+- [FreeSampler](pages/source-freesampler.html) — 0 files, 0 links, remote-record-only
+- [GlueMaid](pages/source-gluemaid.html) — 0 files, 0 links, remote-record-only
+- [Instrudio](pages/source-instrudio.html) — 0 files, 0 links, remote-record-only
+- [MeterMaid](pages/source-metermaid.html) — 0 files, 0 links, remote-record-only
+- [MixMaid](pages/source-mixmaid.html) — 0 files, 0 links, remote-record-only
+- [MultiMaid](pages/source-multimaid.html) — 0 files, 0 links, remote-record-only
+- [PaintMask](pages/source-paintmask.html) — 0 files, 0 links, remote-record-only
+- [PAP-Forge-Audio](pages/source-pap-forge-audio.html) — 0 files, 0 links, remote-record-only
+- [RiftWave Suite](pages/source-riftwavesuite.html) — 0 files, 0 links, remote-record-only
+- [SpaceMaid](pages/source-spacemaid.html) — 0 files, 0 links, remote-record-only
+- [VF-PlexLab](pages/source-vf-plexlab.html) — 0 files, 0 links, remote-record-only
+- [WhisperGate](pages/source-whispergate.html) — 0 files, 0 links, remote-record-only
+- [WURP](pages/source-wurp.html) — 0 files, 0 links, remote-record-only
+- [Free 808 Producer Kit](pages/source-free-808-producer.html) — 0 files, 0 links, remote-record-only
+- [Free Dark Piano Sound Kit](pages/source-free-dark-piano.html) — 0 files, 0 links, remote-record-only
+- [Free Future Bass Producer Kit](pages/source-free-future-bass.html) — 0 files, 0 links, remote-record-only
+- [Free Riser Producer Kit](pages/source-free-riser-producer.html) — 0 files, 0 links, remote-record-only
+- [Free Violin Synth Sample Kit](pages/source-free-violin-synth.html) — 0 files, 0 links, remote-record-only
+- [Phonk Producer Toolkit](pages/source-phonk-producer.html) — 0 files, 0 links, remote-record-only
+- [TizWildin-Aurora](pages/source-tizwildin-aurora.html) — 0 files, 0 links, remote-record-only
+- [TizWildin-Chime](pages/source-tizwildin-chime.html) — 0 files, 0 links, remote-record-only
+- [TizWildin-Chroma](pages/source-tizwildin-chroma.html) — 0 files, 0 links, remote-record-only
+- [TizWildin-Obsidian](pages/source-tizwildin-obsidian.html) — 0 files, 0 links, remote-record-only
+- [TizWildin-Skyline](pages/source-tizwildin-skyline.html) — 0 files, 0 links, remote-record-only

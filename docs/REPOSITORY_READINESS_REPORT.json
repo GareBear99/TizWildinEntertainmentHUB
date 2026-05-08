@@ -1,7 +1,29 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-05-08T20:52:24Z",
+  "generatedAt": "2026-05-08T22:13:49Z",
   "repositories": [
+    {
+      "repoId": "awesome-audio-plugins-dev",
+      "name": "Awesome Audio Plugins Dev",
+      "cluster": "Discovery Lists and Public Routes",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
     {
       "repoId": "tizwildin-entertainment-hub",
       "name": "TizWildinEntertainmentHUB",
@@ -11,8 +33,8 @@
       "score": 78,
       "maxScore": 100,
       "grade": "B+",
-      "fileCount": 393,
-      "linkCount": 2204,
+      "fileCount": 425,
+      "linkCount": 2348,
       "passed": [
         "README present",
         "Changelog present",
@@ -28,6 +50,253 @@
         "Security policy present"
       ],
       "recommendation": "Add missing credibility files/docs."
+    },
+    {
+      "repoId": "awesome-audio-lists",
+      "name": "Awesome Audio Lists",
+      "cluster": "Discovery Lists and Public Routes",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "awesome-music-platforms",
+      "name": "Awesome Music Platforms",
+      "cluster": "Discovery Lists and Public Routes",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "awesome-python-audio-science",
+      "name": "Awesome Python Audio Science",
+      "cluster": "Discovery Lists and Public Routes",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "freeeq8",
+      "name": "FreeEQ8",
+      "cluster": "Discovery Lists and Public Routes",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "freevox8",
+      "name": "FreeVox8",
+      "cluster": "Discovery Lists and Public Routes",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "tizwildin-release-vault",
+      "name": "TizWildin Release Vault",
+      "cluster": "Discovery Lists and Public Routes",
+      "sourceStatus": "indexed-archive",
+      "hydrated": true,
+      "score": 70,
+      "maxScore": 100,
+      "grade": "B",
+      "fileCount": 149,
+      "linkCount": 13509,
+      "passed": [
+        "README present",
+        "License present",
+        "CI workflow present",
+        "Docs folder indexed",
+        "External/internal links found",
+        "Meaningful file coverage"
+      ],
+      "missing": [
+        "Changelog present",
+        "Contributing guide present",
+        "Security policy present",
+        "Code of conduct present"
+      ],
+      "recommendation": "Add missing credibility files/docs."
+    },
+    {
+      "repoId": "tizwildin-io-router",
+      "name": "TizWildin .io Router",
+      "cluster": "Discovery Lists and Public Routes",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "deconstructed-loops-router",
+      "name": "Deconstructed Loops / Packs Router",
+      "cluster": "Discovery Lists and Public Routes",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "arc-neuron-llmbuilder",
+      "name": "ARC-Neuron-LLMBuilder",
+      "cluster": "ARC Source Spine",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "therum",
+      "name": "Therum",
+      "cluster": "TizWildin Audio Plugins",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "xylocore",
+      "name": "XyloCore",
+      "cluster": "TizWildin Audio Plugins",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
     },
     {
       "repoId": "arc-core",
@@ -55,6 +324,50 @@
         "CI workflow present"
       ],
       "recommendation": "Add missing credibility files/docs."
+    },
+    {
+      "repoId": "arc-lucifer-cleanroom-runtime",
+      "name": "arc-lucifer-cleanroom-runtime",
+      "cluster": "ARC Source Spine",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "arc-language-module",
+      "name": "arc-language-module",
+      "cluster": "ARC Source Spine",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
     },
     {
       "repoId": "arc-rar",
@@ -111,74 +424,8 @@
       "recommendation": "Add missing credibility files/docs."
     },
     {
-      "repoId": "arc-neuron-llmbuilder",
-      "name": "ARC-Neuron-LLMBuilder",
-      "cluster": "ARC Source Spine",
-      "sourceStatus": "remote-record-only",
-      "hydrated": false,
-      "score": 60,
-      "maxScore": 100,
-      "grade": "Pending hydration",
-      "fileCount": 0,
-      "linkCount": 0,
-      "passed": [
-        "Repository URL present",
-        "Docs URL present",
-        "Tags present",
-        "Cluster assigned"
-      ],
-      "missing": [
-        "Source hydration pending"
-      ],
-      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
-    },
-    {
-      "repoId": "arc-lucifer-cleanroom-runtime",
-      "name": "arc-lucifer-cleanroom-runtime",
-      "cluster": "ARC Source Spine",
-      "sourceStatus": "remote-record-only",
-      "hydrated": false,
-      "score": 60,
-      "maxScore": 100,
-      "grade": "Pending hydration",
-      "fileCount": 0,
-      "linkCount": 0,
-      "passed": [
-        "Repository URL present",
-        "Docs URL present",
-        "Tags present",
-        "Cluster assigned"
-      ],
-      "missing": [
-        "Source hydration pending"
-      ],
-      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
-    },
-    {
-      "repoId": "arc-language-module",
-      "name": "arc-language-module",
-      "cluster": "ARC Source Spine",
-      "sourceStatus": "remote-record-only",
-      "hydrated": false,
-      "score": 60,
-      "maxScore": 100,
-      "grade": "Pending hydration",
-      "fileCount": 0,
-      "linkCount": 0,
-      "passed": [
-        "Repository URL present",
-        "Docs URL present",
-        "Tags present",
-        "Cluster assigned"
-      ],
-      "missing": [
-        "Source hydration pending"
-      ],
-      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
-    },
-    {
-      "repoId": "freeeq8",
-      "name": "FreeEQ8",
+      "repoId": "aether",
+      "name": "AETHER",
       "cluster": "TizWildin Audio Plugins",
       "sourceStatus": "remote-record-only",
       "hydrated": false,
@@ -199,8 +446,8 @@
       "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
     },
     {
-      "repoId": "freevox8",
-      "name": "FreeVox8",
+      "repoId": "bassmaid",
+      "name": "BassMaid",
       "cluster": "TizWildin Audio Plugins",
       "sourceStatus": "remote-record-only",
       "hydrated": false,
@@ -221,9 +468,537 @@
       "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
     },
     {
-      "repoId": "awesome-audio-plugins-dev",
-      "name": "awesome-audio-plugins-dev",
-      "cluster": "TizWildin Discovery Lists",
+      "repoId": "chainmaid",
+      "name": "ChainMaid",
+      "cluster": "TizWildin Audio Plugins",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "freesampler",
+      "name": "FreeSampler",
+      "cluster": "TizWildin Audio Plugins",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "gluemaid",
+      "name": "GlueMaid",
+      "cluster": "TizWildin Audio Plugins",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "instrudio",
+      "name": "Instrudio",
+      "cluster": "TizWildin Audio Plugins",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "metermaid",
+      "name": "MeterMaid",
+      "cluster": "TizWildin Audio Plugins",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "mixmaid",
+      "name": "MixMaid",
+      "cluster": "TizWildin Audio Plugins",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "multimaid",
+      "name": "MultiMaid",
+      "cluster": "TizWildin Audio Plugins",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "paintmask",
+      "name": "PaintMask",
+      "cluster": "TizWildin Audio Plugins",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "pap-forge-audio",
+      "name": "PAP-Forge-Audio",
+      "cluster": "TizWildin Audio Plugins",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "riftwavesuite",
+      "name": "RiftWave Suite",
+      "cluster": "TizWildin Audio Plugins",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "spacemaid",
+      "name": "SpaceMaid",
+      "cluster": "TizWildin Audio Plugins",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "vf-plexlab",
+      "name": "VF-PlexLab",
+      "cluster": "TizWildin Audio Plugins",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "whispergate",
+      "name": "WhisperGate",
+      "cluster": "TizWildin Audio Plugins",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "wurp",
+      "name": "WURP",
+      "cluster": "TizWildin Audio Plugins",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "free-808-producer",
+      "name": "Free 808 Producer Kit",
+      "cluster": "TizWildin Sample Packs",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "free-dark-piano",
+      "name": "Free Dark Piano Sound Kit",
+      "cluster": "TizWildin Sample Packs",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "free-future-bass",
+      "name": "Free Future Bass Producer Kit",
+      "cluster": "TizWildin Sample Packs",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "free-riser-producer",
+      "name": "Free Riser Producer Kit",
+      "cluster": "TizWildin Sample Packs",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "free-violin-synth",
+      "name": "Free Violin Synth Sample Kit",
+      "cluster": "TizWildin Sample Packs",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "phonk-producer",
+      "name": "Phonk Producer Toolkit",
+      "cluster": "TizWildin Sample Packs",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "tizwildin-aurora",
+      "name": "TizWildin-Aurora",
+      "cluster": "TizWildin Sample Packs",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "tizwildin-chime",
+      "name": "TizWildin-Chime",
+      "cluster": "TizWildin Sample Packs",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "tizwildin-chroma",
+      "name": "TizWildin-Chroma",
+      "cluster": "TizWildin Sample Packs",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "tizwildin-obsidian",
+      "name": "TizWildin-Obsidian",
+      "cluster": "TizWildin Sample Packs",
+      "sourceStatus": "remote-record-only",
+      "hydrated": false,
+      "score": 60,
+      "maxScore": 100,
+      "grade": "Pending hydration",
+      "fileCount": 0,
+      "linkCount": 0,
+      "passed": [
+        "Repository URL present",
+        "Docs URL present",
+        "Tags present",
+        "Cluster assigned"
+      ],
+      "missing": [
+        "Source hydration pending"
+      ],
+      "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
+    },
+    {
+      "repoId": "tizwildin-skyline",
+      "name": "TizWildin-Skyline",
+      "cluster": "TizWildin Sample Packs",
       "sourceStatus": "remote-record-only",
       "hydrated": false,
       "score": 60,
@@ -243,8 +1018,8 @@
       "recommendation": "Hydrate this repo through GitHub API or local archive to enable file-level readiness scoring."
     }
   ],
-  "averageScore": 66.2,
-  "averageHydratedScore": 75.5,
-  "hydratedRepositories": 4,
-  "pendingHydration": 6
+  "averageScore": 61.6,
+  "averageHydratedScore": 74.4,
+  "hydratedRepositories": 5,
+  "pendingHydration": 40
 }
