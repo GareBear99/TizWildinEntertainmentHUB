@@ -4,13 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>TizWildin Entertainment HUB — Free Plugins, Sample Packs, Audio Lists & ARC Source Spine</title>
-<meta name="description" content="TizWildin Entertainment HUB public index for free audio plugins, sample packs, producer tools, awesome audio lists, release routes, and ARC/GareBear99 source-spine repositories.">
+<meta name="description" content="TizWildin Entertainment HUB is the public source-of-truth spine for free audio plugins, sample packs, release checks, creator tools, awesome audio lists, ARC repositories, sitemap routes, and crawlable ecosystem proof from Gary Doman / GareBear99 / TizWildin.">
 <link rel="canonical" href="https://garebear99.github.io/TizWildinEntertainmentHUB/">
 <meta property="og:title" content="TizWildin Entertainment HUB — Public Ecosystem Index">
 <meta property="og:description" content="Free audio plugins, producer kits, sample packs, public discovery lists, and ARC source-spine links from GareBear99 / TizWildin.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://garebear99.github.io/TizWildinEntertainmentHUB/">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"TizWildin Entertainment HUB","url":"https://garebear99.github.io/TizWildinEntertainmentHUB/","description":"Public ecosystem hub for free audio plugins, sample packs, creator tools, awesome lists, and ARC source-spine repositories."}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"TizWildin Entertainment HUB","url":"https://garebear99.github.io/TizWildinEntertainmentHUB/","description":"Public source-of-truth spine for free audio plugins, sample packs, release checks, creator tools, awesome audio lists, ARC repositories, and crawlable ecosystem proof."}</script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
@@ -22,6 +22,33 @@
 body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;min-height:100vh}
 a{color:var(--accent);text-decoration:none}
 a:hover{text-decoration:underline}
+
+
+body::before{content:'';position:fixed;inset:0;pointer-events:none;background:radial-gradient(circle at 18% 6%,rgba(108,123,189,.28),transparent 34%),radial-gradient(circle at 88% 12%,rgba(34,197,94,.13),transparent 30%),linear-gradient(180deg,rgba(255,255,255,.02),transparent 44%);z-index:-1}
+.top-nav{max-width:1280px;margin:0 auto;padding:18px 32px 0;display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap}
+.brand-mark{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:-.4px;color:var(--text)}
+.brand-logo{width:36px;height:36px;border-radius:13px;display:grid;place-items:center;background:linear-gradient(135deg,#2f3b86,#0f172a);border:1px solid rgba(255,255,255,.12);box-shadow:0 14px 40px rgba(0,0,0,.35)}
+.nav-pills{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.nav-pills a{border:1px solid var(--card-border);background:rgba(19,18,34,.72);color:var(--text);padding:8px 12px;border-radius:999px;font-size:12px;font-weight:800;text-decoration:none;backdrop-filter:blur(10px)}
+.nav-pills a:hover{border-color:var(--accent);background:#18214a;text-decoration:none}
+.hero{max-width:1280px;margin:20px auto 0;padding:0 32px 20px;display:grid;grid-template-columns:minmax(0,1.18fr) minmax(300px,.82fr);gap:18px;align-items:stretch}
+.hero-main,.trust-panel,.proof-card,.route-card{border:1px solid rgba(108,123,189,.28);background:linear-gradient(180deg,rgba(20,24,49,.92),rgba(13,15,28,.94));border-radius:26px;box-shadow:0 24px 70px rgba(0,0,0,.32);overflow:hidden;position:relative}
+.hero-main{padding:34px;min-height:390px}
+.hero-main::after{content:'';position:absolute;right:-90px;top:-90px;width:260px;height:260px;border-radius:50%;background:radial-gradient(circle,rgba(108,123,189,.32),transparent 62%)}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(74,222,128,.22);background:rgba(22,78,50,.28);color:#86efac;border-radius:999px;padding:7px 12px;font-size:12px;font-weight:900;text-transform:uppercase;letter-spacing:.7px}
+.hero h2{font-size:clamp(38px,6vw,74px);line-height:.94;letter-spacing:-3px;margin:18px 0 16px;max-width:790px}
+.hero-gradient{background:linear-gradient(90deg,#fff,#b8c2ff 45%,#86efac);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero-copy{color:#c5cbdf;font-size:17px;line-height:1.7;max-width:760px;margin-bottom:22px}
+.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0 20px}
+.hero-actions a{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 16px;border-radius:13px;font-weight:900;font-size:14px;text-decoration:none;border:1px solid rgba(255,255,255,.12)}
+.primary-cta{background:linear-gradient(135deg,#6c7bbd,#3d4b94);color:white;box-shadow:0 12px 28px rgba(108,123,189,.25)}
+.secondary-cta{background:#12182f;color:var(--text)}
+.hero-actions a:hover{transform:translateY(-1px);text-decoration:none;border-color:rgba(255,255,255,.24)}
+.hero-metrics{display:grid;grid-template-columns:repeat(4,minmax(110px,1fr));gap:10px;margin-top:20px}
+.metric{background:rgba(10,11,18,.58);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:14px}
+.metric strong{display:block;font-size:22px;color:#fff;line-height:1}.metric span{display:block;font-size:12px;color:var(--sub);margin-top:6px;line-height:1.35}
+.trust-panel{padding:22px;display:flex;flex-direction:column;gap:12px}.trust-panel h3{font-size:22px;letter-spacing:-.6px}.trust-panel p{color:var(--sub);font-size:13px;line-height:1.55}.trust-list{display:grid;gap:10px}.trust-item{display:flex;gap:10px;background:rgba(10,11,18,.55);border:1px solid rgba(255,255,255,.07);border-radius:16px;padding:12px}.trust-icon{flex:0 0 32px;width:32px;height:32px;border-radius:11px;display:grid;place-items:center;background:#17214a}.trust-item strong{display:block;font-size:13px}.trust-item span{display:block;color:var(--sub);font-size:12px;line-height:1.45;margin-top:2px}
+.section-wrap{max-width:1280px;margin:0 auto;padding:10px 32px 0}.section-head{display:flex;justify-content:space-between;gap:16px;align-items:flex-end;margin:18px 0 14px;flex-wrap:wrap}.section-head h2{font-size:27px;letter-spacing:-1px}.section-head p{color:var(--sub);font-size:13px;max-width:700px;line-height:1.55}.proof-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.proof-card{padding:20px}.proof-card h3{font-size:18px;margin-bottom:8px}.proof-card p{color:var(--sub);font-size:13px;line-height:1.6}.proof-card a{display:inline-flex;margin-top:14px;font-weight:900;font-size:13px}.route-strip{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin-top:12px}.route-card{padding:14px;min-height:120px;text-decoration:none;color:var(--text)}.route-card:hover{border-color:var(--accent);text-decoration:none;transform:translateY(-1px)}.route-card strong{display:block;font-size:14px;margin-bottom:6px}.route-card span{display:block;color:var(--sub);font-size:12px;line-height:1.45}.route-card em{font-style:normal;color:#86efac;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.5px}
 
 /* Header */
 .header{padding:32px 32px 0;max-width:1280px;margin:0 auto;display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap}
@@ -119,19 +146,82 @@ a:hover{text-decoration:underline}
   .header,.controls,.category,.hub-note{padding-left:16px;padding-right:16px}
   .grid{grid-template-columns:1fr}
 }
+
+@media(max-width:900px){.hero{grid-template-columns:1fr}.proof-grid,.route-strip{grid-template-columns:1fr 1fr}.hero-metrics{grid-template-columns:1fr 1fr}.hero h2{letter-spacing:-1.6px}.hero-main{padding:26px}}
+@media(max-width:620px){.top-nav,.hero,.section-wrap{padding-left:16px;padding-right:16px}.proof-grid,.route-strip,.hero-metrics{grid-template-columns:1fr}.hero h2{font-size:38px}.hero-main,.trust-panel{border-radius:20px}.nav-pills{justify-content:flex-start}.hero-actions a{width:100%}}
+
 </style>
 <!-- V1_FULL_CONFLICT_CLEAN: no visible failure fallback -->
 <meta name="v1-build" content="V1_ABSOLUTE_CLEAN_2026_NO_CHECK_FAILED">
 <meta name="v1-build" content="V1_WITH_SEO_BUTTONS_RESTORED">
 <meta name="v1-build" content="V1_WITH_LISTS_TAB_2026">
 <meta name="v1-build" content="V1_START_HERE_AUDIO_PLUGINS_DEV_2026">
+<meta name="v1-build" content="V2_SAAS_POLISH_SOURCE_SPINE_HYBRID_2026">
 </head>
 <body>
 
-<div class="header">
+<div class="top-nav">
+  <div class="brand-mark"><div class="brand-logo">🎛️</div><span>TizWildin Entertainment HUB</span></div>
+  <div class="nav-pills">
+    <a href="https://github.com/GareBear99/TizWildinEntertainmentHUB" target="_blank" rel="noopener">GitHub Repo</a>
+    <a href="index-seo.html">SEO Landing</a>
+    <a href="ecosystem-index.html">Ecosystem Index</a>
+    <a href="arc-index.html">ARC Spine</a>
+    <a href="sitemap.xml">Sitemap</a>
+  </div>
+</div>
+
+<section class="hero" aria-label="TizWildin Entertainment HUB public landing page">
+  <div class="hero-main">
+    <div class="eyebrow">Public source-of-truth spine</div>
+    <h2><span class="hero-gradient">Free audio plugins, release routes, and crawlable proof</span> in one verified HUB.</h2>
+    <p class="hero-copy">A polished front door for the TizWildin / GareBear99 ecosystem: free-version plugin discovery, sample-pack routing, GitHub source access, release checks, awesome-list SEO, ARC source-spine links, JSON indexes, and sitemap-backed public crawl paths.</p>
+    <div class="hero-actions">
+      <a class="primary-cta" href="#screen-plugins" onclick="switchScreen('plugins')">🔌 Browse Free Plugins</a>
+      <a class="secondary-cta" href="https://github.com/GareBear99/awesome-audio-plugins-dev" target="_blank" rel="noopener">🚀 Start Here List</a>
+      <a class="secondary-cta" href="public-index.json">🗂️ Open JSON Index</a>
+    </div>
+    <div class="hero-metrics" aria-label="ecosystem proof metrics">
+      <div class="metric"><strong>19+</strong><span>free-version plugin/product routes</span></div>
+      <div class="metric"><strong>5</strong><span>public audio discovery list anchors</span></div>
+      <div class="metric"><strong>JSON</strong><span>machine-readable link/source indexes</span></div>
+      <div class="metric"><strong>ARC</strong><span>source-spine and repo lineage routes</span></div>
+    </div>
+  </div>
+  <aside class="trust-panel" aria-label="trust and source proof panel">
+    <h3>Frontend polish + backend truth spine.</h3>
+    <p>This HUB is built to look like a real product landing page while still exposing the crawlable proof layer reviewers, search engines, users, and AI tools can inspect.</p>
+    <div class="trust-list">
+      <div class="trust-item"><div class="trust-icon">✅</div><div><strong>Free-version-first routing</strong><span>Every product route points visitors to source, releases, or repo-level proof before any upgrade path.</span></div></div>
+      <div class="trust-item"><div class="trust-icon">🧭</div><div><strong>Queryable public indexes</strong><span>Static pages, JSON manifests, sitemap, llms.txt, and source repo indexes support crawling and retrieval.</span></div></div>
+      <div class="trust-item"><div class="trust-icon">🧠</div><div><strong>ARC / source lineage</strong><span>Public routes connect the music/plugin ecosystem to ARC-Core, Arc-RAR, and Omnibinary source-spine concepts.</span></div></div>
+      <div class="trust-item"><div class="trust-icon">🛡️</div><div><strong>Claim-safe wording</strong><span>No fake security claims. The page explains what the HUB does: discovery, routing, update checks, and source proof.</span></div></div>
+    </div>
+  </aside>
+</section>
+
+<section class="section-wrap" aria-label="public proof layer">
+  <div class="section-head">
+    <div><h2>What makes this different</h2><p>Most landing pages hide behind marketing. This one keeps the marketing layer and the machine-readable source layer together, so the ecosystem can be browsed by humans, crawled by search engines, and queried by AI tools.</p></div>
+  </div>
+  <div class="proof-grid">
+    <div class="proof-card"><h3>🎧 Audio product front door</h3><p>Routes FreeEQ8, FreeVox8, plugin tools, sample packs, and public audio-development resources from one branded hub.</p><a href="#screen-plugins" onclick="switchScreen('plugins')">View plugin routes →</a></div>
+    <div class="proof-card"><h3>🔎 SEO / crawler spine</h3><p>Uses canonical pages, sitemap, JSON link indexes, public list pages, and GitHub repo anchors instead of relying on a pretty homepage alone.</p><a href="index-seo.html">Open SEO landing →</a></div>
+    <div class="proof-card"><h3>🧾 Source-of-truth routing</h3><p>Connects releases, repos, manifests, source archives, readiness docs, and ARC lineage routes so claims can be traced.</p><a href="arc-index.html">Open ARC spine →</a></div>
+  </div>
+  <div class="route-strip" aria-label="fast public routes">
+    <a class="route-card" href="ecosystem-index.html"><em>crawl</em><strong>Static Ecosystem Index</strong><span>Public HTML route map for humans and search engines.</span></a>
+    <a class="route-card" href="public-index.json"><em>json</em><strong>Public Link Index</strong><span>Machine-readable source and route inventory.</span></a>
+    <a class="route-card" href="llms.txt"><em>ai</em><strong>LLM Index</strong><span>AI-readable summary of the public ecosystem surface.</span></a>
+    <a class="route-card" href="PUBLIC_LINK_GRAPH.md"><em>graph</em><strong>Public Link Graph</strong><span>Plain-English map of route relationships.</span></a>
+    <a class="route-card" href="https://github.com/GareBear99/TizWildin-Release-Vault" target="_blank" rel="noopener"><em>vault</em><strong>Release Vault</strong><span>GitHub-backed release proof and distribution route.</span></a>
+  </div>
+</section>
+
+<div class="header" style="padding-top:26px">
   <div class="header-text">
     <h1>🎛️ <span>TizWildin</span> Entertainment HUB</h1>
-    <p>TizWildinEntertainment product for free-version installs, update checks, version control, and downloads.</p>
+    <p>Live manifests, free-version installs, update checks, source routes, lists, packs, and release proof.</p>
   </div>
   <div class="header-links">
     <a href="https://github.com/GareBear99/TizWildinEntertainmentHUB" target="_blank" rel="noopener">⭐ TizWildin HUB repo</a>
@@ -139,11 +229,6 @@ a:hover{text-decoration:underline}
     <a href="https://github.com/GareBear99/awesome-audio-lists" target="_blank" rel="noopener">📚 Awesome Audio Lists</a>
     <a href="https://github.com/GareBear99/awesome-music-platforms" target="_blank" rel="noopener">🌎 Music Platforms List</a>
     <a href="https://github.com/GareBear99/awesome-python-audio-science" target="_blank" rel="noopener">🐍 Python Audio Science</a>
-    <a href="index-seo.html">🌐 SEO Landing Page</a>
-    <a href="ecosystem-index.html">🧭 Public Ecosystem Index</a>
-    <a href="arc-index.html">🧠 ARC Source Spine</a>
-    <a href="public-index.json">🗂️ JSON Link Index</a>
-    <a href="https://github.com/GareBear99/TizWildin-Release-Vault" target="_blank" rel="noopener">🗂️ Release Vault Repo</a>
   </div>
 </div>
 <div class="hub-note">
@@ -151,14 +236,6 @@ a:hover{text-decoration:underline}
     <strong>The HUB is not the checkout.</strong> Every plugin listed here has a free version. The HUB handles updates, downloads, release checks, repo/source access, and public list routing. Any payments, upgrades, or unlocks happen <strong>inside each product</strong>.<br><strong>Start Here:</strong> <a href="https://github.com/GareBear99/awesome-audio-plugins-dev" target="_blank" rel="noopener">awesome-audio-plugins-dev</a> is now the canonical first list for plugin discovery, audio-development links, FreeEQ8/FreeVox8 routing, and the rest of the GareBear99 audio network.
   </div>
 </div>
-<div class="index-links">
-  <a href="ecosystem-index.html">🧭 Static Ecosystem Index</a>
-  <a href="arc-index.html">🧠 ARC Source Spine</a>
-  <a href="llms.txt">🤖 LLM Index</a>
-  <a href="sitemap.xml">🗺️ Sitemap</a>
-  <a href="PUBLIC_LINK_GRAPH.md">🔗 Public Link Graph</a>
-</div>
-
 <div class="tabs">
   <button class="tab active" id="tab-plugins" onclick="switchScreen('plugins')">🔌 Plugins</button>
   <button class="tab" id="tab-packs" onclick="switchScreen('packs')">🎁 Packs &amp; Samples</button>
