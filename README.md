@@ -469,3 +469,9 @@ python scripts/validate_public_index.py
 python scripts/validate_source_index.py
 python scripts/benchmark_public_index.py
 ```
+
+## V2 SaaS Polish + Source-Spine Upgrade
+
+The public HUB landing page now combines a polished SaaS-style hero with the existing crawlable source-of-truth architecture. The top of `docs/index.html` now presents the ecosystem like a premium product front door, while the lower sections preserve the live plugin manifests, free-version routes, release checks, public lists, JSON indexes, sitemap, LLM index, ARC source spine, and release-vault routing.
+
+See `docs/HUB_TRUST_SPINE.md` for the trust-spine positioning and claim-safe public messaging.
