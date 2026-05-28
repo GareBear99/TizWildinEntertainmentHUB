@@ -62,7 +62,7 @@
     {
       "id": "radio_stream",
       "name": "TizWildin 24/7 Radio Stream",
-      "description": "Coming soon — 24/7 live radio stream connected to YouTube. Submit songs to the promotional roster once per day (purchase or donate badge required).",
+      "description": "Coming soon — 24/7 live radio stream connected to YouTube, with future song-submission routing for the promotional roster and badge-gated daily submissions.",
       "category": "coming_soon",
       "url": "",
       "tags": ["radio", "24-7", "youtube", "stream", "submit"],
@@ -71,7 +71,7 @@
     {
       "id": "song_submission",
       "name": "Song Submission Portal",
-      "description": "Coming soon — submit your track to the TizWildin promotional roster. One submission per day for users with a purchase or donation badge.",
+      "description": "Coming soon — public song-submission portal for the TizWildin promotional roster, designed for one daily submission from purchase or donation badge holders.",
       "category": "coming_soon",
       "url": "",
       "tags": ["submission", "promotion", "roster", "badge"],

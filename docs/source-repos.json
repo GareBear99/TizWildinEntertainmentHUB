@@ -235,22 +235,6 @@
       ]
     },
     {
-      "id": "xylocore",
-      "name": "XyloCore",
-      "cluster": "TizWildin Audio Plugins",
-      "url": "https://github.com/GareBear99/XyloCore",
-      "docs": "https://github.com/GareBear99/XyloCore#readme",
-      "sourceType": "github-api",
-      "priority": 20,
-      "tags": [
-        "vst3",
-        "au",
-        "audio-plugin",
-        "music-production",
-        "tizwildin"
-      ]
-    },
-    {
       "id": "arc-core",
       "name": "ARC-Core",
       "cluster": "ARC Source Spine",
@@ -508,22 +492,6 @@
       ]
     },
     {
-      "id": "pap-forge-audio",
-      "name": "PAP-Forge-Audio",
-      "cluster": "TizWildin Audio Plugins",
-      "url": "https://github.com/GareBear99/PAP-Forge-Audio",
-      "docs": "https://github.com/GareBear99/PAP-Forge-Audio#readme",
-      "sourceType": "github-api",
-      "priority": 40,
-      "tags": [
-        "vst3",
-        "au",
-        "audio-plugin",
-        "music-production",
-        "tizwildin"
-      ]
-    },
-    {
       "id": "riftwavesuite",
       "name": "RiftWave Suite",
       "cluster": "TizWildin Audio Plugins",
@@ -545,22 +513,6 @@
       "cluster": "TizWildin Audio Plugins",
       "url": "https://github.com/GareBear99/SpaceMaid",
       "docs": "https://github.com/GareBear99/SpaceMaid#readme",
-      "sourceType": "github-api",
-      "priority": 40,
-      "tags": [
-        "vst3",
-        "au",
-        "audio-plugin",
-        "music-production",
-        "tizwildin"
-      ]
-    },
-    {
-      "id": "vf-plexlab",
-      "name": "VF-PlexLab",
-      "cluster": "TizWildin Audio Plugins",
-      "url": "https://github.com/GareBear99/VF-PlexLab",
-      "docs": "https://github.com/GareBear99/VF-PlexLab#readme",
       "sourceType": "github-api",
       "priority": 40,
       "tags": [
@@ -600,6 +552,268 @@
         "au",
         "audio-plugin",
         "music-production",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "xylocore",
+      "name": "XyloCore",
+      "cluster": "TizWildin Audio Plugins",
+      "url": "https://github.com/GareBear99/XyloCore",
+      "docs": "https://github.com/GareBear99/XyloCore#readme",
+      "sourceType": "github-api",
+      "priority": 40,
+      "tags": [
+        "vst3",
+        "au",
+        "audio-plugin",
+        "music-production",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "arc-audiobench",
+      "name": "ARC-AudioBench",
+      "cluster": "Creator and Audio Tools",
+      "url": "https://github.com/GareBear99/ARC-AudioBench",
+      "docs": "https://github.com/GareBear99/ARC-AudioBench#readme",
+      "sourceType": "github-api",
+      "priority": 45,
+      "tags": [
+        "benchmark",
+        "dsp",
+        "performance",
+        "testing",
+        "tool",
+        "creator-tools",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "bannerbass",
+      "name": "BannerBass",
+      "cluster": "Creator and Audio Tools",
+      "url": "https://github.com/GareBear99/BannerBass",
+      "docs": "https://github.com/GareBear99/BannerBass#readme",
+      "sourceType": "github-api",
+      "priority": 45,
+      "tags": [
+        "banner",
+        "music-release",
+        "static",
+        "promo",
+        "no-server",
+        "tool",
+        "creator-tools",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "instrudio-bongo",
+      "name": "Instrudio Bongo",
+      "cluster": "Creator and Audio Tools",
+      "url": "https://garebear99.github.io/Instrudio/Instrudio_v2/bongo.html",
+      "docs": "https://garebear99.github.io/Instrudio/Instrudio_v2/bongo.html",
+      "sourceType": "github-api",
+      "priority": 45,
+      "tags": [
+        "midi",
+        "bongo",
+        "percussion",
+        "browser",
+        "instrument",
+        "instrudio",
+        "tool",
+        "creator-tools",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "instrudio-harp",
+      "name": "Instrudio Harp",
+      "cluster": "Creator and Audio Tools",
+      "url": "https://garebear99.github.io/Instrudio/Instrudio_v2/harp.html",
+      "docs": "https://garebear99.github.io/Instrudio/Instrudio_v2/harp.html",
+      "sourceType": "github-api",
+      "priority": 45,
+      "tags": [
+        "midi",
+        "harp",
+        "browser",
+        "instrument",
+        "instrudio",
+        "tool",
+        "creator-tools",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "instrudio-violin",
+      "name": "Instrudio Violin",
+      "cluster": "Creator and Audio Tools",
+      "url": "https://garebear99.github.io/Instrudio/Instrudio_v2/violin.html",
+      "docs": "https://garebear99.github.io/Instrudio/Instrudio_v2/violin.html",
+      "sourceType": "github-api",
+      "priority": 45,
+      "tags": [
+        "midi",
+        "violin",
+        "browser",
+        "instrument",
+        "instrudio",
+        "tool",
+        "creator-tools",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "pap-forge-audio",
+      "name": "PAP-Forge-Audio",
+      "cluster": "AI and Automation Tools",
+      "url": "https://github.com/GareBear99/PAP-Forge-Audio",
+      "docs": "https://github.com/GareBear99/PAP-Forge-Audio#readme",
+      "sourceType": "github-api",
+      "priority": 45,
+      "tags": [
+        "procedural",
+        "automation",
+        "plugin-generation",
+        "nlp",
+        "tool",
+        "creator-tools",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "vf-plexlab",
+      "name": "VF-PlexLab",
+      "cluster": "AI and Automation Tools",
+      "url": "https://github.com/GareBear99/VF-PlexLab",
+      "docs": "https://github.com/GareBear99/VF-PlexLab#readme",
+      "sourceType": "github-api",
+      "priority": 45,
+      "tags": [
+        "vocals",
+        "ai",
+        "nvidia",
+        "sample-generation",
+        "tool",
+        "creator-tools",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "voxel-audio",
+      "name": "Voxel Audio",
+      "cluster": "Creator and Audio Tools",
+      "url": "https://github.com/GareBear99/Voxel_Audio",
+      "docs": "https://github.com/GareBear99/Voxel_Audio#readme",
+      "sourceType": "github-api",
+      "priority": 45,
+      "tags": [
+        "visualizer",
+        "waveform",
+        "rgb",
+        "export",
+        "tool",
+        "creator-tools",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "neolution",
+      "name": "Neolution",
+      "cluster": "Games and Interactive Demos",
+      "url": "https://garebear99.github.io/Neolution/",
+      "docs": "https://garebear99.github.io/Neolution/",
+      "sourceType": "github-api",
+      "priority": 50,
+      "tags": [
+        "rhythm",
+        "canvas2d",
+        "gamepad",
+        "audio-analysis",
+        "8-lane",
+        "game",
+        "interactive-demo",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "rift-ascent",
+      "name": "RiftAscent",
+      "cluster": "Games and Interactive Demos",
+      "url": "https://garebear99.github.io/RiftAscent/",
+      "docs": "https://garebear99.github.io/RiftAscent/",
+      "sourceType": "github-api",
+      "priority": 50,
+      "tags": [
+        "action",
+        "canvas",
+        "procedural-audio",
+        "prestige",
+        "mobile",
+        "game",
+        "interactive-demo",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "freeeq8-devto",
+      "name": "FreeEQ8 Technical Architecture (dev.to)",
+      "cluster": "Academic Papers and Technical Writing",
+      "url": "https://dev.to/tizwildin/real-time-state-space-parameterization-and-lock-free-semantic-analysis-in-digital-equalization-38jn",
+      "docs": "https://dev.to/tizwildin/real-time-state-space-parameterization-and-lock-free-semantic-analysis-in-digital-equalization-38jn",
+      "sourceType": "github-api",
+      "priority": 52,
+      "tags": [
+        "dsp",
+        "architecture",
+        "blog",
+        "dev-to",
+        "paper",
+        "technical-writing",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "freeeq8-paper",
+      "name": "Real-Time State-Space Parameterization and Lock-Free Semantic Analysis in Digital Equalization",
+      "cluster": "Academic Papers and Technical Writing",
+      "url": "https://github.com/GareBear99/FreeEQ8/blob/main/PAPER.md",
+      "docs": "https://github.com/GareBear99/FreeEQ8#readme",
+      "sourceType": "github-api",
+      "priority": 52,
+      "tags": [
+        "dsp",
+        "svf",
+        "lock-free",
+        "real-time",
+        "parametric-eq",
+        "semantic-analysis",
+        "paper",
+        "technical-writing",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "instrudio-violin-devto",
+      "name": "Studio Violin: Helmholtz Bowed String, H2 Correction, Stradivari Body EQ, and Sympathetic Resonance",
+      "cluster": "Academic Papers and Technical Writing",
+      "url": "https://dev.to/tizwildin/studio-violin-helmholtz-bowed-string-h2-correction-stradivari-body-eq-sympathetic-resonance-3c8l",
+      "docs": "https://dev.to/tizwildin/studio-violin-helmholtz-bowed-string-h2-correction-stradivari-body-eq-sympathetic-resonance-3c8l",
+      "sourceType": "github-api",
+      "priority": 52,
+      "tags": [
+        "violin",
+        "physical-modeling",
+        "helmholtz",
+        "bowed-string",
+        "stradivari-eq",
+        "sympathetic-resonance",
+        "dev-to",
+        "paper",
+        "technical-writing",
         "tizwildin"
       ]
     },
@@ -793,6 +1007,6 @@
       ]
     }
   ],
-  "repositoryCount": 45,
-  "lastSyncNote": "Generated from plugins.json, packs.json, and lists.json. Add entries there, run sync, then rebuild public/source/search indexes."
+  "repositoryCount": 56,
+  "lastSyncNote": "Generated from public manifests. Add entries there, run sync, then rebuild public/source/search indexes."
 }

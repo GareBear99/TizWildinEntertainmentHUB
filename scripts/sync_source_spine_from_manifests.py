@@ -2,13 +2,14 @@
 """Synchronize docs/source-repos.json from the public Hub manifests.
 
 Purpose:
-- The Hub's public pages are driven by plugins.json, packs.json, and lists.json.
+- The Hub's public pages are driven by plugins.json, packs.json, lists.json,
+  tools.json, games.json, and academics.json.
 - This sync step turns every manifest item with a GitHub repo into a source-spine record.
 - After that, build_source_repo_index.py can hydrate files/links from local archives,
   local folders, or the GitHub API.
 
 This makes adding another ecosystem entry a data-only workflow:
-1. Add the project to plugins.json, packs.json, or lists.json.
+1. Add the project to the relevant public manifest.
 2. Run this script.
 3. Run the public/source/search index builders.
 """
@@ -38,6 +39,14 @@ CATEGORY_CLUSTER = {
     'project_anchors': 'Discovery Lists and Public Routes',
     'python_audio_science': 'Discovery Lists and Public Routes',
     'arc_source_spine': 'ARC Source Spine',
+    'audio_tools': 'Creator and Audio Tools',
+    'creator_tools': 'Creator and Audio Tools',
+    'midi_tools': 'Creator and Audio Tools',
+    'ai_tools': 'AI and Automation Tools',
+    'playable': 'Games and Interactive Demos',
+    'coming_soon': 'Games and Interactive Demos',
+    'published': 'Academic Papers and Technical Writing',
+    'preprint': 'Academic Papers and Technical Writing',
 }
 
 def read_json(rel: str):
@@ -96,7 +105,7 @@ def manifest_entries():
             'url': repo_url(repo),
             'docs': docs_url(item, repo),
             'sourceType': 'github-api',
-            'priority': 20 if item.get('id') in {'freeeq8','therum','xylocore','freevox8'} else 40,
+            'priority': 20 if item.get('id') in {'freeeq8','freevox8','therum'} else 40,
             'tags': tags_for(item, ['audio-plugin','music-production','tizwildin'])
         }
     packs = read_json('packs.json').get('packs', [])
@@ -130,6 +139,48 @@ def manifest_entries():
             'priority': int(item.get('priority', 70)),
             'tags': tags_for(item, ['discovery','seo','public-index'])
         }
+    tools = read_json('tools.json').get('tools', [])
+    for item in tools:
+        repo = item.get('repo')
+        if not repo: continue
+        yield {
+            'id': slug(item.get('id') or item.get('name') or repo),
+            'name': item.get('name') or repo,
+            'cluster': CATEGORY_CLUSTER.get(item.get('category'), 'Creator and Audio Tools'),
+            'url': item.get('url') or repo_url(repo),
+            'docs': docs_url(item, repo, item.get('url','')),
+            'sourceType': 'github-api',
+            'priority': 45,
+            'tags': tags_for(item, ['tool','creator-tools','tizwildin'])
+        }
+    games = read_json('games.json').get('games', [])
+    for item in games:
+        repo = item.get('repo')
+        if not repo: continue
+        yield {
+            'id': slug(item.get('id') or item.get('name') or repo),
+            'name': item.get('name') or repo,
+            'cluster': CATEGORY_CLUSTER.get(item.get('category'), 'Games and Interactive Demos'),
+            'url': item.get('demoUrl') or repo_url(repo),
+            'docs': docs_url(item, repo, item.get('demoUrl','')),
+            'sourceType': 'github-api',
+            'priority': 50,
+            'tags': tags_for(item, ['game','interactive-demo','tizwildin'])
+        }
+    academics = read_json('academics.json').get('papers', [])
+    for item in academics:
+        repo = item.get('repo')
+        if not repo: continue
+        yield {
+            'id': slug(item.get('id') or item.get('name') or repo),
+            'name': item.get('name') or repo,
+            'cluster': CATEGORY_CLUSTER.get(item.get('category'), 'Academic Papers and Technical Writing'),
+            'url': item.get('url') or repo_url(repo),
+            'docs': docs_url(item, repo, item.get('url','')),
+            'sourceType': 'github-api',
+            'priority': 52,
+            'tags': tags_for(item, ['paper','technical-writing','tizwildin'])
+        }
 
 def main():
     config = json.loads(SOURCE_CONFIG.read_text(encoding='utf-8'))
@@ -153,7 +204,7 @@ def main():
     # Keep deterministic order: priority first, then id.
     repos.sort(key=lambda r: (int(r.get('priority', 999)), r.get('id','')))
     config['repositoryCount'] = len(repos)
-    config['lastSyncNote'] = 'Generated from plugins.json, packs.json, and lists.json. Add entries there, run sync, then rebuild public/source/search indexes.'
+    config['lastSyncNote'] = 'Generated from public manifests. Add entries there, run sync, then rebuild public/source/search indexes.'
     write_json(SOURCE_CONFIG, config)
     print(f'SOURCE SPINE SYNC OK: {len(repos)} repos ({added} added, {updated} refreshed)')
 

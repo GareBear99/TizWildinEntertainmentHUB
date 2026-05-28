@@ -3,18 +3,17 @@
 This file is generated from `docs/source-repos.json`. Add a repository entry and run `python scripts/build_source_repo_index.py` to rebuild the static file/link search index. To hydrate remote GitHub repos, run with `SOURCE_INDEX_FETCH_REMOTE=1`.
 
 - [Awesome Audio Plugins Dev](pages/source-awesome-audio-plugins-dev.html) — 0 files, 0 links, remote-record-only
-- [TizWildinEntertainmentHUB](pages/source-tizwildin-entertainment-hub.html) — 425 files, 2348 links, indexed-folder
+- [TizWildinEntertainmentHUB](pages/source-tizwildin-entertainment-hub.html) — 479 files, 2681 links, indexed-folder
 - [Awesome Audio Lists](pages/source-awesome-audio-lists.html) — 0 files, 0 links, remote-record-only
 - [Awesome Music Platforms](pages/source-awesome-music-platforms.html) — 0 files, 0 links, remote-record-only
 - [Awesome Python Audio Science](pages/source-awesome-python-audio-science.html) — 0 files, 0 links, remote-record-only
 - [FreeEQ8](pages/source-freeeq8.html) — 0 files, 0 links, remote-record-only
 - [FreeVox8](pages/source-freevox8.html) — 0 files, 0 links, remote-record-only
-- [TizWildin Release Vault](pages/source-tizwildin-release-vault.html) — 149 files, 13509 links, indexed-archive
+- [TizWildin Release Vault](pages/source-tizwildin-release-vault.html) — 0 files, 0 links, remote-record-only
 - [TizWildin .io Router](pages/source-tizwildin-io-router.html) — 0 files, 0 links, remote-record-only
 - [Deconstructed Loops / Packs Router](pages/source-deconstructed-loops-router.html) — 0 files, 0 links, remote-record-only
 - [ARC-Neuron-LLMBuilder](pages/source-arc-neuron-llmbuilder.html) — 0 files, 0 links, remote-record-only
 - [Therum](pages/source-therum.html) — 0 files, 0 links, remote-record-only
-- [XyloCore](pages/source-xylocore.html) — 0 files, 0 links, remote-record-only
 - [ARC-Core](pages/source-arc-core.html) — 136 files, 274 links, indexed-archive
 - [arc-lucifer-cleanroom-runtime](pages/source-arc-lucifer-cleanroom-runtime.html) — 0 files, 0 links, remote-record-only
 - [arc-language-module](pages/source-arc-language-module.html) — 0 files, 0 links, remote-record-only
@@ -30,12 +29,24 @@ This file is generated from `docs/source-repos.json`. Add a repository entry and
 - [MixMaid](pages/source-mixmaid.html) — 0 files, 0 links, remote-record-only
 - [MultiMaid](pages/source-multimaid.html) — 0 files, 0 links, remote-record-only
 - [PaintMask](pages/source-paintmask.html) — 0 files, 0 links, remote-record-only
-- [PAP-Forge-Audio](pages/source-pap-forge-audio.html) — 0 files, 0 links, remote-record-only
 - [RiftWave Suite](pages/source-riftwavesuite.html) — 0 files, 0 links, remote-record-only
 - [SpaceMaid](pages/source-spacemaid.html) — 0 files, 0 links, remote-record-only
-- [VF-PlexLab](pages/source-vf-plexlab.html) — 0 files, 0 links, remote-record-only
 - [WhisperGate](pages/source-whispergate.html) — 0 files, 0 links, remote-record-only
 - [WURP](pages/source-wurp.html) — 0 files, 0 links, remote-record-only
+- [XyloCore](pages/source-xylocore.html) — 0 files, 0 links, remote-record-only
+- [ARC-AudioBench](pages/source-arc-audiobench.html) — 0 files, 0 links, remote-record-only
+- [BannerBass](pages/source-bannerbass.html) — 0 files, 0 links, remote-record-only
+- [Instrudio Bongo](pages/source-instrudio-bongo.html) — 0 files, 0 links, remote-record-only
+- [Instrudio Harp](pages/source-instrudio-harp.html) — 0 files, 0 links, remote-record-only
+- [Instrudio Violin](pages/source-instrudio-violin.html) — 0 files, 0 links, remote-record-only
+- [PAP-Forge-Audio](pages/source-pap-forge-audio.html) — 0 files, 0 links, remote-record-only
+- [VF-PlexLab](pages/source-vf-plexlab.html) — 0 files, 0 links, remote-record-only
+- [Voxel Audio](pages/source-voxel-audio.html) — 0 files, 0 links, remote-record-only
+- [Neolution](pages/source-neolution.html) — 0 files, 0 links, remote-record-only
+- [RiftAscent](pages/source-rift-ascent.html) — 0 files, 0 links, remote-record-only
+- [FreeEQ8 Technical Architecture (dev.to)](pages/source-freeeq8-devto.html) — 0 files, 0 links, remote-record-only
+- [Real-Time State-Space Parameterization and Lock-Free Semantic Analysis in Digital Equalization](pages/source-freeeq8-paper.html) — 0 files, 0 links, remote-record-only
+- [Studio Violin: Helmholtz Bowed String, H2 Correction, Stradivari Body EQ, and Sympathetic Resonance](pages/source-instrudio-violin-devto.html) — 0 files, 0 links, remote-record-only
 - [Free 808 Producer Kit](pages/source-free-808-producer.html) — 0 files, 0 links, remote-record-only
 - [Free Dark Piano Sound Kit](pages/source-free-dark-piano.html) — 0 files, 0 links, remote-record-only
 - [Free Future Bass Producer Kit](pages/source-free-future-bass.html) — 0 files, 0 links, remote-record-only

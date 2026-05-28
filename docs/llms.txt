@@ -1,9 +1,17 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-05-08
+Generated: 2026-05-27
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
+
+## AI and Automation Tools
+
+- SlushAI: Coming soon — AI-assisted creator automation tool for the TizWildin ecosystem, intended for prompt-driven music, media, and release workflow support.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/slushai.html
+  Public URL: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/slushai.html
+  GitHub: N/A
+  Tags: ai, coming-soon, ai_tools, tool, tizwildin
 
 ## ARC Source Spine
 
@@ -108,6 +116,64 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://github.com/GareBear99/public-credibility-seo-tracker
   GitHub: https://github.com/GareBear99/public-credibility-seo-tracker
   Tags: audio-directory, vst3, juce, music-production
+
+## Academic Papers and Technical Writing
+
+- FreeEQ8 Technical Architecture (dev.to): Published technical deep-dive covering SVF vs RBJ cramping, SPSC concurrency, variable-cadence Dynamic EQ, and allocation-free semantic resonance detection.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/freeeq8-technical-architecture-dev-to.html
+  Public URL: https://dev.to/tizwildin/real-time-state-space-parameterization-and-lock-free-semantic-analysis-in-digital-equalization-38jn
+  GitHub: https://github.com/GareBear99/FreeEQ8
+  Tags: dsp, architecture, blog, dev.to, paper, technical-writing
+
+- Real-Time State-Space Parameterization and Lock-Free Semantic Analysis in Digital Equalization: Production-grade parametric EQ architecture: Simper SVF topology, lock-free SPSC triple-buffering, variable-cadence coefficient engine (80% CPU savings), deterministic resonance detection (100% precision/recall). 10 sections, 8 references, measured on i7-3720QM.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/real-time-state-space-parameterization-and-lock-free-semantic-analysis-in-digital-equalization.html
+  Public URL: https://github.com/GareBear99/FreeEQ8/blob/main/PAPER.md
+  GitHub: https://github.com/GareBear99/FreeEQ8
+  Tags: dsp, svf, lock-free, real-time, parametric-eq, semantic-analysis, paper, technical-writing
+
+- Studio Violin: Helmholtz Bowed String, H2 Correction, Stradivari Body EQ, and Sympathetic Resonance: Published technical article on the Instrudio Studio Violin model covering Helmholtz bowed-string behavior, H2 correction, Stradivari-style body EQ, and sympathetic resonance design.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/studio-violin-helmholtz-bowed-string-h2-correction-stradivari-body-eq-and-sympathetic-resonance.html
+  Public URL: https://dev.to/tizwildin/studio-violin-helmholtz-bowed-string-h2-correction-stradivari-body-eq-sympathetic-resonance-3c8l
+  GitHub: https://github.com/GareBear99/Instrudio
+  Tags: violin, physical-modeling, helmholtz, bowed-string, stradivari-eq, sympathetic-resonance, dev.to, paper, technical-writing
+
+## Creator and Audio Tools
+
+- ARC-AudioBench: Open-source audio tool benchmarking software. Measure and compare DSP performance across plugins and engines.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/arc-audiobench.html
+  Public URL: https://github.com/GareBear99/ARC-AudioBench
+  GitHub: https://github.com/GareBear99/ARC-AudioBench
+  Tags: benchmark, dsp, performance, testing, audio_tools, tool, tizwildin
+
+- BannerBass: No-server static banner maker for music release banners. Create promotional artwork without needing a backend.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/bannerbass.html
+  Public URL: https://github.com/GareBear99/BannerBass
+  GitHub: https://github.com/GareBear99/BannerBass
+  Tags: banner, music-release, static, promo, no-server, creator_tools, tool, tizwildin
+
+- Instrudio Bongo: Browser-playable MIDI bongo instrument from the Instrudio suite. Trigger percussion directly in the browser with keyboard or MIDI controller.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/instrudio-bongo.html
+  Public URL: https://garebear99.github.io/Instrudio/Instrudio_v2/bongo.html
+  GitHub: https://github.com/GareBear99/Instrudio
+  Tags: midi, bongo, percussion, browser, instrument, instrudio, midi_tools, tool, tizwildin
+
+- Instrudio Harp: Browser-playable MIDI harp instrument from the Instrudio suite. Play melodic harp parts directly in the browser with keyboard or MIDI controller.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/instrudio-harp.html
+  Public URL: https://garebear99.github.io/Instrudio/Instrudio_v2/harp.html
+  GitHub: https://github.com/GareBear99/Instrudio
+  Tags: midi, harp, browser, instrument, instrudio, midi_tools, tool, tizwildin
+
+- Instrudio Violin: Browser-playable MIDI violin from the Instrudio instrument suite. Play directly in the browser with keyboard or MIDI controller.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/instrudio-violin.html
+  Public URL: https://garebear99.github.io/Instrudio/Instrudio_v2/violin.html
+  GitHub: https://github.com/GareBear99/Instrudio
+  Tags: midi, violin, browser, instrument, instrudio, midi_tools, tool, tizwildin
+
+- Voxel Audio: Free RGB waveform visualizer and audio export tool. Visual audio analysis and rendering.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/voxel-audio.html
+  Public URL: https://github.com/GareBear99/Voxel_Audio
+  GitHub: https://github.com/GareBear99/Voxel_Audio
+  Tags: visualizer, waveform, rgb, export, creator_tools, tool, tizwildin
 
 ## Credibility and Submission Tracking
 
@@ -215,6 +281,88 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: https://github.com/GareBear99/omnibinary-runtime
   Tags: binary runtime, native first, receipts, audits, discovery, seo
 
+## Games and Interactive Demos
+
+- Neolution: CPU-light Canvas2D rhythm game with 8 lanes, gamepad support, and real-time audio analysis.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/neolution.html
+  Public URL: https://garebear99.github.io/Neolution/
+  GitHub: https://github.com/GareBear99/Neolution
+  Tags: rhythm, canvas2d, gamepad, audio-analysis, 8-lane, game, interactive-demo
+
+- RiftAscent: Canvas-based action game with prestige cycles, procedural audio, and real-time synth integration. Coming to iOS & Android. Backed by the RiftWave Suite synth engine.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/riftascent.html
+  Public URL: https://garebear99.github.io/RiftAscent/
+  GitHub: https://github.com/GareBear99/RiftAscent
+  Tags: action, canvas, procedural-audio, prestige, mobile, game, interactive-demo
+
+- M.O.M: Coming soon — M.O.M game route reserved for future playable builds, release notes, and public source or demo links.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/m-o-m.html
+  Public URL: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/m-o-m.html
+  GitHub: N/A
+  Tags: game, game, interactive-demo
+
+- SlimeVeil: Coming soon — stylized slime-horror game route for future demos, GitHub source links, and ecosystem launch tracking.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/slimeveil.html
+  Public URL: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/slimeveil.html
+  GitHub: N/A
+  Tags: game, game, interactive-demo
+
+- ThingsHappening: Coming soon — experimental game route for future public demos, development notes, and source-of-truth GitHub routing.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/thingshappening.html
+  Public URL: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/thingshappening.html
+  GitHub: N/A
+  Tags: game, game, interactive-demo
+
+- WraithEternal: Coming soon — dark action game route for the TizWildin interactive/demo ecosystem, reserved for future playable builds and source routing.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/wraitheternal.html
+  Public URL: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/wraitheternal.html
+  GitHub: N/A
+  Tags: game, game, interactive-demo
+
+## Promotionals and Community
+
+- GareBear Productionz (Facebook Group): Community group for producers, plugin users, and TizWildin ecosystem supporters. Share tracks, get feedback, plugin updates.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/garebear-productionz-facebook-group.html
+  Public URL: https://www.facebook.com/share/g/1H1tLXiQvS/
+  GitHub: N/A
+  Tags: facebook, community, producers, feedback, promotion, community
+
+- Partnered Group — Promotional Network: Partnered promotional group. Creator is partnered with TizWildin Entertainment for cross-promotion, track submissions, and member routing. Members tracked from source-of-truth static site.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/partnered-group-promotional-network.html
+  Public URL: https://www.facebook.com/share/g/1Tw4c3gSNg/
+  GitHub: N/A
+  Tags: facebook, partner, cross-promotion, network, promotion, community
+
+- TizWildin / GareBearProductionz (Facebook Page): Official page for TizWildin Entertainment updates, plugin releases, and media.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-garebearproductionz-facebook-page.html
+  Public URL: https://www.facebook.com/profile.php?id=61564485196765
+  GitHub: N/A
+  Tags: facebook, official, updates, promotion, community
+
+- TizWildin on SoundCloud: Original music, remixes, VIP mixes, experimental drops, and underground releases.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-on-soundcloud.html
+  Public URL: https://soundcloud.com/tizwildin
+  GitHub: N/A
+  Tags: soundcloud, music, releases, remixes, promotion, community
+
+- TizWildin YouTube: Music, visuals, demos, plugin walkthroughs, and releases.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-youtube.html
+  Public URL: https://www.youtube.com/@gfgfvmhj
+  GitHub: N/A
+  Tags: youtube, video, demos, music, promotion, community
+
+- Song Submission Portal: Coming soon — public song-submission portal for the TizWildin promotional roster, designed for one daily submission from purchase or donation badge holders.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/song-submission-portal.html
+  Public URL: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/song-submission-portal.html
+  GitHub: N/A
+  Tags: submission, promotion, roster, badge, promotion, community
+
+- TizWildin 24/7 Radio Stream: Coming soon — 24/7 live radio stream connected to YouTube, with future song-submission routing for the promotional roster and badge-gated daily submissions.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-24-7-radio-stream.html
+  Public URL: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-24-7-radio-stream.html
+  GitHub: N/A
+  Tags: radio, 24-7, youtube, stream, submit, promotion, community
+
 ## TizWildin Audio Plugins
 
 - Therum: Bootleg Serum — free wavetable synthesizer with visual waveform editing and modulation.
@@ -222,12 +370,6 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://github.com/GareBear99/Therum_JUCE-Plugin
   GitHub: https://github.com/GareBear99/Therum_JUCE-Plugin
   Tags: VST3, AU, flagship, audio-plugin, music-production
-
-- XyloCore: Playable xylophone / tuned-percussion instrument with velocity-mapped samples and keyboard control.
-  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/xylocore.html
-  Public URL: https://github.com/GareBear99/XyloCore
-  GitHub: https://github.com/GareBear99/XyloCore
-  Tags: VST3, AU, instruments, audio-plugin, music-production
 
 - AETHER: Choir & atmosphere designer for cinematic sound design — procedural choirs, pads, and evolving textures.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/aether.html
@@ -325,6 +467,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: https://github.com/GareBear99/WURP_Toxic-Motion-Engine_JUCE
   Tags: VST3, AU, experimental, audio-plugin, music-production
 
+- XyloCore: Playable xylophone / tuned-percussion instrument with velocity-mapped samples and keyboard control.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/xylocore.html
+  Public URL: https://github.com/GareBear99/XyloCore
+  GitHub: https://github.com/GareBear99/XyloCore
+  Tags: VST3, AU, instruments, audio-plugin, music-production
+
 ## TizWildin Sample Packs
 
 - Free 808 Producer Kit: 94 hand-crafted 808 bass samples tuned to every chromatic key.
@@ -407,7 +555,6 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
 - Deconstructed Loops / Packs Router source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-deconstructed-loops-router.html
 - ARC-Neuron-LLMBuilder source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-neuron-llmbuilder.html
 - Therum source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-therum.html
-- XyloCore source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-xylocore.html
 - ARC-Core source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-core.html
 - arc-lucifer-cleanroom-runtime source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-lucifer-cleanroom-runtime.html
 - arc-language-module source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-language-module.html
@@ -423,12 +570,24 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
 - MixMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-mixmaid.html
 - MultiMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-multimaid.html
 - PaintMask source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-paintmask.html
-- PAP-Forge-Audio source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-pap-forge-audio.html
 - RiftWave Suite source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-riftwavesuite.html
 - SpaceMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-spacemaid.html
-- VF-PlexLab source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-vf-plexlab.html
 - WhisperGate source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-whispergate.html
 - WURP source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-wurp.html
+- XyloCore source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-xylocore.html
+- ARC-AudioBench source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-audiobench.html
+- BannerBass source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-bannerbass.html
+- Instrudio Bongo source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-instrudio-bongo.html
+- Instrudio Harp source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-instrudio-harp.html
+- Instrudio Violin source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-instrudio-violin.html
+- PAP-Forge-Audio source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-pap-forge-audio.html
+- VF-PlexLab source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-vf-plexlab.html
+- Voxel Audio source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-voxel-audio.html
+- Neolution source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-neolution.html
+- RiftAscent source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-rift-ascent.html
+- FreeEQ8 Technical Architecture (dev.to) source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freeeq8-devto.html
+- Real-Time State-Space Parameterization and Lock-Free Semantic Analysis in Digital Equalization source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freeeq8-paper.html
+- Studio Violin: Helmholtz Bowed String, H2 Correction, Stradivari Body EQ, and Sympathetic Resonance source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-instrudio-violin-devto.html
 - Free 808 Producer Kit source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-free-808-producer.html
 - Free Dark Piano Sound Kit source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-free-dark-piano.html
 - Free Future Bass Producer Kit source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-free-future-bass.html

@@ -27,6 +27,18 @@
       "venue": "dev.to",
       "authors": "Gary Doman",
       "status": "published"
+    },
+    {
+      "id": "instrudio_violin_devto",
+      "name": "Studio Violin: Helmholtz Bowed String, H2 Correction, Stradivari Body EQ, and Sympathetic Resonance",
+      "description": "Published technical article on the Instrudio Studio Violin model covering Helmholtz bowed-string behavior, H2 correction, Stradivari-style body EQ, and sympathetic resonance design.",
+      "category": "published",
+      "url": "https://dev.to/tizwildin/studio-violin-helmholtz-bowed-string-h2-correction-stradivari-body-eq-sympathetic-resonance-3c8l",
+      "repo": "Instrudio",
+      "tags": ["violin", "physical-modeling", "helmholtz", "bowed-string", "stradivari-eq", "sympathetic-resonance", "dev.to"],
+      "venue": "dev.to",
+      "authors": "Gary Doman",
+      "status": "published"
     }
   ]
 }

@@ -1,17 +1,23 @@
 # Public Link Graph
 
-Generated: 2026-05-08
+Generated: 2026-05-27
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **63**
-- Total clusters: **5**
+- Total indexed records: **86**
+- Total clusters: **10**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
 
 ## Routes
+
+### AI and Automation Tools
+
+| Route | Type | Repository | Tags |
+|---|---|---|---|
+| [SlushAI](pages/slushai.html) | Tool / Web Utility | https://garebear99.github.io/TizWildinEntertainmentHUB/pages/slushai.html | ai, coming-soon, ai_tools, tool, tizwildin |
 
 ### ARC Source Spine
 
@@ -34,6 +40,25 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Awesome Lists Submission Route](pages/awesome-lists-submission-route.html) | Curated List Submission Route | https://github.com/GareBear99/public-credibility-seo-tracker | awesome-lists, curated-lists, pull-request, seo |
 | [OpenAlternative Submission Route](pages/openalternative-submission-route.html) | Open Source Alternative Route | https://github.com/GareBear99/public-credibility-seo-tracker | openalternative, open-source-alternative, directory, seo |
 | [Audio Directory Submission Route](pages/audio-directory-submission-route.html) | Audio Plugin Directory Route | https://github.com/GareBear99/public-credibility-seo-tracker | audio-directory, vst3, juce, music-production |
+
+### Academic Papers and Technical Writing
+
+| Route | Type | Repository | Tags |
+|---|---|---|---|
+| [FreeEQ8 Technical Architecture (dev.to)](pages/freeeq8-technical-architecture-dev-to.html) | Paper / Technical Article | https://github.com/GareBear99/FreeEQ8 | dsp, architecture, blog, dev.to, paper, technical-writing |
+| [Real-Time State-Space Parameterization and Lock-Free Semantic Analysis in Digital Equalization](pages/real-time-state-space-parameterization-and-lock-free-semantic-analysis-in-digital-equalization.html) | Paper / Technical Article | https://github.com/GareBear99/FreeEQ8 | dsp, svf, lock-free, real-time, parametric-eq, semantic-analysis, paper, technical-writing |
+| [Studio Violin: Helmholtz Bowed String, H2 Correction, Stradivari Body EQ, and Sympathetic Resonance](pages/studio-violin-helmholtz-bowed-string-h2-correction-stradivari-body-eq-and-sympathetic-resonance.html) | Paper / Technical Article | https://github.com/GareBear99/Instrudio | violin, physical-modeling, helmholtz, bowed-string, stradivari-eq, sympathetic-resonance, dev.to, paper, technical-writing |
+
+### Creator and Audio Tools
+
+| Route | Type | Repository | Tags |
+|---|---|---|---|
+| [ARC-AudioBench](pages/arc-audiobench.html) | Tool / Web Utility | https://github.com/GareBear99/ARC-AudioBench | benchmark, dsp, performance, testing, audio_tools, tool, tizwildin |
+| [BannerBass](pages/bannerbass.html) | Tool / Web Utility | https://github.com/GareBear99/BannerBass | banner, music-release, static, promo, no-server, creator_tools, tool, tizwildin |
+| [Instrudio Bongo](pages/instrudio-bongo.html) | Tool / Web Utility | https://github.com/GareBear99/Instrudio | midi, bongo, percussion, browser, instrument, instrudio, midi_tools, tool, tizwildin |
+| [Instrudio Harp](pages/instrudio-harp.html) | Tool / Web Utility | https://github.com/GareBear99/Instrudio | midi, harp, browser, instrument, instrudio, midi_tools, tool, tizwildin |
+| [Instrudio Violin](pages/instrudio-violin.html) | Tool / Web Utility | https://github.com/GareBear99/Instrudio | midi, violin, browser, instrument, instrudio, midi_tools, tool, tizwildin |
+| [Voxel Audio](pages/voxel-audio.html) | Tool / Web Utility | https://github.com/GareBear99/Voxel_Audio | visualizer, waveform, rgb, export, creator_tools, tool, tizwildin |
 
 ### Credibility and Submission Tracking
 
@@ -62,12 +87,34 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Arc-RAR](pages/arc-rar.html) | ARC Route | https://github.com/GareBear99/Arc-RAR | archive, CLI, receipts, reproducibility, discovery, seo |
 | [OmniBinary Runtime](pages/omnibinary-runtime.html) | ARC Route | https://github.com/GareBear99/omnibinary-runtime | binary runtime, native first, receipts, audits, discovery, seo |
 
+### Games and Interactive Demos
+
+| Route | Type | Repository | Tags |
+|---|---|---|---|
+| [Neolution](pages/neolution.html) | Playable Game / Demo | https://github.com/GareBear99/Neolution | rhythm, canvas2d, gamepad, audio-analysis, 8-lane, game, interactive-demo |
+| [RiftAscent](pages/riftascent.html) | Playable Game / Demo | https://github.com/GareBear99/RiftAscent | action, canvas, procedural-audio, prestige, mobile, game, interactive-demo |
+| [M.O.M](pages/m-o-m.html) | Coming Soon Game | https://garebear99.github.io/TizWildinEntertainmentHUB/pages/m-o-m.html | game, game, interactive-demo |
+| [SlimeVeil](pages/slimeveil.html) | Coming Soon Game | https://garebear99.github.io/TizWildinEntertainmentHUB/pages/slimeveil.html | game, game, interactive-demo |
+| [ThingsHappening](pages/thingshappening.html) | Coming Soon Game | https://garebear99.github.io/TizWildinEntertainmentHUB/pages/thingshappening.html | game, game, interactive-demo |
+| [WraithEternal](pages/wraitheternal.html) | Coming Soon Game | https://garebear99.github.io/TizWildinEntertainmentHUB/pages/wraitheternal.html | game, game, interactive-demo |
+
+### Promotionals and Community
+
+| Route | Type | Repository | Tags |
+|---|---|---|---|
+| [GareBear Productionz (Facebook Group)](pages/garebear-productionz-facebook-group.html) | Promotional Route | https://www.facebook.com/share/g/1H1tLXiQvS/ | facebook, community, producers, feedback, promotion, community |
+| [Partnered Group — Promotional Network](pages/partnered-group-promotional-network.html) | Promotional Route | https://www.facebook.com/share/g/1Tw4c3gSNg/ | facebook, partner, cross-promotion, network, promotion, community |
+| [TizWildin / GareBearProductionz (Facebook Page)](pages/tizwildin-garebearproductionz-facebook-page.html) | Promotional Route | https://www.facebook.com/profile.php?id=61564485196765 | facebook, official, updates, promotion, community |
+| [TizWildin on SoundCloud](pages/tizwildin-on-soundcloud.html) | Promotional Route | https://soundcloud.com/tizwildin | soundcloud, music, releases, remixes, promotion, community |
+| [TizWildin YouTube](pages/tizwildin-youtube.html) | Promotional Route | https://www.youtube.com/@gfgfvmhj | youtube, video, demos, music, promotion, community |
+| [Song Submission Portal](pages/song-submission-portal.html) | Coming Soon Promotional Route | https://garebear99.github.io/TizWildinEntertainmentHUB/pages/song-submission-portal.html | submission, promotion, roster, badge, promotion, community |
+| [TizWildin 24/7 Radio Stream](pages/tizwildin-24-7-radio-stream.html) | Coming Soon Promotional Route | https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-24-7-radio-stream.html | radio, 24-7, youtube, stream, submit, promotion, community |
+
 ### TizWildin Audio Plugins
 
 | Route | Type | Repository | Tags |
 |---|---|---|---|
 | [Therum](pages/therum.html) | Audio Plugin / Producer Tool | https://github.com/GareBear99/Therum_JUCE-Plugin | VST3, AU, flagship, audio-plugin, music-production |
-| [XyloCore](pages/xylocore.html) | Audio Plugin / Producer Tool | https://github.com/GareBear99/XyloCore | VST3, AU, instruments, audio-plugin, music-production |
 | [AETHER](pages/aether.html) | Audio Plugin / Producer Tool | https://github.com/GareBear99/AETHER_Choir-Atmosphere-Designer | VST3, AU, experimental, audio-plugin, music-production |
 | [BassMaid](pages/bassmaid.html) | Audio Plugin / Producer Tool | https://github.com/GareBear99/BassMaid | VST3, AU, maid_suite, audio-plugin, music-production |
 | [ChainMaid](pages/chainmaid.html) | Audio Plugin / Producer Tool | https://github.com/GareBear99/ChainMaid | VST3, AU, maid_suite, audio-plugin, music-production |
@@ -84,6 +131,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [VF-PlexLab](pages/vf-plexlab.html) | Audio Plugin / Producer Tool | https://github.com/GareBear99/VF-PlexLab | VST3, AU, experimental, audio-plugin, music-production |
 | [WhisperGate](pages/whispergate.html) | Audio Plugin / Producer Tool | https://github.com/GareBear99/WhisperGate_Free-JUCE-Plugin | VST3, AU, experimental, audio-plugin, music-production |
 | [WURP](pages/wurp.html) | Audio Plugin / Producer Tool | https://github.com/GareBear99/WURP_Toxic-Motion-Engine_JUCE | VST3, AU, experimental, audio-plugin, music-production |
+| [XyloCore](pages/xylocore.html) | Audio Plugin / Producer Tool | https://github.com/GareBear99/XyloCore | VST3, AU, instruments, audio-plugin, music-production |
 
 ### TizWildin Sample Packs
 

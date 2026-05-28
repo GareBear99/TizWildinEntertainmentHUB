@@ -44,9 +44,29 @@
       "status": "production"
     },
     {
+      "id": "instrudio_bongo",
+      "name": "Instrudio Bongo",
+      "description": "Browser-playable MIDI bongo instrument from the Instrudio suite. Trigger percussion directly in the browser with keyboard or MIDI controller.",
+      "category": "midi_tools",
+      "repo": "Instrudio",
+      "url": "https://garebear99.github.io/Instrudio/Instrudio_v2/bongo.html",
+      "tags": ["midi", "bongo", "percussion", "browser", "instrument", "instrudio"],
+      "status": "production"
+    },
+    {
+      "id": "instrudio_harp",
+      "name": "Instrudio Harp",
+      "description": "Browser-playable MIDI harp instrument from the Instrudio suite. Play melodic harp parts directly in the browser with keyboard or MIDI controller.",
+      "category": "midi_tools",
+      "repo": "Instrudio",
+      "url": "https://garebear99.github.io/Instrudio/Instrudio_v2/harp.html",
+      "tags": ["midi", "harp", "browser", "instrument", "instrudio"],
+      "status": "production"
+    },
+    {
       "id": "slushai",
       "name": "SlushAI",
-      "description": "Coming soon.",
+      "description": "Coming soon — AI-assisted creator automation tool for the TizWildin ecosystem, intended for prompt-driven music, media, and release workflow support.",
       "category": "ai_tools",
       "repo": "",
       "tags": ["ai", "coming-soon"],

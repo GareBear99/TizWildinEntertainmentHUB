@@ -29,7 +29,7 @@
     {
       "id": "wraith_eternal",
       "name": "WraithEternal",
-      "description": "Coming soon.",
+      "description": "Coming soon — dark action game route for the TizWildin interactive/demo ecosystem, reserved for future playable builds and source routing.",
       "category": "coming_soon",
       "repo": "",
       "tags": ["game"],
@@ -38,7 +38,7 @@
     {
       "id": "slime_veil",
       "name": "SlimeVeil",
-      "description": "Coming soon.",
+      "description": "Coming soon — stylized slime-horror game route for future demos, GitHub source links, and ecosystem launch tracking.",
       "category": "coming_soon",
       "repo": "",
       "tags": ["game"],
@@ -47,7 +47,7 @@
     {
       "id": "things_happening",
       "name": "ThingsHappening",
-      "description": "Coming soon.",
+      "description": "Coming soon — experimental game route for future public demos, development notes, and source-of-truth GitHub routing.",
       "category": "coming_soon",
       "repo": "",
       "tags": ["game"],
@@ -56,7 +56,7 @@
     {
       "id": "mom",
       "name": "M.O.M",
-      "description": "Coming soon.",
+      "description": "Coming soon — M.O.M game route reserved for future playable builds, release notes, and public source or demo links.",
       "category": "coming_soon",
       "repo": "",
       "tags": ["game"],

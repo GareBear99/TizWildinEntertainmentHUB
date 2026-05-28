@@ -79,7 +79,7 @@ class LinkItem:
 
     @property
     def canonical_url(self) -> str:
-        return self.url or (f"{GH}/{self.repo}" if self.repo else BASE)
+        return self.url or (f"{GH}/{self.repo}" if self.repo else self.page_url)
 
     @property
     def repo_url(self) -> str:
@@ -105,8 +105,12 @@ def collect_items() -> list[LinkItem]:
     plugins = read_json("plugins.json")
     packs = read_json("packs.json")
     lists = read_json("lists.json")
+    tools = read_json("tools.json")
+    games = read_json("games.json")
+    promotionals = read_json("promotionals.json")
+    academics = read_json("academics.json")
 
-    flagship = {"freeeq8", "therum", "xylocore"}
+    flagship = {"freeeq8", "freevox8", "therum"}
     for p in plugins.get("plugins", []):
         pid = p.get("id", "")
         tags = [str(x) for x in p.get("formats", [])] + [p.get("category", "audio-plugin"), "audio-plugin", "music-production"]
@@ -153,6 +157,87 @@ def collect_items() -> list[LinkItem]:
             license="See repository",
             language="Markdown / HTML" if item.get("repo") else "Web",
             source_manifest="lists.json",
+        ))
+
+    tool_clusters = {
+        "audio_tools": "Creator and Audio Tools",
+        "creator_tools": "Creator and Audio Tools",
+        "midi_tools": "Creator and Audio Tools",
+        "ai_tools": "AI and Automation Tools",
+    }
+    for item in tools.get("tools", []):
+        category = item.get("category", "tools")
+        repo = item.get("repo", "")
+        url = item.get("url", "")
+        tags = [str(x) for x in item.get("tags", [])] + [category, "tool", "tizwildin"]
+        items.append(LinkItem(
+            cluster=tool_clusters.get(category, "Creator and Audio Tools"),
+            kind="Tool / Web Utility",
+            name=item["name"],
+            description=item.get("description", ""),
+            repo=repo,
+            url=url,
+            status=item.get("status", "public route"),
+            tags=[t for t in tags if t],
+            priority=35,
+            license="FREE / see repository",
+            language="HTML / JavaScript" if url else "Mixed",
+            source_manifest="tools.json",
+        ))
+
+    for item in games.get("games", []):
+        repo = item.get("repo", "")
+        url = item.get("demoUrl", "")
+        tags = [str(x) for x in item.get("tags", [])] + ["game", "interactive-demo"]
+        items.append(LinkItem(
+            cluster="Games and Interactive Demos",
+            kind="Playable Game / Demo" if url else "Coming Soon Game",
+            name=item["name"],
+            description=item.get("description", ""),
+            repo=repo,
+            url=url,
+            status=item.get("status", "planned"),
+            tags=[t for t in tags if t],
+            priority=36 if url else 76,
+            license="FREE / see repository",
+            language="HTML5 / JavaScript" if url else "Planned",
+            source_manifest="games.json",
+        ))
+
+    for item in promotionals.get("promotionals", []):
+        url = item.get("url", "")
+        tags = [str(x) for x in item.get("tags", [])] + ["promotion", "community"]
+        items.append(LinkItem(
+            cluster="Promotionals and Community",
+            kind="Promotional Route" if url else "Coming Soon Promotional Route",
+            name=item["name"],
+            description=item.get("description", ""),
+            url=url,
+            status=item.get("status", "planned"),
+            tags=[t for t in tags if t],
+            priority=45 if url else 85,
+            license="Public route",
+            language="Web",
+            source_manifest="promotionals.json",
+        ))
+
+    for item in academics.get("papers", []):
+        repo = item.get("repo", "")
+        url = item.get("url", "")
+        tags = [str(x) for x in item.get("tags", [])] + ["paper", "technical-writing"]
+        items.append(LinkItem(
+            cluster="Academic Papers and Technical Writing",
+            kind="Paper / Technical Article",
+            name=item["name"],
+            description=item.get("description", ""),
+            repo=repo,
+            url=url,
+            status=item.get("status", "public route"),
+            tags=[t for t in tags if t],
+            priority=37,
+            license="See publication / repository",
+            language="Markdown / Article",
+            source_manifest="academics.json",
         ))
 
     fixed = [
