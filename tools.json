@@ -1,0 +1,35 @@
+{
+  "categories": [
+    { "id": "audio_tools", "name": "Audio Tools", "icon": "🔧" },
+    { "id": "ai_tools", "name": "AI / Automation", "icon": "🤖" }
+  ],
+  "tools": [
+    {
+      "id": "voxel_audio",
+      "name": "Voxel Audio",
+      "description": "Free RGB waveform visualizer and audio export tool. Visual audio analysis and rendering.",
+      "category": "audio_tools",
+      "repo": "Voxel_Audio",
+      "tags": ["visualizer", "waveform", "rgb", "export"],
+      "status": "production"
+    },
+    {
+      "id": "vf_plexlab",
+      "name": "VF-PlexLab",
+      "description": "VocalForge PersonaPlex Lab — JUCE plugin + local backend + HTML tester around NVIDIA PersonaPlex for voice-conditioned vocal asset generation.",
+      "category": "ai_tools",
+      "repo": "VF-PlexLab",
+      "tags": ["vocals", "ai", "nvidia", "sample-generation"],
+      "status": "beta"
+    },
+    {
+      "id": "pap_forge_audio",
+      "name": "PAP-Forge-Audio",
+      "description": "Procedural Autonomous Plugins runtime — generate, branch, validate, and restore plugin projects from natural-language sound intent.",
+      "category": "ai_tools",
+      "repo": "PAP-Forge-Audio",
+      "tags": ["procedural", "automation", "plugin-generation", "nlp"],
+      "status": "beta"
+    }
+  ]
+}

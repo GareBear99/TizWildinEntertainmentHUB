@@ -1,0 +1,28 @@
+{
+  "categories": [
+    { "id": "playable", "name": "Playable Games", "icon": "🎮" },
+    { "id": "coming_soon", "name": "Coming Soon", "icon": "🚧" }
+  ],
+  "games": [
+    {
+      "id": "rift_ascent",
+      "name": "Rift Ascent",
+      "description": "Action game backed by the RiftWave Suite — the synth engine was built to power this game's audio. Live playable demos and source linked below.",
+      "category": "playable",
+      "repo": "RiftWaveSuite_RiftSynth_WaveForm_Lite",
+      "tags": ["game", "synth-powered", "riftwave", "action"],
+      "linkedPlugin": "RiftWave Suite",
+      "linkedPluginRepo": "RiftWaveSuite_RiftSynth_WaveForm_Lite",
+      "status": "alpha"
+    },
+    {
+      "id": "neolution",
+      "name": "Neolution",
+      "description": "Experimental evolution/simulation game from the TizWildin ecosystem. Source and playable builds available on GitHub.",
+      "category": "playable",
+      "repo": "Neolution",
+      "tags": ["game", "simulation", "evolution", "experimental"],
+      "status": "alpha"
+    }
+  ]
+}

@@ -241,6 +241,8 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;background:ra
   <button class="tab active" id="tab-plugins" onclick="switchScreen('plugins')">🔌 Plugins</button>
   <button class="tab" id="tab-packs" onclick="switchScreen('packs')">🎁 Packs &amp; Samples</button>
   <button class="tab" id="tab-lists" onclick="switchScreen('lists')">📚 Lists</button>
+  <button class="tab" id="tab-tools" onclick="switchScreen('tools')">🔧 Tools</button>
+  <button class="tab" id="tab-games" onclick="switchScreen('games')">🎮 Games</button>
 </div>
 
 <div id="screen-plugins" class="screen active">
@@ -275,6 +277,20 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;background:ra
   <div id="listContainer"></div>
 </div>
 
+<div id="screen-tools" class="screen">
+  <div class="controls">
+    <div class="stats" id="toolStats"></div>
+  </div>
+  <div id="toolContainer"></div>
+</div>
+
+<div id="screen-games" class="screen">
+  <div class="controls">
+    <div class="stats" id="gameStats"></div>
+  </div>
+  <div id="gameContainer"></div>
+</div>
+
 <div class="footer">
   Built with ❤️ by Gary Doman (GareBear99 / TizWildin)<br>
   "Great sound shouldn't cost anything" — ⭐ <a href="https://github.com/GareBear99/TizWildinEntertainmentHUB">Star the repo</a> · 📚 <a href="https://github.com/GareBear99/awesome-audio-lists">Audio Lists Hub</a>
@@ -285,9 +301,13 @@ const OWNER = 'GareBear99';
 const MANIFEST_URL = 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/plugins.json';
 const PACKS_URL    = 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/packs.json';
 const LISTS_URL    = 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/lists.json';
+const TOOLS_URL    = 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/tools.json';
+const GAMES_URL    = 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/games.json';
 let pluginData = [];
 let packData = [];
 let listData = [];
+let toolData = [];
+let gameData = [];
 let releaseCache = {};
 
 // ── Tab / screen switcher ──
@@ -338,6 +358,24 @@ async function init() {
   } catch (e) {
     document.getElementById('listContainer').innerHTML =
       '<p style="padding:32px;color:var(--red)">Failed to load lists manifest. Check your connection.</p>';
+  }
+  try {
+    const respT = await fetchNoCache(TOOLS_URL);
+    const toolsManifest = await respT.json();
+    toolData = toolsManifest.tools;
+    renderTools(toolsManifest);
+  } catch (e) {
+    document.getElementById('toolContainer').innerHTML =
+      '<p style="padding:32px;color:var(--red)">Failed to load tools manifest.</p>';
+  }
+  try {
+    const respG = await fetchNoCache(GAMES_URL);
+    const gamesManifest = await respG.json();
+    gameData = gamesManifest.games;
+    renderGames(gamesManifest);
+  } catch (e) {
+    document.getElementById('gameContainer').innerHTML =
+      '<p style="padding:32px;color:var(--red)">Failed to load games manifest.</p>';
   }
 }
 
@@ -597,6 +635,65 @@ function loadAutoToggle() {
   const on = getAutoCheckEnabled();
   const el = document.getElementById('autoToggle');
   if (el) el.classList.toggle('on', on);
+}
+
+// ── Render tool cards ──
+function renderTools(manifest) {
+  const container = document.getElementById('toolContainer');
+  container.innerHTML = '';
+  for (const cat of manifest.categories) {
+    const tools = manifest.tools.filter(t => t.category === cat.id);
+    if (!tools.length) continue;
+    const section = document.createElement('div');
+    section.className = 'category';
+    section.innerHTML = `<div class="category-title">${cat.icon} ${cat.name}</div><div class="grid"></div>`;
+    container.appendChild(section);
+    const grid = section.querySelector('.grid');
+    for (const t of tools) {
+      const card = document.createElement('div');
+      card.className = 'card';
+      const tags = (t.tags || []).map(x => `<span class="pack-tag">${x}</span>`).join('');
+      const statusEmoji = t.status === 'production' ? '✅' : t.status === 'beta' ? '⚠️' : '🚧';
+      card.innerHTML = `
+        <div class="card-top"><div class="card-name">${statusEmoji} ${t.name}</div><div class="card-badge badge-free">FREE TOOL</div></div>
+        <div class="card-desc">${t.description}</div>
+        <div class="pack-tags">${tags}</div>
+        <div class="card-actions"><a href="https://github.com/${OWNER}/${t.repo}" target="_blank">📂 Repo / Source</a></div>
+      `;
+      grid.appendChild(card);
+    }
+  }
+  document.getElementById('toolStats').textContent = `${manifest.tools.length} free tools`;
+}
+
+// ── Render game cards ──
+function renderGames(manifest) {
+  const container = document.getElementById('gameContainer');
+  container.innerHTML = '';
+  for (const cat of manifest.categories) {
+    const games = manifest.games.filter(g => g.category === cat.id);
+    if (!games.length) continue;
+    const section = document.createElement('div');
+    section.className = 'category';
+    section.innerHTML = `<div class="category-title">${cat.icon} ${cat.name}</div><div class="grid"></div>`;
+    container.appendChild(section);
+    const grid = section.querySelector('.grid');
+    for (const g of games) {
+      const card = document.createElement('div');
+      card.className = 'card';
+      const tags = (g.tags || []).map(x => `<span class="pack-tag">${x}</span>`).join('');
+      const linked = g.linkedPlugin ? `<div style="margin-top:8px;font-size:12px;color:var(--accent);">🔗 Powered by <a href="https://github.com/${OWNER}/${g.linkedPluginRepo}" target="_blank">${g.linkedPlugin}</a></div>` : '';
+      card.innerHTML = `
+        <div class="card-top"><div class="card-name">🎮 ${g.name}</div><div class="card-badge badge-free">${g.status?.toUpperCase() || 'ALPHA'}</div></div>
+        <div class="card-desc">${g.description}</div>
+        <div class="pack-tags">${tags}</div>
+        ${linked}
+        <div class="card-actions"><a href="https://github.com/${OWNER}/${g.repo}" target="_blank">📂 Repo / Source</a></div>
+      `;
+      grid.appendChild(card);
+    }
+  }
+  document.getElementById('gameStats').textContent = `${manifest.games.length} games`;
 }
 
 // ── Boot ──
