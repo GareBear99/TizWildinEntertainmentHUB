@@ -6,11 +6,11 @@
   "games": [
     {
       "id": "rift_ascent",
-      "name": "Rift Ascent",
-      "description": "Action game backed by the RiftWave Suite — the synth engine was built to power this game's audio. Live playable demos and source linked below.",
+      "name": "RiftAscent",
+      "description": "Canvas-based action game with prestige cycles, procedural audio, and real-time synth integration. Coming to iOS & Android. Backed by the RiftWave Suite synth engine.",
       "category": "playable",
-      "repo": "RiftWaveSuite_RiftSynth_WaveForm_Lite",
-      "tags": ["game", "synth-powered", "riftwave", "action"],
+      "repo": "RiftAscent",
+      "tags": ["action", "canvas", "procedural-audio", "prestige", "mobile"],
       "linkedPlugin": "RiftWave Suite",
       "linkedPluginRepo": "RiftWaveSuite_RiftSynth_WaveForm_Lite",
       "status": "alpha"
@@ -18,11 +18,47 @@
     {
       "id": "neolution",
       "name": "Neolution",
-      "description": "Experimental evolution/simulation game from the TizWildin ecosystem. Source and playable builds available on GitHub.",
+      "description": "CPU-light Canvas2D rhythm game with 8 lanes, gamepad support, and real-time audio analysis.",
       "category": "playable",
       "repo": "Neolution",
-      "tags": ["game", "simulation", "evolution", "experimental"],
+      "tags": ["rhythm", "canvas2d", "gamepad", "audio-analysis", "8-lane"],
       "status": "alpha"
+    },
+    {
+      "id": "wraith_eternal",
+      "name": "WraithEternal",
+      "description": "Coming soon.",
+      "category": "coming_soon",
+      "repo": "",
+      "tags": ["game"],
+      "status": "planned"
+    },
+    {
+      "id": "slime_veil",
+      "name": "SlimeVeil",
+      "description": "Coming soon.",
+      "category": "coming_soon",
+      "repo": "",
+      "tags": ["game"],
+      "status": "planned"
+    },
+    {
+      "id": "things_happening",
+      "name": "ThingsHappening",
+      "description": "Coming soon.",
+      "category": "coming_soon",
+      "repo": "",
+      "tags": ["game"],
+      "status": "planned"
+    },
+    {
+      "id": "mom",
+      "name": "M.O.M",
+      "description": "Coming soon.",
+      "category": "coming_soon",
+      "repo": "",
+      "tags": ["game"],
+      "status": "planned"
     }
   ]
 }

@@ -688,7 +688,7 @@ function renderGames(manifest) {
         <div class="card-desc">${g.description}</div>
         <div class="pack-tags">${tags}</div>
         ${linked}
-        <div class="card-actions"><a href="https://github.com/${OWNER}/${g.repo}" target="_blank">📂 Repo / Source</a></div>
+        <div class="card-actions">${g.repo ? `<a href="https://github.com/${OWNER}/${g.repo}" target="_blank">📂 Repo / Source</a>` : '<span style="color:var(--sub);font-size:12px;">Repo coming soon</span>'}</div>
       `;
       grid.appendChild(card);
     }
