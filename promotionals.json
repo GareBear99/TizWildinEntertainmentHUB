@@ -1,0 +1,72 @@
+{
+  "categories": [
+    { "id": "social", "name": "Social & Community", "icon": "🌐" },
+    { "id": "music", "name": "Music & Releases", "icon": "🎵" },
+    { "id": "coming_soon", "name": "Coming Soon", "icon": "🚧" }
+  ],
+  "promotionals": [
+    {
+      "id": "facebook_group",
+      "name": "GareBear Productionz (Facebook Group)",
+      "description": "Community group for producers, plugin users, and TizWildin ecosystem supporters. Share tracks, get feedback, plugin updates.",
+      "category": "social",
+      "url": "https://www.facebook.com/share/g/1H1tLXiQvS/",
+      "tags": ["facebook", "community", "producers", "feedback"],
+      "status": "active"
+    },
+    {
+      "id": "facebook_page",
+      "name": "TizWildin / GareBearProductionz (Facebook Page)",
+      "description": "Official page for TizWildin Entertainment updates, plugin releases, and media.",
+      "category": "social",
+      "url": "https://www.facebook.com/profile.php?id=61564485196765",
+      "tags": ["facebook", "official", "updates"],
+      "status": "active"
+    },
+    {
+      "id": "soundcloud",
+      "name": "TizWildin on SoundCloud",
+      "description": "Original music, remixes, VIP mixes, experimental drops, and underground releases.",
+      "category": "music",
+      "url": "https://soundcloud.com/tizwildin",
+      "tags": ["soundcloud", "music", "releases", "remixes"],
+      "status": "active"
+    },
+    {
+      "id": "youtube",
+      "name": "TizWildin YouTube",
+      "description": "Music, visuals, demos, plugin walkthroughs, and releases.",
+      "category": "music",
+      "url": "https://www.youtube.com/@gfgfvmhj",
+      "tags": ["youtube", "video", "demos", "music"],
+      "status": "active"
+    },
+    {
+      "id": "release_vault",
+      "name": "TizWildin Release Vault",
+      "description": "Official monetized releases, distributed tracks, and catalog proof.",
+      "category": "music",
+      "url": "https://ffm.bio/no4km87",
+      "tags": ["releases", "distribution", "catalog"],
+      "status": "active"
+    },
+    {
+      "id": "radio_stream",
+      "name": "TizWildin 24/7 Radio Stream",
+      "description": "Coming soon — 24/7 live radio stream connected to YouTube. Submit songs to the promotional roster once per day (purchase or donate badge required).",
+      "category": "coming_soon",
+      "url": "",
+      "tags": ["radio", "24-7", "youtube", "stream", "submit"],
+      "status": "planned"
+    },
+    {
+      "id": "song_submission",
+      "name": "Song Submission Portal",
+      "description": "Coming soon — submit your track to the TizWildin promotional roster. One submission per day for users with a purchase or donation badge.",
+      "category": "coming_soon",
+      "url": "",
+      "tags": ["submission", "promotion", "roster", "badge"],
+      "status": "planned"
+    }
+  ]
+}

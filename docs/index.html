@@ -243,6 +243,8 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;background:ra
   <button class="tab" id="tab-lists" onclick="switchScreen('lists')">📚 Lists</button>
   <button class="tab" id="tab-tools" onclick="switchScreen('tools')">🔧 Tools</button>
   <button class="tab" id="tab-games" onclick="switchScreen('games')">🎮 Games</button>
+  <button class="tab" id="tab-promos" onclick="switchScreen('promos')">📣 Promotionals</button>
+  <button class="tab" id="tab-academics" onclick="switchScreen('academics')">🎓 Academics</button>
 </div>
 
 <div id="screen-plugins" class="screen active">
@@ -291,6 +293,16 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;background:ra
   <div id="gameContainer"></div>
 </div>
 
+<div id="screen-promos" class="screen">
+  <div class="controls"><div class="stats" id="promoStats"></div></div>
+  <div id="promoContainer"></div>
+</div>
+
+<div id="screen-academics" class="screen">
+  <div class="controls"><div class="stats" id="academicStats"></div></div>
+  <div id="academicContainer"></div>
+</div>
+
 <div class="footer">
   Built with ❤️ by Gary Doman (GareBear99 / TizWildin)<br>
   "Great sound shouldn't cost anything" — ⭐ <a href="https://github.com/GareBear99/TizWildinEntertainmentHUB">Star the repo</a> · 📚 <a href="https://github.com/GareBear99/awesome-audio-lists">Audio Lists Hub</a>
@@ -303,11 +315,15 @@ const PACKS_URL    = 'https://raw.githubusercontent.com/GareBear99/TizWildinEnte
 const LISTS_URL    = 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/lists.json';
 const TOOLS_URL    = 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/tools.json';
 const GAMES_URL    = 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/games.json';
+const PROMOS_URL   = 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/promotionals.json';
+const ACADEMICS_URL= 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/academics.json';
 let pluginData = [];
 let packData = [];
 let listData = [];
 let toolData = [];
 let gameData = [];
+let promoData = [];
+let academicData = [];
 let releaseCache = {};
 
 // ── Tab / screen switcher ──
@@ -637,6 +653,86 @@ function loadAutoToggle() {
   if (el) el.classList.toggle('on', on);
 }
 
+async function loadPromosAndAcademics() {
+  try {
+    const respPr = await fetchNoCache(PROMOS_URL);
+    const promosManifest = await respPr.json();
+    promoData = promosManifest.promotionals;
+    renderPromos(promosManifest);
+  } catch (e) {
+    document.getElementById('promoContainer').innerHTML = '<p style="padding:32px;color:var(--red)">Failed to load promotionals.</p>';
+  }
+  try {
+    const respAc = await fetchNoCache(ACADEMICS_URL);
+    const academicsManifest = await respAc.json();
+    academicData = academicsManifest.papers;
+    renderAcademics(academicsManifest);
+  } catch (e) {
+    document.getElementById('academicContainer').innerHTML = '<p style="padding:32px;color:var(--red)">Failed to load academics.</p>';
+  }
+}
+
+// Call after init
+init().then(() => loadPromosAndAcademics());
+
+// ── Render promo cards ──
+function renderPromos(manifest) {
+  const container = document.getElementById('promoContainer');
+  container.innerHTML = '';
+  for (const cat of manifest.categories) {
+    const items = manifest.promotionals.filter(p => p.category === cat.id);
+    if (!items.length) continue;
+    const section = document.createElement('div');
+    section.className = 'category';
+    section.innerHTML = `<div class="category-title">${cat.icon} ${cat.name}</div><div class="grid"></div>`;
+    container.appendChild(section);
+    const grid = section.querySelector('.grid');
+    for (const p of items) {
+      const card = document.createElement('div');
+      card.className = 'card';
+      const tags = (p.tags || []).map(x => `<span class="pack-tag">${x}</span>`).join('');
+      const statusBadge = p.status === 'active' ? '✅' : '🚧';
+      card.innerHTML = `
+        <div class="card-top"><div class="card-name">${statusBadge} ${p.name}</div><div class="card-badge badge-free">${p.status?.toUpperCase() || 'ACTIVE'}</div></div>
+        <div class="card-desc">${p.description}</div>
+        <div class="pack-tags">${tags}</div>
+        <div class="card-actions">${p.url ? `<a href="${p.url}" target="_blank" rel="noopener">🌐 Open</a>` : '<span style="color:var(--sub);font-size:12px;">Coming soon</span>'}</div>
+      `;
+      grid.appendChild(card);
+    }
+  }
+  document.getElementById('promoStats').textContent = `${manifest.promotionals.length} promotional channels`;
+}
+
+// ── Render academic cards ──
+function renderAcademics(manifest) {
+  const container = document.getElementById('academicContainer');
+  container.innerHTML = '';
+  for (const cat of manifest.categories) {
+    const items = manifest.papers.filter(p => p.category === cat.id);
+    if (!items.length) continue;
+    const section = document.createElement('div');
+    section.className = 'category';
+    section.innerHTML = `<div class="category-title">${cat.icon} ${cat.name}</div><div class="grid"></div>`;
+    container.appendChild(section);
+    const grid = section.querySelector('.grid');
+    for (const p of items) {
+      const card = document.createElement('div');
+      card.className = 'card';
+      const tags = (p.tags || []).map(x => `<span class="pack-tag">${x}</span>`).join('');
+      card.innerHTML = `
+        <div class="card-top"><div class="card-name">📝 ${p.name}</div><div class="card-badge badge-free">${p.status?.toUpperCase() || 'DRAFT'}</div></div>
+        <div class="card-desc">${p.description}</div>
+        <div style="font-size:12px;color:var(--sub);margin-top:4px;">By ${p.authors} • ${p.venue || 'TBD'}</div>
+        <div class="pack-tags">${tags}</div>
+        <div class="card-actions"><a href="${p.url}" target="_blank">📄 Read Paper</a>${p.repo ? ` <a href="https://github.com/${OWNER}/${p.repo}" target="_blank">📂 Repo</a>` : ''}</div>
+      `;
+      grid.appendChild(card);
+    }
+  }
+  document.getElementById('academicStats').textContent = `${manifest.papers.length} papers`;
+}
+
 // ── Render tool cards ──
 function renderTools(manifest) {
   const container = document.getElementById('toolContainer');
@@ -697,7 +793,7 @@ function renderGames(manifest) {
 }
 
 // ── Boot ──
-init();
+// init() is called via .then() chain above
 </script>
 </body>
 </html>

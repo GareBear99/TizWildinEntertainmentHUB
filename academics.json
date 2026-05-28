@@ -1,0 +1,32 @@
+{
+  "categories": [
+    { "id": "published", "name": "Published Papers", "icon": "📄" },
+    { "id": "preprint", "name": "Preprints & Drafts", "icon": "📝" }
+  ],
+  "papers": [
+    {
+      "id": "freeeq8_paper",
+      "name": "Real-Time State-Space Parameterization and Lock-Free Semantic Analysis in Digital Equalization",
+      "description": "Production-grade parametric EQ architecture: Simper SVF topology, lock-free SPSC triple-buffering, variable-cadence coefficient engine (80% CPU savings), deterministic resonance detection (100% precision/recall). 10 sections, 8 references, measured on i7-3720QM.",
+      "category": "preprint",
+      "url": "https://github.com/GareBear99/FreeEQ8/blob/main/PAPER.md",
+      "repo": "FreeEQ8",
+      "tags": ["dsp", "svf", "lock-free", "real-time", "parametric-eq", "semantic-analysis"],
+      "venue": "DAFx / AES target",
+      "authors": "Gary Doman (GareBear99 / TizWildin)",
+      "status": "preprint"
+    },
+    {
+      "id": "freeeq8_devto",
+      "name": "FreeEQ8 Technical Architecture (dev.to)",
+      "description": "Published technical deep-dive covering SVF vs RBJ cramping, SPSC concurrency, variable-cadence Dynamic EQ, and allocation-free semantic resonance detection.",
+      "category": "published",
+      "url": "https://dev.to/tizwildin/real-time-state-space-parameterization-and-lock-free-semantic-analysis-in-digital-equalization-38jn",
+      "repo": "FreeEQ8",
+      "tags": ["dsp", "architecture", "blog", "dev.to"],
+      "venue": "dev.to",
+      "authors": "Gary Doman",
+      "status": "published"
+    }
+  ]
+}
