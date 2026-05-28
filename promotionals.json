@@ -15,6 +15,15 @@
       "status": "active"
     },
     {
+      "id": "facebook_partner_group",
+      "name": "Partnered Group — Promotional Network",
+      "description": "Partnered promotional group. Creator is partnered with TizWildin Entertainment for cross-promotion, track submissions, and member routing. Members tracked from source-of-truth static site.",
+      "category": "social",
+      "url": "https://www.facebook.com/share/g/1Tw4c3gSNg/",
+      "tags": ["facebook", "partner", "cross-promotion", "network"],
+      "status": "active"
+    },
+    {
       "id": "facebook_page",
       "name": "TizWildin / GareBearProductionz (Facebook Page)",
       "description": "Official page for TizWildin Entertainment updates, plugin releases, and media.",
