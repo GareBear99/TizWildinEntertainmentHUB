@@ -1,6 +1,7 @@
 {
   "categories": [
     { "id": "audio_tools", "name": "Audio Tools", "icon": "🔧" },
+    { "id": "creator_tools", "name": "Creator Tools", "icon": "🎨" },
     { "id": "ai_tools", "name": "AI / Automation", "icon": "🤖" }
   ],
   "tools": [
@@ -11,6 +12,24 @@
       "category": "audio_tools",
       "repo": "Voxel_Audio",
       "tags": ["visualizer", "waveform", "rgb", "export"],
+      "status": "production"
+    },
+    {
+      "id": "arc_audiobench",
+      "name": "ARC-AudioBench",
+      "description": "Open-source audio tool benchmarking software. Measure and compare DSP performance across plugins and engines.",
+      "category": "audio_tools",
+      "repo": "ARC-AudioBench",
+      "tags": ["benchmark", "dsp", "performance", "testing"],
+      "status": "production"
+    },
+    {
+      "id": "bannerbass",
+      "name": "BannerBass",
+      "description": "No-server static banner maker for music release banners. Create promotional artwork without needing a backend.",
+      "category": "creator_tools",
+      "repo": "BannerBass",
+      "tags": ["banner", "music-release", "static", "promo", "no-server"],
       "status": "production"
     },
     {
