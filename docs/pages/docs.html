@@ -69,7 +69,9 @@ a:hover{text-decoration:underline}
   <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
     <a href="https://soundcloud.com/tizwildin" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#ff5500;color:white;text-decoration:none;border-radius:12px;font-weight:600;font-size:15px;transition:all .3s" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">🔊 Follow on SoundCloud</a>
     <a href="https://github.com/GareBear99/TizWildinEntertainmentHUB" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:linear-gradient(135deg,#6c7bbd,#3d4b94);color:white;text-decoration:none;border-radius:12px;font-weight:600;font-size:15px;transition:all .3s" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">⭐ Star on GitHub</a>
+    <a href="https://github.com/sponsors/GareBear99" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:linear-gradient(135deg,#db61a2,#c0392b);color:white;text-decoration:none;border-radius:12px;font-weight:600;font-size:15px;transition:all .3s" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">💖 Sponsor on GitHub</a>
   </div>
+  <div id="docsUserCount" style="margin-top:16px;text-align:center;font-size:14px;color:rgba(255,255,255,.6)"></div>
 </div>
 
 <!-- Overview -->
@@ -216,5 +218,18 @@ a:hover{text-decoration:underline}
 </div>
 
 </div>
+<script>
+(async function(){
+  try {
+    const ARC = window.location.hostname === 'localhost' ? 'http://127.0.0.1:8000' : 'https://proeq8-license-server.admension.workers.dev';
+    const resp = await fetch(ARC + '/community/stats');
+    const data = await resp.json();
+    const el = document.getElementById('docsUserCount');
+    if (el && data.totalUsers !== undefined) {
+      el.innerHTML = `🎯 <strong>${data.totalUsers}</strong> / ${data.giveawayTarget} users — ${data.giveawayProgress}% to giveaway milestone`;
+    }
+  } catch(e) {}
+})();
+</script>
 </body>
 </html>

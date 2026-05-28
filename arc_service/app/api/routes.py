@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from app.models.domain import BackupRestoreRequest, CheckoutSessionRequest, DownloadPlanRequest, EntitlementState, ExecuteDownloadsRequest, HubSettingsState, HubSettingsUpdateRequest, InstallPlanRequest, InstallScanReport, LocalLoginRequest, LocalRegisterRequest, MockLoginRequest, PreflightRequest, ProposalRequest, RefreshTokenRequest, ReleaseImportRequest, RepairRequest, RollbackRequest, RuntimeValidationRequest, SeatAssignment, SeatReleaseRequest, SoundCloudAuthUrlRequest, SoundCloudCallbackRequest, TokenRevokeRequest, TokenValidationRequest, UninstallRequest, WebhookEvent
+from app.models.domain import BackupRestoreRequest, CheckoutSessionRequest, DownloadPlanRequest, EntitlementState, ExecuteDownloadsRequest, GoogleSignInRequest, HubSettingsState, HubSettingsUpdateRequest, InstallPlanRequest, InstallScanReport, LocalLoginRequest, LocalRegisterRequest, MockLoginRequest, PreflightRequest, ProposalRequest, RefreshTokenRequest, ReleaseImportRequest, RepairRequest, RollbackRequest, RuntimeValidationRequest, SeatAssignment, SeatReleaseRequest, SoundCloudAuthUrlRequest, SoundCloudCallbackRequest, TokenRevokeRequest, TokenValidationRequest, UninstallRequest, WebhookEvent
 from app.services.store import load_catalog, load_entitlements
 from app.services.auth_service import local_login, local_refresh, local_register, mock_login, revoke_token, validate_token
 from app.services.entitlement_service import resolve_product_access
@@ -372,6 +372,45 @@ def soundcloud_follow_status(token: str):
     if not sc_token:
         return {"following": False, "reason": "no_soundcloud_link"}
     return check_follows_tizwildin(sc_token)
+
+
+# ── Google Sign-In ─────────────────────────────────────────────
+
+@router.post("/auth/google/signin")
+def google_signin(request: "GoogleSignInRequest"):
+    from app.models.domain import GoogleSignInRequest as GSR
+    from app.services.sqlite_auth_service import subscribe_email, upsert_oauth_link, _make_account_id, _new_session, ensure_local_account
+    email = request.email.strip().lower()
+    name = request.name or email.split("@")[0]
+    account_id = _make_account_id(email)
+    upsert_oauth_link(
+        provider="google",
+        provider_user_id=email,
+        account_id=account_id,
+        provider_username=name,
+        provider_avatar_url=request.picture or "",
+        provider_email=email,
+    )
+    ensure_local_account(account_id, email, name)
+    subscribe_email(email=email, source="google", display_name=name)
+    session = _new_session(account_id, "web_google")
+    session["provider"] = "google"
+    session["email"] = email
+    session["displayName"] = name
+    return session
+
+
+# ── User Count ─────────────────────────────────────────────────
+
+@router.get("/community/stats")
+def community_stats():
+    subs = list_email_subscribers()
+    return {
+        "totalUsers": len(subs),
+        "giveawayTarget": 1000,
+        "giveawayProgress": min(100, int((len(subs) / 1000) * 100)),
+        "remaining": max(0, 1000 - len(subs)),
+    }
 
 
 # ── Admin / Email List ────────────────────────────────────────────

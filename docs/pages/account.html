@@ -107,6 +107,7 @@ h1{font-size:28px;letter-spacing:-1px;margin-bottom:8px}
 
   <div class="back">
     <a href="../index.html">← Back to HUB</a>
+    <a href="https://github.com/sponsors/GareBear99" target="_blank" rel="noopener" style="color:#db61a2">💖 Sponsor</a>
     <a href="https://github.com/GareBear99/Portfolio/issues" target="_blank" rel="noopener">🎫 Report Issue</a>
   </div>
 </div>
@@ -204,6 +205,14 @@ function handleGoogleSignIn(response) {
   };
   localStorage.setItem('tiz_session', JSON.stringify(currentUser));
   showSignedIn();
+  // Track in backend for user count + email list
+  fetch(ARC_API + '/auth/google/signin', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({ email: payload.email, name: payload.name, picture: payload.picture })
+  }).then(r => r.json()).then(data => {
+    if (data.token) { currentUser.token = data.token; currentUser.accountId = data.accountId; localStorage.setItem('tiz_session', JSON.stringify(currentUser)); }
+  }).catch(() => {});
 }
 
 // ── UI helpers ──

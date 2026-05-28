@@ -215,3 +215,9 @@ class SoundCloudCallbackRequest(BaseModel):
 
 class SoundCloudAuthUrlRequest(BaseModel):
     redirectUri: str
+
+
+class GoogleSignInRequest(BaseModel):
+    email: str
+    name: str | None = None
+    picture: str | None = None
