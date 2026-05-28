@@ -8,7 +8,7 @@
 <script src="https://accounts.google.com/gsi/client" async defer></script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
-:root{--bg:#0a0b12;--card:#131222;--card-border:#1e2240;--text:#e8eaf0;--sub:#a0a6bc;--accent:#6c7bbd;--green:#22c55e;--sc-orange:#ff5500}
+:root{--bg:#0a0b12;--card:#131222;--card-border:#1e2240;--text:#e8eaf0;--sub:#a0a6bc;--accent:#6c7bbd;--green:#22c55e;--sc-orange:#ff5500;--gold:#eab308}
 body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:40px 20px}
 a{color:var(--accent);text-decoration:none}
 a:hover{text-decoration:underline}
@@ -17,16 +17,19 @@ h1{font-size:28px;letter-spacing:-1px;margin-bottom:8px}
 .subtitle{color:var(--sub);font-size:14px;line-height:1.6;margin-bottom:32px}
 .card{background:var(--card);border:1px solid var(--card-border);border-radius:16px;padding:28px;margin-bottom:20px}
 .card h2{font-size:20px;margin-bottom:6px}
+.card h3{font-size:16px;margin:20px 0 8px;color:var(--gold)}
 .card p{color:var(--sub);font-size:13px;line-height:1.6;margin-bottom:16px}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:13px;border:none;border-radius:10px;font-size:15px;font-weight:700;cursor:pointer;transition:opacity .2s;margin-top:14px}
 .btn-soundcloud{background:var(--sc-orange);color:white}
 .btn-primary{background:linear-gradient(135deg,#6c7bbd,#3d4b94);color:white}
+.btn-gold{background:linear-gradient(135deg,#eab308,#ca8a04);color:#1a1a1a}
 .btn-danger{background:#7f1d1d;color:#fca5a5;margin-top:10px}
 .btn:hover{opacity:.9}
 .btn:disabled{opacity:.5;cursor:wait}
 #status{margin-top:16px;padding:14px;border-radius:10px;font-size:13px;line-height:1.6;display:none}
 .status-ok{background:#14352a;border:1px solid #22543d;color:#86efac}
 .status-err{background:#3b1010;border:1px solid #7f1d1d;color:#fca5a5}
+.status-warn{background:#422006;border:1px solid #854d0e;color:#fde047}
 .back{margin-top:24px;text-align:center;font-size:13px}
 .back a{margin:0 8px}
 .user-info{display:flex;align-items:center;gap:12px;margin-bottom:16px}
@@ -42,6 +45,15 @@ h1{font-size:28px;letter-spacing:-1px;margin-bottom:8px}
 .follow-pending{background:#422006;border:1px solid #854d0e;color:#eab308}
 .divider{display:flex;align-items:center;gap:12px;margin:20px 0;color:var(--sub);font-size:12px}
 .divider::before,.divider::after{content:'';flex:1;height:1px;background:var(--card-border)}
+.license-item{background:var(--bg);border:1px solid var(--card-border);border-radius:10px;padding:14px;margin:10px 0}
+.license-item .product{font-weight:700;font-size:14px}
+.license-item .devices{color:var(--sub);font-size:12px;margin-top:4px}
+.seat-select{display:flex;align-items:center;gap:12px;margin:12px 0}
+.seat-select label{color:var(--sub);font-size:13px}
+.seat-select select{background:var(--bg);border:1px solid var(--card-border);color:var(--text);padding:8px 12px;border-radius:8px;font-size:14px}
+.mk-badge{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:10px;font-size:13px;font-weight:700}
+.mk-active{background:#14352a;border:1px solid #22543d;color:#86efac}
+.mk-none{background:var(--bg);border:1px solid var(--card-border);color:var(--sub)}
 </style>
 </head>
 <body>
@@ -98,8 +110,13 @@ h1{font-size:28px;letter-spacing:-1px;margin-bottom:8px}
       <div id="followStatus"></div>
 
       <h2>Your Licenses</h2>
-      <p id="licenseStatus">Loading...</p>
+      <div id="licensesContainer"><p id="licenseStatus">Loading...</p></div>
       <button class="btn btn-primary" id="recoverBtn" onclick="recoverKeys()">📧 Send My Keys to My Email</button>
+
+      <h3>🔑 Master Key Subscription</h3>
+      <div id="masterKeyStatus"><p>Loading...</p></div>
+      <div id="masterKeyActions"></div>
+
       <div id="status"></div>
       <button class="btn btn-danger" onclick="signOut()">Sign Out</button>
     </div>
@@ -113,8 +130,8 @@ h1{font-size:28px;letter-spacing:-1px;margin-bottom:8px}
 </div>
 
 <script>
-const API = 'https://proeq8-license-server.admension.workers.dev';
-const ARC_API = window.location.hostname === 'localhost' ? 'http://127.0.0.1:8000' : 'https://proeq8-license-server.admension.workers.dev';
+const API = 'https://tizwildin-hub.admension.workers.dev';
+const ARC_API = window.location.hostname === 'localhost' ? 'http://127.0.0.1:8000' : 'https://tizwildin-hub.admension.workers.dev';
 let currentUser = null;
 
 // ── Restore session on load ──
@@ -222,8 +239,80 @@ function showSignedIn() {
   document.getElementById('userName').textContent = currentUser.name;
   document.getElementById('userEmail').textContent = currentUser.email || currentUser.provider;
   document.getElementById('userAvatar').src = currentUser.picture || 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><circle cx="20" cy="20" r="20" fill="%236c7bbd"/><text x="20" y="26" text-anchor="middle" fill="white" font-size="18">?</text></svg>';
-  document.getElementById('licenseStatus').textContent = 'Signed in as ' + (currentUser.email || currentUser.name) + '. Click below to retrieve your keys.';
   if (currentUser.provider === 'soundcloud') checkFollowStatus();
+  loadAccountData();
+}
+
+async function loadAccountData() {
+  if (!currentUser?.email) {
+    document.getElementById('licenseStatus').textContent = 'Sign in with an email to view licenses.';
+    document.getElementById('masterKeyStatus').innerHTML = '<p>Sign in with an email to manage Master Key.</p>';
+    return;
+  }
+  try {
+    const resp = await fetch(API + '/hub/account?email=' + encodeURIComponent(currentUser.email));
+    const data = await resp.json();
+    // Licenses
+    const container = document.getElementById('licensesContainer');
+    if (data.licenses && data.licenses.length > 0) {
+      container.innerHTML = data.licenses.map(lic => `
+        <div class="license-item">
+          <div class="product">${lic.product}</div>
+          <div class="devices">Devices: ${lic.devicesUsed}/${lic.devicesMax} activated</div>
+        </div>
+      `).join('');
+    } else {
+      container.innerHTML = '<p>No licenses found. <a href="https://garebear99.github.io/FreeEQ8" target="_blank">Get ProEQ8 →</a></p>';
+    }
+    // Master Key status
+    const mkStatus = document.getElementById('masterKeyStatus');
+    const mkActions = document.getElementById('masterKeyActions');
+    const mkResp = await fetch(API + '/hub/master-key/status?email=' + encodeURIComponent(currentUser.email));
+    const mkData = await mkResp.json();
+    // Also check subscription status
+    const subResp = await fetch(API + '/hub/account?email=' + encodeURIComponent(currentUser.email));
+    const subData = await subResp.json();
+    if (mkData.hasMasterKey && mkData.status === 'active') {
+      mkStatus.innerHTML = '<div class="mk-badge mk-active">✅ Master Key Active — Device unlinking enabled</div>';
+      mkActions.innerHTML = '';
+    } else {
+      mkStatus.innerHTML = `<div class="mk-badge mk-none">🔒 No Master Key subscription</div>
+        <p style="margin-top:12px">Master Key lets you unlink devices from your ProEQ8 licenses. Perfect for upgrading computers or re-installing.</p>`;
+      mkActions.innerHTML = `
+        <div class="seat-select">
+          <label for="seatCount">Seats:</label>
+          <select id="seatCount">
+            <option value="1">1 seat — $3 CAD/mo</option>
+            <option value="2">2 seats — $6 CAD/mo</option>
+            <option value="3">3 seats — $9 CAD/mo</option>
+          </select>
+        </div>
+        <button class="btn btn-gold" onclick="subscribeMasterKey()">🔑 Get Master Key</button>
+      `;
+    }
+  } catch(e) {
+    document.getElementById('licenseStatus').textContent = 'Could not load account data.';
+    document.getElementById('masterKeyStatus').innerHTML = '<p>Could not load Master Key status.</p>';
+  }
+}
+
+async function subscribeMasterKey() {
+  if (!currentUser?.email) { alert('Please sign in first.'); return; }
+  const seats = document.getElementById('seatCount')?.value || '1';
+  const btn = document.querySelector('.btn-gold');
+  if (btn) { btn.disabled = true; btn.textContent = 'Redirecting...'; }
+  try {
+    const resp = await fetch(API + '/create-checkout/master-key', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ email: currentUser.email, seats: parseInt(seats) })
+    });
+    const data = await resp.json();
+    if (data.url) window.location.href = data.url;
+    else { alert('Could not start checkout. Try again.'); if(btn){btn.disabled=false;btn.textContent='🔑 Get Master Key';} }
+  } catch(e) {
+    alert('Could not reach server.'); if(btn){btn.disabled=false;btn.textContent='🔑 Get Master Key';}
+  }
 }
 
 async function recoverKeys() {
