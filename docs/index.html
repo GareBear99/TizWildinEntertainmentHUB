@@ -432,6 +432,7 @@ function createCard(plugin) {
       <span class="version-tag v-checking"><span class="spinner"></span> Waiting…</span>
     </div>
     <div class="card-actions">
+      ${plugin.demoUrl ? `<a class="download-btn" href="${plugin.demoUrl}" target="_blank">${plugin.demoLabel || '▶️ Play Demo'}</a>` : ''}
       <a href="https://github.com/${OWNER}/${plugin.repo}" target="_blank">📂 Repo / Source</a>
       <span id="actions-${plugin.id}"></span>
     </div>

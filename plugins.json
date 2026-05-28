@@ -267,6 +267,8 @@
         "VST3",
         "AU"
       ],
+      "demoUrl": "https://garebear99.github.io/RiftAscent/",
+      "demoLabel": "\u25b6\ufe0f Play RiftAscent",
       "status": "beta"
     },
     {
