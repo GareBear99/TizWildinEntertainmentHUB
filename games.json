@@ -13,6 +13,7 @@
       "tags": ["action", "canvas", "procedural-audio", "prestige", "mobile"],
       "linkedPlugin": "RiftWave Suite",
       "linkedPluginRepo": "RiftWaveSuite_RiftSynth_WaveForm_Lite",
+      "demoUrl": "https://garebear99.github.io/RiftAscent/",
       "status": "alpha"
     },
     {
@@ -22,6 +23,7 @@
       "category": "playable",
       "repo": "Neolution",
       "tags": ["rhythm", "canvas2d", "gamepad", "audio-analysis", "8-lane"],
+      "demoUrl": "https://garebear99.github.io/Neolution/",
       "status": "alpha"
     },
     {
