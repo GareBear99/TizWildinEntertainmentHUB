@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Account — TizWildin Entertainment</title>
-<meta name="description" content="Sign in with SoundCloud or Google to manage your TizWildin plugin license keys.">
+<meta name="description" content="Sign in with Google to manage your TizWildin plugin license keys.">
 <script src="https://accounts.google.com/gsi/client" async defer></script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -60,18 +60,13 @@ h1{font-size:28px;letter-spacing:-1px;margin-bottom:8px}
 
 <div class="container">
   <h1>🔑 Account</h1>
-  <p class="subtitle">Sign in with SoundCloud or Google to manage your license keys and unlock free packs.</p>
+  <p class="subtitle">Sign in with Google to manage your license keys and account.</p>
 
   <!-- Sign-in screen -->
   <div id="signInSection">
     <div class="card">
       <h2>Sign in to continue</h2>
-      <p>Connect with SoundCloud to unlock free sample packs (requires following <strong>@TizWildin</strong>). Or sign in with Google to recover your license keys.</p>
-
-      <!-- SoundCloud button -->
-      <button class="btn btn-soundcloud" onclick="startSoundCloudLogin()">🔊 Connect with SoundCloud</button>
-
-      <div class="divider">or</div>
+      <p>Sign in with Google to manage your license keys and account.</p>
 
       <!-- Google button -->
       <div class="g-signin">
@@ -92,7 +87,16 @@ h1{font-size:28px;letter-spacing:-1px;margin-bottom:8px}
         </div>
       </div>
 
-      <p style="margin-top:16px;font-size:12px;color:var(--sub);">We only read your name, email, and SoundCloud profile. We don't store passwords or access your accounts beyond what's needed.</p>
+      <p style="margin-top:16px;font-size:12px;color:var(--sub);">We only read your name and email. We don't store passwords.</p>
+
+      <div class="divider">coming soon</div>
+
+      <!-- Coming soon integrations -->
+      <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center">
+        <button class="btn btn-soundcloud" style="width:auto;flex:1;opacity:0.5;cursor:not-allowed" disabled>🔊 SoundCloud</button>
+        <button class="btn" style="width:auto;flex:1;background:#1DB954;color:white;opacity:0.5;cursor:not-allowed" disabled>🎵 Spotify</button>
+      </div>
+      <p style="margin-top:10px;font-size:11px;color:var(--sub);text-align:center">GitHub integration for distribution coming later</p>
     </div>
   </div>
 
