@@ -110,6 +110,98 @@ a:hover{text-decoration:underline}
   </div>
 </div>
 
+<!-- Platform Capacity (1,200 User Infrastructure) -->
+<div style="background:rgba(255,255,255,.05);border:2px solid rgba(139,92,246,.3);border-radius:16px;padding:30px;margin-bottom:40px;transition:all .3s" onmouseover="this.style.borderColor='rgba(139,92,246,.6)';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='rgba(139,92,246,.3)';this.style.transform='translateY(0)'">
+  <h2 style="font-size:20px;font-weight:600;margin-bottom:8px;display:flex;align-items:center;gap:8px">📊 Platform Capacity (1,200 User Infrastructure)</h2>
+  <p style="font-size:13px;color:rgba(255,255,255,.7);margin-bottom:16px">The HUB is in controlled growth phase. Signups are open until 1,200 users. A site-wide warning appears at 1,000 users. All sign-ins tracked via ARC-Core event spine.</p>
+
+  <!-- Staff -->
+  <div style="margin-bottom:16px;padding:14px;background:rgba(255,215,0,.15);border:2px solid rgba(255,215,0,.4);border-radius:8px">
+    <div style="font-size:13px;font-weight:600;color:#ffd700;margin-bottom:8px">♟️ Platform Staff</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;font-size:11px">
+      <div style="padding:8px;background:rgba(255,215,0,.1);border-radius:6px"><div style="color:#ffd700;font-weight:600">👑 Founder</div><div style="color:rgba(255,215,0,.8);font-size:11px;font-weight:600">@GareBearProductionz</div><div style="color:rgba(255,255,255,.9);font-size:10px">Gary Richard Doman</div></div>
+      <div style="padding:8px;background:rgba(108,123,189,.1);border-radius:6px"><div style="color:#6c7bbd;font-weight:600">📧 Newsletter</div><div style="color:rgba(255,255,255,.7);font-size:10px">Weekly Monday digest to all subscribers</div></div>
+      <div style="padding:8px;background:rgba(34,197,94,.1);border-radius:6px"><div style="color:#22c55e;font-weight:600">🎫 Support</div><div style="color:rgba(255,255,255,.7);font-size:10px"><a href="https://github.com/GareBear99/Portfolio/issues" target="_blank" style="color:#22c55e">Portfolio/issues</a></div></div>
+    </div>
+  </div>
+
+  <!-- Capacity Tiers -->
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px">
+    <div style="background:rgba(255,85,0,.15);border:1px solid rgba(255,85,0,.3);border-radius:8px;padding:14px">
+      <div style="font-size:12px;color:rgba(255,255,255,.6);margin-bottom:4px">🔊 SoundCloud Users</div>
+      <div style="font-size:20px;font-weight:700;color:#ff5500" id="scCount">0</div>
+      <div style="font-size:12px;color:#ff5500;font-weight:600">Follow-gated pack access</div>
+      <div style="font-size:11px;color:rgba(255,255,255,.5)">OAuth + email collection</div>
+    </div>
+    <div style="background:rgba(66,133,244,.15);border:1px solid rgba(66,133,244,.3);border-radius:8px;padding:14px">
+      <div style="font-size:12px;color:rgba(255,255,255,.6);margin-bottom:4px">🔑 Google Users</div>
+      <div style="font-size:20px;font-weight:700;color:#4285f4" id="googleCount">0</div>
+      <div style="font-size:12px;color:#4285f4;font-weight:600">License key recovery</div>
+      <div style="font-size:11px;color:rgba(255,255,255,.5)">JWT + email collection</div>
+    </div>
+    <div style="background:rgba(108,123,189,.15);border:1px solid rgba(108,123,189,.3);border-radius:8px;padding:14px">
+      <div style="font-size:12px;color:rgba(255,255,255,.6);margin-bottom:4px">📊 Total Community</div>
+      <div style="font-size:20px;font-weight:700;color:#6c7bbd" id="totalCommunity">0 / 1,200</div>
+      <div style="font-size:12px;font-weight:600;margin-bottom:4px" id="capacityStatus" style="color:#22c55e">✓ Open for signups</div>
+      <div style="font-size:11px;color:rgba(255,255,255,.5)" id="capacityPct">0% capacity</div>
+    </div>
+    <div style="background:rgba(34,197,94,.15);border:1px solid rgba(34,197,94,.3);border-radius:8px;padding:14px">
+      <div style="font-size:12px;color:rgba(255,255,255,.6);margin-bottom:4px">🏆 Giveaway Status</div>
+      <div style="font-size:20px;font-weight:700;color:#22c55e" id="giveawayStatus">🔒 Locked</div>
+      <div style="font-size:12px;color:#22c55e;font-weight:600" id="giveawayRemaining">1,000 users to unlock</div>
+      <div style="font-size:11px;color:rgba(255,255,255,.5)">Plugin upgrades + exclusive packs</div>
+    </div>
+    <div style="background:rgba(168,85,247,.15);border:1px solid rgba(168,85,247,.3);border-radius:8px;padding:14px">
+      <div style="font-size:12px;color:rgba(255,255,255,.6);margin-bottom:4px">📻 Radio Stream</div>
+      <div style="font-size:20px;font-weight:700;color:#a855f7">🚧 Soon</div>
+      <div style="font-size:12px;color:#a855f7;font-weight:600">24/7 YouTube radio</div>
+      <div style="font-size:11px;color:rgba(255,255,255,.5)">Song submissions + badges</div>
+    </div>
+  </div>
+
+  <!-- Capacity Progress Bar -->
+  <div style="margin-top:16px;padding:12px;background:rgba(0,0,0,.3);border-radius:8px">
+    <div style="display:flex;justify-content:space-between;font-size:12px;color:rgba(255,255,255,.6);margin-bottom:6px">
+      <span>🎯 Community Capacity</span>
+      <span id="capacityLabel">0 / 1,200</span>
+    </div>
+    <div style="height:10px;background:rgba(255,255,255,.1);border-radius:5px;overflow:hidden;position:relative">
+      <div id="capacityBar" style="height:100%;width:0%;background:linear-gradient(90deg,#22c55e,#6c7bbd);border-radius:5px;transition:width .5s"></div>
+      <!-- Warning threshold marker at 83.3% (1000/1200) -->
+      <div style="position:absolute;top:0;bottom:0;left:83.3%;width:2px;background:#eab308;z-index:1" title="Warning: 1,000 users"></div>
+    </div>
+    <div style="display:flex;justify-content:space-between;font-size:10px;color:rgba(255,255,255,.4);margin-top:4px">
+      <span>0</span>
+      <span style="color:#eab308">⚠️ 1,000 warning</span>
+      <span style="color:#ef4444">🔒 1,200 cap</span>
+    </div>
+  </div>
+
+  <!-- Warning/Closed Banner -->
+  <div id="capacityWarning" style="display:none;margin-top:12px;padding:12px;border-radius:8px;font-size:13px;line-height:1.6"></div>
+
+  <!-- Ecosystem Inventory -->
+  <div style="margin-top:16px;padding:16px;background:rgba(34,197,94,.1);border:1px solid rgba(34,197,94,.3);border-radius:8px">
+    <div style="font-size:13px;font-weight:600;color:#22c55e;margin-bottom:12px">⚙️ Ecosystem Content Inventory</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px">
+      <div style="background:rgba(0,0,0,.2);padding:10px;border-radius:6px"><div style="font-size:10px;color:rgba(255,255,255,.5)">Plugins</div><div style="font-size:18px;font-weight:700;color:#22c55e">21</div><div style="font-size:9px;color:rgba(255,255,255,.4)">VST3 / AU / Standalone</div></div>
+      <div style="background:rgba(0,0,0,.2);padding:10px;border-radius:6px"><div style="font-size:10px;color:rgba(255,255,255,.5)">Sample Packs</div><div style="font-size:18px;font-weight:700;color:#3b82f6">11</div><div style="font-size:9px;color:rgba(255,255,255,.4)">Free + open source</div></div>
+      <div style="background:rgba(0,0,0,.2);padding:10px;border-radius:6px"><div style="font-size:10px;color:rgba(255,255,255,.5)">MIDI Tools</div><div style="font-size:18px;font-weight:700;color:#f59e0b">3</div><div style="font-size:9px;color:rgba(255,255,255,.4)">Browser playable</div></div>
+      <div style="background:rgba(0,0,0,.2);padding:10px;border-radius:6px"><div style="font-size:10px;color:rgba(255,255,255,.5)">Games</div><div style="font-size:18px;font-weight:700;color:#a855f7">6</div><div style="font-size:9px;color:rgba(255,255,255,.4)">2 playable + 4 planned</div></div>
+      <div style="background:rgba(0,0,0,.2);padding:10px;border-radius:6px"><div style="font-size:10px;color:rgba(255,255,255,.5)">Papers</div><div style="font-size:18px;font-weight:700;color:#ec4899">7</div><div style="font-size:9px;color:rgba(255,255,255,.4)">DSP + AI/ARC</div></div>
+      <div style="background:rgba(0,0,0,.2);padding:10px;border-radius:6px"><div style="font-size:10px;color:rgba(255,255,255,.5)">Manifests</div><div style="font-size:18px;font-weight:700;color:#10b981">7</div><div style="font-size:9px;color:rgba(255,255,255,.4)">JSON source-of-truth</div></div>
+    </div>
+  </div>
+
+  <div style="margin-top:16px;padding:12px;background:rgba(0,0,0,.3);border-radius:6px;font-size:12px;color:rgba(255,255,255,.8);line-height:1.6">
+    <strong>⚠️ Capacity Notice:</strong> When the community reaches 1,000 users, a warning banner appears site-wide. At 1,200 users, new signups are paused until capacity is expanded.
+  </div>
+
+  <div style="margin-top:8px;font-size:11px;color:rgba(255,255,255,.5);text-align:center">
+    📡 Live data from <code>/community/stats</code> • Updated on sign-in • Weekly digest every Monday
+  </div>
+</div>
+
 <!-- Dashboard Tabs -->
 <div class="doc-card">
   <div class="doc-icon">🎛️</div>
@@ -220,13 +312,54 @@ a:hover{text-decoration:underline}
 </div>
 <script>
 (async function(){
+  const ARC = window.location.hostname === 'localhost' ? 'http://127.0.0.1:8000' : 'https://proeq8-license-server.admension.workers.dev';
   try {
-    const ARC = window.location.hostname === 'localhost' ? 'http://127.0.0.1:8000' : 'https://proeq8-license-server.admension.workers.dev';
     const resp = await fetch(ARC + '/community/stats');
     const data = await resp.json();
+    const total = data.totalUsers || 0;
+    const cap = data.capacity || 1200;
+    const warn = data.warningThreshold || 1000;
+    const pct = Math.min(100, Math.round((total / cap) * 100));
+    const giveawayPct = data.giveawayProgress || 0;
+    const remaining = data.remaining || 1000;
+
+    // Support card
     const el = document.getElementById('docsUserCount');
-    if (el && data.totalUsers !== undefined) {
-      el.innerHTML = `🎯 <strong>${data.totalUsers}</strong> / ${data.giveawayTarget} users — ${data.giveawayProgress}% to giveaway milestone`;
+    if (el) el.innerHTML = `🎯 <strong>${total}</strong> / ${cap} users — ${pct}% capacity`;
+
+    // Capacity section
+    const tc = document.getElementById('totalCommunity');
+    if (tc) tc.textContent = `${total} / ${cap.toLocaleString()}`;
+    const cpct = document.getElementById('capacityPct');
+    if (cpct) cpct.textContent = `${pct}% capacity`;
+
+    // Capacity status
+    const cs = document.getElementById('capacityStatus');
+    if (cs) {
+      if (total >= cap) { cs.textContent = '🔒 Signups closed'; cs.style.color = '#ef4444'; }
+      else if (total >= warn) { cs.textContent = '⚠️ Near capacity'; cs.style.color = '#eab308'; }
+      else { cs.textContent = '✓ Open for signups'; cs.style.color = '#22c55e'; }
+    }
+
+    // Giveaway
+    const gs = document.getElementById('giveawayStatus');
+    const gr = document.getElementById('giveawayRemaining');
+    if (gs && gr) {
+      if (total >= 1000) { gs.textContent = '🎉 LIVE!'; gs.style.color = '#22c55e'; gr.textContent = 'Giveaways are active!'; }
+      else { gs.textContent = '🔒 Locked'; gr.textContent = `${remaining.toLocaleString()} to unlock`; }
+    }
+
+    // Capacity bar
+    const cb = document.getElementById('capacityBar');
+    const cl = document.getElementById('capacityLabel');
+    if (cb) { cb.style.width = pct + '%'; if (total >= warn) cb.style.background = total >= cap ? '#ef4444' : 'linear-gradient(90deg,#eab308,#ef4444)'; }
+    if (cl) cl.textContent = `${total} / ${cap.toLocaleString()}`;
+
+    // Warning banner
+    const cw = document.getElementById('capacityWarning');
+    if (cw) {
+      if (total >= cap) { cw.style.display = 'block'; cw.style.background = 'rgba(239,68,68,.15)'; cw.style.border = '1px solid rgba(239,68,68,.4)'; cw.style.color = '#fca5a5'; cw.innerHTML = '<strong>🔒 Signups Closed:</strong> The platform has reached maximum capacity (' + cap + ' users). New registrations are paused until capacity is expanded.'; }
+      else if (total >= warn) { cw.style.display = 'block'; cw.style.background = 'rgba(234,179,8,.15)'; cw.style.border = '1px solid rgba(234,179,8,.4)'; cw.style.color = '#fde68a'; cw.innerHTML = '<strong>⚠️ Capacity Warning:</strong> The platform has passed ' + warn.toLocaleString() + ' users. Signups will close at ' + cap.toLocaleString() + ' users (' + (cap - total) + ' slots remaining).'; }
     }
   } catch(e) {}
 })();

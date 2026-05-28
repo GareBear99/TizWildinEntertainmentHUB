@@ -405,11 +405,20 @@ def google_signin(request: "GoogleSignInRequest"):
 @router.get("/community/stats")
 def community_stats():
     subs = list_email_subscribers()
+    total = len(subs)
+    capacity = 1200
+    warning_threshold = 1000
     return {
-        "totalUsers": len(subs),
+        "totalUsers": total,
+        "capacity": capacity,
+        "warningThreshold": warning_threshold,
+        "capacityPercent": min(100, int((total / capacity) * 100)),
+        "signupsOpen": total < capacity,
+        "warningActive": total >= warning_threshold,
+        "slotsRemaining": max(0, capacity - total),
         "giveawayTarget": 1000,
-        "giveawayProgress": min(100, int((len(subs) / 1000) * 100)),
-        "remaining": max(0, 1000 - len(subs)),
+        "giveawayProgress": min(100, int((total / 1000) * 100)),
+        "remaining": max(0, 1000 - total),
     }
 
 
