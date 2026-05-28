@@ -192,13 +192,43 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;background:ra
     </div>
   </div>
   <aside class="trust-panel" aria-label="trust and source proof panel">
-    <h3>Frontend polish + backend truth spine.</h3>
-    <p>This HUB is built to look like a real product landing page while still exposing the crawlable proof layer reviewers, search engines, users, and AI tools can inspect.</p>
-    <div class="trust-list">
-      <div class="trust-item"><div class="trust-icon">✅</div><div><strong>Free-version-first routing</strong><span>Every product route points visitors to source, releases, or repo-level proof before any upgrade path.</span></div></div>
-      <div class="trust-item"><div class="trust-icon">🧭</div><div><strong>Queryable public indexes</strong><span>Static pages, JSON manifests, sitemap, llms.txt, and source repo indexes support crawling and retrieval.</span></div></div>
-      <div class="trust-item"><div class="trust-icon">🧠</div><div><strong>ARC / source lineage</strong><span>Public routes connect the music/plugin ecosystem to ARC-Core, Arc-RAR, and Omnibinary source-spine concepts.</span></div></div>
-      <div class="trust-item"><div class="trust-icon">🛡️</div><div><strong>Claim-safe wording</strong><span>No fake security claims. The page explains what the HUB does: discovery, routing, update checks, and source proof.</span></div></div>
+    <!-- Trust panel tabs -->
+    <div style="display:flex;gap:6px;margin-bottom:14px">
+      <button onclick="switchTrustTab('recents')" id="trust-tab-recents" style="flex:1;padding:8px;border:1px solid rgba(108,123,189,.3);border-radius:8px 8px 0 0;background:rgba(108,123,189,.15);color:#e8eaf0;font-size:12px;font-weight:700;cursor:pointer;border-bottom:2px solid #6c7bbd">🔔 Recents</button>
+      <button onclick="switchTrustTab('about')" id="trust-tab-about" style="flex:1;padding:8px;border:1px solid rgba(255,255,255,.08);border-radius:8px 8px 0 0;background:transparent;color:#a0a6bc;font-size:12px;font-weight:700;cursor:pointer;border-bottom:2px solid transparent">ℹ️ About</button>
+      <button onclick="switchTrustTab('news')" id="trust-tab-news" style="flex:1;padding:8px;border:1px solid rgba(255,255,255,.08);border-radius:8px 8px 0 0;background:transparent;color:#a0a6bc;font-size:12px;font-weight:700;cursor:pointer;border-bottom:2px solid transparent">📰 News</button>
+    </div>
+
+    <!-- Recents tab (default) -->
+    <div id="trust-recents" style="display:block">
+      <h3 style="font-size:16px;margin-bottom:8px">🔔 Recent Activity</h3>
+      <p style="color:var(--sub);font-size:12px;margin-bottom:10px">Latest updates across the GareBear99 ecosystem</p>
+      <div id="recentsFeed" style="display:grid;gap:8px;max-height:280px;overflow-y:auto">
+        <div style="text-align:center;padding:20px;color:var(--sub);font-size:12px"><span class="spinner"></span> Loading recent activity...</div>
+      </div>
+    </div>
+
+    <!-- About tab -->
+    <div id="trust-about" style="display:none">
+      <h3>Frontend polish + backend truth spine.</h3>
+      <p>This HUB is built to look like a real product landing page while still exposing the crawlable proof layer reviewers, search engines, users, and AI tools can inspect.</p>
+      <div class="trust-list">
+        <div class="trust-item"><div class="trust-icon">✅</div><div><strong>Free-version-first routing</strong><span>Every product route points visitors to source, releases, or repo-level proof before any upgrade path.</span></div></div>
+        <div class="trust-item"><div class="trust-icon">🧭</div><div><strong>Queryable public indexes</strong><span>Static pages, JSON manifests, sitemap, llms.txt, and source repo indexes support crawling and retrieval.</span></div></div>
+        <div class="trust-item"><div class="trust-icon">🧠</div><div><strong>ARC / source lineage</strong><span>Public routes connect the music/plugin ecosystem to ARC-Core, Arc-RAR, and Omnibinary source-spine concepts.</span></div></div>
+        <div class="trust-item"><div class="trust-icon">🛡️</div><div><strong>Claim-safe wording</strong><span>No fake security claims. The page explains what the HUB does: discovery, routing, update checks, and source proof.</span></div></div>
+      </div>
+    </div>
+
+    <!-- News tab (coming soon) -->
+    <div id="trust-news" style="display:none">
+      <h3 style="font-size:16px;margin-bottom:8px">📰 TizWildin News</h3>
+      <p style="color:var(--sub);font-size:12px;margin-bottom:14px">Latest announcements, press coverage, and ecosystem updates.</p>
+      <div style="text-align:center;padding:30px 0">
+        <div style="font-size:36px;margin-bottom:10px">🚧</div>
+        <div style="font-size:14px;font-weight:700;color:var(--text);margin-bottom:6px">News Feed Coming Soon</div>
+        <div style="font-size:12px;color:var(--sub);line-height:1.6">Curated audio industry news, HUB updates,<br>press coverage, and ecosystem announcements.</div>
+      </div>
     </div>
   </aside>
 </section>
@@ -848,6 +878,57 @@ function renderTutorials(manifest) {
   }
   document.getElementById('tutorialStats').textContent = `${manifest.tutorials.length} tutorials`;
 }
+
+// ── Trust panel tab switcher ──
+function switchTrustTab(name) {
+  ['recents','about','news'].forEach(t => {
+    const panel = document.getElementById('trust-' + t);
+    const tab = document.getElementById('trust-tab-' + t);
+    if (panel) panel.style.display = t === name ? 'block' : 'none';
+    if (tab) {
+      tab.style.background = t === name ? 'rgba(108,123,189,.15)' : 'transparent';
+      tab.style.color = t === name ? '#e8eaf0' : '#a0a6bc';
+      tab.style.borderBottom = t === name ? '2px solid #6c7bbd' : '2px solid transparent';
+      tab.style.borderColor = t === name ? 'rgba(108,123,189,.3)' : 'rgba(255,255,255,.08)';
+      tab.style.borderBottomColor = t === name ? '#6c7bbd' : 'transparent';
+    }
+  });
+}
+
+// ── Recents feed (GitHub events) ──
+async function loadRecentsFeed() {
+  const container = document.getElementById('recentsFeed');
+  if (!container) return;
+  const repos = ['TizWildinEntertainmentHUB','FreeEQ8','FreeVox8','Instrudio','Therum_JUCE-Plugin','BassMaid','RiftWaveSuite_RiftSynth_WaveForm_Lite','ARC-Core','Neolution','RiftAscent'];
+  try {
+    const resp = await fetch(`https://api.github.com/users/GareBear99/events?per_page=15`, { cache: 'no-store' });
+    if (!resp.ok) throw new Error('API error');
+    const events = await resp.json();
+    const items = events.slice(0, 10).map(ev => {
+      const repo = ev.repo ? ev.repo.name.replace('GareBear99/', '') : '';
+      const time = new Date(ev.created_at);
+      const ago = Math.floor((Date.now() - time) / 60000);
+      const agoText = ago < 60 ? `${ago}m ago` : ago < 1440 ? `${Math.floor(ago/60)}h ago` : `${Math.floor(ago/1440)}d ago`;
+      let icon = '🔔'; let desc = ev.type;
+      if (ev.type === 'PushEvent') { icon = '📦'; desc = `Pushed to ${repo}`; }
+      else if (ev.type === 'CreateEvent') { icon = '✨'; desc = `Created ${ev.payload?.ref_type || ''} in ${repo}`; }
+      else if (ev.type === 'ReleaseEvent') { icon = '🎉'; desc = `New release in ${repo}`; }
+      else if (ev.type === 'WatchEvent') { icon = '⭐'; desc = `Starred ${repo}`; }
+      else if (ev.type === 'ForkEvent') { icon = '🍴'; desc = `Forked ${repo}`; }
+      else if (ev.type === 'IssuesEvent') { icon = '📝'; desc = `Issue in ${repo}`; }
+      else if (ev.type === 'PullRequestEvent') { icon = '🔀'; desc = `PR in ${repo}`; }
+      else { desc = `${ev.type.replace('Event','')} in ${repo}`; }
+      return `<div style="display:flex;gap:8px;padding:8px;background:rgba(10,11,18,.55);border:1px solid rgba(255,255,255,.07);border-radius:10px;font-size:12px">
+        <div style="flex:0 0 28px;width:28px;height:28px;border-radius:8px;display:grid;place-items:center;background:#17214a;font-size:14px">${icon}</div>
+        <div style="flex:1;min-width:0"><strong style="display:block;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${desc}</strong><span style="color:var(--sub);font-size:11px">${agoText}</span></div>
+      </div>`;
+    });
+    container.innerHTML = items.length ? items.join('') : '<div style="text-align:center;padding:20px;color:var(--sub);font-size:12px">No recent activity</div>';
+  } catch(e) {
+    container.innerHTML = '<div style="text-align:center;padding:20px;color:var(--sub);font-size:12px">Could not load activity feed</div>';
+  }
+}
+loadRecentsFeed();
 
 // ── Community stats (footer counter) ──
 async function loadCommunityStats() {
