@@ -55,6 +55,19 @@
       "status": "production"
     },
     {
+      "id": "freevox8",
+      "name": "FreeVox8",
+      "description": "Spectral vocoder, ghost-resynthesis, and dynamic masking plugin. Frequency-domain audio manipulation for creative sound design.",
+      "category": "flagship",
+      "repo": "FreeVox8",
+      "license": "FREE",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "status": "beta"
+    },
+    {
       "id": "instrudio",
       "name": "Instrudio",
       "description": "10 fully playable instruments \u2014 cross-platform instrument ecosystem with hybrid HTML/plugin architecture.",

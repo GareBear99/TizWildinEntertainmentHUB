@@ -6,21 +6,21 @@
   ],
   "tools": [
     {
-      "id": "voxel_audio",
-      "name": "Voxel Audio",
-      "description": "Free RGB waveform visualizer and audio export tool. Visual audio analysis and rendering.",
-      "category": "audio_tools",
-      "repo": "Voxel_Audio",
-      "tags": ["visualizer", "waveform", "rgb", "export"],
-      "status": "production"
-    },
-    {
       "id": "arc_audiobench",
       "name": "ARC-AudioBench",
       "description": "Open-source audio tool benchmarking software. Measure and compare DSP performance across plugins and engines.",
       "category": "audio_tools",
       "repo": "ARC-AudioBench",
       "tags": ["benchmark", "dsp", "performance", "testing"],
+      "status": "production"
+    },
+    {
+      "id": "voxel_audio",
+      "name": "Voxel Audio",
+      "description": "Free RGB waveform visualizer and audio export tool. Visual audio analysis and rendering.",
+      "category": "creator_tools",
+      "repo": "Voxel_Audio",
+      "tags": ["visualizer", "waveform", "rgb", "export"],
       "status": "production"
     },
     {
@@ -31,6 +31,15 @@
       "repo": "BannerBass",
       "tags": ["banner", "music-release", "static", "promo", "no-server"],
       "status": "production"
+    },
+    {
+      "id": "slushai",
+      "name": "SlushAI",
+      "description": "Coming soon.",
+      "category": "ai_tools",
+      "repo": "",
+      "tags": ["ai", "coming-soon"],
+      "status": "planned"
     },
     {
       "id": "vf_plexlab",
