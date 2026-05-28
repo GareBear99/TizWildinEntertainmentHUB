@@ -88,6 +88,18 @@
       "venue": "dev.to",
       "authors": "Gary Doman",
       "status": "published"
+    },
+    {
+      "id": "dafx26_svf_cramping_devto",
+      "name": "We Eliminated EQ Frequency Cramping Without Oversampling — DAFx26 Paper",
+      "description": "DAFx26 Demo Track announcement: FreeEQ8/ProEQ8 implements Simper SVF topology for de-cramped HF response without oversampling. Covers the math, benchmarks, and why bilinear-transform biquads cramp at high frequencies.",
+      "category": "published",
+      "url": "https://dev.to/tizwildin/we-eliminated-eq-frequency-cramping-without-oversampling-heres-how-dafx26-paper-4f7l",
+      "repo": "FreeEQ8",
+      "tags": ["dsp", "svf", "cramping", "dafx", "parametric-eq", "oversampling", "dev.to"],
+      "venue": "dev.to",
+      "authors": "Gary Doman",
+      "status": "published"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-27",
-  "items": 86,
+  "generatedAt": "2026-05-28",
+  "items": 91,
   "clusters": {
     "AI and Automation Tools": 1,
     "ARC Source Spine": 17,
-    "Academic Papers and Technical Writing": 3,
+    "Academic Papers and Technical Writing": 8,
     "Creator and Audio Tools": 6,
     "Credibility and Submission Tracking": 1,
     "Discovery Lists and Public Routes": 16,
@@ -13,7 +13,7 @@
     "TizWildin Audio Plugins": 18,
     "TizWildin Sample Packs": 11
   },
-  "sitemapUrls": 181,
-  "routePages": 183,
-  "socialCards": 87
+  "sitemapUrls": 191,
+  "routePages": 201,
+  "socialCards": 92
 }
