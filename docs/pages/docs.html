@@ -241,14 +241,35 @@ a:hover{text-decoration:underline}
   </div>
 </div>
 
-<!-- SoundCloud OAuth & Account -->
+<!-- Account, Linked Platforms & Verified Badge -->
 <div class="doc-card">
   <div class="doc-icon">🔑</div>
-  <h2>Account & SoundCloud OAuth</h2>
-  <p>Sign in with SoundCloud or Google to manage license keys and unlock follow-gated free sample packs. SoundCloud users must follow @TizWildin to download packs.</p>
-  <div style="display:flex;flex-wrap:wrap;gap:8px">
+  <h2>Account & Linked Platforms</h2>
+  <p>Sign in with SoundCloud or Google. Link your SoundCloud, Spotify, and GitHub to submit songs to the 24/7 radio. Get 3 songs accepted through the quality gate to earn a <strong style="color:#22c55e">✅ Verified</strong> badge on the HUB.</p>
+  <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px">
     <a href="account.html" class="doc-link"><span>🔑</span> Account Page</a>
-    <a href="https://soundcloud.com/tizwildin" target="_blank" class="doc-link" style="background:rgba(255,85,0,.1);border-color:rgba(255,85,0,.3);color:#ff5500"><span>🔊</span> Follow @TizWildin</a>
+    <a href="https://soundcloud.com/tizwildin" target="_blank" class="doc-link" style="background:rgba(255,85,0,.1);border-color:rgba(255,85,0,.3);color:#ff5500"><span>🔊</span> SoundCloud</a>
+    <a href="https://open.spotify.com" target="_blank" class="doc-link" style="background:rgba(30,215,96,.1);border-color:rgba(30,215,96,.3);color:#1ed760"><span>🎵</span> Spotify</a>
+    <a href="https://github.com/GareBear99" target="_blank" class="doc-link" style="background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.2);color:#e8eaf0"><span>🐙</span> GitHub</a>
+  </div>
+  <div style="padding:14px;background:rgba(34,197,94,.1);border:1px solid rgba(34,197,94,.3);border-radius:8px;font-size:13px;color:rgba(255,255,255,.8);line-height:1.6">
+    <strong style="color:#22c55e">✅ Verified Badge:</strong> Submit songs to the 24/7 radio via SoundCloud or Spotify URL. Each submission is quality-gated using FreeEQ8-style analysis (EBU R128 loudness, clipping, bitrate, duration). After <strong>3 accepted songs</strong>, your account is automatically verified on the HUB.
+  </div>
+</div>
+
+<!-- 24/7 Radio & Song Submissions -->
+<div class="doc-card">
+  <div class="doc-icon">📻</div>
+  <h2>24/7 Radio Stream & Song Submissions</h2>
+  <p>Dockerized radio service streaming to YouTube via FFmpeg RTMP. Default playlist pulled from your SoundCloud. Users submit songs via SoundCloud/Spotify URL — quality-gated with FreeEQ8-style analysis before queuing.</p>
+  <div style="display:grid;gap:8px;font-size:12px;margin-bottom:16px">
+    <div style="padding:8px;background:rgba(0,0,0,.2);border-radius:6px;border-left:3px solid #ff5500"><code style="color:#ff5500">POST /radio/submit</code> — Submit song via SoundCloud/Spotify URL (auth required)</div>
+    <div style="padding:8px;background:rgba(0,0,0,.2);border-radius:6px;border-left:3px solid #22c55e"><code style="color:#22c55e">GET /radio/queue</code> — Current queue status + pending submissions</div>
+    <div style="padding:8px;background:rgba(0,0,0,.2);border-radius:6px;border-left:3px solid #3b82f6"><code style="color:#3b82f6">GET /radio/history</code> — Recent play history</div>
+    <div style="padding:8px;background:rgba(0,0,0,.2);border-radius:6px;border-left:3px solid #a855f7"><code style="color:#a855f7">GET /account/verified</code> — Check verified badge status (3 accepted = verified)</div>
+  </div>
+  <div style="padding:12px;background:rgba(255,85,0,.1);border:1px solid rgba(255,85,0,.3);border-radius:8px;font-size:12px;color:rgba(255,255,255,.8);line-height:1.6">
+    <strong style="color:#ff5500">🎧 Quality Gate:</strong> EBU R128 loudness (≥-30 LUFS), true peak (≤-0.5 dBTP), bitrate (≥96kbps), duration (≥30s), silence detection. Score ≥50 + no critical issues = accepted.
   </div>
 </div>
 
@@ -256,14 +277,14 @@ a:hover{text-decoration:underline}
 <div class="doc-card">
   <div class="doc-icon">🔌</div>
   <h2>ARC API Reference</h2>
-  <p>FastAPI backend (arc_service) providing auth, entitlements, billing, release management, install plans, and SoundCloud OAuth. Run locally with Docker or directly.</p>
+  <p>FastAPI backend (arc_service) providing auth, entitlements, billing, release management, radio submissions, and SoundCloud OAuth. Run locally with Docker or directly.</p>
   <div style="margin-top:16px;padding:14px;background:rgba(59,130,246,.05);border:1px solid rgba(59,130,246,.25);border-radius:8px">
     <div style="font-size:12px;font-weight:600;color:#60a5fa;margin-bottom:10px">🔗 Key Endpoints</div>
     <div style="display:grid;gap:8px;font-size:12px">
       <div style="padding:8px;background:rgba(0,0,0,.2);border-radius:6px;border-left:3px solid #22c55e"><code style="color:#22c55e">GET /health</code> — Server health check</div>
       <div style="padding:8px;background:rgba(0,0,0,.2);border-radius:6px;border-left:3px solid #3b82f6"><code style="color:#3b82f6">POST /auth/soundcloud/callback</code> — SoundCloud OAuth code exchange</div>
       <div style="padding:8px;background:rgba(0,0,0,.2);border-radius:6px;border-left:3px solid #8b5cf6"><code style="color:#8b5cf6">GET /auth/soundcloud/follow-status</code> — Check TizWildin follow status</div>
-      <div style="padding:8px;background:rgba(0,0,0,.2);border-radius:6px;border-left:3px solid #f59e0b"><code style="color:#f59e0b">POST /auth/login</code> — Email/password login</div>
+      <div style="padding:8px;background:rgba(0,0,0,.2);border-radius:6px;border-left:3px solid #ff5500"><code style="color:#ff5500">POST /radio/submit</code> — Submit song + quality gate + verified badge</div>
       <div style="padding:8px;background:rgba(0,0,0,.2);border-radius:6px;border-left:3px solid #22c55e"><code style="color:#22c55e">GET /catalog</code> — Product catalog</div>
       <div style="padding:8px;background:rgba(0,0,0,.2);border-radius:6px;border-left:3px solid #ef4444"><code style="color:#ef4444">POST /billing/checkout-session</code> — Stripe checkout</div>
     </div>
