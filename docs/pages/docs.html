@@ -345,7 +345,7 @@ a:hover{text-decoration:underline}
 (async function(){
   const ARC = window.location.hostname === 'localhost' ? 'http://127.0.0.1:8000' : 'https://tizwildin-hub.admension.workers.dev';
   try {
-    const resp = await fetch(ARC + '/community/stats');
+    const resp = await fetch(ARC + '/hub/community-stats');
     const data = await resp.json();
     const total = data.totalUsers || 0;
     const cap = data.capacity || 1200;
