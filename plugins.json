@@ -173,7 +173,8 @@
       ],
       "downloadMode": "release_or_repo",
       "homepage": "https://github.com/GareBear99/MultiMaid",
-      "releasesUrl": "https://github.com/GareBear99/MultiMaid/releases/latest"
+      "releasesUrl": "https://github.com/GareBear99/MultiMaid/releases/latest",
+      "status": "beta"
     },
     {
       "id": "metermaid",
@@ -189,7 +190,8 @@
       ],
       "downloadMode": "release_or_repo",
       "homepage": "https://github.com/GareBear99/MeterMaid",
-      "releasesUrl": "https://github.com/GareBear99/MeterMaid/releases/latest"
+      "releasesUrl": "https://github.com/GareBear99/MeterMaid/releases/latest",
+      "status": "beta"
     },
     {
       "id": "paintmask",

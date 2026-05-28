@@ -377,8 +377,7 @@ def soundcloud_follow_status(token: str):
 # ── Google Sign-In ─────────────────────────────────────────────
 
 @router.post("/auth/google/signin")
-def google_signin(request: "GoogleSignInRequest"):
-    from app.models.domain import GoogleSignInRequest as GSR
+def google_signin(request: GoogleSignInRequest):
     from app.services.sqlite_auth_service import subscribe_email, upsert_oauth_link, _make_account_id, _new_session, ensure_local_account
     email = request.email.strip().lower()
     name = request.name or email.split("@")[0]

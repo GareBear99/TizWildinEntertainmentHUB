@@ -185,7 +185,7 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;background:ra
       <a class="secondary-cta" href="public-index.json">🗂️ Open JSON Index</a>
     </div>
     <div class="hero-metrics" aria-label="ecosystem proof metrics">
-      <div class="metric"><strong>19+</strong><span>free-version plugin/product routes</span></div>
+      <div class="metric"><strong>21+</strong><span>free-version plugin/product routes</span></div>
       <div class="metric"><strong>5</strong><span>public audio discovery list anchors</span></div>
       <div class="metric"><strong>JSON</strong><span>machine-readable link/source indexes</span></div>
       <div class="metric"><strong>ARC</strong><span>source-spine and repo lineage routes</span></div>
@@ -247,6 +247,7 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;background:ra
   <button class="tab" id="tab-games" onclick="switchScreen('games')">🎮 Games</button>
   <button class="tab" id="tab-promos" onclick="switchScreen('promos')">📣 Promotionals</button>
   <button class="tab" id="tab-academics" onclick="switchScreen('academics')">🎓 Academics</button>
+  <button class="tab" id="tab-tutorials" onclick="switchScreen('tutorials')">📖 Tutorials</button>
 </div>
 
 <div id="screen-plugins" class="screen active">
@@ -305,6 +306,11 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;background:ra
   <div id="academicContainer"></div>
 </div>
 
+<div id="screen-tutorials" class="screen">
+  <div class="controls"><div class="stats" id="tutorialStats"></div></div>
+  <div id="tutorialContainer"></div>
+</div>
+
 <div class="footer">
   Built with ❤️ by Gary Doman (GareBear99 / TizWildin)<br>
   "Great sound shouldn't cost anything" — ⭐ <a href="https://github.com/GareBear99/TizWildinEntertainmentHUB">Star the repo</a> · 💖 <a href="https://github.com/sponsors/GareBear99">Sponsor</a> · 📚 <a href="https://github.com/GareBear99/awesome-audio-lists">Audio Lists Hub</a><br>
@@ -320,6 +326,7 @@ const TOOLS_URL    = 'https://raw.githubusercontent.com/GareBear99/TizWildinEnte
 const GAMES_URL    = 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/games.json';
 const PROMOS_URL   = 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/promotionals.json';
 const ACADEMICS_URL= 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/academics.json';
+const TUTORIALS_URL= 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/tutorials.json';
 let pluginData = [];
 let packData = [];
 let listData = [];
@@ -327,6 +334,7 @@ let toolData = [];
 let gameData = [];
 let promoData = [];
 let academicData = [];
+let tutorialData = [];
 let releaseCache = {};
 
 // ── Tab / screen switcher ──
@@ -677,7 +685,7 @@ async function loadPromosAndAcademics() {
 }
 
 // Call after init
-init().then(() => loadPromosAndAcademics());
+init().then(() => loadPromosAndAcademics()).then(() => loadTutorials());
 
 // ── Render promo cards ──
 function renderPromos(manifest) {
@@ -794,6 +802,51 @@ function renderGames(manifest) {
     }
   }
   document.getElementById('gameStats').textContent = `${manifest.games.length} games`;
+}
+
+// ── Load & render tutorials ──
+async function loadTutorials() {
+  try {
+    const resp = await fetchNoCache(TUTORIALS_URL);
+    const manifest = await resp.json();
+    tutorialData = manifest.tutorials || [];
+    renderTutorials(manifest);
+  } catch(e) {
+    document.getElementById('tutorialContainer').innerHTML = '<p style="padding:32px;color:var(--sub)">No tutorials yet — check back soon!</p>';
+    document.getElementById('tutorialStats').textContent = '0 tutorials';
+  }
+}
+
+function renderTutorials(manifest) {
+  const container = document.getElementById('tutorialContainer');
+  container.innerHTML = '';
+  if (!manifest.tutorials || manifest.tutorials.length === 0) {
+    container.innerHTML = '<div class="category" style="text-align:center;padding:40px 32px"><p style="color:var(--sub);font-size:14px">📚 Tutorials coming soon! Check the <a href="pages/docs.html">Docs</a> page for getting started guides.</p></div>';
+    document.getElementById('tutorialStats').textContent = '0 tutorials — coming soon';
+    return;
+  }
+  for (const cat of manifest.categories) {
+    const items = manifest.tutorials.filter(t => t.category === cat.id);
+    if (!items.length) continue;
+    const section = document.createElement('div');
+    section.className = 'category';
+    section.innerHTML = `<div class="category-title">${cat.icon} ${cat.name}</div><div class="grid"></div>`;
+    container.appendChild(section);
+    const grid = section.querySelector('.grid');
+    for (const t of items) {
+      const card = document.createElement('div');
+      card.className = 'card';
+      const tags = (t.tags || []).map(x => `<span class="pack-tag">${x}</span>`).join('');
+      card.innerHTML = `
+        <div class="card-top"><div class="card-name">📖 ${t.name}</div><div class="card-badge badge-free">${t.level || 'GUIDE'}</div></div>
+        <div class="card-desc">${t.description}</div>
+        <div class="pack-tags">${tags}</div>
+        <div class="card-actions">${t.url ? `<a href="${t.url}" target="_blank">📖 Read Tutorial</a>` : ''}</div>
+      `;
+      grid.appendChild(card);
+    }
+  }
+  document.getElementById('tutorialStats').textContent = `${manifest.tutorials.length} tutorials`;
 }
 
 // ── Community stats (footer counter) ──
