@@ -195,6 +195,7 @@ The HUB is its own **TizWildinEntertainment product** — a **VST3/AU plugin + S
 | [**FreeEQ8 Current Status: Rekkerd Coverage & Road to Smart EQ**](https://dev.to/tizwildin/freeeq8-current-status-open-source-parametric-eq-rekkerd-coverage-and-the-road-to-smart-eq-3pk6) | dev.to | ✅ Published |
 | [**Studio Violin: Helmholtz Bowed String, H2 Correction, Stradivari Body EQ & Sympathetic Resonance**](https://dev.to/tizwildin/studio-violin-helmholtz-bowed-string-h2-correction-stradivari-body-eq-sympathetic-resonance-3c8l) | dev.to | ✅ Published |
 | [**Made This for Developers & Producers Alike**](https://dev.to/tizwildin/made-this-for-developers-producers-alike-30bo) | dev.to | ✅ Published |
+| [**We Eliminated EQ Frequency Cramping Without Oversampling — DAFx26 Paper**](https://dev.to/tizwildin/we-eliminated-eq-frequency-cramping-without-oversampling-heres-how-dafx26-paper-4f7l) | dev.to | ✅ Published |
 
 ### 🤖 AI / ARC Ecosystem
 
