@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from app.models.domain import BackupRestoreRequest, CheckoutSessionRequest, DownloadPlanRequest, EntitlementState, ExecuteDownloadsRequest, GoogleSignInRequest, HubSettingsState, HubSettingsUpdateRequest, InstallPlanRequest, InstallScanReport, LocalLoginRequest, LocalRegisterRequest, MockLoginRequest, PreflightRequest, ProposalRequest, RefreshTokenRequest, ReleaseImportRequest, RepairRequest, RollbackRequest, RuntimeValidationRequest, SeatAssignment, SeatReleaseRequest, SoundCloudAuthUrlRequest, SoundCloudCallbackRequest, TokenRevokeRequest, TokenValidationRequest, UninstallRequest, WebhookEvent
+from app.models.domain import BackupRestoreRequest, CheckoutSessionRequest, DownloadPlanRequest, EntitlementState, ExecuteDownloadsRequest, GoogleSignInRequest, HubSettingsState, HubSettingsUpdateRequest, InstallPlanRequest, InstallScanReport, LocalLoginRequest, LocalRegisterRequest, MockLoginRequest, PreflightRequest, ProposalRequest, RadioSubmitRequest, RefreshTokenRequest, ReleaseImportRequest, RepairRequest, RollbackRequest, RuntimeValidationRequest, SeatAssignment, SeatReleaseRequest, SoundCloudAuthUrlRequest, SoundCloudCallbackRequest, TokenRevokeRequest, TokenValidationRequest, UninstallRequest, WebhookEvent
 from app.services.store import load_catalog, load_entitlements
 from app.services.auth_service import local_login, local_refresh, local_register, mock_login, revoke_token, validate_token
 from app.services.entitlement_service import resolve_product_access
@@ -419,6 +419,188 @@ def community_stats():
         "giveawayProgress": min(100, int((total / 1000) * 100)),
         "remaining": max(0, 1000 - total),
     }
+
+
+# ── Radio / Song Submissions ──────────────────────────────────────
+
+@router.post("/radio/submit")
+def radio_submit(request: "RadioSubmitRequest"):
+    """Submit a song to the 24/7 radio via SoundCloud/Spotify URL.
+    
+    Requires auth. Downloads via yt-dlp, runs FreeEQ8-style quality gate,
+    and queues if passed.
+    """
+    import os, subprocess, json
+    from datetime import UTC, datetime
+    from pathlib import Path
+    from app.models.domain import RadioSubmitRequest as RSR
+
+    # Auth check
+    session = validate_token(request.token)
+    if not session.get("approved"):
+        raise HTTPException(status_code=401, detail="invalid_token")
+
+    url = request.url.strip()
+    if not url:
+        raise HTTPException(status_code=400, detail="url_required")
+
+    # Validate URL is SoundCloud or Spotify
+    valid_domains = ["soundcloud.com", "spotify.com", "open.spotify.com"]
+    if not any(d in url.lower() for d in valid_domains):
+        raise HTTPException(status_code=400, detail="Only SoundCloud and Spotify URLs are accepted")
+
+    # Download via yt-dlp
+    submissions_dir = os.environ.get("RADIO_SUBMISSIONS_DIR", "data/radio_submissions")
+    os.makedirs(submissions_dir, exist_ok=True)
+
+    timestamp = datetime.now(UTC).strftime("%Y%m%d_%H%M%S")
+    account_id = session.get("accountId", "unknown")
+    output_template = os.path.join(submissions_dir, f"sub_{account_id}_{timestamp}_%(title)s.%(ext)s")
+
+    try:
+        result = subprocess.run(
+            ["yt-dlp", "-x", "--audio-format", "mp3", "--audio-quality", "0",
+             "--max-filesize", "15M", "-o", output_template, url],
+            capture_output=True, text=True, timeout=120,
+        )
+        if result.returncode != 0:
+            detail = result.stderr[:200] if result.stderr else "Download failed"
+            raise HTTPException(status_code=400, detail=f"Download failed: {detail}")
+    except subprocess.TimeoutExpired:
+        raise HTTPException(status_code=408, detail="Download timed out")
+    except HTTPException:
+        raise
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Download error: {exc}")
+
+    # Find the downloaded file
+    downloaded = [f for f in os.listdir(submissions_dir) if f.startswith(f"sub_{account_id}_{timestamp}")]
+    if not downloaded:
+        raise HTTPException(status_code=500, detail="File not found after download")
+
+    file_path = os.path.join(submissions_dir, downloaded[0])
+
+    # Quality gate (FreeEQ8-style analysis)
+    try:
+        from radio_service_quality import quality_check
+        qc = quality_check(file_path)
+    except ImportError:
+        # Inline basic quality check if radio_service isn't importable
+        qc = _basic_quality_check(file_path)
+
+    # Record submission + check verified badge
+    from app.services.sqlite_auth_service import record_radio_submission, get_verification_status
+    badge_result = record_radio_submission(
+        account_id=account_id,
+        url=url,
+        file_name=downloaded[0] if downloaded else "",
+        score=qc["score"],
+        passed=qc["passed"],
+    )
+    verification = get_verification_status(account_id)
+
+    if not qc["passed"]:
+        # Remove rejected file
+        try:
+            os.remove(file_path)
+        except Exception:
+            pass
+        return {
+            "approved": False,
+            "verdict": qc["verdict"],
+            "score": qc["score"],
+            "issues": qc["issues"],
+            "warnings": qc.get("warnings", []),
+            "verification": verification,
+        }
+
+    response = {
+        "approved": True,
+        "verdict": qc["verdict"],
+        "score": qc["score"],
+        "file": downloaded[0],
+        "warnings": qc.get("warnings", []),
+        "message": "Song accepted and queued for the 24/7 radio!",
+        "verification": verification,
+    }
+    if badge_result.get("newlyVerified"):
+        response["message"] = "🎉 Congratulations! Your account is now VERIFIED on the HUB! (3 songs accepted)"
+        response["newlyVerified"] = True
+    return response
+
+
+def _basic_quality_check(file_path: str) -> dict:
+    """Basic quality check using ffprobe if radio_service quality_gate isn't available."""
+    import subprocess, json
+    issues = []
+    score = 100
+    try:
+        result = subprocess.run(
+            ["ffprobe", "-v", "quiet", "-show_entries", "format=duration,bit_rate", "-of", "json", file_path],
+            capture_output=True, text=True, timeout=30,
+        )
+        probe = json.loads(result.stdout)
+        fmt = probe.get("format", {})
+        duration = float(fmt.get("duration", 0))
+        bitrate = int(fmt.get("bit_rate", 0) or 0)
+        if duration < 30:
+            issues.append(f"Too short: {duration:.0f}s")
+            score -= 40
+        if bitrate and bitrate < 96000:
+            issues.append(f"Low bitrate: {bitrate // 1000}kbps")
+            score -= 25
+    except Exception:
+        pass
+    passed = score >= 50 and len(issues) == 0
+    return {
+        "passed": passed,
+        "score": max(0, score),
+        "issues": issues,
+        "warnings": [],
+        "verdict": "✅ Accepted" if passed else "❌ Rejected",
+    }
+
+
+@router.get("/account/verified")
+def account_verified(token: str):
+    """Check if an account is verified (3+ accepted radio submissions)."""
+    session = validate_token(token)
+    if not session.get("approved"):
+        raise HTTPException(status_code=401, detail="invalid_token")
+    from app.services.sqlite_auth_service import get_verification_status
+    return get_verification_status(session["accountId"])
+
+
+@router.get("/radio/queue")
+def radio_queue():
+    """Get current radio queue status."""
+    import os, json
+    from pathlib import Path
+    queue_file = os.environ.get("RADIO_QUEUE_FILE", "data/radio_queue.json")
+    history_file = os.environ.get("RADIO_HISTORY_FILE", "data/radio_history.json")
+    submissions_dir = os.environ.get("RADIO_SUBMISSIONS_DIR", "data/radio_submissions")
+    pending = len([f for f in os.listdir(submissions_dir) if not f.startswith(".")]) if os.path.isdir(submissions_dir) else 0
+    return {
+        "submissionsPending": pending,
+        "status": "streaming",
+    }
+
+
+@router.get("/radio/history")
+def radio_history(limit: int = 50):
+    """Get recent radio play history."""
+    import json
+    from pathlib import Path
+    history_file = os.environ.get("RADIO_HISTORY_FILE", "data/radio_history.json") if "os" in dir() else "data/radio_history.json"
+    import os
+    history_file = os.environ.get("RADIO_HISTORY_FILE", "data/radio_history.json")
+    if os.path.exists(history_file):
+        try:
+            data = json.loads(Path(history_file).read_text())
+            return {"history": data[:limit]}
+        except Exception:
+            pass
+    return {"history": []}
 
 
 # ── Admin / Email List ────────────────────────────────────────────

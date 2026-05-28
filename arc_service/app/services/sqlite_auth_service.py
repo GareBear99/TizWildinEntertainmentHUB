@@ -63,6 +63,24 @@ def _conn() -> sqlite3.Connection:
         status TEXT NOT NULL DEFAULT 'active'
     )
     """)
+    conn.execute("""
+    CREATE TABLE IF NOT EXISTS radio_submissions (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        account_id TEXT NOT NULL,
+        url TEXT NOT NULL,
+        file_name TEXT,
+        score INTEGER DEFAULT 0,
+        passed INTEGER DEFAULT 0,
+        submitted_at TEXT NOT NULL
+    )
+    """)
+    conn.execute("""
+    CREATE TABLE IF NOT EXISTS verified_accounts (
+        account_id TEXT PRIMARY KEY,
+        verified_at TEXT NOT NULL,
+        reason TEXT NOT NULL DEFAULT 'radio_submissions'
+    )
+    """)
     conn.commit()
     return conn
 
@@ -270,3 +288,69 @@ def list_email_subscribers() -> list[dict]:
     with _conn() as conn:
         rows = conn.execute("SELECT * FROM email_subscribers WHERE status = 'active' ORDER BY subscribed_at DESC").fetchall()
     return [dict(r) for r in rows]
+
+
+# ── Radio submissions + verified badge ──────────────────────────────
+
+VERIFIED_THRESHOLD = 3  # 3 accepted songs = verified
+
+
+def record_radio_submission(
+    account_id: str, url: str, file_name: str, score: int, passed: bool
+) -> dict:
+    """Record a radio submission and check if account should be verified."""
+    now = _now().isoformat()
+    with _conn() as conn:
+        conn.execute(
+            "INSERT INTO radio_submissions (account_id, url, file_name, score, passed, submitted_at) VALUES (?, ?, ?, ?, ?, ?)",
+            (account_id, url, file_name, score, 1 if passed else 0, now),
+        )
+        conn.commit()
+
+    if passed:
+        accepted = count_accepted_submissions(account_id)
+        if accepted >= VERIFIED_THRESHOLD and not is_verified(account_id):
+            verify_account(account_id, reason=f"radio_submissions_{accepted}")
+            return {"newlyVerified": True, "acceptedCount": accepted}
+
+    return {"newlyVerified": False, "acceptedCount": count_accepted_submissions(account_id)}
+
+
+def count_accepted_submissions(account_id: str) -> int:
+    with _conn() as conn:
+        row = conn.execute(
+            "SELECT COUNT(*) as cnt FROM radio_submissions WHERE account_id = ? AND passed = 1",
+            (account_id,),
+        ).fetchone()
+    return row["cnt"] if row else 0
+
+
+def verify_account(account_id: str, reason: str = "radio_submissions") -> None:
+    now = _now().isoformat()
+    with _conn() as conn:
+        conn.execute(
+            "INSERT INTO verified_accounts (account_id, verified_at, reason) VALUES (?, ?, ?) "
+            "ON CONFLICT(account_id) DO UPDATE SET verified_at=excluded.verified_at, reason=excluded.reason",
+            (account_id, now, reason),
+        )
+        conn.commit()
+
+
+def is_verified(account_id: str) -> bool:
+    with _conn() as conn:
+        row = conn.execute(
+            "SELECT account_id FROM verified_accounts WHERE account_id = ?",
+            (account_id,),
+        ).fetchone()
+    return row is not None
+
+
+def get_verification_status(account_id: str) -> dict:
+    accepted = count_accepted_submissions(account_id)
+    verified = is_verified(account_id)
+    return {
+        "verified": verified,
+        "acceptedSubmissions": accepted,
+        "threshold": VERIFIED_THRESHOLD,
+        "remaining": max(0, VERIFIED_THRESHOLD - accepted) if not verified else 0,
+    }

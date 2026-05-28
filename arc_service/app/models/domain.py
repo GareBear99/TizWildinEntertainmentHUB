@@ -221,3 +221,8 @@ class GoogleSignInRequest(BaseModel):
     email: str
     name: str | None = None
     picture: str | None = None
+
+
+class RadioSubmitRequest(BaseModel):
+    url: str  # SoundCloud or Spotify URL
+    token: str  # Auth token for badge/follow check

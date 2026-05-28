@@ -4,9 +4,30 @@ services:
       context: ./arc_service
     ports:
       - "8000:8000"
+    volumes:
+      - radio_submissions:/app/data/radio_submissions
     environment:
       ARC_WEBHOOK_SECRET: arc_demo_secret
       SOUNDCLOUD_CLIENT_ID: ${SOUNDCLOUD_CLIENT_ID:-}
       SOUNDCLOUD_CLIENT_SECRET: ${SOUNDCLOUD_CLIENT_SECRET:-}
       TIZWILDIN_SC_USER_ID: ${TIZWILDIN_SC_USER_ID:-}
       ADMIN_API_TOKEN: ${ADMIN_API_TOKEN:-}
+      RADIO_SUBMISSIONS_DIR: /app/data/radio_submissions
+
+  radio:
+    build:
+      context: ./radio_service
+    volumes:
+      - radio_submissions:/app/submissions
+      - radio_music:/app/music
+      - radio_data:/app/data
+    environment:
+      YOUTUBE_RTMP_KEY: ${YOUTUBE_RTMP_KEY:-}
+      SOUNDCLOUD_PLAYLIST_URL: ${SOUNDCLOUD_PLAYLIST_URL:-https://soundcloud.com/tizwildin/sets}
+      SOUNDCLOUD_CLIENT_ID: ${SOUNDCLOUD_CLIENT_ID:-}
+    restart: unless-stopped
+
+volumes:
+  radio_submissions:
+  radio_music:
+  radio_data:
