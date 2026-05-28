@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>API Reference — TizWildin HUB Backend</title>
+<meta name="description" content="Complete API documentation for the TizWildin HUB Cloudflare Worker backend — authentication, licensing, Master Key subscriptions, and Stripe integration.">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:linear-gradient(135deg,#0a0b12 0%,#131236 100%);color:#fff;min-height:100vh;padding:40px 20px}
+.container{max-width:1000px;margin:0 auto}
+a{color:#6c7bbd;text-decoration:none}
+a:hover{text-decoration:underline}
+code{background:rgba(0,0,0,.3);padding:2px 6px;border-radius:4px;font-family:'SF Mono',Monaco,monospace;font-size:13px}
+pre{background:rgba(0,0,0,.4);border:1px solid rgba(255,255,255,.1);border-radius:8px;padding:16px;overflow-x:auto;font-size:13px;line-height:1.5}
+pre code{background:none;padding:0}
+
+.header{text-align:center;margin-bottom:40px}
+.header h1{font-size:32px;font-weight:700;margin-bottom:10px;background:linear-gradient(135deg,#22c55e,#6c7bbd);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.header p{font-size:14px;color:rgba(255,255,255,.6)}
+.base-url{display:inline-block;background:rgba(34,197,94,.1);border:1px solid rgba(34,197,94,.3);border-radius:8px;padding:10px 16px;margin-top:12px;font-family:monospace;color:#22c55e}
+
+.toc{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:12px;padding:20px;margin-bottom:30px}
+.toc h2{font-size:16px;margin-bottom:12px;color:#6c7bbd}
+.toc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px}
+.toc a{display:block;padding:8px 12px;background:rgba(0,0,0,.2);border-radius:6px;font-size:13px;color:rgba(255,255,255,.8);transition:all .2s}
+.toc a:hover{background:rgba(108,123,189,.2);color:#fff;text-decoration:none}
+
+.section{margin-bottom:40px}
+.section-title{font-size:22px;font-weight:600;margin-bottom:16px;padding-bottom:8px;border-bottom:2px solid rgba(108,123,189,.3);display:flex;align-items:center;gap:10px}
+
+.endpoint{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:20px;margin-bottom:16px;transition:all .2s}
+.endpoint:hover{border-color:rgba(108,123,189,.3)}
+.endpoint-header{display:flex;align-items:center;gap:12px;margin-bottom:12px;flex-wrap:wrap}
+.method{padding:4px 10px;border-radius:6px;font-size:12px;font-weight:700;text-transform:uppercase}
+.method-get{background:#164e32;color:#4ade80}
+.method-post{background:#1e3a5f;color:#60a5fa}
+.path{font-family:monospace;font-size:15px;color:#fff}
+.endpoint-desc{font-size:14px;color:rgba(255,255,255,.7);margin-bottom:16px;line-height:1.6}
+
+.params{margin-bottom:16px}
+.params-title{font-size:13px;font-weight:600;color:#6c7bbd;margin-bottom:8px}
+.param{display:grid;grid-template-columns:140px 1fr;gap:8px;padding:8px;background:rgba(0,0,0,.2);border-radius:6px;margin-bottom:6px;font-size:13px}
+.param-name{font-family:monospace;color:#f59e0b}
+.param-desc{color:rgba(255,255,255,.7)}
+.param-type{font-size:11px;color:rgba(255,255,255,.4);margin-left:8px}
+
+.response{margin-top:12px}
+.response-title{font-size:13px;font-weight:600;color:#22c55e;margin-bottom:8px}
+
+.note{background:rgba(234,179,8,.1);border:1px solid rgba(234,179,8,.3);border-radius:8px;padding:12px;margin-top:16px;font-size:13px;color:#fde68a}
+.note strong{color:#f59e0b}
+
+.back-link{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:8px;color:#fff;text-decoration:none;font-size:14px;font-weight:500;transition:all .2s;margin:0 8px}
+.back-link:hover{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.2);text-decoration:none}
+
+@media(max-width:768px){.header h1{font-size:24px}.param{grid-template-columns:1fr}.endpoint-header{flex-direction:column;align-items:flex-start}}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <h1>🌐 TizWildin HUB API Reference</h1>
+  <p>Cloudflare Worker backend for authentication, licensing, subscriptions, and community features</p>
+  <div class="base-url">https://tizwildin-hub.admension.workers.dev</div>
+</div>
+
+<div class="toc">
+  <h2>📋 Table of Contents</h2>
+  <div class="toc-grid">
+    <a href="#health">💚 Health & Status</a>
+    <a href="#auth">🔐 Authentication</a>
+    <a href="#licensing">🔑 ProEQ8 Licensing</a>
+    <a href="#masterkey">👥 Master Key</a>
+    <a href="#account">👤 HUB Account</a>
+    <a href="#checkout">💳 Stripe Checkout</a>
+    <a href="#admin">⚙️ Admin Endpoints</a>
+    <a href="#errors">❌ Error Handling</a>
+  </div>
+</div>
+
+<!-- Health & Status -->
+<div class="section" id="health">
+  <h2 class="section-title">💚 Health & Status</h2>
+  
+  <div class="endpoint">
+    <div class="endpoint-header">
+      <span class="method method-get">GET</span>
+      <span class="path">/health</span>
+    </div>
+    <p class="endpoint-desc">Returns service health status and version.</p>
+    <div class="response">
+      <div class="response-title">Response</div>
+      <pre><code>{ "status": "ok", "version": "1.0.0" }</code></pre>
+    </div>
+  </div>
+
+  <div class="endpoint">
+    <div class="endpoint-header">
+      <span class="method method-get">GET</span>
+      <span class="path">/hub/community-stats</span>
+    </div>
+    <p class="endpoint-desc">Returns community statistics for the HUB dashboard including user count and giveaway progress.</p>
+    <div class="response">
+      <div class="response-title">Response</div>
+      <pre><code>{
+  "totalUsers": 42,
+  "giveawayProgress": 4.2,
+  "giveawayTarget": 1000,
+  "capacity": 1200,
+  "warningThreshold": 1000
+}</code></pre>
+    </div>
+  </div>
+</div>
+
+<!-- Authentication -->
+<div class="section" id="auth">
+  <h2 class="section-title">🔐 Authentication</h2>
+  
+  <div class="endpoint">
+    <div class="endpoint-header">
+      <span class="method method-post">POST</span>
+      <span class="path">/auth/google/signin</span>
+    </div>
+    <p class="endpoint-desc">Track a Google OAuth sign-in. Creates or updates user record with geodata (IP, country, city, timezone).</p>
+    <div class="params">
+      <div class="params-title">Request Body</div>
+      <div class="param"><span class="param-name">email<span class="param-type">string</span></span><span class="param-desc">User's email address</span></div>
+      <div class="param"><span class="param-name">name<span class="param-type">string</span></span><span class="param-desc">User's display name</span></div>
+      <div class="param"><span class="param-name">googleId<span class="param-type">string</span></span><span class="param-desc">Google OAuth ID</span></div>
+    </div>
+    <div class="response">
+      <div class="response-title">Response</div>
+      <pre><code>{
+  "ok": true,
+  "email": "user@example.com",
+  "isNewUser": false,
+  "loginCount": 5
+}</code></pre>
+    </div>
+  </div>
+
+  <div class="endpoint">
+    <div class="endpoint-header">
+      <span class="method method-post">POST</span>
+      <span class="path">/hub/signin</span>
+    </div>
+    <p class="endpoint-desc">Sign in to HUB (creates account if not exists).</p>
+    <div class="params">
+      <div class="params-title">Request Body</div>
+      <div class="param"><span class="param-name">email<span class="param-type">string</span></span><span class="param-desc">User's email address</span></div>
+      <div class="param"><span class="param-name">name<span class="param-type">string</span></span><span class="param-desc">User's display name</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- ProEQ8 Licensing -->
+<div class="section" id="licensing">
+  <h2 class="section-title">🔑 ProEQ8 Licensing</h2>
+  
+  <div class="endpoint">
+    <div class="endpoint-header">
+      <span class="method method-post">POST</span>
+      <span class="path">/activate</span>
+    </div>
+    <p class="endpoint-desc">Activate a ProEQ8 license on a device. Maximum 3 devices per license.</p>
+    <div class="params">
+      <div class="params-title">Request Body</div>
+      <div class="param"><span class="param-name">email<span class="param-type">string</span></span><span class="param-desc">License owner's email</span></div>
+      <div class="param"><span class="param-name">licenseKey<span class="param-type">string</span></span><span class="param-desc">Base64-encoded license key</span></div>
+      <div class="param"><span class="param-name">deviceId<span class="param-type">string</span></span><span class="param-desc">Unique device identifier (8-128 chars)</span></div>
+    </div>
+    <div class="response">
+      <div class="response-title">Response</div>
+      <pre><code>{
+  "ok": true,
+  "activationId": "act_uuid",
+  "product": "ProEQ8",
+  "expiresAt": "2027-05-28T00:00:00.000Z"
+}</code></pre>
+    </div>
+  </div>
+
+  <div class="endpoint">
+    <div class="endpoint-header">
+      <span class="method method-post">POST</span>
+      <span class="path">/deactivate</span>
+    </div>
+    <p class="endpoint-desc">Deactivate a license from a device.</p>
+    <div class="params">
+      <div class="params-title">Request Body</div>
+      <div class="param"><span class="param-name">email<span class="param-type">string</span></span><span class="param-desc">License owner's email</span></div>
+      <div class="param"><span class="param-name">deviceId<span class="param-type">string</span></span><span class="param-desc">Device to deactivate</span></div>
+    </div>
+  </div>
+
+  <div class="endpoint">
+    <div class="endpoint-header">
+      <span class="method method-post">POST</span>
+      <span class="path">/verify</span>
+    </div>
+    <p class="endpoint-desc">Verify a license is valid (called periodically by plugin).</p>
+    <div class="params">
+      <div class="params-title">Request Body</div>
+      <div class="param"><span class="param-name">email<span class="param-type">string</span></span><span class="param-desc">License owner's email</span></div>
+      <div class="param"><span class="param-name">licenseKey<span class="param-type">string</span></span><span class="param-desc">License key to verify</span></div>
+      <div class="param"><span class="param-name">deviceId<span class="param-type">string</span></span><span class="param-desc">Device identifier</span></div>
+    </div>
+  </div>
+
+  <div class="endpoint">
+    <div class="endpoint-header">
+      <span class="method method-post">POST</span>
+      <span class="path">/recover</span>
+    </div>
+    <p class="endpoint-desc">Recover license key by email (sends email with license).</p>
+    <div class="params">
+      <div class="params-title">Request Body</div>
+      <div class="param"><span class="param-name">email<span class="param-type">string</span></span><span class="param-desc">Email to recover license for</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- Master Key -->
+<div class="section" id="masterkey">
+  <h2 class="section-title">👥 Master Key Subscriptions</h2>
+  <p style="color:rgba(255,255,255,.7);margin-bottom:20px;font-size:14px">Master Key is a subscription allowing 1-3 seats at $3 CAD/seat/month. The subscription owner can link team member emails to seats.</p>
+  
+  <div class="endpoint">
+    <div class="endpoint-header">
+      <span class="method method-get">GET</span>
+      <span class="path">/hub/master-key/status?email={email}</span>
+    </div>
+    <p class="endpoint-desc">Get Master Key subscription status. Response differs for owners vs linked users.</p>
+    <div class="response">
+      <div class="response-title">Owner Response</div>
+      <pre><code>{
+  "hasMasterKey": true,
+  "isOwner": true,
+  "canManageSeats": true,
+  "seats": 2,
+  "seatsUsed": 1,
+  "linkedEmails": ["teammate@example.com"],
+  "licenses": { "teammate@example.com": "license-key" },
+  "status": "active"
+}</code></pre>
+    </div>
+    <div class="response" style="margin-top:12px">
+      <div class="response-title">Linked User Response</div>
+      <pre><code>{
+  "hasMasterKey": true,
+  "isOwner": false,
+  "canManageSeats": false,
+  "ownerEmail": "owner@example.com",
+  "license": "your-license-key"
+}</code></pre>
+    </div>
+  </div>
+
+  <div class="endpoint">
+    <div class="endpoint-header">
+      <span class="method method-post">POST</span>
+      <span class="path">/hub/master-key/link</span>
+    </div>
+    <p class="endpoint-desc">Link an email to a Master Key subscription (owner only). Generates a license for the linked user.</p>
+    <div class="params">
+      <div class="params-title">Request Body</div>
+      <div class="param"><span class="param-name">primaryEmail<span class="param-type">string</span></span><span class="param-desc">Subscription owner's email</span></div>
+      <div class="param"><span class="param-name">linkedEmail<span class="param-type">string</span></span><span class="param-desc">Email to link to a seat</span></div>
+    </div>
+    <div class="response">
+      <div class="response-title">Response</div>
+      <pre><code>{
+  "ok": true,
+  "linkedEmail": "teammate@example.com",
+  "license": "generated-license-key",
+  "seatsUsed": 1,
+  "seatsTotal": 2,
+  "linkedEmails": ["teammate@example.com"]
+}</code></pre>
+    </div>
+  </div>
+
+  <div class="endpoint">
+    <div class="endpoint-header">
+      <span class="method method-post">POST</span>
+      <span class="path">/hub/master-key/unlink</span>
+    </div>
+    <p class="endpoint-desc">Unlink an email from a Master Key subscription (owner only).</p>
+    <div class="params">
+      <div class="params-title">Request Body</div>
+      <div class="param"><span class="param-name">primaryEmail<span class="param-type">string</span></span><span class="param-desc">Subscription owner's email</span></div>
+      <div class="param"><span class="param-name">linkedEmail<span class="param-type">string</span></span><span class="param-desc">Email to unlink</span></div>
+    </div>
+  </div>
+
+  <div class="endpoint">
+    <div class="endpoint-header">
+      <span class="method method-post">POST</span>
+      <span class="path">/hub/master-key/reset</span>
+    </div>
+    <p class="endpoint-desc">Clear all linked seats (owner only).</p>
+    <div class="params">
+      <div class="params-title">Request Body</div>
+      <div class="param"><span class="param-name">primaryEmail<span class="param-type">string</span></span><span class="param-desc">Subscription owner's email</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- HUB Account -->
+<div class="section" id="account">
+  <h2 class="section-title">👤 HUB Account</h2>
+  
+  <div class="endpoint">
+    <div class="endpoint-header">
+      <span class="method method-get">GET</span>
+      <span class="path">/hub/account?email={email}</span>
+    </div>
+    <p class="endpoint-desc">Get full account status including licenses and Master Key subscription.</p>
+    <div class="response">
+      <div class="response-title">Response</div>
+      <pre><code>{
+  "email": "user@example.com",
+  "hubAccount": {
+    "name": "User Name",
+    "provider": "google",
+    "verified": true,
+    "created": "2026-05-28T14:00:00.000Z"
+  },
+  "licenses": [{
+    "product": "ProEQ8",
+    "licenseKey": "key-here",
+    "purchaseDate": "2026-05-28T14:00:00.000Z",
+    "activations": 1,
+    "maxActivations": 3
+  }],
+  "masterKey": {
+    "isOwner": true,
+    "canManageSeats": true,
+    "seats": 2,
+    "seatsUsed": 1,
+    "linkedEmails": ["teammate@example.com"],
+    "status": "active"
+  }
+}</code></pre>
+    </div>
+  </div>
+</div>
+
+<!-- Stripe Checkout -->
+<div class="section" id="checkout">
+  <h2 class="section-title">💳 Stripe Checkout</h2>
+  
+  <div class="endpoint">
+    <div class="endpoint-header">
+      <span class="method method-post">POST</span>
+      <span class="path">/create-checkout</span>
+    </div>
+    <p class="endpoint-desc">Create a Stripe checkout session for ProEQ8 one-time purchase ($29.99 CAD).</p>
+    <div class="params">
+      <div class="params-title">Request Body</div>
+      <div class="param"><span class="param-name">email<span class="param-type">string</span></span><span class="param-desc">Customer email</span></div>
+      <div class="param"><span class="param-name">successUrl<span class="param-type">string</span></span><span class="param-desc">Redirect URL on success</span></div>
+      <div class="param"><span class="param-name">cancelUrl<span class="param-type">string</span></span><span class="param-desc">Redirect URL on cancel</span></div>
+    </div>
+    <div class="response">
+      <div class="response-title">Response</div>
+      <pre><code>{ "checkoutUrl": "https://checkout.stripe.com/..." }</code></pre>
+    </div>
+  </div>
+
+  <div class="endpoint">
+    <div class="endpoint-header">
+      <span class="method method-post">POST</span>
+      <span class="path">/create-checkout/master-key</span>
+    </div>
+    <p class="endpoint-desc">Create a Stripe checkout session for Master Key subscription (1-3 seats at $3 CAD/seat/month).</p>
+    <div class="params">
+      <div class="params-title">Request Body</div>
+      <div class="param"><span class="param-name">email<span class="param-type">string</span></span><span class="param-desc">Customer email</span></div>
+      <div class="param"><span class="param-name">seats<span class="param-type">number</span></span><span class="param-desc">Number of seats (1-3)</span></div>
+      <div class="param"><span class="param-name">successUrl<span class="param-type">string</span></span><span class="param-desc">Redirect URL on success</span></div>
+      <div class="param"><span class="param-name">cancelUrl<span class="param-type">string</span></span><span class="param-desc">Redirect URL on cancel</span></div>
+    </div>
+  </div>
+</div>
+
+<!-- Admin -->
+<div class="section" id="admin">
+  <h2 class="section-title">⚙️ Admin Endpoints</h2>
+  <div class="note"><strong>🔒 Authentication Required:</strong> Admin endpoints require <code>Authorization: Bearer {first-16-chars-of-RESEND_API_KEY}</code></div>
+  
+  <div class="endpoint" style="margin-top:16px">
+    <div class="endpoint-header">
+      <span class="method method-get">GET</span>
+      <span class="path">/admin/subscribers</span>
+    </div>
+    <p class="endpoint-desc">Get list of all HUB subscribers with geodata.</p>
+  </div>
+
+  <div class="endpoint">
+    <div class="endpoint-header">
+      <span class="method method-post">POST</span>
+      <span class="path">/admin/send-weekly-newsletter</span>
+    </div>
+    <p class="endpoint-desc">Manually trigger the weekly newsletter send.</p>
+  </div>
+</div>
+
+<!-- Error Handling -->
+<div class="section" id="errors">
+  <h2 class="section-title">❌ Error Handling</h2>
+  <p style="color:rgba(255,255,255,.7);margin-bottom:16px;font-size:14px">All endpoints return errors in a consistent format:</p>
+  <pre><code>{ "error": "Error message here" }</code></pre>
+  
+  <div style="margin-top:20px;display:grid;gap:8px">
+    <div style="display:flex;gap:12px;align-items:center;padding:10px;background:rgba(0,0,0,.2);border-radius:6px">
+      <code style="color:#ef4444">400</code><span style="color:rgba(255,255,255,.7);font-size:13px">Bad request (invalid input, missing fields)</span>
+    </div>
+    <div style="display:flex;gap:12px;align-items:center;padding:10px;background:rgba(0,0,0,.2);border-radius:6px">
+      <code style="color:#f59e0b">401</code><span style="color:rgba(255,255,255,.7);font-size:13px">Unauthorized (invalid signature/auth)</span>
+    </div>
+    <div style="display:flex;gap:12px;align-items:center;padding:10px;background:rgba(0,0,0,.2);border-radius:6px">
+      <code style="color:#a855f7">403</code><span style="color:rgba(255,255,255,.7);font-size:13px">Forbidden (no permission, seats full)</span>
+    </div>
+    <div style="display:flex;gap:12px;align-items:center;padding:10px;background:rgba(0,0,0,.2);border-radius:6px">
+      <code style="color:#3b82f6">404</code><span style="color:rgba(255,255,255,.7);font-size:13px">Not found</span>
+    </div>
+    <div style="display:flex;gap:12px;align-items:center;padding:10px;background:rgba(0,0,0,.2);border-radius:6px">
+      <code style="color:#eab308">429</code><span style="color:rgba(255,255,255,.7);font-size:13px">Rate limit exceeded (60 req/min/IP)</span>
+    </div>
+    <div style="display:flex;gap:12px;align-items:center;padding:10px;background:rgba(0,0,0,.2);border-radius:6px">
+      <code style="color:#ef4444">500</code><span style="color:rgba(255,255,255,.7);font-size:13px">Internal server error</span>
+    </div>
+  </div>
+</div>
+
+<div style="display:flex;gap:12px;justify-content:center;margin-top:40px;flex-wrap:wrap">
+  <a href="docs.html" class="back-link"><span>←</span> Back to Docs</a>
+  <a href="../index.html" class="back-link"><span>🎛️</span> HUB Dashboard</a>
+  <a href="https://tizwildin-hub.admension.workers.dev/health" target="_blank" class="back-link"><span>💚</span> Health Check</a>
+</div>
+
+</div>
+</body>
+</html>
