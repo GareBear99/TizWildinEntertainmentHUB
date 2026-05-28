@@ -59,7 +59,7 @@
       "name": "FreeVox8",
       "description": "Spectral vocoder, ghost-resynthesis, and dynamic masking plugin. Frequency-domain audio manipulation for creative sound design.",
       "category": "flagship",
-      "repo": "FreeVox8",
+      "repo": "FreeEQ8",
       "license": "FREE",
       "formats": [
         "VST3",
