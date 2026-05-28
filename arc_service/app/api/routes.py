@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from app.models.domain import BackupRestoreRequest, CheckoutSessionRequest, DownloadPlanRequest, EntitlementState, ExecuteDownloadsRequest, HubSettingsState, HubSettingsUpdateRequest, InstallPlanRequest, InstallScanReport, LocalLoginRequest, LocalRegisterRequest, MockLoginRequest, PreflightRequest, ProposalRequest, RefreshTokenRequest, ReleaseImportRequest, RepairRequest, RollbackRequest, RuntimeValidationRequest, SeatAssignment, SeatReleaseRequest, TokenRevokeRequest, TokenValidationRequest, UninstallRequest, WebhookEvent
+from app.models.domain import BackupRestoreRequest, CheckoutSessionRequest, DownloadPlanRequest, EntitlementState, ExecuteDownloadsRequest, HubSettingsState, HubSettingsUpdateRequest, InstallPlanRequest, InstallScanReport, LocalLoginRequest, LocalRegisterRequest, MockLoginRequest, PreflightRequest, ProposalRequest, RefreshTokenRequest, ReleaseImportRequest, RepairRequest, RollbackRequest, RuntimeValidationRequest, SeatAssignment, SeatReleaseRequest, SoundCloudAuthUrlRequest, SoundCloudCallbackRequest, TokenRevokeRequest, TokenValidationRequest, UninstallRequest, WebhookEvent
 from app.services.store import load_catalog, load_entitlements
 from app.services.auth_service import local_login, local_refresh, local_register, mock_login, revoke_token, validate_token
 from app.services.entitlement_service import resolve_product_access
@@ -26,6 +26,8 @@ from app.services.support_bundle_service import create_support_bundle
 from app.services.audit_service import audit_account
 from app.services.billing_service import complete_checkout, create_checkout_session
 from app.services.release_import_service import import_release_manifests
+from app.services.soundcloud_auth_service import check_follows_tizwildin, get_sc_token_for_account, get_soundcloud_auth_url, handle_soundcloud_callback
+from app.services.sqlite_auth_service import list_email_subscribers
 
 router = APIRouter()
 
@@ -340,3 +342,44 @@ def report_install_scan(report: InstallScanReport):
 @router.post("/webhooks/ingest")
 def webhooks_ingest(event: WebhookEvent):
     return ingest_webhook(event)
+
+
+# ── SoundCloud OAuth ──────────────────────────────────────────────
+
+@router.post("/auth/soundcloud/url")
+def soundcloud_auth_url(request: SoundCloudAuthUrlRequest):
+    result = get_soundcloud_auth_url(request.redirectUri)
+    if not result.get("approved"):
+        raise HTTPException(status_code=500, detail=result.get("reason", "soundcloud_not_configured"))
+    return result
+
+
+@router.post("/auth/soundcloud/callback")
+def soundcloud_callback(request: SoundCloudCallbackRequest):
+    result = handle_soundcloud_callback(request.code, request.redirectUri)
+    if not result.get("approved"):
+        raise HTTPException(status_code=401, detail=result.get("reason", "soundcloud_auth_failed"))
+    return result
+
+
+@router.get("/auth/soundcloud/follow-status")
+def soundcloud_follow_status(token: str):
+    from app.services.auth_service import validate_token
+    session = validate_token(token)
+    if not session.get("approved"):
+        raise HTTPException(status_code=401, detail="invalid_token")
+    sc_token = get_sc_token_for_account(session["accountId"])
+    if not sc_token:
+        return {"following": False, "reason": "no_soundcloud_link"}
+    return check_follows_tizwildin(sc_token)
+
+
+# ── Admin / Email List ────────────────────────────────────────────
+
+@router.get("/admin/email-list")
+def admin_email_list(admin_token: str = ""):
+    import os
+    expected = os.environ.get("ADMIN_API_TOKEN", "")
+    if not expected or admin_token != expected:
+        raise HTTPException(status_code=403, detail="forbidden")
+    return {"subscribers": list_email_subscribers()}

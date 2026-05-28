@@ -1,6 +1,6 @@
 > 🎛️ Part of the [TizWildin Plugin Ecosystem](https://garebear99.github.io/TizWildinEntertainmentHUB/) — 20+ free audio plugins with a live update dashboard.
 >
-> [FreeEQ8](https://github.com/GareBear99/FreeEQ8) · [XyloCore](https://github.com/GareBear99/XyloCore) · [Instrudio](https://github.com/GareBear99/Instrudio) · [Therum](https://github.com/GareBear99/Therum_JUCE-Plugin) · [BassMaid](https://github.com/GareBear99/BassMaid) · [SpaceMaid](https://github.com/GareBear99/SpaceMaid) · [GlueMaid](https://github.com/GareBear99/GlueMaid) · [MixMaid](https://github.com/GareBear99/MixMaid) · [MultiMaid](https://github.com/GareBear99/MultiMaid) · [MeterMaid](https://github.com/GareBear99/MeterMaid) · [ChainMaid](https://github.com/GareBear99/ChainMaid) · [PaintMask](https://github.com/GareBear99/PaintMask_Free-JUCE-Plugin) · [WURP](https://github.com/GareBear99/WURP_Toxic-Motion-Engine_JUCE) · [AETHER](https://github.com/GareBear99/AETHER_Choir-Atmosphere-Designer) · [WhisperGate](https://github.com/GareBear99/WhisperGate_Free-JUCE-Plugin) · [RiftWave](https://github.com/GareBear99/RiftWaveSuite_RiftSynth_WaveForm_Lite) · [FreeSampler](https://github.com/GareBear99/FreeSampler_v0.3) · [VF-PlexLab](https://github.com/GareBear99/VF-PlexLab) · [PAP-Forge-Audio](https://github.com/GareBear99/PAP-Forge-Audio)
+> [FreeEQ8](https://github.com/GareBear99/FreeEQ8) · [FreeVox8](https://github.com/GareBear99/FreeVox8) · [XyloCore](https://github.com/GareBear99/XyloCore) · [Instrudio](https://github.com/GareBear99/Instrudio) · [Therum](https://github.com/GareBear99/Therum_JUCE-Plugin) · [BassMaid](https://github.com/GareBear99/BassMaid) · [SpaceMaid](https://github.com/GareBear99/SpaceMaid) · [GlueMaid](https://github.com/GareBear99/GlueMaid) · [MixMaid](https://github.com/GareBear99/MixMaid) · [MultiMaid](https://github.com/GareBear99/MultiMaid) · [MeterMaid](https://github.com/GareBear99/MeterMaid) · [ChainMaid](https://github.com/GareBear99/ChainMaid) · [PaintMask](https://github.com/GareBear99/PaintMask_Free-JUCE-Plugin) · [WURP](https://github.com/GareBear99/WURP_Toxic-Motion-Engine_JUCE) · [AETHER](https://github.com/GareBear99/AETHER_Choir-Atmosphere-Designer) · [WhisperGate](https://github.com/GareBear99/WhisperGate_Free-JUCE-Plugin) · [RiftWave](https://github.com/GareBear99/RiftWaveSuite_RiftSynth_WaveForm_Lite) · [FreeSampler](https://github.com/GareBear99/FreeSampler_v0.3) · [VF-PlexLab](https://github.com/GareBear99/VF-PlexLab) · [PAP-Forge-Audio](https://github.com/GareBear99/PAP-Forge-Audio)
 >
 > 🎧 **SoundCloud:** [TizWildin on SoundCloud](https://soundcloud.com/tizwildin) — original music, remixes, VIP mixes, experimental drops, and underground releases.
 >
@@ -50,7 +50,7 @@ The default `.io` public dashboard (`docs/index.html`) includes a **📚 Lists**
 
 <div align="center">
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=6C7BBD&center=true&vCenter=true&width=840&lines=19+Free+Plugin+Versions+%2B+The+HUB;Updater+%7C+Version+Controller+%7C+Downloader;Every+plugin+has+a+free+version+on+the+HUB;Payments+and+upgrades+live+inside+each+product" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=6C7BBD&center=true&vCenter=true&width=840&lines=21+Free+Plugin+Versions+%2B+The+HUB;Updater+%7C+Version+Controller+%7C+Downloader;Every+plugin+has+a+free+version+on+the+HUB;Payments+and+upgrades+live+inside+each+product" alt="Typing SVG" /></a>
 
 <br>
 
@@ -65,7 +65,7 @@ The default `.io` public dashboard (`docs/index.html`) includes a **📚 Lists**
 
 <br><br>
 
-<img src="https://img.shields.io/badge/Plugins-20+-22c55e?style=flat&logo=audacity&logoColor=white" alt="Plugins" />
+<img src="https://img.shields.io/badge/Plugins-21-22c55e?style=flat&logo=audacity&logoColor=white" alt="Plugins" />
 <img src="https://img.shields.io/github/stars/GareBear99/TizWildinEntertainmentHUB?style=flat&color=eab308&logo=github&logoColor=white&label=Stars" alt="Stars" />
 <img src="https://img.shields.io/github/forks/GareBear99/TizWildinEntertainmentHUB?style=flat&color=6c7bbd&logo=github&logoColor=white&label=Forks" alt="Forks" />
 <img src="https://img.shields.io/github/last-commit/GareBear99/TizWildinEntertainmentHUB?style=flat&color=a78bfa&logo=git&logoColor=white&label=Last%20Commit" alt="Last Commit" />
@@ -121,6 +121,7 @@ The HUB is its own **TizWildinEntertainment product** — a **VST3/AU plugin + S
 | Plugin | Description | Status |
 |--------|-------------|--------|
 | [**FreeEQ8**](https://github.com/GareBear99/FreeEQ8) | 8-band parametric EQ — dynamic EQ, linear phase, match EQ, M/S, spectrum analyzer | ✅ Production |
+| [**FreeVox8**](https://github.com/GareBear99/FreeVox8) | Spectral vocoder, ghost-resynthesis, and dynamic masking plugin | ⚠️ Beta |
 | [**Therum**](https://github.com/GareBear99/Therum_JUCE-Plugin) | Bootleg Serum — free wavetable synth | ✅ Production |
 
 ## 🎹 Instruments
@@ -146,7 +147,7 @@ The HUB is its own **TizWildinEntertainment product** — a **VST3/AU plugin + S
 
 | Plugin | Description | Status |
 |--------|-------------|--------|
-| [**RiftWave Suite**](https://github.com/GareBear99/RiftWaveSuite_RiftSynth_WaveForm_Lite) | Modular synth + waveform synthesis | ⚠️ Beta |
+| [**RiftWave Suite**](https://github.com/GareBear99/RiftWaveSuite_RiftSynth_WaveForm_Lite) | Modular synth + waveform synthesis — [▶️ Play RiftAscent demo](https://garebear99.github.io/RiftAscent/) | ⚠️ Beta |
 
 ## 🧪 Experimental
 
@@ -160,6 +161,48 @@ The HUB is its own **TizWildinEntertainment product** — a **VST3/AU plugin + S
 | [**VF-PlexLab**](https://github.com/GareBear99/VF-PlexLab) | VocalForge PersonaPlex Lab — JUCE plugin + backend + HTML tester for voice-conditioned vocal asset generation | 🚧 Dev |
 | [**PAP-Forge-Audio**](https://github.com/GareBear99/PAP-Forge-Audio) | Procedural Autonomous Plugins runtime for generating and validating plugin projects from natural-language sound intent | 🚧 Dev |
 
+## 🔧 Tools
+
+| Tool | Description | Status |
+|------|-------------|--------|
+| [**ARC-AudioBench**](https://github.com/GareBear99/ARC-AudioBench) | Open-source audio tool benchmarking software — measure and compare DSP performance | ✅ Production |
+| [**Voxel Audio**](https://github.com/GareBear99/Voxel_Audio) | Free RGB waveform visualizer and audio export tool | ✅ Production |
+| [**BannerBass**](https://github.com/GareBear99/BannerBass) | No-server static banner maker for music release artwork | ✅ Production |
+| [**Instrudio Violin**](https://garebear99.github.io/Instrudio/Instrudio_v2/violin.html) | Browser-playable MIDI violin from the Instrudio suite | ✅ Production |
+| [**Instrudio Bongo**](https://garebear99.github.io/Instrudio/Instrudio_v2/bongo.html) | Browser-playable MIDI bongo percussion | ✅ Production |
+| [**Instrudio Harp**](https://garebear99.github.io/Instrudio/Instrudio_v2/harp.html) | Browser-playable MIDI harp | ✅ Production |
+| **SlushAI** | AI-assisted creator automation tool (coming soon) | 🚧 Planned |
+
+## 🎮 Games
+
+| Game | Description | Status |
+|------|-------------|--------|
+| [**RiftAscent**](https://garebear99.github.io/RiftAscent/) | Canvas-based action game with prestige cycles and procedural audio — backed by the RiftWave Suite synth engine | ⚠️ Alpha |
+| [**Neolution**](https://garebear99.github.io/Neolution/) | CPU-light Canvas2D rhythm game with 8 lanes, gamepad support, and real-time audio analysis | ⚠️ Alpha |
+| **WraithEternal** | Dark action game (coming soon) | 🚧 Planned |
+| **SlimeVeil** | Stylized slime-horror game (coming soon) | 🚧 Planned |
+| **ThingsHappening** | Experimental game (coming soon) | 🚧 Planned |
+| **M.O.M** | Game (coming soon) | 🚧 Planned |
+
+## 📄 Academics & Papers
+
+### 🎧 Audio DSP
+
+| Title | Venue | Status |
+|-------|-------|--------|
+| [**Real-Time State-Space Parameterization and Lock-Free Semantic Analysis in Digital Equalization**](https://github.com/GareBear99/FreeEQ8/blob/main/PAPER.md) | DAFx / AES target | 📝 Preprint |
+| [**FreeEQ8 Technical Architecture**](https://dev.to/tizwildin/real-time-state-space-parameterization-and-lock-free-semantic-analysis-in-digital-equalization-38jn) | dev.to | ✅ Published |
+| [**FreeEQ8 Current Status: Rekkerd Coverage & Road to Smart EQ**](https://dev.to/tizwildin/freeeq8-current-status-open-source-parametric-eq-rekkerd-coverage-and-the-road-to-smart-eq-3pk6) | dev.to | ✅ Published |
+| [**Studio Violin: Helmholtz Bowed String, H2 Correction, Stradivari Body EQ & Sympathetic Resonance**](https://dev.to/tizwildin/studio-violin-helmholtz-bowed-string-h2-correction-stradivari-body-eq-sympathetic-resonance-3c8l) | dev.to | ✅ Published |
+| [**Made This for Developers & Producers Alike**](https://dev.to/tizwildin/made-this-for-developers-producers-alike-30bo) | dev.to | ✅ Published |
+
+### 🤖 AI / ARC Ecosystem
+
+| Title | Venue | Status |
+|-------|-------|--------|
+| [**ARC-Neuron LLMBuilder and the Future Economics of Real AI**](https://dev.to/tizwildin/arc-neuron-llmbuilder-and-the-future-economics-of-real-ai-3j4) | dev.to | ✅ Published |
+| [**Proto-Synth Grid Engine: Building a Math-First 2D World Runtime That Feels 3D**](https://dev.to/tizwildin/proto-synth-grid-engine-building-a-math-first-2d-world-runtime-that-feels-3d-4j17) | dev.to | ✅ Published |
+
 <p align="center"><img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%"></p>
 
 <div align="center">
@@ -168,15 +211,15 @@ The HUB is its own **TizWildinEntertainment product** — a **VST3/AU plugin + S
 
 </div>
 
-| Feature | FreeEQ8 | Instrudio | Maid Suite | PaintMask | WURP | AETHER | WhisperGate | Therum | RiftWave | FreeSampler |
-|---------|---------|-----------|------------|-----------|------|--------|-------------|--------|----------|-------------|
-| VST3 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| AU | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Standalone | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
-| Free | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Open Source | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| In HUB Dashboard | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| GitHub Release | ✅ | 🔜 | 🔜 | 🔜 | 🔜 | 🔜 | 🔜 | 🔜 | 🔜 | 🔜 |
+| Feature | FreeEQ8 | FreeVox8 | Instrudio | XyloCore | Maid Suite | PaintMask | WURP | AETHER | WhisperGate | Therum | RiftWave | FreeSampler |
+|---------|---------|----------|-----------|----------|------------|-----------|------|--------|-------------|--------|----------|-------------|
+| VST3 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| AU | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Standalone | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Free | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Open Source | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| In HUB Dashboard | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| GitHub Release | ✅ | 🔜 | 🔜 | 🔜 | 🔜 | 🔜 | 🔜 | 🔜 | 🔜 | 🔜 | 🔜 | 🔜 |
 
 <p align="center"><img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%"></p>
 
@@ -205,21 +248,32 @@ The dashboard at **[garebear99.github.io/TizWildinEntertainmentHUB](https://gare
 
 ```
 TizWildinEntertainmentHUB/
-├── docs/index.html          # Web dashboard (GitHub Pages)
+├── docs/                    # GitHub Pages public site
+│   ├── index.html           # Web dashboard
+│   ├── pages/               # Generated per-item static pages
+│   ├── assets/social/       # Generated social-card SVGs
+│   ├── public-index.json    # Machine-readable ecosystem index
+│   ├── search-index.json    # Full-text search index
+│   ├── sitemap.xml          # Crawler sitemap
+│   └── source-repos.json    # Source-spine registry
 ├── plugins.json             # Plugin manifest (source of truth)
+├── packs.json               # Sample pack manifest
+├── lists.json               # Awesome-list / discovery manifest
+├── tools.json               # Tools & MIDI instruments manifest
+├── games.json               # Games manifest
+├── academics.json           # Papers & articles manifest
+├── promotionals.json        # Social / music / community links
 ├── hub_app/                 # JUCE plugin (VST3/AU/Standalone)
 │   ├── Source/
-│   │   ├── HubProcessor.*   # AudioProcessor (utility, no audio)
-│   │   ├── HubEditor.h      # Plugin editor wrapping the HUB UI
-│   │   ├── TizHubMainComponent.*  # Full HUB UI
-│   │   ├── PluginManifest.h # Embedded plugin catalog
-│   │   ├── GitHubClient.*   # GitHub API release fetcher
-│   │   └── HubSettings.*    # Persistent config
 │   └── CMakeLists.txt
-├── manifests/               # Product catalog
+├── arc_service/             # FastAPI backend (ARC authority layer)
+│   ├── app/api/routes.py
+│   ├── app/services/        # Auth, billing, entitlements, etc.
+│   └── requirements.txt
+├── scripts/                 # Index builders, validators, sync
 ├── schemas/                 # JSON schemas
-├── scripts/                 # Utility scripts
-└── .github/workflows/       # CI/CD (macOS/Windows/Linux builds)
+├── stripe/                  # Stripe billing config
+└── .github/workflows/       # CI/CD
 ```
 
 </details>
@@ -233,7 +287,7 @@ Visit **[garebear99.github.io/TizWildinEntertainmentHUB](https://garebear99.gith
 
 ### Source Spine Autosync
 
-The Hub now includes a manifest-driven source-spine sync. Add a project to `plugins.json`, `packs.json`, or `lists.json`, then run `python scripts/sync_source_spine_from_manifests.py` before rebuilding the public/source/search indexes. See [`docs/SOURCE_SPINE_AUTOSYNC.md`](docs/SOURCE_SPINE_AUTOSYNC.md).
+The Hub now includes a manifest-driven source-spine sync. Add a project to any manifest (`plugins.json`, `packs.json`, `lists.json`, `tools.json`, `games.json`, `academics.json`, `promotionals.json`), then run `python scripts/sync_source_spine_from_manifests.py` before rebuilding the public/source/search indexes. See [`docs/SOURCE_SPINE_AUTOSYNC.md`](docs/SOURCE_SPINE_AUTOSYNC.md).
 
 ### Add a Plugin
 Edit `plugins.json` and add an entry:
@@ -259,6 +313,9 @@ The dashboard automatically picks it up and checks for releases.
 - [x] HUB plugin (VST3/AU/Standalone) with in-DAW install, update, and version checking
 - [x] CI/CD build pipeline for HUB (macOS/Windows/Linux)
 - [x] Web dashboard with live GitHub release checking
+- [ ] SoundCloud OAuth login + follow-gated free pack downloads
+- [ ] 24/7 YouTube radio stream with song-submission routing
+- [ ] 🎁 1,000 user giveaway — free plugin upgrades, exclusive sample packs, and more
 - [ ] Create packaged releases for every plugin so the HUB can offer binaries before source
 - [ ] Add CI/CD build pipelines per individual plugin
 - [ ] Plugin preset sharing via the HUB
@@ -376,7 +433,7 @@ Key public index routes:
 - `docs/PUBLIC_LINK_GRAPH.md` — Markdown link graph for GitHub readers.
 - `docs/sitemap.xml` and `docs/robots.txt` — crawler discovery files for GitHub Pages.
 
-Regenerate the public index after editing `plugins.json`, `packs.json`, or `lists.json`:
+Regenerate the public index after editing any manifest (`plugins.json`, `packs.json`, `lists.json`, `tools.json`, `games.json`, `academics.json`, `promotionals.json`):
 
 ```bash
 python3 scripts/build_public_index.py

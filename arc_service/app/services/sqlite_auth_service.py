@@ -40,6 +40,29 @@ def _conn() -> sqlite3.Connection:
         status TEXT NOT NULL DEFAULT 'active'
     )
     """)
+    conn.execute("""
+    CREATE TABLE IF NOT EXISTS oauth_links (
+        provider TEXT NOT NULL,
+        provider_user_id TEXT NOT NULL,
+        account_id TEXT NOT NULL,
+        provider_username TEXT,
+        provider_avatar_url TEXT,
+        provider_email TEXT,
+        sc_access_token TEXT,
+        linked_at TEXT NOT NULL,
+        PRIMARY KEY (provider, provider_user_id)
+    )
+    """)
+    conn.execute("""
+    CREATE TABLE IF NOT EXISTS email_subscribers (
+        email TEXT PRIMARY KEY,
+        source TEXT NOT NULL DEFAULT 'soundcloud',
+        sc_username TEXT,
+        display_name TEXT,
+        subscribed_at TEXT NOT NULL,
+        status TEXT NOT NULL DEFAULT 'active'
+    )
+    """)
     conn.commit()
     return conn
 
@@ -189,3 +212,61 @@ def revoke_session(access_token: str) -> dict:
         conn.execute("UPDATE sessions SET status = 'revoked' WHERE access_token = ?", (access_token,))
         conn.commit()
     return {"approved": True, "reason": "token_revoked", "token": access_token}
+
+
+def upsert_oauth_link(
+    provider: str,
+    provider_user_id: str,
+    account_id: str,
+    provider_username: str | None = None,
+    provider_avatar_url: str | None = None,
+    provider_email: str | None = None,
+    sc_access_token: str | None = None,
+) -> None:
+    now = _now().isoformat()
+    with _conn() as conn:
+        conn.execute(
+            "INSERT INTO oauth_links (provider, provider_user_id, account_id, provider_username, provider_avatar_url, provider_email, sc_access_token, linked_at) "
+            "VALUES (?, ?, ?, ?, ?, ?, ?, ?) "
+            "ON CONFLICT(provider, provider_user_id) DO UPDATE SET "
+            "account_id=excluded.account_id, provider_username=excluded.provider_username, "
+            "provider_avatar_url=excluded.provider_avatar_url, provider_email=excluded.provider_email, "
+            "sc_access_token=excluded.sc_access_token, linked_at=excluded.linked_at",
+            (provider, provider_user_id, account_id, provider_username, provider_avatar_url, provider_email, sc_access_token, now),
+        )
+        conn.commit()
+
+
+def get_oauth_link(provider: str, provider_user_id: str) -> dict | None:
+    with _conn() as conn:
+        row = conn.execute(
+            "SELECT * FROM oauth_links WHERE provider = ? AND provider_user_id = ?",
+            (provider, provider_user_id),
+        ).fetchone()
+    if not row:
+        return None
+    return dict(row)
+
+
+def subscribe_email(
+    email: str,
+    source: str = "soundcloud",
+    sc_username: str | None = None,
+    display_name: str | None = None,
+) -> None:
+    now = _now().isoformat()
+    with _conn() as conn:
+        conn.execute(
+            "INSERT INTO email_subscribers (email, source, sc_username, display_name, subscribed_at, status) "
+            "VALUES (?, ?, ?, ?, ?, 'active') "
+            "ON CONFLICT(email) DO UPDATE SET source=excluded.source, sc_username=excluded.sc_username, "
+            "display_name=excluded.display_name, status='active'",
+            (email, source, sc_username, display_name, now),
+        )
+        conn.commit()
+
+
+def list_email_subscribers() -> list[dict]:
+    with _conn() as conn:
+        rows = conn.execute("SELECT * FROM email_subscribers WHERE status = 'active' ORDER BY subscribed_at DESC").fetchall()
+    return [dict(r) for r in rows]

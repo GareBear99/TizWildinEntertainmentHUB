@@ -206,3 +206,12 @@ class ReleaseImportRequest(BaseModel):
     source: str
     replaceExisting: bool = False
     channelOverride: str | None = None
+
+
+class SoundCloudCallbackRequest(BaseModel):
+    code: str
+    redirectUri: str
+
+
+class SoundCloudAuthUrlRequest(BaseModel):
+    redirectUri: str
