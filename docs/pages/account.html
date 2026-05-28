@@ -4,7 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Account — TizWildin Entertainment</title>
-<meta name="description" content="Recover your TizWildin plugin license keys. No sign-in required.">
+<meta name="description" content="Sign in to manage your TizWildin plugin license keys.">
+<script src="https://accounts.google.com/gsi/client" async defer></script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 :root{--bg:#0a0b12;--card:#131222;--card-border:#1e2240;--text:#e8eaf0;--sub:#a0a6bc;--accent:#6c7bbd;--green:#22c55e}
@@ -17,50 +18,73 @@ h1{font-size:28px;letter-spacing:-1px;margin-bottom:8px}
 .card{background:var(--card);border:1px solid var(--card-border);border-radius:16px;padding:28px;margin-bottom:20px}
 .card h2{font-size:20px;margin-bottom:6px}
 .card p{color:var(--sub);font-size:13px;line-height:1.6;margin-bottom:16px}
-label{display:block;font-size:13px;font-weight:600;margin-bottom:6px;color:var(--sub)}
-input[type="email"]{width:100%;padding:12px 14px;border:1px solid var(--card-border);border-radius:10px;background:#0d0e1a;color:var(--text);font-size:15px;outline:none;transition:border-color .2s}
-input[type="email"]:focus{border-color:var(--accent)}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:13px;border:none;border-radius:10px;font-size:15px;font-weight:700;cursor:pointer;transition:opacity .2s;margin-top:14px}
 .btn-primary{background:linear-gradient(135deg,#6c7bbd,#3d4b94);color:white}
-.btn-primary:hover{opacity:.9}
+.btn-danger{background:#7f1d1d;color:#fca5a5;margin-top:10px}
+.btn:hover{opacity:.9}
 .btn:disabled{opacity:.5;cursor:wait}
 #status{margin-top:16px;padding:14px;border-radius:10px;font-size:13px;line-height:1.6;display:none}
 .status-ok{background:#14352a;border:1px solid #22543d;color:#86efac}
 .status-err{background:#3b1010;border:1px solid #7f1d1d;color:#fca5a5}
-.status-info{background:#1e2754;border:1px solid var(--card-border);color:var(--sub)}
 .back{margin-top:24px;text-align:center;font-size:13px}
-.info-list{list-style:none;padding:0;margin:16px 0 0}
-.info-list li{padding:10px 0;border-bottom:1px solid rgba(255,255,255,.06);font-size:13px;color:var(--sub)}
-.info-list li:last-child{border-bottom:none}
-.info-list strong{color:var(--text)}
+.user-info{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.user-info img{width:40px;height:40px;border-radius:50%;border:2px solid var(--accent)}
+.user-info .name{font-weight:700;font-size:15px}
+.user-info .email{color:var(--sub);font-size:13px}
+#signInSection{text-align:center}
+#signInSection p{color:var(--sub);font-size:14px;margin:16px 0}
+#accountSection{display:none}
+.g-signin{margin:20px auto;display:flex;justify-content:center}
 </style>
 </head>
 <body>
 
 <div class="container">
-  <h1>🔑 License Key Recovery</h1>
-  <p class="subtitle">Lost your license key? Enter the email you used at checkout and we'll send your keys. No sign-in required.</p>
+  <h1>🔑 Account</h1>
+  <p class="subtitle">Sign in with Google to view and recover your license keys.</p>
 
-  <div class="card">
-    <h2>Recover Keys</h2>
-    <p>We'll email all license keys associated with your address. Works for ProEQ8 and all TizWildin plugins.</p>
-    <form id="recoverForm" onsubmit="return handleRecover(event)">
-      <label for="email">Purchase email</label>
-      <input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email">
-      <button type="submit" class="btn btn-primary" id="submitBtn">Send Recovery Email</button>
-    </form>
-    <div id="status"></div>
+  <!-- Sign-in screen (shown by default) -->
+  <div id="signInSection">
+    <div class="card">
+      <h2>Sign in to continue</h2>
+      <p>We use Google Sign-In to verify your email. Your purchase email is automatically matched — no passwords, no separate account.</p>
+      <div class="g-signin">
+        <div id="g_id_onload"
+             data-client_id="YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com"
+             data-context="signin"
+             data-ux_mode="popup"
+             data-callback="handleGoogleSignIn"
+             data-auto_prompt="false">
+        </div>
+        <div class="g_id_signin"
+             data-type="standard"
+             data-shape="pill"
+             data-theme="filled_black"
+             data-text="signin_with"
+             data-size="large"
+             data-logo_alignment="left">
+        </div>
+      </div>
+      <p style="margin-top:16px;font-size:12px;color:var(--sub);">We only read your name and email. We don't store Google tokens or access your Google account.</p>
+    </div>
   </div>
 
-  <div class="card">
-    <h2>How it works</h2>
-    <ul class="info-list">
-      <li><strong>No account needed.</strong> Your purchase email is your identity.</li>
-      <li><strong>All plugins included.</strong> One email recovers keys for every TizWildin product.</li>
-      <li><strong>2 devices per key.</strong> Deactivate from within the plugin to free a slot.</li>
-      <li><strong>$20 lifetime.</strong> ProEQ8 is a one-time purchase. No subscriptions.</li>
-      <li><strong>FreeEQ8 is free.</strong> No key needed. Just download and use.</li>
-    </ul>
+  <!-- Account screen (shown after sign-in) -->
+  <div id="accountSection">
+    <div class="card">
+      <div class="user-info">
+        <img id="userAvatar" src="" alt="avatar">
+        <div>
+          <div class="name" id="userName"></div>
+          <div class="email" id="userEmail"></div>
+        </div>
+      </div>
+      <h2>Your Licenses</h2>
+      <p id="licenseStatus">Loading...</p>
+      <button class="btn btn-primary" id="recoverBtn" onclick="recoverKeys()">📧 Send My Keys to My Email</button>
+      <div id="status"></div>
+      <button class="btn btn-danger" onclick="signOut()">Sign Out</button>
+    </div>
   </div>
 
   <div class="back">
@@ -70,14 +94,31 @@ input[type="email"]:focus{border-color:var(--accent)}
 
 <script>
 const API = 'https://proeq8-license-server.admension.workers.dev';
+let currentUser = null;
 
-async function handleRecover(e) {
-  e.preventDefault();
-  const email = document.getElementById('email').value.trim();
-  const btn = document.getElementById('submitBtn');
+function handleGoogleSignIn(response) {
+  const payload = JSON.parse(atob(response.credential.split('.')[1]));
+
+  currentUser = {
+    name: payload.name || 'User',
+    email: payload.email,
+    picture: payload.picture || '',
+  };
+
+  document.getElementById('signInSection').style.display = 'none';
+  document.getElementById('accountSection').style.display = 'block';
+  document.getElementById('userName').textContent = currentUser.name;
+  document.getElementById('userEmail').textContent = currentUser.email;
+  document.getElementById('userAvatar').src = currentUser.picture || 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><circle cx="20" cy="20" r="20" fill="%236c7bbd"/><text x="20" y="26" text-anchor="middle" fill="white" font-size="18">?</text></svg>';
+
+  document.getElementById('licenseStatus').textContent = 'Signed in as ' + currentUser.email + '. Click below to retrieve your keys.';
+}
+
+async function recoverKeys() {
+  if (!currentUser) return;
+
+  const btn = document.getElementById('recoverBtn');
   const status = document.getElementById('status');
-
-  if (!email) return false;
 
   btn.disabled = true;
   btn.textContent = 'Sending...';
@@ -87,7 +128,7 @@ async function handleRecover(e) {
     const resp = await fetch(API + '/recover', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email }),
+      body: JSON.stringify({ email: currentUser.email }),
     });
 
     const data = await resp.json();
@@ -95,9 +136,12 @@ async function handleRecover(e) {
     if (data.ok) {
       status.className = 'status-ok';
       status.textContent = '✅ ' + data.message;
+    } else if (resp.status === 429) {
+      status.className = 'status-err';
+      status.textContent = '⏳ ' + (data.error || 'Please wait 10 minutes before requesting again.');
     } else {
-      status.className = 'status-info';
-      status.textContent = 'ℹ️ ' + (data.message || 'No licenses found for this email.');
+      status.className = 'status-err';
+      status.textContent = 'ℹ️ No licenses found for ' + currentUser.email + '. Purchase a plugin first!';
     }
   } catch (err) {
     status.className = 'status-err';
@@ -106,8 +150,15 @@ async function handleRecover(e) {
 
   status.style.display = 'block';
   btn.disabled = false;
-  btn.textContent = 'Send Recovery Email';
-  return false;
+  btn.textContent = '📧 Send My Keys to My Email';
+}
+
+function signOut() {
+  currentUser = null;
+  document.getElementById('signInSection').style.display = 'block';
+  document.getElementById('accountSection').style.display = 'none';
+  document.getElementById('status').style.display = 'none';
+  google.accounts.id.disableAutoSelect();
 }
 </script>
 
