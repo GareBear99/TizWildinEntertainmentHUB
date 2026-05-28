@@ -754,7 +754,7 @@ function renderTools(manifest) {
         <div class="card-top"><div class="card-name">${statusEmoji} ${t.name}</div><div class="card-badge badge-free">FREE TOOL</div></div>
         <div class="card-desc">${t.description}</div>
         <div class="pack-tags">${tags}</div>
-        <div class="card-actions">${t.repo ? `<a href="https://github.com/${OWNER}/${t.repo}" target="_blank">📂 Repo / Source</a>` : '<span style="color:var(--sub);font-size:12px;">Coming soon</span>'}</div>
+        <div class="card-actions">${t.url ? `<a class="download-btn" href="${t.url}" target="_blank">▶️ Open</a>` : ''}${t.repo ? `<a href="https://github.com/${OWNER}/${t.repo}" target="_blank">📂 Repo / Source</a>` : '<span style="color:var(--sub);font-size:12px;">Coming soon</span>'}</div>
       `;
       grid.appendChild(card);
     }

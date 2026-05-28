@@ -2,6 +2,7 @@
   "categories": [
     { "id": "audio_tools", "name": "Audio Tools", "icon": "🔧" },
     { "id": "creator_tools", "name": "Creator Tools", "icon": "🎨" },
+    { "id": "midi_tools", "name": "MIDI", "icon": "🎹" },
     { "id": "ai_tools", "name": "AI / Automation", "icon": "🤖" }
   ],
   "tools": [
@@ -30,6 +31,16 @@
       "category": "creator_tools",
       "repo": "BannerBass",
       "tags": ["banner", "music-release", "static", "promo", "no-server"],
+      "status": "production"
+    },
+    {
+      "id": "instrudio_violin",
+      "name": "Instrudio Violin",
+      "description": "Browser-playable MIDI violin from the Instrudio instrument suite. Play directly in the browser with keyboard or MIDI controller.",
+      "category": "midi_tools",
+      "repo": "Instrudio",
+      "url": "https://garebear99.github.io/Instrudio/Instrudio_v2/violin.html",
+      "tags": ["midi", "violin", "browser", "instrument", "instrudio"],
       "status": "production"
     },
     {
