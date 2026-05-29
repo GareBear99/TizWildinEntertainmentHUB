@@ -54,6 +54,15 @@ h1{font-size:28px;letter-spacing:-1px;margin-bottom:8px}
 .mk-badge{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:10px;font-size:13px;font-weight:700}
 .mk-active{background:#14352a;border:1px solid #22543d;color:#86efac}
 .mk-none{background:var(--bg);border:1px solid var(--card-border);color:var(--sub)}
+.product-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin:12px 0}
+.product-card{background:var(--bg);border:1px solid var(--card-border);border-radius:12px;padding:14px;transition:border-color .2s}
+.product-card:hover{border-color:var(--accent)}
+.product-card .name{font-weight:700;font-size:14px;margin-bottom:4px}
+.product-card .price{color:var(--sub);font-size:12px}
+.product-card .owned{color:var(--green);font-size:11px;font-weight:700;margin-top:6px}
+.product-card .free{color:var(--accent);font-size:11px;margin-top:6px}
+.product-card .btn-buy{margin-top:10px;padding:8px;font-size:12px}
+.section-title{font-size:16px;color:var(--gold);margin:20px 0 10px;display:flex;align-items:center;gap:8px}
 </style>
 </head>
 <body>
@@ -116,6 +125,9 @@ h1{font-size:28px;letter-spacing:-1px;margin-bottom:8px}
       <h2>Your Licenses</h2>
       <div id="licensesContainer"><p id="licenseStatus">Loading...</p></div>
       <button class="btn btn-primary" id="recoverBtn" onclick="recoverKeys()">📧 Send My Keys to My Email</button>
+
+      <div class="section-title">🛒 Available Products</div>
+      <div id="catalogContainer"><p>Loading catalog...</p></div>
 
       <h3>🔑 Master Key Subscription</h3>
       <div id="masterKeyStatus"><p>Loading...</p></div>
@@ -251,12 +263,19 @@ async function loadAccountData() {
   if (!currentUser?.email) {
     document.getElementById('licenseStatus').textContent = 'Sign in with an email to view licenses.';
     document.getElementById('masterKeyStatus').innerHTML = '<p>Sign in with an email to manage Master Key.</p>';
+    document.getElementById('catalogContainer').innerHTML = '<p>Sign in to see products.</p>';
     return;
   }
   try {
+    // Fetch owned products (new unified endpoint)
+    const productsResp = await fetch(API + '/hub/products?email=' + encodeURIComponent(currentUser.email));
+    const productsData = await productsResp.json();
+    
+    // Also get legacy ProEQ8 device info
     const resp = await fetch(API + '/hub/account?email=' + encodeURIComponent(currentUser.email));
     const data = await resp.json();
-    // Licenses
+    
+    // Licenses section (ProEQ8 with device tracking)
     const container = document.getElementById('licensesContainer');
     if (data.licenses && data.licenses.length > 0) {
       container.innerHTML = data.licenses.map(lic => `
@@ -266,16 +285,70 @@ async function loadAccountData() {
         </div>
       `).join('');
     } else {
-      container.innerHTML = '<p>No licenses found. <a href="https://garebear99.github.io/FreeEQ8" target="_blank">Get ProEQ8 →</a></p>';
+      container.innerHTML = '<p>No device-licensed products yet.</p>';
     }
+    
+    // Product catalog section
+    const catalogContainer = document.getElementById('catalogContainer');
+    const ownedProducts = productsData.ownedProducts || [];
+    const bundles = productsData.bundles || [];
+    const catalog = productsData.catalog || {};
+    
+    // Sort: owned first, then free, then paid
+    const productIds = Object.keys(catalog);
+    productIds.sort((a, b) => {
+      const aOwned = ownedProducts.includes(a) || bundles.includes(a);
+      const bOwned = ownedProducts.includes(b) || bundles.includes(b);
+      if (aOwned !== bOwned) return aOwned ? -1 : 1;
+      const aFree = catalog[a].free;
+      const bFree = catalog[b].free;
+      if (aFree !== bFree) return aFree ? -1 : 1;
+      return 0;
+    });
+    
+    const productCards = productIds.map(pid => {
+      const p = catalog[pid];
+      const owned = ownedProducts.includes(pid);
+      const inBundle = bundles.includes('complete_collection') && !p.bundle && !p.free;
+      const price = p.price ? `$${(p.price / 100).toFixed(2)} CAD` : 'Free';
+      
+      let statusHtml = '';
+      if (owned || inBundle) {
+        statusHtml = '<div class="owned">✅ Owned</div>';
+      } else if (p.free) {
+        statusHtml = '<div class="free">🆓 Free — Always Available</div>';
+      } else {
+        statusHtml = `<button class="btn btn-primary btn-buy" onclick="buyProduct('${pid}')">Buy ${price}</button>`;
+      }
+      
+      return `
+        <div class="product-card">
+          <div class="name">${p.name}${p.bundle ? ' 🎁' : ''}</div>
+          <div class="price">${p.free ? 'Free' : price}</div>
+          ${statusHtml}
+        </div>
+      `;
+    }).join('');
+    
+    // Show Complete Collection banner if not owned
+    let bundleBanner = '';
+    if (!bundles.includes('complete_collection')) {
+      bundleBanner = `
+        <div style="background:linear-gradient(135deg,#6c7bbd22,#3d4b9422);border:1px solid var(--accent);border-radius:12px;padding:16px;margin-bottom:16px">
+          <div style="font-weight:700;font-size:15px;margin-bottom:4px">🎁 Complete Collection — $99.99 CAD</div>
+          <div style="color:var(--sub);font-size:12px;margin-bottom:10px">Get ALL pro plugins in one bundle. Therum, WURP, AETHER, PaintMask, Maid Suite, WaveForm Pro, RiftSynth Pro.</div>
+          <button class="btn btn-gold" style="margin:0;padding:10px" onclick="buyProduct('complete_collection')">Get Bundle</button>
+        </div>
+      `;
+    }
+    
+    catalogContainer.innerHTML = bundleBanner + '<div class="product-grid">' + productCards + '</div>';
+    
     // Master Key status
     const mkStatus = document.getElementById('masterKeyStatus');
     const mkActions = document.getElementById('masterKeyActions');
     const mkResp = await fetch(API + '/hub/master-key/status?email=' + encodeURIComponent(currentUser.email));
     const mkData = await mkResp.json();
-    // Also check subscription status
-    const subResp = await fetch(API + '/hub/account?email=' + encodeURIComponent(currentUser.email));
-    const subData = await subResp.json();
     if (mkData.hasMasterKey && mkData.status === 'active') {
       mkStatus.innerHTML = '<div class="mk-badge mk-active">✅ Master Key Active — Device unlinking enabled</div>';
       mkActions.innerHTML = '';
@@ -295,8 +368,29 @@ async function loadAccountData() {
       `;
     }
   } catch(e) {
+    console.error('loadAccountData error:', e);
     document.getElementById('licenseStatus').textContent = 'Could not load account data.';
     document.getElementById('masterKeyStatus').innerHTML = '<p>Could not load Master Key status.</p>';
+    document.getElementById('catalogContainer').innerHTML = '<p>Could not load catalog.</p>';
+  }
+}
+
+async function buyProduct(productId) {
+  if (!currentUser?.email) { alert('Please sign in first.'); return; }
+  const btn = event.target;
+  const originalText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Redirecting...';
+  try {
+    const resp = await fetch(API + '/create-checkout/product', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ email: currentUser.email, productId })
+    });
+    const data = await resp.json();
+    if (data.url) window.location.href = data.url;
+    else { alert(data.error || 'Could not start checkout.'); btn.disabled = false; btn.textContent = originalText; }
+  } catch(e) {
+    alert('Could not reach server.'); btn.disabled = false; btn.textContent = originalText;
   }
 }
 
