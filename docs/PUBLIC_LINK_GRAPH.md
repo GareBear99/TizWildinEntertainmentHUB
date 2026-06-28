@@ -6,12 +6,18 @@ This file documents every static route generated for the TizWildinEntertainmentH
 
 ## Summary
 
-- Total indexed records: **91**
+- Total indexed records: **92+ all_items.json (57 itch items)**
 - Total clusters: **10**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
 
 ## Routes
+
+### Game Asset Store / Itch Inventory
+
+| Route | Type | Repository | Tags |
+|---|---|---|---|
+| [GareBearProductionz All Itch Inventory](pages/all-account-inventory.html) | Seller Inventory Route | https://github.com/GareBear99/TizWildinEntertainmentHUB | itch, game-assets, seller-page, vfx, svg, pixel-art |
 
 ### AI and Automation Tools
 

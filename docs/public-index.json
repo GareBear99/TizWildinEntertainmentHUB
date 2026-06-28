@@ -1,12 +1,39 @@
 {
   "schemaVersion": "2.0",
-  "generatedAt": "2026-05-28",
+  "generatedAt": "2026-06-27",
   "name": "TizWildin Entertainment HUB Public Link Index",
   "description": "Static crawler-friendly index of TizWildin audio, producer, public list, credibility, and ARC source-spine routes.",
   "owner": "GareBear99",
   "baseUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB",
-  "itemCount": 91,
+  "itemCount": 92,
   "items": [
+    {
+      "cluster": "Game Asset Store / Itch Inventory",
+      "kind": "Seller Inventory Route",
+      "name": "GareBearProductionz All Itch Inventory",
+      "description": "Complete buyer-facing index of all public GareBearProductionz itch account items, grouped by game-dev use case with sale membership badges and official itch checkout links.",
+      "repo": "TizWildinEntertainmentHUB",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html",
+      "docs": "ALL_SECTION_INTEGRATION_NOTES.md",
+      "status": "active",
+      "tags": [
+        "itch",
+        "game-assets",
+        "seller-page",
+        "vfx",
+        "svg",
+        "pixel-art",
+        "storefront"
+      ],
+      "priority": 1,
+      "license": "See individual itch pages",
+      "language": "HTML/JSON",
+      "source_manifest": "all_items.json",
+      "id": "garebearproductionz-all-itch-inventory",
+      "page": "pages/all-account-inventory.html",
+      "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html",
+      "canonicalUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html"
+    },
     {
       "cluster": "AI and Automation Tools",
       "kind": "Tool / Web Utility",

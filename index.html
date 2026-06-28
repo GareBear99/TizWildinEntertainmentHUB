@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TizWildin Entertainment HUB — Free Plugins, Sample Packs, Audio Lists & ARC Source Spine</title>
+<title>TizWildin Entertainment HUB — Free Plugins, Game Assets, Itch Store Inventory & ARC Source Spine</title>
 <meta name="description" content="TizWildin Entertainment HUB is the public source-of-truth spine for free audio plugins, sample packs, release checks, creator tools, awesome audio lists, ARC repositories, sitemap routes, and crawlable ecosystem proof from Gary Doman / GareBear99 / TizWildin.">
 <link rel="canonical" href="https://garebear99.github.io/TizWildinEntertainmentHUB/">
 <meta property="og:title" content="TizWildin Entertainment HUB — Public Ecosystem Index">
-<meta property="og:description" content="Free audio plugins, producer kits, sample packs, public discovery lists, and ARC source-spine links from GareBear99 / TizWildin.">
+<meta property="og:description" content="Free audio plugins, producer kits, sample packs, complete GareBearProductionz itch asset inventory, public discovery lists, and ARC source-spine links from GareBear99 / TizWildin.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://garebear99.github.io/TizWildinEntertainmentHUB/">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"TizWildin Entertainment HUB","url":"https://garebear99.github.io/TizWildinEntertainmentHUB/","description":"Public source-of-truth spine for free audio plugins, sample packs, release checks, creator tools, awesome audio lists, ARC repositories, and crawlable ecosystem proof."}</script>
@@ -74,6 +74,7 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;background:ra
 /* Pack-specific tweaks */
 .pack-tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
 .pack-tag{font-size:10px;background:#1a1d30;color:var(--sub);padding:2px 7px;border-radius:4px;text-transform:lowercase}
+.filter-row{display:flex;flex-wrap:wrap;gap:8px;max-width:1280px;margin:0 auto 18px;padding:0 32px}.filter-chip{background:#101936;border:1px solid var(--card-border);color:var(--sub);border-radius:999px;padding:8px 12px;font-size:12px;font-weight:800;cursor:pointer}.filter-chip:hover,.filter-chip.active{color:var(--text);background:#1d2857;border-color:var(--accent);text-decoration:none}.sale-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px;max-width:1280px;margin:0 auto 18px;padding:0 32px}.sale-strip a{display:block;background:linear-gradient(135deg,rgba(108,123,189,.16),rgba(34,197,94,.08));border:1px solid rgba(108,123,189,.32);border-radius:14px;padding:14px;color:var(--text);text-decoration:none}.sale-strip strong{display:block;font-size:15px}.sale-strip span{display:block;color:var(--sub);font-size:12px;margin-top:5px;line-height:1.4}.card.featured-store-card{border-color:rgba(234,179,8,.45);background:linear-gradient(135deg,rgba(234,179,8,.08),rgba(108,123,189,.09)),var(--card)}
 
 /* Controls bar */
 .controls{display:flex;align-items:center;gap:12px;padding:20px 32px;max-width:1280px;margin:0 auto;flex-wrap:wrap}
@@ -95,6 +96,12 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;background:ra
 /* Card */
 .card{background:var(--card);border:1px solid var(--card-border);border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:10px;transition:border-color .2s}
 .card:hover{border-color:var(--accent)}
+.itch-media{position:relative;width:100%;aspect-ratio:16/9;border:1px solid rgba(255,255,255,.08);border-radius:12px;overflow:hidden;background:radial-gradient(circle at 30% 20%,rgba(108,123,189,.35),transparent 36%),linear-gradient(135deg,#0d1228,#161222);margin:-4px 0 4px}
+.itch-media img{width:100%;height:100%;object-fit:cover;display:block;image-rendering:auto}
+.itch-media.fallback{display:grid;place-items:center;padding:18px;text-align:center;color:#dfe6ff}
+.itch-media.fallback strong{font-size:15px;line-height:1.25}.itch-media.fallback span{display:block;color:var(--sub);font-size:11px;margin-top:7px}
+.media-pill{position:absolute;left:10px;bottom:10px;background:rgba(5,8,18,.78);border:1px solid rgba(255,255,255,.12);color:#e8eaf0;border-radius:999px;padding:4px 8px;font-size:10px;font-weight:900;letter-spacing:.4px;text-transform:uppercase;backdrop-filter:blur(8px)}
+.media-pill.gif{color:#86efac;border-color:rgba(134,239,172,.3)}
 .card-top{display:flex;justify-content:space-between;align-items:flex-start}
 .card-name{font-size:17px;font-weight:600}
 .card-badge{font-size:11px;font-weight:600;padding:3px 10px;border-radius:6px;text-transform:uppercase;letter-spacing:.5px}
@@ -275,6 +282,7 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;background:ra
   <button class="tab" id="tab-lists" onclick="switchScreen('lists')">📚 Lists</button>
   <button class="tab" id="tab-tools" onclick="switchScreen('tools')">🔧 Tools</button>
   <button class="tab" id="tab-games" onclick="switchScreen('games')">🎮 Games</button>
+  <button class="tab" id="tab-all" onclick="switchScreen('all')">🛒 All Itch</button>
   <button class="tab" id="tab-promos" onclick="switchScreen('promos')">📣 Promotionals</button>
   <button class="tab" id="tab-academics" onclick="switchScreen('academics')">🎓 Academics</button>
   <button class="tab" id="tab-tutorials" onclick="switchScreen('tutorials')">📖 Tutorials</button>
@@ -326,6 +334,17 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;background:ra
   <div id="gameContainer"></div>
 </div>
 
+
+<div id="screen-all" class="screen">
+  <div class="start-here-note">
+    <strong>Complete GareBearProductionz itch inventory:</strong> every public item visible on the account before the supported/collection section, grouped for buyers and routed back to official itch checkout. Use this as the main seller index: hero products first, free samples as lead magnets, and bundle badges for Formula A1 / Live SVG FX.
+  </div>
+  <div class="controls"><div class="stats" id="allStats"></div></div>
+  <div id="allSaleStrip" class="sale-strip"></div>
+  <div id="allFilterBar" class="filter-row"></div>
+  <div id="allContainer"></div>
+</div>
+
 <div id="screen-promos" class="screen">
   <div class="controls"><div class="stats" id="promoStats"></div></div>
   <div id="promoContainer"></div>
@@ -357,6 +376,7 @@ const GAMES_URL    = 'https://raw.githubusercontent.com/GareBear99/TizWildinEnte
 const PROMOS_URL   = 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/promotionals.json';
 const ACADEMICS_URL= 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/academics.json';
 const TUTORIALS_URL= 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/tutorials.json';
+const ALL_ITEMS_URL= 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/all_items.json';
 let pluginData = [];
 let packData = [];
 let listData = [];
@@ -365,7 +385,29 @@ let gameData = [];
 let promoData = [];
 let academicData = [];
 let tutorialData = [];
+let allAccountData = [];
+let allAccountManifest = null;
+let activeAllFilter = 'all';
 let releaseCache = {};
+
+function escHtml(v) {
+  return String(v ?? '').replace(/[&<>'"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[ch]));
+}
+function escAttr(v) { return escHtml(v); }
+function allFallbackMedia(item) {
+  const label = escHtml(item.name || 'GareBearProductionz');
+  return `<div class="itch-media fallback" aria-label="No pulled cover available yet"><div><strong>${label}</strong><span>Cover/GIF pending next itch autopull</span></div></div>`;
+}
+function allMediaBlock(item) {
+  const media = item.media || {};
+  const src = media.animated || media.cover || '';
+  if (!src) return allFallbackMedia(item);
+  const isGif = !!media.animated || /\.gif(?:$|[?#])/i.test(src);
+  const label = isGif ? 'GIF preview' : 'Cover';
+  const alt = escAttr(media.alt || item.name || 'GareBearProductionz itch item cover');
+  const safeSrc = escAttr(src);
+  return `<a class="itch-media" href="${escAttr(item.url || '#')}" target="_blank" rel="noopener" aria-label="Open ${alt}"><img src="${safeSrc}" alt="${alt}" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.closest('.itch-media').outerHTML=allFallbackMedia({name:this.alt})"><span class="media-pill ${isGif ? 'gif' : ''}">${label}</span></a>`;
+}
 
 // ── Tab / screen switcher ──
 function switchScreen(name) {
@@ -434,7 +476,18 @@ async function init() {
     document.getElementById('gameContainer').innerHTML =
       '<p style="padding:32px;color:var(--red)">Failed to load games manifest.</p>';
   }
+  try {
+    const respA = await fetchNoCache(ALL_ITEMS_URL).catch(() => fetchNoCache('all_items.json'));
+    const allManifest = await respA.json();
+    allAccountManifest = allManifest;
+    allAccountData = allManifest.items || [];
+    renderAllAccount(allManifest);
+  } catch (e) {
+    const allEl = document.getElementById('allContainer');
+    if (allEl) allEl.innerHTML = '<p style="padding:32px;color:var(--red)">Failed to load all-account inventory.</p>';
+  }
 }
+
 
 // ── Render plugin cards grouped by category ──
 function render(manifest) {
@@ -693,6 +746,77 @@ function loadAutoToggle() {
   const on = getAutoCheckEnabled();
   const el = document.getElementById('autoToggle');
   if (el) el.classList.toggle('on', on);
+}
+
+
+// ── Render complete itch/account inventory ──
+function setAllFilter(filter) {
+  activeAllFilter = filter;
+  if (allAccountManifest) renderAllAccount(allAccountManifest);
+}
+function matchesAllFilter(item, filter) {
+  if (filter === 'all') return true;
+  if (filter === 'free') return item.priceType === 'free';
+  if (filter === 'paid') return item.priceType === 'paid';
+  if (filter === 'formula_a1_5k') return (item.saleMemberships || []).includes('formula_a1_5k');
+  if (filter === 'live_svg_fx') return (item.saleMemberships || []).includes('live_svg_fx');
+  if (filter === 'featured') return !!item.featured;
+  return item.category === filter;
+}
+function renderAllAccount(manifest) {
+  const container = document.getElementById('allContainer');
+  const filterBar = document.getElementById('allFilterBar');
+  const saleStrip = document.getElementById('allSaleStrip');
+  if (!container || !filterBar) return;
+  container.innerHTML = '';
+  const items = manifest.items || [];
+  const visible = items.filter(item => matchesAllFilter(item, activeAllFilter));
+  const filterDefs = [
+    ['all','All'], ['featured','Hero'], ['formula_a1_5k','Formula A1'], ['live_svg_fx','Live SVG'], ['paid','Paid'], ['free','Free'],
+    ...(manifest.categories || []).map(c => [c.id, `${c.icon} ${c.name}`])
+  ];
+  filterBar.innerHTML = filterDefs.map(([id,label]) => `<button class="filter-chip ${activeAllFilter === id ? 'active' : ''}" onclick="setAllFilter('${id}')">${label}</button>`).join('');
+  if (saleStrip && manifest.sales) {
+    saleStrip.innerHTML = manifest.sales.map(s => `<a href="${s.url}" target="_blank" rel="noopener"><strong>${s.name}</strong><span>${s.price} · Regular ${s.regularValue || 'N/A'} · Save ${s.discount || '—'} · ${s.itemCount || 0} indexed items${s.goal ? ` · Goal ${s.goal}` : ''}</span></a>`).join('');
+  }
+  const cats = activeAllFilter === 'all' || activeAllFilter === 'featured' || activeAllFilter === 'paid' || activeAllFilter === 'free' || activeAllFilter.includes('_')
+    ? (manifest.categories || [])
+    : (manifest.categories || []).filter(c => c.id === activeAllFilter);
+  for (const cat of cats) {
+    const catItems = visible.filter(item => item.category === cat.id).sort((a,b) => (a.rank || 999) - (b.rank || 999));
+    if (!catItems.length) continue;
+    const section = document.createElement('div');
+    section.className = 'category';
+    section.innerHTML = `<div class="category-title">${cat.icon} ${cat.name} <span style="font-size:12px;color:var(--sub);font-weight:500">${catItems.length} items</span></div><div class="grid"></div>`;
+    container.appendChild(section);
+    const grid = section.querySelector('.grid');
+    for (const item of catItems) grid.appendChild(createAllAccountCard(item));
+  }
+  const freeCount = items.filter(i => i.priceType === 'free').length;
+  const paidCount = items.filter(i => i.priceType === 'paid').length;
+  const formulaCount = items.filter(i => (i.saleMemberships || []).includes('formula_a1_5k')).length;
+  const liveCount = items.filter(i => (i.saleMemberships || []).includes('live_svg_fx')).length;
+  const mediaCount = items.filter(i => ((i.media || {}).cover || (i.media || {}).animated)).length;
+  const generatedAt = manifest.metadata && (manifest.metadata.autopullLastRun || manifest.metadata.generatedAt || manifest.generatedAt);
+  document.getElementById('allStats').textContent = `${visible.length}/${items.length} shown · ${paidCount} paid · ${freeCount} free/NYP · ${formulaCount} Formula A1 · ${liveCount} Live SVG · ${mediaCount} media · updated ${generatedAt || 'manifest'}`;
+}
+function createAllAccountCard(item) {
+  const card = document.createElement('div');
+  card.className = item.featured ? 'card featured-store-card' : 'card';
+  const tags = (item.tags || []).slice(0, 8).map(x => `<span class="pack-tag">${escHtml(x)}</span>`).join('');
+  const saleBadges = (item.saleMemberships || []).map(id => id === 'formula_a1_5k' ? '<span class="pack-tag">$5k Formula A1</span>' : '<span class="pack-tag">$10 Live SVG</span>').join('');
+  const badge = item.priceType === 'free' ? 'FREE / NYP' : 'PAID';
+  const icon = item.kind === 'game' ? '🎮' : item.kind === 'tool' ? '🧰' : '🎁';
+  const media = allMediaBlock(item);
+  const priceLabel = item.itch && item.itch.priceLabel ? `<span class="pack-tag">${escHtml(item.itch.priceLabel)}</span>` : '';
+  card.innerHTML = `
+    ${media}
+    <div class="card-top"><div class="card-name">${icon} ${escHtml(item.name)}</div><div class="card-badge badge-free">${badge}</div></div>
+    <div class="card-desc">${escHtml(item.description)}</div>
+    <div class="pack-tags">${priceLabel}${saleBadges}${tags}</div>
+    <div class="card-actions"><a class="download-btn" href="${escAttr(item.url)}" target="_blank" rel="noopener">Open itch page</a>${item.source ? `<a href="${escAttr(item.source)}" target="_blank" rel="noopener">Account</a>` : ''}</div>
+  `;
+  return card;
 }
 
 async function loadPromosAndAcademics() {

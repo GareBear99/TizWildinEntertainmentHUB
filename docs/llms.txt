@@ -5,6 +5,15 @@ Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
 
+## Game Asset Store / Itch Inventory
+
+- GareBearProductionz All Itch Inventory: Complete buyer-facing index of 57 public itch account items grouped by hero generators, game tools, live backdrops, icons/sigils, sprite packs, props, games, audio, lore, and free lead magnets.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html
+  Public URL: https://garebearproductionz.itch.io/
+  Formula A1 Bundle: https://itch.io/s/188490/formula-a1-steal-bundle
+  Live SVG FX Bundle: https://itch.io/s/191122/live-svg-fx-pipeline-pack
+  Tags: itch, game-assets, seller-page, vfx, svg, pixel-art, storefront
+
 ## AI and Automation Tools
 
 - SlushAI: Coming soon — AI-assisted creator automation tool for the TizWildin ecosystem, intended for prompt-driven music, media, and release workflow support.
