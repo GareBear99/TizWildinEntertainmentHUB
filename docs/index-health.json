@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-05-28T01:14:25Z",
+  "qualityGrade": "A",
+  "qualityScore": 90,
+  "metrics": {
+    "publicRoutes": 86,
+    "sitemapUrls": 181,
+    "sourceRepos": 56,
+    "indexedFiles": 820,
+    "extractedLinks": 2956,
+    "searchRecords": 3918,
+    "searchTokens": 7185,
+    "readinessAverage": 74.4,
+    "pendingHydration": 40,
+    "linkIssues": 0,
+    "benchmarkGrade": "A - fast, validated, and production-ready for current repo graph"
+  },
+  "nextImprovements": [
+    "Keep GitHub API hydration enabled in scheduled CI when tokens are available.",
+    "Review readiness report for repos below A-.",
+    "Run live link checks before major release tags.",
+    "Keep adding repo entries through docs/source-repos.json only."
+  ]
+}

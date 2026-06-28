@@ -1,0 +1,9 @@
+{
+  "categories": [
+    { "id": "getting_started", "name": "Getting Started", "icon": "🚀" },
+    { "id": "plugin_dev", "name": "Plugin Development", "icon": "🔌" },
+    { "id": "production", "name": "Music Production", "icon": "🎧" },
+    { "id": "ecosystem", "name": "Ecosystem & Tools", "icon": "🛠️" }
+  ],
+  "tutorials": []
+}

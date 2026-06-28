@@ -1,0 +1,18 @@
+[
+  {
+    "accountId": "acct_importer",
+    "machineId": "mac_import",
+    "products": [
+      {
+        "productId": "paintmask",
+        "localVersion": "2.0.0",
+        "runtimeVersion": "2.0.0",
+        "installState": "installed",
+        "binaryPresent": true,
+        "sourcePresent": true,
+        "installedPath": "/mnt/data/hub_v10_test_installs/paintmask/2.0.0",
+        "channel": "stable"
+      }
+    ]
+  }
+]

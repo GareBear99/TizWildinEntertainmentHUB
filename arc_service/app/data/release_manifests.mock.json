@@ -1,0 +1,101 @@
+{
+  "freeeq8": {
+    "productId": "freeeq8",
+    "channel": "stable",
+    "latestVersion": "1.0.0",
+    "artifactMode": "source",
+    "artifactUrl": "https://github.com/GareBear99/FreeEQ8",
+    "sha256": "749090caf2951ac87edc62b419680f7d6015c8840f122f6a4cfca5d96b94e80e",
+    "signature": "arc-demo-signed-local",
+    "notes": "Open repo build available.",
+    "artifactPath": "/mnt/data/TizWildinEntertainmentHUB_v1_3/artifacts/staged/freeeq8-1.0.0.zip"
+  },
+  "therum": {
+    "productId": "therum",
+    "channel": "stable",
+    "latestVersion": "1.0.0",
+    "artifactMode": "source",
+    "artifactUrl": "https://github.com/GareBear99/Therum",
+    "sha256": "60ecf0754dc61f5be1d9054292ca7873ff4e4228419ef35dd974816dc2260d41",
+    "signature": "arc-demo-signed-local",
+    "notes": "Flagship synth scaffold.",
+    "artifactPath": "/mnt/data/TizWildinEntertainmentHUB_v1_3/artifacts/staged/therum-1.0.0.zip"
+  },
+  "wurp": {
+    "productId": "wurp",
+    "channel": "beta",
+    "latestVersion": "0.8.5",
+    "artifactMode": "source",
+    "artifactUrl": "https://github.com/GareBear99/WURP",
+    "sha256": "bbe682be6ba52baa43db0bde4734bda50e4dd90d632b8d3aa688d530e75aef77",
+    "signature": "arc-demo-signed-local",
+    "notes": "Beta channel track for Toxicron branch.",
+    "artifactPath": "/mnt/data/TizWildinEntertainmentHUB_v1_3/artifacts/staged/wurp-0.8.5.zip"
+  },
+  "aether": {
+    "productId": "aether",
+    "channel": "stable",
+    "latestVersion": "0.8.2",
+    "artifactMode": "source",
+    "artifactUrl": "https://github.com/GareBear99/AETHER",
+    "sha256": "1970e4bbe24e7b6004fbdecedcacb39927d8ed8c424c40c2ce171fd99d7365ad",
+    "signature": "arc-demo-signed-local",
+    "notes": "Addon-capable atmosphere designer scaffold.",
+    "artifactPath": "/mnt/data/TizWildinEntertainmentHUB_v1_3/artifacts/staged/aether-0.8.2.zip"
+  },
+  "whispergate": {
+    "productId": "whispergate",
+    "channel": "stable",
+    "latestVersion": "0.7.5",
+    "artifactMode": "source",
+    "artifactUrl": "https://github.com/GareBear99/WhisperGate",
+    "sha256": "f6b21114dd71ccef494aa7e378bc64ad5410b43fa173f5463aa6f40a1b07cc48",
+    "signature": "arc-demo-signed-local",
+    "notes": "Free ritual atmosphere scaffold.",
+    "artifactPath": "/mnt/data/TizWildinEntertainmentHUB_v1_3/artifacts/staged/whispergate-0.7.5.zip"
+  },
+  "paintmask": {
+    "productId": "paintmask",
+    "channel": "stable",
+    "latestVersion": "2.0.0",
+    "artifactMode": "zip",
+    "artifactUrl": "file:///mnt/data/TizWildinEntertainmentHUB_v1_3/artifacts/staged/therum-1.0.0.zip",
+    "artifactPath": "",
+    "sha256": "60ecf0754dc61f5be1d9054292ca7873ff4e4228419ef35dd974816dc2260d41",
+    "signature": "arc-demo-signed-local",
+    "notes": "Imported test artifact"
+  },
+  "waveform_riftsynth_lite": {
+    "productId": "waveform_riftsynth_lite",
+    "channel": "stable",
+    "latestVersion": "1.0.0",
+    "artifactMode": "source",
+    "artifactUrl": "https://github.com/GareBear99/WaveForm-RiftSynth-Lite",
+    "sha256": "a6aa1233f0d900621b008ce24bb7d815d7522e927cb137a1e48ba54c22d9622f",
+    "signature": "arc-demo-signed-local",
+    "notes": "Free lite combo release.",
+    "artifactPath": "/mnt/data/TizWildinEntertainmentHUB_v1_3/artifacts/staged/waveform_riftsynth_lite-1.0.0.zip"
+  },
+  "waveform_pro": {
+    "productId": "waveform_pro",
+    "channel": "stable",
+    "latestVersion": "0.9.1",
+    "artifactMode": "source",
+    "artifactUrl": "https://github.com/GareBear99/WaveForm-Pro",
+    "sha256": "1d13cf318cb0a65464d4d00fa2c136e314118b8520c1f0c7a58c6127a25f4fac",
+    "signature": "arc-demo-signed-local",
+    "notes": "Pro build plan placeholder.",
+    "artifactPath": "/mnt/data/TizWildinEntertainmentHUB_v1_3/artifacts/staged/waveform_pro-0.9.1.zip"
+  },
+  "riftsynth_pro": {
+    "productId": "riftsynth_pro",
+    "channel": "stable",
+    "latestVersion": "0.9.1",
+    "artifactMode": "source",
+    "artifactUrl": "https://github.com/GareBear99/RiftSynth-Pro",
+    "sha256": "789e8ef71e5698aee9694251696c0a213abf9154b3a86eb8ac12edf58873bb65",
+    "signature": "arc-demo-signed-local",
+    "notes": "Pro build plan placeholder.",
+    "artifactPath": "/mnt/data/TizWildinEntertainmentHUB_v1_3/artifacts/staged/riftsynth_pro-0.9.1.zip"
+  }
+}

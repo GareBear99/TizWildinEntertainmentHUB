@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Account — TizWildin Entertainment</title>
+<meta name="description" content="Sign in with Google to manage your TizWildin plugin license keys.">
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0a0b12;--card:#131222;--card-border:#1e2240;--text:#e8eaf0;--sub:#a0a6bc;--accent:#6c7bbd;--green:#22c55e;--sc-orange:#ff5500;--gold:#eab308}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:40px 20px}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.container{max-width:540px;width:100%}
+h1{font-size:28px;letter-spacing:-1px;margin-bottom:8px}
+.subtitle{color:var(--sub);font-size:14px;line-height:1.6;margin-bottom:32px}
+.card{background:var(--card);border:1px solid var(--card-border);border-radius:16px;padding:28px;margin-bottom:20px}
+.card h2{font-size:20px;margin-bottom:6px}
+.card h3{font-size:16px;margin:20px 0 8px;color:var(--gold)}
+.card p{color:var(--sub);font-size:13px;line-height:1.6;margin-bottom:16px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:13px;border:none;border-radius:10px;font-size:15px;font-weight:700;cursor:pointer;transition:opacity .2s;margin-top:14px}
+.btn-soundcloud{background:var(--sc-orange);color:white}
+.btn-primary{background:linear-gradient(135deg,#6c7bbd,#3d4b94);color:white}
+.btn-gold{background:linear-gradient(135deg,#eab308,#ca8a04);color:#1a1a1a}
+.btn-danger{background:#7f1d1d;color:#fca5a5;margin-top:10px}
+.btn:hover{opacity:.9}
+.btn:disabled{opacity:.5;cursor:wait}
+#status{margin-top:16px;padding:14px;border-radius:10px;font-size:13px;line-height:1.6;display:none}
+.status-ok{background:#14352a;border:1px solid #22543d;color:#86efac}
+.status-err{background:#3b1010;border:1px solid #7f1d1d;color:#fca5a5}
+.status-warn{background:#422006;border:1px solid #854d0e;color:#fde047}
+.back{margin-top:24px;text-align:center;font-size:13px}
+.back a{margin:0 8px}
+.user-info{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.user-info img{width:40px;height:40px;border-radius:50%;border:2px solid var(--accent)}
+.user-info .name{font-weight:700;font-size:15px}
+.user-info .email{color:var(--sub);font-size:13px}
+#signInSection{text-align:center}
+#signInSection p{color:var(--sub);font-size:14px;margin:16px 0}
+#accountSection{display:none}
+.g-signin{margin:20px auto;display:flex;justify-content:center}
+.follow-badge{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border-radius:8px;font-size:12px;font-weight:700;margin-top:10px}
+.follow-ok{background:#14352a;border:1px solid #22543d;color:#86efac}
+.follow-pending{background:#422006;border:1px solid #854d0e;color:#eab308}
+.divider{display:flex;align-items:center;gap:12px;margin:20px 0;color:var(--sub);font-size:12px}
+.divider::before,.divider::after{content:'';flex:1;height:1px;background:var(--card-border)}
+.license-item{background:var(--bg);border:1px solid var(--card-border);border-radius:10px;padding:14px;margin:10px 0}
+.license-item .product{font-weight:700;font-size:14px}
+.license-item .devices{color:var(--sub);font-size:12px;margin-top:4px}
+.seat-select{display:flex;align-items:center;gap:12px;margin:12px 0}
+.seat-select label{color:var(--sub);font-size:13px}
+.seat-select select{background:var(--bg);border:1px solid var(--card-border);color:var(--text);padding:8px 12px;border-radius:8px;font-size:14px}
+.mk-badge{display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:10px;font-size:13px;font-weight:700}
+.mk-active{background:#14352a;border:1px solid #22543d;color:#86efac}
+.mk-none{background:var(--bg);border:1px solid var(--card-border);color:var(--sub)}
+.product-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin:12px 0}
+.product-card{background:var(--bg);border:1px solid var(--card-border);border-radius:12px;padding:14px;transition:border-color .2s}
+.product-card:hover{border-color:var(--accent)}
+.product-card .name{font-weight:700;font-size:14px;margin-bottom:4px}
+.product-card .price{color:var(--sub);font-size:12px}
+.product-card .owned{color:var(--green);font-size:11px;font-weight:700;margin-top:6px}
+.product-card .free{color:var(--accent);font-size:11px;margin-top:6px}
+.product-card .btn-buy{margin-top:10px;padding:8px;font-size:12px}
+.section-title{font-size:16px;color:var(--gold);margin:20px 0 10px;display:flex;align-items:center;gap:8px}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>🔑 Account</h1>
+  <p class="subtitle">Sign in with Google to manage your license keys and account.</p>
+
+  <!-- Sign-in screen -->
+  <div id="signInSection">
+    <div class="card">
+      <h2>Sign in to continue</h2>
+      <p>Sign in with Google to manage your license keys and account.</p>
+
+      <!-- Google button -->
+      <div class="g-signin">
+        <div id="g_id_onload"
+             data-client_id="349271218189-deo89b3ibeaqall3gbo40l40pub7i577.apps.googleusercontent.com"
+             data-context="signin"
+             data-ux_mode="popup"
+             data-callback="handleGoogleSignIn"
+             data-auto_prompt="false">
+        </div>
+        <div class="g_id_signin"
+             data-type="standard"
+             data-shape="pill"
+             data-theme="filled_black"
+             data-text="signin_with"
+             data-size="large"
+             data-logo_alignment="left">
+        </div>
+      </div>
+
+      <p style="margin-top:16px;font-size:12px;color:var(--sub);">We only read your name and email. We don't store passwords.</p>
+
+      <div class="divider">coming soon</div>
+
+      <!-- Coming soon integrations -->
+      <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center">
+        <button class="btn btn-soundcloud" style="width:auto;flex:1;opacity:0.5;cursor:not-allowed" disabled>🔊 SoundCloud</button>
+        <button class="btn" style="width:auto;flex:1;background:#1DB954;color:white;opacity:0.5;cursor:not-allowed" disabled>🎵 Spotify</button>
+      </div>
+      <p style="margin-top:10px;font-size:11px;color:var(--sub);text-align:center">GitHub integration for distribution coming later</p>
+    </div>
+  </div>
+
+  <!-- Signed-in screen -->
+  <div id="accountSection">
+    <div class="card">
+      <div class="user-info">
+        <img id="userAvatar" src="" alt="avatar">
+        <div>
+          <div class="name" id="userName"></div>
+          <div class="email" id="userEmail"></div>
+        </div>
+      </div>
+
+      <div id="followStatus"></div>
+
+      <h2>Your Licenses</h2>
+      <div id="licensesContainer"><p id="licenseStatus">Loading...</p></div>
+      <button class="btn btn-primary" id="recoverBtn" onclick="recoverKeys()">📧 Send My Keys to My Email</button>
+
+      <div class="section-title">🛒 Available Products</div>
+      <div id="catalogContainer"><p>Loading catalog...</p></div>
+
+      <h3>🔑 Master Key Subscription</h3>
+      <div id="masterKeyStatus"><p>Loading...</p></div>
+      <div id="masterKeyActions"></div>
+
+      <div id="status"></div>
+      <button class="btn btn-danger" onclick="signOut()">Sign Out</button>
+    </div>
+  </div>
+
+  <div class="back">
+    <a href="../index.html">← Back to HUB</a>
+    <a href="https://github.com/sponsors/GareBear99" target="_blank" rel="noopener" style="color:#db61a2">💖 Sponsor</a>
+    <a href="https://github.com/GareBear99/Portfolio/issues" target="_blank" rel="noopener">🎫 Report Issue</a>
+  </div>
+</div>
+
+<script>
+const API = 'https://tizwildin-hub.admension.workers.dev';
+const ARC_API = window.location.hostname === 'localhost' ? 'http://127.0.0.1:8000' : 'https://tizwildin-hub.admension.workers.dev';
+let currentUser = null;
+
+// ── Restore session on load ──
+window.addEventListener('DOMContentLoaded', () => {
+  const params = new URLSearchParams(window.location.search);
+  const code = params.get('code');
+  if (code) {
+    window.history.replaceState({}, '', window.location.pathname);
+    completeSoundCloudLogin(code);
+    return;
+  }
+  const saved = localStorage.getItem('tiz_session');
+  if (saved) {
+    try {
+      currentUser = JSON.parse(saved);
+      showSignedIn();
+    } catch(e) { localStorage.removeItem('tiz_session'); }
+  }
+});
+
+// ── SoundCloud OAuth ──
+function startSoundCloudLogin() {
+  const redirectUri = window.location.origin + window.location.pathname;
+  fetch(ARC_API + '/auth/soundcloud/url', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({ redirectUri })
+  })
+  .then(r => r.json())
+  .then(data => {
+    if (data.url) window.location.href = data.url;
+    else alert('SoundCloud login is not configured yet. Contact support.');
+  })
+  .catch(() => alert('Could not reach the server. Please try again later.'));
+}
+
+async function completeSoundCloudLogin(code) {
+  const redirectUri = window.location.origin + window.location.pathname;
+  try {
+    const resp = await fetch(ARC_API + '/auth/soundcloud/callback', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ code, redirectUri })
+    });
+    const data = await resp.json();
+    if (data.approved) {
+      currentUser = {
+        name: data.scUsername || 'SoundCloud User',
+        email: data.scEmail || '',
+        picture: data.scAvatar || '',
+        token: data.token,
+        provider: 'soundcloud',
+        accountId: data.accountId,
+      };
+      localStorage.setItem('tiz_session', JSON.stringify(currentUser));
+      showSignedIn();
+      checkFollowStatus();
+    } else {
+      alert('SoundCloud sign-in failed: ' + (data.reason || 'unknown error'));
+    }
+  } catch(err) {
+    alert('Could not complete SoundCloud sign-in. Try again later.');
+  }
+}
+
+async function checkFollowStatus() {
+  if (!currentUser || currentUser.provider !== 'soundcloud' || !currentUser.token) return;
+  const el = document.getElementById('followStatus');
+  try {
+    const resp = await fetch(ARC_API + '/auth/soundcloud/follow-status?token=' + currentUser.token);
+    const data = await resp.json();
+    if (data.following) {
+      el.innerHTML = '<div class="follow-badge follow-ok">✅ Following @TizWildin — free packs unlocked!</div>';
+    } else {
+      el.innerHTML = '<div class="follow-badge follow-pending">🔒 Follow <a href="https://soundcloud.com/tizwildin" target="_blank" style="color:#eab308;text-decoration:underline">@TizWildin on SoundCloud</a> to unlock free sample packs</div>';
+    }
+  } catch(e) { el.innerHTML = ''; }
+}
+
+// ── Google Sign-In ──
+function handleGoogleSignIn(response) {
+  const payload = JSON.parse(atob(response.credential.split('.')[1]));
+  currentUser = {
+    name: payload.name || 'User',
+    email: payload.email,
+    picture: payload.picture || '',
+    provider: 'google',
+  };
+  localStorage.setItem('tiz_session', JSON.stringify(currentUser));
+  showSignedIn();
+  // Track in backend for user count + email list
+  fetch(ARC_API + '/auth/google/signin', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({ email: payload.email, name: payload.name, picture: payload.picture })
+  }).then(r => r.json()).then(data => {
+    if (data.token) { currentUser.token = data.token; currentUser.accountId = data.accountId; localStorage.setItem('tiz_session', JSON.stringify(currentUser)); }
+  }).catch(() => {});
+}
+
+// ── UI helpers ──
+function showSignedIn() {
+  document.getElementById('signInSection').style.display = 'none';
+  document.getElementById('accountSection').style.display = 'block';
+  document.getElementById('userName').textContent = currentUser.name;
+  document.getElementById('userEmail').textContent = currentUser.email || currentUser.provider;
+  document.getElementById('userAvatar').src = currentUser.picture || 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><circle cx="20" cy="20" r="20" fill="%236c7bbd"/><text x="20" y="26" text-anchor="middle" fill="white" font-size="18">?</text></svg>';
+  if (currentUser.provider === 'soundcloud') checkFollowStatus();
+  loadAccountData();
+}
+
+async function loadAccountData() {
+  if (!currentUser?.email) {
+    document.getElementById('licenseStatus').textContent = 'Sign in with an email to view licenses.';
+    document.getElementById('masterKeyStatus').innerHTML = '<p>Sign in with an email to manage Master Key.</p>';
+    document.getElementById('catalogContainer').innerHTML = '<p>Sign in to see products.</p>';
+    return;
+  }
+  try {
+    // Fetch owned products (new unified endpoint)
+    const productsResp = await fetch(API + '/hub/products?email=' + encodeURIComponent(currentUser.email));
+    const productsData = await productsResp.json();
+    
+    // Also get legacy ProEQ8 device info
+    const resp = await fetch(API + '/hub/account?email=' + encodeURIComponent(currentUser.email));
+    const data = await resp.json();
+    
+    // Licenses section (ProEQ8 with device tracking)
+    const container = document.getElementById('licensesContainer');
+    if (data.licenses && data.licenses.length > 0) {
+      container.innerHTML = data.licenses.map(lic => `
+        <div class="license-item">
+          <div class="product">${lic.product}</div>
+          <div class="devices">Devices: ${lic.devicesUsed}/${lic.devicesMax} activated</div>
+        </div>
+      `).join('');
+    } else {
+      container.innerHTML = '<p>No device-licensed products yet.</p>';
+    }
+    
+    // Product catalog section
+    const catalogContainer = document.getElementById('catalogContainer');
+    const ownedProducts = productsData.ownedProducts || [];
+    const bundles = productsData.bundles || [];
+    const catalog = productsData.catalog || {};
+    
+    // Sort: owned first, then free, then paid
+    const productIds = Object.keys(catalog);
+    productIds.sort((a, b) => {
+      const aOwned = ownedProducts.includes(a) || bundles.includes(a);
+      const bOwned = ownedProducts.includes(b) || bundles.includes(b);
+      if (aOwned !== bOwned) return aOwned ? -1 : 1;
+      const aFree = catalog[a].free;
+      const bFree = catalog[b].free;
+      if (aFree !== bFree) return aFree ? -1 : 1;
+      return 0;
+    });
+    
+    const productCards = productIds.map(pid => {
+      const p = catalog[pid];
+      const owned = ownedProducts.includes(pid);
+      const inBundle = bundles.includes('complete_collection') && !p.bundle && !p.free;
+      const price = p.price ? `$${(p.price / 100).toFixed(2)} CAD` : 'Free';
+      
+      let statusHtml = '';
+      if (owned || inBundle) {
+        statusHtml = '<div class="owned">✅ Owned</div>';
+      } else if (p.free) {
+        statusHtml = '<div class="free">🆓 Free — Always Available</div>';
+      } else {
+        statusHtml = `<button class="btn btn-primary btn-buy" onclick="buyProduct('${pid}')">Buy ${price}</button>`;
+      }
+      
+      return `
+        <div class="product-card">
+          <div class="name">${p.name}${p.bundle ? ' 🎁' : ''}</div>
+          <div class="price">${p.free ? 'Free' : price}</div>
+          ${statusHtml}
+        </div>
+      `;
+    }).join('');
+    
+    // Show Complete Collection banner if not owned
+    let bundleBanner = '';
+    if (!bundles.includes('complete_collection')) {
+      bundleBanner = `
+        <div style="background:linear-gradient(135deg,#6c7bbd22,#3d4b9422);border:1px solid var(--accent);border-radius:12px;padding:16px;margin-bottom:16px">
+          <div style="font-weight:700;font-size:15px;margin-bottom:4px">🎁 Complete Collection — $99.99 CAD</div>
+          <div style="color:var(--sub);font-size:12px;margin-bottom:10px">Get ALL pro plugins in one bundle. Therum, WURP, AETHER, PaintMask, Maid Suite, WaveForm Pro, RiftSynth Pro.</div>
+          <button class="btn btn-gold" style="margin:0;padding:10px" onclick="buyProduct('complete_collection')">Get Bundle</button>
+        </div>
+      `;
+    }
+    
+    catalogContainer.innerHTML = bundleBanner + '<div class="product-grid">' + productCards + '</div>';
+    
+    // Master Key status
+    const mkStatus = document.getElementById('masterKeyStatus');
+    const mkActions = document.getElementById('masterKeyActions');
+    const mkResp = await fetch(API + '/hub/master-key/status?email=' + encodeURIComponent(currentUser.email));
+    const mkData = await mkResp.json();
+    if (mkData.hasMasterKey && mkData.status === 'active') {
+      mkStatus.innerHTML = '<div class="mk-badge mk-active">✅ Master Key Active — Device unlinking enabled</div>';
+      mkActions.innerHTML = '';
+    } else {
+      mkStatus.innerHTML = `<div class="mk-badge mk-none">🔒 No Master Key subscription</div>
+        <p style="margin-top:12px">Master Key lets you unlink devices from your ProEQ8 licenses. Perfect for upgrading computers or re-installing.</p>`;
+      mkActions.innerHTML = `
+        <div class="seat-select">
+          <label for="seatCount">Seats:</label>
+          <select id="seatCount">
+            <option value="1">1 seat — $3 CAD/mo</option>
+            <option value="2">2 seats — $6 CAD/mo</option>
+            <option value="3">3 seats — $9 CAD/mo</option>
+          </select>
+        </div>
+        <button class="btn btn-gold" onclick="subscribeMasterKey()">🔑 Get Master Key</button>
+      `;
+    }
+  } catch(e) {
+    console.error('loadAccountData error:', e);
+    document.getElementById('licenseStatus').textContent = 'Could not load account data.';
+    document.getElementById('masterKeyStatus').innerHTML = '<p>Could not load Master Key status.</p>';
+    document.getElementById('catalogContainer').innerHTML = '<p>Could not load catalog.</p>';
+  }
+}
+
+async function buyProduct(productId) {
+  if (!currentUser?.email) { alert('Please sign in first.'); return; }
+  const btn = event.target;
+  const originalText = btn.textContent;
+  btn.disabled = true; btn.textContent = 'Redirecting...';
+  try {
+    const resp = await fetch(API + '/create-checkout/product', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ email: currentUser.email, productId })
+    });
+    const data = await resp.json();
+    if (data.url) window.location.href = data.url;
+    else { alert(data.error || 'Could not start checkout.'); btn.disabled = false; btn.textContent = originalText; }
+  } catch(e) {
+    alert('Could not reach server.'); btn.disabled = false; btn.textContent = originalText;
+  }
+}
+
+async function subscribeMasterKey() {
+  if (!currentUser?.email) { alert('Please sign in first.'); return; }
+  const seats = document.getElementById('seatCount')?.value || '1';
+  const btn = document.querySelector('.btn-gold');
+  if (btn) { btn.disabled = true; btn.textContent = 'Redirecting...'; }
+  try {
+    const resp = await fetch(API + '/create-checkout/master-key', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ email: currentUser.email, seats: parseInt(seats) })
+    });
+    const data = await resp.json();
+    if (data.url) window.location.href = data.url;
+    else { alert('Could not start checkout. Try again.'); if(btn){btn.disabled=false;btn.textContent='🔑 Get Master Key';} }
+  } catch(e) {
+    alert('Could not reach server.'); if(btn){btn.disabled=false;btn.textContent='🔑 Get Master Key';}
+  }
+}
+
+async function recoverKeys() {
+  if (!currentUser || !currentUser.email) {
+    alert('No email on file. If you signed in via SoundCloud without an email, contact support.');
+    return;
+  }
+  const btn = document.getElementById('recoverBtn');
+  const status = document.getElementById('status');
+  btn.disabled = true; btn.textContent = 'Sending...'; status.style.display = 'none';
+  try {
+    const resp = await fetch(API + '/recover', {
+      method: 'POST', headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ email: currentUser.email }),
+    });
+    const data = await resp.json();
+    if (data.ok) { status.className = 'status-ok'; status.textContent = '✅ ' + data.message; }
+    else if (resp.status === 429) { status.className = 'status-err'; status.textContent = '⏳ ' + (data.error || 'Please wait 10 minutes.'); }
+    else { status.className = 'status-err'; status.textContent = 'ℹ️ No licenses found for ' + currentUser.email; }
+  } catch (err) { status.className = 'status-err'; status.textContent = '❌ Could not reach the server.'; }
+  status.style.display = 'block'; btn.disabled = false; btn.textContent = '📧 Send My Keys to My Email';
+}
+
+function signOut() {
+  currentUser = null;
+  localStorage.removeItem('tiz_session');
+  document.getElementById('signInSection').style.display = 'block';
+  document.getElementById('accountSection').style.display = 'none';
+  document.getElementById('status').style.display = 'none';
+  document.getElementById('followStatus').innerHTML = '';
+  try { google.accounts.id.disableAutoSelect(); } catch(e) {}
+}
+</script>
+</body>
+</html>

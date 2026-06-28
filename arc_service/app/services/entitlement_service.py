@@ -1,32 +1,22 @@
-from app.db import get_db, fetch_account
-from app.services.catalog_service import load_catalog
-
-
-def load_entitlements() -> dict:
-    """Return a dict keyed by account_id (matches old JSON shape for compat)."""
-    with get_db() as conn:
-        rows = conn.execute("SELECT account_id FROM accounts").fetchall()
-        return {
-            r["account_id"]: fetch_account(conn, r["account_id"])
-            for r in rows
-        }
+from app.services.store import load_entitlements
+from app.services.catalog_service import find_product
 
 
 def get_entitlement(account_id: str) -> dict | None:
-    """Fetch a single account's entitlement from the DB."""
-    with get_db() as conn:
-        return fetch_account(conn, account_id)
+    return load_entitlements().get(account_id)
 
 
 def resolve_product_access(entitlement: dict, product_id: str) -> dict:
-    catalog = load_catalog()
-    product = next((p for p in catalog["products"] if p["productId"] == product_id), None)
+    product = find_product(product_id)
     if not product:
         return {"allowed": False, "reason": "unknown_product", "features": []}
 
-    license_class = product["licenseClass"]
+    license_class = product.get("licenseClass")
     if license_class in {"FREE_OPEN", "FREE_LITE"}:
-        return {"allowed": True, "reason": "free_access", "features": ["standard"]}
+        features = ["standard"]
+        if license_class == "FREE_LITE":
+            features.append("lite")
+        return {"allowed": True, "reason": "free_access", "features": features}
 
     if entitlement.get("billingState") == "payment_issue":
         return {"allowed": False, "reason": "payment_issue", "features": []}

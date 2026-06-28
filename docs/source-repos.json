@@ -1,0 +1,1012 @@
+{
+  "schemaVersion": "1.0",
+  "purpose": "Defines source repositories that can be indexed into the public Hub source graph. Add one entry to auto-generate file manifests, link extraction, route pages, and search records.",
+  "timeoutPolicy": {
+    "mode": "generation-based",
+    "baseSeconds": 20,
+    "secondsPerThousandFiles": 8,
+    "maxSeconds": 240,
+    "description": "Build scripts calculate a time budget from repository size so larger source graphs get more time without allowing silent hangs. Override with SOURCE_INDEX_TIMEOUT_SECONDS when needed."
+  },
+  "repositories": [
+    {
+      "id": "awesome-audio-plugins-dev",
+      "name": "Awesome Audio Plugins Dev",
+      "cluster": "Discovery Lists and Public Routes",
+      "url": "https://github.com/GareBear99/awesome-audio-plugins-dev",
+      "docs": "https://github.com/GareBear99/awesome-audio-plugins-dev#readme",
+      "sourceType": "remote-url",
+      "priority": 1,
+      "tags": [
+        "start-here",
+        "audio-plugins",
+        "juce",
+        "dsp",
+        "vst3",
+        "au",
+        "freeeq8",
+        "freevox8",
+        "developer-resources",
+        "discovery",
+        "seo",
+        "public-index"
+      ]
+    },
+    {
+      "id": "tizwildin-entertainment-hub",
+      "name": "TizWildinEntertainmentHUB",
+      "cluster": "TizWildin Public Hub",
+      "url": "https://github.com/GareBear99/TizWildinEntertainmentHUB",
+      "docs": "https://garebear99.github.io/TizWildinEntertainmentHUB/",
+      "sourceType": "local-path",
+      "path": ".",
+      "priority": 1,
+      "tags": [
+        "hub",
+        "github-pages",
+        "seo",
+        "public-index",
+        "audio-tools"
+      ]
+    },
+    {
+      "id": "awesome-audio-lists",
+      "name": "Awesome Audio Lists",
+      "cluster": "Discovery Lists and Public Routes",
+      "url": "https://github.com/GareBear99/awesome-audio-lists",
+      "docs": "https://github.com/GareBear99/awesome-audio-lists#readme",
+      "sourceType": "github-api",
+      "priority": 2,
+      "tags": [
+        "audio-lists",
+        "submission-targets",
+        "seo-hub",
+        "discovery",
+        "seo",
+        "public-index"
+      ]
+    },
+    {
+      "id": "awesome-music-platforms",
+      "name": "Awesome Music Platforms",
+      "cluster": "Discovery Lists and Public Routes",
+      "url": "https://github.com/GareBear99/awesome-music-platforms",
+      "docs": "https://github.com/GareBear99/awesome-music-platforms#readme",
+      "sourceType": "github-api",
+      "priority": 3,
+      "tags": [
+        "music-platforms",
+        "distribution",
+        "beat-selling",
+        "sample-packs",
+        "sync-licensing",
+        "discovery",
+        "seo",
+        "public-index"
+      ]
+    },
+    {
+      "id": "awesome-python-audio-science",
+      "name": "Awesome Python Audio Science",
+      "cluster": "Discovery Lists and Public Routes",
+      "url": "https://github.com/GareBear99/awesome-python-audio-science",
+      "docs": "https://github.com/GareBear99/awesome-python-audio-science#readme",
+      "sourceType": "github-api",
+      "priority": 4,
+      "tags": [
+        "python-audio",
+        "scientific-audio",
+        "dsp",
+        "mir",
+        "machine-learning-audio",
+        "datasets",
+        "plugin-testing",
+        "discovery",
+        "seo",
+        "public-index"
+      ]
+    },
+    {
+      "id": "freeeq8",
+      "name": "FreeEQ8",
+      "cluster": "Discovery Lists and Public Routes",
+      "url": "https://github.com/GareBear99/FreeEQ8",
+      "docs": "https://github.com/GareBear99/FreeEQ8#readme",
+      "sourceType": "remote-url",
+      "priority": 5,
+      "tags": [
+        "free-eq",
+        "audio-plugin",
+        "vst3",
+        "au",
+        "producer-tool",
+        "discovery",
+        "seo",
+        "public-index"
+      ]
+    },
+    {
+      "id": "freevox8",
+      "name": "FreeVox8",
+      "cluster": "Discovery Lists and Public Routes",
+      "url": "https://github.com/GareBear99/FreeVox8",
+      "docs": "https://github.com/GareBear99/FreeVox8#readme",
+      "sourceType": "remote-url",
+      "priority": 6,
+      "tags": [
+        "spectral-vocoder",
+        "ghost-resynthesis",
+        "audio-plugin",
+        "freevox8",
+        "discovery",
+        "seo",
+        "public-index"
+      ]
+    },
+    {
+      "id": "tizwildin-release-vault",
+      "name": "TizWildin Release Vault",
+      "cluster": "Discovery Lists and Public Routes",
+      "url": "https://github.com/GareBear99/TizWildin-Release-Vault",
+      "docs": "https://github.com/GareBear99/TizWildin-Release-Vault#readme",
+      "sourceType": "github-api",
+      "priority": 7,
+      "tags": [
+        "release-vault",
+        "catalog-proof",
+        "music-releases",
+        "discovery",
+        "seo",
+        "public-index"
+      ]
+    },
+    {
+      "id": "tizwildin-io-router",
+      "name": "TizWildin .io Router",
+      "cluster": "Discovery Lists and Public Routes",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/",
+      "docs": "https://garebear99.github.io/TizWildinEntertainmentHUB/",
+      "sourceType": "github-api",
+      "priority": 8,
+      "tags": [
+        "io-router",
+        "deconstructed-loops",
+        "sample-packs",
+        "plugins",
+        "lists",
+        "visualizers",
+        "discovery",
+        "seo",
+        "public-index"
+      ]
+    },
+    {
+      "id": "deconstructed-loops-router",
+      "name": "Deconstructed Loops / Packs Router",
+      "cluster": "Discovery Lists and Public Routes",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/#packs",
+      "docs": "https://garebear99.github.io/TizWildinEntertainmentHUB/#packs",
+      "sourceType": "github-api",
+      "priority": 9,
+      "tags": [
+        "deconstructed-loops",
+        "stems",
+        "sample-packs",
+        "producer-packs",
+        "router",
+        "discovery",
+        "seo",
+        "public-index"
+      ]
+    },
+    {
+      "id": "arc-neuron-llmbuilder",
+      "name": "ARC-Neuron-LLMBuilder",
+      "cluster": "ARC Source Spine",
+      "url": "https://github.com/GareBear99/ARC-Neuron-LLMBuilder",
+      "docs": "https://github.com/GareBear99/ARC-Neuron-LLMBuilder#readme",
+      "sourceType": "remote-url",
+      "priority": 20,
+      "tags": [
+        "local-ai",
+        "llm",
+        "gguf",
+        "cognition-core",
+        "receipts",
+        "discovery",
+        "seo",
+        "public-index"
+      ]
+    },
+    {
+      "id": "therum",
+      "name": "Therum",
+      "cluster": "TizWildin Audio Plugins",
+      "url": "https://github.com/GareBear99/Therum_JUCE-Plugin",
+      "docs": "https://github.com/GareBear99/Therum_JUCE-Plugin#readme",
+      "sourceType": "github-api",
+      "priority": 20,
+      "tags": [
+        "vst3",
+        "au",
+        "audio-plugin",
+        "music-production",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "arc-core",
+      "name": "ARC-Core",
+      "cluster": "ARC Source Spine",
+      "url": "https://github.com/GareBear99/ARC-Core",
+      "docs": "https://github.com/GareBear99/ARC-Core#readme",
+      "sourceType": "archive-or-clone",
+      "path": "source_archives/ARC-Core-main.zip",
+      "priority": 21,
+      "tags": [
+        "arc",
+        "ai-governance",
+        "receipts",
+        "event-sourcing",
+        "fastapi",
+        "discovery",
+        "seo",
+        "public-index"
+      ]
+    },
+    {
+      "id": "arc-lucifer-cleanroom-runtime",
+      "name": "arc-lucifer-cleanroom-runtime",
+      "cluster": "ARC Source Spine",
+      "url": "https://github.com/GareBear99/arc-lucifer-cleanroom-runtime",
+      "docs": "https://github.com/GareBear99/arc-lucifer-cleanroom-runtime#readme",
+      "sourceType": "remote-url",
+      "priority": 22,
+      "tags": [
+        "local-ai",
+        "runtime",
+        "offline-ai",
+        "token-streaming",
+        "discovery",
+        "seo",
+        "public-index"
+      ]
+    },
+    {
+      "id": "arc-language-module",
+      "name": "arc-language-module",
+      "cluster": "ARC Source Spine",
+      "url": "https://github.com/GareBear99/arc-language-module",
+      "docs": "https://github.com/GareBear99/arc-language-module#readme",
+      "sourceType": "remote-url",
+      "priority": 23,
+      "tags": [
+        "nlp",
+        "linguistics",
+        "language-learning",
+        "cognition",
+        "discovery",
+        "seo",
+        "public-index"
+      ]
+    },
+    {
+      "id": "arc-rar",
+      "name": "Arc-RAR",
+      "cluster": "ARC Source Spine",
+      "url": "https://github.com/GareBear99/Arc-RAR",
+      "docs": "https://github.com/GareBear99/Arc-RAR#readme",
+      "sourceType": "archive-or-clone",
+      "path": "source_archives/Arc-RAR-main.zip",
+      "priority": 24,
+      "tags": [
+        "archive",
+        "cli",
+        "receipts",
+        "reproducibility",
+        "discovery",
+        "seo",
+        "public-index"
+      ]
+    },
+    {
+      "id": "omnibinary-runtime",
+      "name": "OmniBinary Runtime",
+      "cluster": "ARC Source Spine",
+      "url": "https://github.com/GareBear99/omnibinary-runtime",
+      "docs": "https://github.com/GareBear99/omnibinary-runtime#readme",
+      "sourceType": "archive-or-clone",
+      "path": "source_archives/omnibinary-runtime-main.zip",
+      "priority": 25,
+      "tags": [
+        "binary-runtime",
+        "native-first",
+        "receipts",
+        "audits",
+        "discovery",
+        "seo",
+        "public-index"
+      ]
+    },
+    {
+      "id": "aether",
+      "name": "AETHER",
+      "cluster": "TizWildin Audio Plugins",
+      "url": "https://github.com/GareBear99/AETHER_Choir-Atmosphere-Designer",
+      "docs": "https://github.com/GareBear99/AETHER_Choir-Atmosphere-Designer#readme",
+      "sourceType": "github-api",
+      "priority": 40,
+      "tags": [
+        "vst3",
+        "au",
+        "audio-plugin",
+        "music-production",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "bassmaid",
+      "name": "BassMaid",
+      "cluster": "TizWildin Audio Plugins",
+      "url": "https://github.com/GareBear99/BassMaid",
+      "docs": "https://github.com/GareBear99/BassMaid#readme",
+      "sourceType": "github-api",
+      "priority": 40,
+      "tags": [
+        "vst3",
+        "au",
+        "audio-plugin",
+        "music-production",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "chainmaid",
+      "name": "ChainMaid",
+      "cluster": "TizWildin Audio Plugins",
+      "url": "https://github.com/GareBear99/ChainMaid",
+      "docs": "https://github.com/GareBear99/ChainMaid#readme",
+      "sourceType": "github-api",
+      "priority": 40,
+      "tags": [
+        "vst3",
+        "au",
+        "audio-plugin",
+        "music-production",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "freesampler",
+      "name": "FreeSampler",
+      "cluster": "TizWildin Audio Plugins",
+      "url": "https://github.com/GareBear99/FreeSampler_v0.3",
+      "docs": "https://github.com/GareBear99/FreeSampler_v0.3#readme",
+      "sourceType": "github-api",
+      "priority": 40,
+      "tags": [
+        "vst3",
+        "au",
+        "audio-plugin",
+        "music-production",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "gluemaid",
+      "name": "GlueMaid",
+      "cluster": "TizWildin Audio Plugins",
+      "url": "https://github.com/GareBear99/GlueMaid",
+      "docs": "https://github.com/GareBear99/GlueMaid#readme",
+      "sourceType": "github-api",
+      "priority": 40,
+      "tags": [
+        "vst3",
+        "au",
+        "audio-plugin",
+        "music-production",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "instrudio",
+      "name": "Instrudio",
+      "cluster": "TizWildin Audio Plugins",
+      "url": "https://github.com/GareBear99/Instrudio",
+      "docs": "https://github.com/GareBear99/Instrudio#readme",
+      "sourceType": "github-api",
+      "priority": 40,
+      "tags": [
+        "vst3",
+        "au",
+        "standalone",
+        "audio-plugin",
+        "music-production",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "metermaid",
+      "name": "MeterMaid",
+      "cluster": "TizWildin Audio Plugins",
+      "url": "https://github.com/GareBear99/MeterMaid",
+      "docs": "https://github.com/GareBear99/MeterMaid#readme",
+      "sourceType": "github-api",
+      "priority": 40,
+      "tags": [
+        "vst3",
+        "au",
+        "standalone",
+        "audio-plugin",
+        "music-production",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "mixmaid",
+      "name": "MixMaid",
+      "cluster": "TizWildin Audio Plugins",
+      "url": "https://github.com/GareBear99/MixMaid",
+      "docs": "https://github.com/GareBear99/MixMaid#readme",
+      "sourceType": "github-api",
+      "priority": 40,
+      "tags": [
+        "vst3",
+        "au",
+        "audio-plugin",
+        "music-production",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "multimaid",
+      "name": "MultiMaid",
+      "cluster": "TizWildin Audio Plugins",
+      "url": "https://github.com/GareBear99/MultiMaid",
+      "docs": "https://github.com/GareBear99/MultiMaid#readme",
+      "sourceType": "github-api",
+      "priority": 40,
+      "tags": [
+        "vst3",
+        "au",
+        "standalone",
+        "audio-plugin",
+        "music-production",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "paintmask",
+      "name": "PaintMask",
+      "cluster": "TizWildin Audio Plugins",
+      "url": "https://github.com/GareBear99/PaintMask_Free-JUCE-Plugin",
+      "docs": "https://github.com/GareBear99/PaintMask_Free-JUCE-Plugin#readme",
+      "sourceType": "github-api",
+      "priority": 40,
+      "tags": [
+        "vst3",
+        "au",
+        "audio-plugin",
+        "music-production",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "riftwavesuite",
+      "name": "RiftWave Suite",
+      "cluster": "TizWildin Audio Plugins",
+      "url": "https://github.com/GareBear99/RiftWaveSuite_RiftSynth_WaveForm_Lite",
+      "docs": "https://github.com/GareBear99/RiftWaveSuite_RiftSynth_WaveForm_Lite#readme",
+      "sourceType": "github-api",
+      "priority": 40,
+      "tags": [
+        "vst3",
+        "au",
+        "audio-plugin",
+        "music-production",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "spacemaid",
+      "name": "SpaceMaid",
+      "cluster": "TizWildin Audio Plugins",
+      "url": "https://github.com/GareBear99/SpaceMaid",
+      "docs": "https://github.com/GareBear99/SpaceMaid#readme",
+      "sourceType": "github-api",
+      "priority": 40,
+      "tags": [
+        "vst3",
+        "au",
+        "audio-plugin",
+        "music-production",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "whispergate",
+      "name": "WhisperGate",
+      "cluster": "TizWildin Audio Plugins",
+      "url": "https://github.com/GareBear99/WhisperGate_Free-JUCE-Plugin",
+      "docs": "https://github.com/GareBear99/WhisperGate_Free-JUCE-Plugin#readme",
+      "sourceType": "github-api",
+      "priority": 40,
+      "tags": [
+        "vst3",
+        "au",
+        "audio-plugin",
+        "music-production",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "wurp",
+      "name": "WURP",
+      "cluster": "TizWildin Audio Plugins",
+      "url": "https://github.com/GareBear99/WURP_Toxic-Motion-Engine_JUCE",
+      "docs": "https://github.com/GareBear99/WURP_Toxic-Motion-Engine_JUCE#readme",
+      "sourceType": "github-api",
+      "priority": 40,
+      "tags": [
+        "vst3",
+        "au",
+        "audio-plugin",
+        "music-production",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "xylocore",
+      "name": "XyloCore",
+      "cluster": "TizWildin Audio Plugins",
+      "url": "https://github.com/GareBear99/XyloCore",
+      "docs": "https://github.com/GareBear99/XyloCore#readme",
+      "sourceType": "github-api",
+      "priority": 40,
+      "tags": [
+        "vst3",
+        "au",
+        "audio-plugin",
+        "music-production",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "arc-audiobench",
+      "name": "ARC-AudioBench",
+      "cluster": "Creator and Audio Tools",
+      "url": "https://github.com/GareBear99/ARC-AudioBench",
+      "docs": "https://github.com/GareBear99/ARC-AudioBench#readme",
+      "sourceType": "github-api",
+      "priority": 45,
+      "tags": [
+        "benchmark",
+        "dsp",
+        "performance",
+        "testing",
+        "tool",
+        "creator-tools",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "bannerbass",
+      "name": "BannerBass",
+      "cluster": "Creator and Audio Tools",
+      "url": "https://github.com/GareBear99/BannerBass",
+      "docs": "https://github.com/GareBear99/BannerBass#readme",
+      "sourceType": "github-api",
+      "priority": 45,
+      "tags": [
+        "banner",
+        "music-release",
+        "static",
+        "promo",
+        "no-server",
+        "tool",
+        "creator-tools",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "instrudio-bongo",
+      "name": "Instrudio Bongo",
+      "cluster": "Creator and Audio Tools",
+      "url": "https://garebear99.github.io/Instrudio/Instrudio_v2/bongo.html",
+      "docs": "https://garebear99.github.io/Instrudio/Instrudio_v2/bongo.html",
+      "sourceType": "github-api",
+      "priority": 45,
+      "tags": [
+        "midi",
+        "bongo",
+        "percussion",
+        "browser",
+        "instrument",
+        "instrudio",
+        "tool",
+        "creator-tools",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "instrudio-harp",
+      "name": "Instrudio Harp",
+      "cluster": "Creator and Audio Tools",
+      "url": "https://garebear99.github.io/Instrudio/Instrudio_v2/harp.html",
+      "docs": "https://garebear99.github.io/Instrudio/Instrudio_v2/harp.html",
+      "sourceType": "github-api",
+      "priority": 45,
+      "tags": [
+        "midi",
+        "harp",
+        "browser",
+        "instrument",
+        "instrudio",
+        "tool",
+        "creator-tools",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "instrudio-violin",
+      "name": "Instrudio Violin",
+      "cluster": "Creator and Audio Tools",
+      "url": "https://garebear99.github.io/Instrudio/Instrudio_v2/violin.html",
+      "docs": "https://garebear99.github.io/Instrudio/Instrudio_v2/violin.html",
+      "sourceType": "github-api",
+      "priority": 45,
+      "tags": [
+        "midi",
+        "violin",
+        "browser",
+        "instrument",
+        "instrudio",
+        "tool",
+        "creator-tools",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "pap-forge-audio",
+      "name": "PAP-Forge-Audio",
+      "cluster": "AI and Automation Tools",
+      "url": "https://github.com/GareBear99/PAP-Forge-Audio",
+      "docs": "https://github.com/GareBear99/PAP-Forge-Audio#readme",
+      "sourceType": "github-api",
+      "priority": 45,
+      "tags": [
+        "procedural",
+        "automation",
+        "plugin-generation",
+        "nlp",
+        "tool",
+        "creator-tools",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "vf-plexlab",
+      "name": "VF-PlexLab",
+      "cluster": "AI and Automation Tools",
+      "url": "https://github.com/GareBear99/VF-PlexLab",
+      "docs": "https://github.com/GareBear99/VF-PlexLab#readme",
+      "sourceType": "github-api",
+      "priority": 45,
+      "tags": [
+        "vocals",
+        "ai",
+        "nvidia",
+        "sample-generation",
+        "tool",
+        "creator-tools",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "voxel-audio",
+      "name": "Voxel Audio",
+      "cluster": "Creator and Audio Tools",
+      "url": "https://github.com/GareBear99/Voxel_Audio",
+      "docs": "https://github.com/GareBear99/Voxel_Audio#readme",
+      "sourceType": "github-api",
+      "priority": 45,
+      "tags": [
+        "visualizer",
+        "waveform",
+        "rgb",
+        "export",
+        "tool",
+        "creator-tools",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "neolution",
+      "name": "Neolution",
+      "cluster": "Games and Interactive Demos",
+      "url": "https://garebear99.github.io/Neolution/",
+      "docs": "https://garebear99.github.io/Neolution/",
+      "sourceType": "github-api",
+      "priority": 50,
+      "tags": [
+        "rhythm",
+        "canvas2d",
+        "gamepad",
+        "audio-analysis",
+        "8-lane",
+        "game",
+        "interactive-demo",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "rift-ascent",
+      "name": "RiftAscent",
+      "cluster": "Games and Interactive Demos",
+      "url": "https://garebear99.github.io/RiftAscent/",
+      "docs": "https://garebear99.github.io/RiftAscent/",
+      "sourceType": "github-api",
+      "priority": 50,
+      "tags": [
+        "action",
+        "canvas",
+        "procedural-audio",
+        "prestige",
+        "mobile",
+        "game",
+        "interactive-demo",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "freeeq8-devto",
+      "name": "FreeEQ8 Technical Architecture (dev.to)",
+      "cluster": "Academic Papers and Technical Writing",
+      "url": "https://dev.to/tizwildin/real-time-state-space-parameterization-and-lock-free-semantic-analysis-in-digital-equalization-38jn",
+      "docs": "https://dev.to/tizwildin/real-time-state-space-parameterization-and-lock-free-semantic-analysis-in-digital-equalization-38jn",
+      "sourceType": "github-api",
+      "priority": 52,
+      "tags": [
+        "dsp",
+        "architecture",
+        "blog",
+        "dev-to",
+        "paper",
+        "technical-writing",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "freeeq8-paper",
+      "name": "Real-Time State-Space Parameterization and Lock-Free Semantic Analysis in Digital Equalization",
+      "cluster": "Academic Papers and Technical Writing",
+      "url": "https://github.com/GareBear99/FreeEQ8/blob/main/PAPER.md",
+      "docs": "https://github.com/GareBear99/FreeEQ8#readme",
+      "sourceType": "github-api",
+      "priority": 52,
+      "tags": [
+        "dsp",
+        "svf",
+        "lock-free",
+        "real-time",
+        "parametric-eq",
+        "semantic-analysis",
+        "paper",
+        "technical-writing",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "instrudio-violin-devto",
+      "name": "Studio Violin: Helmholtz Bowed String, H2 Correction, Stradivari Body EQ, and Sympathetic Resonance",
+      "cluster": "Academic Papers and Technical Writing",
+      "url": "https://dev.to/tizwildin/studio-violin-helmholtz-bowed-string-h2-correction-stradivari-body-eq-sympathetic-resonance-3c8l",
+      "docs": "https://dev.to/tizwildin/studio-violin-helmholtz-bowed-string-h2-correction-stradivari-body-eq-sympathetic-resonance-3c8l",
+      "sourceType": "github-api",
+      "priority": 52,
+      "tags": [
+        "violin",
+        "physical-modeling",
+        "helmholtz",
+        "bowed-string",
+        "stradivari-eq",
+        "sympathetic-resonance",
+        "dev-to",
+        "paper",
+        "technical-writing",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "free-808-producer",
+      "name": "Free 808 Producer Kit",
+      "cluster": "TizWildin Sample Packs",
+      "url": "https://github.com/GareBear99/Free-808-Producer-Kit",
+      "docs": "https://github.com/GareBear99/Free-808-Producer-Kit#readme",
+      "sourceType": "github-api",
+      "priority": 55,
+      "tags": [
+        "808",
+        "bass",
+        "trap",
+        "sample-pack",
+        "producer-tools",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "free-dark-piano",
+      "name": "Free Dark Piano Sound Kit",
+      "cluster": "TizWildin Sample Packs",
+      "url": "https://github.com/GareBear99/Free-Dark-Piano-Sound-Kit",
+      "docs": "https://github.com/GareBear99/Free-Dark-Piano-Sound-Kit#readme",
+      "sourceType": "github-api",
+      "priority": 55,
+      "tags": [
+        "piano",
+        "cinematic",
+        "midi",
+        "sample-pack",
+        "producer-tools",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "free-future-bass",
+      "name": "Free Future Bass Producer Kit",
+      "cluster": "TizWildin Sample Packs",
+      "url": "https://github.com/GareBear99/Free-Future-Bass-Producer-Kit",
+      "docs": "https://github.com/GareBear99/Free-Future-Bass-Producer-Kit#readme",
+      "sourceType": "github-api",
+      "priority": 55,
+      "tags": [
+        "future-bass",
+        "loops",
+        "synths",
+        "sample-pack",
+        "producer-tools",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "free-riser-producer",
+      "name": "Free Riser Producer Kit",
+      "cluster": "TizWildin Sample Packs",
+      "url": "https://github.com/GareBear99/Free-Riser-Producer-Kit",
+      "docs": "https://github.com/GareBear99/Free-Riser-Producer-Kit#readme",
+      "sourceType": "github-api",
+      "priority": 55,
+      "tags": [
+        "risers",
+        "downlifters",
+        "fx",
+        "sample-pack",
+        "producer-tools",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "free-violin-synth",
+      "name": "Free Violin Synth Sample Kit",
+      "cluster": "TizWildin Sample Packs",
+      "url": "https://github.com/GareBear99/Free-Violin-Synth-Sample-Kit",
+      "docs": "https://github.com/GareBear99/Free-Violin-Synth-Sample-Kit#readme",
+      "sourceType": "github-api",
+      "priority": 55,
+      "tags": [
+        "violin",
+        "physical-model",
+        "instrudio",
+        "sample-pack",
+        "producer-tools",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "phonk-producer",
+      "name": "Phonk Producer Toolkit",
+      "cluster": "TizWildin Sample Packs",
+      "url": "https://github.com/GareBear99/Phonk_Producer_Toolkit",
+      "docs": "https://github.com/GareBear99/Phonk_Producer_Toolkit#readme",
+      "sourceType": "github-api",
+      "priority": 55,
+      "tags": [
+        "phonk",
+        "drift",
+        "starter",
+        "sample-pack",
+        "producer-tools",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "tizwildin-aurora",
+      "name": "TizWildin-Aurora",
+      "cluster": "TizWildin Sample Packs",
+      "url": "https://github.com/GareBear99/TizWildin-Aurora",
+      "docs": "https://github.com/GareBear99/TizWildin-Aurora#readme",
+      "sourceType": "github-api",
+      "priority": 55,
+      "tags": [
+        "loops",
+        "stems",
+        "synth",
+        "neon",
+        "sample-pack",
+        "producer-tools",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "tizwildin-chime",
+      "name": "TizWildin-Chime",
+      "cluster": "TizWildin Sample Packs",
+      "url": "https://github.com/GareBear99/TizWildin-Chime",
+      "docs": "https://github.com/GareBear99/TizWildin-Chime#readme",
+      "sourceType": "github-api",
+      "priority": 55,
+      "tags": [
+        "chime",
+        "glass",
+        "88bpm",
+        "sample-pack",
+        "producer-tools",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "tizwildin-chroma",
+      "name": "TizWildin-Chroma",
+      "cluster": "TizWildin Sample Packs",
+      "url": "https://github.com/GareBear99/TizWildin-Chroma",
+      "docs": "https://github.com/GareBear99/TizWildin-Chroma#readme",
+      "sourceType": "github-api",
+      "priority": 55,
+      "tags": [
+        "game",
+        "synthwave",
+        "loops",
+        "sample-pack",
+        "producer-tools",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "tizwildin-obsidian",
+      "name": "TizWildin-Obsidian",
+      "cluster": "TizWildin Sample Packs",
+      "url": "https://github.com/GareBear99/TizWildin-Obsidian",
+      "docs": "https://github.com/GareBear99/TizWildin-Obsidian#readme",
+      "sourceType": "github-api",
+      "priority": 55,
+      "tags": [
+        "cinematic",
+        "choir",
+        "dark",
+        "atmosphere",
+        "sample-pack",
+        "producer-tools",
+        "tizwildin"
+      ]
+    },
+    {
+      "id": "tizwildin-skyline",
+      "name": "TizWildin-Skyline",
+      "cluster": "TizWildin Sample Packs",
+      "url": "https://github.com/GareBear99/TizWildin-Skyline",
+      "docs": "https://github.com/GareBear99/TizWildin-Skyline#readme",
+      "sourceType": "github-api",
+      "priority": 55,
+      "tags": [
+        "synthwave",
+        "darkwave",
+        "loops",
+        "sample-pack",
+        "producer-tools",
+        "tizwildin"
+      ]
+    }
+  ],
+  "repositoryCount": 56,
+  "lastSyncNote": "Generated from public manifests. Add entries there, run sync, then rebuild public/source/search indexes."
+}
