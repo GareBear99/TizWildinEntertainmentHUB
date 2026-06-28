@@ -1,34 +1,14 @@
-# Python
 __pycache__/
-*.pyc
-*.pyo
-*.egg-info/
-dist/
-.venv/
-.env
+*.py[cod]
+*$py.class
 .pytest_cache/
-
-# SQLite
-*.db
-*.db-wal
-*.db-shm
-
-# C++ / CMake / JUCE build
-build/
-*.o
-*.obj
-*.a
-*.lib
-*.so
-*.dylib
-*.dll
-*.exe
-JUCE/
-cmake-build-*/
-.idea/
-*.xcodeproj/
-*.xcworkspace/
-DerivedData/
-*.vst3
-*.component
-*.app
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage/
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+.cache/

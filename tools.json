@@ -1,0 +1,94 @@
+{
+  "categories": [
+    { "id": "audio_tools", "name": "Audio Tools", "icon": "🔧" },
+    { "id": "creator_tools", "name": "Creator Tools", "icon": "🎨" },
+    { "id": "midi_tools", "name": "MIDI", "icon": "🎹" },
+    { "id": "ai_tools", "name": "AI / Automation", "icon": "🤖" }
+  ],
+  "tools": [
+    {
+      "id": "arc_audiobench",
+      "name": "ARC-AudioBench",
+      "description": "Open-source audio tool benchmarking software. Measure and compare DSP performance across plugins and engines.",
+      "category": "audio_tools",
+      "repo": "ARC-AudioBench",
+      "tags": ["benchmark", "dsp", "performance", "testing"],
+      "status": "production"
+    },
+    {
+      "id": "voxel_audio",
+      "name": "Voxel Audio",
+      "description": "Free RGB waveform visualizer and audio export tool. Visual audio analysis and rendering.",
+      "category": "creator_tools",
+      "repo": "Voxel_Audio",
+      "tags": ["visualizer", "waveform", "rgb", "export"],
+      "status": "production"
+    },
+    {
+      "id": "bannerbass",
+      "name": "BannerBass",
+      "description": "No-server static banner maker for music release banners. Create promotional artwork without needing a backend.",
+      "category": "creator_tools",
+      "repo": "BannerBass",
+      "tags": ["banner", "music-release", "static", "promo", "no-server"],
+      "status": "production"
+    },
+    {
+      "id": "instrudio_violin",
+      "name": "Instrudio Violin",
+      "description": "Browser-playable MIDI violin from the Instrudio instrument suite. Play directly in the browser with keyboard or MIDI controller.",
+      "category": "midi_tools",
+      "repo": "Instrudio",
+      "url": "https://garebear99.github.io/Instrudio/Instrudio_v2/violin.html",
+      "tags": ["midi", "violin", "browser", "instrument", "instrudio"],
+      "status": "production"
+    },
+    {
+      "id": "instrudio_bongo",
+      "name": "Instrudio Bongo",
+      "description": "Browser-playable MIDI bongo instrument from the Instrudio suite. Trigger percussion directly in the browser with keyboard or MIDI controller.",
+      "category": "midi_tools",
+      "repo": "Instrudio",
+      "url": "https://garebear99.github.io/Instrudio/Instrudio_v2/bongo.html",
+      "tags": ["midi", "bongo", "percussion", "browser", "instrument", "instrudio"],
+      "status": "production"
+    },
+    {
+      "id": "instrudio_harp",
+      "name": "Instrudio Harp",
+      "description": "Browser-playable MIDI harp instrument from the Instrudio suite. Play melodic harp parts directly in the browser with keyboard or MIDI controller.",
+      "category": "midi_tools",
+      "repo": "Instrudio",
+      "url": "https://garebear99.github.io/Instrudio/Instrudio_v2/harp.html",
+      "tags": ["midi", "harp", "browser", "instrument", "instrudio"],
+      "status": "production"
+    },
+    {
+      "id": "slushai",
+      "name": "SlushAI",
+      "description": "Coming soon — AI-assisted creator automation tool for the TizWildin ecosystem, intended for prompt-driven music, media, and release workflow support.",
+      "category": "ai_tools",
+      "repo": "",
+      "tags": ["ai", "coming-soon"],
+      "status": "planned"
+    },
+    {
+      "id": "vf_plexlab",
+      "name": "VF-PlexLab",
+      "description": "VocalForge PersonaPlex Lab — JUCE plugin + local backend + HTML tester around NVIDIA PersonaPlex for voice-conditioned vocal asset generation.",
+      "category": "ai_tools",
+      "repo": "VF-PlexLab",
+      "tags": ["vocals", "ai", "nvidia", "sample-generation"],
+      "status": "beta"
+    },
+    {
+      "id": "pap_forge_audio",
+      "name": "PAP-Forge-Audio",
+      "description": "Procedural Autonomous Plugins runtime — generate, branch, validate, and restore plugin projects from natural-language sound intent.",
+      "category": "ai_tools",
+      "repo": "PAP-Forge-Audio",
+      "tags": ["procedural", "automation", "plugin-generation", "nlp"],
+      "status": "beta"
+    }
+  ]
+}

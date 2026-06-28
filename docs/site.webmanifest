@@ -1,0 +1,9 @@
+{
+  "name": "TizWildin Entertainment HUB",
+  "short_name": "TizWildin HUB",
+  "description": "Static crawler-friendly index of TizWildin audio, producer, public list, credibility, and ARC source-spine routes.",
+  "start_url": "/TizWildinEntertainmentHUB/",
+  "display": "standalone",
+  "background_color": "#070914",
+  "theme_color": "#8ea2ff"
+}

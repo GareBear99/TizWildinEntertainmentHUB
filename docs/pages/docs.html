@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Documentation — TizWildin Entertainment HUB</title>
+<meta name="description" content="Documentation for the TizWildin Entertainment HUB — free audio plugins, sample packs, MIDI tools, games, ARC source spine, and creator ecosystem.">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:linear-gradient(135deg,#0a0b12 0%,#131236 100%);color:#fff;min-height:100vh;padding:40px 20px}
+.container{max-width:900px;margin:0 auto}
+a{color:#6c7bbd;text-decoration:none}
+a:hover{text-decoration:underline}
+
+.header{text-align:center;margin-bottom:60px}
+.header h1{font-size:36px;font-weight:700;margin-bottom:10px;background:linear-gradient(135deg,#6c7bbd,#22c55e);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.header p{font-size:14px;color:rgba(255,255,255,.6);letter-spacing:.05em}
+
+.doc-card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:40px;margin-bottom:30px;transition:all .3s;backdrop-filter:blur(10px)}
+.doc-card:hover{border-color:rgba(108,123,189,.5);transform:translateY(-4px);box-shadow:0 20px 40px rgba(108,123,189,.2)}
+.doc-icon{font-size:48px;margin-bottom:20px}
+.doc-card h2{font-size:24px;font-weight:600;margin-bottom:12px}
+.doc-card p{font-size:14px;line-height:1.6;color:rgba(255,255,255,.7);margin-bottom:24px}
+
+.doc-link{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;background:rgba(108,123,189,.1);border:1px solid rgba(108,123,189,.3);border-radius:8px;color:#6c7bbd;text-decoration:none;font-size:14px;font-weight:500;transition:all .2s;margin-right:8px;margin-bottom:8px}
+.doc-link:hover{background:rgba(108,123,189,.2);border-color:#6c7bbd;transform:translateX(4px);text-decoration:none}
+
+.feature-item{padding:8px 12px;background:rgba(34,197,94,.08);border-radius:6px;display:flex;align-items:flex-start;gap:10px;font-size:13px;line-height:1.8;color:rgba(255,255,255,.8)}
+.feature-item strong{color:#22c55e}
+
+.highlight-box{background:rgba(34,197,94,.1);border:2px solid rgba(34,197,94,.3);border-radius:12px;padding:20px;margin-top:40px;transition:all .3s}
+.highlight-box:hover{border-color:rgba(34,197,94,.6);transform:translateY(-2px);box-shadow:0 8px 24px rgba(34,197,94,.25)}
+.highlight-box h3{font-size:16px;font-weight:600;color:#22c55e;margin-bottom:12px}
+.highlight-box ul{list-style:none;padding-left:0}
+.highlight-box li{font-size:13px;line-height:1.8;color:rgba(255,255,255,.8);padding-left:24px;position:relative}
+.highlight-box li:before{content:"✓";position:absolute;left:0;color:#22c55e;font-weight:bold}
+
+.back-link{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:8px;color:#fff;text-decoration:none;font-size:14px;font-weight:500;transition:all .2s;margin:0 8px}
+.back-link:hover{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.2);text-decoration:none}
+
+.stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:16px}
+.stat-box{background:rgba(108,123,189,.15);border:1px solid rgba(108,123,189,.3);border-radius:8px;padding:14px;transition:all .3s}
+.stat-box:hover{border-color:rgba(108,123,189,.6);transform:translateY(-4px);box-shadow:0 8px 24px rgba(108,123,189,.25)}
+.stat-box .label{font-size:12px;color:rgba(255,255,255,.6);margin-bottom:4px}
+.stat-box .value{font-size:20px;font-weight:700;color:#6c7bbd}
+.stat-box .detail{font-size:11px;color:rgba(255,255,255,.5);margin-top:4px}
+
+@media(max-width:768px){.header h1{font-size:28px}.doc-card{padding:24px}.doc-card h2{font-size:20px}.stat-grid{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <div style="display:flex;align-items:center;justify-content:center;gap:16px;margin-bottom:10px">
+    <div style="width:60px;height:60px;border-radius:18px;display:grid;place-items:center;background:linear-gradient(135deg,#2f3b86,#0f172a);border:1px solid rgba(255,255,255,.12);font-size:32px">🎛️</div>
+    <h1 style="margin:0">TizWildin HUB Documentation</h1>
+  </div>
+  <p>Free Modular Audio Plugin Ecosystem — Plugins, Packs, Tools, Games & ARC Source Spine</p>
+  <p style="font-size:12px;color:rgba(255,215,0,.8);font-weight:600;margin-top:8px">👑 Founded by Gary Richard Doman (GareBear99 / TizWildin)</p>
+</div>
+
+<!-- Support Card -->
+<div style="background:linear-gradient(135deg,rgba(108,123,189,.1),rgba(34,197,94,.1));border:2px solid rgba(108,123,189,.4);border-radius:16px;padding:30px;margin-bottom:30px;text-align:center;transition:all .3s" onmouseover="this.style.borderColor='rgba(108,123,189,.7)';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='rgba(108,123,189,.4)';this.style.transform='translateY(0)'">
+  <div style="font-size:48px;margin-bottom:12px">🎧</div>
+  <h2 style="font-size:22px;font-weight:700;margin-bottom:12px;color:#6c7bbd">Support TizWildin</h2>
+  <p style="font-size:15px;line-height:1.6;color:rgba(255,255,255,.8);margin-bottom:20px;max-width:600px;margin-left:auto;margin-right:auto">Follow on SoundCloud, star the repos, and share the HUB. At 1,000 users, giveaways begin — free plugin upgrades, exclusive sample packs, and more.</p>
+  <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+    <a href="https://soundcloud.com/tizwildin" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:#ff5500;color:white;text-decoration:none;border-radius:12px;font-weight:600;font-size:15px;transition:all .3s" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">🔊 Follow on SoundCloud</a>
+    <a href="https://github.com/GareBear99/TizWildinEntertainmentHUB" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:linear-gradient(135deg,#6c7bbd,#3d4b94);color:white;text-decoration:none;border-radius:12px;font-weight:600;font-size:15px;transition:all .3s" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">⭐ Star on GitHub</a>
+    <a href="https://github.com/sponsors/GareBear99" target="_blank" style="display:inline-flex;align-items:center;gap:8px;padding:14px 28px;background:linear-gradient(135deg,#db61a2,#c0392b);color:white;text-decoration:none;border-radius:12px;font-weight:600;font-size:15px;transition:all .3s" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">💖 Sponsor on GitHub</a>
+  </div>
+  <div id="docsUserCount" style="margin-top:16px;text-align:center;font-size:14px;color:rgba(255,255,255,.6)"></div>
+</div>
+
+<!-- Overview -->
+<div style="background:rgba(255,255,255,.05);border:2px solid rgba(59,130,246,.3);border-radius:16px;padding:30px;margin-bottom:40px;transition:all .3s" onmouseover="this.style.borderColor='rgba(59,130,246,.6)';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='rgba(59,130,246,.3)';this.style.transform='translateY(0)'">
+  <h2 style="font-size:20px;font-weight:600;margin-bottom:16px">📋 Ecosystem Overview</h2>
+  <div style="background:rgba(59,130,246,.1);border-left:4px solid #3b82f6;padding:16px;border-radius:8px;margin-bottom:16px">
+    <div style="font-size:13px;font-weight:600;color:#3b82f6;margin-bottom:8px">🚀 How to Use the HUB</div>
+    <ol style="margin:0;padding-left:20px;font-size:13px;line-height:1.8;color:rgba(255,255,255,.8)">
+      <li><strong>Browse:</strong> Visit the <a href="../index.html">live dashboard</a> to explore plugins, packs, tools, and games</li>
+      <li><strong>Download:</strong> Every plugin has a free version — grab builds or source from GitHub</li>
+      <li><strong>Connect:</strong> Sign in with SoundCloud to unlock follow-gated free sample packs</li>
+      <li><strong>Install:</strong> Use the HUB standalone app or VST3/AU plugin inside your DAW</li>
+      <li><strong>Share:</strong> Help us reach 1,000 users to unlock community giveaways</li>
+    </ol>
+  </div>
+  <div style="background:rgba(34,197,94,.1);border-left:4px solid #22c55e;padding:20px;border-radius:8px;margin-bottom:16px">
+    <div style="font-size:15px;font-weight:700;color:#22c55e;margin-bottom:12px;display:flex;align-items:center;gap:8px"><span style="font-size:20px">✨</span> Key Features</div>
+    <ul style="margin:0;padding:0;list-style:none;display:grid;gap:8px">
+      <li class="feature-item"><span style="font-size:18px;flex-shrink:0">🔌</span><span><strong>21 Free Plugins:</strong> FreeEQ8, FreeVox8, Therum, full Maid Suite, RiftWave, instruments, and more</span></li>
+      <li class="feature-item"><span style="font-size:18px;flex-shrink:0">🎁</span><span><strong>11 Free Sample Packs:</strong> 808s, risers, phonk, piano, violin, synthwave, chime, and more</span></li>
+      <li class="feature-item"><span style="font-size:18px;flex-shrink:0">🎹</span><span><strong>Browser MIDI Tools:</strong> Instrudio Violin, Bongo, and Harp — play directly in the browser</span></li>
+      <li class="feature-item"><span style="font-size:18px;flex-shrink:0">🎮</span><span><strong>Playable Games:</strong> RiftAscent and Neolution with procedural audio integration</span></li>
+      <li class="feature-item"><span style="font-size:18px;flex-shrink:0">📄</span><span><strong>Published Research:</strong> 7 technical articles on DSP, AI, and ARC architecture</span></li>
+      <li class="feature-item"><span style="font-size:18px;flex-shrink:0">🔄</span><span><strong>Version Controller:</strong> Live GitHub release checking across the entire ecosystem</span></li>
+      <li class="feature-item"><span style="font-size:18px;flex-shrink:0">🔊</span><span><strong>SoundCloud OAuth:</strong> Follow-gated free pack downloads with email list collection</span></li>
+      <li class="feature-item"><span style="font-size:18px;flex-shrink:0">🔐</span><span><strong>ARC-Core Backbone:</strong> Deterministic event/receipt/authority kernel for entitlements and billing</span></li>
+    </ul>
+  </div>
+  <div class="stat-grid">
+    <div class="stat-box"><div class="label">🔌 Plugins</div><div class="value">21</div><div class="detail">Free versions, VST3/AU</div></div>
+    <div class="stat-box"><div class="label">🎁 Sample Packs</div><div class="value">11</div><div class="detail">All free, open-source</div></div>
+    <div class="stat-box"><div class="label">🎹 MIDI Tools</div><div class="value">3</div><div class="detail">Browser-playable</div></div>
+    <div class="stat-box"><div class="label">🎮 Games</div><div class="value">6</div><div class="detail">2 playable, 4 planned</div></div>
+    <div class="stat-box"><div class="label">📄 Papers</div><div class="value">7</div><div class="detail">DSP + AI/ARC</div></div>
+    <div class="stat-box"><div class="label">📣 Channels</div><div class="value">8</div><div class="detail">Social + music</div></div>
+  </div>
+</div>
+
+<!-- Platform Capacity (1,200 User Infrastructure) -->
+<div style="background:rgba(255,255,255,.05);border:2px solid rgba(139,92,246,.3);border-radius:16px;padding:30px;margin-bottom:40px;transition:all .3s" onmouseover="this.style.borderColor='rgba(139,92,246,.6)';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='rgba(139,92,246,.3)';this.style.transform='translateY(0)'">
+  <h2 style="font-size:20px;font-weight:600;margin-bottom:8px;display:flex;align-items:center;gap:8px">📊 Platform Capacity (1,200 User Infrastructure)</h2>
+  <p style="font-size:13px;color:rgba(255,255,255,.7);margin-bottom:16px">The HUB is in controlled growth phase. Signups are open until 1,200 users. A site-wide warning appears at 1,000 users. All sign-ins tracked via ARC-Core event spine.</p>
+
+  <!-- Staff -->
+  <div style="margin-bottom:16px;padding:14px;background:rgba(255,215,0,.15);border:2px solid rgba(255,215,0,.4);border-radius:8px">
+    <div style="font-size:13px;font-weight:600;color:#ffd700;margin-bottom:8px">♟️ Platform Staff</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;font-size:11px">
+      <div style="padding:8px;background:rgba(255,215,0,.1);border-radius:6px"><div style="color:#ffd700;font-weight:600">👑 Founder</div><div style="color:rgba(255,215,0,.8);font-size:11px;font-weight:600">@GareBearProductionz</div><div style="color:rgba(255,255,255,.9);font-size:10px">Gary Richard Doman</div></div>
+      <div style="padding:8px;background:rgba(108,123,189,.1);border-radius:6px"><div style="color:#6c7bbd;font-weight:600">📧 Newsletter</div><div style="color:rgba(255,255,255,.7);font-size:10px">Weekly Monday digest to all subscribers</div></div>
+      <div style="padding:8px;background:rgba(34,197,94,.1);border-radius:6px"><div style="color:#22c55e;font-weight:600">🎫 Support</div><div style="color:rgba(255,255,255,.7);font-size:10px"><a href="https://github.com/GareBear99/Portfolio/issues" target="_blank" style="color:#22c55e">Portfolio/issues</a></div></div>
+    </div>
+  </div>
+
+  <!-- Capacity Tiers -->
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px">
+    <div style="background:rgba(255,85,0,.15);border:1px solid rgba(255,85,0,.3);border-radius:8px;padding:14px">
+      <div style="font-size:12px;color:rgba(255,255,255,.6);margin-bottom:4px">🔊 SoundCloud Users</div>
+      <div style="font-size:20px;font-weight:700;color:#ff5500" id="scCount">0</div>
+      <div style="font-size:12px;color:#ff5500;font-weight:600">Follow-gated pack access</div>
+      <div style="font-size:11px;color:rgba(255,255,255,.5)">OAuth + email collection</div>
+    </div>
+    <div style="background:rgba(66,133,244,.15);border:1px solid rgba(66,133,244,.3);border-radius:8px;padding:14px">
+      <div style="font-size:12px;color:rgba(255,255,255,.6);margin-bottom:4px">🔑 Google Users</div>
+      <div style="font-size:20px;font-weight:700;color:#4285f4" id="googleCount">0</div>
+      <div style="font-size:12px;color:#4285f4;font-weight:600">License key recovery</div>
+      <div style="font-size:11px;color:rgba(255,255,255,.5)">JWT + email collection</div>
+    </div>
+    <div style="background:rgba(108,123,189,.15);border:1px solid rgba(108,123,189,.3);border-radius:8px;padding:14px">
+      <div style="font-size:12px;color:rgba(255,255,255,.6);margin-bottom:4px">📊 Total Community</div>
+      <div style="font-size:20px;font-weight:700;color:#6c7bbd" id="totalCommunity">0 / 1,200</div>
+      <div style="font-size:12px;font-weight:600;margin-bottom:4px" id="capacityStatus" style="color:#22c55e">✓ Open for signups</div>
+      <div style="font-size:11px;color:rgba(255,255,255,.5)" id="capacityPct">0% capacity</div>
+    </div>
+    <div style="background:rgba(34,197,94,.15);border:1px solid rgba(34,197,94,.3);border-radius:8px;padding:14px">
+      <div style="font-size:12px;color:rgba(255,255,255,.6);margin-bottom:4px">🏆 Giveaway Status</div>
+      <div style="font-size:20px;font-weight:700;color:#22c55e" id="giveawayStatus">🔒 Locked</div>
+      <div style="font-size:12px;color:#22c55e;font-weight:600" id="giveawayRemaining">1,000 users to unlock</div>
+      <div style="font-size:11px;color:rgba(255,255,255,.5)">Plugin upgrades + exclusive packs</div>
+    </div>
+    <div style="background:rgba(168,85,247,.15);border:1px solid rgba(168,85,247,.3);border-radius:8px;padding:14px">
+      <div style="font-size:12px;color:rgba(255,255,255,.6);margin-bottom:4px">📻 Radio Stream</div>
+      <div style="font-size:20px;font-weight:700;color:#a855f7">🚧 Soon</div>
+      <div style="font-size:12px;color:#a855f7;font-weight:600">24/7 YouTube radio</div>
+      <div style="font-size:11px;color:rgba(255,255,255,.5)">Song submissions + badges</div>
+    </div>
+  </div>
+
+  <!-- Capacity Progress Bar -->
+  <div style="margin-top:16px;padding:12px;background:rgba(0,0,0,.3);border-radius:8px">
+    <div style="display:flex;justify-content:space-between;font-size:12px;color:rgba(255,255,255,.6);margin-bottom:6px">
+      <span>🎯 Community Capacity</span>
+      <span id="capacityLabel">0 / 1,200</span>
+    </div>
+    <div style="height:10px;background:rgba(255,255,255,.1);border-radius:5px;overflow:hidden;position:relative">
+      <div id="capacityBar" style="height:100%;width:0%;background:linear-gradient(90deg,#22c55e,#6c7bbd);border-radius:5px;transition:width .5s"></div>
+      <!-- Warning threshold marker at 83.3% (1000/1200) -->
+      <div style="position:absolute;top:0;bottom:0;left:83.3%;width:2px;background:#eab308;z-index:1" title="Warning: 1,000 users"></div>
+    </div>
+    <div style="display:flex;justify-content:space-between;font-size:10px;color:rgba(255,255,255,.4);margin-top:4px">
+      <span>0</span>
+      <span style="color:#eab308">⚠️ 1,000 warning</span>
+      <span style="color:#ef4444">🔒 1,200 cap</span>
+    </div>
+  </div>
+
+  <!-- Warning/Closed Banner -->
+  <div id="capacityWarning" style="display:none;margin-top:12px;padding:12px;border-radius:8px;font-size:13px;line-height:1.6"></div>
+
+  <!-- Ecosystem Inventory -->
+  <div style="margin-top:16px;padding:16px;background:rgba(34,197,94,.1);border:1px solid rgba(34,197,94,.3);border-radius:8px">
+    <div style="font-size:13px;font-weight:600;color:#22c55e;margin-bottom:12px">⚙️ Ecosystem Content Inventory</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px">
+      <div style="background:rgba(0,0,0,.2);padding:10px;border-radius:6px"><div style="font-size:10px;color:rgba(255,255,255,.5)">Plugins</div><div style="font-size:18px;font-weight:700;color:#22c55e">21</div><div style="font-size:9px;color:rgba(255,255,255,.4)">VST3 / AU / Standalone</div></div>
+      <div style="background:rgba(0,0,0,.2);padding:10px;border-radius:6px"><div style="font-size:10px;color:rgba(255,255,255,.5)">Sample Packs</div><div style="font-size:18px;font-weight:700;color:#3b82f6">11</div><div style="font-size:9px;color:rgba(255,255,255,.4)">Free + open source</div></div>
+      <div style="background:rgba(0,0,0,.2);padding:10px;border-radius:6px"><div style="font-size:10px;color:rgba(255,255,255,.5)">MIDI Tools</div><div style="font-size:18px;font-weight:700;color:#f59e0b">3</div><div style="font-size:9px;color:rgba(255,255,255,.4)">Browser playable</div></div>
+      <div style="background:rgba(0,0,0,.2);padding:10px;border-radius:6px"><div style="font-size:10px;color:rgba(255,255,255,.5)">Games</div><div style="font-size:18px;font-weight:700;color:#a855f7">6</div><div style="font-size:9px;color:rgba(255,255,255,.4)">2 playable + 4 planned</div></div>
+      <div style="background:rgba(0,0,0,.2);padding:10px;border-radius:6px"><div style="font-size:10px;color:rgba(255,255,255,.5)">Papers</div><div style="font-size:18px;font-weight:700;color:#ec4899">7</div><div style="font-size:9px;color:rgba(255,255,255,.4)">DSP + AI/ARC</div></div>
+      <div style="background:rgba(0,0,0,.2);padding:10px;border-radius:6px"><div style="font-size:10px;color:rgba(255,255,255,.5)">Manifests</div><div style="font-size:18px;font-weight:700;color:#10b981">7</div><div style="font-size:9px;color:rgba(255,255,255,.4)">JSON source-of-truth</div></div>
+    </div>
+  </div>
+
+  <div style="margin-top:16px;padding:12px;background:rgba(0,0,0,.3);border-radius:6px;font-size:12px;color:rgba(255,255,255,.8);line-height:1.6">
+    <strong>⚠️ Capacity Notice:</strong> When the community reaches 1,000 users, a warning banner appears site-wide. At 1,200 users, new signups are paused until capacity is expanded.
+  </div>
+
+  <div style="margin-top:8px;font-size:11px;color:rgba(255,255,255,.5);text-align:center">
+    📡 Live data from <code>/community/stats</code> • Updated on sign-in • Weekly digest every Monday
+  </div>
+</div>
+
+<!-- Tutorials -->
+<div class="doc-card">
+  <div class="doc-icon">📖</div>
+  <h2>Tutorials</h2>
+  <p>Step-by-step guides for getting started with the HUB, building plugins with JUCE, using the MIDI tools, and navigating the ecosystem. Tutorials tab on the dashboard is data-driven by <code>tutorials.json</code>.</p>
+  <div style="display:flex;flex-wrap:wrap;gap:8px">
+    <a href="../index.html" class="doc-link" onclick="setTimeout(()=>switchScreen&&switchScreen('tutorials'),100)"><span>📖</span> Open Tutorials Tab</a>
+  </div>
+</div>
+
+<!-- Dashboard Tabs -->
+<div class="doc-card">
+  <div class="doc-icon">🎛️</div>
+  <h2>Dashboard Tabs</h2>
+  <p>The live dashboard at <a href="../index.html">garebear99.github.io/TizWildinEntertainmentHUB</a> organizes the ecosystem into 7 tabs.</p>
+  <div style="display:grid;gap:12px">
+    <div><div style="font-size:12px;color:#6c7bbd;font-weight:600;margin-bottom:4px">🔌 Plugins</div><div style="font-size:12px;color:rgba(255,255,255,.7)">21 plugins across Flagship, Instruments, Maid Suite, Sound Design, and Experimental categories. Live GitHub release checking, download buttons, demo links.</div></div>
+    <div><div style="font-size:12px;color:#6c7bbd;font-weight:600;margin-bottom:4px">🎁 Packs & Samples</div><div style="font-size:12px;color:rgba(255,255,255,.7)">11 free sample packs. SoundCloud follow-gate: sign in and follow @TizWildin to unlock downloads.</div></div>
+    <div><div style="font-size:12px;color:#6c7bbd;font-weight:600;margin-bottom:4px">📚 Lists</div><div style="font-size:12px;color:rgba(255,255,255,.7)">Public discovery lists — awesome-audio-plugins-dev (Start Here), awesome-audio-lists, awesome-music-platforms, awesome-python-audio-science.</div></div>
+    <div><div style="font-size:12px;color:#6c7bbd;font-weight:600;margin-bottom:4px">🔧 Tools</div><div style="font-size:12px;color:rgba(255,255,255,.7)">ARC-AudioBench, Voxel Audio, BannerBass, browser MIDI instruments (Violin, Bongo, Harp), SlushAI (planned).</div></div>
+    <div><div style="font-size:12px;color:#6c7bbd;font-weight:600;margin-bottom:4px">🎮 Games</div><div style="font-size:12px;color:rgba(255,255,255,.7)">RiftAscent (playable demo), Neolution (playable), plus 4 planned titles. Linked to RiftWave Suite synth engine.</div></div>
+    <div><div style="font-size:12px;color:#6c7bbd;font-weight:600;margin-bottom:4px">📣 Promotionals</div><div style="font-size:12px;color:rgba(255,255,255,.7)">SoundCloud, YouTube, Facebook, Release Vault, 24/7 Radio Stream (coming soon), Song Submission Portal (coming soon).</div></div>
+    <div><div style="font-size:12px;color:#6c7bbd;font-weight:600;margin-bottom:4px">🎓 Academics</div><div style="font-size:12px;color:rgba(255,255,255,.7)">7 published articles and preprints across Audio DSP and AI/ARC Ecosystem categories.</div></div>
+  </div>
+</div>
+
+<!-- ARC-Core -->
+<div class="doc-card">
+  <div class="doc-icon">🔐</div>
+  <h2>ARC-Core Architecture</h2>
+  <p>The HUB's authority, entitlement, and release-polling backbone is ARC-Core — a deterministic event/receipt/authority kernel. Every entitlement, activation, update, and billing transaction is replayable, tamper-evident, and SHA-256 addressable.</p>
+  <div style="display:flex;flex-wrap:wrap;gap:8px">
+    <a href="https://github.com/GareBear99/ARC-Core" target="_blank" class="doc-link"><span>🏛️</span> ARC-Core Repo</a>
+    <a href="https://github.com/GareBear99/Arc-RAR" target="_blank" class="doc-link"><span>📦</span> Arc-RAR</a>
+    <a href="https://github.com/GareBear99/ARC-Neuron-LLMBuilder" target="_blank" class="doc-link"><span>🧠</span> ARC-Neuron</a>
+    <a href="../arc-index.html" class="doc-link"><span>🧭</span> ARC Spine Index</a>
+  </div>
+</div>
+
+<!-- Account, Linked Platforms & Verified Badge -->
+<div class="doc-card">
+  <div class="doc-icon">🔑</div>
+  <h2>Account & Linked Platforms</h2>
+  <p>Sign in with SoundCloud or Google. Link your SoundCloud, Spotify, and GitHub to submit songs to the 24/7 radio. Get 3 songs accepted through the quality gate to earn a <strong style="color:#22c55e">✅ Verified</strong> badge on the HUB.</p>
+  <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px">
+    <a href="account.html" class="doc-link"><span>🔑</span> Account Page</a>
+    <a href="https://soundcloud.com/tizwildin" target="_blank" class="doc-link" style="background:rgba(255,85,0,.1);border-color:rgba(255,85,0,.3);color:#ff5500"><span>🔊</span> SoundCloud</a>
+    <a href="https://open.spotify.com" target="_blank" class="doc-link" style="background:rgba(30,215,96,.1);border-color:rgba(30,215,96,.3);color:#1ed760"><span>🎵</span> Spotify</a>
+    <a href="https://github.com/GareBear99" target="_blank" class="doc-link" style="background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.2);color:#e8eaf0"><span>🐙</span> GitHub</a>
+  </div>
+  <div style="padding:14px;background:rgba(34,197,94,.1);border:1px solid rgba(34,197,94,.3);border-radius:8px;font-size:13px;color:rgba(255,255,255,.8);line-height:1.6">
+    <strong style="color:#22c55e">✅ Verified Badge:</strong> Submit songs to the 24/7 radio via SoundCloud or Spotify URL. Each submission is quality-gated using FreeEQ8-style analysis (EBU R128 loudness, clipping, bitrate, duration). After <strong>3 accepted songs</strong>, your account is automatically verified on the HUB.
+  </div>
+</div>
+
+<!-- 24/7 Radio & Song Submissions -->
+<div class="doc-card">
+  <div class="doc-icon">📻</div>
+  <h2>24/7 Radio Stream & Song Submissions</h2>
+  <p>Dockerized radio service streaming to YouTube via FFmpeg RTMP. Default playlist pulled from your SoundCloud. Users submit songs via SoundCloud/Spotify URL — quality-gated with FreeEQ8-style analysis before queuing.</p>
+  <div style="display:grid;gap:8px;font-size:12px;margin-bottom:16px">
+    <div style="padding:8px;background:rgba(0,0,0,.2);border-radius:6px;border-left:3px solid #ff5500"><code style="color:#ff5500">POST /radio/submit</code> — Submit song via SoundCloud/Spotify URL (auth required)</div>
+    <div style="padding:8px;background:rgba(0,0,0,.2);border-radius:6px;border-left:3px solid #22c55e"><code style="color:#22c55e">GET /radio/queue</code> — Current queue status + pending submissions</div>
+    <div style="padding:8px;background:rgba(0,0,0,.2);border-radius:6px;border-left:3px solid #3b82f6"><code style="color:#3b82f6">GET /radio/history</code> — Recent play history</div>
+    <div style="padding:8px;background:rgba(0,0,0,.2);border-radius:6px;border-left:3px solid #a855f7"><code style="color:#a855f7">GET /account/verified</code> — Check verified badge status (3 accepted = verified)</div>
+  </div>
+  <div style="padding:12px;background:rgba(255,85,0,.1);border:1px solid rgba(255,85,0,.3);border-radius:8px;font-size:12px;color:rgba(255,255,255,.8);line-height:1.6">
+    <strong style="color:#ff5500">🎧 Quality Gate:</strong> EBU R128 loudness (≥-30 LUFS), true peak (≤-0.5 dBTP), bitrate (≥96kbps), duration (≥30s), silence detection. Score ≥50 + no critical issues = accepted.
+  </div>
+</div>
+
+<!-- Backend API Documentation -->
+<div class="doc-card" style="border-color:rgba(34,197,94,.4);background:linear-gradient(135deg,rgba(34,197,94,.08),rgba(108,123,189,.08)),rgba(255,255,255,.05)">
+  <div class="doc-icon">🌐</div>
+  <h2>Backend API Reference</h2>
+  <p>Cloudflare Worker backend (<code>tizwildin-hub.admension.workers.dev</code>) handling authentication, licensing, subscriptions, and community features for all TizWildin products.</p>
+  <div style="margin-top:16px;padding:14px;background:rgba(34,197,94,.05);border:1px solid rgba(34,197,94,.25);border-radius:8px">
+    <div style="font-size:12px;font-weight:600;color:#22c55e;margin-bottom:10px">🔑 Core Endpoints</div>
+    <div style="display:grid;gap:8px;font-size:12px">
+      <div style="padding:8px;background:rgba(0,0,0,.2);border-radius:6px;border-left:3px solid #22c55e"><code style="color:#22c55e">POST /auth/google/signin</code> — Google OAuth sign-in with geodata tracking</div>
+      <div style="padding:8px;background:rgba(0,0,0,.2);border-radius:6px;border-left:3px solid #3b82f6"><code style="color:#3b82f6">POST /activate</code> — Activate ProEQ8 license on device</div>
+      <div style="padding:8px;background:rgba(0,0,0,.2);border-radius:6px;border-left:3px solid #8b5cf6"><code style="color:#8b5cf6">POST /hub/master-key/link</code> — Link seat to email (Master Key)</div>
+      <div style="padding:8px;background:rgba(0,0,0,.2);border-radius:6px;border-left:3px solid #f59e0b"><code style="color:#f59e0b">GET /hub/account</code> — Full account status + licenses</div>
+      <div style="padding:8px;background:rgba(0,0,0,.2);border-radius:6px;border-left:3px solid #ef4444"><code style="color:#ef4444">POST /create-checkout</code> — Stripe checkout for ProEQ8</div>
+      <div style="padding:8px;background:rgba(0,0,0,.2);border-radius:6px;border-left:3px solid #a855f7"><code style="color:#a855f7">GET /hub/community-stats</code> — Community statistics</div>
+    </div>
+  </div>
+  <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:16px">
+    <a href="api.html" class="doc-link" style="background:rgba(34,197,94,.1);border-color:rgba(34,197,94,.3);color:#22c55e"><span>📖</span> Full API Docs</a>
+    <a href="../API.md" class="doc-link"><span>📋</span> API.md (Markdown)</a>
+    <a href="https://tizwildin-hub.admension.workers.dev/health" target="_blank" class="doc-link"><span>💚</span> Health Check</a>
+  </div>
+</div>
+
+<!-- ARC API Documentation -->
+<div class="doc-card">
+  <div class="doc-icon">🔐</div>
+  <h2>ARC Service API</h2>
+  <p>FastAPI backend (arc_service) for radio submissions, song quality gate, and verified badge system. Run locally with Docker.</p>
+  <div style="margin-top:16px;padding:14px;background:rgba(59,130,246,.05);border:1px solid rgba(59,130,246,.25);border-radius:8px">
+    <div style="font-size:12px;font-weight:600;color:#60a5fa;margin-bottom:10px">🔗 Radio Endpoints</div>
+    <div style="display:grid;gap:8px;font-size:12px">
+      <div style="padding:8px;background:rgba(0,0,0,.2);border-radius:6px;border-left:3px solid #ff5500"><code style="color:#ff5500">POST /radio/submit</code> — Submit song + quality gate + verified badge</div>
+      <div style="padding:8px;background:rgba(0,0,0,.2);border-radius:6px;border-left:3px solid #22c55e"><code style="color:#22c55e">GET /radio/queue</code> — Current queue status</div>
+      <div style="padding:8px;background:rgba(0,0,0,.2);border-radius:6px;border-left:3px solid #a855f7"><code style="color:#a855f7">GET /account/verified</code> — Check verified badge status</div>
+    </div>
+  </div>
+</div>
+
+<!-- Public Indexes -->
+<div class="doc-card">
+  <div class="doc-icon">🗂️</div>
+  <h2>Public Indexes & Crawl Layer</h2>
+  <p>Machine-readable indexes, static pages, and crawler discovery files for the full ecosystem. Regenerated from manifests on every push.</p>
+  <div style="display:flex;flex-wrap:wrap;gap:8px">
+    <a href="../public-index.json" class="doc-link"><span>📋</span> Public JSON Index</a>
+    <a href="../ecosystem-index.html" class="doc-link"><span>🌐</span> Ecosystem Index</a>
+    <a href="../search-index.json" class="doc-link"><span>🔍</span> Search Index</a>
+    <a href="../llms.txt" class="doc-link"><span>🤖</span> LLM Index</a>
+    <a href="../sitemap.xml" class="doc-link"><span>🗺️</span> Sitemap</a>
+    <a href="../index-health.html" class="doc-link"><span>💚</span> Health Dashboard</a>
+  </div>
+</div>
+
+<!-- Coming Soon -->
+<div style="background:rgba(255,255,255,.05);border:2px solid rgba(234,179,8,.3);border-radius:16px;padding:30px;margin-bottom:30px;transition:all .3s" onmouseover="this.style.borderColor='rgba(234,179,8,.6)';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='rgba(234,179,8,.3)';this.style.transform='translateY(0)'">
+  <div style="font-size:32px;margin-bottom:12px">🚧</div>
+  <h2 style="font-size:20px;font-weight:600;margin-bottom:12px">Coming Soon</h2>
+  <div style="display:grid;gap:12px;font-size:13px;color:rgba(255,255,255,.8);line-height:1.8">
+    <div><strong style="color:#eab308">📻 24/7 Radio Stream</strong> — Live YouTube radio connected to the ecosystem with song-submission routing and badge-gated daily submissions</div>
+    <div><strong style="color:#eab308">🎁 1,000 User Giveaway</strong> — When we reach 1,000 users, giveaways begin: free plugin upgrades, exclusive sample packs, and more</div>
+    <div><strong style="color:#eab308">💳 Stripe Integration</strong> — Full checkout flow for plugin upgrades, wired to the ARC entitlement spine</div>
+    <div><strong style="color:#eab308">🤖 SlushAI</strong> — AI-assisted creator automation tool for the TizWildin ecosystem</div>
+  </div>
+</div>
+
+<!-- Key Points -->
+<div class="highlight-box">
+  <h3>📋 Key Points</h3>
+  <ul>
+    <li><strong>Free-first:</strong> Every plugin has a free version. Payments happen inside each product, not in the HUB</li>
+    <li><strong>Open Source:</strong> All plugins, packs, tools, and the HUB itself are open-source on GitHub</li>
+    <li><strong>SoundCloud Follow-Gate:</strong> Free sample pack downloads require following @TizWildin on SoundCloud</li>
+    <li><strong>ARC-Core Backbone:</strong> Entitlements, activations, and billing are event-sourced, replayable, and SHA-256 addressable</li>
+    <li><strong>7 Manifest Files:</strong> plugins.json, packs.json, lists.json, tools.json, games.json, academics.json, promotionals.json</li>
+    <li><strong>Weekly Newsletter:</strong> Every Monday — sharing CTAs, 1,000-user giveaway progress, and ecosystem updates</li>
+    <li><strong>Press Coverage:</strong> Rekkerd.org and AudioApp.cn have covered FreeEQ8</li>
+    <li><strong>Support Tickets:</strong> Report issues at <a href="https://github.com/GareBear99/Portfolio/issues" style="color:#22c55e">github.com/GareBear99/Portfolio/issues</a></li>
+    <li><strong>Formats:</strong> VST3, AU, Standalone — macOS, Windows, Linux</li>
+  </ul>
+</div>
+
+<div style="display:flex;gap:12px;justify-content:center;margin-top:30px;flex-wrap:wrap">
+  <a href="../index.html" class="back-link"><span>←</span> Back to HUB</a>
+  <a href="account.html" class="back-link"><span>🔑</span> Account</a>
+  <a href="https://github.com/GareBear99/Portfolio/issues" target="_blank" class="back-link"><span>🎫</span> Report Issue</a>
+</div>
+
+</div>
+<script>
+(async function(){
+  const ARC = window.location.hostname === 'localhost' ? 'http://127.0.0.1:8000' : 'https://tizwildin-hub.admension.workers.dev';
+  try {
+    const resp = await fetch(ARC + '/hub/community-stats');
+    const data = await resp.json();
+    const total = data.totalUsers || 0;
+    const cap = data.capacity || 1200;
+    const warn = data.warningThreshold || 1000;
+    const pct = Math.min(100, Math.round((total / cap) * 100));
+    const giveawayPct = data.giveawayProgress || 0;
+    const remaining = data.remaining || 1000;
+
+    // Support card
+    const el = document.getElementById('docsUserCount');
+    if (el) el.innerHTML = `🎯 <strong>${total}</strong> / ${cap} users — ${pct}% capacity`;
+
+    // Capacity section
+    const tc = document.getElementById('totalCommunity');
+    if (tc) tc.textContent = `${total} / ${cap.toLocaleString()}`;
+    const cpct = document.getElementById('capacityPct');
+    if (cpct) cpct.textContent = `${pct}% capacity`;
+
+    // Capacity status
+    const cs = document.getElementById('capacityStatus');
+    if (cs) {
+      if (total >= cap) { cs.textContent = '🔒 Signups closed'; cs.style.color = '#ef4444'; }
+      else if (total >= warn) { cs.textContent = '⚠️ Near capacity'; cs.style.color = '#eab308'; }
+      else { cs.textContent = '✓ Open for signups'; cs.style.color = '#22c55e'; }
+    }
+
+    // Giveaway
+    const gs = document.getElementById('giveawayStatus');
+    const gr = document.getElementById('giveawayRemaining');
+    if (gs && gr) {
+      if (total >= 1000) { gs.textContent = '🎉 LIVE!'; gs.style.color = '#22c55e'; gr.textContent = 'Giveaways are active!'; }
+      else { gs.textContent = '🔒 Locked'; gr.textContent = `${remaining.toLocaleString()} to unlock`; }
+    }
+
+    // Capacity bar
+    const cb = document.getElementById('capacityBar');
+    const cl = document.getElementById('capacityLabel');
+    if (cb) { cb.style.width = pct + '%'; if (total >= warn) cb.style.background = total >= cap ? '#ef4444' : 'linear-gradient(90deg,#eab308,#ef4444)'; }
+    if (cl) cl.textContent = `${total} / ${cap.toLocaleString()}`;
+
+    // Warning banner
+    const cw = document.getElementById('capacityWarning');
+    if (cw) {
+      if (total >= cap) { cw.style.display = 'block'; cw.style.background = 'rgba(239,68,68,.15)'; cw.style.border = '1px solid rgba(239,68,68,.4)'; cw.style.color = '#fca5a5'; cw.innerHTML = '<strong>🔒 Signups Closed:</strong> The platform has reached maximum capacity (' + cap + ' users). New registrations are paused until capacity is expanded.'; }
+      else if (total >= warn) { cw.style.display = 'block'; cw.style.background = 'rgba(234,179,8,.15)'; cw.style.border = '1px solid rgba(234,179,8,.4)'; cw.style.color = '#fde68a'; cw.innerHTML = '<strong>⚠️ Capacity Warning:</strong> The platform has passed ' + warn.toLocaleString() + ' users. Signups will close at ' + cap.toLocaleString() + ' users (' + (cap - total) + ' slots remaining).'; }
+    }
+  } catch(e) {}
+})();
+</script>
+</body>
+</html>

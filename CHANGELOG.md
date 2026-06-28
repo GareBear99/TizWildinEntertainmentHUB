@@ -1,55 +1,39 @@
+
+## 2026-05-03 — V1 Start Here List Routing Update
+
+- Promoted `awesome-audio-plugins-dev` as the canonical **Start Here** list on the default public V1 dashboard.
+- Added/retained visible public routing to `awesome-audio-lists`, `awesome-music-platforms`, and `awesome-python-audio-science`.
+- Updated `lists.json` and `docs/data/lists.json` with priority ordering, Start Here metadata, and Python audio science routing.
+- Updated `docs/index.html` and `docs/index-seo.html` so the `.io` public page exposes crawlable links to the complete list network.
+- Added audit evidence under `docs/V1_START_HERE_LIST_AUDIT.md`.
+
 # Changelog
 
-All notable changes to this project are documented in this file.
+## 2026-05-04 — V1 public dashboard Lists tab + discovery network routing
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
-and this project aims to follow [Semantic Versioning](https://semver.org/).
+- Added a visible **📚 Lists** tab to the default public `.io` dashboard (`docs/index.html`).
+- Added `lists.json` and `docs/data/lists.json` as the data source for canonical list/project anchors.
+- Linked the HUB to `awesome-audio-lists`, `awesome-music-platforms`, `awesome-audio-plugins-dev`, FreeEQ8, FreeVox8, and Release Vault.
+- Updated the SEO landing page, sitemap, README, and audit docs to reflect the list-network routing.
+- Preserved V1 default behavior and the auto-check toggle default.
 
-## [Unreleased]
 
-### Added
-- Repository community standards and governance files:
-  - `CONTRIBUTING.md`
-  - `CODE_OF_CONDUCT.md`
-  - `SECURITY.md`
-  - `CHANGELOG.md`
-  - `LICENSE`
-- GitHub repository meta config:
-  - `.gitattributes`
-  - `.github/FUNDING.yml`
-  - `.github/pull_request_template.md`
-  - issue templates (`bug_report.md`, `feature_request.md`, `config.yml`)
-  - CI workflow (`.github/workflows/ci.yml`)
-- Comprehensive README overhaul:
-  - architecture overview
-  - full endpoint map
-  - product catalog and repo mapping
-  - quick start, testing, env vars, roadmap
+## v2.0.0 — Public production hardening audit
 
-## [0.1.0] - 2026-03-12
+- Rebuilt README as a public SEO and trust funnel.
+- Rebuilt GitHub Pages landing page with stronger hero, metadata, local catalog loading, and explicit production stance.
+- Added `scripts/validate_repo.py` as a hard public-readiness gate.
+- Added engineering audit, SEO traction plan, and operator runbook docs.
+- Added static docs catalog copies under `docs/data/`.
+- Fixed empty sitemap and empty catalog issue template.
+- Removed generated staged artifact zips from the public package.
+- Reset stale local runtime mock state.
+- Synced API product catalog with root product manifest.
+- Fixed audit receipt count source.
+- Fixed uninstall CURRENT pointer cleanup.
+- Hardened plugin bridge approval parsing.
+- Tightened `.gitignore` for runtime/build/secrets/generated artifacts.
 
-### Added
-- SQLite persistence layer:
-  - accounts
-  - owned products
-  - owned bundles
-  - seats
-  - receipts
-- GitHub release polling service for product updates.
-- Stripe webhook handling for:
-  - `checkout.session.completed`
-  - `customer.subscription.created`
-  - `customer.subscription.updated`
-  - `invoice.payment_failed`
-- API endpoints:
-  - `GET /releases/{product_id}`
-  - `GET /release-check`
-  - `POST /stripe/webhook`
-- Product catalog `repoSlug` mapping for release checks.
-- Test suite with 20 tests across catalog, entitlements, seats, and proposals.
-- DB migration helper script: `scripts/migrate_mock_to_db.py`.
+## v1.0.0 — SEO hub baseline
 
-### Changed
-- Migrated entitlement and seat services from mock JSON to SQLite.
-- Updated FastAPI app startup to lifespan initialization.
-- Expanded Python dependency set (`httpx`, `pytest`).
+- Public hub scaffold for plugins, packs, Release Vault routing, docs, and local API/app planning.

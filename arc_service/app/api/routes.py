@@ -1,97 +1,614 @@
-from fastapi import APIRouter, HTTPException, Request
-from app.models.domain import (
-    EntitlementState,
-    InstallScanReport,
-    ProposalRequest,
-    RuntimeValidationRequest,
-    SeatAssignment,
-)
-from app.services.catalog_service import load_catalog
-from app.services.entitlement_service import get_entitlement, load_entitlements, resolve_product_access
+from fastapi import APIRouter, HTTPException
+from app.models.domain import BackupRestoreRequest, CheckoutSessionRequest, DownloadPlanRequest, EntitlementState, ExecuteDownloadsRequest, GoogleSignInRequest, HubSettingsState, HubSettingsUpdateRequest, InstallPlanRequest, InstallScanReport, LocalLoginRequest, LocalRegisterRequest, MockLoginRequest, PreflightRequest, ProposalRequest, RadioSubmitRequest, RefreshTokenRequest, ReleaseImportRequest, RepairRequest, RollbackRequest, RuntimeValidationRequest, SeatAssignment, SeatReleaseRequest, SoundCloudAuthUrlRequest, SoundCloudCallbackRequest, TokenRevokeRequest, TokenValidationRequest, UninstallRequest, WebhookEvent
+from app.services.store import load_catalog, load_entitlements
+from app.services.auth_service import local_login, local_refresh, local_register, mock_login, revoke_token, validate_token
+from app.services.entitlement_service import resolve_product_access
+from app.services.seat_service import assign_seat, list_seats, release_seat
 from app.services.proposal_service import decide_proposal
-from app.services.release_service import get_latest_release, bulk_release_check
-from app.services.seat_service import assign_seat, list_seats
-from app.services.stripe_service import verify_signature, dispatch_event
+from app.services.install_scan_service import record_install_scan
+from app.services.webhook_service import ingest_webhook
+from app.services.release_service import get_release_manifest, stage_local_artifacts
+from app.services.install_plan_service import build_install_plan
+from app.services.download_service import build_download_plan, list_receipts, record_install_receipt
+from app.services.execute_downloads_service import execute_downloads, repair_product, rollback_product, uninstall_product
+from app.services.account_service import get_account_summary
+from app.services.machine_service import list_machines
+from app.services.diagnostics_service import export_account_diagnostics
+from app.services.backup_service import export_backup, list_backups, restore_backup
+from app.services.preflight_service import run_preflight
+from app.services.bootstrap_service import bootstrap_demo_state
+from app.services.launchpad_service import get_launchpad
+from app.services.settings_service import get_settings, save_account_settings
+from app.services.activity_service import get_activity
+from app.services.readiness_service import get_readiness
+from app.services.sync_service import build_sync_status
+from app.services.support_bundle_service import create_support_bundle
+from app.services.audit_service import audit_account
+from app.services.billing_service import complete_checkout, create_checkout_session
+from app.services.release_import_service import import_release_manifests
+from app.services.soundcloud_auth_service import check_follows_tizwildin, get_sc_token_for_account, get_soundcloud_auth_url, handle_soundcloud_callback
+from app.services.sqlite_auth_service import list_email_subscribers
 
 router = APIRouter()
+
+
+@router.post("/auth/register")
+def auth_register(request: LocalRegisterRequest):
+    result = local_register(request.email, request.password, request.machineId, request.displayName)
+    if not result.get("approved"):
+        raise HTTPException(status_code=400, detail=result.get("reason", "register_failed"))
+    return result
+
+
+@router.post("/auth/login")
+def auth_login(request: LocalLoginRequest):
+    result = local_login(request.email, request.password, request.machineId)
+    if not result.get("approved"):
+        raise HTTPException(status_code=401, detail=result.get("reason", "login_failed"))
+    return result
+
+
+@router.post("/auth/refresh")
+def auth_refresh(request: RefreshTokenRequest):
+    result = local_refresh(request.refreshToken, request.machineId)
+    if not result.get("approved"):
+        raise HTTPException(status_code=401, detail=result.get("reason", "refresh_failed"))
+    return result
+
+
+@router.get("/auth/me")
+def auth_me(token: str):
+    result = validate_token(token)
+    if not result.get("approved"):
+        raise HTTPException(status_code=401, detail="invalid_token")
+    return result
+
+
+@router.post("/billing/checkout-session")
+def billing_checkout_session(request: CheckoutSessionRequest):
+    result = create_checkout_session(request.accountId, request.productId, request.quantity, request.priceId, request.successUrl, request.cancelUrl)
+    if not result.get("approved"):
+        raise HTTPException(status_code=404, detail=result.get("reason", "checkout_failed"))
+    return result
+
+
+@router.post("/billing/checkout-complete")
+def billing_checkout_complete(request: CheckoutSessionRequest):
+    result = complete_checkout(request.accountId, request.productId, request.quantity)
+    if not result.get("approved"):
+        raise HTTPException(status_code=404, detail=result.get("reason", "checkout_complete_failed"))
+    return result
+
+
+@router.post("/releases/import")
+def releases_import(request: ReleaseImportRequest):
+    result = import_release_manifests(request.source, request.replaceExisting, request.channelOverride)
+    if not result.get("approved"):
+        raise HTTPException(status_code=400, detail=result.get("reason", "release_import_failed"))
+    return result
+
+
+
+@router.get("/health")
+def health():
+    return {"status": "ok"}
+
 
 @router.get("/catalog")
 def get_catalog():
     return load_catalog()
 
-@router.get("/entitlements/{account_id}", response_model=EntitlementState)
-def get_entitlements(account_id: str):
-    data = get_entitlement(account_id)
+
+
+
+@router.post("/sync")
+def sync_status(request: PreflightRequest):
+    data = build_sync_status(request)
+    if not data.get("approved"):
+        raise HTTPException(status_code=404, detail="sync_failed")
+    return data
+
+
+@router.get("/support/bundle/{account_id}")
+def support_bundle(account_id: str, machine_id: str = "mac_demo", channel: str = "stable"):
+    data = create_support_bundle(account_id, machine_id, channel)
+    if not data.get("approved"):
+        raise HTTPException(status_code=404, detail=data.get("reason", "bundle_failed"))
+    return data
+
+
+@router.get("/audit/{account_id}")
+def account_audit(account_id: str, machine_id: str = "mac_demo", channel: str = "stable"):
+    data = audit_account(account_id, machine_id, channel)
+    if not data.get("approved"):
+        raise HTTPException(status_code=404, detail=data.get("reason", "audit_failed"))
+    return data
+
+@router.get("/settings/{account_id}", response_model=HubSettingsState)
+def get_account_settings(account_id: str):
+    return get_settings(account_id)
+
+
+@router.post("/settings", response_model=HubSettingsState)
+def post_account_settings(request: HubSettingsUpdateRequest):
+    return save_account_settings(request)
+
+
+@router.get("/activity/{account_id}")
+def account_activity(account_id: str, limit: int = 25):
+    return get_activity(account_id, limit)
+
+
+@router.get("/readiness/{account_id}")
+def account_readiness(account_id: str, machine_id: str | None = None, channel: str | None = None):
+    data = get_readiness(account_id, machine_id, channel)
     if not data:
         raise HTTPException(status_code=404, detail="Account not found")
     return data
+
+
+@router.get("/catalog/owned/{account_id}")
+def get_owned_catalog(account_id: str):
+    entitlements = load_entitlements().get(account_id)
+    if not entitlements:
+        raise HTTPException(status_code=404, detail="Account not found")
+    catalog = load_catalog()
+    products = []
+    for product in catalog.get("products", []):
+        access = resolve_product_access(entitlements, product.get("productId"))
+        if access.get("allowed") or product.get("licenseClass") in {"FREE_OPEN", "FREE_LITE"}:
+            products.append(product)
+    return {"accountId": account_id, "products": products}
+
+
+@router.post("/auth/mock-login")
+def auth_mock_login(request: MockLoginRequest):
+    result = mock_login(request.accountId, request.machineId)
+    if not result.get("approved"):
+        raise HTTPException(status_code=404, detail="Account not found")
+    return result
+
+
+@router.post("/auth/validate")
+def auth_validate(request: TokenValidationRequest):
+    result = validate_token(request.token)
+    if not result.get("approved"):
+        raise HTTPException(status_code=401, detail="invalid_token")
+    return result
+
+
+@router.post("/auth/logout")
+def auth_logout(request: TokenRevokeRequest):
+    result = revoke_token(request.token)
+    if not result.get("approved"):
+        raise HTTPException(status_code=401, detail="invalid_token")
+    return result
+
+
+@router.get("/entitlements/{account_id}", response_model=EntitlementState)
+def get_entitlements(account_id: str):
+    data = load_entitlements().get(account_id)
+    if not data:
+        raise HTTPException(status_code=404, detail="Account not found")
+    return data
+
 
 @router.get("/seats/{account_id}", response_model=list[SeatAssignment])
 def get_seats(account_id: str):
     return list_seats(account_id)
 
+
+@router.post("/seats/release")
+def post_seat_release(request: SeatReleaseRequest):
+    return release_seat(request.accountId, request.seatId)
+
+
+@router.get("/machines/{account_id}")
+def get_machines(account_id: str):
+    return {"accountId": account_id, "machines": list_machines(account_id)}
+
+
+@router.get("/receipts/{account_id}")
+def get_receipts(account_id: str):
+    return {"accountId": account_id, "receipts": list_receipts(account_id)}
+
+
+@router.get("/account-summary/{account_id}")
+def account_summary(account_id: str):
+    data = get_account_summary(account_id)
+    if not data:
+        raise HTTPException(status_code=404, detail="Account not found")
+    return data
+
+
+@router.get("/releases")
+def get_releases(product_id: str | None = None, channel: str | None = None):
+    return get_release_manifest(product_id, channel)
+
+
+@router.get("/diagnostics/export/{account_id}")
+def diagnostics_export(account_id: str):
+    data = export_account_diagnostics(account_id)
+    if not data.get("approved"):
+        raise HTTPException(status_code=404, detail="Account not found")
+    return data
+
+@router.get("/backups")
+def backups_list():
+    return list_backups()
+
+
+@router.post("/backups/export")
+def backups_export(tag: str | None = None):
+    return export_backup(tag)
+
+
+@router.post("/backups/restore")
+def backups_restore(request: BackupRestoreRequest):
+    data = restore_backup(request.path)
+    if not data.get("approved"):
+        raise HTTPException(status_code=404, detail=data.get("reason", "restore_failed"))
+    return data
+
+
+@router.post("/preflight")
+def preflight(request: PreflightRequest):
+    data = run_preflight(request.accountId, request.machineId, request.requestedProducts, request.channel)
+    if not data.get("approved"):
+        raise HTTPException(status_code=404, detail=data.get("reason", "preflight_failed"))
+    return data
+
+
+
+
+@router.post("/demo/bootstrap")
+def demo_bootstrap(stage_artifacts: bool = True):
+    return bootstrap_demo_state(stage_artifacts)
+
+
+@router.get("/launchpad/{account_id}")
+def launchpad(account_id: str, machine_id: str = "mac_demo", channel: str = "stable"):
+    data = get_launchpad(account_id, machine_id, channel)
+    if not data:
+        raise HTTPException(status_code=404, detail="Account not found")
+    return data
+
+@router.post("/releases/stage-local")
+def stage_releases(channel: str | None = None):
+    return {"staged": stage_local_artifacts(channel)}
+
+
+@router.post("/install-plan")
+def install_plan(request: InstallPlanRequest):
+    return build_install_plan(request)
+
+
+@router.post("/download-plan")
+def download_plan(request: DownloadPlanRequest):
+    return build_download_plan(request)
+
+
+@router.post("/execute-downloads")
+def execute_download_plan(request: ExecuteDownloadsRequest):
+    return execute_downloads(request)
+
+
+@router.post("/repair")
+def repair(request: RepairRequest):
+    return repair_product(request)
+
+
+@router.post("/uninstall")
+def uninstall(request: UninstallRequest):
+    return uninstall_product(request)
+
+
+@router.post("/rollback")
+def rollback(request: RollbackRequest):
+    return rollback_product(request)
+
+
+@router.post("/record-receipt")
+def post_record_receipt(request: DownloadPlanRequest):
+    plan = build_download_plan(request)
+    receipts = [record_install_receipt(request.accountId, request.machineId, d, status="planned") for d in plan.get("downloads", [])]
+    return {"approved": True, "receipts": receipts}
+
+
 @router.post("/validate-runtime")
 def validate_runtime(request: RuntimeValidationRequest):
-    ent = get_entitlement(request.accountId)
-    if not ent:
+    entitlement = load_entitlements().get(request.accountId)
+    if not entitlement:
         raise HTTPException(status_code=404, detail="Account not found")
-
-    access = resolve_product_access(ent, request.productId)
+    access = resolve_product_access(entitlement, request.productId)
     if not access["allowed"]:
-        return {"approved": False, "reason": access["reason"]}
-
+        return {"approved": False, "reason": access["reason"], "features": []}
     seat_result = assign_seat(request.accountId, request.machineId, request.productId)
     if not seat_result["approved"]:
-        return seat_result
+        return {"approved": False, "reason": seat_result["reason"], "features": []}
+    return {"approved": True, "reason": access["reason"], "features": access["features"], "seat": seat_result["seat"]}
 
-    return {
-        "approved": True,
-        "reason": access["reason"],
-        "features": access["features"],
-        "seat": seat_result["seat"]
-    }
 
 @router.post("/proposal")
 def propose(request: ProposalRequest):
     return decide_proposal(request)
 
+
 @router.post("/install-scan")
 def report_install_scan(report: InstallScanReport):
+    return record_install_scan(report)
+
+
+@router.post("/webhooks/ingest")
+def webhooks_ingest(event: WebhookEvent):
+    return ingest_webhook(event)
+
+
+# ── SoundCloud OAuth ──────────────────────────────────────────────
+
+@router.post("/auth/soundcloud/url")
+def soundcloud_auth_url(request: SoundCloudAuthUrlRequest):
+    result = get_soundcloud_auth_url(request.redirectUri)
+    if not result.get("approved"):
+        raise HTTPException(status_code=500, detail=result.get("reason", "soundcloud_not_configured"))
+    return result
+
+
+@router.post("/auth/soundcloud/callback")
+def soundcloud_callback(request: SoundCloudCallbackRequest):
+    result = handle_soundcloud_callback(request.code, request.redirectUri)
+    if not result.get("approved"):
+        raise HTTPException(status_code=401, detail=result.get("reason", "soundcloud_auth_failed"))
+    return result
+
+
+@router.get("/auth/soundcloud/follow-status")
+def soundcloud_follow_status(token: str):
+    from app.services.auth_service import validate_token
+    session = validate_token(token)
+    if not session.get("approved"):
+        raise HTTPException(status_code=401, detail="invalid_token")
+    sc_token = get_sc_token_for_account(session["accountId"])
+    if not sc_token:
+        return {"following": False, "reason": "no_soundcloud_link"}
+    return check_follows_tizwildin(sc_token)
+
+
+# ── Google Sign-In ─────────────────────────────────────────────
+
+@router.post("/auth/google/signin")
+def google_signin(request: GoogleSignInRequest):
+    from app.services.sqlite_auth_service import subscribe_email, upsert_oauth_link, _make_account_id, _new_session, ensure_local_account
+    email = request.email.strip().lower()
+    name = request.name or email.split("@")[0]
+    account_id = _make_account_id(email)
+    upsert_oauth_link(
+        provider="google",
+        provider_user_id=email,
+        account_id=account_id,
+        provider_username=name,
+        provider_avatar_url=request.picture or "",
+        provider_email=email,
+    )
+    ensure_local_account(account_id, email, name)
+    subscribe_email(email=email, source="google", display_name=name)
+    session = _new_session(account_id, "web_google")
+    session["provider"] = "google"
+    session["email"] = email
+    session["displayName"] = name
+    return session
+
+
+# ── User Count ─────────────────────────────────────────────────
+
+@router.get("/community/stats")
+def community_stats():
+    subs = list_email_subscribers()
+    total = len(subs)
+    capacity = 1200
+    warning_threshold = 1000
     return {
-        "accepted": True,
-        "machineId": report.machineId,
-        "productCount": len(report.products),
-        "message": "Wire this into durable ARC receipt/store next"
+        "totalUsers": total,
+        "capacity": capacity,
+        "warningThreshold": warning_threshold,
+        "capacityPercent": min(100, int((total / capacity) * 100)),
+        "signupsOpen": total < capacity,
+        "warningActive": total >= warning_threshold,
+        "slotsRemaining": max(0, capacity - total),
+        "giveawayTarget": 1000,
+        "giveawayProgress": min(100, int((total / 1000) * 100)),
+        "remaining": max(0, 1000 - total),
     }
 
 
-# ---------------------------------------------------------------------------
-# GitHub release polling
-# ---------------------------------------------------------------------------
+# ── Radio / Song Submissions ──────────────────────────────────────
 
-@router.get("/releases/{product_id}")
-def get_release(product_id: str):
-    return get_latest_release(product_id)
+@router.post("/radio/submit")
+def radio_submit(request: "RadioSubmitRequest"):
+    """Submit a song to the 24/7 radio via SoundCloud/Spotify URL.
+    
+    Requires auth. Downloads via yt-dlp, runs FreeEQ8-style quality gate,
+    and queues if passed.
+    """
+    import os, subprocess, json
+    from datetime import UTC, datetime
+    from pathlib import Path
+    from app.models.domain import RadioSubmitRequest as RSR
+
+    # Auth check
+    session = validate_token(request.token)
+    if not session.get("approved"):
+        raise HTTPException(status_code=401, detail="invalid_token")
+
+    url = request.url.strip()
+    if not url:
+        raise HTTPException(status_code=400, detail="url_required")
+
+    # Validate URL is SoundCloud or Spotify
+    valid_domains = ["soundcloud.com", "spotify.com", "open.spotify.com"]
+    if not any(d in url.lower() for d in valid_domains):
+        raise HTTPException(status_code=400, detail="Only SoundCloud and Spotify URLs are accepted")
+
+    # Download via yt-dlp
+    submissions_dir = os.environ.get("RADIO_SUBMISSIONS_DIR", "data/radio_submissions")
+    os.makedirs(submissions_dir, exist_ok=True)
+
+    timestamp = datetime.now(UTC).strftime("%Y%m%d_%H%M%S")
+    account_id = session.get("accountId", "unknown")
+    output_template = os.path.join(submissions_dir, f"sub_{account_id}_{timestamp}_%(title)s.%(ext)s")
+
+    try:
+        result = subprocess.run(
+            ["yt-dlp", "-x", "--audio-format", "mp3", "--audio-quality", "0",
+             "--max-filesize", "15M", "-o", output_template, url],
+            capture_output=True, text=True, timeout=120,
+        )
+        if result.returncode != 0:
+            detail = result.stderr[:200] if result.stderr else "Download failed"
+            raise HTTPException(status_code=400, detail=f"Download failed: {detail}")
+    except subprocess.TimeoutExpired:
+        raise HTTPException(status_code=408, detail="Download timed out")
+    except HTTPException:
+        raise
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Download error: {exc}")
+
+    # Find the downloaded file
+    downloaded = [f for f in os.listdir(submissions_dir) if f.startswith(f"sub_{account_id}_{timestamp}")]
+    if not downloaded:
+        raise HTTPException(status_code=500, detail="File not found after download")
+
+    file_path = os.path.join(submissions_dir, downloaded[0])
+
+    # Quality gate (FreeEQ8-style analysis)
+    try:
+        from radio_service_quality import quality_check
+        qc = quality_check(file_path)
+    except ImportError:
+        # Inline basic quality check if radio_service isn't importable
+        qc = _basic_quality_check(file_path)
+
+    # Record submission + check verified badge
+    from app.services.sqlite_auth_service import record_radio_submission, get_verification_status
+    badge_result = record_radio_submission(
+        account_id=account_id,
+        url=url,
+        file_name=downloaded[0] if downloaded else "",
+        score=qc["score"],
+        passed=qc["passed"],
+    )
+    verification = get_verification_status(account_id)
+
+    if not qc["passed"]:
+        # Remove rejected file
+        try:
+            os.remove(file_path)
+        except Exception:
+            pass
+        return {
+            "approved": False,
+            "verdict": qc["verdict"],
+            "score": qc["score"],
+            "issues": qc["issues"],
+            "warnings": qc.get("warnings", []),
+            "verification": verification,
+        }
+
+    response = {
+        "approved": True,
+        "verdict": qc["verdict"],
+        "score": qc["score"],
+        "file": downloaded[0],
+        "warnings": qc.get("warnings", []),
+        "message": "Song accepted and queued for the 24/7 radio!",
+        "verification": verification,
+    }
+    if badge_result.get("newlyVerified"):
+        response["message"] = "🎉 Congratulations! Your account is now VERIFIED on the HUB! (3 songs accepted)"
+        response["newlyVerified"] = True
+    return response
 
 
-@router.get("/release-check")
-def release_check():
-    return bulk_release_check()
+def _basic_quality_check(file_path: str) -> dict:
+    """Basic quality check using ffprobe if radio_service quality_gate isn't available."""
+    import subprocess, json
+    issues = []
+    score = 100
+    try:
+        result = subprocess.run(
+            ["ffprobe", "-v", "quiet", "-show_entries", "format=duration,bit_rate", "-of", "json", file_path],
+            capture_output=True, text=True, timeout=30,
+        )
+        probe = json.loads(result.stdout)
+        fmt = probe.get("format", {})
+        duration = float(fmt.get("duration", 0))
+        bitrate = int(fmt.get("bit_rate", 0) or 0)
+        if duration < 30:
+            issues.append(f"Too short: {duration:.0f}s")
+            score -= 40
+        if bitrate and bitrate < 96000:
+            issues.append(f"Low bitrate: {bitrate // 1000}kbps")
+            score -= 25
+    except Exception:
+        pass
+    passed = score >= 50 and len(issues) == 0
+    return {
+        "passed": passed,
+        "score": max(0, score),
+        "issues": issues,
+        "warnings": [],
+        "verdict": "✅ Accepted" if passed else "❌ Rejected",
+    }
 
 
-# ---------------------------------------------------------------------------
-# Stripe webhook
-# ---------------------------------------------------------------------------
+@router.get("/account/verified")
+def account_verified(token: str):
+    """Check if an account is verified (3+ accepted radio submissions)."""
+    session = validate_token(token)
+    if not session.get("approved"):
+        raise HTTPException(status_code=401, detail="invalid_token")
+    from app.services.sqlite_auth_service import get_verification_status
+    return get_verification_status(session["accountId"])
 
-@router.post("/stripe/webhook")
-async def stripe_webhook(request: Request):
-    body = await request.body()
-    sig = request.headers.get("stripe-signature", "")
 
-    if not verify_signature(body, sig):
-        raise HTTPException(status_code=400, detail="Invalid signature")
+@router.get("/radio/queue")
+def radio_queue():
+    """Get current radio queue status."""
+    import os, json
+    from pathlib import Path
+    queue_file = os.environ.get("RADIO_QUEUE_FILE", "data/radio_queue.json")
+    history_file = os.environ.get("RADIO_HISTORY_FILE", "data/radio_history.json")
+    submissions_dir = os.environ.get("RADIO_SUBMISSIONS_DIR", "data/radio_submissions")
+    pending = len([f for f in os.listdir(submissions_dir) if not f.startswith(".")]) if os.path.isdir(submissions_dir) else 0
+    return {
+        "submissionsPending": pending,
+        "status": "streaming",
+    }
 
+
+@router.get("/radio/history")
+def radio_history(limit: int = 50):
+    """Get recent radio play history."""
     import json
-    event = json.loads(body)
-    result = dispatch_event(event)
-    return result
+    from pathlib import Path
+    history_file = os.environ.get("RADIO_HISTORY_FILE", "data/radio_history.json") if "os" in dir() else "data/radio_history.json"
+    import os
+    history_file = os.environ.get("RADIO_HISTORY_FILE", "data/radio_history.json")
+    if os.path.exists(history_file):
+        try:
+            data = json.loads(Path(history_file).read_text())
+            return {"history": data[:limit]}
+        except Exception:
+            pass
+    return {"history": []}
+
+
+# ── Admin / Email List ────────────────────────────────────────────
+
+@router.get("/admin/email-list")
+def admin_email_list(admin_token: str = ""):
+    import os
+    expected = os.environ.get("ADMIN_API_TOKEN", "")
+    if not expected or admin_token != expected:
+        raise HTTPException(status_code=403, detail="forbidden")
+    return {"subscribers": list_email_subscribers()}

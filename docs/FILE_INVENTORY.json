@@ -1,0 +1,1087 @@
+[
+  {
+    "path": ".github/workflows/hub-build.yml",
+    "lines": 111,
+    "bytes": 3309
+  },
+  {
+    "path": "CHANGELOG.md",
+    "lines": 39,
+    "bytes": 2181
+  },
+  {
+    "path": "CODE_OF_CONDUCT.md",
+    "lines": 3,
+    "bytes": 184
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "lines": 19,
+    "bytes": 505
+  },
+  {
+    "path": "README.md",
+    "lines": 344,
+    "bytes": 21862
+  },
+  {
+    "path": "arc_service/Dockerfile",
+    "lines": 7,
+    "bytes": 225
+  },
+  {
+    "path": "arc_service/app/__init__.py",
+    "lines": 0,
+    "bytes": 0
+  },
+  {
+    "path": "arc_service/app/__pycache__/__init__.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 165
+  },
+  {
+    "path": "arc_service/app/__pycache__/main.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 673
+  },
+  {
+    "path": "arc_service/app/api/__init__.py",
+    "lines": 0,
+    "bytes": 0
+  },
+  {
+    "path": "arc_service/app/api/__pycache__/__init__.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 169
+  },
+  {
+    "path": "arc_service/app/api/__pycache__/routes.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 20687
+  },
+  {
+    "path": "arc_service/app/api/routes.py",
+    "lines": 342,
+    "bytes": 12761
+  },
+  {
+    "path": "arc_service/app/data/arc_local_auth.sqlite3",
+    "lines": "binary",
+    "bytes": 28672
+  },
+  {
+    "path": "arc_service/app/data/auth_tokens.mock.json",
+    "lines": 1,
+    "bytes": 2
+  },
+  {
+    "path": "arc_service/app/data/entitlements.mock.json",
+    "lines": 30,
+    "bytes": 632
+  },
+  {
+    "path": "arc_service/app/data/install_receipts.mock.json",
+    "lines": 17,
+    "bytes": 525
+  },
+  {
+    "path": "arc_service/app/data/install_scans.mock.json",
+    "lines": 18,
+    "bytes": 421
+  },
+  {
+    "path": "arc_service/app/data/products.catalog.json",
+    "lines": 180,
+    "bytes": 4802
+  },
+  {
+    "path": "arc_service/app/data/release_manifests.mock.json",
+    "lines": 101,
+    "bytes": 4226
+  },
+  {
+    "path": "arc_service/app/data/seats.mock.json",
+    "lines": 1,
+    "bytes": 2
+  },
+  {
+    "path": "arc_service/app/data/settings.mock.json",
+    "lines": 29,
+    "bytes": 801
+  },
+  {
+    "path": "arc_service/app/data/webhooks.mock.json",
+    "lines": 18,
+    "bytes": 412
+  },
+  {
+    "path": "arc_service/app/main.py",
+    "lines": 14,
+    "bytes": 342
+  },
+  {
+    "path": "arc_service/app/models/__init__.py",
+    "lines": 0,
+    "bytes": 0
+  },
+  {
+    "path": "arc_service/app/models/__pycache__/__init__.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 172
+  },
+  {
+    "path": "arc_service/app/models/__pycache__/domain.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 10065
+  },
+  {
+    "path": "arc_service/app/models/domain.py",
+    "lines": 208,
+    "bytes": 4706
+  },
+  {
+    "path": "arc_service/app/services/__init__.py",
+    "lines": 0,
+    "bytes": 0
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/__init__.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 174
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/account_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 2826
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/activity_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 2112
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/artifact_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 4848
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/audit_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 2846
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/auth_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 3334
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/backup_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 4239
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/billing_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 3014
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/bootstrap_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 4391
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/catalog_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 844
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/diagnostics_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 2656
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/download_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 4078
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/entitlement_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 1819
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/execute_downloads_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 11626
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/install_plan_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 5594
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/install_scan_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 1266
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/launchpad_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 3027
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/machine_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 2712
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/preflight_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 2731
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/proposal_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 2708
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/readiness_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 1588
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/release_import_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 2446
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/release_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 1696
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/remote_artifact_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 1665
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/seat_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 3802
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/settings_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 1403
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/sqlite_auth_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 10157
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/store.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 4747
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/support_bundle_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 3484
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/sync_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 3244
+  },
+  {
+    "path": "arc_service/app/services/__pycache__/webhook_service.cpython-313.pyc",
+    "lines": "binary",
+    "bytes": 3774
+  },
+  {
+    "path": "arc_service/app/services/account_service.py",
+    "lines": 37,
+    "bytes": 1678
+  },
+  {
+    "path": "arc_service/app/services/activity_service.py",
+    "lines": 34,
+    "bytes": 1352
+  },
+  {
+    "path": "arc_service/app/services/artifact_service.py",
+    "lines": 73,
+    "bytes": 2959
+  },
+  {
+    "path": "arc_service/app/services/audit_service.py",
+    "lines": 55,
+    "bytes": 2125
+  },
+  {
+    "path": "arc_service/app/services/auth_service.py",
+    "lines": 72,
+    "bytes": 2295
+  },
+  {
+    "path": "arc_service/app/services/backup_service.py",
+    "lines": 75,
+    "bytes": 2529
+  },
+  {
+    "path": "arc_service/app/services/billing_service.py",
+    "lines": 62,
+    "bytes": 2751
+  },
+  {
+    "path": "arc_service/app/services/bootstrap_service.py",
+    "lines": 95,
+    "bytes": 5052
+  },
+  {
+    "path": "arc_service/app/services/catalog_service.py",
+    "lines": 6,
+    "bytes": 225
+  },
+  {
+    "path": "arc_service/app/services/diagnostics_service.py",
+    "lines": 39,
+    "bytes": 1622
+  },
+  {
+    "path": "arc_service/app/services/download_service.py",
+    "lines": 79,
+    "bytes": 3225
+  },
+  {
+    "path": "arc_service/app/services/entitlement_service.py",
+    "lines": 33,
+    "bytes": 1426
+  },
+  {
+    "path": "arc_service/app/services/execute_downloads_service.py",
+    "lines": 219,
+    "bytes": 9416
+  },
+  {
+    "path": "arc_service/app/services/install_plan_service.py",
+    "lines": 81,
+    "bytes": 3776
+  },
+  {
+    "path": "arc_service/app/services/install_scan_service.py",
+    "lines": 21,
+    "bytes": 689
+  },
+  {
+    "path": "arc_service/app/services/launchpad_service.py",
+    "lines": 63,
+    "bytes": 2471
+  },
+  {
+    "path": "arc_service/app/services/machine_service.py",
+    "lines": 37,
+    "bytes": 1824
+  },
+  {
+    "path": "arc_service/app/services/preflight_service.py",
+    "lines": 43,
+    "bytes": 2036
+  },
+  {
+    "path": "arc_service/app/services/proposal_service.py",
+    "lines": 47,
+    "bytes": 2176
+  },
+  {
+    "path": "arc_service/app/services/readiness_service.py",
+    "lines": 31,
+    "bytes": 1164
+  },
+  {
+    "path": "arc_service/app/services/release_import_service.py",
+    "lines": 34,
+    "bytes": 1373
+  },
+  {
+    "path": "arc_service/app/services/release_service.py",
+    "lines": 29,
+    "bytes": 1166
+  },
+  {
+    "path": "arc_service/app/services/remote_artifact_service.py",
+    "lines": 24,
+    "bytes": 879
+  },
+  {
+    "path": "arc_service/app/services/seat_service.py",
+    "lines": 51,
+    "bytes": 2145
+  },
+  {
+    "path": "arc_service/app/services/settings_service.py",
+    "lines": 32,
+    "bytes": 899
+  },
+  {
+    "path": "arc_service/app/services/sqlite_auth_service.py",
+    "lines": 191,
+    "bytes": 7248
+  },
+  {
+    "path": "arc_service/app/services/store.py",
+    "lines": 98,
+    "bytes": 2420
+  },
+  {
+    "path": "arc_service/app/services/support_bundle_service.py",
+    "lines": 69,
+    "bytes": 2580
+  },
+  {
+    "path": "arc_service/app/services/sync_service.py",
+    "lines": 51,
+    "bytes": 2355
+  },
+  {
+    "path": "arc_service/app/services/webhook_service.py",
+    "lines": 76,
+    "bytes": 3073
+  },
+  {
+    "path": "arc_service/requirements.txt",
+    "lines": 5,
+    "bytes": 87
+  },
+  {
+    "path": "arc_service/tests/__pycache__/test_arc.cpython-313-pytest-9.0.2.pyc",
+    "lines": "binary",
+    "bytes": 57218
+  },
+  {
+    "path": "arc_service/tests/test_arc.py",
+    "lines": 331,
+    "bytes": 16749
+  },
+  {
+    "path": "artifacts/backups/20260313T184921Z_testcase.json",
+    "lines": 124,
+    "bytes": 4125
+  },
+  {
+    "path": "artifacts/backups/20260313T185213Z_testcase.json",
+    "lines": 124,
+    "bytes": 4125
+  },
+  {
+    "path": "artifacts/backups/20260313T185612Z_testcase.json",
+    "lines": 124,
+    "bytes": 4107
+  },
+  {
+    "path": "artifacts/backups/20260313T190305Z_testcase.json",
+    "lines": 124,
+    "bytes": 4107
+  },
+  {
+    "path": "artifacts/backups/20260313T190602Z_testcase.json",
+    "lines": 124,
+    "bytes": 4107
+  },
+  {
+    "path": "artifacts/backups/20260313T191043Z_testcase.json",
+    "lines": 124,
+    "bytes": 4107
+  },
+  {
+    "path": "artifacts/backups/20260313T191044Z_support_demo_account.json",
+    "lines": 124,
+    "bytes": 4107
+  },
+  {
+    "path": "artifacts/backups/20260313T192009Z_testcase.json",
+    "lines": 124,
+    "bytes": 4107
+  },
+  {
+    "path": "artifacts/backups/20260313T192010Z_support_demo_account.json",
+    "lines": 124,
+    "bytes": 4107
+  },
+  {
+    "path": "artifacts/backups/20260313T192420Z_support_demo_account.json",
+    "lines": 124,
+    "bytes": 4107
+  },
+  {
+    "path": "artifacts/backups/20260313T192420Z_testcase.json",
+    "lines": 124,
+    "bytes": 4107
+  },
+  {
+    "path": "artifacts/diagnostics/demo_account_diagnostics.json",
+    "lines": 130,
+    "bytes": 4017
+  },
+  {
+    "path": "artifacts/downloads/paintmask-2.0.0.zip",
+    "lines": "binary",
+    "bytes": 397
+  },
+  {
+    "path": "artifacts/staged/aether-0.8.2/README.txt",
+    "lines": 1,
+    "bytes": 41
+  },
+  {
+    "path": "artifacts/staged/aether-0.8.2/manifest.json",
+    "lines": 5,
+    "bytes": 91
+  },
+  {
+    "path": "artifacts/staged/aether-0.8.2.zip",
+    "lines": "binary",
+    "bytes": 397
+  },
+  {
+    "path": "artifacts/staged/freeeq8-1.0.0/README.txt",
+    "lines": 1,
+    "bytes": 42
+  },
+  {
+    "path": "artifacts/staged/freeeq8-1.0.0/manifest.json",
+    "lines": 5,
+    "bytes": 92
+  },
+  {
+    "path": "artifacts/staged/freeeq8-1.0.0.zip",
+    "lines": "binary",
+    "bytes": 403
+  },
+  {
+    "path": "artifacts/staged/paintmask-0.6.0/README.txt",
+    "lines": 1,
+    "bytes": 44
+  },
+  {
+    "path": "artifacts/staged/paintmask-0.6.0/manifest.json",
+    "lines": 5,
+    "bytes": 94
+  },
+  {
+    "path": "artifacts/staged/paintmask-0.6.0.zip",
+    "lines": "binary",
+    "bytes": 414
+  },
+  {
+    "path": "artifacts/staged/riftsynth_pro-0.9.1/README.txt",
+    "lines": 1,
+    "bytes": 48
+  },
+  {
+    "path": "artifacts/staged/riftsynth_pro-0.9.1/manifest.json",
+    "lines": 5,
+    "bytes": 98
+  },
+  {
+    "path": "artifacts/staged/riftsynth_pro-0.9.1.zip",
+    "lines": "binary",
+    "bytes": 438
+  },
+  {
+    "path": "artifacts/staged/therum-0.9.0/README.txt",
+    "lines": 1,
+    "bytes": 41
+  },
+  {
+    "path": "artifacts/staged/therum-0.9.0/manifest.json",
+    "lines": 5,
+    "bytes": 91
+  },
+  {
+    "path": "artifacts/staged/therum-0.9.0.zip",
+    "lines": "binary",
+    "bytes": 397
+  },
+  {
+    "path": "artifacts/staged/therum-1.0.0/README.txt",
+    "lines": 1,
+    "bytes": 41
+  },
+  {
+    "path": "artifacts/staged/therum-1.0.0/manifest.json",
+    "lines": 5,
+    "bytes": 91
+  },
+  {
+    "path": "artifacts/staged/therum-1.0.0.zip",
+    "lines": "binary",
+    "bytes": 397
+  },
+  {
+    "path": "artifacts/staged/therum-1.1.0/README.txt",
+    "lines": 1,
+    "bytes": 41
+  },
+  {
+    "path": "artifacts/staged/therum-1.1.0/manifest.json",
+    "lines": 5,
+    "bytes": 91
+  },
+  {
+    "path": "artifacts/staged/therum-1.1.0.zip",
+    "lines": "binary",
+    "bytes": 397
+  },
+  {
+    "path": "artifacts/staged/waveform_pro-0.9.1/README.txt",
+    "lines": 1,
+    "bytes": 47
+  },
+  {
+    "path": "artifacts/staged/waveform_pro-0.9.1/manifest.json",
+    "lines": 5,
+    "bytes": 97
+  },
+  {
+    "path": "artifacts/staged/waveform_pro-0.9.1.zip",
+    "lines": "binary",
+    "bytes": 431
+  },
+  {
+    "path": "artifacts/staged/waveform_riftsynth_lite-1.0.0/README.txt",
+    "lines": 1,
+    "bytes": 58
+  },
+  {
+    "path": "artifacts/staged/waveform_riftsynth_lite-1.0.0/manifest.json",
+    "lines": 5,
+    "bytes": 108
+  },
+  {
+    "path": "artifacts/staged/waveform_riftsynth_lite-1.0.0.zip",
+    "lines": "binary",
+    "bytes": 496
+  },
+  {
+    "path": "artifacts/staged/whispergate-0.7.5/README.txt",
+    "lines": 1,
+    "bytes": 46
+  },
+  {
+    "path": "artifacts/staged/whispergate-0.7.5/manifest.json",
+    "lines": 5,
+    "bytes": 96
+  },
+  {
+    "path": "artifacts/staged/whispergate-0.7.5.zip",
+    "lines": "binary",
+    "bytes": 427
+  },
+  {
+    "path": "artifacts/staged/wurp-0.8.5/README.txt",
+    "lines": 1,
+    "bytes": 39
+  },
+  {
+    "path": "artifacts/staged/wurp-0.8.5/manifest.json",
+    "lines": 5,
+    "bytes": 89
+  },
+  {
+    "path": "artifacts/staged/wurp-0.8.5.zip",
+    "lines": "binary",
+    "bytes": 385
+  },
+  {
+    "path": "artifacts/support_bundles/demo_account_20260313T191044Z_support_bundle.zip",
+    "lines": "binary",
+    "bytes": 3563
+  },
+  {
+    "path": "artifacts/support_bundles/demo_account_20260313T192010Z_support_bundle.zip",
+    "lines": "binary",
+    "bytes": 3563
+  },
+  {
+    "path": "artifacts/support_bundles/demo_account_20260313T192420Z_support_bundle.zip",
+    "lines": "binary",
+    "bytes": 3567
+  },
+  {
+    "path": "assets/branding/favicon.svg",
+    "lines": 1,
+    "bytes": 488
+  },
+  {
+    "path": "assets/social/tizwildin-hub-og.svg",
+    "lines": 1,
+    "bytes": 1773
+  },
+  {
+    "path": "docker-compose.yml",
+    "lines": 8,
+    "bytes": 147
+  },
+  {
+    "path": "docs/ARCHITECTURE.md",
+    "lines": 31,
+    "bytes": 602
+  },
+  {
+    "path": "docs/AUDIT_EVIDENCE.md",
+    "lines": 32,
+    "bytes": 1085
+  },
+  {
+    "path": "docs/CATALOG_POLICY.md",
+    "lines": 24,
+    "bytes": 654
+  },
+  {
+    "path": "docs/ENGINEERING_AUDIT.md",
+    "lines": 47,
+    "bytes": 2161
+  },
+  {
+    "path": "docs/FILE_INVENTORY.json",
+    "lines": 1087,
+    "bytes": 22121
+  },
+  {
+    "path": "docs/OPERATOR_RUNBOOK.md",
+    "lines": 37,
+    "bytes": 859
+  },
+  {
+    "path": "docs/PUBLIC_PAGE_DEFAULT.md",
+    "lines": 29,
+    "bytes": 630
+  },
+  {
+    "path": "docs/PUBLIC_ROADMAP.md",
+    "lines": 32,
+    "bytes": 633
+  },
+  {
+    "path": "docs/QUICKSTART.md",
+    "lines": 40,
+    "bytes": 1332
+  },
+  {
+    "path": "docs/READINESS.md",
+    "lines": 24,
+    "bytes": 833
+  },
+  {
+    "path": "docs/RELEASE_CHECKLIST.md",
+    "lines": 37,
+    "bytes": 767
+  },
+  {
+    "path": "docs/SEO_PROMOTION.md",
+    "lines": 41,
+    "bytes": 1208
+  },
+  {
+    "path": "docs/SEO_TRACTION_PLAN.md",
+    "lines": 47,
+    "bytes": 1298
+  },
+  {
+    "path": "docs/SHIP_NEXT_STEPS.md",
+    "lines": 9,
+    "bytes": 484
+  },
+  {
+    "path": "docs/STATE_MODEL.md",
+    "lines": 30,
+    "bytes": 825
+  },
+  {
+    "path": "docs/STRIPE_NOTES.md",
+    "lines": 31,
+    "bytes": 732
+  },
+  {
+    "path": "docs/V1_ABSOLUTE_CLEAN_AUDIT.md",
+    "lines": 22,
+    "bytes": 575
+  },
+  {
+    "path": "docs/V1_CONFLICT_CLEAN_AUDIT.md",
+    "lines": 21,
+    "bytes": 611
+  },
+  {
+    "path": "docs/V1_LISTS_TAB_AUDIT.md",
+    "lines": 240,
+    "bytes": 14157
+  },
+  {
+    "path": "docs/V1_SEO_BUTTONS_RESTORED_AUDIT.md",
+    "lines": 24,
+    "bytes": 672
+  },
+  {
+    "path": "docs/V1_STABLE_RELEASE_CHECKS.md",
+    "lines": 13,
+    "bytes": 559
+  },
+  {
+    "path": "docs/V1_START_HERE_LIST_AUDIT.md",
+    "lines": 38,
+    "bytes": 2007
+  },
+  {
+    "path": "docs/V1_TOGGLE_DEFAULT.md",
+    "lines": 17,
+    "bytes": 506
+  },
+  {
+    "path": "docs/data/lists.json",
+    "lines": 198,
+    "bytes": 6252
+  },
+  {
+    "path": "docs/data/packs.json",
+    "lines": 151,
+    "bytes": 4048
+  },
+  {
+    "path": "docs/data/plugins.json",
+    "lines": 299,
+    "bytes": 8539
+  },
+  {
+    "path": "docs/index-seo.html",
+    "lines": 55,
+    "bytes": 16672
+  },
+  {
+    "path": "docs/index.html",
+    "lines": 507,
+    "bytes": 24084
+  },
+  {
+    "path": "docs/robots.txt",
+    "lines": 3,
+    "bytes": 99
+  },
+  {
+    "path": "docs/site.webmanifest",
+    "lines": 16,
+    "bytes": 434
+  },
+  {
+    "path": "docs/sitemap.xml",
+    "lines": 12,
+    "bytes": 998
+  },
+  {
+    "path": "hub_app/CMakeLists.txt",
+    "lines": 66,
+    "bytes": 1791
+  },
+  {
+    "path": "hub_app/README.md",
+    "lines": 3,
+    "bytes": 178
+  },
+  {
+    "path": "hub_app/Source/GitHubClient.cpp",
+    "lines": 96,
+    "bytes": 3866
+  },
+  {
+    "path": "hub_app/Source/GitHubClient.h",
+    "lines": 48,
+    "bytes": 1321
+  },
+  {
+    "path": "hub_app/Source/HubEditor.h",
+    "lines": 31,
+    "bytes": 817
+  },
+  {
+    "path": "hub_app/Source/HubProcessor.cpp",
+    "lines": 20,
+    "bytes": 548
+  },
+  {
+    "path": "hub_app/Source/HubProcessor.h",
+    "lines": 39,
+    "bytes": 1418
+  },
+  {
+    "path": "hub_app/Source/HubSettings.cpp",
+    "lines": 80,
+    "bytes": 2625
+  },
+  {
+    "path": "hub_app/Source/HubSettings.h",
+    "lines": 40,
+    "bytes": 1027
+  },
+  {
+    "path": "hub_app/Source/PluginManifest.h",
+    "lines": 122,
+    "bytes": 4495
+  },
+  {
+    "path": "hub_app/Source/TizHubMainComponent.cpp",
+    "lines": 454,
+    "bytes": 16938
+  },
+  {
+    "path": "hub_app/Source/TizHubMainComponent.h",
+    "lines": 81,
+    "bytes": 2902
+  },
+  {
+    "path": "hub_scaffold/README.md",
+    "lines": 18,
+    "bytes": 439
+  },
+  {
+    "path": "hub_scaffold/Source/ArcClient.cpp",
+    "lines": 24,
+    "bytes": 570
+  },
+  {
+    "path": "hub_scaffold/Source/ArcClient.h",
+    "lines": 15,
+    "bytes": 341
+  },
+  {
+    "path": "hub_scaffold/Source/Main.cpp",
+    "lines": 4,
+    "bytes": 99
+  },
+  {
+    "path": "hub_scaffold/Source/TizHubApplication.cpp",
+    "lines": 21,
+    "bytes": 577
+  },
+  {
+    "path": "hub_scaffold/Source/TizHubApplication.h",
+    "lines": 16,
+    "bytes": 498
+  },
+  {
+    "path": "hub_scaffold/Source/TizHubMainComponent.cpp",
+    "lines": 42,
+    "bytes": 1413
+  },
+  {
+    "path": "hub_scaffold/Source/TizHubMainComponent.h",
+    "lines": 24,
+    "bytes": 668
+  },
+  {
+    "path": "hub_scaffold/Source/TizHubState.h",
+    "lines": 8,
+    "bytes": 138
+  },
+  {
+    "path": "lists.json",
+    "lines": 198,
+    "bytes": 6252
+  },
+  {
+    "path": "manifests/products.catalog.json",
+    "lines": 279,
+    "bytes": 7976
+  },
+  {
+    "path": "manifests/stripe.mapping.json",
+    "lines": 15,
+    "bytes": 396
+  },
+  {
+    "path": "packs.json",
+    "lines": 97,
+    "bytes": 3636
+  },
+  {
+    "path": "plugin_bridge/README.md",
+    "lines": 5,
+    "bytes": 222
+  },
+  {
+    "path": "plugin_bridge/include/TizPluginBridge.h",
+    "lines": 27,
+    "bytes": 497
+  },
+  {
+    "path": "plugin_bridge/src/TizPluginBridge.cpp",
+    "lines": 99,
+    "bytes": 2968
+  },
+  {
+    "path": "plugins.json",
+    "lines": 299,
+    "bytes": 8618
+  },
+  {
+    "path": "schemas/entitlement.schema.json",
+    "lines": 40,
+    "bytes": 711
+  },
+  {
+    "path": "schemas/product.schema.json",
+    "lines": 43,
+    "bytes": 725
+  },
+  {
+    "path": "schemas/proposal.schema.json",
+    "lines": 31,
+    "bytes": 511
+  },
+  {
+    "path": "scripts/backup_state.py",
+    "lines": 8,
+    "bytes": 242
+  },
+  {
+    "path": "scripts/execute_install_plan.py",
+    "lines": 34,
+    "bytes": 1201
+  },
+  {
+    "path": "scripts/generate_release_manifest.py",
+    "lines": 25,
+    "bytes": 930
+  },
+  {
+    "path": "scripts/mock_install_runner.py",
+    "lines": 27,
+    "bytes": 1374
+  },
+  {
+    "path": "scripts/restore_state.py",
+    "lines": 8,
+    "bytes": 202
+  },
+  {
+    "path": "scripts/run_arc_demo.sh",
+    "lines": 6,
+    "bytes": 225
+  },
+  {
+    "path": "scripts/seed_demo_data.py",
+    "lines": 10,
+    "bytes": 905
+  },
+  {
+    "path": "stripe/PRODUCTS_TO_CREATE.md",
+    "lines": 18,
+    "bytes": 289
+  },
+  {
+    "path": "stripe/stripe.env.example",
+    "lines": 4,
+    "bytes": 174
+  }
+]

@@ -1,0 +1,40 @@
+name: Refresh Itch Inventory
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Daily refresh at 09:17 UTC so covers/prices/sale membership stay current.
+    - cron: '17 9 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Autopull GareBearProductionz itch inventory and media
+        run: |
+          python scripts/update_itch_all_inventory.py
+
+      - name: Refresh index health report when available
+        run: |
+          python scripts/build_index_health.py || true
+
+      - name: Validate public/source indexes
+        run: |
+          python scripts/validate_public_index.py
+          python scripts/validate_source_index.py
+          python -c "import py_compile; py_compile.compile('scripts/update_itch_all_inventory.py', cfile='/tmp/update_itch_all_inventory.pyc', doraise=True)"
+
+      - name: Commit refreshed inventory
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: refresh GareBearProductionz itch inventory media'
+          file_pattern: 'all_items.json docs/data/all_items.json docs/ITCH_AUTOPULL_REPORT.json docs/index.html index.html docs/pages/all-account-inventory.html all-account-inventory.html docs/public-index.json docs/llms.txt docs/sitemap.xml docs/ecosystem-index.html docs/PUBLIC_LINK_GRAPH.md'

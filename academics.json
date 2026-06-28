@@ -1,0 +1,105 @@
+{
+  "categories": [
+    { "id": "published", "name": "Published Papers", "icon": "📄" },
+    { "id": "preprint", "name": "Preprints & Drafts", "icon": "📝" },
+    { "id": "ai_ecosystem", "name": "AI / ARC Ecosystem", "icon": "🤖" }
+  ],
+  "papers": [
+    {
+      "id": "freeeq8_paper",
+      "name": "Real-Time State-Space Parameterization and Lock-Free Semantic Analysis in Digital Equalization",
+      "description": "Production-grade parametric EQ architecture: Simper SVF topology, lock-free SPSC triple-buffering, variable-cadence coefficient engine (80% CPU savings), deterministic resonance detection (100% precision/recall). 10 sections, 8 references, measured on i7-3720QM.",
+      "category": "preprint",
+      "url": "https://github.com/GareBear99/FreeEQ8/blob/main/PAPER.md",
+      "repo": "FreeEQ8",
+      "tags": ["dsp", "svf", "lock-free", "real-time", "parametric-eq", "semantic-analysis"],
+      "venue": "DAFx / AES target",
+      "authors": "Gary Doman (GareBear99 / TizWildin)",
+      "status": "preprint"
+    },
+    {
+      "id": "freeeq8_devto",
+      "name": "FreeEQ8 Technical Architecture (dev.to)",
+      "description": "Published technical deep-dive covering SVF vs RBJ cramping, SPSC concurrency, variable-cadence Dynamic EQ, and allocation-free semantic resonance detection.",
+      "category": "published",
+      "url": "https://dev.to/tizwildin/real-time-state-space-parameterization-and-lock-free-semantic-analysis-in-digital-equalization-38jn",
+      "repo": "FreeEQ8",
+      "tags": ["dsp", "architecture", "blog", "dev.to"],
+      "venue": "dev.to",
+      "authors": "Gary Doman",
+      "status": "published"
+    },
+    {
+      "id": "instrudio_violin_devto",
+      "name": "Studio Violin: Helmholtz Bowed String, H2 Correction, Stradivari Body EQ, and Sympathetic Resonance",
+      "description": "Published technical article on the Instrudio Studio Violin model covering Helmholtz bowed-string behavior, H2 correction, Stradivari-style body EQ, and sympathetic resonance design.",
+      "category": "published",
+      "url": "https://dev.to/tizwildin/studio-violin-helmholtz-bowed-string-h2-correction-stradivari-body-eq-sympathetic-resonance-3c8l",
+      "repo": "Instrudio",
+      "tags": ["violin", "physical-modeling", "helmholtz", "bowed-string", "stradivari-eq", "sympathetic-resonance", "dev.to"],
+      "venue": "dev.to",
+      "authors": "Gary Doman",
+      "status": "published"
+    },
+    {
+      "id": "arc_neuron_economics_devto",
+      "name": "ARC-Neuron LLMBuilder and the Future Economics of Real AI",
+      "description": "Published article on ARC-Neuron LLMBuilder as a governed local AI build-and-memory system — evidence-preserving model promotion, rollback-safe training, and the missing economic layer in current AI. Compares the ARC approach to FFmpeg-style infrastructure longevity.",
+      "category": "ai_ecosystem",
+      "url": "https://dev.to/tizwildin/arc-neuron-llmbuilder-and-the-future-economics-of-real-ai-3j4",
+      "repo": "ARC-Neuron-LLMBuilder",
+      "tags": ["arc", "llm", "local-ai", "governance", "model-promotion", "economics", "dev.to"],
+      "venue": "dev.to",
+      "authors": "Gary Doman",
+      "status": "published"
+    },
+    {
+      "id": "freeeq8_status_rekkerd_devto",
+      "name": "FreeEQ8 Current Status: Open-Source Parametric EQ, Rekkerd Coverage, and the Road to Smart EQ",
+      "description": "Published milestone article covering FreeEQ8's Rekkerd.org press coverage, current feature set, Smart EQ layer roadmap (explainable deterministic mix-assist), and Match EQ direction.",
+      "category": "published",
+      "url": "https://dev.to/tizwildin/freeeq8-current-status-open-source-parametric-eq-rekkerd-coverage-and-the-road-to-smart-eq-3pk6",
+      "repo": "FreeEQ8",
+      "tags": ["dsp", "freeeq8", "rekkerd", "smart-eq", "match-eq", "open-source", "dev.to"],
+      "venue": "dev.to",
+      "authors": "Gary Doman",
+      "status": "published"
+    },
+    {
+      "id": "ecosystem_devs_producers_devto",
+      "name": "Made This for Developers & Producers Alike",
+      "description": "Published ecosystem overview for developers and producers — links plugin ecosystem, free lists and sample packs, press coverage from Rekkerd.org and AudioApp.cn, and the promotional group partnership.",
+      "category": "published",
+      "url": "https://dev.to/tizwildin/made-this-for-developers-producers-alike-30bo",
+      "repo": "TizWildinEntertainmentHUB",
+      "tags": ["ecosystem", "producers", "developers", "press", "rekkerd", "audioapp", "dev.to"],
+      "venue": "dev.to",
+      "authors": "Gary Doman",
+      "status": "published"
+    },
+    {
+      "id": "proto_synth_grid_engine_devto",
+      "name": "Proto-Synth Grid Engine: Building a Math-First 2D World Runtime That Feels 3D",
+      "description": "Published technical article on Proto-Synth Grid Engine — a deterministic 2D world runtime with blueprint-driven geometry, ARC-Core event discipline, Neural-Synth and Voxel Directory views, and cube-grid projection for 3D-feeling spatial simulation.",
+      "category": "ai_ecosystem",
+      "url": "https://dev.to/tizwildin/proto-synth-grid-engine-building-a-math-first-2d-world-runtime-that-feels-3d-4j17",
+      "repo": "Proto-Synth_Grid_Engine",
+      "tags": ["arc", "grid-engine", "deterministic", "blueprint", "simulation", "neural-synth", "dev.to"],
+      "venue": "dev.to",
+      "authors": "Gary Doman",
+      "status": "published"
+    },
+    {
+      "id": "dafx26_svf_cramping_devto",
+      "name": "We Eliminated EQ Frequency Cramping Without Oversampling — DAFx26 Paper",
+      "description": "DAFx26 Demo Track announcement: FreeEQ8/ProEQ8 implements Simper SVF topology for de-cramped HF response without oversampling. Covers the math, benchmarks, and why bilinear-transform biquads cramp at high frequencies.",
+      "category": "published",
+      "url": "https://dev.to/tizwildin/we-eliminated-eq-frequency-cramping-without-oversampling-heres-how-dafx26-paper-4f7l",
+      "repo": "FreeEQ8",
+      "tags": ["dsp", "svf", "cramping", "dafx", "parametric-eq", "oversampling", "dev.to"],
+      "venue": "dev.to",
+      "authors": "Gary Doman",
+      "status": "published"
+    }
+  ]
+}

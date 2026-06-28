@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TizWildin Entertainment HUB — Free Plugins, Game Assets, Itch Store Inventory & ARC Source Spine</title>
+<meta name="description" content="TizWildin Entertainment HUB is the public source-of-truth spine for free audio plugins, sample packs, release checks, creator tools, awesome audio lists, ARC repositories, sitemap routes, and crawlable ecosystem proof from Gary Doman / GareBear99 / TizWildin.">
+<link rel="canonical" href="https://garebear99.github.io/TizWildinEntertainmentHUB/">
+<meta property="og:title" content="TizWildin Entertainment HUB — Public Ecosystem Index">
+<meta property="og:description" content="Free audio plugins, producer kits, sample packs, complete GareBearProductionz itch asset inventory, public discovery lists, and ARC source-spine links from GareBear99 / TizWildin.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://garebear99.github.io/TizWildinEntertainmentHUB/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"TizWildin Entertainment HUB","url":"https://garebear99.github.io/TizWildinEntertainmentHUB/","description":"Public source-of-truth spine for free audio plugins, sample packs, release checks, creator tools, awesome audio lists, ARC repositories, and crawlable ecosystem proof."}</script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#0a0b12;--card:#131222;--card-border:#1e2240;--text:#e8eaf0;
+  --sub:#a0a6bc;--accent:#6c7bbd;--green:#22c55e;--yellow:#eab308;
+  --red:#ef4444;--orange:#f97316;--btn:#1e2754;--btn-hover:#2a3568;
+  --badge-free:#164e32;--badge-free-text:#4ade80;
+}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;min-height:100vh}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+
+body::before{content:'';position:fixed;inset:0;pointer-events:none;background:radial-gradient(circle at 18% 6%,rgba(108,123,189,.28),transparent 34%),radial-gradient(circle at 88% 12%,rgba(34,197,94,.13),transparent 30%),linear-gradient(180deg,rgba(255,255,255,.02),transparent 44%);z-index:-1}
+.top-nav{max-width:1280px;margin:0 auto;padding:18px 32px 0;display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap}
+.brand-mark{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:-.4px;color:var(--text)}
+.brand-logo{width:36px;height:36px;border-radius:13px;display:grid;place-items:center;background:linear-gradient(135deg,#2f3b86,#0f172a);border:1px solid rgba(255,255,255,.12);box-shadow:0 14px 40px rgba(0,0,0,.35)}
+.nav-pills{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.nav-pills a{border:1px solid var(--card-border);background:rgba(19,18,34,.72);color:var(--text);padding:8px 12px;border-radius:999px;font-size:12px;font-weight:800;text-decoration:none;backdrop-filter:blur(10px)}
+.nav-pills a:hover{border-color:var(--accent);background:#18214a;text-decoration:none}
+.hero{max-width:1280px;margin:20px auto 0;padding:0 32px 20px;display:grid;grid-template-columns:minmax(0,1.18fr) minmax(300px,.82fr);gap:18px;align-items:stretch}
+.hero-main,.trust-panel,.proof-card,.route-card{border:1px solid rgba(108,123,189,.28);background:linear-gradient(180deg,rgba(20,24,49,.92),rgba(13,15,28,.94));border-radius:26px;box-shadow:0 24px 70px rgba(0,0,0,.32);overflow:hidden;position:relative}
+.hero-main{padding:34px;min-height:390px}
+.hero-main::after{content:'';position:absolute;right:-90px;top:-90px;width:260px;height:260px;border-radius:50%;background:radial-gradient(circle,rgba(108,123,189,.32),transparent 62%)}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(74,222,128,.22);background:rgba(22,78,50,.28);color:#86efac;border-radius:999px;padding:7px 12px;font-size:12px;font-weight:900;text-transform:uppercase;letter-spacing:.7px}
+.hero h2{font-size:clamp(38px,6vw,74px);line-height:.94;letter-spacing:-3px;margin:18px 0 16px;max-width:790px}
+.hero-gradient{background:linear-gradient(90deg,#fff,#b8c2ff 45%,#86efac);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero-copy{color:#c5cbdf;font-size:17px;line-height:1.7;max-width:760px;margin-bottom:22px}
+.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin:24px 0 20px}
+.hero-actions a{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 16px;border-radius:13px;font-weight:900;font-size:14px;text-decoration:none;border:1px solid rgba(255,255,255,.12)}
+.primary-cta{background:linear-gradient(135deg,#6c7bbd,#3d4b94);color:white;box-shadow:0 12px 28px rgba(108,123,189,.25)}
+.secondary-cta{background:#12182f;color:var(--text)}
+.hero-actions a:hover{transform:translateY(-1px);text-decoration:none;border-color:rgba(255,255,255,.24)}
+.hero-metrics{display:grid;grid-template-columns:repeat(4,minmax(110px,1fr));gap:10px;margin-top:20px}
+.metric{background:rgba(10,11,18,.58);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:14px}
+.metric strong{display:block;font-size:22px;color:#fff;line-height:1}.metric span{display:block;font-size:12px;color:var(--sub);margin-top:6px;line-height:1.35}
+.trust-panel{padding:22px;display:flex;flex-direction:column;gap:12px}.trust-panel h3{font-size:22px;letter-spacing:-.6px}.trust-panel p{color:var(--sub);font-size:13px;line-height:1.55}.trust-list{display:grid;gap:10px}.trust-item{display:flex;gap:10px;background:rgba(10,11,18,.55);border:1px solid rgba(255,255,255,.07);border-radius:16px;padding:12px}.trust-icon{flex:0 0 32px;width:32px;height:32px;border-radius:11px;display:grid;place-items:center;background:#17214a}.trust-item strong{display:block;font-size:13px}.trust-item span{display:block;color:var(--sub);font-size:12px;line-height:1.45;margin-top:2px}
+.section-wrap{max-width:1280px;margin:0 auto;padding:10px 32px 0}.section-head{display:flex;justify-content:space-between;gap:16px;align-items:flex-end;margin:18px 0 14px;flex-wrap:wrap}.section-head h2{font-size:27px;letter-spacing:-1px}.section-head p{color:var(--sub);font-size:13px;max-width:700px;line-height:1.55}.proof-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.proof-card{padding:20px}.proof-card h3{font-size:18px;margin-bottom:8px}.proof-card p{color:var(--sub);font-size:13px;line-height:1.6}.proof-card a{display:inline-flex;margin-top:14px;font-weight:900;font-size:13px}.route-strip{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin-top:12px}.route-card{padding:14px;min-height:120px;text-decoration:none;color:var(--text)}.route-card:hover{border-color:var(--accent);text-decoration:none;transform:translateY(-1px)}.route-card strong{display:block;font-size:14px;margin-bottom:6px}.route-card span{display:block;color:var(--sub);font-size:12px;line-height:1.45}.route-card em{font-style:normal;color:#86efac;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.5px}
+
+/* Header */
+.header{padding:32px 32px 0;max-width:1280px;margin:0 auto;display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap}
+.header-text{flex:1;min-width:260px}
+.header h1{font-size:28px;font-weight:700;letter-spacing:-0.5px}
+.header h1 span{color:var(--accent)}
+.header p{color:var(--sub);margin-top:6px;font-size:14px}
+.header-links{display:flex;flex-direction:column;gap:8px;align-items:flex-end}
+.header-links a{display:inline-flex;align-items:center;gap:6px;background:var(--btn);border:1px solid var(--card-border);color:var(--text);padding:8px 14px;border-radius:8px;font-size:13px;font-weight:600;text-decoration:none;transition:background .15s,border-color .15s}
+.header-links a:hover{background:var(--btn-hover);border-color:var(--accent);text-decoration:none}
+.hub-note{max-width:1280px;margin:14px auto 0;padding:0 32px}
+.hub-note-box{background:#12182f;border:1px solid var(--card-border);border-radius:12px;padding:14px 16px;color:var(--sub);font-size:13px;line-height:1.6}
+.hub-note-box strong{color:var(--text)}
+
+/* Tabs */
+.tabs{display:flex;gap:6px;padding:20px 32px 0;max-width:1280px;margin:0 auto;border-bottom:1px solid var(--card-border)}
+.tab{background:transparent;color:var(--sub);border:1px solid transparent;border-bottom:none;padding:10px 18px;border-radius:10px 10px 0 0;cursor:pointer;font-size:14px;font-weight:600;transition:color .15s,background .15s}
+.tab:hover{color:var(--text);background:#12182f}
+.tab.active{color:var(--text);background:var(--card);border-color:var(--card-border)}
+.screen{display:none}
+.screen.active{display:block}
+
+/* Pack-specific tweaks */
+.pack-tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
+.pack-tag{font-size:10px;background:#1a1d30;color:var(--sub);padding:2px 7px;border-radius:4px;text-transform:lowercase}
+.filter-row{display:flex;flex-wrap:wrap;gap:8px;max-width:1280px;margin:0 auto 18px;padding:0 32px}.filter-chip{background:#101936;border:1px solid var(--card-border);color:var(--sub);border-radius:999px;padding:8px 12px;font-size:12px;font-weight:800;cursor:pointer}.filter-chip:hover,.filter-chip.active{color:var(--text);background:#1d2857;border-color:var(--accent);text-decoration:none}.sale-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px;max-width:1280px;margin:0 auto 18px;padding:0 32px}.sale-strip a{display:block;background:linear-gradient(135deg,rgba(108,123,189,.16),rgba(34,197,94,.08));border:1px solid rgba(108,123,189,.32);border-radius:14px;padding:14px;color:var(--text);text-decoration:none}.sale-strip strong{display:block;font-size:15px}.sale-strip span{display:block;color:var(--sub);font-size:12px;margin-top:5px;line-height:1.4}.card.featured-store-card{border-color:rgba(234,179,8,.45);background:linear-gradient(135deg,rgba(234,179,8,.08),rgba(108,123,189,.09)),var(--card)}
+
+/* Controls bar */
+.controls{display:flex;align-items:center;gap:12px;padding:20px 32px;max-width:1280px;margin:0 auto;flex-wrap:wrap}
+.controls button{background:var(--btn);color:var(--text);border:1px solid var(--card-border);padding:8px 18px;border-radius:8px;cursor:pointer;font-size:13px;transition:background .15s}
+.controls button:hover{background:var(--btn-hover)}
+.controls button.checking{opacity:.6;cursor:wait}
+.toggle-wrap{display:flex;align-items:center;gap:8px;font-size:13px;color:var(--sub)}
+.toggle{width:40px;height:22px;border-radius:11px;background:#2a2d48;position:relative;cursor:pointer;transition:background .2s}
+.toggle.on{background:var(--accent)}
+.toggle::after{content:'';position:absolute;top:3px;left:3px;width:16px;height:16px;border-radius:50%;background:#fff;transition:left .2s}
+.toggle.on::after{left:21px}
+.stats{margin-left:auto;font-size:13px;color:var(--sub)}
+
+/* Category */
+.category{max-width:1280px;margin:0 auto;padding:0 32px 24px}
+.category-title{font-size:16px;font-weight:600;margin-bottom:14px;display:flex;align-items:center;gap:8px;color:var(--sub)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:14px}
+
+/* Card */
+.card{background:var(--card);border:1px solid var(--card-border);border-radius:14px;padding:20px;display:flex;flex-direction:column;gap:10px;transition:border-color .2s}
+.card:hover{border-color:var(--accent)}
+.itch-media{position:relative;width:100%;aspect-ratio:16/9;border:1px solid rgba(255,255,255,.08);border-radius:12px;overflow:hidden;background:radial-gradient(circle at 30% 20%,rgba(108,123,189,.35),transparent 36%),linear-gradient(135deg,#0d1228,#161222);margin:-4px 0 4px}
+.itch-media img{width:100%;height:100%;object-fit:cover;display:block;image-rendering:auto}
+.itch-media.fallback{display:grid;place-items:center;padding:18px;text-align:center;color:#dfe6ff}
+.itch-media.fallback strong{font-size:15px;line-height:1.25}.itch-media.fallback span{display:block;color:var(--sub);font-size:11px;margin-top:7px}
+.media-pill{position:absolute;left:10px;bottom:10px;background:rgba(5,8,18,.78);border:1px solid rgba(255,255,255,.12);color:#e8eaf0;border-radius:999px;padding:4px 8px;font-size:10px;font-weight:900;letter-spacing:.4px;text-transform:uppercase;backdrop-filter:blur(8px)}
+.media-pill.gif{color:#86efac;border-color:rgba(134,239,172,.3)}
+.card-top{display:flex;justify-content:space-between;align-items:flex-start}
+.card-name{font-size:17px;font-weight:600}
+.card-badge{font-size:11px;font-weight:600;padding:3px 10px;border-radius:6px;text-transform:uppercase;letter-spacing:.5px}
+.badge-free{background:var(--badge-free);color:var(--badge-free-text)}
+.card-desc{font-size:13px;color:var(--sub);line-height:1.5}
+.card-formats{font-size:11px;color:var(--sub)}
+.card-formats span{background:#1a1d30;padding:2px 7px;border-radius:4px;margin-right:4px}
+
+/* Version row */
+.version-row{display:flex;align-items:center;gap:10px;margin-top:4px;flex-wrap:wrap}
+.version-tag{font-size:12px;padding:3px 10px;border-radius:6px;font-weight:600}
+.v-checking{background:#2a2d48;color:var(--sub)}
+.v-uptodate{background:#14352a;color:var(--green)}
+.v-newrelease{background:#422006;color:var(--yellow)}
+.v-norelease{background:#3b1010;color:var(--red)}
+.v-norelease{background:#1f1520;color:#a78bfa}
+.version-info{font-size:12px;color:var(--sub)}
+
+/* Buttons row */
+.card-actions{display:flex;gap:8px;margin-top:auto;padding-top:6px}
+.card-actions a,.card-actions button{font-size:12px;padding:6px 14px;border-radius:7px;border:1px solid var(--card-border);background:var(--btn);color:var(--text);cursor:pointer;text-decoration:none;transition:background .15s}
+.card-actions a:hover,.card-actions button:hover{background:var(--btn-hover);text-decoration:none}
+.card-actions .download-btn{background:#1b3a26;border-color:#22543d;color:var(--green)}
+.card-actions .download-btn:hover{background:#22543d}
+.card-actions .update-btn{background:#422006;border-color:#854d0e;color:var(--yellow)}
+.card-actions .update-btn:hover{background:#854d0e}
+
+
+/* Start Here / featured list card */
+.start-here-note{max-width:1280px;margin:0 auto 16px;padding:0 32px;color:var(--sub);font-size:13px;line-height:1.6}
+.start-here-note strong{color:var(--text)}
+.card.start-here-card{border-color:var(--green);background:linear-gradient(135deg,rgba(34,197,94,.14),rgba(108,123,189,.12)),var(--card);box-shadow:0 0 0 1px rgba(34,197,94,.18),0 18px 44px rgba(0,0,0,.22)}
+.card.start-here-card .card-name{font-size:19px;color:#dcffe9}
+.card.start-here-card .card-badge{background:#12391f;color:#86efac;border:1px solid rgba(74,222,128,.36)}
+
+.index-links{max-width:1280px;margin:16px auto 0;padding:0 32px;display:flex;gap:10px;flex-wrap:wrap}
+.index-links a{display:inline-flex;align-items:center;gap:6px;background:#101936;border:1px solid var(--card-border);border-radius:10px;padding:9px 13px;color:var(--text);font-size:13px;font-weight:700;text-decoration:none}
+.index-links a:hover{border-color:var(--accent);background:#17214a;text-decoration:none}
+
+/* Footer */
+.footer{text-align:center;padding:40px 32px;color:var(--sub);font-size:13px}
+
+/* Spinner */
+@keyframes spin{to{transform:rotate(360deg)}}
+.spinner{display:inline-block;width:14px;height:14px;border:2px solid var(--sub);border-top-color:transparent;border-radius:50%;animation:spin .6s linear infinite;vertical-align:middle}
+
+/* Responsive */
+@media(max-width:480px){
+  .header,.controls,.category,.hub-note{padding-left:16px;padding-right:16px}
+  .grid{grid-template-columns:1fr}
+}
+
+@media(max-width:900px){.hero{grid-template-columns:1fr}.proof-grid,.route-strip{grid-template-columns:1fr 1fr}.hero-metrics{grid-template-columns:1fr 1fr}.hero h2{letter-spacing:-1.6px}.hero-main{padding:26px}}
+@media(max-width:620px){.top-nav,.hero,.section-wrap{padding-left:16px;padding-right:16px}.proof-grid,.route-strip,.hero-metrics{grid-template-columns:1fr}.hero h2{font-size:38px}.hero-main,.trust-panel{border-radius:20px}.nav-pills{justify-content:flex-start}.hero-actions a{width:100%}}
+
+</style>
+<!-- V1_FULL_CONFLICT_CLEAN: no visible failure fallback -->
+<meta name="v1-build" content="V1_ABSOLUTE_CLEAN_2026_NO_CHECK_FAILED">
+<meta name="v1-build" content="V1_WITH_SEO_BUTTONS_RESTORED">
+<meta name="v1-build" content="V1_WITH_LISTS_TAB_2026">
+<meta name="v1-build" content="V1_START_HERE_AUDIO_PLUGINS_DEV_2026">
+<meta name="v1-build" content="V2_SAAS_POLISH_SOURCE_SPINE_HYBRID_2026">
+</head>
+<body>
+
+<div class="top-nav">
+  <div class="brand-mark"><div class="brand-logo">🎛️</div><span>TizWildin Entertainment HUB</span></div>
+  <div class="nav-pills">
+    <a href="https://github.com/GareBear99/TizWildinEntertainmentHUB" target="_blank" rel="noopener">GitHub Repo</a>
+    <a href="index-seo.html">SEO Landing</a>
+    <a href="ecosystem-index.html">Ecosystem Index</a>
+    <a href="arc-index.html">ARC Spine</a>
+    <a href="pages/docs.html">📖 Docs</a>
+    <a href="pages/api.html">🌐 API</a>
+    <a href="pages/account.html">🔑 Account</a>
+    <a href="https://github.com/GareBear99/Portfolio/issues" target="_blank" rel="noopener">🎫 Support</a>
+    <a href="sitemap.xml">Sitemap</a>
+  </div>
+</div>
+
+<section class="hero" aria-label="TizWildin Entertainment HUB public landing page">
+  <div class="hero-main">
+    <div class="eyebrow">Public source-of-truth spine</div>
+    <h2><span class="hero-gradient">Free audio plugins, release routes, and crawlable proof</span> in one verified HUB.</h2>
+    <p class="hero-copy">A polished front door for the TizWildin / GareBear99 ecosystem: free-version plugin discovery, sample-pack routing, GitHub source access, release checks, awesome-list SEO, ARC source-spine links, JSON indexes, and sitemap-backed public crawl paths.</p>
+    <div class="hero-actions">
+      <a class="primary-cta" href="#screen-plugins" onclick="switchScreen('plugins')">🔌 Browse Free Plugins</a>
+      <a class="secondary-cta" href="https://github.com/GareBear99/awesome-audio-plugins-dev" target="_blank" rel="noopener">🚀 Start Here List</a>
+      <a class="secondary-cta" href="public-index.json">🗂️ Open JSON Index</a>
+    </div>
+    <div class="hero-metrics" aria-label="ecosystem proof metrics">
+      <div class="metric"><strong>21+</strong><span>free-version plugin/product routes</span></div>
+      <div class="metric"><strong>5</strong><span>public audio discovery list anchors</span></div>
+      <div class="metric"><strong>JSON</strong><span>machine-readable link/source indexes</span></div>
+      <div class="metric"><strong>ARC</strong><span>source-spine and repo lineage routes</span></div>
+    </div>
+  </div>
+  <aside class="trust-panel" aria-label="trust and source proof panel">
+    <!-- Trust panel tabs -->
+    <div style="display:flex;gap:6px;margin-bottom:14px">
+      <button onclick="switchTrustTab('recents')" id="trust-tab-recents" style="flex:1;padding:8px;border:1px solid rgba(108,123,189,.3);border-radius:8px 8px 0 0;background:rgba(108,123,189,.15);color:#e8eaf0;font-size:12px;font-weight:700;cursor:pointer;border-bottom:2px solid #6c7bbd">🔔 Recents</button>
+      <button onclick="switchTrustTab('about')" id="trust-tab-about" style="flex:1;padding:8px;border:1px solid rgba(255,255,255,.08);border-radius:8px 8px 0 0;background:transparent;color:#a0a6bc;font-size:12px;font-weight:700;cursor:pointer;border-bottom:2px solid transparent">ℹ️ About</button>
+      <button onclick="switchTrustTab('news')" id="trust-tab-news" style="flex:1;padding:8px;border:1px solid rgba(255,255,255,.08);border-radius:8px 8px 0 0;background:transparent;color:#a0a6bc;font-size:12px;font-weight:700;cursor:pointer;border-bottom:2px solid transparent">📰 News</button>
+    </div>
+
+    <!-- Recents tab (default) -->
+    <div id="trust-recents" style="display:block">
+      <h3 style="font-size:16px;margin-bottom:8px">🔔 Recent Activity</h3>
+      <p style="color:var(--sub);font-size:12px;margin-bottom:10px">Latest updates across the GareBear99 ecosystem</p>
+      <div id="recentsFeed" style="display:grid;gap:8px;max-height:280px;overflow-y:auto">
+        <div style="text-align:center;padding:20px;color:var(--sub);font-size:12px"><span class="spinner"></span> Loading recent activity...</div>
+      </div>
+    </div>
+
+    <!-- About tab -->
+    <div id="trust-about" style="display:none">
+      <h3>Frontend polish + backend truth spine.</h3>
+      <p>This HUB is built to look like a real product landing page while still exposing the crawlable proof layer reviewers, search engines, users, and AI tools can inspect.</p>
+      <div class="trust-list">
+        <div class="trust-item"><div class="trust-icon">✅</div><div><strong>Free-version-first routing</strong><span>Every product route points visitors to source, releases, or repo-level proof before any upgrade path.</span></div></div>
+        <div class="trust-item"><div class="trust-icon">🧭</div><div><strong>Queryable public indexes</strong><span>Static pages, JSON manifests, sitemap, llms.txt, and source repo indexes support crawling and retrieval.</span></div></div>
+        <div class="trust-item"><div class="trust-icon">🧠</div><div><strong>ARC / source lineage</strong><span>Public routes connect the music/plugin ecosystem to ARC-Core, Arc-RAR, and Omnibinary source-spine concepts.</span></div></div>
+        <div class="trust-item"><div class="trust-icon">🛡️</div><div><strong>Claim-safe wording</strong><span>No fake security claims. The page explains what the HUB does: discovery, routing, update checks, and source proof.</span></div></div>
+      </div>
+    </div>
+
+    <!-- News tab — GitHub releases feed -->
+    <div id="trust-news" style="display:none">
+      <h3 style="font-size:16px;margin-bottom:4px">📰 Plugin Releases</h3>
+      <p style="color:var(--sub);font-size:12px;margin-bottom:10px">Latest versioned releases across the TizWildin plugin ecosystem.</p>
+      <div id="newsFeed" style="display:grid;gap:8px;max-height:280px;overflow-y:auto">
+        <div style="text-align:center;padding:20px;color:var(--sub);font-size:12px"><span class="spinner"></span> Loading releases...</div>
+      </div>
+      <p style="font-size:11px;color:var(--sub);margin-top:10px;text-align:center">Press coverage, blog posts &amp; announcements — coming soon</p>
+    </div>
+  </aside>
+</section>
+
+<section class="section-wrap" aria-label="public proof layer">
+  <div class="section-head">
+    <div><h2>What makes this different</h2><p>Most landing pages hide behind marketing. This one keeps the marketing layer and the machine-readable source layer together, so the ecosystem can be browsed by humans, crawled by search engines, and queried by AI tools.</p></div>
+  </div>
+  <div class="proof-grid">
+    <div class="proof-card"><h3>🎧 Audio product front door</h3><p>Routes FreeEQ8, FreeVox8, plugin tools, sample packs, and public audio-development resources from one branded hub.</p><a href="#screen-plugins" onclick="switchScreen('plugins')">View plugin routes →</a></div>
+    <div class="proof-card"><h3>🔎 SEO / crawler spine</h3><p>Uses canonical pages, sitemap, JSON link indexes, public list pages, and GitHub repo anchors instead of relying on a pretty homepage alone.</p><a href="index-seo.html">Open SEO landing →</a></div>
+    <div class="proof-card"><h3>🧾 Source-of-truth routing</h3><p>Connects releases, repos, manifests, source archives, readiness docs, and ARC lineage routes so claims can be traced.</p><a href="arc-index.html">Open ARC spine →</a></div>
+  </div>
+  <div class="route-strip" aria-label="fast public routes">
+    <a class="route-card" href="ecosystem-index.html"><em>crawl</em><strong>Static Ecosystem Index</strong><span>Public HTML route map for humans and search engines.</span></a>
+    <a class="route-card" href="public-index.json"><em>json</em><strong>Public Link Index</strong><span>Machine-readable source and route inventory.</span></a>
+    <a class="route-card" href="llms.txt"><em>ai</em><strong>LLM Index</strong><span>AI-readable summary of the public ecosystem surface.</span></a>
+    <a class="route-card" href="PUBLIC_LINK_GRAPH.md"><em>graph</em><strong>Public Link Graph</strong><span>Plain-English map of route relationships.</span></a>
+    <a class="route-card" href="https://github.com/GareBear99/TizWildin-Release-Vault" target="_blank" rel="noopener"><em>vault</em><strong>Release Vault</strong><span>GitHub-backed release proof and distribution route.</span></a>
+  </div>
+</section>
+
+<div class="header" style="padding-top:26px">
+  <div class="header-text">
+    <h1>🎛️ <span>TizWildin</span> Entertainment HUB</h1>
+    <p>Live manifests, free-version installs, update checks, source routes, lists, packs, and release proof.</p>
+  </div>
+  <div class="header-links">
+    <a href="https://github.com/GareBear99/TizWildinEntertainmentHUB" target="_blank" rel="noopener">⭐ TizWildin HUB repo</a>
+    <a href="https://github.com/GareBear99/awesome-audio-plugins-dev" target="_blank" rel="noopener">🚀 Start Here: Audio Plugins Dev</a>
+    <a href="https://github.com/GareBear99/awesome-audio-lists" target="_blank" rel="noopener">📚 Awesome Audio Lists</a>
+    <a href="https://github.com/GareBear99/awesome-music-platforms" target="_blank" rel="noopener">🌎 Music Platforms List</a>
+    <a href="https://github.com/GareBear99/awesome-python-audio-science" target="_blank" rel="noopener">🐍 Python Audio Science</a>
+  </div>
+</div>
+<div class="hub-note">
+  <div class="hub-note-box">
+    <strong>The HUB is not the checkout.</strong> Every plugin listed here has a free version. The HUB handles updates, downloads, release checks, repo/source access, and public list routing. Any payments, upgrades, or unlocks happen <strong>inside each product</strong>.<br><strong>Start Here:</strong> <a href="https://github.com/GareBear99/awesome-audio-plugins-dev" target="_blank" rel="noopener">awesome-audio-plugins-dev</a> is now the canonical first list for plugin discovery, audio-development links, FreeEQ8/FreeVox8 routing, and the rest of the GareBear99 audio network.
+  </div>
+</div>
+<div class="tabs">
+  <button class="tab active" id="tab-plugins" onclick="switchScreen('plugins')">🔌 Plugins</button>
+  <button class="tab" id="tab-packs" onclick="switchScreen('packs')">🎁 Packs &amp; Samples</button>
+  <button class="tab" id="tab-lists" onclick="switchScreen('lists')">📚 Lists</button>
+  <button class="tab" id="tab-tools" onclick="switchScreen('tools')">🔧 Tools</button>
+  <button class="tab" id="tab-games" onclick="switchScreen('games')">🎮 Games</button>
+  <button class="tab" id="tab-all" onclick="switchScreen('all')">🛒 All Itch</button>
+  <button class="tab" id="tab-promos" onclick="switchScreen('promos')">📣 Promotionals</button>
+  <button class="tab" id="tab-academics" onclick="switchScreen('academics')">🎓 Academics</button>
+  <button class="tab" id="tab-tutorials" onclick="switchScreen('tutorials')">📖 Tutorials</button>
+</div>
+
+<div id="screen-plugins" class="screen active">
+  <div class="controls">
+    <button id="checkAllBtn" onclick="checkAllUpdates()">⟳ Check All Updates</button>
+    <div class="toggle-wrap">
+      <div class="toggle" id="autoToggle" onclick="toggleAuto()"></div>
+      <span>Auto-check on load</span>
+    </div>
+    <div class="stats" id="stats"></div>
+  </div>
+
+  <div id="pluginContainer"></div>
+</div>
+
+<div id="screen-packs" class="screen">
+  <div class="controls">
+    <div class="stats" id="packStats"></div>
+  </div>
+
+  <div id="packContainer"></div>
+</div>
+
+<div id="screen-lists" class="screen">
+  <div class="start-here-note" id="startHereListsNote">
+    <strong>Start Here list:</strong> <a href="https://github.com/GareBear99/awesome-audio-plugins-dev" target="_blank" rel="noopener">awesome-audio-plugins-dev</a> is the first click for the public audio ecosystem. From there, visitors branch into plugin development, FreeEQ8, FreeVox8, music-platform lists, Python audio science, sample packs, release proof, and the .io router.
+  </div>
+  <div class="controls">
+    <div class="stats" id="listStats"></div>
+  </div>
+
+  <div id="listContainer"></div>
+</div>
+
+<div id="screen-tools" class="screen">
+  <div class="controls">
+    <div class="stats" id="toolStats"></div>
+  </div>
+  <div id="toolContainer"></div>
+</div>
+
+<div id="screen-games" class="screen">
+  <div class="controls">
+    <div class="stats" id="gameStats"></div>
+  </div>
+  <div id="gameContainer"></div>
+</div>
+
+
+<div id="screen-all" class="screen">
+  <div class="start-here-note">
+    <strong>Complete GareBearProductionz itch inventory:</strong> every public item visible on the account before the supported/collection section, grouped for buyers and routed back to official itch checkout. Use this as the main seller index: hero products first, free samples as lead magnets, and bundle badges for Formula A1 / Live SVG FX.
+  </div>
+  <div class="controls"><div class="stats" id="allStats"></div></div>
+  <div id="allSaleStrip" class="sale-strip"></div>
+  <div id="allFilterBar" class="filter-row"></div>
+  <div id="allContainer"></div>
+</div>
+
+<div id="screen-promos" class="screen">
+  <div class="controls"><div class="stats" id="promoStats"></div></div>
+  <div id="promoContainer"></div>
+</div>
+
+<div id="screen-academics" class="screen">
+  <div class="controls"><div class="stats" id="academicStats"></div></div>
+  <div id="academicContainer"></div>
+</div>
+
+<div id="screen-tutorials" class="screen">
+  <div class="controls"><div class="stats" id="tutorialStats"></div></div>
+  <div id="tutorialContainer"></div>
+</div>
+
+<div class="footer">
+  Built with ❤️ by Gary Doman (GareBear99 / TizWildin)<br>
+  "Great sound shouldn't cost anything" — ⭐ <a href="https://github.com/GareBear99/TizWildinEntertainmentHUB">Star the repo</a> · 💖 <a href="https://github.com/sponsors/GareBear99">Sponsor</a> · 📚 <a href="https://github.com/GareBear99/awesome-audio-lists">Audio Lists Hub</a><br>
+  <span id="communityCount" style="font-size:12px;color:var(--accent)"></span>
+</div>
+
+<script>
+const OWNER = 'GareBear99';
+const MANIFEST_URL = 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/plugins.json';
+const PACKS_URL    = 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/packs.json';
+const LISTS_URL    = 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/lists.json';
+const TOOLS_URL    = 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/tools.json';
+const GAMES_URL    = 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/games.json';
+const PROMOS_URL   = 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/promotionals.json';
+const ACADEMICS_URL= 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/academics.json';
+const TUTORIALS_URL= 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/tutorials.json';
+const ALL_ITEMS_URL= 'https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/all_items.json';
+let pluginData = [];
+let packData = [];
+let listData = [];
+let toolData = [];
+let gameData = [];
+let promoData = [];
+let academicData = [];
+let tutorialData = [];
+let allAccountData = [];
+let allAccountManifest = null;
+let activeAllFilter = 'all';
+let releaseCache = {};
+
+function escHtml(v) {
+  return String(v ?? '').replace(/[&<>'"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[ch]));
+}
+function escAttr(v) { return escHtml(v); }
+function allFallbackMedia(item) {
+  const label = escHtml(item.name || 'GareBearProductionz');
+  return `<div class="itch-media fallback" aria-label="No pulled cover available yet"><div><strong>${label}</strong><span>Cover/GIF pending next itch autopull</span></div></div>`;
+}
+function allMediaBlock(item) {
+  const media = item.media || {};
+  const src = media.animated || media.cover || '';
+  if (!src) return allFallbackMedia(item);
+  const isGif = !!media.animated || /\.gif(?:$|[?#])/i.test(src);
+  const label = isGif ? 'GIF preview' : 'Cover';
+  const alt = escAttr(media.alt || item.name || 'GareBearProductionz itch item cover');
+  const safeSrc = escAttr(src);
+  return `<a class="itch-media" href="${escAttr(item.url || '#')}" target="_blank" rel="noopener" aria-label="Open ${alt}"><img src="${safeSrc}" alt="${alt}" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.closest('.itch-media').outerHTML=allFallbackMedia({name:this.alt})"><span class="media-pill ${isGif ? 'gif' : ''}">${label}</span></a>`;
+}
+
+// ── Tab / screen switcher ──
+function switchScreen(name) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById('tab-' + name).classList.add('active');
+  document.getElementById('screen-' + name).classList.add('active');
+}
+
+// ── Cache-busted fetch so manifest updates propagate without hard refresh ──
+function fetchNoCache(url) {
+  const sep = url.includes('?') ? '&' : '?';
+  return fetch(`${url}${sep}t=${Date.now()}`, { cache: 'no-store' });
+}
+
+// ── Load manifests and render both screens ──
+async function init() {
+  try {
+    const resp = await fetchNoCache(MANIFEST_URL);
+    const manifest = await resp.json();
+    pluginData = manifest.plugins;
+    render(manifest);
+    loadAutoToggle();
+    // Default ON for first-time visitors: V1 public dashboard auto-checks releases by default.
+    // If a user turns it off, localStorage stores "false" and we respect that preference.
+    if (getAutoCheckEnabled()) {
+      checkAllUpdates();
+    }
+  } catch (e) {
+    document.getElementById('pluginContainer').innerHTML =
+      '<p style="padding:32px;color:var(--red)">Failed to load plugin manifest. Check your connection.</p>';
+  }
+  try {
+    const respP = await fetchNoCache(PACKS_URL);
+    const packsManifest = await respP.json();
+    packData = packsManifest.packs;
+    renderPacks(packsManifest);
+  } catch (e) {
+    document.getElementById('packContainer').innerHTML =
+      '<p style="padding:32px;color:var(--red)">Failed to load pack manifest. Check your connection.</p>';
+  }
+  try {
+    const respL = await fetchNoCache(LISTS_URL);
+    const listsManifest = await respL.json();
+    listData = listsManifest.lists;
+    renderLists(listsManifest);
+  } catch (e) {
+    document.getElementById('listContainer').innerHTML =
+      '<p style="padding:32px;color:var(--red)">Failed to load lists manifest. Check your connection.</p>';
+  }
+  try {
+    const respT = await fetchNoCache(TOOLS_URL);
+    const toolsManifest = await respT.json();
+    toolData = toolsManifest.tools;
+    renderTools(toolsManifest);
+  } catch (e) {
+    document.getElementById('toolContainer').innerHTML =
+      '<p style="padding:32px;color:var(--red)">Failed to load tools manifest.</p>';
+  }
+  try {
+    const respG = await fetchNoCache(GAMES_URL);
+    const gamesManifest = await respG.json();
+    gameData = gamesManifest.games;
+    renderGames(gamesManifest);
+  } catch (e) {
+    document.getElementById('gameContainer').innerHTML =
+      '<p style="padding:32px;color:var(--red)">Failed to load games manifest.</p>';
+  }
+  try {
+    const respA = await fetchNoCache(ALL_ITEMS_URL).catch(() => fetchNoCache('all_items.json'));
+    const allManifest = await respA.json();
+    allAccountManifest = allManifest;
+    allAccountData = allManifest.items || [];
+    renderAllAccount(allManifest);
+  } catch (e) {
+    const allEl = document.getElementById('allContainer');
+    if (allEl) allEl.innerHTML = '<p style="padding:32px;color:var(--red)">Failed to load all-account inventory.</p>';
+  }
+}
+
+
+// ── Render plugin cards grouped by category ──
+function render(manifest) {
+  const container = document.getElementById('pluginContainer');
+  container.innerHTML = '';
+  for (const cat of manifest.categories) {
+    const plugins = manifest.plugins.filter(p => p.category === cat.id);
+    if (!plugins.length) continue;
+    const section = document.createElement('div');
+    section.className = 'category';
+    section.innerHTML = `<div class="category-title">${cat.icon} ${cat.name}</div><div class="grid" id="grid-${cat.id}"></div>`;
+    container.appendChild(section);
+    const grid = section.querySelector('.grid');
+    for (const p of plugins) {
+      grid.appendChild(createCard(p));
+    }
+  }
+  updateStats();
+}
+
+// ── Create a single plugin card ──
+function createCard(plugin) {
+  const card = document.createElement('div');
+  card.className = 'card';
+  card.id = `card-${plugin.id}`;
+  const statusEmoji = plugin.status === 'production' ? '✅' : plugin.status === 'beta' ? '⚠️' : '🚧';
+  const formats = plugin.formats.map(f => `<span>${f}</span>`).join('');
+  card.innerHTML = `
+    <div class="card-top">
+      <div class="card-name">${statusEmoji} ${plugin.name}</div>
+      <div class="card-badge badge-free">FREE VERSION</div>
+    </div>
+    <div class="card-desc">${plugin.description}</div>
+    <div class="card-formats">${formats}</div>
+    <div class="version-row" id="version-${plugin.id}">
+      <span class="version-tag v-checking"><span class="spinner"></span> Waiting…</span>
+    </div>
+    <div class="card-actions">
+      ${plugin.demoUrl ? `<a class="download-btn" href="${plugin.demoUrl}" target="_blank">${plugin.demoLabel || '▶️ Play Demo'}</a>` : ''}
+      <a href="https://github.com/${OWNER}/${plugin.repo}" target="_blank">📂 Repo / Source</a>
+      <span id="actions-${plugin.id}"></span>
+    </div>
+  `;
+  return card;
+}
+
+// ── Check updates for all plugins ──
+async function checkAllUpdates() {
+  const btn = document.getElementById('checkAllBtn');
+  if (btn) {
+    btn.classList.add('checking');
+    btn.textContent = '⟳ Checking…';
+  }
+
+  for (const plugin of pluginData) {
+    await checkPlugin(plugin);
+    await new Promise(resolve => setTimeout(resolve, 140));
+  }
+
+  if (btn) {
+    btn.classList.remove('checking');
+    btn.textContent = '⟳ Check All Updates';
+  }
+  updateStats();
+}
+
+// ── Check a single plugin against GitHub releases ──
+async function checkPlugin(plugin) {
+  const versionEl = document.getElementById(`version-${plugin.id}`);
+  const actionsEl = document.getElementById(`actions-${plugin.id}`);
+  const repoUrl = `https://github.com/${OWNER}/${plugin.repo}`;
+
+  if (!versionEl || !actionsEl) return;
+
+  versionEl.innerHTML = '<span class="version-tag v-checking"><span class="spinner"></span> Checking…</span>';
+
+  try {
+    const resp = await fetch(`https://api.github.com/repos/${OWNER}/${plugin.repo}/releases/latest`, {
+      cache: 'no-store',
+      headers: { 'Accept': 'application/vnd.github+json' }
+    });
+
+    if (resp.status === 404) {
+      releaseCache[plugin.id] = null;
+      versionEl.innerHTML = '<span class="version-tag v-norelease">🟣 FREE SOURCE READY</span><span class="version-info">No packaged release yet — repo/source is available.</span>';
+      actionsEl.innerHTML = `<a class="download-btn" href="${repoUrl}" target="_blank">⬇ Open Repo / Source</a>`;
+      return;
+    }
+
+    if (!resp.ok) {
+      releaseCache[plugin.id] = null;
+      versionEl.innerHTML = '<span class="version-tag v-norelease">🟣 FREE SOURCE READY</span><span class="version-info">Release API unavailable — repo/source is available.</span>';
+      actionsEl.innerHTML = `<a class="download-btn" href="${repoUrl}" target="_blank">⬇ Open Repo / Source</a>`;
+      return;
+    }
+
+    const release = await resp.json();
+    if (!release || !release.tag_name) {
+      releaseCache[plugin.id] = null;
+      versionEl.innerHTML = '<span class="version-tag v-norelease">🟣 FREE SOURCE READY</span><span class="version-info">No release tag found — repo/source is available.</span>';
+      actionsEl.innerHTML = `<a class="download-btn" href="${repoUrl}" target="_blank">⬇ Open Repo / Source</a>`;
+      return;
+    }
+
+    releaseCache[plugin.id] = release;
+    const tag = release.tag_name;
+    const published = new Date(release.published_at || Date.now());
+    const daysAgo = Math.max(0, Math.floor((Date.now() - published) / 86400000));
+    const timeText = daysAgo === 0 ? 'today' : daysAgo === 1 ? 'yesterday' : `${daysAgo}d ago`;
+    const isNew = daysAgo <= 7;
+
+    if (isNew) {
+      versionEl.innerHTML = `
+        <span class="version-tag v-newrelease">🟡 NEW FREE RELEASE</span>
+        <span class="version-info">${tag} — released ${timeText}</span>
+      `;
+      actionsEl.innerHTML = `<a class="update-btn" href="${release.html_url || repoUrl}" target="_blank">⬇ Download Free Version</a>`;
+    } else {
+      versionEl.innerHTML = `
+        <span class="version-tag v-uptodate">🟢 ${tag}</span>
+        <span class="version-info">Released ${timeText}</span>
+      `;
+      if (release.assets && release.assets.length > 0) {
+        actionsEl.innerHTML = `<a class="download-btn" href="${release.assets[0].browser_download_url}" target="_blank">⬇ Download Free Version</a>`;
+      } else {
+        actionsEl.innerHTML = `<a class="download-btn" href="${release.html_url || repoUrl}" target="_blank">⬇ Open Release</a>`;
+      }
+    }
+  } catch (e) {
+    releaseCache[plugin.id] = null;
+    versionEl.innerHTML = '<span class="version-tag v-norelease">🟣 FREE SOURCE READY</span><span class="version-info">Release API unavailable — repo/source is available.</span>';
+    actionsEl.innerHTML = `<a class="download-btn" href="${repoUrl}" target="_blank">⬇ Open Repo / Source</a>`;
+  }
+}
+
+// ── Stats bar ──
+function updateStats() {
+  const total = pluginData.length;
+  const withRelease = Object.values(releaseCache).filter(v => v !== null && v !== undefined).length;
+  const noRelease = Object.values(releaseCache).filter(v => v === null).length;
+  const newReleases = Object.values(releaseCache).filter(v => {
+    if (!v) return false;
+    const days = Math.floor((Date.now() - new Date(v.published_at)) / 86400000);
+    return days <= 7;
+  }).length;
+  const checked = Object.keys(releaseCache).length;
+  let text = `${total} free-version plugins`;
+  if (checked > 0) {
+    text += ` · ${withRelease} with releases · ${noRelease} source-only · ${newReleases} new`;
+  }
+  document.getElementById('stats').textContent = text;
+}
+
+// ── Render pack cards grouped by category ──
+function renderPacks(manifest) {
+  const container = document.getElementById('packContainer');
+  container.innerHTML = '';
+  for (const cat of manifest.categories) {
+    const packs = manifest.packs.filter(p => p.category === cat.id);
+    if (!packs.length) continue;
+    const section = document.createElement('div');
+    section.className = 'category';
+    section.innerHTML = `<div class="category-title">${cat.icon} ${cat.name}</div><div class="grid" id="pack-grid-${cat.id}"></div>`;
+    container.appendChild(section);
+    const grid = section.querySelector('.grid');
+    for (const p of packs) {
+      grid.appendChild(createPackCard(p));
+    }
+  }
+  document.getElementById('packStats').textContent =
+    `${manifest.packs.length} free packs · all open-source on GitHub`;
+}
+
+// ── Create a single pack card ──
+function createPackCard(pack) {
+  const card = document.createElement('div');
+  card.className = 'card';
+  const tags = (pack.tags || []).map(t => `<span class="pack-tag">${t}</span>`).join('');
+  const zipUrl = `https://github.com/${OWNER}/${pack.repo}/archive/refs/heads/main.zip`;
+  card.innerHTML = `
+    <div class="card-top">
+      <div class="card-name">🎁 ${pack.name}</div>
+      <div class="card-badge badge-free">FREE PACK</div>
+    </div>
+    <div class="card-desc">${pack.description}</div>
+    <div class="pack-tags">${tags}</div>
+    <div class="card-actions">
+      <a href="https://github.com/${OWNER}/${pack.repo}" target="_blank">📂 Repo / Source</a>
+      <a class="download-btn" href="${zipUrl}" target="_blank">⬇ Download ZIP</a>
+    </div>
+  `;
+  return card;
+}
+
+
+// ── Render public discovery/list cards grouped by category ──
+function renderLists(manifest) {
+  const container = document.getElementById('listContainer');
+  container.innerHTML = '';
+  const categories = [...manifest.categories].sort((a, b) => (a.id === 'start_here' ? -1 : b.id === 'start_here' ? 1 : 0));
+  for (const cat of categories) {
+    const lists = manifest.lists
+      .filter(item => item.category === cat.id)
+      .sort((a, b) => (a.priority || 99) - (b.priority || 99));
+    if (!lists.length) continue;
+    const section = document.createElement('div');
+    section.className = 'category';
+    section.innerHTML = `<div class="category-title">${cat.icon} ${cat.name}</div><div class="grid" id="list-grid-${cat.id}"></div>`;
+    container.appendChild(section);
+    const grid = section.querySelector('.grid');
+    for (const item of lists) {
+      grid.appendChild(createListCard(item));
+    }
+  }
+  document.getElementById('listStats').textContent =
+    `${manifest.lists.length} public list/project anchors · Start Here: awesome-audio-plugins-dev`;
+}
+
+// ── Create a single public discovery/list card ──
+function createListCard(item) {
+  const card = document.createElement('div');
+  card.className = item.startHere ? 'card start-here-card' : 'card';
+  const tags = (item.tags || []).map(t => `<span class="pack-tag">${t}</span>`).join('');
+  const repoUrl = item.url || `https://github.com/${OWNER}/${item.repo}`;
+  card.innerHTML = `
+    <div class="card-top">
+      <div class="card-name">${item.startHere ? '🚀' : '📚'} ${item.name}</div>
+      <div class="card-badge badge-free">${item.type || 'LIST'}</div>
+    </div>
+    <div class="card-desc">${item.description}</div>
+    <div class="pack-tags">${tags}</div>
+    <div class="version-row">
+      <span class="version-tag v-uptodate">${item.status || 'canonical'}</span>
+    </div>
+    <div class="card-actions">
+      <a href="${repoUrl}" target="_blank" rel="noopener">${item.startHere ? '🚀 Start Here' : (item.url ? '🌐 Open Route' : '📂 Open GitHub')}</a>
+    </div>
+  `;
+  return card;
+}
+
+// ── Auto-check toggle ──
+// Default behavior is ON for first-time visitors so the V1/free-version dashboard checks releases by default.
+function getAutoCheckEnabled() {
+  const stored = localStorage.getItem('tiz_autocheck');
+  if (stored === null) return true;
+  return stored === 'true';
+}
+function toggleAuto() {
+  const el = document.getElementById('autoToggle');
+  const next = !getAutoCheckEnabled();
+  localStorage.setItem('tiz_autocheck', String(next));
+  if (el) el.classList.toggle('on', next);
+}
+function loadAutoToggle() {
+  const on = getAutoCheckEnabled();
+  const el = document.getElementById('autoToggle');
+  if (el) el.classList.toggle('on', on);
+}
+
+
+// ── Render complete itch/account inventory ──
+function setAllFilter(filter) {
+  activeAllFilter = filter;
+  if (allAccountManifest) renderAllAccount(allAccountManifest);
+}
+function matchesAllFilter(item, filter) {
+  if (filter === 'all') return true;
+  if (filter === 'free') return item.priceType === 'free';
+  if (filter === 'paid') return item.priceType === 'paid';
+  if (filter === 'formula_a1_5k') return (item.saleMemberships || []).includes('formula_a1_5k');
+  if (filter === 'live_svg_fx') return (item.saleMemberships || []).includes('live_svg_fx');
+  if (filter === 'featured') return !!item.featured;
+  return item.category === filter;
+}
+function renderAllAccount(manifest) {
+  const container = document.getElementById('allContainer');
+  const filterBar = document.getElementById('allFilterBar');
+  const saleStrip = document.getElementById('allSaleStrip');
+  if (!container || !filterBar) return;
+  container.innerHTML = '';
+  const items = manifest.items || [];
+  const visible = items.filter(item => matchesAllFilter(item, activeAllFilter));
+  const filterDefs = [
+    ['all','All'], ['featured','Hero'], ['formula_a1_5k','Formula A1'], ['live_svg_fx','Live SVG'], ['paid','Paid'], ['free','Free'],
+    ...(manifest.categories || []).map(c => [c.id, `${c.icon} ${c.name}`])
+  ];
+  filterBar.innerHTML = filterDefs.map(([id,label]) => `<button class="filter-chip ${activeAllFilter === id ? 'active' : ''}" onclick="setAllFilter('${id}')">${label}</button>`).join('');
+  if (saleStrip && manifest.sales) {
+    saleStrip.innerHTML = manifest.sales.map(s => `<a href="${s.url}" target="_blank" rel="noopener"><strong>${s.name}</strong><span>${s.price} · Regular ${s.regularValue || 'N/A'} · Save ${s.discount || '—'} · ${s.itemCount || 0} indexed items${s.goal ? ` · Goal ${s.goal}` : ''}</span></a>`).join('');
+  }
+  const cats = activeAllFilter === 'all' || activeAllFilter === 'featured' || activeAllFilter === 'paid' || activeAllFilter === 'free' || activeAllFilter.includes('_')
+    ? (manifest.categories || [])
+    : (manifest.categories || []).filter(c => c.id === activeAllFilter);
+  for (const cat of cats) {
+    const catItems = visible.filter(item => item.category === cat.id).sort((a,b) => (a.rank || 999) - (b.rank || 999));
+    if (!catItems.length) continue;
+    const section = document.createElement('div');
+    section.className = 'category';
+    section.innerHTML = `<div class="category-title">${cat.icon} ${cat.name} <span style="font-size:12px;color:var(--sub);font-weight:500">${catItems.length} items</span></div><div class="grid"></div>`;
+    container.appendChild(section);
+    const grid = section.querySelector('.grid');
+    for (const item of catItems) grid.appendChild(createAllAccountCard(item));
+  }
+  const freeCount = items.filter(i => i.priceType === 'free').length;
+  const paidCount = items.filter(i => i.priceType === 'paid').length;
+  const formulaCount = items.filter(i => (i.saleMemberships || []).includes('formula_a1_5k')).length;
+  const liveCount = items.filter(i => (i.saleMemberships || []).includes('live_svg_fx')).length;
+  const mediaCount = items.filter(i => ((i.media || {}).cover || (i.media || {}).animated)).length;
+  const generatedAt = manifest.metadata && (manifest.metadata.autopullLastRun || manifest.metadata.generatedAt || manifest.generatedAt);
+  document.getElementById('allStats').textContent = `${visible.length}/${items.length} shown · ${paidCount} paid · ${freeCount} free/NYP · ${formulaCount} Formula A1 · ${liveCount} Live SVG · ${mediaCount} media · updated ${generatedAt || 'manifest'}`;
+}
+function createAllAccountCard(item) {
+  const card = document.createElement('div');
+  card.className = item.featured ? 'card featured-store-card' : 'card';
+  const tags = (item.tags || []).slice(0, 8).map(x => `<span class="pack-tag">${escHtml(x)}</span>`).join('');
+  const saleBadges = (item.saleMemberships || []).map(id => id === 'formula_a1_5k' ? '<span class="pack-tag">$5k Formula A1</span>' : '<span class="pack-tag">$10 Live SVG</span>').join('');
+  const badge = item.priceType === 'free' ? 'FREE / NYP' : 'PAID';
+  const icon = item.kind === 'game' ? '🎮' : item.kind === 'tool' ? '🧰' : '🎁';
+  const media = allMediaBlock(item);
+  const priceLabel = item.itch && item.itch.priceLabel ? `<span class="pack-tag">${escHtml(item.itch.priceLabel)}</span>` : '';
+  card.innerHTML = `
+    ${media}
+    <div class="card-top"><div class="card-name">${icon} ${escHtml(item.name)}</div><div class="card-badge badge-free">${badge}</div></div>
+    <div class="card-desc">${escHtml(item.description)}</div>
+    <div class="pack-tags">${priceLabel}${saleBadges}${tags}</div>
+    <div class="card-actions"><a class="download-btn" href="${escAttr(item.url)}" target="_blank" rel="noopener">Open itch page</a>${item.source ? `<a href="${escAttr(item.source)}" target="_blank" rel="noopener">Account</a>` : ''}</div>
+  `;
+  return card;
+}
+
+async function loadPromosAndAcademics() {
+  try {
+    const respPr = await fetchNoCache(PROMOS_URL);
+    const promosManifest = await respPr.json();
+    promoData = promosManifest.promotionals;
+    renderPromos(promosManifest);
+  } catch (e) {
+    document.getElementById('promoContainer').innerHTML = '<p style="padding:32px;color:var(--red)">Failed to load promotionals.</p>';
+  }
+  try {
+    const respAc = await fetchNoCache(ACADEMICS_URL);
+    const academicsManifest = await respAc.json();
+    academicData = academicsManifest.papers;
+    renderAcademics(academicsManifest);
+  } catch (e) {
+    document.getElementById('academicContainer').innerHTML = '<p style="padding:32px;color:var(--red)">Failed to load academics.</p>';
+  }
+}
+
+// Call after init
+init().then(() => loadPromosAndAcademics()).then(() => loadTutorials());
+
+// ── Render promo cards ──
+function renderPromos(manifest) {
+  const container = document.getElementById('promoContainer');
+  container.innerHTML = '';
+  for (const cat of manifest.categories) {
+    const items = manifest.promotionals.filter(p => p.category === cat.id);
+    if (!items.length) continue;
+    const section = document.createElement('div');
+    section.className = 'category';
+    section.innerHTML = `<div class="category-title">${cat.icon} ${cat.name}</div><div class="grid"></div>`;
+    container.appendChild(section);
+    const grid = section.querySelector('.grid');
+    for (const p of items) {
+      const card = document.createElement('div');
+      card.className = 'card';
+      const tags = (p.tags || []).map(x => `<span class="pack-tag">${x}</span>`).join('');
+      const statusBadge = p.status === 'active' ? '✅' : '🚧';
+      card.innerHTML = `
+        <div class="card-top"><div class="card-name">${statusBadge} ${p.name}</div><div class="card-badge badge-free">${p.status?.toUpperCase() || 'ACTIVE'}</div></div>
+        <div class="card-desc">${p.description}</div>
+        <div class="pack-tags">${tags}</div>
+        <div class="card-actions">${p.url ? `<a href="${p.url}" target="_blank" rel="noopener">🌐 Open</a>` : '<span style="color:var(--sub);font-size:12px;">Coming soon</span>'}</div>
+      `;
+      grid.appendChild(card);
+    }
+  }
+  document.getElementById('promoStats').textContent = `${manifest.promotionals.length} promotional channels`;
+}
+
+// ── Render academic cards ──
+function renderAcademics(manifest) {
+  const container = document.getElementById('academicContainer');
+  container.innerHTML = '';
+  for (const cat of manifest.categories) {
+    const items = manifest.papers.filter(p => p.category === cat.id);
+    if (!items.length) continue;
+    const section = document.createElement('div');
+    section.className = 'category';
+    section.innerHTML = `<div class="category-title">${cat.icon} ${cat.name}</div><div class="grid"></div>`;
+    container.appendChild(section);
+    const grid = section.querySelector('.grid');
+    for (const p of items) {
+      const card = document.createElement('div');
+      card.className = 'card';
+      const tags = (p.tags || []).map(x => `<span class="pack-tag">${x}</span>`).join('');
+      card.innerHTML = `
+        <div class="card-top"><div class="card-name">📝 ${p.name}</div><div class="card-badge badge-free">${p.status?.toUpperCase() || 'DRAFT'}</div></div>
+        <div class="card-desc">${p.description}</div>
+        <div style="font-size:12px;color:var(--sub);margin-top:4px;">By ${p.authors} • ${p.venue || 'TBD'}</div>
+        <div class="pack-tags">${tags}</div>
+        <div class="card-actions"><a href="${p.url}" target="_blank">📄 Read Paper</a>${p.repo ? ` <a href="https://github.com/${OWNER}/${p.repo}" target="_blank">📂 Repo</a>` : ''}</div>
+      `;
+      grid.appendChild(card);
+    }
+  }
+  document.getElementById('academicStats').textContent = `${manifest.papers.length} papers`;
+}
+
+// ── Render tool cards ──
+function renderTools(manifest) {
+  const container = document.getElementById('toolContainer');
+  container.innerHTML = '';
+  for (const cat of manifest.categories) {
+    const tools = manifest.tools.filter(t => t.category === cat.id);
+    if (!tools.length) continue;
+    const section = document.createElement('div');
+    section.className = 'category';
+    section.innerHTML = `<div class="category-title">${cat.icon} ${cat.name}</div><div class="grid"></div>`;
+    container.appendChild(section);
+    const grid = section.querySelector('.grid');
+    for (const t of tools) {
+      const card = document.createElement('div');
+      card.className = 'card';
+      const tags = (t.tags || []).map(x => `<span class="pack-tag">${x}</span>`).join('');
+      const statusEmoji = t.status === 'production' ? '✅' : t.status === 'beta' ? '⚠️' : '🚧';
+      card.innerHTML = `
+        <div class="card-top"><div class="card-name">${statusEmoji} ${t.name}</div><div class="card-badge badge-free">FREE TOOL</div></div>
+        <div class="card-desc">${t.description}</div>
+        <div class="pack-tags">${tags}</div>
+        <div class="card-actions">${t.url ? `<a class="download-btn" href="${t.url}" target="_blank">▶️ Open</a>` : ''}${t.repo ? `<a href="https://github.com/${OWNER}/${t.repo}" target="_blank">📂 Repo / Source</a>` : '<span style="color:var(--sub);font-size:12px;">Coming soon</span>'}</div>
+      `;
+      grid.appendChild(card);
+    }
+  }
+  document.getElementById('toolStats').textContent = `${manifest.tools.length} free tools`;
+}
+
+// ── Render game cards ──
+function renderGames(manifest) {
+  const container = document.getElementById('gameContainer');
+  container.innerHTML = '';
+  for (const cat of manifest.categories) {
+    const games = manifest.games.filter(g => g.category === cat.id);
+    if (!games.length) continue;
+    const section = document.createElement('div');
+    section.className = 'category';
+    section.innerHTML = `<div class="category-title">${cat.icon} ${cat.name}</div><div class="grid"></div>`;
+    container.appendChild(section);
+    const grid = section.querySelector('.grid');
+    for (const g of games) {
+      const card = document.createElement('div');
+      card.className = 'card';
+      const tags = (g.tags || []).map(x => `<span class="pack-tag">${x}</span>`).join('');
+      const linked = g.linkedPlugin ? `<div style="margin-top:8px;font-size:12px;color:var(--accent);">🔗 Powered by <a href="https://github.com/${OWNER}/${g.linkedPluginRepo}" target="_blank">${g.linkedPlugin}</a></div>` : '';
+      card.innerHTML = `
+        <div class="card-top"><div class="card-name">🎮 ${g.name}</div><div class="card-badge badge-free">${g.status?.toUpperCase() || 'ALPHA'}</div></div>
+        <div class="card-desc">${g.description}</div>
+        <div class="pack-tags">${tags}</div>
+        ${linked}
+        <div class="card-actions">${g.demoUrl ? `<a class="download-btn" href="${g.demoUrl}" target="_blank">▶️ Play Demo</a>` : ''}${g.repo ? `<a href="https://github.com/${OWNER}/${g.repo}" target="_blank">📂 Repo / Source</a>` : '<span style="color:var(--sub);font-size:12px;">Repo coming soon</span>'}</div>
+      `;
+      grid.appendChild(card);
+    }
+  }
+  document.getElementById('gameStats').textContent = `${manifest.games.length} games`;
+}
+
+// ── Load & render tutorials ──
+async function loadTutorials() {
+  try {
+    const resp = await fetchNoCache(TUTORIALS_URL);
+    const manifest = await resp.json();
+    tutorialData = manifest.tutorials || [];
+    renderTutorials(manifest);
+  } catch(e) {
+    document.getElementById('tutorialContainer').innerHTML = '<p style="padding:32px;color:var(--sub)">No tutorials yet — check back soon!</p>';
+    document.getElementById('tutorialStats').textContent = '0 tutorials';
+  }
+}
+
+function renderTutorials(manifest) {
+  const container = document.getElementById('tutorialContainer');
+  container.innerHTML = '';
+  if (!manifest.tutorials || manifest.tutorials.length === 0) {
+    container.innerHTML = '<div class="category" style="text-align:center;padding:40px 32px"><p style="color:var(--sub);font-size:14px">📚 Tutorials coming soon! Check the <a href="pages/docs.html">Docs</a> page for getting started guides.</p></div>';
+    document.getElementById('tutorialStats').textContent = '0 tutorials — coming soon';
+    return;
+  }
+  for (const cat of manifest.categories) {
+    const items = manifest.tutorials.filter(t => t.category === cat.id);
+    if (!items.length) continue;
+    const section = document.createElement('div');
+    section.className = 'category';
+    section.innerHTML = `<div class="category-title">${cat.icon} ${cat.name}</div><div class="grid"></div>`;
+    container.appendChild(section);
+    const grid = section.querySelector('.grid');
+    for (const t of items) {
+      const card = document.createElement('div');
+      card.className = 'card';
+      const tags = (t.tags || []).map(x => `<span class="pack-tag">${x}</span>`).join('');
+      card.innerHTML = `
+        <div class="card-top"><div class="card-name">📖 ${t.name}</div><div class="card-badge badge-free">${t.level || 'GUIDE'}</div></div>
+        <div class="card-desc">${t.description}</div>
+        <div class="pack-tags">${tags}</div>
+        <div class="card-actions">${t.url ? `<a href="${t.url}" target="_blank">📖 Read Tutorial</a>` : ''}</div>
+      `;
+      grid.appendChild(card);
+    }
+  }
+  document.getElementById('tutorialStats').textContent = `${manifest.tutorials.length} tutorials`;
+}
+
+// ── Trust panel tab switcher ──
+function switchTrustTab(name) {
+  ['recents','about','news'].forEach(t => {
+    const panel = document.getElementById('trust-' + t);
+    const tab = document.getElementById('trust-tab-' + t);
+    if (panel) panel.style.display = t === name ? 'block' : 'none';
+    if (tab) {
+      tab.style.background = t === name ? 'rgba(108,123,189,.15)' : 'transparent';
+      tab.style.color = t === name ? '#e8eaf0' : '#a0a6bc';
+      tab.style.borderBottom = t === name ? '2px solid #6c7bbd' : '2px solid transparent';
+      tab.style.borderColor = t === name ? 'rgba(108,123,189,.3)' : 'rgba(255,255,255,.08)';
+      tab.style.borderBottomColor = t === name ? '#6c7bbd' : 'transparent';
+    }
+  });
+}
+
+// ── Recents feed (GitHub events) ──
+async function loadRecentsFeed() {
+  const container = document.getElementById('recentsFeed');
+  if (!container) return;
+  const repos = ['TizWildinEntertainmentHUB','FreeEQ8','FreeVox8','Instrudio','Therum_JUCE-Plugin','BassMaid','RiftWaveSuite_RiftSynth_WaveForm_Lite','ARC-Core','Neolution','RiftAscent'];
+  try {
+    const resp = await fetch(`https://api.github.com/users/GareBear99/events?per_page=15`, { cache: 'no-store' });
+    if (!resp.ok) throw new Error('API error');
+    const events = await resp.json();
+    const items = events.slice(0, 10).map(ev => {
+      const repo = ev.repo ? ev.repo.name.replace('GareBear99/', '') : '';
+      const time = new Date(ev.created_at);
+      const ago = Math.floor((Date.now() - time) / 60000);
+      const agoText = ago < 60 ? `${ago}m ago` : ago < 1440 ? `${Math.floor(ago/60)}h ago` : `${Math.floor(ago/1440)}d ago`;
+      let icon = '🔔'; let desc = ev.type;
+      if (ev.type === 'PushEvent') { icon = '📦'; desc = `Pushed to ${repo}`; }
+      else if (ev.type === 'CreateEvent') { icon = '✨'; desc = `Created ${ev.payload?.ref_type || ''} in ${repo}`; }
+      else if (ev.type === 'ReleaseEvent') { icon = '🎉'; desc = `New release in ${repo}`; }
+      else if (ev.type === 'WatchEvent') { icon = '⭐'; desc = `Starred ${repo}`; }
+      else if (ev.type === 'ForkEvent') { icon = '🍴'; desc = `Forked ${repo}`; }
+      else if (ev.type === 'IssuesEvent') { icon = '📝'; desc = `Issue in ${repo}`; }
+      else if (ev.type === 'PullRequestEvent') { icon = '🔀'; desc = `PR in ${repo}`; }
+      else { desc = `${ev.type.replace('Event','')} in ${repo}`; }
+      return `<div style="display:flex;gap:8px;padding:8px;background:rgba(10,11,18,.55);border:1px solid rgba(255,255,255,.07);border-radius:10px;font-size:12px">
+        <div style="flex:0 0 28px;width:28px;height:28px;border-radius:8px;display:grid;place-items:center;background:#17214a;font-size:14px">${icon}</div>
+        <div style="flex:1;min-width:0"><strong style="display:block;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${desc}</strong><span style="color:var(--sub);font-size:11px">${agoText}</span></div>
+      </div>`;
+    });
+    container.innerHTML = items.length ? items.join('') : '<div style="text-align:center;padding:20px;color:var(--sub);font-size:12px">No recent activity</div>';
+  } catch(e) {
+    container.innerHTML = '<div style="text-align:center;padding:20px;color:var(--sub);font-size:12px">Could not load activity feed</div>';
+  }
+}
+loadRecentsFeed();
+
+// ── News feed — GitHub releases for plugin repos ──
+async function loadNewsFeed() {
+  const container = document.getElementById('newsFeed');
+  if (!container) return;
+  const releaseRepos = [
+    { repo: 'FreeEQ8',            label: 'FreeEQ8',   icon: '🎛️' },
+    { repo: 'FreeVox8',           label: 'FreeVox8',  icon: '🎤' },
+    { repo: 'BassMaid',           label: 'BassMaid',  icon: '🔊' },
+    { repo: 'Instrudio',          label: 'Instrudio', icon: '🎹' },
+    { repo: 'Therum_JUCE-Plugin', label: 'Therum',    icon: '🌊' },
+  ];
+  try {
+    const results = await Promise.allSettled(
+      releaseRepos.map(r =>
+        fetch(`https://api.github.com/repos/GareBear99/${r.repo}/releases?per_page=3`, { cache: 'no-store' })
+          .then(res => res.ok ? res.json() : [])
+          .then(releases => releases.map(rel => ({ ...rel, _repo: r.label, _icon: r.icon })))
+      )
+    );
+    const allReleases = results
+      .filter(r => r.status === 'fulfilled')
+      .flatMap(r => r.value)
+      .sort((a, b) => new Date(b.published_at) - new Date(a.published_at))
+      .slice(0, 10);
+    if (!allReleases.length) {
+      container.innerHTML = '<div style="text-align:center;padding:20px;color:var(--sub);font-size:12px">No releases found yet</div>';
+      return;
+    }
+    container.innerHTML = allReleases.map(rel => {
+      const ago = Math.floor((Date.now() - new Date(rel.published_at)) / 60000);
+      const agoText = ago < 60 ? `${ago}m ago` : ago < 1440 ? `${Math.floor(ago/60)}h ago` : `${Math.floor(ago/1440)}d ago`;
+      return `<div style="display:flex;gap:8px;padding:8px;background:rgba(10,11,18,.55);border:1px solid rgba(255,255,255,.07);border-radius:10px;font-size:12px">
+        <div style="flex:0 0 28px;width:28px;height:28px;border-radius:8px;display:grid;place-items:center;background:#17214a;font-size:14px">${rel._icon}</div>
+        <div style="flex:1;min-width:0">
+          <strong style="display:block;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">${rel._repo} ${rel.tag_name}</strong>
+          <span style="color:var(--sub);font-size:11px">${agoText} · <a href="${rel.html_url}" target="_blank" rel="noopener" style="color:var(--accent)">view release →</a></span>
+        </div>
+      </div>`;
+    }).join('');
+  } catch(e) {
+    container.innerHTML = '<div style="text-align:center;padding:20px;color:var(--sub);font-size:12px">Could not load releases</div>';
+  }
+}
+loadNewsFeed();
+
+// ── Community stats (footer counter) ──
+async function loadCommunityStats() {
+  try {
+    const ARC = window.location.hostname === 'localhost' ? 'http://127.0.0.1:8000' : 'https://tizwildin-hub.admension.workers.dev';
+    const resp = await fetch(ARC + '/hub/community-stats');
+    const data = await resp.json();
+    const el = document.getElementById('communityCount');
+    if (el && data.totalUsers > 0) {
+      el.textContent = `🎯 ${data.totalUsers} / ${data.giveawayTarget} users — ${data.giveawayProgress}% to giveaway`;
+    }
+  } catch(e) {}
+}
+loadCommunityStats();
+
+// ── Boot ──
+// init() is called via .then() chain above
+</script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+{
+  "createdAt": "2026-03-13T19:06:02.206052+00:00",
+  "service": "TizWildin Hub ARC",
+  "version": "1.0.0",
+  "data": {
+    "entitlements": {
+      "demo_account": {
+        "accountId": "demo_account",
+        "ownsEveryVST": true,
+        "ownedProducts": [],
+        "ownedBundles": [
+          "complete_collection"
+        ],
+        "extraSeatQuantity": 2,
+        "billingState": "active"
+      },
+      "free_account": {
+        "accountId": "free_account",
+        "ownsEveryVST": false,
+        "ownedProducts": [],
+        "ownedBundles": [],
+        "extraSeatQuantity": 0,
+        "billingState": "active"
+      }
+    },
+    "seats": {},
+    "installScans": [],
+    "installReceipts": [],
+    "webhooks": [],
+    "releaseManifests": {
+      "freeeq8": {
+        "productId": "freeeq8",
+        "channel": "stable",
+        "latestVersion": "1.0.0",
+        "artifactMode": "source",
+        "artifactUrl": "https://github.com/GareBear99/FreeEQ8",
+        "sha256": "sha256_freeeq8_demo_1000",
+        "signature": "arc-demo-signed",
+        "notes": "Open repo build available."
+      },
+      "therum": {
+        "productId": "therum",
+        "channel": "stable",
+        "latestVersion": "1.0.0",
+        "artifactMode": "source",
+        "artifactUrl": "https://github.com/GareBear99/Therum",
+        "sha256": "sha256_therum_demo_1000",
+        "signature": "arc-demo-signed",
+        "notes": "Flagship synth scaffold."
+      },
+      "wurp": {
+        "productId": "wurp",
+        "channel": "beta",
+        "latestVersion": "0.8.5",
+        "artifactMode": "source",
+        "artifactUrl": "https://github.com/GareBear99/WURP",
+        "sha256": "sha256_wurp_demo_0850",
+        "signature": "arc-demo-signed",
+        "notes": "Beta channel track for Toxicron branch."
+      },
+      "aether": {
+        "productId": "aether",
+        "channel": "stable",
+        "latestVersion": "0.8.2",
+        "artifactMode": "source",
+        "artifactUrl": "https://github.com/GareBear99/AETHER",
+        "sha256": "sha256_aether_demo_0820",
+        "signature": "arc-demo-signed",
+        "notes": "Addon-capable atmosphere designer scaffold."
+      },
+      "whispergate": {
+        "productId": "whispergate",
+        "channel": "stable",
+        "latestVersion": "0.7.5",
+        "artifactMode": "source",
+        "artifactUrl": "https://github.com/GareBear99/WhisperGate",
+        "sha256": "sha256_whispergate_demo_0750",
+        "signature": "arc-demo-signed",
+        "notes": "Free ritual atmosphere scaffold."
+      },
+      "paintmask": {
+        "productId": "paintmask",
+        "channel": "stable",
+        "latestVersion": "0.6.0",
+        "artifactMode": "source",
+        "artifactUrl": "https://github.com/GareBear99/PaintMask",
+        "sha256": "sha256_paintmask_demo_0600",
+        "signature": "arc-demo-signed",
+        "notes": "Studio package scaffold, source-distributed."
+      },
+      "waveform_riftsynth_lite": {
+        "productId": "waveform_riftsynth_lite",
+        "channel": "stable",
+        "latestVersion": "1.0.0",
+        "artifactMode": "source",
+        "artifactUrl": "https://github.com/GareBear99/WaveForm-RiftSynth-Lite",
+        "sha256": "sha256_waveformlite_demo_1000",
+        "signature": "arc-demo-signed",
+        "notes": "Free lite combo release."
+      },
+      "waveform_pro": {
+        "productId": "waveform_pro",
+        "channel": "stable",
+        "latestVersion": "0.9.1",
+        "artifactMode": "source",
+        "artifactUrl": "https://github.com/GareBear99/WaveForm-Pro",
+        "sha256": "sha256_waveformpro_demo_0910",
+        "signature": "arc-demo-signed",
+        "notes": "Pro build plan placeholder."
+      },
+      "riftsynth_pro": {
+        "productId": "riftsynth_pro",
+        "channel": "stable",
+        "latestVersion": "0.9.1",
+        "artifactMode": "source",
+        "artifactUrl": "https://github.com/GareBear99/RiftSynth-Pro",
+        "sha256": "sha256_riftsynthpro_demo_0910",
+        "signature": "arc-demo-signed",
+        "notes": "Pro build plan placeholder."
+      }
+    },
+    "authTokens": {}
+  }
+}

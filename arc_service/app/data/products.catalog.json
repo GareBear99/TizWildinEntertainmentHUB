@@ -41,8 +41,7 @@
       "licenseClass": "FREE_OPEN",
       "status": "source_ready",
       "includedInOwnsEveryVST": false,
-      "priceModel": "free",
-      "repoSlug": "GareBear99/FreeEQ8"
+      "priceModel": "free"
     },
     {
       "productId": "therum",
@@ -52,8 +51,7 @@
       "licenseClass": "PRO_PUBLIC_REPO",
       "status": "source_ready",
       "includedInOwnsEveryVST": true,
-      "priceModel": "one_time",
-      "repoSlug": "GareBear99/Therum_JUCE-Plugin"
+      "priceModel": "one_time"
     },
     {
       "productId": "wurp",
@@ -64,7 +62,6 @@
       "status": "source_ready",
       "includedInOwnsEveryVST": true,
       "priceModel": "one_time",
-      "repoSlug": "GareBear99/WURP_Toxic-Motion-Engine_JUCE",
       "upcomingEditions": [
         {
           "editionId": "toxicron_edition",
@@ -81,8 +78,7 @@
       "licenseClass": "PRO_PUBLIC_REPO",
       "status": "source_ready",
       "includedInOwnsEveryVST": true,
-      "priceModel": "one_time",
-      "repoSlug": "GareBear99/AETHER_Choir-Atmosphere-Designer"
+      "priceModel": "one_time"
     },
     {
       "productId": "whispergate",
@@ -92,8 +88,7 @@
       "licenseClass": "FREE_OPEN",
       "status": "source_ready",
       "includedInOwnsEveryVST": false,
-      "priceModel": "free",
-      "repoSlug": "GareBear99/WhisperGate_Free-JUCE-Plugin"
+      "priceModel": "free"
     },
     {
       "productId": "paintmask",
@@ -103,8 +98,7 @@
       "licenseClass": "PRO_PUBLIC_REPO",
       "status": "source_ready",
       "includedInOwnsEveryVST": true,
-      "priceModel": "subscription_or_one_time",
-      "repoSlug": "GareBear99/PaintMask_Free-JUCE-Plugin"
+      "priceModel": "subscription_or_one_time"
     },
     {
       "productId": "bassmaid",
@@ -114,8 +108,7 @@
       "licenseClass": "PRO_PUBLIC_REPO",
       "status": "source_ready",
       "includedInOwnsEveryVST": true,
-      "priceModel": "one_time",
-      "repoSlug": "GareBear99/BassMaid"
+      "priceModel": "one_time"
     },
     {
       "productId": "gluemaid",
@@ -125,8 +118,7 @@
       "licenseClass": "PRO_PUBLIC_REPO",
       "status": "source_ready",
       "includedInOwnsEveryVST": true,
-      "priceModel": "one_time",
-      "repoSlug": "GareBear99/GlueMaid"
+      "priceModel": "one_time"
     },
     {
       "productId": "spacemaid",
@@ -136,8 +128,7 @@
       "licenseClass": "PRO_PUBLIC_REPO",
       "status": "source_ready",
       "includedInOwnsEveryVST": true,
-      "priceModel": "one_time",
-      "repoSlug": "GareBear99/SpaceMaid"
+      "priceModel": "one_time"
     },
     {
       "productId": "mixmaid",
@@ -148,7 +139,6 @@
       "status": "source_ready",
       "includedInOwnsEveryVST": true,
       "priceModel": "one_time",
-      "repoSlug": "GareBear99/MixMaid",
       "bundleRule": "unlock_with_complete_collection_or_full_pro_set"
     },
     {
@@ -159,8 +149,7 @@
       "licenseClass": "FREE_LITE",
       "status": "source_ready",
       "includedInOwnsEveryVST": false,
-      "priceModel": "free",
-      "repoSlug": "GareBear99/RiftWaveSuite_RiftSynth_WaveForm_Lite"
+      "priceModel": "free"
     },
     {
       "productId": "waveform_pro",
@@ -170,8 +159,7 @@
       "licenseClass": "PRO_PUBLIC_REPO",
       "status": "source_ready",
       "includedInOwnsEveryVST": true,
-      "priceModel": "one_time",
-      "repoSlug": "GareBear99/RiftWaveSuite_RiftSynth_WaveForm_Lite"
+      "priceModel": "one_time"
     },
     {
       "productId": "riftsynth_pro",
@@ -181,8 +169,7 @@
       "licenseClass": "PRO_PUBLIC_REPO",
       "status": "source_ready",
       "includedInOwnsEveryVST": true,
-      "priceModel": "one_time",
-      "repoSlug": "GareBear99/RiftWaveSuite_RiftSynth_WaveForm_Lite"
+      "priceModel": "one_time"
     }
   ],
   "globalFlags": {

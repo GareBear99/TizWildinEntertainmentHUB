@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "1.0",
+  "purpose": "Branch governance and execution map for turning the HUB public index into a repeatable SEO/submission operating system.",
+  "defaultBranch": "main",
+  "integrationBranch": "develop",
+  "currentRecommendedWorkBranch": "seo/public-index-v8-branching",
+  "rules": {
+    "main": "Protected public release branch. Only validated releases and hotfixes land here.",
+    "develop": "Integration branch for generator, index, and documentation work before release candidates.",
+    "route/*": "External platform routes such as GitHub Topics, Open Hub, SourceForge, AlternativeTo, and awesome-list prep.",
+    "submission/*": "Directory/list submission branches with evidence notes and tracking updates.",
+    "seo/*": "Public index, sitemap, schema, metadata, social-card, link-graph, and LLM-index improvements.",
+    "arc/*": "ARC source-spine, local AI, LLM, runtime, archive, and governance routes.",
+    "audio/*": "TizWildin audio/plugin/sample-pack/listing route improvements.",
+    "release/*": "Release-candidate freeze branches after validation passes.",
+    "hotfix/*": "Small emergency corrections only: broken links, invalid JSON, sitemap errors, public page failures."
+  },
+  "activeBranches": [
+    {
+      "name": "seo/public-index-v8-branching",
+      "cluster": "SEO / public index",
+      "status": "next",
+      "purpose": "Add branch governance, validation, branch-map data, and public branch pages.",
+      "mustPass": [
+        "python scripts/build_public_index.py",
+        "python scripts/validate_public_index.py",
+        "python scripts/validate_branch_map.py"
+      ]
+    },
+    {
+      "name": "submission/libhunt-arc-graph",
+      "cluster": "ARC LibHunt",
+      "status": "queued",
+      "purpose": "Finish LibHunt alternatives graph for ARC-Neuron, ARC-Core, Lucifer Runtime, arc-language-module, and Arc-RAR.",
+      "mustPass": [
+        "Evidence note saved",
+        "STATUS_BOARD updated",
+        "public index rebuilt"
+      ]
+    },
+    {
+      "name": "submission/libhunt-tizwildin-audio-graph",
+      "cluster": "TizWildin LibHunt",
+      "status": "queued",
+      "purpose": "Finish LibHunt alternatives graph for FreeEQ8, TizWildinEntertainmentHUB, FreeVox8, and awesome-audio-plugins-dev.",
+      "mustPass": [
+        "Evidence note saved",
+        "STATUS_BOARD updated",
+        "public index rebuilt"
+      ]
+    },
+    {
+      "name": "route/github-topics-cleanup",
+      "cluster": "GitHub native SEO",
+      "status": "queued",
+      "purpose": "Normalize topic tags across the 9 first-wave repos and the wave-2 audio support repos.",
+      "mustPass": [
+        "Topic list committed",
+        "README links checked",
+        "public index rebuilt"
+      ]
+    },
+    {
+      "name": "route/openhub-sourceforge",
+      "cluster": "Open-source directories",
+      "status": "queued",
+      "purpose": "Prepare Open Hub and SourceForge project/mirror records for ARC and TizWildin repos.",
+      "mustPass": [
+        "Platform notes updated",
+        "submission-route.json updated",
+        "public index rebuilt"
+      ]
+    },
+    {
+      "name": "route/awesome-lists",
+      "cluster": "Curated GitHub lists",
+      "status": "queued",
+      "purpose": "Prepare PR-ready descriptions for local AI, self-hosted, audio DSP, JUCE, music production, and awesome-list indexes.",
+      "mustPass": [
+        "List targets documented",
+        "PR text drafted",
+        "public index rebuilt"
+      ]
+    },
+    {
+      "name": "arc/source-spine-index",
+      "cluster": "ARC source spine",
+      "status": "queued",
+      "purpose": "Expand ARC route pages with internal doctrine, repo relationships, and submission targets.",
+      "mustPass": [
+        "ARC pages updated",
+        "Link graph updated",
+        "public index rebuilt"
+      ]
+    },
+    {
+      "name": "audio/tizwildin-directory-index",
+      "cluster": "TizWildin audio",
+      "status": "queued",
+      "purpose": "Index audio directories, plugin directories, sample-pack routes, and review/editorial targets for FreeEQ8 and the HUB.",
+      "mustPass": [
+        "Audio route pages updated",
+        "Directory list updated",
+        "public index rebuilt"
+      ]
+    },
+    {
+      "name": "release/public-index-v8",
+      "cluster": "Release candidate",
+      "status": "blocked-until-validation",
+      "purpose": "Freeze v8 after branch governance, LibHunt graph notes, and directory route maps are validated.",
+      "mustPass": [
+        "All validators pass",
+        "No dev artifacts",
+        "CHANGELOG updated",
+        "release checklist complete"
+      ]
+    }
+  ],
+  "mergePolicy": [
+    "Every branch must update source manifests or docs, then rebuild public index.",
+    "Every branch must pass public-index validation and branch-map validation before merge.",
+    "No generated page should be hand-edited unless the generator is updated or the file is intentionally static.",
+    "Every submission branch must save evidence notes before status changes from queued to submitted.",
+    "main only receives develop/release branches after all validators pass."
+  ],
+  "publicRoute": "docs/pages/branching-strategy-route.html"
+}
