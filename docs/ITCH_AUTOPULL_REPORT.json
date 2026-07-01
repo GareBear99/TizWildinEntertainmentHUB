@@ -1,10 +1,18 @@
 {
-  "generatedAt": "2026-06-30T11:50:48Z",
+  "generatedAt": "2026-07-01T12:17:20Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 61,
-  "itemsWritten": 61,
-  "mediaReadyItems": 61,
+  "itemsParsed": 63,
+  "itemsWritten": 63,
+  "mediaReadyItems": 63,
   "detailStatus": [
+    {
+      "slug": "necrommancers-audio-toolkit",
+      "status": "ok"
+    },
+    {
+      "slug": "doom-style-ray-trace-engine-asset-pack",
+      "status": "ok"
+    },
     {
       "slug": "coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts",
       "status": "ok"
