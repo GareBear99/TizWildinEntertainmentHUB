@@ -1,10 +1,26 @@
 {
-  "generatedAt": "2026-07-01T12:17:20Z",
+  "generatedAt": "2026-07-02T11:43:41Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 63,
-  "itemsWritten": 63,
-  "mediaReadyItems": 63,
+  "itemsParsed": 67,
+  "itemsWritten": 67,
+  "mediaReadyItems": 67,
   "detailStatus": [
+    {
+      "slug": "mode-7",
+      "status": "ok"
+    },
+    {
+      "slug": "bundle",
+      "status": "ok"
+    },
+    {
+      "slug": "enchanted-sprite-fx-engine",
+      "status": "ok"
+    },
+    {
+      "slug": "holo-sprite-overlay-engine",
+      "status": "ok"
+    },
     {
       "slug": "necrommancers-audio-toolkit",
       "status": "ok"
