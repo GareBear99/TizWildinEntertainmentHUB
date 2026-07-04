@@ -1,0 +1,277 @@
+{
+  "generatedAt": "2026-07-03T11:42:03Z",
+  "profileUrl": "https://garebearproductionz.itch.io/",
+  "itemsParsed": 67,
+  "itemsWritten": 67,
+  "mediaReadyItems": 67,
+  "detailStatus": [
+    {
+      "slug": "mode-7",
+      "status": "ok"
+    },
+    {
+      "slug": "bundle",
+      "status": "ok"
+    },
+    {
+      "slug": "enchanted-sprite-fx-engine",
+      "status": "ok"
+    },
+    {
+      "slug": "holo-sprite-overlay-engine",
+      "status": "ok"
+    },
+    {
+      "slug": "necrommancers-audio-toolkit",
+      "status": "ok"
+    },
+    {
+      "slug": "doom-style-ray-trace-engine-asset-pack",
+      "status": "ok"
+    },
+    {
+      "slug": "coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts",
+      "status": "ok"
+    },
+    {
+      "slug": "d20-dice-color-3d-obj-pack",
+      "status": "ok"
+    },
+    {
+      "slug": "black-red-dice-svg-png-export-engine",
+      "status": "ok"
+    },
+    {
+      "slug": "infina-dix-engine",
+      "status": "ok"
+    },
+    {
+      "slug": "color-dynamic-sigils-svg-export-pack",
+      "status": "ok"
+    },
+    {
+      "slug": "sphinx-activation-layered-live-map",
+      "status": "ok"
+    },
+    {
+      "slug": "crawl-space-svg-live-backdrop-engine-animated-props",
+      "status": "ok"
+    },
+    {
+      "slug": "the-ultimate-everything-laser-pack",
+      "status": "ok"
+    },
+    {
+      "slug": "10-svg-programmable-live-backdrop-pipelines",
+      "status": "ok"
+    },
+    {
+      "slug": "aaaa-layered-mountain-dynamic-sky-live-backdrop-engine",
+      "status": "ok"
+    },
+    {
+      "slug": "cool-backdrop-layers-engine",
+      "status": "ok"
+    },
+    {
+      "slug": "aaaa-pixel-combat-timeline-engine",
+      "status": "ok"
+    },
+    {
+      "slug": "aaaa-sprite-fusion-metamorphosis-equation-spine-engine",
+      "status": "ok"
+    },
+    {
+      "slug": "sprite-color-effect-mutator-engine",
+      "status": "ok"
+    },
+    {
+      "slug": "celestial-event-moons",
+      "status": "ok"
+    },
+    {
+      "slug": "multi-layered-epic-free-svg-backdrop-static-scene",
+      "status": "ok"
+    },
+    {
+      "slug": "evil-eye-four-pack",
+      "status": "ok"
+    },
+    {
+      "slug": "alien-invasion-live-animated-backdrop-layers",
+      "status": "ok"
+    },
+    {
+      "slug": "wraith-necropolis-gate-backdrop",
+      "status": "ok"
+    },
+    {
+      "slug": "vfx-test-room-elemental-frequency-arena-engine",
+      "status": "ok"
+    },
+    {
+      "slug": "the-cathedral-of-madness-concept-pixel-art",
+      "status": "ok"
+    },
+    {
+      "slug": "pride-crown-concept-art",
+      "status": "ok"
+    },
+    {
+      "slug": "scarlette-witchs-darkhold-sprite-free",
+      "status": "ok"
+    },
+    {
+      "slug": "hells-jukebox-nekranomicon-author-cthulu",
+      "status": "ok"
+    },
+    {
+      "slug": "the-widowmaker-live-vanta-black-svg-3-phase-boss",
+      "status": "ok"
+    },
+    {
+      "slug": "cool-pixel-portraits",
+      "status": "ok"
+    },
+    {
+      "slug": "megabot-rigging-concept-free",
+      "status": "ok"
+    },
+    {
+      "slug": "2d-chibi-pixel-elemental-rigging-concept",
+      "status": "ok"
+    },
+    {
+      "slug": "hd-cinematic-audio-sfx-pack-free",
+      "status": "ok"
+    },
+    {
+      "slug": "professional-grade-studio-violin-audio-synth-formula",
+      "status": "ok"
+    },
+    {
+      "slug": "ultimate-free-hd-laser-pack",
+      "status": "ok"
+    },
+    {
+      "slug": "pixel-velocity-weight-physics-quake-hammer",
+      "status": "ok"
+    },
+    {
+      "slug": "blood-bound-scythe-svg-free",
+      "status": "ok"
+    },
+    {
+      "slug": "gw3-style-2d-projected-3d-grid-world-engine",
+      "status": "ok"
+    },
+    {
+      "slug": "freeeq8-most-advanced-free-eq-opensource",
+      "status": "ok"
+    },
+    {
+      "slug": "any-image-to-pixel-svg-converter",
+      "status": "ok"
+    },
+    {
+      "slug": "infernal-hell-icons-free-basic-fx",
+      "status": "ok"
+    },
+    {
+      "slug": "svg-icon-starter-kit-pipeline",
+      "status": "ok"
+    },
+    {
+      "slug": "holy-svg-png-icon-set",
+      "status": "ok"
+    },
+    {
+      "slug": "spectral-icon-svg-pipeline-kit",
+      "status": "ok"
+    },
+    {
+      "slug": "thor-mjolnir-svg-physics-engine",
+      "status": "ok"
+    },
+    {
+      "slug": "blood-bone-scythe",
+      "status": "ok"
+    },
+    {
+      "slug": "free-pixel-paladin-hammer-chibi",
+      "status": "ok"
+    },
+    {
+      "slug": "professional-occult-covenant-icon-kit",
+      "status": "ok"
+    },
+    {
+      "slug": "indie-dynamic-merchant-cart",
+      "status": "ok"
+    },
+    {
+      "slug": "pixel-abyssal-teleporter",
+      "status": "ok"
+    },
+    {
+      "slug": "static-atmos",
+      "status": "ok"
+    },
+    {
+      "slug": "demon-sprite-sheet-generator",
+      "status": "ok"
+    },
+    {
+      "slug": "fireball-generator-formula",
+      "status": "ok"
+    },
+    {
+      "slug": "pyromancy-chibi-pack",
+      "status": "ok"
+    },
+    {
+      "slug": "infernal-archetypes",
+      "status": "ok"
+    },
+    {
+      "slug": "free-haunter-sprites",
+      "status": "ok"
+    },
+    {
+      "slug": "action-command-charge-formula",
+      "status": "ok"
+    },
+    {
+      "slug": "reward-pocket-generator-formula",
+      "status": "ok"
+    },
+    {
+      "slug": "neolution-grid-engine",
+      "status": "ok"
+    },
+    {
+      "slug": "skully-asset-pack-lightweight-canvas-engine-demo",
+      "status": "ok"
+    },
+    {
+      "slug": "gravity-projectile-generator-formula",
+      "status": "ok"
+    },
+    {
+      "slug": "2d-sunset-generation-formula",
+      "status": "ok"
+    },
+    {
+      "slug": "live-pentagram-formula-2d-3d",
+      "status": "ok"
+    },
+    {
+      "slug": "npc-theme-of-sacrifice",
+      "status": "ok"
+    },
+    {
+      "slug": "summoners-delights",
+      "status": "ok"
+    }
+  ]
+}
