@@ -64,10 +64,12 @@ class LinkItem:
     license: str = ""
     language: str = ""
     source_manifest: str = ""
+    page_slug: str = ""
+    render_page: bool = True
 
     @property
     def id(self) -> str:
-        return slug(self.name)
+        return self.page_slug or slug(self.name)
 
     @property
     def page(self) -> str:
@@ -219,6 +221,74 @@ def collect_items() -> list[LinkItem]:
             license="Public route",
             language="Web",
             source_manifest="promotionals.json",
+        ))
+
+    # GareBearProductionz itch inventory (all_items.json is refreshed by
+    # scripts/update_itch_all_inventory.py; every product gets a canonical
+    # route page, sitemap entry, llms.txt block, and search-index record,
+    # exactly like plugins/packs/etc.)
+    all_items_path = ROOT / "all_items.json"
+    if all_items_path.exists():
+        inventory = json.loads(all_items_path.read_text(encoding="utf-8"))
+        cat_names = {c.get("id"): c.get("name", c.get("id", "")) for c in inventory.get("categories", [])}
+        kind_labels = {
+            "tool": "Itch Game Tool / Formula",
+            "game": "Itch Playable Game / Engine",
+            "bundle": "Itch Bundle",
+            "asset_pack": "Itch Asset Pack",
+        }
+        for item in inventory.get("items", []):
+            name = item.get("name", "")
+            url = item.get("url", "")
+            if not name or not url:
+                continue
+            price_type = item.get("priceType", "paid")
+            price_label = ((item.get("itch") or {}).get("priceLabel") or ("FREE / NYP" if price_type == "free" else "paid"))
+            base_desc = " ".join((item.get("description") or name).split())
+            desc = (
+                f"{base_desc} Official GareBearProductionz itch product "
+                f"({price_label}) in the {cat_names.get(item.get('category'), 'game asset')} line; "
+                f"checkout and downloads happen on the official itch page."
+            )
+            tags = [str(t) for t in (item.get("tags") or [])] + ["itch", "game-assets", "garebearproductionz"]
+            memberships = item.get("saleMemberships") or []
+            if "formula_a1_5k" in memberships:
+                tags.append("formula-a1-bundle")
+            if "live_svg_fx" in memberships:
+                tags.append("live-svg-fx-bundle")
+            items.append(LinkItem(
+                cluster="Game Asset Store / Itch Inventory",
+                kind=kind_labels.get(item.get("kind", "asset_pack"), "Itch Asset Pack"),
+                name=name,
+                description=desc,
+                url=url,
+                docs=f"{BASE}/pages/all-account-inventory.html",
+                status=item.get("status", "released"),
+                tags=[t for t in tags if t],
+                priority=38 if item.get("featured") else 42,
+                license="See individual itch page",
+                language="HTML / JavaScript / Assets",
+                source_manifest="all_items.json",
+                page_slug=f"itch-{slug(item.get('id') or name)}",
+            ))
+        # Aggregate buyer-facing inventory route. The page itself is baked by
+        # the autopull script, so we index it without re-rendering over it.
+        items.append(LinkItem(
+            cluster="Game Asset Store / Itch Inventory",
+            kind="Seller Inventory Route",
+            name="GareBearProductionz All Itch Inventory",
+            description="Complete buyer-facing index of all public GareBearProductionz itch account items, grouped by game-dev use case with sale membership badges and official itch checkout links.",
+            repo="TizWildinEntertainmentHUB",
+            url=f"{BASE}/pages/all-account-inventory.html",
+            docs="ALL_SECTION_INTEGRATION_NOTES.md",
+            status="active",
+            tags=["itch", "game-assets", "seller-page", "vfx", "svg", "pixel-art", "storefront"],
+            priority=1,
+            license="See individual itch pages",
+            language="HTML/JSON",
+            source_manifest="all_items.json",
+            page_slug="all-account-inventory",
+            render_page=False,
         ))
 
     for item in academics.get("papers", []):
@@ -424,7 +494,8 @@ def build() -> None:
 
     # Per-item route pages.
     for item in items:
-        render_item_page(item, items)
+        if item.render_page:
+            render_item_page(item, items)
 
     public_index = {
         "schemaVersion": "2.0",
@@ -490,6 +561,10 @@ def build() -> None:
     urls = ["", "index.html", "index-seo.html", "ecosystem-index.html", "arc-index.html", "public-index.json", "llms.txt", "PUBLIC_LINK_GRAPH.md"]
     urls += [i.page for i in items]
     urls += [f"assets/social/{p.name}" for p in SOCIAL.glob("*.svg")]
+    # Preserve source-repo route pages contributed by build_source_repo_index.py
+    # so rebuild order can no longer clobber them out of the sitemap.
+    urls += sorted(f"pages/{p.name}" for p in PAGES.glob("source-*.html"))
+    urls += sorted(x for x in ["repo-file-search.html", "repo-readiness.html", "search.html", "index-health.html"] if (DOCS / x).exists())
     seen = []
     for u in urls:
         loc = BASE + ("/" + u if u else "/")
@@ -535,7 +610,21 @@ Allow: /TizWildinEntertainmentHUB/llms.txt
     }
     write(DOCS / "SEO_BUILD_REPORT.json", json.dumps(audit, indent=2))
 
-    print(f"Built public index: {len(items)} records, {len(seen)} sitemap URLs, {audit['socialCards']} social cards")
+    # Report route pages on disk that are no longer referenced by the public
+    # index or the sitemap (legacy slugs from older generator versions).
+    # Report-only: pruning/redirecting them is an operator decision.
+    sitemap_pages = {u.split("/pages/")[-1] for u in seen if "/pages/" in u}
+    index_pages = {i.page.split("/")[-1] for i in items}
+    referenced = sitemap_pages | index_pages
+    orphans = sorted(p.name for p in PAGES.glob("*.html") if p.name not in referenced)
+    write(DOCS / "ORPHAN_PAGES_REPORT.json", json.dumps({
+        "generatedAt": TODAY,
+        "orphanCount": len(orphans),
+        "note": "Pages present in docs/pages but not referenced by public-index.json or sitemap.xml. Safe to prune or convert to meta-refresh redirects once confirmed nothing external links to them.",
+        "orphans": orphans,
+    }, indent=2))
+
+    print(f"Built public index: {len(items)} records, {len(seen)} sitemap URLs, {audit['socialCards']} social cards, {len(orphans)} orphan pages reported")
 
 
 if __name__ == "__main__":
