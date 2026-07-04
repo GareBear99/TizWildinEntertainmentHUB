@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-07-03
+Generated: 2026-07-04
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -427,7 +427,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: free, converter, pixel, svg, image, itch, game-assets, garebearproductionz
 
-- Black & Red Dice SVG & PNG Export Engine: Black & Red Dice SVG & PNG Export Engine Official GareBearProductionz itch product ($3.50 -50%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
+- Black & Red Dice SVG & PNG 2D-3D Export Engine: Black & Red Dice SVG & PNG 2D-3D Export Engine Official GareBearProductionz itch product ($3.50 -50%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-black-red-dice-svg-png-export-engine.html
   Public URL: https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine
   GitHub: N/A
@@ -980,3 +980,62 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://github.com/GareBear99/TizWildin-Skyline
   GitHub: https://github.com/GareBear99/TizWildin-Skyline
   Tags: synthwave, darkwave, loops, sample-pack, producer-tools
+
+## Source Repository Search Index
+- Repository file search: https://garebear99.github.io/TizWildinEntertainmentHUB/repo-file-search.html
+- Awesome Audio Plugins Dev source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-awesome-audio-plugins-dev.html
+- TizWildinEntertainmentHUB source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-entertainment-hub.html
+- Awesome Audio Lists source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-awesome-audio-lists.html
+- Awesome Music Platforms source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-awesome-music-platforms.html
+- Awesome Python Audio Science source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-awesome-python-audio-science.html
+- FreeEQ8 source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freeeq8.html
+- FreeVox8 source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freevox8.html
+- TizWildin Release Vault source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-release-vault.html
+- TizWildin .io Router source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-io-router.html
+- Deconstructed Loops / Packs Router source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-deconstructed-loops-router.html
+- ARC-Neuron-LLMBuilder source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-neuron-llmbuilder.html
+- Therum source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-therum.html
+- ARC-Core source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-core.html
+- arc-lucifer-cleanroom-runtime source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-lucifer-cleanroom-runtime.html
+- arc-language-module source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-language-module.html
+- Arc-RAR source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-rar.html
+- OmniBinary Runtime source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-omnibinary-runtime.html
+- AETHER source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-aether.html
+- BassMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-bassmaid.html
+- ChainMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-chainmaid.html
+- FreeSampler source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freesampler.html
+- GlueMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-gluemaid.html
+- Instrudio source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-instrudio.html
+- MeterMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-metermaid.html
+- MixMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-mixmaid.html
+- MultiMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-multimaid.html
+- PaintMask source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-paintmask.html
+- RiftWave Suite source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-riftwavesuite.html
+- SpaceMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-spacemaid.html
+- WhisperGate source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-whispergate.html
+- WURP source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-wurp.html
+- XyloCore source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-xylocore.html
+- ARC-AudioBench source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-audiobench.html
+- BannerBass source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-bannerbass.html
+- Instrudio Bongo source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-instrudio-bongo.html
+- Instrudio Harp source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-instrudio-harp.html
+- Instrudio Violin source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-instrudio-violin.html
+- PAP-Forge-Audio source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-pap-forge-audio.html
+- VF-PlexLab source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-vf-plexlab.html
+- Voxel Audio source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-voxel-audio.html
+- Neolution source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-neolution.html
+- RiftAscent source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-rift-ascent.html
+- FreeEQ8 Technical Architecture (dev.to) source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freeeq8-devto.html
+- Real-Time State-Space Parameterization and Lock-Free Semantic Analysis in Digital Equalization source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freeeq8-paper.html
+- Studio Violin: Helmholtz Bowed String, H2 Correction, Stradivari Body EQ, and Sympathetic Resonance source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-instrudio-violin-devto.html
+- Free 808 Producer Kit source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-free-808-producer.html
+- Free Dark Piano Sound Kit source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-free-dark-piano.html
+- Free Future Bass Producer Kit source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-free-future-bass.html
+- Free Riser Producer Kit source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-free-riser-producer.html
+- Free Violin Synth Sample Kit source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-free-violin-synth.html
+- Phonk Producer Toolkit source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-phonk-producer.html
+- TizWildin-Aurora source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-aurora.html
+- TizWildin-Chime source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-chime.html
+- TizWildin-Chroma source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-chroma.html
+- TizWildin-Obsidian source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-obsidian.html
+- TizWildin-Skyline source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-skyline.html
