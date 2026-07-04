@@ -66,6 +66,8 @@ class LinkItem:
     source_manifest: str = ""
     page_slug: str = ""
     render_page: bool = True
+    cover: str = ""
+    animated: str = ""
 
     @property
     def id(self) -> str:
@@ -256,6 +258,16 @@ def collect_items() -> list[LinkItem]:
                 tags.append("formula-a1-bundle")
             if "live_svg_fx" in memberships:
                 tags.append("live-svg-fx-bundle")
+            media = item.get("media") or {}
+
+            def _orig(u: str) -> str:
+                # Same asset, itch-native full resolution: rewrite the CDN
+                # resize segment to 'original' regardless of what variant the
+                # manifest carries.
+                if not u or "img.itch.zone" not in u:
+                    return u or ""
+                return re.sub(r"(img\.itch\.zone/[^/]+/)[^/]+(/)", r"\1original\2", u, count=1)
+
             items.append(LinkItem(
                 cluster="Game Asset Store / Itch Inventory",
                 kind=kind_labels.get(item.get("kind", "asset_pack"), "Itch Asset Pack"),
@@ -270,6 +282,8 @@ def collect_items() -> list[LinkItem]:
                 language="HTML / JavaScript / Assets",
                 source_manifest="all_items.json",
                 page_slug=f"itch-{slug(item.get('id') or name)}",
+                cover=_orig(media.get("cover", "")),
+                animated=_orig(media.get("animated", "")),
             ))
         # Aggregate buyer-facing inventory route. The page itself is baked by
         # the autopull script, so we index it without re-rendering over it.
@@ -410,7 +424,12 @@ def base_head(title: str, description: str, canonical: str, jsonld: dict | list 
 def css() -> str:
     return '''<style>
 :root{--bg:#070914;--card:#11152a;--line:#28304f;--text:#f3f6ff;--muted:#aab3cf;--accent:#8ea2ff;--green:#69f0ae;--gold:#f8d36f}
-*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top,#151a35,#070914 46%);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.55}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.wrap{max-width:1180px;margin:0 auto;padding:36px 20px 64px}.hero{border:1px solid var(--line);background:linear-gradient(135deg,rgba(142,162,255,.16),rgba(105,240,174,.07));border-radius:24px;padding:28px;margin-bottom:20px;box-shadow:0 18px 70px rgba(0,0,0,.25)}h1{margin:0 0 8px;font-size:clamp(30px,6vw,56px);letter-spacing:-.05em}h2{margin-top:34px}p{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}.card{border:1px solid var(--line);background:rgba(17,21,42,.92);border-radius:18px;padding:18px;min-height:188px;display:flex;flex-direction:column;gap:10px}.card h3{margin:0;font-size:20px}.badge{display:inline-block;width:max-content;border:1px solid rgba(105,240,174,.35);color:var(--green);border-radius:999px;padding:3px 9px;font-size:12px;text-transform:uppercase;letter-spacing:.08em}.links{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto}.links a{border:1px solid var(--line);background:#172044;border-radius:10px;padding:8px 10px;font-weight:700}.tags{display:flex;gap:6px;flex-wrap:wrap}.tag{font-size:12px;color:#cbd3ff;background:#1a203b;border-radius:999px;padding:3px 8px}.nav{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.nav a{border:1px solid var(--line);border-radius:12px;padding:9px 12px;background:#11152a;font-weight:700}.small{font-size:13px;color:var(--muted)}table{width:100%;border-collapse:collapse;background:#10152a;border:1px solid var(--line);border-radius:14px;overflow:hidden}th,td{border-bottom:1px solid var(--line);padding:10px;text-align:left;vertical-align:top}th{color:var(--green);font-size:13px;text-transform:uppercase;letter-spacing:.08em}code{background:#101936;border:1px solid var(--line);border-radius:7px;padding:2px 6px}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace}.callout{border-left:4px solid var(--green);background:#101936;border-radius:14px;padding:14px 16px}.crumbs{font-size:13px;color:var(--muted);margin-bottom:14px}.score{color:var(--gold);font-weight:800}</style>'''
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at top,#151a35,#070914 46%);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.55}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.wrap{max-width:1180px;margin:0 auto;padding:36px 20px 64px}.hero{border:1px solid var(--line);background:linear-gradient(135deg,rgba(142,162,255,.16),rgba(105,240,174,.07));border-radius:24px;padding:28px;margin-bottom:20px;box-shadow:0 18px 70px rgba(0,0,0,.25)}h1{margin:0 0 8px;font-size:clamp(30px,6vw,56px);letter-spacing:-.05em}h2{margin-top:34px}p{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}.card{border:1px solid var(--line);background:rgba(17,21,42,.92);border-radius:18px;padding:18px;min-height:188px;display:flex;flex-direction:column;gap:10px}.card h3{margin:0;font-size:20px}.badge{display:inline-block;width:max-content;border:1px solid rgba(105,240,174,.35);color:var(--green);border-radius:999px;padding:3px 9px;font-size:12px;text-transform:uppercase;letter-spacing:.08em}.links{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto}.links a{border:1px solid var(--line);background:#172044;border-radius:10px;padding:8px 10px;font-weight:700}.tags{display:flex;gap:6px;flex-wrap:wrap}.tag{font-size:12px;color:#cbd3ff;background:#1a203b;border-radius:999px;padding:3px 8px}.nav{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.nav a{border:1px solid var(--line);border-radius:12px;padding:9px 12px;background:#11152a;font-weight:700}.small{font-size:13px;color:var(--muted)}table{width:100%;border-collapse:collapse;background:#10152a;border:1px solid var(--line);border-radius:14px;overflow:hidden}th,td{border-bottom:1px solid var(--line);padding:10px;text-align:left;vertical-align:top}th{color:var(--green);font-size:13px;text-transform:uppercase;letter-spacing:.08em}code{background:#101936;border:1px solid var(--line);border-radius:7px;padding:2px 6px}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace}.callout{border-left:4px solid var(--green);background:#101936;border-radius:14px;padding:14px 16px}.crumbs{font-size:13px;color:var(--muted);margin-bottom:14px}.score{color:var(--gold);font-weight:800}
+.itch-cover-box{position:relative;max-width:630px;aspect-ratio:630/500;border:1px solid var(--line);border-radius:18px;overflow:hidden;margin:16px 0;background:radial-gradient(circle at 30% 20%,rgba(142,162,255,.32),transparent 38%),linear-gradient(135deg,#0d1228,#161222)}
+.itch-cover-box img{width:100%;height:100%;object-fit:cover;display:block}
+.itch-cover-box.failed img{display:none}
+.cover-pill{position:absolute;left:12px;bottom:12px;background:rgba(5,8,18,.78);border:1px solid rgba(255,255,255,.16);border-radius:999px;padding:4px 10px;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.06em}
+.cover-pill.gif{color:var(--green);border-color:rgba(105,240,174,.35)}</style>'''
 
 
 def html_page(title: str, description: str, body: str, canonical: str, jsonld: dict | list | None = None, image: str | None = None) -> str:
@@ -449,6 +468,7 @@ def item_jsonld(item: LinkItem) -> dict:
         "name": item.name,
         "description": item.description,
         "url": item.page_url,
+        "image": item.cover or item.animated or None,
         "codeRepository": item.repo_url or None,
         "license": item.license or None,
         "programmingLanguage": item.language or None,
@@ -468,9 +488,45 @@ def render_item_page(item: LinkItem, all_items: list[LinkItem]) -> None:
     related_links = "".join(f'<li><a href="{html.escape(x.id)}.html">{html.escape(x.name)}</a> — {html.escape(x.kind)}</li>' for x in related)
     tags = "".join(f'<span class="tag">{html.escape(str(t))}</span>' for t in (item.tags or []) if t)
     desc = f"{item.name} public route in the TizWildin / ARC ecosystem: {item.description}"
-    image = social_card(item.name, item.description, f"{item.id}-card.svg")
+    # Real itch cover as the share image when the autopull harvested one;
+    # generated SVG card only as the fallback. Covers are served straight from
+    # the itch CDN untouched, so resolution and framing match the itch listing.
+    if item.cover or item.animated:
+        image = item.cover or item.animated
+    else:
+        image = social_card(item.name, item.description, f"{item.id}-card.svg")
+    media_hero = ""
+    if item.cover or item.animated:
+        base_src = html.escape(item.cover or item.animated)
+        gif_src = html.escape(item.animated or "")
+        pill = "GIF preview" if item.animated else "Cover"
+        pill_cls = " gif" if item.animated else ""
+        # Triple-buffered atomic swap, zero-jank media load:
+        #   buffer A — the CSS gradient placeholder (always painted; the
+        #              aspect-ratio box reserves layout, so CLS = 0)
+        #   buffer B — the static cover, shipped in the HTML itself (crawlers
+        #              and no-JS readers get it with no script at all)
+        #   buffer C — the GIF, fetched and *fully decoded off-DOM* via
+        #              Image.decode(); only after decode resolves is it swapped
+        #              in with a single atomic src assignment — no progressive
+        #              paint, no tearing, no reflow, no lag.
+        swap_js = (
+            "<script>(function(){var b=document.getElementById('itchMedia');if(!b)return;"
+            "var g=b.getAttribute('data-gif');if(!g)return;var i=b.querySelector('img');"
+            "var buf=new Image();buf.referrerPolicy='no-referrer';buf.decoding='async';"
+            "buf.onload=function(){(buf.decode?buf.decode():Promise.resolve())"
+            ".then(function(){i.src=g;}).catch(function(){i.src=g;});};buf.src=g;})();</script>"
+        )
+        media_hero = (
+            f'<div class="itch-cover-box" id="itchMedia" data-gif="{gif_src}">'
+            f'<img src="{base_src}" alt="{html.escape(item.name)} cover" width="630" height="500" '
+            f'loading="eager" decoding="async" fetchpriority="high" referrerpolicy="no-referrer" '
+            f'onerror="if(!this.dataset.fb&&this.src.indexOf(\'/original/\')>-1){{this.dataset.fb=1;this.src=this.src.replace(\'/original/\',\'/315x250%23c/\');}}else{{this.closest(\'.itch-cover-box\').classList.add(\'failed\');}}">'
+            f'<span class="cover-pill{pill_cls}">{pill}</span></div>{swap_js}'
+        )
     body = f'''<div class="crumbs"><a href="../ecosystem-index.html">Ecosystem index</a> / {html.escape(item.cluster)}</div>
 <section class="hero"><span class="badge">{html.escape(item.kind)}</span><h1>{html.escape(item.name)}</h1><p>{html.escape(item.description)}</p>
+{media_hero}
 <div class="nav"><a href="{html.escape(item.canonical_url)}">Open public URL</a>{f'<a href="{html.escape(item.repo_url)}">GitHub repository</a>' if item.repo_url else ''}<a href="{html.escape(item.docs_url)}">Docs / README</a><a href="../public-index.json">JSON index</a><a href="../sitemap.xml">Sitemap</a></div></section>
 <section class="callout"><strong>Index purpose:</strong> This static page gives crawlers, directories, LLM readers, and humans a dedicated canonical route for this project instead of hiding it inside JavaScript UI state.</section>
 <h2>Public metadata</h2><table><tbody>

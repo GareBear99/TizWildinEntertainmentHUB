@@ -400,13 +400,30 @@ function allFallbackMedia(item) {
 }
 function allMediaBlock(item) {
   const media = item.media || {};
-  const src = media.animated || media.cover || '';
+  const cover = media.cover || '';
+  const gif = media.animated || '';
+  const src = cover || gif;
   if (!src) return allFallbackMedia(item);
-  const isGif = !!media.animated || /\.gif(?:$|[?#])/i.test(src);
+  const isGif = !!gif;
   const label = isGif ? 'GIF preview' : 'Cover';
   const alt = escAttr(media.alt || item.name || 'GareBearProductionz itch item cover');
   const safeSrc = escAttr(src);
-  return `<a class="itch-media" href="${escAttr(item.url || '#')}" target="_blank" rel="noopener" aria-label="Open ${alt}"><img src="${safeSrc}" alt="${alt}" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.closest('.itch-media').outerHTML=allFallbackMedia({name:this.alt})"><span class="media-pill ${isGif ? 'gif' : ''}">${label}</span></a>`;
+  const gifAttr = (gif && gif !== src) ? ` data-gif="${escAttr(gif)}"` : '';
+  // Triple-buffered load: gradient placeholder -> static cover (immediate paint)
+  // -> GIF fully decoded off-DOM, then swapped in one atomic src assignment.
+  return `<a class="itch-media" href="${escAttr(item.url || '#')}" target="_blank" rel="noopener" aria-label="Open ${alt}"><img src="${safeSrc}"${gifAttr} alt="${alt}" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="if(!this.dataset.fb&&this.src.indexOf('/original/')>-1){this.dataset.fb=1;this.src=this.src.replace('/original/','/315x250%23c/');}else{this.closest('.itch-media').outerHTML=allFallbackMedia({name:this.alt});}"><span class="media-pill ${isGif ? 'gif' : ''}">${label}</span></a>`;
+}
+function upgradeGifBuffers(scope) {
+  (scope || document).querySelectorAll('img[data-gif]').forEach(img => {
+    const gif = img.getAttribute('data-gif');
+    if (!gif) return;
+    img.removeAttribute('data-gif');
+    const buf = new Image();
+    buf.referrerPolicy = 'no-referrer';
+    buf.decoding = 'async';
+    buf.onload = () => (buf.decode ? buf.decode() : Promise.resolve()).then(() => { img.src = gif; }).catch(() => { img.src = gif; });
+    buf.src = gif;
+  });
 }
 
 // ── Tab / screen switcher ──
@@ -804,6 +821,7 @@ function renderAllAccount(manifest) {
   const mediaCount = items.filter(i => ((i.media || {}).cover || (i.media || {}).animated)).length;
   const generatedAt = manifest.metadata && (manifest.metadata.autopullLastRun || manifest.metadata.generatedAt || manifest.generatedAt);
   document.getElementById('allStats').textContent = `${visible.length}/${items.length} shown · ${paidCount} paid · ${freeCount} free/NYP · ${formulaCount} Formula A1 · ${liveCount} Live SVG · ${mediaCount} media · updated ${generatedAt || 'manifest'}`;
+  upgradeGifBuffers(container);
 }
 function createAllAccountCard(item) {
   const card = document.createElement('div');

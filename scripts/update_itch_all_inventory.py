@@ -145,8 +145,21 @@ def is_media_like(url: str) -> bool:
     return False
 
 
+def itch_original(url: str) -> str:
+    """Normalize img.itch.zone URLs to the full-resolution 'original' variant.
+
+    itch encodes a resize directive as the path segment after the base64 asset
+    id (e.g. .../aW1n.../32x32%23/name.jpeg). Swapping that segment for
+    'original' serves the same asset at the native resolution the itch listing
+    displays, instead of whatever thumbnail variant the profile page exposed.
+    """
+    if not url or "img.itch.zone" not in url:
+        return url
+    return re.sub(r"(img\.itch\.zone/[^/]+/)[^/]+(/)", r"\1original\2", url, count=1)
+
+
 def pick_media(urls: Iterable[str]) -> dict:
-    urls = [u for u in urls if u]
+    urls = [itch_original(u) for u in urls if u]
     animated = next((u for u in urls if ".gif" in u.lower()), "")
     cover = next((u for u in urls if u != animated), "") or animated
     media_type = "gif" if animated else ("image" if cover else "fallback")
@@ -155,14 +168,21 @@ def pick_media(urls: Iterable[str]) -> dict:
 
 def parse_meta_media(page_html: str, base: str) -> list[str]:
     urls=[]
-    meta_re = re.compile(r'''<meta[^>]+(?:property|name)=["'](?:og:image|twitter:image|twitter:image:src)["'][^>]+content=["']([^"']+)["'][^>]*>''', re.I)
-    for m in meta_re.finditer(page_html):
-        u=abs_media_url(m.group(1), base)
-        if is_media_like(u):
-            urls.append(u)
+    # Attribute order varies (property before content and vice versa); match both
+    # so the og:image full-resolution cover is never missed in favor of page thumbs.
+    meta_res = [
+        re.compile(r'''<meta[^>]+(?:property|name)=["'](?:og:image|twitter:image|twitter:image:src)["'][^>]+content=["']([^"']+)["'][^>]*>''', re.I),
+        re.compile(r'''<meta[^>]+content=["']([^"']+)["'][^>]+(?:property|name)=["'](?:og:image|twitter:image|twitter:image:src)["'][^>]*>''', re.I),
+    ]
+    for meta_re in meta_res:
+        for m in meta_re.finditer(page_html):
+            u=abs_media_url(m.group(1), base)
+            if is_media_like(u):
+                urls.append(u)
     urls.extend(media_urls_from_html(page_html, base))
     seen=set(); out=[]
     for u in urls:
+        u=itch_original(u)
         if u not in seen:
             out.append(u); seen.add(u)
     return out
