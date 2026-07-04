@@ -462,7 +462,10 @@ def item_jsonld(item: LinkItem) -> dict:
 
 def render_item_page(item: LinkItem, all_items: list[LinkItem]) -> None:
     related = [x for x in all_items if x.cluster == item.cluster and x.id != item.id][:8]
-    related_links = "".join(f'<li><a href="{html.escape(x.page)}">{html.escape(x.name)}</a> — {html.escape(x.kind)}</li>' for x in related)
+    # Route pages live inside docs/pages/, so sibling links must be bare
+    # filenames — using x.page ("pages/<id>.html") here doubled the path
+    # to /pages/pages/<id>.html and 404'd.
+    related_links = "".join(f'<li><a href="{html.escape(x.id)}.html">{html.escape(x.name)}</a> — {html.escape(x.kind)}</li>' for x in related)
     tags = "".join(f'<span class="tag">{html.escape(str(t))}</span>' for t in (item.tags or []) if t)
     desc = f"{item.name} public route in the TizWildin / ARC ecosystem: {item.description}"
     image = social_card(item.name, item.description, f"{item.id}-card.svg")
