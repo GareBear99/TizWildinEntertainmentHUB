@@ -55,6 +55,19 @@
       "status": "production"
     },
     {
+      "id": "freevox8",
+      "name": "FreeVox8",
+      "description": "Spectral vocoder, ghost-resynthesis, and dynamic masking plugin. Frequency-domain audio manipulation for creative sound design.",
+      "category": "flagship",
+      "repo": "FreeVox8",
+      "license": "FREE",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "status": "beta"
+    },
+    {
       "id": "instrudio",
       "name": "Instrudio",
       "description": "10 fully playable instruments \u2014 cross-platform instrument ecosystem with hybrid HTML/plugin architecture.",
@@ -160,7 +173,8 @@
       ],
       "downloadMode": "release_or_repo",
       "homepage": "https://github.com/GareBear99/MultiMaid",
-      "releasesUrl": "https://github.com/GareBear99/MultiMaid/releases/latest"
+      "releasesUrl": "https://github.com/GareBear99/MultiMaid/releases/latest",
+      "status": "beta"
     },
     {
       "id": "metermaid",
@@ -176,7 +190,8 @@
       ],
       "downloadMode": "release_or_repo",
       "homepage": "https://github.com/GareBear99/MeterMaid",
-      "releasesUrl": "https://github.com/GareBear99/MeterMaid/releases/latest"
+      "releasesUrl": "https://github.com/GareBear99/MeterMaid/releases/latest",
+      "status": "beta"
     },
     {
       "id": "paintmask",
@@ -254,6 +269,8 @@
         "VST3",
         "AU"
       ],
+      "demoUrl": "https://garebear99.github.io/RiftAscent/",
+      "demoLabel": "\u25b6\ufe0f Play RiftAscent",
       "status": "beta"
     },
     {

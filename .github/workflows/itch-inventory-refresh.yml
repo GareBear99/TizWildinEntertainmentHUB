@@ -19,9 +19,21 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Autopull GareBearProductionz itch inventory and media
+      - name: Autopull GareBearProductionz itch inventory, media, seller page, and TSV
         run: |
           python scripts/update_itch_all_inventory.py
+
+      - name: Rebuild public index, route pages, sitemap, llms.txt, and link graph
+        run: |
+          python scripts/build_public_index.py
+
+      - name: Refresh source repository index (offline archives; remote fetch stays opt-in)
+        run: |
+          python scripts/build_source_repo_index.py || true
+
+      - name: Rebuild full-text search index
+        run: |
+          python scripts/build_search_index.py
 
       - name: Refresh index health report when available
         run: |
@@ -33,8 +45,18 @@ jobs:
           python scripts/validate_source_index.py
           python -c "import py_compile; py_compile.compile('scripts/update_itch_all_inventory.py', cfile='/tmp/update_itch_all_inventory.pyc', doraise=True)"
 
-      - name: Commit refreshed inventory
+      - name: Commit refreshed inventory and regenerated index layer
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'chore: refresh GareBearProductionz itch inventory media'
-          file_pattern: 'all_items.json docs/data/all_items.json docs/ITCH_AUTOPULL_REPORT.json docs/index.html index.html docs/pages/all-account-inventory.html all-account-inventory.html docs/public-index.json docs/llms.txt docs/sitemap.xml docs/ecosystem-index.html docs/PUBLIC_LINK_GRAPH.md'
+          commit_message: 'chore: refresh itch inventory + regenerate public index layer'
+          file_pattern: >-
+            all_items.json docs/data/all_items.json docs/ITCH_AUTOPULL_REPORT.json
+            all-account-inventory.html docs/pages/all-account-inventory.html
+            ALL_ACCOUNT_INVENTORY.tsv
+            docs/public-index.json docs/llms.txt docs/sitemap.xml docs/robots.txt
+            docs/ecosystem-index.html docs/arc-index.html docs/PUBLIC_LINK_GRAPH.md
+            docs/SEO_BUILD_REPORT.json docs/ORPHAN_PAGES_REPORT.json docs/site.webmanifest
+            docs/pages/*.html docs/assets/social/*.svg
+            docs/search-index.json docs/search.html
+            docs/source-index.json docs/source-link-index.json docs/source-repos.json
+            docs/index-health.json docs/index-health.html

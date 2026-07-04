@@ -12,3 +12,6 @@ coverage/
 !.env.example
 node_modules/
 .cache/
+
+# Local auth/session databases must never be committed
+arc_service/app/data/*.sqlite3

@@ -34,18 +34,27 @@ ACCOUNT_HOST = "garebearproductionz.itch.io"
 MANIFEST_PATH = ROOT / "all_items.json"
 DOCS_DATA_PATH = ROOT / "docs" / "data" / "all_items.json"
 REPORT_PATH = ROOT / "docs" / "ITCH_AUTOPULL_REPORT.json"
+SELLER_PAGE_PATHS = [ROOT / "all-account-inventory.html", ROOT / "docs" / "pages" / "all-account-inventory.html"]
+TSV_PATH = ROOT / "ALL_ACCOUNT_INVENTORY.tsv"
 USER_AGENT = "Mozilla/5.0 (compatible; GareBearProductionz-HUB-InventoryBot/1.0; +https://garebear99.github.io/TizWildinEntertainmentHUB/)"
 
+# Slugs that are storefront constructs rather than individual products get a
+# dedicated kind so downstream consumers can treat them separately.
+BUNDLE_SLUGS = {"bundle"}
+
+# Ordered most-specific-first. Generic catch-alls like bare "engine" were
+# removed from game_tools because they swallowed dice packs, backdrops, and
+# playable engines into the wrong bucket.
 CATEGORY_RULES = [
-    ("hero_generators", ["laser", "fireball", "sprite fusion", "sprite mutation", "combat timeline", "moon", "generator engine"]),
-    ("game_tools", ["formula", "timeline", "metadata", "action command", "reward pocket", "projectile", "pentagram", "converter", "engine"]),
-    ("live_backdrops", ["backdrop", "map", "sphinx", "alien", "mountain", "sky", "crawl space", "sunset", "gate"]),
-    ("icons_sigils", ["icon", "sigil", "covenant", "holy", "spectral", "hell", "evil eye"]),
-    ("sprite_characters", ["sprite", "sprites", "haunter", "demon", "chibi", "pyro", "skully", "elemental", "character"]),
-    ("weapons_props", ["hammer", "mjolnir", "scythe", "device", "cart", "paladin", "teleportation", "prop"]),
-    ("games_engines", ["neolution", "grid", "controller", "game", "canvas"]),
-    ("audio_music", ["audio", "sfx", "violin", "eq", "theme", "npc"]),
+    ("audio_music", ["audio", "sfx", "violin", "eq", "theme", "npc", "synth formula", "sound"]),
     ("wraith_lore", ["wraith", "comic", "cathedral", "darkhold", "necropolis", "jukebox", "nekranomicon"]),
+    ("icons_sigils", ["icon", "sigil", "covenant", "holy", "spectral", "hell", "evil eye"]),
+    ("live_backdrops", ["backdrop", "sphinx", "alien", "mountain", "sky", "crawl space", "sunset", "gate", "live map", "scene"]),
+    ("weapons_props", ["hammer", "mjolnir", "scythe", "device", "cart", "paladin", "teleportation", "prop", "dice", "d20", "coin"]),
+    ("hero_generators", ["laser", "fireball", "sprite fusion", "sprite mutation", "combat timeline", "moon", "generator engine"]),
+    ("sprite_characters", ["sprite", "sprites", "haunter", "demon", "chibi", "pyro", "skully", "elemental", "character", "portrait"]),
+    ("games_engines", ["neolution", "grid", "controller", "game", "canvas", "mode-7", "floorcast", "ray trace", "raycast", "ray cast", "playable"]),
+    ("game_tools", ["formula", "timeline", "metadata", "action command", "reward pocket", "projectile", "pentagram", "converter", "exporter", "physics", "fx engine", "overlay engine", "toolkit", "engine"]),
 ]
 
 
@@ -232,9 +241,6 @@ def extract_price_label(text: str) -> str:
 
 def infer_category(name: str, default: str = "game_tools") -> str:
     low=name.lower()
-    if "free" in low and not any(k in low for k in ["eq", "audio"]):
-        # Still let more specific rules win first.
-        pass
     for cat, terms in CATEGORY_RULES:
         if any(t in low for t in terms):
             return cat
@@ -257,7 +263,10 @@ def merge_item(existing: dict | None, scraped: dict, known_sale_memberships: dic
     })
     if not merged.get("category"):
         merged["category"] = infer_category(merged.get("name", ""))
-    if not merged.get("kind"):
+    slug_now = slug_from_url(merged.get("url", ""))
+    if slug_now in BUNDLE_SLUGS:
+        merged["kind"] = "bundle"
+    elif not merged.get("kind"):
         merged["kind"] = "tool" if merged["category"] in {"game_tools", "hero_generators"} else "asset_pack"
     # Preserve hand-written descriptions unless the scraped one is more useful.
     if not merged.get("description") or len(merged.get("description", "")) < 30:
@@ -335,7 +344,7 @@ def enrich_from_detail_page(item: dict) -> tuple[dict, str]:
     return item, "ok"
 
 
-def update_manifest(enrich_details: bool = True, limit: int | None = None) -> dict:
+def update_manifest(enrich_details: bool = True, limit: int | None = None) -> tuple[dict, dict]:
     manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
     sales = manifest.get("sales", [])
     known_memberships = scrape_sale_memberships(sales)
@@ -385,8 +394,10 @@ def update_manifest(enrich_details: bool = True, limit: int | None = None) -> di
     paid=sum(1 for i in merged if i.get("priceType") == "paid")
     free=sum(1 for i in merged if i.get("priceType") == "free")
     media_ready=sum(1 for i in merged if (i.get("media") or {}).get("cover") or (i.get("media") or {}).get("animated"))
+    manifest.setdefault("summary", {})
     manifest["summary"].update({
         "totalItems": len(merged),
+        "totalPublicProfileItems": len(scraped),
         "paidItems": paid,
         "freeItems": free,
         "mediaReadyItems": media_ready,
@@ -408,18 +419,67 @@ def update_manifest(enrich_details: bool = True, limit: int | None = None) -> di
     return manifest, report
 
 
+def bake_seller_page(manifest: dict) -> list[str]:
+    """Re-embed the manifest into the static buyer/crawler landing page.
+
+    The page keeps a baked `const MANIFEST = {...};` so it works with zero
+    fetches and stays crawler-readable; this replaces that snapshot with the
+    freshly pulled inventory on every autopull run.
+    """
+    payload = json.dumps(manifest, ensure_ascii=False)
+    payload = payload.replace("</", "<\\/")  # keep </script> impossible inside the inline block
+    baked: list[str] = []
+    for path in SELLER_PAGE_PATHS:
+        if not path.exists():
+            continue
+        text = path.read_text(encoding="utf-8")
+        new_text, n = re.subn(r"const MANIFEST = .*;\n", f"const MANIFEST = {payload};\n", text, count=1)
+        if n != 1:
+            print(f"warn: MANIFEST block not found in {path}", file=sys.stderr)
+            continue
+        path.write_text(new_text, encoding="utf-8")
+        baked.append(str(path.relative_to(ROOT)))
+    return baked
+
+
+def bake_tsv(manifest: dict) -> None:
+    rows = ["rank\tid\ttitle\tcategory\tpriceType\tkind\tsales\turl"]
+    for i in sorted(manifest.get("items", []), key=lambda x: x.get("rank", 999)):
+        rows.append("\t".join([
+            str(i.get("rank", "")),
+            i.get("id", ""),
+            i.get("name", "").replace("\t", " "),
+            i.get("category", ""),
+            i.get("priceType", ""),
+            i.get("kind", ""),
+            ",".join(i.get("saleMemberships") or []),
+            i.get("url", ""),
+        ]))
+    TSV_PATH.write_text("\n".join(rows) + "\n", encoding="utf-8")
+
+
 def main() -> int:
     ap=argparse.ArgumentParser(description="Refresh all_items.json from public GareBearProductionz itch inventory.")
     ap.add_argument("--no-detail", action="store_true", help="Do not fetch each product page for og:image/screenshot/GIF enrichment.")
     ap.add_argument("--limit", type=int, default=None, help="Debug limit for number of profile items to process.")
+    ap.add_argument("--bake-only", action="store_true", help="Skip network scraping; rebake the seller page and TSV from the existing all_items.json.")
     args=ap.parse_args()
+    if args.bake_only:
+        manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
+        baked = bake_seller_page(manifest)
+        bake_tsv(manifest)
+        print(f"bake-only: refreshed {', '.join(baked) or 'no seller pages'} and {TSV_PATH.name} from existing manifest ({len(manifest.get('items', []))} items)")
+        return 0
     manifest, report = update_manifest(enrich_details=not args.no_detail, limit=args.limit)
     text=json.dumps(manifest, indent=2, ensure_ascii=False)+"\n"
     MANIFEST_PATH.write_text(text, encoding="utf-8")
     DOCS_DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
     DOCS_DATA_PATH.write_text(text, encoding="utf-8")
+    baked = bake_seller_page(manifest)
+    bake_tsv(manifest)
+    report["sellerPagesBaked"] = baked
     REPORT_PATH.write_text(json.dumps(report, indent=2, ensure_ascii=False)+"\n", encoding="utf-8")
-    print(f"wrote {MANIFEST_PATH} with {report['itemsWritten']} items; media ready {report['mediaReadyItems']}")
+    print(f"wrote {MANIFEST_PATH} with {report['itemsWritten']} items; media ready {report['mediaReadyItems']}; baked {len(baked)} seller pages + TSV")
     return 0
 
 

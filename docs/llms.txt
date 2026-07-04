@@ -1,18 +1,9 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-05-28
+Generated: 2026-07-04
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
-
-## Game Asset Store / Itch Inventory
-
-- GareBearProductionz All Itch Inventory: Complete buyer-facing index of 57 public itch account items grouped by hero generators, game tools, live backdrops, icons/sigils, sprite packs, props, games, audio, lore, and free lead magnets.
-  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html
-  Public URL: https://garebearproductionz.itch.io/
-  Formula A1 Bundle: https://itch.io/s/188490/formula-a1-steal-bundle
-  Live SVG FX Bundle: https://itch.io/s/191122/live-svg-fx-pipeline-pack
-  Tags: itch, game-assets, seller-page, vfx, svg, pixel-art, storefront
 
 ## AI and Automation Tools
 
@@ -320,6 +311,416 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: https://github.com/GareBear99/omnibinary-runtime
   Tags: binary runtime, native first, receipts, audits, discovery, seo
 
+## Game Asset Store / Itch Inventory
+
+- GareBearProductionz All Itch Inventory: Complete buyer-facing index of all public GareBearProductionz itch account items, grouped by game-dev use case with sale membership badges and official itch checkout links.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html
+  Public URL: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html
+  GitHub: https://github.com/GareBear99/TizWildinEntertainmentHUB
+  Tags: itch, game-assets, seller-page, vfx, svg, pixel-art, storefront
+
+- 20+ SVG Programmable Live Backdrop Pipelines & Layers Vol 1: Programmable animated SVG backdrop pipeline pack for layered game scenes and moving environments. Official GareBearProductionz itch product ($0.75 -85%) in the Live Backdrops & Scene Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-10-svg-programmable-live-backdrop-pipelines.html
+  Public URL: https://garebearproductionz.itch.io/10-svg-programmable-live-backdrop-pipelines
+  GitHub: N/A
+  Tags: svg, backdrop, pipeline, animation, backgrounds, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- AAAA Indie Dynamic Merchant Cart: Deterministic procedural merchant-cart canvas engine with seed controls and PNG export. Official GareBearProductionz itch product ($3 -85%) in the Hero Generators line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-indie-dynamic-merchant-cart.html
+  Public URL: https://garebearproductionz.itch.io/indie-dynamic-merchant-cart
+  GitHub: N/A
+  Tags: merchant, cart, shop, procedural, canvas, export, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- AAAA Pixel Combat Timeline Engine: Early access hitbox, hurtbox, attack-state, knockback and animation metadata forge. Official GareBearProductionz itch product ($2.25 -85%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-aaaa-pixel-combat-timeline-engine.html
+  Public URL: https://garebearproductionz.itch.io/aaaa-pixel-combat-timeline-engine
+  GitHub: N/A
+  Tags: combat, hitbox, hurtbox, timeline, json, game-dev, itch, game-assets, garebearproductionz, formula-a1-bundle
+
+- AAAA Sprite Fusion, Metamorphosis & Equation Spine Engine: Advanced sprite fusion/metamorphosis engine for continuity and equation-driven transformations. Official GareBearProductionz itch product ($3.75 -85%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-aaaa-sprite-fusion-metamorphosis-equation-spine-engine.html
+  Public URL: https://garebearproductionz.itch.io/aaaa-sprite-fusion-metamorphosis-equation-spine-engine
+  GitHub: N/A
+  Tags: sprite, fusion, metamorphosis, engine, animation, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- ALIEN INVASION!!! 2D UFO Live Pixel Animated Backdrop & Layers: UFO live pixel animated backdrop/layers with GIF and low-res render packages. Official GareBearProductionz itch product ($1.05 -85%) in the Live Backdrops & Scene Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-alien-invasion-live-animated-backdrop-layers.html
+  Public URL: https://garebearproductionz.itch.io/alien-invasion-live-animated-backdrop-layers
+  GitHub: N/A
+  Tags: alien, ufo, backdrop, layers, gif, svg, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- Celestial Event Moons + Dynamic Generator Engine: Moon/sky-cycle generator with sheets and dynamic celestial event outputs. Official GareBearProductionz itch product ($0.37 -85%) in the Hero Generators line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-celestial-event-moons.html
+  Public URL: https://garebearproductionz.itch.io/celestial-event-moons
+  GitHub: N/A
+  Tags: moon, skycycle, celestial, pixel-art, backdrop, itch, game-assets, garebearproductionz, formula-a1-bundle
+
+- FireBall Generator & Formula/Sprite Exporter: Standalone procedural fireball/comet sprite generator with PNG, GIF and JSON export. Official GareBearProductionz itch product ($2.25 -85%) in the Hero Generators line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-fireball-generator-formula.html
+  Public URL: https://garebearproductionz.itch.io/fireball-generator-formula
+  GitHub: N/A
+  Tags: fireball, comet, sprite-generator, gif, json, vfx, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- The Ultimate Everything Laser Pack & Dynamic Generator Engine (49 Sprite Sheets): Standalone offline pixel laser builder for spritesheets, preview GIFs, metadata and complete ZIP exports. Official GareBearProductionz itch product ($1.95 -85%) in the Hero Generators line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-the-ultimate-everything-laser-pack.html
+  Public URL: https://garebearproductionz.itch.io/the-ultimate-everything-laser-pack
+  GitHub: N/A
+  Tags: laser, vfx, spritesheet, gif, json, offline-tool, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- (FREE) Pixel Paladin Hammer + Chibi: Free pixel paladin hammer and chibi asset. Official GareBearProductionz itch product (FREE) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-free-pixel-paladin-hammer-chibi.html
+  Public URL: https://garebearproductionz.itch.io/free-pixel-paladin-hammer-chibi
+  GitHub: N/A
+  Tags: free, hammer, paladin, chibi, pixel-art, itch, game-assets, garebearproductionz
+
+- 12 Sigil Color Dynamic Icon SVG Export Pack & Hover FX Engine: 12 animated color-dynamic sigil icons with hover lift, glow and SVG export tooling. Official GareBearProductionz itch product ($0.49 -85%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-color-dynamic-sigils-svg-export-pack.html
+  Public URL: https://garebearproductionz.itch.io/color-dynamic-sigils-svg-export-pack
+  GitHub: N/A
+  Tags: sigil, svg, icons, live-icon, hover, export, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- 2D Chibi-Pixel Elemental Rigging Concept (FREE): Free chibi-pixel shadow elemental rigging concept. Official GareBearProductionz itch product (FREE) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-2d-chibi-pixel-elemental-rigging-concept.html
+  Public URL: https://garebearproductionz.itch.io/2d-chibi-pixel-elemental-rigging-concept
+  GitHub: N/A
+  Tags: free, chibi, elemental, rigging, sprites, itch, game-assets, garebearproductionz
+
+- 2D Sunset Generator & Formula + Sprites (FREE): Free 2D sunset generator/formula plus sprite assets. Official GareBearProductionz itch product (FREE) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-2d-sunset-generation-formula.html
+  Public URL: https://garebearproductionz.itch.io/2d-sunset-generation-formula
+  GitHub: N/A
+  Tags: free, sunset, backdrop, generator, sprites, itch, game-assets, garebearproductionz
+
+- 2D-2.5D Gravity Projectile Generator/Formula: 2D/2.5D gravity projectile generator/formula route. Official GareBearProductionz itch product (paid) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-gravity-projectile-generator-formula.html
+  Public URL: https://garebearproductionz.itch.io/gravity-projectile-generator-formula
+  GitHub: N/A
+  Tags: gravity, projectile, 2d, 2.5d, formula, itch, game-assets, garebearproductionz
+
+- AA Indie Demon Sprite Sheet Generator Formula V1: Demon sprite-sheet generator/formula package. Official GareBearProductionz itch product ($2.49 -25%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-demon-sprite-sheet-generator.html
+  Public URL: https://garebearproductionz.itch.io/demon-sprite-sheet-generator
+  GitHub: N/A
+  Tags: demon, sprite-sheet, generator, formula, pixel-art, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- AAAA Layered Mountain Dynamic Sky Live Backdrop Engine: Layered seeded mountain and dynamic sky backdrop engine for game scenery. Official GareBearProductionz itch product ($0.75 -50%) in the Live Backdrops & Scene Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-aaaa-layered-mountain-dynamic-sky-live-backdrop-engine.html
+  Public URL: https://garebearproductionz.itch.io/aaaa-layered-mountain-dynamic-sky-live-backdrop-engine
+  GitHub: N/A
+  Tags: mountain, sky, backdrop, seeded, svg, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- AAAA Sprite Mutation & Continuity Engine & Exporter: Sprite color/effect mutation and continuity exporter for reproducible visual variants. Official GareBearProductionz itch product ($1.65 -85%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-sprite-color-effect-mutator-engine.html
+  Public URL: https://garebearproductionz.itch.io/sprite-color-effect-mutator-engine
+  GitHub: N/A
+  Tags: sprite, mutation, continuity, exporter, vfx, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- Action Command Charge Formula: Action-command charge formula/tool product. Official GareBearProductionz itch product ($0.75 -25%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-action-command-charge-formula.html
+  Public URL: https://garebearproductionz.itch.io/action-command-charge-formula
+  GitHub: N/A
+  Tags: action-command, charge, formula, game-dev, itch, game-assets, garebearproductionz, formula-a1-bundle
+
+- Any Image to Pixel SVG Converter (Only 1 FREE): Free image-to-pixel-SVG converter utility. Official GareBearProductionz itch product (FREE) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-any-image-to-pixel-svg-converter.html
+  Public URL: https://garebearproductionz.itch.io/any-image-to-pixel-svg-converter
+  GitHub: N/A
+  Tags: free, converter, pixel, svg, image, itch, game-assets, garebearproductionz
+
+- Black & Red Dice SVG & PNG Export Engine: Black & Red Dice SVG & PNG Export Engine Official GareBearProductionz itch product ($3.50 -50%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-black-red-dice-svg-png-export-engine.html
+  Public URL: https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- Blood Bound by Pixel Scythe & SVG (FREE): Free Blood Bound pixel scythe SVG asset. Official GareBearProductionz itch product (FREE) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-blood-bound-scythe-svg-free.html
+  Public URL: https://garebearproductionz.itch.io/blood-bound-scythe-svg-free
+  GitHub: N/A
+  Tags: free, scythe, weapon, svg, pixel-art, itch, game-assets, garebearproductionz
+
+- Coin Physics & Tripple Buffer Atomic Swap Pack & Engine Kit: Coin Physics & Tripple Buffer Atomic Swap Pack & Engine Kit Official GareBearProductionz itch product ($11.24 -25%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts.html
+  Public URL: https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz, formula-a1-bundle
+
+- Cool Backdrop Layers & Engine: Compact layered backdrop engine for animated scene composition. Official GareBearProductionz itch product ($0.50 -50%) in the Live Backdrops & Scene Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-cool-backdrop-layers-engine.html
+  Public URL: https://garebearproductionz.itch.io/cool-backdrop-layers-engine
+  GitHub: N/A
+  Tags: backdrop, layers, engine, svg, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- Crawl Space SVG Live Backdrop Engine & Animated Prop Layers: Crawl-space live backdrop engine with animated SVG prop layers. Official GareBearProductionz itch product ($1.25 -50%) in the Live Backdrops & Scene Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-crawl-space-svg-live-backdrop-engine-animated-props.html
+  Public URL: https://garebearproductionz.itch.io/crawl-space-svg-live-backdrop-engine-animated-props
+  GitHub: N/A
+  Tags: backdrop, svg, animation, props, pixel-art, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- Doom Style Ray Cast Engine & Asset Pack: Doom Style Ray Cast Engine & Asset Pack Official GareBearProductionz itch product ($3.75 -25%) in the Games & Playable Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-doom-style-ray-trace-engine-asset-pack.html
+  Public URL: https://garebearproductionz.itch.io/doom-style-ray-trace-engine-asset-pack
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz, formula-a1-bundle
+
+- ENCHANTED SPRITE FX ENGINE: HOLOGRAPHIC Official GareBearProductionz itch product ($9.75 -25%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-enchanted-sprite-fx-engine.html
+  Public URL: https://garebearproductionz.itch.io/enchanted-sprite-fx-engine
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz, formula-a1-bundle
+
+- Evil Eye Four Pack & Live SVG Animations: Four-pack of animated live SVG evil-eye assets. Official GareBearProductionz itch product ($0.50 -50%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-evil-eye-four-pack.html
+  Public URL: https://garebearproductionz.itch.io/evil-eye-four-pack
+  GitHub: N/A
+  Tags: evil-eye, svg, animation, icons, pixel-art, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- FREE Haunter Sprites: FREE Haunter Sprites Official GareBearProductionz itch product (FREE) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-free-haunter-sprites.html
+  Public URL: https://garebearproductionz.itch.io/free-haunter-sprites
+  GitHub: N/A
+  Tags: free, haunter, sprites, pixel-art, itch, game-assets, garebearproductionz
+
+- Free Pixel SVG Portrait Asset Builder Kit (Generator & Pack): Free pixel/SVG portrait asset builder kit and generator. Official GareBearProductionz itch product (Free) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-cool-pixel-portraits.html
+  Public URL: https://garebearproductionz.itch.io/cool-pixel-portraits
+  GitHub: N/A
+  Tags: free, portrait, pixel, svg, generator, itch, game-assets, garebearproductionz
+
+- FreeEQ8 (Most Advanced EQ OpenSource): Open-source EQ product page and technical paper/coverage route. Official GareBearProductionz itch product (Free) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-freeeq8-most-advanced-free-eq-opensource.html
+  Public URL: https://garebearproductionz.itch.io/freeeq8-most-advanced-free-eq-opensource
+  GitHub: N/A
+  Tags: freeeq8, audio, plugin, eq, open-source, itch, game-assets, garebearproductionz
+
+- GW3 Style 2D Projected 3D Grid World Synth Engine (Free): Free projected-3D grid world synth engine route. Official GareBearProductionz itch product (Free) in the Games & Playable Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-gw3-style-2d-projected-3d-grid-world-engine.html
+  Public URL: https://garebearproductionz.itch.io/gw3-style-2d-projected-3d-grid-world-engine
+  GitHub: N/A
+  Tags: free, grid, engine, 2d, 3d, itch, game-assets, garebearproductionz
+
+- HD Cinematic Audio SFX Pack (FREE): Free cinematic audio SFX pack. Official GareBearProductionz itch product (FREE) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-hd-cinematic-audio-sfx-pack-free.html
+  Public URL: https://garebearproductionz.itch.io/hd-cinematic-audio-sfx-pack-free
+  GitHub: N/A
+  Tags: free, audio, sfx, cinematic, metal, itch, game-assets, garebearproductionz
+
+- HD Pixel Laser Beam Pulse Glow FX Pack & Audio SFX (FREE): Free HD pixel laser beam pulse/glow FX pack with audio SFX. Official GareBearProductionz itch product (FREE) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-ultimate-free-hd-laser-pack.html
+  Public URL: https://garebearproductionz.itch.io/ultimate-free-hd-laser-pack
+  GitHub: N/A
+  Tags: free, laser, vfx, audio, sprites, itch, game-assets, garebearproductionz
+
+- Hell's Jukebox Demo & NEKRANOMICON - Author: Cthulu: Demo/lore asset route for Hell's Jukebox and NEKRANOMICON. Official GareBearProductionz itch product (paid) in the Wraith Lore & Story Assets line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-hells-jukebox-nekranomicon-author-cthulu.html
+  Public URL: https://garebearproductionz.itch.io/hells-jukebox-nekranomicon-author-cthulu
+  GitHub: N/A
+  Tags: wraith, lore, jukebox, nekranomicon, itch, game-assets, garebearproductionz
+
+- HOLO SPRITE OVERLAY EXPORT ENGINE: HOLO SPRITE OVERLAY EXPORT ENGINE Official GareBearProductionz itch product ($8.25 -25%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-holo-sprite-overlay-engine.html
+  Public URL: https://garebearproductionz.itch.io/holo-sprite-overlay-engine
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz, formula-a1-bundle
+
+- Holy Live FX SVG & PNG Icon 8-Set Pipeline Kit: Eight-piece holy live FX SVG/PNG icon pipeline kit. Official GareBearProductionz itch product ($2 -50%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-holy-svg-png-icon-set.html
+  Public URL: https://garebearproductionz.itch.io/holy-svg-png-icon-set
+  GitHub: N/A
+  Tags: icons, holy, svg, png, live-fx, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- Infernal Archetype Sprites (FREE): Free infernal archetype sprite set. Official GareBearProductionz itch product (FREE) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-infernal-archetypes.html
+  Public URL: https://garebearproductionz.itch.io/infernal-archetypes
+  GitHub: N/A
+  Tags: free, infernal, sprites, demon, pixel-art, itch, game-assets, garebearproductionz
+
+- Live Pentagram Formula 2D-2.5D: 2D/projected-3D live pentagram formula for ritual FX. Official GareBearProductionz itch product ($0.99 -85%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-live-pentagram-formula-2d-3d.html
+  Public URL: https://garebearproductionz.itch.io/live-pentagram-formula-2d-3d
+  GitHub: N/A
+  Tags: pentagram, ritual, 2d, 2.5d, formula, itch, game-assets, garebearproductionz, formula-a1-bundle
+
+- Live SVG Icon Starter Kit Pipeline + 4 Live Hell FX Icons: Starter live-SVG icon pipeline with four hell FX icons. Official GareBearProductionz itch product ($0.75 -50%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-svg-icon-starter-kit-pipeline.html
+  Public URL: https://garebearproductionz.itch.io/svg-icon-starter-kit-pipeline
+  GitHub: N/A
+  Tags: icons, svg, hell, starter-kit, live-fx, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- MODE-7 FLOORCAST ENGINE: SNES BROWSER FLOORCAST ENGINE Official GareBearProductionz itch product ($11) in the Games & Playable Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-mode-7.html
+  Public URL: https://garebearproductionz.itch.io/mode-7
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
+- Multi Layered Epic Free SVG Backdrop Static Scene (Free): Free multi-layered SVG backdrop static scene for sampling the visual direction. Official GareBearProductionz itch product (Free) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-multi-layered-epic-free-svg-backdrop-static-scene.html
+  Public URL: https://garebearproductionz.itch.io/multi-layered-epic-free-svg-backdrop-static-scene
+  GitHub: N/A
+  Tags: free, svg, backdrop, scene, layers, itch, game-assets, garebearproductionz
+
+- NECROMANCER'S TOOLKIT - EXPANDED RITUAL WORLD BUNDLE EDITION: Fatty Bundle Including All Icons Developed! Official GareBearProductionz itch product ($18 -25%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-bundle.html
+  Public URL: https://garebearproductionz.itch.io/bundle
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz, formula-a1-bundle
+
+- Necrommancers Sacred Geometry Audio ToolKit: Necrommancers Sacred Geometry Audio ToolKit Official GareBearProductionz itch product ($3.33 -25%) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-necrommancers-audio-toolkit.html
+  Public URL: https://garebearproductionz.itch.io/necrommancers-audio-toolkit
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz, formula-a1-bundle
+
+- Neolution & Grid Engine (Controller Support): 8-lane neon rhythm game/grid engine with deterministic chart generation and controller support. Official GareBearProductionz itch product ($3.75 -25%) in the Games & Playable Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-neolution-grid-engine.html
+  Public URL: https://garebearproductionz.itch.io/neolution-grid-engine
+  GitHub: N/A
+  Tags: neolution, rhythm, grid, controller, canvas, itch, game-assets, garebearproductionz, formula-a1-bundle
+
+- NPC Theme of Sacrifice: NPC theme/music asset route for sacrifice-themed material. Official GareBearProductionz itch product ($1.87 -25%) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-npc-theme-of-sacrifice.html
+  Public URL: https://garebearproductionz.itch.io/npc-theme-of-sacrifice
+  GitHub: N/A
+  Tags: npc, theme, music, audio, sacrifice, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- Pixel Abyssal Teleportation Device: Abyssal pixel teleportation pedestal/device asset. Official GareBearProductionz itch product ($0.75 -25%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-pixel-abyssal-teleporter.html
+  Public URL: https://garebearproductionz.itch.io/pixel-abyssal-teleporter
+  GitHub: N/A
+  Tags: teleporter, abyssal, pedestal, pixel-art, prop, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- Pixel Blood & Bone Demon Scythe + SVG (FREE): Free blood/bone demon scythe asset and SVG. Official GareBearProductionz itch product (FREE) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-blood-bone-scythe.html
+  Public URL: https://garebearproductionz.itch.io/blood-bone-scythe
+  GitHub: N/A
+  Tags: free, scythe, demon, weapon, svg, itch, game-assets, garebearproductionz
+
+- Pixel Elemental Velocity Weight Physics 2.5D Quake Hammer (FREE Thor Engine): Free pixel velocity/weight physics 2.5D quake hammer engine. Official GareBearProductionz itch product (FREE) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-pixel-velocity-weight-physics-quake-hammer.html
+  Public URL: https://garebearproductionz.itch.io/pixel-velocity-weight-physics-quake-hammer
+  GitHub: N/A
+  Tags: free, hammer, physics, 2d, 2.5d, itch, game-assets, garebearproductionz
+
+- Pixel MegaBot Rigging Concept + SVG (Free): Free MegaBot rigging concept assets and SVG. Official GareBearProductionz itch product (Free) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-megabot-rigging-concept-free.html
+  Public URL: https://garebearproductionz.itch.io/megabot-rigging-concept-free
+  GitHub: N/A
+  Tags: free, megabot, rigging, svg, robot, itch, game-assets, garebearproductionz
+
+- Pride Crown Concept Sprite Art (Free): Free 7 Deadly Sins pride crown concept sprite art. Official GareBearProductionz itch product (Free) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-pride-crown-concept-art.html
+  Public URL: https://garebearproductionz.itch.io/pride-crown-concept-art
+  GitHub: N/A
+  Tags: free, crown, concept, sprite, pixel-art, itch, game-assets, garebearproductionz
+
+- Professional Grade Studio Violin Audio Synth Formula: Physical-modeling studio violin synth formula and live fingerboard demo route. Official GareBearProductionz itch product (paid) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-professional-grade-studio-violin-audio-synth-formula.html
+  Public URL: https://garebearproductionz.itch.io/professional-grade-studio-violin-audio-synth-formula
+  GitHub: N/A
+  Tags: audio, synth, violin, physical-modeling, formula, itch, game-assets, garebearproductionz
+
+- Professional Occult Covenant Icon Kit & FX Formula: Occult/covenant icon kit with live SVG execution pipeline formula. Official GareBearProductionz itch product ($0.99 -85%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-professional-occult-covenant-icon-kit.html
+  Public URL: https://garebearproductionz.itch.io/professional-occult-covenant-icon-kit
+  GitHub: N/A
+  Tags: occult, covenant, icons, svg, fx, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- Pyro-Maniac Chibi Sprite Pack (FREE): Free pyromancy chibi sprite pack. Official GareBearProductionz itch product (FREE) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-pyromancy-chibi-pack.html
+  Public URL: https://garebearproductionz.itch.io/pyromancy-chibi-pack
+  GitHub: N/A
+  Tags: free, pyro, chibi, sprite, pixel-art, itch, game-assets, garebearproductionz
+
+- Reward Pocket Generator Formula: Reward-pocket generator formula for item/reward pipeline concepts. Official GareBearProductionz itch product ($0.50 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-reward-pocket-generator-formula.html
+  Public URL: https://garebearproductionz.itch.io/reward-pocket-generator-formula
+  GitHub: N/A
+  Tags: reward, generator, formula, items, game-dev, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- Scarlet Witch DarkHold Sprite (FREE): Free DarkHold-style sprite concept. Official GareBearProductionz itch product (FREE) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-scarlette-witchs-darkhold-sprite-free.html
+  Public URL: https://garebearproductionz.itch.io/scarlette-witchs-darkhold-sprite-free
+  GitHub: N/A
+  Tags: free, sprite, darkhold, pixel-art, itch, game-assets, garebearproductionz
+
+- Skully Asset Pack & Lightweight Canvas Engine Demo: Skully asset pack and lightweight vanilla canvas engine demo. Official GareBearProductionz itch product (paid) in the Games & Playable Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-skully-asset-pack-lightweight-canvas-engine-demo.html
+  Public URL: https://garebearproductionz.itch.io/skully-asset-pack-lightweight-canvas-engine-demo
+  GitHub: N/A
+  Tags: skully, canvas, engine, skeleton, pixel-art, itch, game-assets, garebearproductionz
+
+- Spectral Icon SVG Pipeline Kit: Spectral SVG icon pipeline kit for ghost/realm UI assets. Official GareBearProductionz itch product ($1.66 -50%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-spectral-icon-svg-pipeline-kit.html
+  Public URL: https://garebearproductionz.itch.io/spectral-icon-svg-pipeline-kit
+  GitHub: N/A
+  Tags: icons, spectral, svg, pipeline, ui, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- Sphinx Pyramid Activation Layered Live Animated Map Backdrop: Layered animated sphinx/pyramid map backdrop with ritual activation, UFO motion and crypt tile bonus. Official GareBearProductionz itch product ($1.05 -85%) in the Live Backdrops & Scene Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-sphinx-activation-layered-live-map.html
+  Public URL: https://garebearproductionz.itch.io/sphinx-activation-layered-live-map
+  GitHub: N/A
+  Tags: sphinx, pyramid, backdrop, svg, ritual, tilemap, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- Static Atmos - PDF Demo 'Wraith Eternal' Comic: Free Wraith Eternal comic PDF demo, static atmosphere image and soundtrack bonus. Official GareBearProductionz itch product (paid) in the Wraith Lore & Story Assets line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-static-atmos.html
+  Public URL: https://garebearproductionz.itch.io/static-atmos
+  GitHub: N/A
+  Tags: wraith, comic, pdf, atmos, music, itch, game-assets, garebearproductionz
+
+- Summoner's Delight: Four GIF-ready summoner/delight assets. Official GareBearProductionz itch product ($0.75 -25%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-summoners-delights.html
+  Public URL: https://garebearproductionz.itch.io/summoners-delights
+  GitHub: N/A
+  Tags: summoner, gif, assets, pixel-art, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- SVG Hell Fiery Icon Pipelines + Basic Live FX: Hell/fire SVG icon pipeline with basic live FX. Official GareBearProductionz itch product (paid) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-infernal-hell-icons-free-basic-fx.html
+  Public URL: https://garebearproductionz.itch.io/infernal-hell-icons-free-basic-fx
+  GitHub: N/A
+  Tags: icons, hell, svg, fx, pipeline, itch, game-assets, garebearproductionz, live-svg-fx-bundle
+
+- The Cathedral of Madness - Concept Pixel Art: Concept pixel-art cathedral piece for the dark fantasy/Wraith visual line. Official GareBearProductionz itch product (paid) in the Wraith Lore & Story Assets line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-the-cathedral-of-madness-concept-pixel-art.html
+  Public URL: https://garebearproductionz.itch.io/the-cathedral-of-madness-concept-pixel-art
+  GitHub: N/A
+  Tags: cathedral, concept, pixel-art, dark-fantasy, itch, game-assets, garebearproductionz
+
+- The Infina Dix Engine (Ultimate Free Dice Pack): Infina Dice - Ultimate Free Dice Pack Official GareBearProductionz itch product (Free) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-infina-dix-engine.html
+  Public URL: https://garebearproductionz.itch.io/infina-dix-engine
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
+- The WidowMaker: Live HD Vanta Black SVG 3 Phase Boss + GIF Exporter (Free): Free live HD vanta-black SVG three-phase boss and GIF exporter engine. Official GareBearProductionz itch product (Free) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-the-widowmaker-live-vanta-black-svg-3-phase-boss.html
+  Public URL: https://garebearproductionz.itch.io/the-widowmaker-live-vanta-black-svg-3-phase-boss
+  GitHub: N/A
+  Tags: free, boss, svg, gif, vanta-black, itch, game-assets, garebearproductionz
+
+- Thor Mjölnir 4 Set + SVG Physics Velocity Engine + Bonus Quake Hammer Set: Mjölnir four-set with SVG physics velocity engine and quake-hammer bonus. Official GareBearProductionz itch product ($0.30 -85%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-thor-mjolnir-svg-physics-engine.html
+  Public URL: https://garebearproductionz.itch.io/thor-mjolnir-svg-physics-engine
+  GitHub: N/A
+  Tags: mjolnir, hammer, physics, svg, weapon, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- Transparent D20 Dice Color 3D OBJ Pack: Transparent D20 Dice Color 3D OBJ Pack Official GareBearProductionz itch product ($1.95 -85%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-d20-dice-color-3d-obj-pack.html
+  Public URL: https://garebearproductionz.itch.io/d20-dice-color-3d-obj-pack
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz, formula-a1-bundle
+
+- VFX Test Rooms & Elemental Frequency Arena Engines (FREE 2D-3D): Free 2D/3D VFX test-room and elemental frequency arena engines. Official GareBearProductionz itch product (FREE) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-vfx-test-room-elemental-frequency-arena-engine.html
+  Public URL: https://garebearproductionz.itch.io/vfx-test-room-elemental-frequency-arena-engine
+  GitHub: N/A
+  Tags: free, vfx, test-room, arena, elemental, itch, game-assets, garebearproductionz
+
+- Wraith Necropolis Gate Backdrop & Layers FREE: Free Wraith Necropolis gate backdrop and layer sample. Official GareBearProductionz itch product (FREE) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-wraith-necropolis-gate-backdrop.html
+  Public URL: https://garebearproductionz.itch.io/wraith-necropolis-gate-backdrop
+  GitHub: N/A
+  Tags: free, wraith, necropolis, backdrop, layers, itch, game-assets, garebearproductionz
+
 ## Games and Interactive Demos
 
 - Neolution: CPU-light Canvas2D rhythm game with 8 lanes, gamepad support, and real-time audio analysis.
@@ -579,3 +980,62 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://github.com/GareBear99/TizWildin-Skyline
   GitHub: https://github.com/GareBear99/TizWildin-Skyline
   Tags: synthwave, darkwave, loops, sample-pack, producer-tools
+
+## Source Repository Search Index
+- Repository file search: https://garebear99.github.io/TizWildinEntertainmentHUB/repo-file-search.html
+- Awesome Audio Plugins Dev source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-awesome-audio-plugins-dev.html
+- TizWildinEntertainmentHUB source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-entertainment-hub.html
+- Awesome Audio Lists source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-awesome-audio-lists.html
+- Awesome Music Platforms source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-awesome-music-platforms.html
+- Awesome Python Audio Science source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-awesome-python-audio-science.html
+- FreeEQ8 source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freeeq8.html
+- FreeVox8 source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freevox8.html
+- TizWildin Release Vault source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-release-vault.html
+- TizWildin .io Router source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-io-router.html
+- Deconstructed Loops / Packs Router source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-deconstructed-loops-router.html
+- ARC-Neuron-LLMBuilder source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-neuron-llmbuilder.html
+- Therum source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-therum.html
+- ARC-Core source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-core.html
+- arc-lucifer-cleanroom-runtime source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-lucifer-cleanroom-runtime.html
+- arc-language-module source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-language-module.html
+- Arc-RAR source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-rar.html
+- OmniBinary Runtime source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-omnibinary-runtime.html
+- AETHER source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-aether.html
+- BassMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-bassmaid.html
+- ChainMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-chainmaid.html
+- FreeSampler source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freesampler.html
+- GlueMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-gluemaid.html
+- Instrudio source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-instrudio.html
+- MeterMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-metermaid.html
+- MixMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-mixmaid.html
+- MultiMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-multimaid.html
+- PaintMask source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-paintmask.html
+- RiftWave Suite source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-riftwavesuite.html
+- SpaceMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-spacemaid.html
+- WhisperGate source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-whispergate.html
+- WURP source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-wurp.html
+- XyloCore source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-xylocore.html
+- ARC-AudioBench source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-audiobench.html
+- BannerBass source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-bannerbass.html
+- Instrudio Bongo source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-instrudio-bongo.html
+- Instrudio Harp source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-instrudio-harp.html
+- Instrudio Violin source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-instrudio-violin.html
+- PAP-Forge-Audio source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-pap-forge-audio.html
+- VF-PlexLab source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-vf-plexlab.html
+- Voxel Audio source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-voxel-audio.html
+- Neolution source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-neolution.html
+- RiftAscent source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-rift-ascent.html
+- FreeEQ8 Technical Architecture (dev.to) source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freeeq8-devto.html
+- Real-Time State-Space Parameterization and Lock-Free Semantic Analysis in Digital Equalization source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freeeq8-paper.html
+- Studio Violin: Helmholtz Bowed String, H2 Correction, Stradivari Body EQ, and Sympathetic Resonance source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-instrudio-violin-devto.html
+- Free 808 Producer Kit source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-free-808-producer.html
+- Free Dark Piano Sound Kit source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-free-dark-piano.html
+- Free Future Bass Producer Kit source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-free-future-bass.html
+- Free Riser Producer Kit source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-free-riser-producer.html
+- Free Violin Synth Sample Kit source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-free-violin-synth.html
+- Phonk Producer Toolkit source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-phonk-producer.html
+- TizWildin-Aurora source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-aurora.html
+- TizWildin-Chime source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-chime.html
+- TizWildin-Chroma source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-chroma.html
+- TizWildin-Obsidian source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-obsidian.html
+- TizWildin-Skyline source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-skyline.html

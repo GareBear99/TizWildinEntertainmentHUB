@@ -10,5 +10,5 @@ def root():
         "service": "TizWildin Hub ARC",
         "status": "ok",
         "message": "ARC authority layer for plugin hub",
-        "version": "1.2.0"
+        "version": "1.3.0"
     }

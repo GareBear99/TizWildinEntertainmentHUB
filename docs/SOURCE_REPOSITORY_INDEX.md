@@ -3,7 +3,7 @@
 This file is generated from `docs/source-repos.json`. Add a repository entry and run `python scripts/build_source_repo_index.py` to rebuild the static file/link search index. To hydrate remote GitHub repos, run with `SOURCE_INDEX_FETCH_REMOTE=1`.
 
 - [Awesome Audio Plugins Dev](pages/source-awesome-audio-plugins-dev.html) — 0 files, 0 links, remote-record-only
-- [TizWildinEntertainmentHUB](pages/source-tizwildin-entertainment-hub.html) — 479 files, 2681 links, indexed-folder
+- [TizWildinEntertainmentHUB](pages/source-tizwildin-entertainment-hub.html) — 659 files, 4753 links, indexed-folder
 - [Awesome Audio Lists](pages/source-awesome-audio-lists.html) — 0 files, 0 links, remote-record-only
 - [Awesome Music Platforms](pages/source-awesome-music-platforms.html) — 0 files, 0 links, remote-record-only
 - [Awesome Python Audio Science](pages/source-awesome-python-audio-science.html) — 0 files, 0 links, remote-record-only

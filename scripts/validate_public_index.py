@@ -86,6 +86,29 @@ def main() -> None:
     robots = read(DOCS / "robots.txt")
     check(f"Sitemap: {BASE}/sitemap.xml" in robots, "robots.txt missing sitemap")
 
+    # Itch inventory coverage guard: every product in all_items.json must be
+    # represented in the public index, and the buyer inventory page must stay
+    # in the sitemap. This makes the silent-drop failure mode impossible.
+    all_items_path = ROOT / "all_items.json"
+    if all_items_path.exists():
+        inventory = json.loads(read(all_items_path))
+        inventory_count = len(inventory.get("items", []))
+        itch_records = [i for i in items if i.get("source_manifest") == "all_items.json"]
+        check(
+            len(itch_records) >= inventory_count,
+            f"itch coverage regression: all_items.json has {inventory_count} products but public-index only carries {len(itch_records)} itch records",
+        )
+        check(
+            f"{BASE}/pages/all-account-inventory.html" in locs,
+            "sitemap missing the all-account-inventory buyer route",
+        )
+        seller_page = DOCS / "pages" / "all-account-inventory.html"
+        check(seller_page.exists(), "missing docs/pages/all-account-inventory.html")
+        baked = read(seller_page)
+        gen = inventory.get("metadata", {}).get("generatedAt") or inventory.get("generatedAt", "")
+        if gen:
+            check(gen in baked, f"seller page MANIFEST snapshot is stale (does not contain manifest generatedAt {gen}) — run update_itch_all_inventory.py --bake-only")
+
     # Guard against cache/dev artifacts in release package.
     bad = []
     for p in ROOT.rglob("*"):

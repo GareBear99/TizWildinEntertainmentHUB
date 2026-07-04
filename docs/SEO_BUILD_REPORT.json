@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-28",
-  "items": 91,
+  "generatedAt": "2026-07-04",
+  "items": 159,
   "clusters": {
     "AI and Automation Tools": 1,
     "ARC Source Spine": 17,
@@ -8,12 +8,13 @@
     "Creator and Audio Tools": 6,
     "Credibility and Submission Tracking": 1,
     "Discovery Lists and Public Routes": 16,
+    "Game Asset Store / Itch Inventory": 68,
     "Games and Interactive Demos": 6,
     "Promotionals and Community": 7,
     "TizWildin Audio Plugins": 18,
     "TizWildin Sample Packs": 11
   },
-  "sitemapUrls": 191,
-  "routePages": 201,
-  "socialCards": 92
+  "sitemapUrls": 386,
+  "routePages": 269,
+  "socialCards": 159
 }

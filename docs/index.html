@@ -477,7 +477,12 @@ async function init() {
       '<p style="padding:32px;color:var(--red)">Failed to load games manifest.</p>';
   }
   try {
-    const respA = await fetchNoCache(ALL_ITEMS_URL).catch(() => fetchNoCache('all_items.json'));
+    // Primary: raw manifest from the main branch. Fallback: the docs copy that
+    // ships with the Pages site itself (relative to the served page), and only
+    // treat a response as usable when it is actually OK — fetch() does not
+    // reject on 404.
+    let respA = await fetchNoCache(ALL_ITEMS_URL).catch(() => null);
+    if (!respA || !respA.ok) respA = await fetchNoCache('data/all_items.json');
     const allManifest = await respA.json();
     allAccountManifest = allManifest;
     allAccountData = allManifest.items || [];
