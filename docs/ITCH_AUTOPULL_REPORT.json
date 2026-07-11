@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T12:09:23Z",
+  "generatedAt": "2026-07-11T10:34:02Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
   "itemsParsed": 67,
   "itemsWritten": 67,
@@ -151,7 +151,7 @@
     },
     {
       "slug": "ultimate-free-hd-laser-pack",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/ultimate-free-hd-laser-pack: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "pixel-velocity-weight-physics-quake-hammer",
@@ -167,7 +167,7 @@
     },
     {
       "slug": "freeeq8-most-advanced-free-eq-opensource",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/freeeq8-most-advanced-free-eq-opensource: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "any-image-to-pixel-svg-converter",
@@ -267,11 +267,11 @@
     },
     {
       "slug": "npc-theme-of-sacrifice",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/npc-theme-of-sacrifice: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "summoners-delights",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/summoners-delights: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     }
   ],
   "sellerPagesBaked": [
