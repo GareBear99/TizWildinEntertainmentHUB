@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T11:11:47Z",
+  "generatedAt": "2026-07-17T10:58:46Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
   "itemsParsed": 67,
   "itemsWritten": 67,
@@ -119,7 +119,7 @@
     },
     {
       "slug": "scarlette-witchs-darkhold-sprite-free",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/scarlette-witchs-darkhold-sprite-free: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "hells-jukebox-nekranomicon-author-cthulu",
@@ -179,7 +179,7 @@
     },
     {
       "slug": "svg-icon-starter-kit-pipeline",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/svg-icon-starter-kit-pipeline: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "holy-svg-png-icon-set",
@@ -187,7 +187,7 @@
     },
     {
       "slug": "spectral-icon-svg-pipeline-kit",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/spectral-icon-svg-pipeline-kit: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "thor-mjolnir-svg-physics-engine",
@@ -199,7 +199,7 @@
     },
     {
       "slug": "free-pixel-paladin-hammer-chibi",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/free-pixel-paladin-hammer-chibi: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "professional-occult-covenant-icon-kit",
@@ -255,7 +255,7 @@
     },
     {
       "slug": "gravity-projectile-generator-formula",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/gravity-projectile-generator-formula: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "2d-sunset-generation-formula",
@@ -267,7 +267,7 @@
     },
     {
       "slug": "npc-theme-of-sacrifice",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/npc-theme-of-sacrifice: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "summoners-delights",
