@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T10:43:53Z",
+  "generatedAt": "2026-07-20T11:58:43Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
   "itemsParsed": 67,
   "itemsWritten": 67,
@@ -23,7 +23,7 @@
     },
     {
       "slug": "necrommancers-audio-toolkit",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/necrommancers-audio-toolkit: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "doom-style-ray-trace-engine-asset-pack",
@@ -31,7 +31,7 @@
     },
     {
       "slug": "coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "d20-dice-color-3d-obj-pack",
@@ -39,7 +39,7 @@
     },
     {
       "slug": "black-red-dice-svg-png-export-engine",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "infina-dix-engine",
@@ -67,11 +67,11 @@
     },
     {
       "slug": "aaaa-layered-mountain-dynamic-sky-live-backdrop-engine",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/aaaa-layered-mountain-dynamic-sky-live-backdrop-engine: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "cool-backdrop-layers-engine",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/cool-backdrop-layers-engine: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "aaaa-pixel-combat-timeline-engine",
@@ -139,7 +139,7 @@
     },
     {
       "slug": "2d-chibi-pixel-elemental-rigging-concept",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/2d-chibi-pixel-elemental-rigging-concept: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "hd-cinematic-audio-sfx-pack-free",
@@ -199,7 +199,7 @@
     },
     {
       "slug": "free-pixel-paladin-hammer-chibi",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/free-pixel-paladin-hammer-chibi: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "professional-occult-covenant-icon-kit",
@@ -215,7 +215,7 @@
     },
     {
       "slug": "static-atmos",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/static-atmos: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "demon-sprite-sheet-generator",
@@ -227,7 +227,7 @@
     },
     {
       "slug": "pyromancy-chibi-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/pyromancy-chibi-pack: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "infernal-archetypes",
@@ -239,7 +239,7 @@
     },
     {
       "slug": "action-command-charge-formula",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/action-command-charge-formula: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "reward-pocket-generator-formula",
