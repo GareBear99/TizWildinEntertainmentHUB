@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T11:58:43Z",
+  "generatedAt": "2026-07-21T11:18:14Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
   "itemsParsed": 67,
   "itemsWritten": 67,
@@ -23,7 +23,7 @@
     },
     {
       "slug": "necrommancers-audio-toolkit",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/necrommancers-audio-toolkit: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "doom-style-ray-trace-engine-asset-pack",
@@ -39,7 +39,7 @@
     },
     {
       "slug": "black-red-dice-svg-png-export-engine",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "infina-dix-engine",
@@ -215,7 +215,7 @@
     },
     {
       "slug": "static-atmos",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/static-atmos: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "demon-sprite-sheet-generator",
@@ -227,7 +227,7 @@
     },
     {
       "slug": "pyromancy-chibi-pack",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/pyromancy-chibi-pack: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "infernal-archetypes",
