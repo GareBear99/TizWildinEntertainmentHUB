@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T11:19:28Z",
+  "generatedAt": "2026-07-23T11:20:27Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
   "itemsParsed": 67,
   "itemsWritten": 67,
@@ -259,7 +259,7 @@
     },
     {
       "slug": "2d-sunset-generation-formula",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/2d-sunset-generation-formula: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "live-pentagram-formula-2d-3d",
@@ -271,7 +271,7 @@
     },
     {
       "slug": "summoners-delights",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/summoners-delights: HTTP Error 429: Too Many Requests"
     }
   ],
   "sellerPagesBaked": [
