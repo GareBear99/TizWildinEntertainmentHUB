@@ -1,17 +1,17 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-01T10:47:56Z",
+  "generatedAt": "2026-08-02T10:50:44Z",
   "owner": "GareBearProductionz",
   "accountUrl": "https://garebearproductionz.itch.io/",
   "summary": {
-    "totalPublicProfileItems": 67,
+    "totalPublicProfileItems": 72,
     "formulaA1ItemsInManifest": 28,
     "liveSvgFxItemsInManifest": 18,
-    "freeItems": 23,
-    "paidItems": 44,
-    "mediaReadyItems": 67,
+    "freeItems": 25,
+    "paidItems": 47,
+    "mediaReadyItems": 71,
     "autopullReady": true,
-    "totalItems": 67
+    "totalItems": 72
   },
   "sales": [
     {
@@ -100,8 +100,166 @@
   ],
   "items": [
     {
-      "id": "mode-7",
+      "id": "dark-fantasy-dungeon-builder-free-four-realm-tileset",
       "rank": 1,
+      "name": "Dark Fantasy Dungeon Builder - Free Four-Realm Tileset",
+      "url": "https://garebearproductionz.itch.io/dark-fantasy-dungeon-builder-free-four-realm-tileset",
+      "priceType": "free",
+      "status": "released",
+      "accountOwner": "GareBearProductionz",
+      "source": "https://garebearproductionz.itch.io/",
+      "category": "free_samples",
+      "kind": "asset_pack",
+      "description": "",
+      "tags": [],
+      "featured": false,
+      "saleMemberships": [],
+      "media": {
+        "cover": "https://img.itch.zone/aW1nLzI5MDAyNjkwLnBuZw==/original/mLh8%2F8.png",
+        "animated": "",
+        "type": "image",
+        "alt": "Dark Fantasy Dungeon Builder - Free Four-Realm Tileset",
+        "source": "itch-detail",
+        "updatedAt": "2026-08-02T10:49:41Z"
+      },
+      "itch": {
+        "slug": "dark-fantasy-dungeon-builder-free-four-realm-tileset",
+        "priceLabel": "Free",
+        "creator": "GareBearProductionz",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
+        "published": "4 hours ago",
+        "updated": "3 hours ago Game assets › Free"
+      }
+    },
+    {
+      "id": "dark-fantasy-modular-gui-pack-704-ui-assets-160-icons",
+      "rank": 2,
+      "name": "Dark Fantasy Modular GUI Pack - 704 UI Assets + 160 Icons",
+      "url": "https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons",
+      "priceType": "paid",
+      "status": "released",
+      "accountOwner": "GareBearProductionz",
+      "source": "https://garebearproductionz.itch.io/",
+      "category": "icons_sigils",
+      "kind": "asset_pack",
+      "description": "",
+      "tags": [],
+      "featured": false,
+      "saleMemberships": [],
+      "media": {
+        "cover": "",
+        "animated": "",
+        "type": "fallback",
+        "alt": "Dark Fantasy Modular GUI Pack - 704 UI Assets + 160 Icons",
+        "source": "itch-profile",
+        "updatedAt": "2026-08-02T10:49:42Z"
+      },
+      "itch": {
+        "slug": "dark-fantasy-modular-gui-pack-704-ui-assets-160-icons",
+        "priceLabel": "$3.33",
+        "creator": "GareBearProductionz",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z"
+      }
+    },
+    {
+      "id": "120-elemental-vfx-pixel-abilities-icons",
+      "rank": 3,
+      "name": "120 Elemental VFX Pixel Abilities & Icons",
+      "url": "https://garebearproductionz.itch.io/120-elemental-vfx-pixel-abilities-icons",
+      "priceType": "paid",
+      "status": "released",
+      "accountOwner": "GareBearProductionz",
+      "source": "https://garebearproductionz.itch.io/",
+      "category": "icons_sigils",
+      "kind": "asset_pack",
+      "description": "",
+      "tags": [],
+      "featured": false,
+      "saleMemberships": [],
+      "media": {
+        "cover": "https://img.itch.zone/aW1nLzI5MDAxNjA4LmdpZg==/original/xeKE6y.gif",
+        "animated": "https://img.itch.zone/aW1nLzI5MDAxNjA4LmdpZg==/original/zxPVIr.gif",
+        "type": "gif",
+        "alt": "120 Elemental VFX Pixel Abilities & Icons",
+        "source": "itch-detail",
+        "updatedAt": "2026-08-02T10:49:43Z"
+      },
+      "itch": {
+        "slug": "120-elemental-vfx-pixel-abilities-icons",
+        "priceLabel": "$3.33",
+        "creator": "GareBearProductionz",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
+        "published": "5 hours ago",
+        "updated": "3 hours ago Game assets › $5 or less"
+      }
+    },
+    {
+      "id": "elemental-wisp-sprite-pack",
+      "rank": 4,
+      "name": "Elemental Wisp Sprite Pack",
+      "url": "https://garebearproductionz.itch.io/elemental-wisp-sprite-pack",
+      "priceType": "paid",
+      "status": "released",
+      "accountOwner": "GareBearProductionz",
+      "source": "https://garebearproductionz.itch.io/",
+      "category": "sprite_characters",
+      "kind": "asset_pack",
+      "description": "",
+      "tags": [],
+      "featured": false,
+      "saleMemberships": [],
+      "media": {
+        "cover": "https://img.itch.zone/aW1nLzI5MDAwODIxLmdpZg==/original/C2bJSh.gif",
+        "animated": "https://img.itch.zone/aW1nLzI5MDAwODIxLmdpZg==/original/Qr0l9o.gif",
+        "type": "gif",
+        "alt": "Elemental Wisp Sprite Pack",
+        "source": "itch-detail",
+        "updatedAt": "2026-08-02T10:49:44Z"
+      },
+      "itch": {
+        "slug": "elemental-wisp-sprite-pack",
+        "priceLabel": "$3.33",
+        "creator": "GareBearProductionz",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
+        "published": "6 hours ago",
+        "updated": "6 hours ago Game assets › $5 or less"
+      }
+    },
+    {
+      "id": "cash-cloud",
+      "rank": 5,
+      "name": "Cash Cloud Sprite Pack (FREE)",
+      "url": "https://garebearproductionz.itch.io/cash-cloud",
+      "priceType": "free",
+      "status": "released",
+      "accountOwner": "GareBearProductionz",
+      "source": "https://garebearproductionz.itch.io/",
+      "category": "sprite_characters",
+      "kind": "asset_pack",
+      "description": "",
+      "tags": [],
+      "featured": false,
+      "saleMemberships": [],
+      "media": {
+        "cover": "https://img.itch.zone/aW1nLzI4OTg1OTg3LmdpZg==/original/EI5SQ7.gif",
+        "animated": "https://img.itch.zone/aW1nLzI4OTg1OTg3LmdpZg==/original/C4OUrP.gif",
+        "type": "gif",
+        "alt": "Cash Cloud Sprite Pack (FREE)",
+        "source": "itch-detail",
+        "updatedAt": "2026-08-02T10:49:45Z"
+      },
+      "itch": {
+        "slug": "cash-cloud",
+        "priceLabel": "FREE",
+        "creator": "GareBearProductionz",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
+        "published": "21 hours ago",
+        "updated": "20 hours ago Game assets › Free"
+      }
+    },
+    {
+      "id": "mode-7",
+      "rank": 6,
       "name": "MODE-7 FLOORCAST ENGINE",
       "url": "https://garebearproductionz.itch.io/mode-7",
       "priceType": "paid",
@@ -120,20 +278,20 @@
         "type": "gif",
         "alt": "MODE-7 FLOORCAST ENGINE",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:39Z"
+        "updatedAt": "2026-08-02T10:49:46Z"
       },
       "itch": {
         "slug": "mode-7",
         "priceLabel": "$11",
         "creator": "GareBearProductionz",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "published": "29 days ago",
-        "updated": "28 days ago"
+        "updated": "29 days ago"
       }
     },
     {
       "id": "bundle",
-      "rank": 2,
+      "rank": 7,
       "name": "NECROMANCER'S TOOLKIT - EXPANDED RITUAL WORLD BUNDLE EDITION",
       "url": "https://garebearproductionz.itch.io/bundle",
       "priceType": "paid",
@@ -154,20 +312,20 @@
         "type": "gif",
         "alt": "NECROMANCER'S TOOLKIT - EXPANDED RITUAL WORLD BUNDLE EDITION",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:39Z"
+        "updatedAt": "2026-08-02T10:49:47Z"
       },
       "itch": {
         "slug": "bundle",
         "priceLabel": "$18 -25%",
         "creator": "GareBearProductionz",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "published": "29 days ago",
         "updated": "29 days ago Game assets › On sale"
       }
     },
     {
       "id": "enchanted-sprite-fx-engine",
-      "rank": 3,
+      "rank": 8,
       "name": "ENCHANTED SPRITE FX ENGINE",
       "url": "https://garebearproductionz.itch.io/enchanted-sprite-fx-engine",
       "priceType": "paid",
@@ -188,20 +346,20 @@
         "type": "gif",
         "alt": "ENCHANTED SPRITE FX ENGINE",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:39Z"
+        "updatedAt": "2026-08-02T10:49:48Z"
       },
       "itch": {
         "slug": "enchanted-sprite-fx-engine",
         "priceLabel": "$9.75 -25%",
         "creator": "GareBearProductionz",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "published": "29 days ago",
         "updated": "29 days ago Game assets › $15 or less"
       }
     },
     {
       "id": "holo-sprite-overlay-engine",
-      "rank": 4,
+      "rank": 9,
       "name": "HOLO SPRITE OVERLAY EXPORT ENGINE",
       "url": "https://garebearproductionz.itch.io/holo-sprite-overlay-engine",
       "priceType": "paid",
@@ -222,20 +380,20 @@
         "type": "gif",
         "alt": "HOLO SPRITE OVERLAY EXPORT ENGINE",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:40Z"
+        "updatedAt": "2026-08-02T10:49:50Z"
       },
       "itch": {
         "slug": "holo-sprite-overlay-engine",
         "priceLabel": "$8.25 -25%",
         "creator": "GareBearProductionz",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "published": "29 days ago",
         "updated": "29 days ago Game assets › $15 or less"
       }
     },
     {
       "id": "necrommancers-audio-toolkit",
-      "rank": 5,
+      "rank": 10,
       "name": "Necrommancers Sacred Geometry Audio ToolKit",
       "url": "https://garebearproductionz.itch.io/necrommancers-audio-toolkit",
       "priceType": "paid",
@@ -256,20 +414,20 @@
         "type": "gif",
         "alt": "Necrommancers Sacred Geometry Audio ToolKit",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:40Z"
+        "updatedAt": "2026-08-02T10:49:51Z"
       },
       "itch": {
         "slug": "necrommancers-audio-toolkit",
         "priceLabel": "$3.33 -25%",
         "creator": "GareBearProductionz",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "published": "29 days ago",
         "updated": "29 days ago Game assets › $5 or less"
       }
     },
     {
       "id": "doom-style-ray-trace-engine-asset-pack",
-      "rank": 6,
+      "rank": 11,
       "name": "Doom Style Ray Cast Engine & Asset Pack",
       "url": "https://garebearproductionz.itch.io/doom-style-ray-trace-engine-asset-pack",
       "priceType": "paid",
@@ -290,20 +448,20 @@
         "type": "gif",
         "alt": "Doom Style Ray Cast Engine & Asset Pack",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:40Z"
+        "updatedAt": "2026-08-02T10:49:52Z"
       },
       "itch": {
         "slug": "doom-style-ray-trace-engine-asset-pack",
         "priceLabel": "$3.75 -25%",
         "creator": "GareBearProductionz",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "published": "29 days ago",
         "updated": "29 days ago Games › $5 or less"
       }
     },
     {
       "id": "coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts",
-      "rank": 7,
+      "rank": 12,
       "name": "Coin Physics & Tripple Buffer Atomic Swap Pack & Engine Kit",
       "url": "https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts",
       "priceType": "paid",
@@ -323,21 +481,21 @@
         "animated": "https://img.itch.zone/aW1nLzI4MTg5NTc4LmdpZg==/original/k%2F6A0g.gif",
         "type": "gif",
         "alt": "Coin Physics & Tripple Buffer Atomic Swap Pack & Engine Kit",
-        "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:41Z"
+        "source": "itch-profile",
+        "updatedAt": "2026-08-02T10:49:52Z"
       },
       "itch": {
         "slug": "coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts",
         "priceLabel": "$11.24 -25%",
         "creator": "GareBearProductionz",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "published": "29 days ago",
         "updated": "29 days ago Game assets › $15 or less"
       }
     },
     {
       "id": "d20-dice-color-3d-obj-pack",
-      "rank": 8,
+      "rank": 13,
       "name": "Transparent D20 Dice Color 3D OBJ Pack",
       "url": "https://garebearproductionz.itch.io/d20-dice-color-3d-obj-pack",
       "priceType": "paid",
@@ -358,20 +516,20 @@
         "type": "gif",
         "alt": "Transparent D20 Dice Color 3D OBJ Pack",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:41Z"
+        "updatedAt": "2026-08-02T10:49:53Z"
       },
       "itch": {
         "slug": "d20-dice-color-3d-obj-pack",
-        "priceLabel": "$1.95 -85%",
+        "priceLabel": "$9.75 -25%",
         "creator": "GareBearProductionz",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "published": "29 days ago",
         "updated": "29 days ago Game assets › $15 or less"
       }
     },
     {
       "id": "black-red-dice-svg-png-export-engine",
-      "rank": 9,
+      "rank": 14,
       "name": "Black & Red Dice SVG & PNG 2D-3D Export Engine",
       "url": "https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine",
       "priceType": "paid",
@@ -393,20 +551,20 @@
         "type": "image",
         "alt": "Black & Red Dice SVG & PNG 2D-3D Export Engine",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:41Z"
+        "updatedAt": "2026-08-02T10:49:54Z"
       },
       "itch": {
         "slug": "black-red-dice-svg-png-export-engine",
         "priceLabel": "$3.50 -50%",
         "creator": "GareBearProductionz",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "published": "29 days ago",
-        "updated": "28 days ago"
+        "updated": "29 days ago"
       }
     },
     {
       "id": "infina-dix-engine",
-      "rank": 10,
+      "rank": 15,
       "name": "The Infina Dix Engine (Ultimate Free Dice Pack)",
       "url": "https://garebearproductionz.itch.io/infina-dix-engine",
       "priceType": "free",
@@ -425,20 +583,20 @@
         "type": "image",
         "alt": "The Infina Dix Engine (Ultimate Free Dice Pack)",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:41Z"
+        "updatedAt": "2026-08-02T10:49:55Z"
       },
       "itch": {
         "slug": "infina-dix-engine",
         "priceLabel": "Free",
         "creator": "GareBearProductionz",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "published": "29 days ago",
         "updated": "29 days ago Game assets › Free"
       }
     },
     {
       "id": "color-dynamic-sigils-svg-export-pack",
-      "rank": 11,
+      "rank": 16,
       "name": "12 Sigil Color Dynamic Icon SVG Export Pack & Hover FX Engine",
       "url": "https://garebearproductionz.itch.io/color-dynamic-sigils-svg-export-pack",
       "category": "icons_sigils",
@@ -467,12 +625,12 @@
         "type": "gif",
         "alt": "12 Sigil Color Dynamic Icon SVG Export Pack & Hover FX Engine",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:42Z"
+        "updatedAt": "2026-08-02T10:49:56Z"
       },
       "itch": {
         "slug": "color-dynamic-sigils-svg-export-pack",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
-        "priceLabel": "$0.49 -85%",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
+        "priceLabel": "$1.66 -50%",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
         "updated": "29 days ago Game assets › $5 or less"
@@ -480,7 +638,7 @@
     },
     {
       "id": "sphinx-activation-layered-live-map",
-      "rank": 12,
+      "rank": 17,
       "name": "Sphinx Pyramid Activation Layered Live Animated Map Backdrop",
       "url": "https://garebearproductionz.itch.io/sphinx-activation-layered-live-map",
       "category": "live_backdrops",
@@ -509,12 +667,12 @@
         "type": "gif",
         "alt": "Sphinx Pyramid Activation Layered Live Animated Map Backdrop",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:42Z"
+        "updatedAt": "2026-08-02T10:49:57Z"
       },
       "itch": {
         "slug": "sphinx-activation-layered-live-map",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
-        "priceLabel": "$1.05 -85%",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
+        "priceLabel": "$3.50 -50%",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
         "updated": "29 days ago Game assets › $15 or less"
@@ -522,7 +680,7 @@
     },
     {
       "id": "crawl-space-svg-live-backdrop-engine-animated-props",
-      "rank": 13,
+      "rank": 18,
       "name": "Crawl Space SVG Live Backdrop Engine & Animated Prop Layers",
       "url": "https://garebearproductionz.itch.io/crawl-space-svg-live-backdrop-engine-animated-props",
       "category": "live_backdrops",
@@ -550,11 +708,11 @@
         "type": "image",
         "alt": "Crawl Space SVG Live Backdrop Engine & Animated Prop Layers",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:42Z"
+        "updatedAt": "2026-08-02T10:49:58Z"
       },
       "itch": {
         "slug": "crawl-space-svg-live-backdrop-engine-animated-props",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "$1.25 -50%",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -563,7 +721,7 @@
     },
     {
       "id": "the-ultimate-everything-laser-pack",
-      "rank": 14,
+      "rank": 19,
       "name": "The Ultimate Everything Laser Pack & Dynamic Generator Engine (49 Sprite Sheets)",
       "url": "https://garebearproductionz.itch.io/the-ultimate-everything-laser-pack",
       "category": "hero_generators",
@@ -592,12 +750,12 @@
         "type": "gif",
         "alt": "The Ultimate Everything Laser Pack & Dynamic Generator Engine (49 Sprite Sheets)",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:43Z"
+        "updatedAt": "2026-08-02T10:49:59Z"
       },
       "itch": {
         "slug": "the-ultimate-everything-laser-pack",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
-        "priceLabel": "$1.95 -85%",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
+        "priceLabel": "$6.50 -50%",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
         "updated": "29 days ago"
@@ -605,7 +763,7 @@
     },
     {
       "id": "10-svg-programmable-live-backdrop-pipelines",
-      "rank": 15,
+      "rank": 20,
       "name": "20+ SVG Programmable Live Backdrop Pipelines & Layers Vol 1",
       "url": "https://garebearproductionz.itch.io/10-svg-programmable-live-backdrop-pipelines",
       "category": "live_backdrops",
@@ -633,12 +791,12 @@
         "type": "image",
         "alt": "20+ SVG Programmable Live Backdrop Pipelines & Layers Vol 1",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:43Z"
+        "updatedAt": "2026-08-02T10:50:00Z"
       },
       "itch": {
         "slug": "10-svg-programmable-live-backdrop-pipelines",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
-        "priceLabel": "$0.75 -85%",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
+        "priceLabel": "$2.50 -50%",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
         "updated": "29 days ago"
@@ -646,7 +804,7 @@
     },
     {
       "id": "aaaa-layered-mountain-dynamic-sky-live-backdrop-engine",
-      "rank": 16,
+      "rank": 21,
       "name": "AAAA Layered Mountain Dynamic Sky Live Backdrop Engine",
       "url": "https://garebearproductionz.itch.io/aaaa-layered-mountain-dynamic-sky-live-backdrop-engine",
       "category": "live_backdrops",
@@ -674,11 +832,11 @@
         "type": "gif",
         "alt": "AAAA Layered Mountain Dynamic Sky Live Backdrop Engine",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:43Z"
+        "updatedAt": "2026-08-02T10:50:01Z"
       },
       "itch": {
         "slug": "aaaa-layered-mountain-dynamic-sky-live-backdrop-engine",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "$0.75 -50%",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -687,7 +845,7 @@
     },
     {
       "id": "cool-backdrop-layers-engine",
-      "rank": 17,
+      "rank": 22,
       "name": "Cool Backdrop Layers & Engine",
       "url": "https://garebearproductionz.itch.io/cool-backdrop-layers-engine",
       "category": "live_backdrops",
@@ -714,11 +872,11 @@
         "type": "image",
         "alt": "Cool Backdrop Layers & Engine",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:44Z"
+        "updatedAt": "2026-08-02T10:50:02Z"
       },
       "itch": {
         "slug": "cool-backdrop-layers-engine",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "$0.50 -50%",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -727,7 +885,7 @@
     },
     {
       "id": "aaaa-pixel-combat-timeline-engine",
-      "rank": 18,
+      "rank": 23,
       "name": "AAAA Pixel Combat Timeline Engine",
       "url": "https://garebearproductionz.itch.io/aaaa-pixel-combat-timeline-engine",
       "category": "game_tools",
@@ -755,12 +913,12 @@
         "type": "image",
         "alt": "AAAA Pixel Combat Timeline Engine",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:44Z"
+        "updatedAt": "2026-08-02T10:50:02Z"
       },
       "itch": {
         "slug": "aaaa-pixel-combat-timeline-engine",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
-        "priceLabel": "$2.25 -85%",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
+        "priceLabel": "$11.25 -25%",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
         "updated": "29 days ago"
@@ -768,7 +926,7 @@
     },
     {
       "id": "aaaa-sprite-fusion-metamorphosis-equation-spine-engine",
-      "rank": 19,
+      "rank": 24,
       "name": "AAAA Sprite Fusion, Metamorphosis & Equation Spine Engine",
       "url": "https://garebearproductionz.itch.io/aaaa-sprite-fusion-metamorphosis-equation-spine-engine",
       "category": "game_tools",
@@ -796,12 +954,12 @@
         "type": "gif",
         "alt": "AAAA Sprite Fusion, Metamorphosis & Equation Spine Engine",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:44Z"
+        "updatedAt": "2026-08-02T10:50:03Z"
       },
       "itch": {
         "slug": "aaaa-sprite-fusion-metamorphosis-equation-spine-engine",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
-        "priceLabel": "$3.75 -85%",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
+        "priceLabel": "$18.75 -25%",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
         "updated": "29 days ago"
@@ -809,7 +967,7 @@
     },
     {
       "id": "sprite-color-effect-mutator-engine",
-      "rank": 20,
+      "rank": 25,
       "name": "AAAA Sprite Mutation & Continuity Engine & Exporter",
       "url": "https://garebearproductionz.itch.io/sprite-color-effect-mutator-engine",
       "category": "game_tools",
@@ -837,12 +995,12 @@
         "type": "gif",
         "alt": "AAAA Sprite Mutation & Continuity Engine & Exporter",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:44Z"
+        "updatedAt": "2026-08-02T10:50:05Z"
       },
       "itch": {
         "slug": "sprite-color-effect-mutator-engine",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
-        "priceLabel": "$1.65 -85%",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
+        "priceLabel": "$8.25 -25%",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
         "updated": "29 days ago"
@@ -850,7 +1008,7 @@
     },
     {
       "id": "celestial-event-moons",
-      "rank": 21,
+      "rank": 26,
       "name": "Celestial Event Moons + Dynamic Generator Engine",
       "url": "https://garebearproductionz.itch.io/celestial-event-moons",
       "category": "hero_generators",
@@ -877,12 +1035,12 @@
         "type": "gif",
         "alt": "Celestial Event Moons + Dynamic Generator Engine",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:45Z"
+        "updatedAt": "2026-08-02T10:50:05Z"
       },
       "itch": {
         "slug": "celestial-event-moons",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
-        "priceLabel": "$0.37 -85%",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
+        "priceLabel": "$1.87 -25%",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
         "updated": "29 days ago Game assets › $5 or less"
@@ -890,7 +1048,7 @@
     },
     {
       "id": "multi-layered-epic-free-svg-backdrop-static-scene",
-      "rank": 22,
+      "rank": 27,
       "name": "Multi Layered Epic Free SVG Backdrop Static Scene (Free)",
       "url": "https://garebearproductionz.itch.io/multi-layered-epic-free-svg-backdrop-static-scene",
       "category": "free_samples",
@@ -915,11 +1073,11 @@
         "type": "image",
         "alt": "Multi Layered Epic Free SVG Backdrop Static Scene (Free)",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:45Z"
+        "updatedAt": "2026-08-02T10:50:06Z"
       },
       "itch": {
         "slug": "multi-layered-epic-free-svg-backdrop-static-scene",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "Free",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -928,7 +1086,7 @@
     },
     {
       "id": "evil-eye-four-pack",
-      "rank": 23,
+      "rank": 28,
       "name": "Evil Eye Four Pack & Live SVG Animations",
       "url": "https://garebearproductionz.itch.io/evil-eye-four-pack",
       "category": "icons_sigils",
@@ -956,11 +1114,11 @@
         "type": "image",
         "alt": "Evil Eye Four Pack & Live SVG Animations",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:45Z"
+        "updatedAt": "2026-08-02T10:50:07Z"
       },
       "itch": {
         "slug": "evil-eye-four-pack",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "$0.50 -50%",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -969,7 +1127,7 @@
     },
     {
       "id": "alien-invasion-live-animated-backdrop-layers",
-      "rank": 24,
+      "rank": 29,
       "name": "ALIEN INVASION!!! 2D UFO Live Pixel Animated Backdrop & Layers",
       "url": "https://garebearproductionz.itch.io/alien-invasion-live-animated-backdrop-layers",
       "category": "live_backdrops",
@@ -998,12 +1156,12 @@
         "type": "image",
         "alt": "ALIEN INVASION!!! 2D UFO Live Pixel Animated Backdrop & Layers",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:45Z"
+        "updatedAt": "2026-08-02T10:50:08Z"
       },
       "itch": {
         "slug": "alien-invasion-live-animated-backdrop-layers",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
-        "priceLabel": "$1.05 -85%",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
+        "priceLabel": "$3.50 -50%",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
         "updated": "29 days ago Game assets › $15 or less"
@@ -1011,7 +1169,7 @@
     },
     {
       "id": "wraith-necropolis-gate-backdrop",
-      "rank": 25,
+      "rank": 30,
       "name": "Wraith Necropolis Gate Backdrop & Layers FREE",
       "url": "https://garebearproductionz.itch.io/wraith-necropolis-gate-backdrop",
       "category": "free_samples",
@@ -1036,11 +1194,11 @@
         "type": "image",
         "alt": "Wraith Necropolis Gate Backdrop & Layers FREE",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:45Z"
+        "updatedAt": "2026-08-02T10:50:09Z"
       },
       "itch": {
         "slug": "wraith-necropolis-gate-backdrop",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "FREE",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -1049,7 +1207,7 @@
     },
     {
       "id": "vfx-test-room-elemental-frequency-arena-engine",
-      "rank": 26,
+      "rank": 31,
       "name": "VFX Test Rooms & Elemental Frequency Arena Engines (FREE 2D-3D)",
       "url": "https://garebearproductionz.itch.io/vfx-test-room-elemental-frequency-arena-engine",
       "category": "free_samples",
@@ -1074,11 +1232,11 @@
         "type": "gif",
         "alt": "VFX Test Rooms & Elemental Frequency Arena Engines (FREE 2D-3D)",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:46Z"
+        "updatedAt": "2026-08-02T10:50:10Z"
       },
       "itch": {
         "slug": "vfx-test-room-elemental-frequency-arena-engine",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "FREE",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -1087,7 +1245,7 @@
     },
     {
       "id": "the-cathedral-of-madness-concept-pixel-art",
-      "rank": 27,
+      "rank": 32,
       "name": "The Cathedral of Madness - Concept Pixel Art",
       "url": "https://garebearproductionz.itch.io/the-cathedral-of-madness-concept-pixel-art",
       "category": "wraith_lore",
@@ -1110,12 +1268,12 @@
         "animated": "https://img.itch.zone/aW1nLzI3ODc2MzQ0LmdpZg==/original/qAACHS.gif",
         "type": "gif",
         "alt": "The Cathedral of Madness - Concept Pixel Art",
-        "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:46Z"
+        "source": "itch-profile",
+        "updatedAt": "2026-08-02T10:50:11Z"
       },
       "itch": {
         "slug": "the-cathedral-of-madness-concept-pixel-art",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -1124,7 +1282,7 @@
     },
     {
       "id": "pride-crown-concept-art",
-      "rank": 28,
+      "rank": 33,
       "name": "Pride Crown Concept Sprite Art (Free)",
       "url": "https://garebearproductionz.itch.io/pride-crown-concept-art",
       "category": "free_samples",
@@ -1149,11 +1307,11 @@
         "type": "image",
         "alt": "Pride Crown Concept Sprite Art (Free)",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:46Z"
+        "updatedAt": "2026-08-02T10:50:12Z"
       },
       "itch": {
         "slug": "pride-crown-concept-art",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "Free",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -1162,7 +1320,7 @@
     },
     {
       "id": "scarlette-witchs-darkhold-sprite-free",
-      "rank": 29,
+      "rank": 34,
       "name": "Scarlet Witch DarkHold Sprite (FREE)",
       "url": "https://garebearproductionz.itch.io/scarlette-witchs-darkhold-sprite-free",
       "category": "free_samples",
@@ -1185,12 +1343,12 @@
         "animated": "",
         "type": "image",
         "alt": "Scarlet Witch DarkHold Sprite (FREE)",
-        "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:46Z"
+        "source": "itch-profile",
+        "updatedAt": "2026-08-02T10:50:12Z"
       },
       "itch": {
         "slug": "scarlette-witchs-darkhold-sprite-free",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "FREE",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -1199,7 +1357,7 @@
     },
     {
       "id": "hells-jukebox-nekranomicon-author-cthulu",
-      "rank": 30,
+      "rank": 35,
       "name": "Hell's Jukebox Demo & NEKRANOMICON - Author: Cthulu",
       "url": "https://garebearproductionz.itch.io/hells-jukebox-nekranomicon-author-cthulu",
       "category": "wraith_lore",
@@ -1223,11 +1381,11 @@
         "type": "image",
         "alt": "Hell's Jukebox Demo & NEKRANOMICON - Author: Cthulu",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:47Z"
+        "updatedAt": "2026-08-02T10:50:13Z"
       },
       "itch": {
         "slug": "hells-jukebox-nekranomicon-author-cthulu",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -1236,7 +1394,7 @@
     },
     {
       "id": "the-widowmaker-live-vanta-black-svg-3-phase-boss",
-      "rank": 31,
+      "rank": 36,
       "name": "The WidowMaker: Live HD Vanta Black SVG 3 Phase Boss + GIF Exporter (Free)",
       "url": "https://garebearproductionz.itch.io/the-widowmaker-live-vanta-black-svg-3-phase-boss",
       "category": "free_samples",
@@ -1261,11 +1419,11 @@
         "type": "gif",
         "alt": "The WidowMaker: Live HD Vanta Black SVG 3 Phase Boss + GIF Exporter (Free)",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:47Z"
+        "updatedAt": "2026-08-02T10:50:14Z"
       },
       "itch": {
         "slug": "the-widowmaker-live-vanta-black-svg-3-phase-boss",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "Free",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -1274,7 +1432,7 @@
     },
     {
       "id": "cool-pixel-portraits",
-      "rank": 32,
+      "rank": 37,
       "name": "Free Pixel SVG Portrait Asset Builder Kit (Generator & Pack)",
       "url": "https://garebearproductionz.itch.io/cool-pixel-portraits",
       "category": "free_samples",
@@ -1299,11 +1457,11 @@
         "type": "image",
         "alt": "Free Pixel SVG Portrait Asset Builder Kit (Generator & Pack)",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:47Z"
+        "updatedAt": "2026-08-02T10:50:15Z"
       },
       "itch": {
         "slug": "cool-pixel-portraits",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "Free",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -1312,7 +1470,7 @@
     },
     {
       "id": "megabot-rigging-concept-free",
-      "rank": 33,
+      "rank": 38,
       "name": "Pixel MegaBot Rigging Concept + SVG (Free)",
       "url": "https://garebearproductionz.itch.io/megabot-rigging-concept-free",
       "category": "free_samples",
@@ -1337,11 +1495,11 @@
         "type": "gif",
         "alt": "Pixel MegaBot Rigging Concept + SVG (Free)",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:47Z"
+        "updatedAt": "2026-08-02T10:50:16Z"
       },
       "itch": {
         "slug": "megabot-rigging-concept-free",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "Free",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -1350,7 +1508,7 @@
     },
     {
       "id": "2d-chibi-pixel-elemental-rigging-concept",
-      "rank": 34,
+      "rank": 39,
       "name": "2D Chibi-Pixel Elemental Rigging Concept (FREE)",
       "url": "https://garebearproductionz.itch.io/2d-chibi-pixel-elemental-rigging-concept",
       "category": "free_samples",
@@ -1375,11 +1533,11 @@
         "type": "gif",
         "alt": "2D Chibi-Pixel Elemental Rigging Concept (FREE)",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:48Z"
+        "updatedAt": "2026-08-02T10:50:17Z"
       },
       "itch": {
         "slug": "2d-chibi-pixel-elemental-rigging-concept",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "FREE",
         "creator": "GareBearProductionz",
         "published": "27 days ago",
@@ -1388,7 +1546,7 @@
     },
     {
       "id": "hd-cinematic-audio-sfx-pack-free",
-      "rank": 35,
+      "rank": 40,
       "name": "HD Cinematic Audio SFX Pack (FREE)",
       "url": "https://garebearproductionz.itch.io/hd-cinematic-audio-sfx-pack-free",
       "category": "audio_music",
@@ -1413,11 +1571,11 @@
         "type": "image",
         "alt": "HD Cinematic Audio SFX Pack (FREE)",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:48Z"
+        "updatedAt": "2026-08-02T10:50:18Z"
       },
       "itch": {
         "slug": "hd-cinematic-audio-sfx-pack-free",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "FREE",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -1426,7 +1584,7 @@
     },
     {
       "id": "professional-grade-studio-violin-audio-synth-formula",
-      "rank": 36,
+      "rank": 41,
       "name": "Professional Grade Studio Violin Audio Synth Formula",
       "url": "https://garebearproductionz.itch.io/professional-grade-studio-violin-audio-synth-formula",
       "category": "audio_music",
@@ -1451,11 +1609,11 @@
         "type": "image",
         "alt": "Professional Grade Studio Violin Audio Synth Formula",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:48Z"
+        "updatedAt": "2026-08-02T10:50:19Z"
       },
       "itch": {
         "slug": "professional-grade-studio-violin-audio-synth-formula",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -1464,7 +1622,7 @@
     },
     {
       "id": "ultimate-free-hd-laser-pack",
-      "rank": 37,
+      "rank": 42,
       "name": "HD Pixel Laser Beam Pulse Glow FX Pack & Audio SFX (FREE)",
       "url": "https://garebearproductionz.itch.io/ultimate-free-hd-laser-pack",
       "category": "free_samples",
@@ -1489,11 +1647,11 @@
         "type": "gif",
         "alt": "HD Pixel Laser Beam Pulse Glow FX Pack & Audio SFX (FREE)",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:48Z"
+        "updatedAt": "2026-08-02T10:50:20Z"
       },
       "itch": {
         "slug": "ultimate-free-hd-laser-pack",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "FREE",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -1502,7 +1660,7 @@
     },
     {
       "id": "pixel-velocity-weight-physics-quake-hammer",
-      "rank": 38,
+      "rank": 43,
       "name": "Pixel Elemental Velocity Weight Physics 2.5D Quake Hammer (FREE Thor Engine)",
       "url": "https://garebearproductionz.itch.io/pixel-velocity-weight-physics-quake-hammer",
       "category": "free_samples",
@@ -1527,11 +1685,11 @@
         "type": "gif",
         "alt": "Pixel Elemental Velocity Weight Physics 2.5D Quake Hammer (FREE Thor Engine)",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:49Z"
+        "updatedAt": "2026-08-02T10:50:21Z"
       },
       "itch": {
         "slug": "pixel-velocity-weight-physics-quake-hammer",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "FREE",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -1540,7 +1698,7 @@
     },
     {
       "id": "blood-bound-scythe-svg-free",
-      "rank": 39,
+      "rank": 44,
       "name": "Blood Bound by Pixel Scythe & SVG (FREE)",
       "url": "https://garebearproductionz.itch.io/blood-bound-scythe-svg-free",
       "category": "weapons_props",
@@ -1565,11 +1723,11 @@
         "type": "gif",
         "alt": "Blood Bound by Pixel Scythe & SVG (FREE)",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:49Z"
+        "updatedAt": "2026-08-02T10:50:22Z"
       },
       "itch": {
         "slug": "blood-bound-scythe-svg-free",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "FREE",
         "creator": "GareBearProductionz",
         "published": "28 days ago",
@@ -1578,7 +1736,7 @@
     },
     {
       "id": "gw3-style-2d-projected-3d-grid-world-engine",
-      "rank": 40,
+      "rank": 45,
       "name": "GW3 Style 2D Projected 3D Grid World Synth Engine (Free)",
       "url": "https://garebearproductionz.itch.io/gw3-style-2d-projected-3d-grid-world-engine",
       "category": "games_engines",
@@ -1603,11 +1761,11 @@
         "type": "image",
         "alt": "GW3 Style 2D Projected 3D Grid World Synth Engine (Free)",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:49Z"
+        "updatedAt": "2026-08-02T10:50:23Z"
       },
       "itch": {
         "slug": "gw3-style-2d-projected-3d-grid-world-engine",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "Free",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -1616,7 +1774,7 @@
     },
     {
       "id": "freeeq8-most-advanced-free-eq-opensource",
-      "rank": 41,
+      "rank": 46,
       "name": "FreeEQ8 (Most Advanced EQ OpenSource)",
       "url": "https://garebearproductionz.itch.io/freeeq8-most-advanced-free-eq-opensource",
       "category": "audio_music",
@@ -1641,11 +1799,11 @@
         "type": "image",
         "alt": "FreeEQ8 (Most Advanced EQ OpenSource)",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:49Z"
+        "updatedAt": "2026-08-02T10:50:23Z"
       },
       "itch": {
         "slug": "freeeq8-most-advanced-free-eq-opensource",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "Free",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -1654,7 +1812,7 @@
     },
     {
       "id": "any-image-to-pixel-svg-converter",
-      "rank": 42,
+      "rank": 47,
       "name": "Any Image to Pixel SVG Converter (Only 1 FREE)",
       "url": "https://garebearproductionz.itch.io/any-image-to-pixel-svg-converter",
       "category": "game_tools",
@@ -1679,11 +1837,11 @@
         "type": "gif",
         "alt": "Any Image to Pixel SVG Converter (Only 1 FREE)",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:50Z"
+        "updatedAt": "2026-08-02T10:50:24Z"
       },
       "itch": {
         "slug": "any-image-to-pixel-svg-converter",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "FREE",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -1692,7 +1850,7 @@
     },
     {
       "id": "infernal-hell-icons-free-basic-fx",
-      "rank": 43,
+      "rank": 48,
       "name": "SVG Hell Fiery Icon Pipelines + Basic Live FX",
       "url": "https://garebearproductionz.itch.io/infernal-hell-icons-free-basic-fx",
       "category": "icons_sigils",
@@ -1719,11 +1877,11 @@
         "type": "gif",
         "alt": "SVG Hell Fiery Icon Pipelines + Basic Live FX",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:50Z"
+        "updatedAt": "2026-08-02T10:50:25Z"
       },
       "itch": {
         "slug": "infernal-hell-icons-free-basic-fx",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -1732,7 +1890,7 @@
     },
     {
       "id": "svg-icon-starter-kit-pipeline",
-      "rank": 44,
+      "rank": 49,
       "name": "Live SVG Icon Starter Kit Pipeline + 4 Live Hell FX Icons",
       "url": "https://garebearproductionz.itch.io/svg-icon-starter-kit-pipeline",
       "category": "icons_sigils",
@@ -1760,11 +1918,11 @@
         "type": "gif",
         "alt": "Live SVG Icon Starter Kit Pipeline + 4 Live Hell FX Icons",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:50Z"
+        "updatedAt": "2026-08-02T10:50:25Z"
       },
       "itch": {
         "slug": "svg-icon-starter-kit-pipeline",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "$0.75 -50%",
         "creator": "GareBearProductionz",
         "published": "28 days ago",
@@ -1773,7 +1931,7 @@
     },
     {
       "id": "holy-svg-png-icon-set",
-      "rank": 45,
+      "rank": 50,
       "name": "Holy Live FX SVG & PNG Icon 8-Set Pipeline Kit",
       "url": "https://garebearproductionz.itch.io/holy-svg-png-icon-set",
       "category": "icons_sigils",
@@ -1801,11 +1959,11 @@
         "type": "gif",
         "alt": "Holy Live FX SVG & PNG Icon 8-Set Pipeline Kit",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:50Z"
+        "updatedAt": "2026-08-02T10:50:26Z"
       },
       "itch": {
         "slug": "holy-svg-png-icon-set",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "$2 -50%",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -1814,7 +1972,7 @@
     },
     {
       "id": "spectral-icon-svg-pipeline-kit",
-      "rank": 46,
+      "rank": 51,
       "name": "Spectral Icon SVG Pipeline Kit",
       "url": "https://garebearproductionz.itch.io/spectral-icon-svg-pipeline-kit",
       "category": "icons_sigils",
@@ -1842,11 +2000,11 @@
         "type": "gif",
         "alt": "Spectral Icon SVG Pipeline Kit",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:51Z"
+        "updatedAt": "2026-08-02T10:50:26Z"
       },
       "itch": {
         "slug": "spectral-icon-svg-pipeline-kit",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "$1.66 -50%",
         "creator": "GareBearProductionz",
         "published": "28 days ago",
@@ -1855,7 +2013,7 @@
     },
     {
       "id": "thor-mjolnir-svg-physics-engine",
-      "rank": 47,
+      "rank": 52,
       "name": "Thor Mjölnir 4 Set + SVG Physics Velocity Engine + Bonus Quake Hammer Set",
       "url": "https://garebearproductionz.itch.io/thor-mjolnir-svg-physics-engine",
       "category": "weapons_props",
@@ -1883,12 +2041,12 @@
         "type": "gif",
         "alt": "Thor Mjölnir 4 Set + SVG Physics Velocity Engine + Bonus Quake Hammer Set",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:51Z"
+        "updatedAt": "2026-08-02T10:50:27Z"
       },
       "itch": {
         "slug": "thor-mjolnir-svg-physics-engine",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
-        "priceLabel": "$0.30 -85%",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
+        "priceLabel": "$1 -50%",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
         "updated": "29 days ago"
@@ -1896,7 +2054,7 @@
     },
     {
       "id": "blood-bone-scythe",
-      "rank": 48,
+      "rank": 53,
       "name": "Pixel Blood & Bone Demon Scythe + SVG (FREE)",
       "url": "https://garebearproductionz.itch.io/blood-bone-scythe",
       "category": "weapons_props",
@@ -1921,20 +2079,20 @@
         "type": "gif",
         "alt": "Pixel Blood & Bone Demon Scythe + SVG (FREE)",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:51Z"
+        "updatedAt": "2026-08-02T10:50:28Z"
       },
       "itch": {
         "slug": "blood-bone-scythe",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "FREE",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
-        "updated": "8 days ago"
+        "updated": "9 days ago"
       }
     },
     {
       "id": "free-pixel-paladin-hammer-chibi",
-      "rank": 49,
+      "rank": 54,
       "name": "(FREE) Pixel Paladin Hammer + Chibi",
       "url": "https://garebearproductionz.itch.io/free-pixel-paladin-hammer-chibi",
       "category": "weapons_props",
@@ -1959,11 +2117,11 @@
         "type": "gif",
         "alt": "(FREE) Pixel Paladin Hammer + Chibi",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:51Z"
+        "updatedAt": "2026-08-02T10:50:28Z"
       },
       "itch": {
         "slug": "free-pixel-paladin-hammer-chibi",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "FREE",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -1972,7 +2130,7 @@
     },
     {
       "id": "professional-occult-covenant-icon-kit",
-      "rank": 50,
+      "rank": 55,
       "name": "Professional Occult Covenant Icon Kit & FX Formula",
       "url": "https://garebearproductionz.itch.io/professional-occult-covenant-icon-kit",
       "category": "icons_sigils",
@@ -2000,12 +2158,12 @@
         "type": "gif",
         "alt": "Professional Occult Covenant Icon Kit & FX Formula",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:52Z"
+        "updatedAt": "2026-08-02T10:50:29Z"
       },
       "itch": {
         "slug": "professional-occult-covenant-icon-kit",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
-        "priceLabel": "$0.99 -85%",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
+        "priceLabel": "$3.33 -50%",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
         "updated": "29 days ago"
@@ -2013,7 +2171,7 @@
     },
     {
       "id": "indie-dynamic-merchant-cart",
-      "rank": 51,
+      "rank": 56,
       "name": "AAAA Indie Dynamic Merchant Cart",
       "url": "https://garebearproductionz.itch.io/indie-dynamic-merchant-cart",
       "category": "hero_generators",
@@ -2042,12 +2200,12 @@
         "type": "gif",
         "alt": "AAAA Indie Dynamic Merchant Cart",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:52Z"
+        "updatedAt": "2026-08-02T10:50:30Z"
       },
       "itch": {
         "slug": "indie-dynamic-merchant-cart",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
-        "priceLabel": "$3 -85%",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
+        "priceLabel": "$10 -50%",
         "creator": "GareBearProductionz",
         "published": "28 days ago",
         "updated": "29 days ago"
@@ -2055,7 +2213,7 @@
     },
     {
       "id": "pixel-abyssal-teleporter",
-      "rank": 52,
+      "rank": 57,
       "name": "Pixel Abyssal Teleportation Device",
       "url": "https://garebearproductionz.itch.io/pixel-abyssal-teleporter",
       "category": "weapons_props",
@@ -2083,11 +2241,11 @@
         "type": "image",
         "alt": "Pixel Abyssal Teleportation Device",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:52Z"
+        "updatedAt": "2026-08-02T10:50:30Z"
       },
       "itch": {
         "slug": "pixel-abyssal-teleporter",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "$0.75 -25%",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -2096,7 +2254,7 @@
     },
     {
       "id": "static-atmos",
-      "rank": 53,
+      "rank": 58,
       "name": "Static Atmos - PDF Demo 'Wraith Eternal' Comic",
       "url": "https://garebearproductionz.itch.io/static-atmos",
       "category": "wraith_lore",
@@ -2121,11 +2279,11 @@
         "type": "gif",
         "alt": "Static Atmos - PDF Demo 'Wraith Eternal' Comic",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:52Z"
+        "updatedAt": "2026-08-02T10:50:31Z"
       },
       "itch": {
         "slug": "static-atmos",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "",
         "creator": "GareBearProductionz",
         "published": "28 days ago",
@@ -2134,7 +2292,7 @@
     },
     {
       "id": "demon-sprite-sheet-generator",
-      "rank": 54,
+      "rank": 59,
       "name": "AA Indie Demon Sprite Sheet Generator Formula V1",
       "url": "https://garebearproductionz.itch.io/demon-sprite-sheet-generator",
       "category": "sprite_characters",
@@ -2162,11 +2320,11 @@
         "type": "image",
         "alt": "AA Indie Demon Sprite Sheet Generator Formula V1",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:53Z"
+        "updatedAt": "2026-08-02T10:50:31Z"
       },
       "itch": {
         "slug": "demon-sprite-sheet-generator",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "$2.49 -25%",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -2175,7 +2333,7 @@
     },
     {
       "id": "fireball-generator-formula",
-      "rank": 55,
+      "rank": 60,
       "name": "FireBall Generator & Formula/Sprite Exporter",
       "url": "https://garebearproductionz.itch.io/fireball-generator-formula",
       "category": "hero_generators",
@@ -2204,12 +2362,12 @@
         "type": "gif",
         "alt": "FireBall Generator & Formula/Sprite Exporter",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:53Z"
+        "updatedAt": "2026-08-02T10:50:32Z"
       },
       "itch": {
         "slug": "fireball-generator-formula",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
-        "priceLabel": "$2.25 -85%",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
+        "priceLabel": "$7.50 -50%",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
         "updated": "29 days ago"
@@ -2217,7 +2375,7 @@
     },
     {
       "id": "pyromancy-chibi-pack",
-      "rank": 56,
+      "rank": 61,
       "name": "Pyro-Maniac Chibi Sprite Pack (FREE)",
       "url": "https://garebearproductionz.itch.io/pyromancy-chibi-pack",
       "category": "sprite_characters",
@@ -2242,11 +2400,11 @@
         "type": "gif",
         "alt": "Pyro-Maniac Chibi Sprite Pack (FREE)",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:53Z"
+        "updatedAt": "2026-08-02T10:50:33Z"
       },
       "itch": {
         "slug": "pyromancy-chibi-pack",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "FREE",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -2255,7 +2413,7 @@
     },
     {
       "id": "infernal-archetypes",
-      "rank": 57,
+      "rank": 62,
       "name": "Infernal Archetype Sprites (FREE)",
       "url": "https://garebearproductionz.itch.io/infernal-archetypes",
       "category": "sprite_characters",
@@ -2280,11 +2438,11 @@
         "type": "gif",
         "alt": "Infernal Archetype Sprites (FREE)",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:53Z"
+        "updatedAt": "2026-08-02T10:50:34Z"
       },
       "itch": {
         "slug": "infernal-archetypes",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "FREE",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -2293,7 +2451,7 @@
     },
     {
       "id": "free-haunter-sprites",
-      "rank": 58,
+      "rank": 63,
       "name": "FREE Haunter Sprites",
       "url": "https://garebearproductionz.itch.io/free-haunter-sprites",
       "category": "sprite_characters",
@@ -2317,11 +2475,11 @@
         "type": "gif",
         "alt": "FREE Haunter Sprites",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:53Z"
+        "updatedAt": "2026-08-02T10:50:35Z"
       },
       "itch": {
         "slug": "free-haunter-sprites",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "FREE",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -2330,7 +2488,7 @@
     },
     {
       "id": "action-command-charge-formula",
-      "rank": 59,
+      "rank": 64,
       "name": "Action Command Charge Formula",
       "url": "https://garebearproductionz.itch.io/action-command-charge-formula",
       "category": "game_tools",
@@ -2356,11 +2514,11 @@
         "type": "gif",
         "alt": "Action Command Charge Formula",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:54Z"
+        "updatedAt": "2026-08-02T10:50:36Z"
       },
       "itch": {
         "slug": "action-command-charge-formula",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "$0.75 -25%",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -2369,7 +2527,7 @@
     },
     {
       "id": "reward-pocket-generator-formula",
-      "rank": 60,
+      "rank": 65,
       "name": "Reward Pocket Generator Formula",
       "url": "https://garebearproductionz.itch.io/reward-pocket-generator-formula",
       "category": "game_tools",
@@ -2397,11 +2555,11 @@
         "type": "image",
         "alt": "Reward Pocket Generator Formula",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:54Z"
+        "updatedAt": "2026-08-02T10:50:37Z"
       },
       "itch": {
         "slug": "reward-pocket-generator-formula",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "$0.50 -50%",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -2410,7 +2568,7 @@
     },
     {
       "id": "neolution-grid-engine",
-      "rank": 61,
+      "rank": 66,
       "name": "Neolution & Grid Engine (Controller Support)",
       "url": "https://garebearproductionz.itch.io/neolution-grid-engine",
       "category": "games_engines",
@@ -2437,11 +2595,11 @@
         "type": "image",
         "alt": "Neolution & Grid Engine (Controller Support)",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:54Z"
+        "updatedAt": "2026-08-02T10:50:38Z"
       },
       "itch": {
         "slug": "neolution-grid-engine",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "$3.75 -25%",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -2450,7 +2608,7 @@
     },
     {
       "id": "skully-asset-pack-lightweight-canvas-engine-demo",
-      "rank": 62,
+      "rank": 67,
       "name": "Skully Asset Pack & Lightweight Canvas Engine Demo",
       "url": "https://garebearproductionz.itch.io/skully-asset-pack-lightweight-canvas-engine-demo",
       "category": "games_engines",
@@ -2475,11 +2633,11 @@
         "type": "gif",
         "alt": "Skully Asset Pack & Lightweight Canvas Engine Demo",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:54Z"
+        "updatedAt": "2026-08-02T10:50:39Z"
       },
       "itch": {
         "slug": "skully-asset-pack-lightweight-canvas-engine-demo",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -2488,7 +2646,7 @@
     },
     {
       "id": "gravity-projectile-generator-formula",
-      "rank": 63,
+      "rank": 68,
       "name": "2D-2.5D Gravity Projectile Generator/Formula",
       "url": "https://garebearproductionz.itch.io/gravity-projectile-generator-formula",
       "category": "game_tools",
@@ -2513,11 +2671,11 @@
         "type": "image",
         "alt": "2D-2.5D Gravity Projectile Generator/Formula",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:55Z"
+        "updatedAt": "2026-08-02T10:50:40Z"
       },
       "itch": {
         "slug": "gravity-projectile-generator-formula",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -2526,7 +2684,7 @@
     },
     {
       "id": "2d-sunset-generation-formula",
-      "rank": 64,
+      "rank": 69,
       "name": "2D Sunset Generator & Formula + Sprites (FREE)",
       "url": "https://garebearproductionz.itch.io/2d-sunset-generation-formula",
       "category": "free_samples",
@@ -2551,11 +2709,11 @@
         "type": "image",
         "alt": "2D Sunset Generator & Formula + Sprites (FREE)",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:55Z"
+        "updatedAt": "2026-08-02T10:50:41Z"
       },
       "itch": {
         "slug": "2d-sunset-generation-formula",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "FREE",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -2564,7 +2722,7 @@
     },
     {
       "id": "live-pentagram-formula-2d-3d",
-      "rank": 65,
+      "rank": 70,
       "name": "Live Pentagram Formula 2D-2.5D",
       "url": "https://garebearproductionz.itch.io/live-pentagram-formula-2d-3d",
       "category": "game_tools",
@@ -2591,12 +2749,12 @@
         "type": "gif",
         "alt": "Live Pentagram Formula 2D-2.5D",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:55Z"
+        "updatedAt": "2026-08-02T10:50:42Z"
       },
       "itch": {
         "slug": "live-pentagram-formula-2d-3d",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
-        "priceLabel": "$0.99 -85%",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
+        "priceLabel": "$4.99 -25%",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
         "updated": "28 days ago"
@@ -2604,7 +2762,7 @@
     },
     {
       "id": "npc-theme-of-sacrifice",
-      "rank": 66,
+      "rank": 71,
       "name": "NPC Theme of Sacrifice",
       "url": "https://garebearproductionz.itch.io/npc-theme-of-sacrifice",
       "category": "audio_music",
@@ -2631,12 +2789,12 @@
         "animated": "https://img.itch.zone/aW1nLzI3ODYxNzMzLmdpZg==/original/ZsD8UZ.gif",
         "type": "gif",
         "alt": "NPC Theme of Sacrifice",
-        "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:55Z"
+        "source": "itch-profile",
+        "updatedAt": "2026-08-02T10:50:42Z"
       },
       "itch": {
         "slug": "npc-theme-of-sacrifice",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "$1.87 -25%",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -2645,7 +2803,7 @@
     },
     {
       "id": "summoners-delights",
-      "rank": 67,
+      "rank": 72,
       "name": "Summoner's Delight",
       "url": "https://garebearproductionz.itch.io/summoners-delights",
       "category": "sprite_characters",
@@ -2672,11 +2830,11 @@
         "type": "gif",
         "alt": "Summoner's Delight",
         "source": "itch-detail",
-        "updatedAt": "2026-08-01T10:47:56Z"
+        "updatedAt": "2026-08-02T10:50:44Z"
       },
       "itch": {
         "slug": "summoners-delights",
-        "lastSeenOnProfile": "2026-08-01T10:47:39Z",
+        "lastSeenOnProfile": "2026-08-02T10:49:40Z",
         "priceLabel": "$0.75 -25%",
         "creator": "GareBearProductionz",
         "published": "29 days ago",
@@ -2692,10 +2850,10 @@
       "notes": "GitHub Pages cannot reliably fetch/scrape itch.io pages client-side because of CORS, so live account refresh happens at build time and writes all_items.json/docs/data/all_items.json. The browser then no-cache fetches the JSON like the rest of the HUB manifests.",
       "mediaPolicy": "Prefer animated GIF/media when itch exposes it; otherwise use cover image; otherwise render a deterministic SVG fallback."
     },
-    "generatedAt": "2026-08-01T10:47:56Z",
-    "autopullLastRun": "2026-08-01T10:47:56Z",
+    "generatedAt": "2026-08-02T10:50:44Z",
+    "autopullLastRun": "2026-08-02T10:50:44Z",
     "autopullSource": "https://garebearproductionz.itch.io/",
-    "autopullItemCount": 67,
+    "autopullItemCount": 72,
     "autopullDetailEnriched": true
   }
 }

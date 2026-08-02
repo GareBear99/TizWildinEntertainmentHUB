@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-08-01
+Generated: 2026-08-02
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **159**
+- Total indexed records: **164**
 - Total clusters: **11**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -107,6 +107,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [The Ultimate Everything Laser Pack & Dynamic Generator Engine (49 Sprite Sheets)](pages/itch-the-ultimate-everything-laser-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/the-ultimate-everything-laser-pack | laser, vfx, spritesheet, gif, json, offline-tool, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [(FREE) Pixel Paladin Hammer + Chibi](pages/itch-free-pixel-paladin-hammer-chibi.html) | Itch Asset Pack | https://garebearproductionz.itch.io/free-pixel-paladin-hammer-chibi | free, hammer, paladin, chibi, pixel-art, itch, game-assets, garebearproductionz |
 | [12 Sigil Color Dynamic Icon SVG Export Pack & Hover FX Engine](pages/itch-color-dynamic-sigils-svg-export-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/color-dynamic-sigils-svg-export-pack | sigil, svg, icons, live-icon, hover, export, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
+| [120 Elemental VFX Pixel Abilities & Icons](pages/itch-120-elemental-vfx-pixel-abilities-icons.html) | Itch Asset Pack | https://garebearproductionz.itch.io/120-elemental-vfx-pixel-abilities-icons | itch, game-assets, garebearproductionz |
 | [2D Chibi-Pixel Elemental Rigging Concept (FREE)](pages/itch-2d-chibi-pixel-elemental-rigging-concept.html) | Itch Asset Pack | https://garebearproductionz.itch.io/2d-chibi-pixel-elemental-rigging-concept | free, chibi, elemental, rigging, sprites, itch, game-assets, garebearproductionz |
 | [2D Sunset Generator & Formula + Sprites (FREE)](pages/itch-2d-sunset-generation-formula.html) | Itch Asset Pack | https://garebearproductionz.itch.io/2d-sunset-generation-formula | free, sunset, backdrop, generator, sprites, itch, game-assets, garebearproductionz |
 | [2D-2.5D Gravity Projectile Generator/Formula](pages/itch-gravity-projectile-generator-formula.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/gravity-projectile-generator-formula | gravity, projectile, 2d, 2.5d, formula, itch, game-assets, garebearproductionz |
@@ -117,10 +118,14 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Any Image to Pixel SVG Converter (Only 1 FREE)](pages/itch-any-image-to-pixel-svg-converter.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/any-image-to-pixel-svg-converter | free, converter, pixel, svg, image, itch, game-assets, garebearproductionz |
 | [Black & Red Dice SVG & PNG 2D-3D Export Engine](pages/itch-black-red-dice-svg-png-export-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine | itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Blood Bound by Pixel Scythe & SVG (FREE)](pages/itch-blood-bound-scythe-svg-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/blood-bound-scythe-svg-free | free, scythe, weapon, svg, pixel-art, itch, game-assets, garebearproductionz |
+| [Cash Cloud Sprite Pack (FREE)](pages/itch-cash-cloud.html) | Itch Asset Pack | https://garebearproductionz.itch.io/cash-cloud | itch, game-assets, garebearproductionz |
 | [Coin Physics & Tripple Buffer Atomic Swap Pack & Engine Kit](pages/itch-coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts.html) | Itch Asset Pack | https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts | itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [Cool Backdrop Layers & Engine](pages/itch-cool-backdrop-layers-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/cool-backdrop-layers-engine | backdrop, layers, engine, svg, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Crawl Space SVG Live Backdrop Engine & Animated Prop Layers](pages/itch-crawl-space-svg-live-backdrop-engine-animated-props.html) | Itch Asset Pack | https://garebearproductionz.itch.io/crawl-space-svg-live-backdrop-engine-animated-props | backdrop, svg, animation, props, pixel-art, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
+| [Dark Fantasy Dungeon Builder - Free Four-Realm Tileset](pages/itch-dark-fantasy-dungeon-builder-free-four-realm-tileset.html) | Itch Asset Pack | https://garebearproductionz.itch.io/dark-fantasy-dungeon-builder-free-four-realm-tileset | itch, game-assets, garebearproductionz |
+| [Dark Fantasy Modular GUI Pack - 704 UI Assets + 160 Icons](pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html) | Itch Asset Pack | https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons | itch, game-assets, garebearproductionz |
 | [Doom Style Ray Cast Engine & Asset Pack](pages/itch-doom-style-ray-trace-engine-asset-pack.html) | Itch Playable Game / Engine | https://garebearproductionz.itch.io/doom-style-ray-trace-engine-asset-pack | itch, game-assets, garebearproductionz, formula-a1-bundle |
+| [Elemental Wisp Sprite Pack](pages/itch-elemental-wisp-sprite-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/elemental-wisp-sprite-pack | itch, game-assets, garebearproductionz |
 | [ENCHANTED SPRITE FX ENGINE](pages/itch-enchanted-sprite-fx-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/enchanted-sprite-fx-engine | itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [Evil Eye Four Pack & Live SVG Animations](pages/itch-evil-eye-four-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/evil-eye-four-pack | evil-eye, svg, animation, icons, pixel-art, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [FREE Haunter Sprites](pages/itch-free-haunter-sprites.html) | Itch Asset Pack | https://garebearproductionz.itch.io/free-haunter-sprites | free, haunter, sprites, pixel-art, itch, game-assets, garebearproductionz |

@@ -1,10 +1,30 @@
 {
-  "generatedAt": "2026-08-01T10:47:56Z",
+  "generatedAt": "2026-08-02T10:50:44Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 67,
-  "itemsWritten": 67,
-  "mediaReadyItems": 67,
+  "itemsParsed": 72,
+  "itemsWritten": 72,
+  "mediaReadyItems": 71,
   "detailStatus": [
+    {
+      "slug": "dark-fantasy-dungeon-builder-free-four-realm-tileset",
+      "status": "ok"
+    },
+    {
+      "slug": "dark-fantasy-modular-gui-pack-704-ui-assets-160-icons",
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons: HTTP Error 429: Too Many Requests"
+    },
+    {
+      "slug": "120-elemental-vfx-pixel-abilities-icons",
+      "status": "ok"
+    },
+    {
+      "slug": "elemental-wisp-sprite-pack",
+      "status": "ok"
+    },
+    {
+      "slug": "cash-cloud",
+      "status": "ok"
+    },
     {
       "slug": "mode-7",
       "status": "ok"
@@ -31,7 +51,7 @@
     },
     {
       "slug": "coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "d20-dice-color-3d-obj-pack",
@@ -111,7 +131,7 @@
     },
     {
       "slug": "the-cathedral-of-madness-concept-pixel-art",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/the-cathedral-of-madness-concept-pixel-art: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "pride-crown-concept-art",
@@ -119,7 +139,7 @@
     },
     {
       "slug": "scarlette-witchs-darkhold-sprite-free",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/scarlette-witchs-darkhold-sprite-free: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "hells-jukebox-nekranomicon-author-cthulu",
@@ -267,7 +287,7 @@
     },
     {
       "slug": "npc-theme-of-sacrifice",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/npc-theme-of-sacrifice: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "summoners-delights",
