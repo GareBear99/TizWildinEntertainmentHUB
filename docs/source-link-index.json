@@ -277,9 +277,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "all-account-inventory.html",
-      "url": "https://garebearproductionz.itch.io/enchanted-sprite-fx-engine",
+      "url": "https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub all-account-inventory.html https://garebearproductionz.itch.io/enchanted-sprite-fx-engine garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub all-account-inventory.html https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -1557,6 +1557,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "all-account-inventory.html",
+      "url": "https://img.itch.zone/aW1nLzI5MDAyMTI4LnBuZw==/original/v6oBXQ.png",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub all-account-inventory.html https://img.itch.zone/aw1nlzi5mdaymti4lnbuzw==/original/v6obxq.png img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "all-account-inventory.html",
       "url": "https://img.itch.zone/aW1nLzI5MDAyNjkwLnBuZw==/original/mLh8%2F8.png",
       "domain": "img.itch.zone",
       "queryText": "tizwildinentertainmenthub all-account-inventory.html https://img.itch.zone/aw1nlzi5mdaynjkwlnbuzw==/original/mlh8%2f8.png img.itch.zone"
@@ -2221,9 +2229,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "all_items.json",
-      "url": "https://garebearproductionz.itch.io/enchanted-sprite-fx-engine",
+      "url": "https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub all_items.json https://garebearproductionz.itch.io/enchanted-sprite-fx-engine garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub all_items.json https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -3496,6 +3504,14 @@
       "url": "https://img.itch.zone/aW1nLzI5MDAxNjA4LmdpZg==/original/zxPVIr.gif",
       "domain": "img.itch.zone",
       "queryText": "tizwildinentertainmenthub all_items.json https://img.itch.zone/aw1nlzi5mdaxnja4lmdpzg==/original/zxpvir.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "all_items.json",
+      "url": "https://img.itch.zone/aW1nLzI5MDAyMTI4LnBuZw==/original/v6oBXQ.png",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub all_items.json https://img.itch.zone/aw1nlzi5mdaymti4lnbuzw==/original/v6obxq.png img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -7205,9 +7221,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/sitemap.xml",
-      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-enchanted-sprite-fx-engine.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-enchanted-sprite-vfx-engine.html",
       "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-enchanted-sprite-fx-engine.html garebear99.github.io"
+      "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-enchanted-sprite-vfx-engine.html garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -8253,9 +8269,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/ecosystem-index.html",
-      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-enchanted-sprite-fx-engine.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-enchanted-sprite-vfx-engine.html",
       "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-enchanted-sprite-fx-engine.html garebear99.github.io"
+      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-enchanted-sprite-vfx-engine.html garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -9245,9 +9261,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/ecosystem-index.html",
-      "url": "https://garebearproductionz.itch.io/enchanted-sprite-fx-engine",
+      "url": "https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebearproductionz.itch.io/enchanted-sprite-fx-engine garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -10285,9 +10301,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/llms.txt",
-      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-enchanted-sprite-fx-engine.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-enchanted-sprite-vfx-engine.html",
       "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-enchanted-sprite-fx-engine.html garebear99.github.io"
+      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-enchanted-sprite-vfx-engine.html garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -11277,9 +11293,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/llms.txt",
-      "url": "https://garebearproductionz.itch.io/enchanted-sprite-fx-engine",
+      "url": "https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebearproductionz.itch.io/enchanted-sprite-fx-engine garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -12381,9 +12397,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
-      "url": "https://garebearproductionz.itch.io/enchanted-sprite-fx-engine",
+      "url": "https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md https://garebearproductionz.itch.io/enchanted-sprite-fx-engine garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -13717,9 +13733,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
-      "url": "pages/itch-enchanted-sprite-fx-engine.html",
+      "url": "pages/itch-enchanted-sprite-vfx-engine.html",
       "domain": "",
-      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md pages/itch-enchanted-sprite-fx-engine.html "
+      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md pages/itch-enchanted-sprite-vfx-engine.html "
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -14789,9 +14805,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/public-index.json",
-      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-enchanted-sprite-fx-engine.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-enchanted-sprite-vfx-engine.html",
       "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-enchanted-sprite-fx-engine.html garebear99.github.io"
+      "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-enchanted-sprite-vfx-engine.html garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -15781,9 +15797,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/public-index.json",
-      "url": "https://garebearproductionz.itch.io/enchanted-sprite-fx-engine",
+      "url": "https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebearproductionz.itch.io/enchanted-sprite-fx-engine garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -18276,46 +18292,6 @@
     {
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts:",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts: garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons:",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons: garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/npc-theme-of-sacrifice:",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/npc-theme-of-sacrifice: garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/scarlette-witchs-darkhold-sprite-free:",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/scarlette-witchs-darkhold-sprite-free: garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/the-cathedral-of-madness-concept-pixel-art:",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/the-cathedral-of-madness-concept-pixel-art: garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/source-repos.json",
       "url": "https://dev.to/tizwildin/real-time-state-space-parameterization-and-lock-free-semantic-analysis-in-digital-equalization-38jn",
       "domain": "dev.to",
@@ -19501,9 +19477,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/data/all_items.json",
-      "url": "https://garebearproductionz.itch.io/enchanted-sprite-fx-engine",
+      "url": "https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://garebearproductionz.itch.io/enchanted-sprite-fx-engine garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -20781,6 +20757,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/data/all_items.json",
+      "url": "https://img.itch.zone/aW1nLzI5MDAyMTI4LnBuZw==/original/v6oBXQ.png",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://img.itch.zone/aw1nlzi5mdaymti4lnbuzw==/original/v6obxq.png img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/data/all_items.json",
       "url": "https://img.itch.zone/aW1nLzI5MDAyNjkwLnBuZw==/original/mLh8%2F8.png",
       "domain": "img.itch.zone",
       "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://img.itch.zone/aw1nlzi5mdaynjkwlnbuzw==/original/mlh8%2f8.png img.itch.zone"
@@ -21717,14 +21701,6 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html",
-      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-card.svg",
-      "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html https://garebear99.github.io/tizwildinentertainmenthub/assets/social/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-card.svg garebear99.github.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html https://garebear99.github.io/tizwildinentertainmenthub/pages/all-account-inventory.html garebear99.github.io"
@@ -21744,6 +21720,22 @@
       "url": "https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html",
+      "url": "https://img.itch.zone/aW1nLzI3ODc2MzQ0LmdpZg==/original/qAACHS.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html https://img.itch.zone/aw1nlzi3odc2mzq0lmdpzg==/original/qaachs.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html",
+      "url": "https://img.itch.zone/aW1nLzI5MDAyMTI4LnBuZw==/original/v6oBXQ.png",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html https://img.itch.zone/aw1nlzi5mdaymti4lnbuzw==/original/v6obxq.png img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -22333,9 +22325,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/all-account-inventory.html",
-      "url": "https://garebearproductionz.itch.io/enchanted-sprite-fx-engine",
+      "url": "https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://garebearproductionz.itch.io/enchanted-sprite-fx-engine garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -23608,6 +23600,14 @@
       "url": "https://img.itch.zone/aW1nLzI5MDAxNjA4LmdpZg==/original/zxPVIr.gif",
       "domain": "img.itch.zone",
       "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://img.itch.zone/aw1nlzi5mdaxnja4lmdpzg==/original/zxpvir.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/all-account-inventory.html",
+      "url": "https://img.itch.zone/aW1nLzI5MDAyMTI4LnBuZw==/original/v6oBXQ.png",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://img.itch.zone/aw1nlzi5mdaymti4lnbuzw==/original/v6obxq.png img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -25584,6 +25584,62 @@
       "url": "https://schema.org",
       "domain": "schema.org",
       "queryText": "tizwildinentertainmenthub docs/pages/itch-aaaa-pixel-combat-timeline-engine.html https://schema.org schema.org"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-enchanted-sprite-vfx-engine.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-enchanted-sprite-vfx-engine.html https://garebear99.github.io/tizwildinentertainmenthub garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-enchanted-sprite-vfx-engine.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-enchanted-sprite-vfx-engine.html https://garebear99.github.io/tizwildinentertainmenthub/pages/all-account-inventory.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-enchanted-sprite-vfx-engine.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-enchanted-sprite-vfx-engine.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-enchanted-sprite-vfx-engine.html https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-enchanted-sprite-vfx-engine.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-enchanted-sprite-vfx-engine.html",
+      "url": "https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-enchanted-sprite-vfx-engine.html https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-enchanted-sprite-vfx-engine.html",
+      "url": "https://img.itch.zone/aW1nLzI4MjMwNTQ5LmdpZg==/original/9XpTYl.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-enchanted-sprite-vfx-engine.html https://img.itch.zone/aw1nlzi4mjmwntq5lmdpzg==/original/9xptyl.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-enchanted-sprite-vfx-engine.html",
+      "url": "https://img.itch.zone/aW1nLzI4MjMwNTQ5LmdpZg==/original/HGgxM0.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-enchanted-sprite-vfx-engine.html https://img.itch.zone/aw1nlzi4mjmwntq5lmdpzg==/original/hggxm0.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-enchanted-sprite-vfx-engine.html",
+      "url": "https://schema.org",
+      "domain": "schema.org",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-enchanted-sprite-vfx-engine.html https://schema.org schema.org"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -32117,6 +32173,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://garebearproductionz.itch.io/120-elemental-vfx-pixel-abilities-icons",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/120-elemental-vfx-pixel-abilities-icons garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
       "url": "https://garebearproductionz.itch.io/2d-chibi-pixel-elemental-rigging-concept",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/2d-chibi-pixel-elemental-rigging-concept garebearproductionz.itch.io"
@@ -32213,6 +32277,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://garebearproductionz.itch.io/cash-cloud",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/cash-cloud garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
       "url": "https://garebearproductionz.itch.io/celestial-event-moons",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/celestial-event-moons garebearproductionz.itch.io"
@@ -32269,6 +32341,22 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://garebearproductionz.itch.io/dark-fantasy-dungeon-builder-free-four-realm-tileset",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/dark-fantasy-dungeon-builder-free-four-realm-tileset garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
       "url": "https://garebearproductionz.itch.io/demon-sprite-sheet-generator",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/demon-sprite-sheet-generator garebearproductionz.itch.io"
@@ -32280,6 +32368,14 @@
       "url": "https://garebearproductionz.itch.io/doom-style-ray-trace-engine-asset-pack",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/doom-style-ray-trace-engine-asset-pack garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://garebearproductionz.itch.io/elemental-wisp-sprite-pack",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/elemental-wisp-sprite-pack garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -33688,6 +33784,62 @@
       "url": "https://img.itch.zone/aW1nLzI4MjU5NDg1LmdpZg==/original/O2I5aa.gif",
       "domain": "img.itch.zone",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1nlzi4mju5ndg1lmdpzg==/original/o2i5aa.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1nLzI4OTg1OTg3LmdpZg==/original/C4OUrP.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1nlzi4otg1otg3lmdpzg==/original/c4ourp.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1nLzI4OTg1OTg3LmdpZg==/original/EI5SQ7.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1nlzi4otg1otg3lmdpzg==/original/ei5sq7.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1nLzI5MDAwODIxLmdpZg==/original/C2bJSh.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1nlzi5mdawodixlmdpzg==/original/c2bjsh.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1nLzI5MDAwODIxLmdpZg==/original/Qr0l9o.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1nlzi5mdawodixlmdpzg==/original/qr0l9o.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1nLzI5MDAxNjA4LmdpZg==/original/xeKE6y.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1nlzi5mdaxnja4lmdpzg==/original/xeke6y.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1nLzI5MDAxNjA4LmdpZg==/original/zxPVIr.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1nlzi5mdaxnja4lmdpzg==/original/zxpvir.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1nLzI5MDAyNjkwLnBuZw==/original/mLh8%2F8.png",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1nlzi5mdaynjkwlnbuzw==/original/mlh8%2f8.png img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -41707,14 +41859,14 @@
     }
   ],
   "summary": {
-    "linkCount": 5213,
+    "linkCount": 5232,
     "domains": {
-      "garebear99.github.io": 1683,
+      "garebear99.github.io": 1685,
       "github.com": 1015,
-      "garebearproductionz.itch.io": 721,
-      "img.itch.zone": 690,
+      "garebearproductionz.itch.io": 722,
+      "img.itch.zone": 705,
       "www.w3.org": 331,
-      "schema.org": 223,
+      "schema.org": 224,
       "dev.to": 55,
       "127.0.0.1:8000": 36,
       "img.shields.io": 34,

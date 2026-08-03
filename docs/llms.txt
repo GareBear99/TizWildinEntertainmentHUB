@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-08-02
+Generated: 2026-08-03
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -493,9 +493,9 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- ENCHANTED SPRITE FX ENGINE: HOLOGRAPHIC Official GareBearProductionz itch product ($9.75 -25%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
-  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-enchanted-sprite-fx-engine.html
-  Public URL: https://garebearproductionz.itch.io/enchanted-sprite-fx-engine
+- ENCHANTED SPRITE VFX ENGINE: HOLOGRAPHIC Official GareBearProductionz itch product ($9.75 -25%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-enchanted-sprite-vfx-engine.html
+  Public URL: https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz, formula-a1-bundle
 

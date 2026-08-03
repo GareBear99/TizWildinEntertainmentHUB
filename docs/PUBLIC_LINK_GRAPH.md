@@ -1,6 +1,6 @@
 # Public Link Graph
 
-Generated: 2026-08-02
+Generated: 2026-08-03
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
@@ -126,7 +126,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Dark Fantasy Modular GUI Pack - 704 UI Assets + 160 Icons](pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html) | Itch Asset Pack | https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons | itch, game-assets, garebearproductionz |
 | [Doom Style Ray Cast Engine & Asset Pack](pages/itch-doom-style-ray-trace-engine-asset-pack.html) | Itch Playable Game / Engine | https://garebearproductionz.itch.io/doom-style-ray-trace-engine-asset-pack | itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [Elemental Wisp Sprite Pack](pages/itch-elemental-wisp-sprite-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/elemental-wisp-sprite-pack | itch, game-assets, garebearproductionz |
-| [ENCHANTED SPRITE FX ENGINE](pages/itch-enchanted-sprite-fx-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/enchanted-sprite-fx-engine | itch, game-assets, garebearproductionz, formula-a1-bundle |
+| [ENCHANTED SPRITE VFX ENGINE](pages/itch-enchanted-sprite-vfx-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine | itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [Evil Eye Four Pack & Live SVG Animations](pages/itch-evil-eye-four-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/evil-eye-four-pack | evil-eye, svg, animation, icons, pixel-art, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [FREE Haunter Sprites](pages/itch-free-haunter-sprites.html) | Itch Asset Pack | https://garebearproductionz.itch.io/free-haunter-sprites | free, haunter, sprites, pixel-art, itch, game-assets, garebearproductionz |
 | [Free Pixel SVG Portrait Asset Builder Kit (Generator & Pack)](pages/itch-cool-pixel-portraits.html) | Itch Playable Game / Engine | https://garebearproductionz.itch.io/cool-pixel-portraits | free, portrait, pixel, svg, generator, itch, game-assets, garebearproductionz |
