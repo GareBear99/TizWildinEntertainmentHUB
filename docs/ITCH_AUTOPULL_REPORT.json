@@ -1,17 +1,21 @@
 {
-  "generatedAt": "2026-08-03T12:35:45Z",
+  "generatedAt": "2026-08-04T11:35:00Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 72,
-  "itemsWritten": 72,
+  "itemsParsed": 73,
+  "itemsWritten": 73,
   "mediaReadyItems": 72,
   "detailStatus": [
+    {
+      "slug": "animated-vfx-ui-pack-80-assets",
+      "status": "ok"
+    },
     {
       "slug": "dark-fantasy-dungeon-builder-free-four-realm-tileset",
       "status": "ok"
     },
     {
-      "slug": "dark-fantasy-modular-gui-pack-704-ui-assets-160-icons",
-      "status": "ok"
+      "slug": "dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs",
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "120-elemental-vfx-pixel-abilities-icons",
@@ -50,7 +54,7 @@
       "status": "ok"
     },
     {
-      "slug": "coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts",
+      "slug": "coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts",
       "status": "ok"
     },
     {
@@ -79,7 +83,7 @@
     },
     {
       "slug": "the-ultimate-everything-laser-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/the-ultimate-everything-laser-pack: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "10-svg-programmable-live-backdrop-pipelines",
@@ -119,11 +123,11 @@
     },
     {
       "slug": "alien-invasion-live-animated-backdrop-layers",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/alien-invasion-live-animated-backdrop-layers: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "wraith-necropolis-gate-backdrop",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/wraith-necropolis-gate-backdrop: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "vfx-test-room-elemental-frequency-arena-engine",
@@ -167,7 +171,7 @@
     },
     {
       "slug": "professional-grade-studio-violin-audio-synth-formula",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/professional-grade-studio-violin-audio-synth-formula: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "ultimate-free-hd-laser-pack",
@@ -231,11 +235,11 @@
     },
     {
       "slug": "pixel-abyssal-teleporter",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/pixel-abyssal-teleporter: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "static-atmos",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/static-atmos: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "demon-sprite-sheet-generator",

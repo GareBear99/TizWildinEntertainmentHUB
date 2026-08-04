@@ -133,6 +133,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "all-account-inventory.html",
+      "url": "https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub all-account-inventory.html https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "all-account-inventory.html",
       "url": "https://garebearproductionz.itch.io/any-image-to-pixel-svg-converter",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub all-account-inventory.html https://garebearproductionz.itch.io/any-image-to-pixel-svg-converter garebearproductionz.itch.io"
@@ -189,9 +197,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "all-account-inventory.html",
-      "url": "https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts",
+      "url": "https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub all-account-inventory.html https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub all-account-inventory.html https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -245,9 +253,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "all-account-inventory.html",
-      "url": "https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons",
+      "url": "https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub all-account-inventory.html https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub all-account-inventory.html https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -1557,17 +1565,25 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "all-account-inventory.html",
-      "url": "https://img.itch.zone/aW1nLzI5MDAyMTI4LnBuZw==/original/v6oBXQ.png",
+      "url": "https://img.itch.zone/aW1nLzI5MDAyNjkwLnBuZw==/original/mLh8%2F8.png",
       "domain": "img.itch.zone",
-      "queryText": "tizwildinentertainmenthub all-account-inventory.html https://img.itch.zone/aw1nlzi5mdaymti4lnbuzw==/original/v6obxq.png img.itch.zone"
+      "queryText": "tizwildinentertainmenthub all-account-inventory.html https://img.itch.zone/aw1nlzi5mdaynjkwlnbuzw==/original/mlh8%2f8.png img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "all-account-inventory.html",
-      "url": "https://img.itch.zone/aW1nLzI5MDAyNjkwLnBuZw==/original/mLh8%2F8.png",
+      "url": "https://img.itch.zone/aW1nLzI5MDM3MDkxLmdpZg==/original/EEwche.gif",
       "domain": "img.itch.zone",
-      "queryText": "tizwildinentertainmenthub all-account-inventory.html https://img.itch.zone/aw1nlzi5mdaynjkwlnbuzw==/original/mlh8%2f8.png img.itch.zone"
+      "queryText": "tizwildinentertainmenthub all-account-inventory.html https://img.itch.zone/aw1nlzi5mdm3mdkxlmdpzg==/original/eewche.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "all-account-inventory.html",
+      "url": "https://img.itch.zone/aW1nLzI5MDM3MDkxLmdpZg==/original/GA8h32.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub all-account-inventory.html https://img.itch.zone/aw1nlzi5mdm3mdkxlmdpzg==/original/ga8h32.gif img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -2085,6 +2101,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "all_items.json",
+      "url": "https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub all_items.json https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "all_items.json",
       "url": "https://garebearproductionz.itch.io/any-image-to-pixel-svg-converter",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub all_items.json https://garebearproductionz.itch.io/any-image-to-pixel-svg-converter garebearproductionz.itch.io"
@@ -2141,9 +2165,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "all_items.json",
-      "url": "https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts",
+      "url": "https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub all_items.json https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub all_items.json https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -2197,9 +2221,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "all_items.json",
-      "url": "https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons",
+      "url": "https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub all_items.json https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub all_items.json https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -3509,17 +3533,25 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "all_items.json",
-      "url": "https://img.itch.zone/aW1nLzI5MDAyMTI4LnBuZw==/original/v6oBXQ.png",
+      "url": "https://img.itch.zone/aW1nLzI5MDAyNjkwLnBuZw==/original/mLh8%2F8.png",
       "domain": "img.itch.zone",
-      "queryText": "tizwildinentertainmenthub all_items.json https://img.itch.zone/aw1nlzi5mdaymti4lnbuzw==/original/v6obxq.png img.itch.zone"
+      "queryText": "tizwildinentertainmenthub all_items.json https://img.itch.zone/aw1nlzi5mdaynjkwlnbuzw==/original/mlh8%2f8.png img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "all_items.json",
-      "url": "https://img.itch.zone/aW1nLzI5MDAyNjkwLnBuZw==/original/mLh8%2F8.png",
+      "url": "https://img.itch.zone/aW1nLzI5MDM3MDkxLmdpZg==/original/EEwche.gif",
       "domain": "img.itch.zone",
-      "queryText": "tizwildinentertainmenthub all_items.json https://img.itch.zone/aw1nlzi5mdaynjkwlnbuzw==/original/mlh8%2f8.png img.itch.zone"
+      "queryText": "tizwildinentertainmenthub all_items.json https://img.itch.zone/aw1nlzi5mdm3mdkxlmdpzg==/original/eewche.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "all_items.json",
+      "url": "https://img.itch.zone/aW1nLzI5MDM3MDkxLmdpZg==/original/GA8h32.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub all_items.json https://img.itch.zone/aw1nlzi5mdm3mdkxlmdpzg==/original/ga8h32.gif img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -5845,6 +5877,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/sitemap.xml",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/assets/social/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/sitemap.xml",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-card.svg",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/assets/social/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-card.svg garebear99.github.io"
@@ -7077,6 +7117,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/sitemap.xml",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-animated-vfx-ui-pack-80-assets.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-animated-vfx-ui-pack-80-assets.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/sitemap.xml",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-any-image-to-pixel-svg-converter.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-any-image-to-pixel-svg-converter.html garebear99.github.io"
@@ -7133,9 +7181,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/sitemap.xml",
-      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html",
       "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts.html garebear99.github.io"
+      "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -7189,9 +7237,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/sitemap.xml",
-      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html",
       "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html garebear99.github.io"
+      "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -7312,22 +7360,6 @@
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-holy-svg-png-icon-set.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-holy-svg-png-icon-set.html garebear99.github.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/sitemap.xml",
-      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-indie-dynamic-merchant-cart.html",
-      "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-indie-dynamic-merchant-cart.html garebear99.github.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/sitemap.xml",
-      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-infernal-archetypes.html",
-      "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-infernal-archetypes.html garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -8125,6 +8157,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/ecosystem-index.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-animated-vfx-ui-pack-80-assets.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-animated-vfx-ui-pack-80-assets.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ecosystem-index.html",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-any-image-to-pixel-svg-converter.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-any-image-to-pixel-svg-converter.html garebear99.github.io"
@@ -8181,9 +8221,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/ecosystem-index.html",
-      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html",
       "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts.html garebear99.github.io"
+      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -8237,9 +8277,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/ecosystem-index.html",
-      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html",
       "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html garebear99.github.io"
+      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -9117,6 +9157,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/ecosystem-index.html",
+      "url": "https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ecosystem-index.html",
       "url": "https://garebearproductionz.itch.io/any-image-to-pixel-svg-converter",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebearproductionz.itch.io/any-image-to-pixel-svg-converter garebearproductionz.itch.io"
@@ -9173,9 +9221,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/ecosystem-index.html",
-      "url": "https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts",
+      "url": "https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -9229,9 +9277,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/ecosystem-index.html",
-      "url": "https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons",
+      "url": "https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -9576,22 +9624,6 @@
       "url": "https://garebearproductionz.itch.io/the-ultimate-everything-laser-pack",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebearproductionz.itch.io/the-ultimate-everything-laser-pack garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ecosystem-index.html",
-      "url": "https://garebearproductionz.itch.io/the-widowmaker-live-vanta-black-svg-3-phase-boss",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebearproductionz.itch.io/the-widowmaker-live-vanta-black-svg-3-phase-boss garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ecosystem-index.html",
-      "url": "https://garebearproductionz.itch.io/thor-mjolnir-svg-physics-engine",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebearproductionz.itch.io/thor-mjolnir-svg-physics-engine garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -10157,6 +10189,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/llms.txt",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-animated-vfx-ui-pack-80-assets.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-animated-vfx-ui-pack-80-assets.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/llms.txt",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-any-image-to-pixel-svg-converter.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-any-image-to-pixel-svg-converter.html garebear99.github.io"
@@ -10213,9 +10253,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/llms.txt",
-      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html",
       "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts.html garebear99.github.io"
+      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -10269,9 +10309,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/llms.txt",
-      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html",
       "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html garebear99.github.io"
+      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -11149,6 +11189,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/llms.txt",
+      "url": "https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/llms.txt",
       "url": "https://garebearproductionz.itch.io/any-image-to-pixel-svg-converter",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebearproductionz.itch.io/any-image-to-pixel-svg-converter garebearproductionz.itch.io"
@@ -11205,9 +11253,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/llms.txt",
-      "url": "https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts",
+      "url": "https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -11261,9 +11309,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/llms.txt",
-      "url": "https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons",
+      "url": "https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -11616,22 +11664,6 @@
       "url": "https://garebearproductionz.itch.io/the-widowmaker-live-vanta-black-svg-3-phase-boss",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebearproductionz.itch.io/the-widowmaker-live-vanta-black-svg-3-phase-boss garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/llms.txt",
-      "url": "https://garebearproductionz.itch.io/thor-mjolnir-svg-physics-engine",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebearproductionz.itch.io/thor-mjolnir-svg-physics-engine garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/llms.txt",
-      "url": "https://garebearproductionz.itch.io/ultimate-free-hd-laser-pack",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebearproductionz.itch.io/ultimate-free-hd-laser-pack garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -12253,6 +12285,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
+      "url": "https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
       "url": "https://garebearproductionz.itch.io/any-image-to-pixel-svg-converter",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/public_link_graph.md https://garebearproductionz.itch.io/any-image-to-pixel-svg-converter garebearproductionz.itch.io"
@@ -12309,9 +12349,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
-      "url": "https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts",
+      "url": "https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -12365,9 +12405,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
-      "url": "https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons",
+      "url": "https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -13589,6 +13629,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
+      "url": "pages/itch-animated-vfx-ui-pack-80-assets.html",
+      "domain": "",
+      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md pages/itch-animated-vfx-ui-pack-80-assets.html "
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
       "url": "pages/itch-any-image-to-pixel-svg-converter.html",
       "domain": "",
       "queryText": "tizwildinentertainmenthub docs/public_link_graph.md pages/itch-any-image-to-pixel-svg-converter.html "
@@ -13645,9 +13693,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
-      "url": "pages/itch-coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts.html",
+      "url": "pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html",
       "domain": "",
-      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md pages/itch-coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts.html "
+      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html "
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -13701,9 +13749,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
-      "url": "pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html",
+      "url": "pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html",
       "domain": "",
-      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html "
+      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html "
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -14096,22 +14144,6 @@
       "url": "pages/libhunt-submission-branch.html",
       "domain": "",
       "queryText": "tizwildinentertainmenthub docs/public_link_graph.md pages/libhunt-submission-branch.html "
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
-      "url": "pages/libhunt-submission-route.html",
-      "domain": "",
-      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md pages/libhunt-submission-route.html "
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
-      "url": "pages/m-o-m.html",
-      "domain": "",
-      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md pages/m-o-m.html "
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -14661,6 +14693,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/public-index.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-animated-vfx-ui-pack-80-assets.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-animated-vfx-ui-pack-80-assets.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/public-index.json",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-any-image-to-pixel-svg-converter.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-any-image-to-pixel-svg-converter.html garebear99.github.io"
@@ -14717,9 +14757,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/public-index.json",
-      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html",
       "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts.html garebear99.github.io"
+      "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -14773,9 +14813,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/public-index.json",
-      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html",
       "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html garebear99.github.io"
+      "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -15653,6 +15693,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/public-index.json",
+      "url": "https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/public-index.json",
       "url": "https://garebearproductionz.itch.io/any-image-to-pixel-svg-converter",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebearproductionz.itch.io/any-image-to-pixel-svg-converter garebearproductionz.itch.io"
@@ -15709,9 +15757,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/public-index.json",
-      "url": "https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts",
+      "url": "https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -15765,9 +15813,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/public-index.json",
-      "url": "https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons",
+      "url": "https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -16120,22 +16168,6 @@
       "url": "https://garebearproductionz.itch.io/the-widowmaker-live-vanta-black-svg-3-phase-boss",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebearproductionz.itch.io/the-widowmaker-live-vanta-black-svg-3-phase-boss garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/public-index.json",
-      "url": "https://garebearproductionz.itch.io/thor-mjolnir-svg-physics-engine",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebearproductionz.itch.io/thor-mjolnir-svg-physics-engine garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/public-index.json",
-      "url": "https://garebearproductionz.itch.io/ultimate-free-hd-laser-pack",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebearproductionz.itch.io/ultimate-free-hd-laser-pack garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -18292,6 +18324,62 @@
     {
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
+      "url": "https://garebearproductionz.itch.io/alien-invasion-live-animated-backdrop-layers:",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/alien-invasion-live-animated-backdrop-layers: garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
+      "url": "https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs:",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs: garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
+      "url": "https://garebearproductionz.itch.io/pixel-abyssal-teleporter:",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/pixel-abyssal-teleporter: garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
+      "url": "https://garebearproductionz.itch.io/professional-grade-studio-violin-audio-synth-formula:",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/professional-grade-studio-violin-audio-synth-formula: garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
+      "url": "https://garebearproductionz.itch.io/static-atmos:",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/static-atmos: garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
+      "url": "https://garebearproductionz.itch.io/the-ultimate-everything-laser-pack:",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/the-ultimate-everything-laser-pack: garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
+      "url": "https://garebearproductionz.itch.io/wraith-necropolis-gate-backdrop:",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/wraith-necropolis-gate-backdrop: garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/source-repos.json",
       "url": "https://dev.to/tizwildin/real-time-state-space-parameterization-and-lock-free-semantic-analysis-in-digital-equalization-38jn",
       "domain": "dev.to",
@@ -19333,6 +19421,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/data/all_items.json",
+      "url": "https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/data/all_items.json",
       "url": "https://garebearproductionz.itch.io/any-image-to-pixel-svg-converter",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://garebearproductionz.itch.io/any-image-to-pixel-svg-converter garebearproductionz.itch.io"
@@ -19389,9 +19485,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/data/all_items.json",
-      "url": "https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts",
+      "url": "https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -19445,9 +19541,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/data/all_items.json",
-      "url": "https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons",
+      "url": "https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -20757,17 +20853,25 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/data/all_items.json",
-      "url": "https://img.itch.zone/aW1nLzI5MDAyMTI4LnBuZw==/original/v6oBXQ.png",
+      "url": "https://img.itch.zone/aW1nLzI5MDAyNjkwLnBuZw==/original/mLh8%2F8.png",
       "domain": "img.itch.zone",
-      "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://img.itch.zone/aw1nlzi5mdaymti4lnbuzw==/original/v6obxq.png img.itch.zone"
+      "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://img.itch.zone/aw1nlzi5mdaynjkwlnbuzw==/original/mlh8%2f8.png img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/data/all_items.json",
-      "url": "https://img.itch.zone/aW1nLzI5MDAyNjkwLnBuZw==/original/mLh8%2F8.png",
+      "url": "https://img.itch.zone/aW1nLzI5MDM3MDkxLmdpZg==/original/EEwche.gif",
       "domain": "img.itch.zone",
-      "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://img.itch.zone/aw1nlzi5mdaynjkwlnbuzw==/original/mlh8%2f8.png img.itch.zone"
+      "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://img.itch.zone/aw1nlzi5mdm3mdkxlmdpzg==/original/eewche.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/data/all_items.json",
+      "url": "https://img.itch.zone/aW1nLzI5MDM3MDkxLmdpZg==/original/GA8h32.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://img.itch.zone/aw1nlzi5mdm3mdkxlmdpzg==/original/ga8h32.gif img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -22181,6 +22285,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/all-account-inventory.html",
+      "url": "https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/all-account-inventory.html",
       "url": "https://garebearproductionz.itch.io/any-image-to-pixel-svg-converter",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://garebearproductionz.itch.io/any-image-to-pixel-svg-converter garebearproductionz.itch.io"
@@ -22237,9 +22349,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/all-account-inventory.html",
-      "url": "https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts",
+      "url": "https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -22293,9 +22405,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/all-account-inventory.html",
-      "url": "https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons",
+      "url": "https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -23605,17 +23717,25 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/all-account-inventory.html",
-      "url": "https://img.itch.zone/aW1nLzI5MDAyMTI4LnBuZw==/original/v6oBXQ.png",
+      "url": "https://img.itch.zone/aW1nLzI5MDAyNjkwLnBuZw==/original/mLh8%2F8.png",
       "domain": "img.itch.zone",
-      "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://img.itch.zone/aw1nlzi5mdaymti4lnbuzw==/original/v6obxq.png img.itch.zone"
+      "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://img.itch.zone/aw1nlzi5mdaynjkwlnbuzw==/original/mlh8%2f8.png img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/all-account-inventory.html",
-      "url": "https://img.itch.zone/aW1nLzI5MDAyNjkwLnBuZw==/original/mLh8%2F8.png",
+      "url": "https://img.itch.zone/aW1nLzI5MDM3MDkxLmdpZg==/original/EEwche.gif",
       "domain": "img.itch.zone",
-      "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://img.itch.zone/aw1nlzi5mdaynjkwlnbuzw==/original/mlh8%2f8.png img.itch.zone"
+      "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://img.itch.zone/aw1nlzi5mdm3mdkxlmdpzg==/original/eewche.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/all-account-inventory.html",
+      "url": "https://img.itch.zone/aW1nLzI5MDM3MDkxLmdpZg==/original/GA8h32.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://img.itch.zone/aw1nlzi5mdm3mdkxlmdpzg==/original/ga8h32.gif img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -29484,6 +29604,54 @@
     {
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html https://garebear99.github.io/tizwildinentertainmenthub garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/assets/social/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs-card.svg",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html https://garebear99.github.io/tizwildinentertainmenthub/assets/social/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs-card.svg garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html https://garebear99.github.io/tizwildinentertainmenthub/pages/all-account-inventory.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html",
+      "url": "https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html",
+      "url": "https://schema.org",
+      "domain": "schema.org",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html https://schema.org schema.org"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/discovery-lists-and-public-routes-awesome-audio-plugins-dev.html",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/discovery-lists-and-public-routes-awesome-audio-plugins-dev.html",
       "domain": "garebear99.github.io",
@@ -30988,6 +31156,62 @@
     {
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html https://garebear99.github.io/tizwildinentertainmenthub garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html https://garebear99.github.io/tizwildinentertainmenthub/pages/all-account-inventory.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html",
+      "url": "https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html",
+      "url": "https://img.itch.zone/aW1nLzI4MTg5NTc4LmdpZg==/original/k%2F6A0g.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html https://img.itch.zone/aw1nlzi4mtg5ntc4lmdpzg==/original/k%2f6a0g.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html",
+      "url": "https://img.itch.zone/aW1nLzI4MTg5NTc4LmdpZg==/original/wvRkmT.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html https://img.itch.zone/aw1nlzi4mtg5ntc4lmdpzg==/original/wvrkmt.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html",
+      "url": "https://schema.org",
+      "domain": "schema.org",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html https://schema.org schema.org"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/tizwildin-sample-packs-free-riser-producer-kit.html",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-sample-packs-free-riser-producer-kit.html",
       "domain": "garebear99.github.io",
@@ -31852,6 +32076,62 @@
     {
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-animated-vfx-ui-pack-80-assets.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-animated-vfx-ui-pack-80-assets.html https://garebear99.github.io/tizwildinentertainmenthub garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-animated-vfx-ui-pack-80-assets.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-animated-vfx-ui-pack-80-assets.html https://garebear99.github.io/tizwildinentertainmenthub/pages/all-account-inventory.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-animated-vfx-ui-pack-80-assets.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-animated-vfx-ui-pack-80-assets.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-animated-vfx-ui-pack-80-assets.html https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-animated-vfx-ui-pack-80-assets.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-animated-vfx-ui-pack-80-assets.html",
+      "url": "https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-animated-vfx-ui-pack-80-assets.html https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-animated-vfx-ui-pack-80-assets.html",
+      "url": "https://img.itch.zone/aW1nLzI5MDM3MDkxLmdpZg==/original/EEwche.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-animated-vfx-ui-pack-80-assets.html https://img.itch.zone/aw1nlzi5mdm3mdkxlmdpzg==/original/eewche.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-animated-vfx-ui-pack-80-assets.html",
+      "url": "https://img.itch.zone/aW1nLzI5MDM3MDkxLmdpZg==/original/GA8h32.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-animated-vfx-ui-pack-80-assets.html https://img.itch.zone/aw1nlzi5mdm3mdkxlmdpzg==/original/ga8h32.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-animated-vfx-ui-pack-80-assets.html",
+      "url": "https://schema.org",
+      "domain": "schema.org",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-animated-vfx-ui-pack-80-assets.html https://schema.org schema.org"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/tizwildin-release-vault.html",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB",
       "domain": "garebear99.github.io",
@@ -32381,9 +32661,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://garebearproductionz.itch.io/enchanted-sprite-fx-engine",
+      "url": "https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/enchanted-sprite-fx-engine garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -33832,6 +34112,14 @@
       "url": "https://img.itch.zone/aW1nLzI5MDAxNjA4LmdpZg==/original/zxPVIr.gif",
       "domain": "img.itch.zone",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1nlzi5mdaxnja4lmdpzg==/original/zxpvir.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1nLzI5MDAyMTI4LnBuZw==/original/v6oBXQ.png",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1nlzi5mdaymti4lnbuzw==/original/v6obxq.png img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -37480,6 +37768,22 @@
       "url": "http://www.w3.org/2000/svg",
       "domain": "www.w3.org",
       "queryText": "tizwildinentertainmenthub docs/assets/social/instrudio-card.svg http://www.w3.org/2000/svg www.w3.org"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/assets/social/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs-card.svg",
+      "url": "http://www.w3.org/1999/xhtml",
+      "domain": "www.w3.org",
+      "queryText": "tizwildinentertainmenthub docs/assets/social/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs-card.svg http://www.w3.org/1999/xhtml www.w3.org"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/assets/social/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs-card.svg",
+      "url": "http://www.w3.org/2000/svg",
+      "domain": "www.w3.org",
+      "queryText": "tizwildinentertainmenthub docs/assets/social/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs-card.svg http://www.w3.org/2000/svg www.w3.org"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -41859,14 +42163,14 @@
     }
   ],
   "summary": {
-    "linkCount": 5232,
+    "linkCount": 5270,
     "domains": {
-      "garebear99.github.io": 1685,
+      "garebear99.github.io": 1698,
       "github.com": 1015,
-      "garebearproductionz.itch.io": 722,
-      "img.itch.zone": 705,
-      "www.w3.org": 331,
-      "schema.org": 224,
+      "garebearproductionz.itch.io": 734,
+      "img.itch.zone": 714,
+      "www.w3.org": 333,
+      "schema.org": 227,
       "dev.to": 55,
       "127.0.0.1:8000": 36,
       "img.shields.io": 34,
