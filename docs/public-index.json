@@ -1,6 +1,6 @@
 {
   "schemaVersion": "2.0",
-  "generatedAt": "2026-08-04",
+  "generatedAt": "2026-08-05",
   "name": "TizWildin Entertainment HUB Public Link Index",
   "description": "Static crawler-friendly index of TizWildin audio, producer, public list, credibility, and ARC source-spine routes.",
   "owner": "GareBear99",
@@ -2571,8 +2571,8 @@
       "source_manifest": "all_items.json",
       "page_slug": "itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs",
       "render_page": true,
-      "cover": "",
-      "animated": "",
+      "cover": "https://img.itch.zone/aW1nLzI5MDMzODQ4LnBuZw==/original/AOUQlu.png",
+      "animated": "https://img.itch.zone/aW1nLzI3ODc2MzQ0LmdpZg==/original/qAACHS.gif",
       "id": "itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs",
       "page": "pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html",
       "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html",
