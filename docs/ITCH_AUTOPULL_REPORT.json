@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T11:29:34Z",
+  "generatedAt": "2026-08-06T11:33:08Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
   "itemsParsed": 73,
   "itemsWritten": 73,
@@ -15,7 +15,7 @@
     },
     {
       "slug": "dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "120-elemental-vfx-pixel-abilities-icons",
@@ -27,15 +27,15 @@
     },
     {
       "slug": "cash-cloud",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/cash-cloud: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "mode-7",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/mode-7: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "bundle",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/bundle: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "enchanted-sprite-vfx-engine",
@@ -111,15 +111,15 @@
     },
     {
       "slug": "celestial-event-moons",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/celestial-event-moons: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "multi-layered-epic-free-svg-backdrop-static-scene",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/multi-layered-epic-free-svg-backdrop-static-scene: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "evil-eye-four-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/evil-eye-four-pack: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "alien-invasion-live-animated-backdrop-layers",
@@ -135,7 +135,7 @@
     },
     {
       "slug": "the-cathedral-of-madness-concept-pixel-art",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/the-cathedral-of-madness-concept-pixel-art: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "pride-crown-concept-art",
@@ -143,7 +143,7 @@
     },
     {
       "slug": "scarlette-witchs-darkhold-sprite-free",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/scarlette-witchs-darkhold-sprite-free: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "hells-jukebox-nekranomicon-author-cthulu",
@@ -187,11 +187,11 @@
     },
     {
       "slug": "gw3-style-2d-projected-3d-grid-world-engine",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/gw3-style-2d-projected-3d-grid-world-engine: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "freeeq8-most-advanced-free-eq-opensource",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/freeeq8-most-advanced-free-eq-opensource: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "any-image-to-pixel-svg-converter",
@@ -215,15 +215,15 @@
     },
     {
       "slug": "thor-mjolnir-svg-physics-engine",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/thor-mjolnir-svg-physics-engine: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "blood-bone-scythe",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/blood-bone-scythe: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "free-pixel-paladin-hammer-chibi",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/free-pixel-paladin-hammer-chibi: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "professional-occult-covenant-icon-kit",
@@ -239,19 +239,19 @@
     },
     {
       "slug": "static-atmos",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/static-atmos: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "demon-sprite-sheet-generator",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/demon-sprite-sheet-generator: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "fireball-generator-formula",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/fireball-generator-formula: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "pyromancy-chibi-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/pyromancy-chibi-pack: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "infernal-archetypes",
@@ -267,7 +267,7 @@
     },
     {
       "slug": "reward-pocket-generator-formula",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/reward-pocket-generator-formula: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "neolution-grid-engine",
@@ -275,7 +275,7 @@
     },
     {
       "slug": "skully-asset-pack-lightweight-canvas-engine-demo",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/skully-asset-pack-lightweight-canvas-engine-demo: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "gravity-projectile-generator-formula",
@@ -287,7 +287,7 @@
     },
     {
       "slug": "live-pentagram-formula-2d-3d",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/live-pentagram-formula-2d-3d: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "npc-theme-of-sacrifice",
