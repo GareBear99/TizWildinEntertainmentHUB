@@ -1,6 +1,6 @@
 # Public Link Graph
 
-Generated: 2026-08-06
+Generated: 2026-08-07
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
@@ -124,7 +124,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Cool Backdrop Layers & Engine](pages/itch-cool-backdrop-layers-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/cool-backdrop-layers-engine | backdrop, layers, engine, svg, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Crawl Space SVG Live Backdrop Engine & Animated Prop Layers](pages/itch-crawl-space-svg-live-backdrop-engine-animated-props.html) | Itch Asset Pack | https://garebearproductionz.itch.io/crawl-space-svg-live-backdrop-engine-animated-props | backdrop, svg, animation, props, pixel-art, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Dark Fantasy Dungeon Builder - Free Four-Realm Tileset](pages/itch-dark-fantasy-dungeon-builder-free-four-realm-tileset.html) | Itch Asset Pack | https://garebearproductionz.itch.io/dark-fantasy-dungeon-builder-free-four-realm-tileset | itch, game-assets, garebearproductionz |
-| [Dark Fantasy Modular GUI Pack - 704 UI Assets + 160 Icons + 64 Glyphs](pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html) | Itch Asset Pack | https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs | itch, game-assets, garebearproductionz |
+| [Dark Fantasy Modular GUI Pack - 704 UI Assets + 160 Icons](pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html) | Itch Asset Pack | https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons | itch, game-assets, garebearproductionz |
 | [Doom Style Ray Cast Engine & Asset Pack](pages/itch-doom-style-ray-trace-engine-asset-pack.html) | Itch Playable Game / Engine | https://garebearproductionz.itch.io/doom-style-ray-trace-engine-asset-pack | itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [Elemental Wisp Sprite Pack](pages/itch-elemental-wisp-sprite-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/elemental-wisp-sprite-pack | itch, game-assets, garebearproductionz |
 | [ENCHANTED SPRITE VFX ENGINE](pages/itch-enchanted-sprite-vfx-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine | itch, game-assets, garebearproductionz, formula-a1-bundle |

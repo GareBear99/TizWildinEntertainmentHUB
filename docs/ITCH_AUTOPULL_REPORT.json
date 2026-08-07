@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T11:33:08Z",
+  "generatedAt": "2026-08-07T10:10:21Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
   "itemsParsed": 73,
   "itemsWritten": 73,
@@ -14,8 +14,8 @@
       "status": "ok"
     },
     {
-      "slug": "dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs: HTTP Error 429: Too Many Requests"
+      "slug": "dark-fantasy-modular-gui-pack-704-ui-assets-160-icons",
+      "status": "ok"
     },
     {
       "slug": "120-elemental-vfx-pixel-abilities-icons",
@@ -27,7 +27,7 @@
     },
     {
       "slug": "cash-cloud",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/cash-cloud: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "mode-7",
@@ -35,7 +35,7 @@
     },
     {
       "slug": "bundle",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/bundle: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "enchanted-sprite-vfx-engine",
@@ -107,19 +107,19 @@
     },
     {
       "slug": "sprite-color-effect-mutator-engine",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/sprite-color-effect-mutator-engine: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "celestial-event-moons",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/celestial-event-moons: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "multi-layered-epic-free-svg-backdrop-static-scene",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/multi-layered-epic-free-svg-backdrop-static-scene: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "evil-eye-four-pack",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/evil-eye-four-pack: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "alien-invasion-live-animated-backdrop-layers",
@@ -135,7 +135,7 @@
     },
     {
       "slug": "the-cathedral-of-madness-concept-pixel-art",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/the-cathedral-of-madness-concept-pixel-art: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "pride-crown-concept-art",
@@ -143,7 +143,7 @@
     },
     {
       "slug": "scarlette-witchs-darkhold-sprite-free",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/scarlette-witchs-darkhold-sprite-free: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "hells-jukebox-nekranomicon-author-cthulu",
@@ -239,19 +239,19 @@
     },
     {
       "slug": "static-atmos",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/static-atmos: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "demon-sprite-sheet-generator",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/demon-sprite-sheet-generator: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "fireball-generator-formula",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/fireball-generator-formula: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "pyromancy-chibi-pack",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/pyromancy-chibi-pack: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "infernal-archetypes",
@@ -267,7 +267,7 @@
     },
     {
       "slug": "reward-pocket-generator-formula",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/reward-pocket-generator-formula: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "neolution-grid-engine",
