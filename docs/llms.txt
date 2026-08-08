@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-08-07
+Generated: 2026-08-08
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -684,6 +684,18 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://garebearproductionz.itch.io/skully-asset-pack-lightweight-canvas-engine-demo
   GitHub: N/A
   Tags: skully, canvas, engine, skeleton, pixel-art, itch, game-assets, garebearproductionz
+
+- SLAGWORKS: CinderHaul - 4 Map Animated Tileset + 2 Bonus Maps: SLAGWORKS: CinderHaul - 4 Map Animated Tileset + 2 Bonus Maps Official GareBearProductionz itch product ($3.33) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-slagworks-4-map-animated-tileset.html
+  Public URL: https://garebearproductionz.itch.io/slagworks-4-map-animated-tileset
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
+- SLAGWORKS: Spectral Carnage Sewer Deck (FREE): SLAGWORKS: Spectral Carnage Sewer Deck (FREE) Official GareBearProductionz itch product (FREE) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-spectral-carnage-sewers-free-tileset-map.html
+  Public URL: https://garebearproductionz.itch.io/spectral-carnage-sewers-free-tileset-map
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
 
 - Spectral Icon SVG Pipeline Kit: Spectral SVG icon pipeline kit for ghost/realm UI assets. Official GareBearProductionz itch product ($1.66 -50%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-spectral-icon-svg-pipeline-kit.html
