@@ -1,6 +1,6 @@
 # Public Link Graph
 
-Generated: 2026-08-08
+Generated: 2026-08-09
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
@@ -158,7 +158,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Reward Pocket Generator Formula](pages/itch-reward-pocket-generator-formula.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/reward-pocket-generator-formula | reward, generator, formula, items, game-dev, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Scarlet Witch DarkHold Sprite (FREE)](pages/itch-scarlette-witchs-darkhold-sprite-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/scarlette-witchs-darkhold-sprite-free | free, sprite, darkhold, pixel-art, itch, game-assets, garebearproductionz |
 | [Skully Asset Pack & Lightweight Canvas Engine Demo](pages/itch-skully-asset-pack-lightweight-canvas-engine-demo.html) | Itch Playable Game / Engine | https://garebearproductionz.itch.io/skully-asset-pack-lightweight-canvas-engine-demo | skully, canvas, engine, skeleton, pixel-art, itch, game-assets, garebearproductionz |
-| [SLAGWORKS: CinderHaul - 4 Map Animated Tileset + 2 Bonus Maps](pages/itch-slagworks-4-map-animated-tileset.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/slagworks-4-map-animated-tileset | itch, game-assets, garebearproductionz |
+| [SLAGWORKS: CinderHaul - 6 Map Animated Tileset](pages/itch-slagworks-cinderhaul-6-map-animated-tileset.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/slagworks-cinderhaul-6-map-animated-tileset | itch, game-assets, garebearproductionz |
 | [SLAGWORKS: Spectral Carnage Sewer Deck (FREE)](pages/itch-spectral-carnage-sewers-free-tileset-map.html) | Itch Asset Pack | https://garebearproductionz.itch.io/spectral-carnage-sewers-free-tileset-map | itch, game-assets, garebearproductionz |
 | [Spectral Icon SVG Pipeline Kit](pages/itch-spectral-icon-svg-pipeline-kit.html) | Itch Asset Pack | https://garebearproductionz.itch.io/spectral-icon-svg-pipeline-kit | icons, spectral, svg, pipeline, ui, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Sphinx Pyramid Activation Layered Live Animated Map Backdrop](pages/itch-sphinx-activation-layered-live-map.html) | Itch Asset Pack | https://garebearproductionz.itch.io/sphinx-activation-layered-live-map | sphinx, pyramid, backdrop, svg, ritual, tilemap, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
