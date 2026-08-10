@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-08-09
+Generated: 2026-08-10
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -583,7 +583,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: icons, svg, hell, starter-kit, live-fx, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
 
-- MODE-7 FLOORCAST ENGINE: SNES BROWSER FLOORCAST ENGINE Official GareBearProductionz itch product ($11) in the Games & Playable Engines line; checkout and downloads happen on the official itch page.
+- MODE-7 FLOORCAST ENGINE: SNES BROWSER FLOORCAST ENGINE Official GareBearProductionz itch product ($8.25 -25%) in the Games & Playable Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-mode-7.html
   Public URL: https://garebearproductionz.itch.io/mode-7
   GitHub: N/A
@@ -618,6 +618,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://garebearproductionz.itch.io/npc-theme-of-sacrifice
   GitHub: N/A
   Tags: npc, theme, music, audio, sacrifice, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- Orerry Solar System Pack - Live VFX Animations + Scale Accuracy & Tilt: Orerry Solar System Pack - Live VFX Animations + Scale Accuracy & Tilt Official GareBearProductionz itch product (paid) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-orerry-solar-system-pack.html
+  Public URL: https://garebearproductionz.itch.io/orerry-solar-system-pack
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
 
 - Pixel Abyssal Teleportation Device: Abyssal pixel teleportation pedestal/device asset. Official GareBearProductionz itch product ($0.75 -25%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-pixel-abyssal-teleporter.html
@@ -685,7 +691,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: skully, canvas, engine, skeleton, pixel-art, itch, game-assets, garebearproductionz
 
-- SLAGWORKS: CinderHaul - 6 Map Animated Tileset: SLAGWORKS: CinderHaul - 6 Map Animated Tileset Official GareBearProductionz itch product ($3.33) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- SLAGWORKS: CinderHaul - 6 Map Animated Tileset 1,910 Sprites: SLAGWORKS: CinderHaul - 6 Map Animated Tileset 1,910 Sprites Official GareBearProductionz itch product ($2.49 -25%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-slagworks-cinderhaul-6-map-animated-tileset.html
   Public URL: https://garebearproductionz.itch.io/slagworks-cinderhaul-6-map-animated-tileset
   GitHub: N/A

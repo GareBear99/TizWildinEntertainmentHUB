@@ -1,10 +1,14 @@
 {
-  "generatedAt": "2026-08-09T09:56:38Z",
+  "generatedAt": "2026-08-10T10:35:47Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 75,
-  "itemsWritten": 75,
-  "mediaReadyItems": 75,
+  "itemsParsed": 76,
+  "itemsWritten": 76,
+  "mediaReadyItems": 76,
   "detailStatus": [
+    {
+      "slug": "orerry-solar-system-pack",
+      "status": "ok"
+    },
     {
       "slug": "spectral-carnage-sewers-free-tileset-map",
       "status": "ok"
@@ -71,7 +75,7 @@
     },
     {
       "slug": "black-red-dice-svg-png-export-engine",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "infina-dix-engine",
@@ -135,11 +139,11 @@
     },
     {
       "slug": "wraith-necropolis-gate-backdrop",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/wraith-necropolis-gate-backdrop: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "vfx-test-room-elemental-frequency-arena-engine",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/vfx-test-room-elemental-frequency-arena-engine: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "the-cathedral-of-madness-concept-pixel-art",
@@ -187,7 +191,7 @@
     },
     {
       "slug": "pixel-velocity-weight-physics-quake-hammer",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/pixel-velocity-weight-physics-quake-hammer: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "blood-bound-scythe-svg-free",
@@ -203,7 +207,7 @@
     },
     {
       "slug": "any-image-to-pixel-svg-converter",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/any-image-to-pixel-svg-converter: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "infernal-hell-icons-free-basic-fx",
@@ -243,15 +247,15 @@
     },
     {
       "slug": "pixel-abyssal-teleporter",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/pixel-abyssal-teleporter: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "static-atmos",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/static-atmos: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "demon-sprite-sheet-generator",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/demon-sprite-sheet-generator: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "fireball-generator-formula",
@@ -263,11 +267,11 @@
     },
     {
       "slug": "infernal-archetypes",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/infernal-archetypes: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "free-haunter-sprites",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/free-haunter-sprites: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "action-command-charge-formula",
@@ -279,11 +283,11 @@
     },
     {
       "slug": "neolution-grid-engine",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/neolution-grid-engine: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "skully-asset-pack-lightweight-canvas-engine-demo",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/skully-asset-pack-lightweight-canvas-engine-demo: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "gravity-projectile-generator-formula",

@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-08-09
+Generated: 2026-08-10
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **167**
+- Total indexed records: **168**
 - Total clusters: **11**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -147,6 +147,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Necrommancers Sacred Geometry Audio ToolKit](pages/itch-necrommancers-audio-toolkit.html) | Itch Asset Pack | https://garebearproductionz.itch.io/necrommancers-audio-toolkit | itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [Neolution & Grid Engine (Controller Support)](pages/itch-neolution-grid-engine.html) | Itch Playable Game / Engine | https://garebearproductionz.itch.io/neolution-grid-engine | neolution, rhythm, grid, controller, canvas, itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [NPC Theme of Sacrifice](pages/itch-npc-theme-of-sacrifice.html) | Itch Asset Pack | https://garebearproductionz.itch.io/npc-theme-of-sacrifice | npc, theme, music, audio, sacrifice, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
+| [Orerry Solar System Pack - Live VFX Animations + Scale Accuracy & Tilt](pages/itch-orerry-solar-system-pack.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/orerry-solar-system-pack | itch, game-assets, garebearproductionz |
 | [Pixel Abyssal Teleportation Device](pages/itch-pixel-abyssal-teleporter.html) | Itch Asset Pack | https://garebearproductionz.itch.io/pixel-abyssal-teleporter | teleporter, abyssal, pedestal, pixel-art, prop, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Pixel Blood & Bone Demon Scythe + SVG (FREE)](pages/itch-blood-bone-scythe.html) | Itch Asset Pack | https://garebearproductionz.itch.io/blood-bone-scythe | free, scythe, demon, weapon, svg, itch, game-assets, garebearproductionz |
 | [Pixel Elemental Velocity Weight Physics 2.5D Quake Hammer (FREE Thor Engine)](pages/itch-pixel-velocity-weight-physics-quake-hammer.html) | Itch Asset Pack | https://garebearproductionz.itch.io/pixel-velocity-weight-physics-quake-hammer | free, hammer, physics, 2d, 2.5d, itch, game-assets, garebearproductionz |
@@ -158,7 +159,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Reward Pocket Generator Formula](pages/itch-reward-pocket-generator-formula.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/reward-pocket-generator-formula | reward, generator, formula, items, game-dev, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Scarlet Witch DarkHold Sprite (FREE)](pages/itch-scarlette-witchs-darkhold-sprite-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/scarlette-witchs-darkhold-sprite-free | free, sprite, darkhold, pixel-art, itch, game-assets, garebearproductionz |
 | [Skully Asset Pack & Lightweight Canvas Engine Demo](pages/itch-skully-asset-pack-lightweight-canvas-engine-demo.html) | Itch Playable Game / Engine | https://garebearproductionz.itch.io/skully-asset-pack-lightweight-canvas-engine-demo | skully, canvas, engine, skeleton, pixel-art, itch, game-assets, garebearproductionz |
-| [SLAGWORKS: CinderHaul - 6 Map Animated Tileset](pages/itch-slagworks-cinderhaul-6-map-animated-tileset.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/slagworks-cinderhaul-6-map-animated-tileset | itch, game-assets, garebearproductionz |
+| [SLAGWORKS: CinderHaul - 6 Map Animated Tileset 1,910 Sprites](pages/itch-slagworks-cinderhaul-6-map-animated-tileset.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/slagworks-cinderhaul-6-map-animated-tileset | itch, game-assets, garebearproductionz |
 | [SLAGWORKS: Spectral Carnage Sewer Deck (FREE)](pages/itch-spectral-carnage-sewers-free-tileset-map.html) | Itch Asset Pack | https://garebearproductionz.itch.io/spectral-carnage-sewers-free-tileset-map | itch, game-assets, garebearproductionz |
 | [Spectral Icon SVG Pipeline Kit](pages/itch-spectral-icon-svg-pipeline-kit.html) | Itch Asset Pack | https://garebearproductionz.itch.io/spectral-icon-svg-pipeline-kit | icons, spectral, svg, pipeline, ui, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Sphinx Pyramid Activation Layered Live Animated Map Backdrop](pages/itch-sphinx-activation-layered-live-map.html) | Itch Asset Pack | https://garebearproductionz.itch.io/sphinx-activation-layered-live-map | sphinx, pyramid, backdrop, svg, ritual, tilemap, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
