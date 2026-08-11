@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-08-10
+Generated: 2026-08-11
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **168**
+- Total indexed records: **170**
 - Total clusters: **11**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -125,6 +125,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Crawl Space SVG Live Backdrop Engine & Animated Prop Layers](pages/itch-crawl-space-svg-live-backdrop-engine-animated-props.html) | Itch Asset Pack | https://garebearproductionz.itch.io/crawl-space-svg-live-backdrop-engine-animated-props | backdrop, svg, animation, props, pixel-art, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Dark Fantasy Dungeon Builder - Free Four-Realm Tileset](pages/itch-dark-fantasy-dungeon-builder-free-four-realm-tileset.html) | Itch Asset Pack | https://garebearproductionz.itch.io/dark-fantasy-dungeon-builder-free-four-realm-tileset | itch, game-assets, garebearproductionz |
 | [Dark Fantasy Modular GUI Pack - 704 UI Assets + 160 Icons](pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html) | Itch Asset Pack | https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons | itch, game-assets, garebearproductionz |
+| [DIVINITY — the Imperilator arms and the seven sins (FREE)](pages/itch-divinity-the-imperilator-arms-and-the-seven-sins.html) | Itch Asset Pack | https://garebearproductionz.itch.io/divinity-the-imperilator-arms-and-the-seven-sins | itch, game-assets, garebearproductionz |
 | [Doom Style Ray Cast Engine & Asset Pack](pages/itch-doom-style-ray-trace-engine-asset-pack.html) | Itch Playable Game / Engine | https://garebearproductionz.itch.io/doom-style-ray-trace-engine-asset-pack | itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [Elemental Wisp Sprite Pack](pages/itch-elemental-wisp-sprite-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/elemental-wisp-sprite-pack | itch, game-assets, garebearproductionz |
 | [ENCHANTED SPRITE VFX ENGINE](pages/itch-enchanted-sprite-vfx-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine | itch, game-assets, garebearproductionz, formula-a1-bundle |
@@ -164,6 +165,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Spectral Icon SVG Pipeline Kit](pages/itch-spectral-icon-svg-pipeline-kit.html) | Itch Asset Pack | https://garebearproductionz.itch.io/spectral-icon-svg-pipeline-kit | icons, spectral, svg, pipeline, ui, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Sphinx Pyramid Activation Layered Live Animated Map Backdrop](pages/itch-sphinx-activation-layered-live-map.html) | Itch Asset Pack | https://garebearproductionz.itch.io/sphinx-activation-layered-live-map | sphinx, pyramid, backdrop, svg, ritual, tilemap, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Static Atmos - PDF Demo 'Wraith Eternal' Comic](pages/itch-static-atmos.html) | Itch Asset Pack | https://garebearproductionz.itch.io/static-atmos | wraith, comic, pdf, atmos, music, itch, game-assets, garebearproductionz |
+| [SUGARFALL — the pink party pack (FREE)](pages/itch-sugarfall-the-pink-party-pack-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/sugarfall-the-pink-party-pack-free | itch, game-assets, garebearproductionz |
 | [Summoner's Delight](pages/itch-summoners-delights.html) | Itch Asset Pack | https://garebearproductionz.itch.io/summoners-delights | summoner, gif, assets, pixel-art, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [SVG Hell Fiery Icon Pipelines + Basic Live FX](pages/itch-infernal-hell-icons-free-basic-fx.html) | Itch Asset Pack | https://garebearproductionz.itch.io/infernal-hell-icons-free-basic-fx | icons, hell, svg, fx, pipeline, itch, game-assets, garebearproductionz, live-svg-fx-bundle |
 | [The Cathedral of Madness - Concept Pixel Art](pages/itch-the-cathedral-of-madness-concept-pixel-art.html) | Itch Asset Pack | https://garebearproductionz.itch.io/the-cathedral-of-madness-concept-pixel-art | cathedral, concept, pixel-art, dark-fantasy, itch, game-assets, garebearproductionz |
