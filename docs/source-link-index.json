@@ -18596,6 +18596,22 @@
     {
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
+      "url": "https://garebearproductionz.itch.io/demon-sprite-sheet-generator:",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/demon-sprite-sheet-generator: garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
+      "url": "https://garebearproductionz.itch.io/static-atmos:",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/static-atmos: garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/source-repos.json",
       "url": "https://dev.to/tizwildin/real-time-state-space-parameterization-and-lock-free-semantic-analysis-in-digital-equalization-38jn",
       "domain": "dev.to",
@@ -33085,14 +33101,6 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://dev.to/tizwildin/arc-neuron-llmbuilder-and-the-future-economics-of-real-ai-3j4",
-      "domain": "dev.to",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://dev.to/tizwildin/arc-neuron-llmbuilder-and-the-future-economics-of-real-ai-3j4 dev.to"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
       "url": "https://garebear99.github.io/RiftAscent/",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebear99.github.io/riftascent/ garebear99.github.io"
@@ -33336,6 +33344,14 @@
       "url": "https://garebearproductionz.itch.io/demon-sprite-sheet-generator",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/demon-sprite-sheet-generator garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://garebearproductionz.itch.io/divinity-the-imperilator-arms-and-the-seven-sins",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/divinity-the-imperilator-arms-and-the-seven-sins garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -33664,6 +33680,14 @@
       "url": "https://garebearproductionz.itch.io/static-atmos",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/static-atmos garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://garebearproductionz.itch.io/sugarfall-the-pink-party-pack-free",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/sugarfall-the-pink-party-pack-free garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -34917,6 +34941,38 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1nLzI5MTg3MzgyLmdpZg==/original/CE%2FBgd.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1nlzi5mtg3mzgylmdpzg==/original/ce%2fbgd.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1nLzI5MTg3MzgyLmdpZg==/original/emkHal.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1nlzi5mtg3mzgylmdpzg==/original/emkhal.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1nLzI5MTg3OTQ4LmdpZg==/original/i4zMSh.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1nlzi5mtg3otq4lmdpzg==/original/i4zmsh.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1nLzI5MTg3OTQ4LmdpZg==/original/l6CRJq.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1nlzi5mtg3otq4lmdpzg==/original/l6crjq.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
       "url": "https://itch.io/s/188490/formula-a1-steal-bundle",
       "domain": "itch.io",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://itch.io/s/188490/formula-a1-steal-bundle itch.io"
@@ -34981,30 +35037,6 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/promotionals.json",
-      "domain": "raw.githubusercontent.com",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://raw.githubusercontent.com/garebear99/tizwildinentertainmenthub/main/promotionals.json raw.githubusercontent.com"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/tools.json",
-      "domain": "raw.githubusercontent.com",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://raw.githubusercontent.com/garebear99/tizwildinentertainmenthub/main/tools.json raw.githubusercontent.com"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://raw.githubusercontent.com/GareBear99/TizWildinEntertainmentHUB/main/tutorials.json",
-      "domain": "raw.githubusercontent.com",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://raw.githubusercontent.com/garebear99/tizwildinentertainmenthub/main/tutorials.json raw.githubusercontent.com"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
       "url": "https://schema.org",
       "domain": "schema.org",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://schema.org schema.org"
@@ -35016,14 +35048,6 @@
       "url": "https://soundcloud.com/tizwildin/sets}",
       "domain": "soundcloud.com",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://soundcloud.com/tizwildin/sets} soundcloud.com"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://tizwildin-hub.admension.workers.dev",
-      "domain": "tizwildin-hub.admension.workers.dev",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://tizwildin-hub.admension.workers.dev tizwildin-hub.admension.workers.dev"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -43003,18 +43027,18 @@
     }
   ],
   "summary": {
-    "linkCount": 5375,
+    "linkCount": 5378,
     "domains": {
       "garebear99.github.io": 1726,
       "github.com": 1014,
-      "img.itch.zone": 785,
-      "garebearproductionz.itch.io": 747,
+      "img.itch.zone": 789,
+      "garebearproductionz.itch.io": 751,
       "www.w3.org": 333,
       "schema.org": 233,
-      "dev.to": 49,
+      "dev.to": 48,
       "127.0.0.1:8000": 36,
       "img.shields.io": 34,
-      "raw.githubusercontent.com": 30,
+      "raw.githubusercontent.com": 27,
       "example.local": 16,
       "api.github.com": 14,
       "itch.io": 12,
@@ -43022,8 +43046,8 @@
       "ffm.bio": 12,
       "testserver": 11,
       "www.facebook.com": 10,
-      "tizwildin-hub.admension.workers.dev": 8,
       "www.youtube.com": 8,
+      "tizwildin-hub.admension.workers.dev": 7,
       "capsule-render.vercel.app": 6,
       "open.spotify.com": 5,
       "json-schema.org": 5,
