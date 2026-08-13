@@ -18596,22 +18596,6 @@
     {
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/demon-sprite-sheet-generator:",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/demon-sprite-sheet-generator: garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/static-atmos:",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/static-atmos: garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/source-repos.json",
       "url": "https://dev.to/tizwildin/real-time-state-space-parameterization-and-lock-free-semantic-analysis-in-digital-equalization-38jn",
       "domain": "dev.to",
@@ -43027,12 +43011,12 @@
     }
   ],
   "summary": {
-    "linkCount": 5378,
+    "linkCount": 5376,
     "domains": {
       "garebear99.github.io": 1726,
       "github.com": 1014,
       "img.itch.zone": 789,
-      "garebearproductionz.itch.io": 751,
+      "garebearproductionz.itch.io": 749,
       "www.w3.org": 333,
       "schema.org": 233,
       "dev.to": 48,

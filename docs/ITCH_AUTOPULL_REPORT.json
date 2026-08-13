@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T10:20:00Z",
+  "generatedAt": "2026-08-13T10:21:17Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
   "itemsParsed": 78,
   "itemsWritten": 78,
@@ -259,11 +259,11 @@
     },
     {
       "slug": "static-atmos",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/static-atmos: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "demon-sprite-sheet-generator",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/demon-sprite-sheet-generator: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "fireball-generator-formula",
