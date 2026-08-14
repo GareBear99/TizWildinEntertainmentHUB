@@ -1,10 +1,22 @@
 {
-  "generatedAt": "2026-08-13T10:21:17Z",
+  "generatedAt": "2026-08-14T10:16:38Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 78,
-  "itemsWritten": 78,
-  "mediaReadyItems": 78,
+  "itemsParsed": 81,
+  "itemsWritten": 81,
+  "mediaReadyItems": 81,
   "detailStatus": [
+    {
+      "slug": "arcanum-i-part-3-animated-full-screen-vfx-overlays-30-screens-960-frames",
+      "status": "ok"
+    },
+    {
+      "slug": "arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames",
+      "status": "ok"
+    },
+    {
+      "slug": "arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames",
+      "status": "ok"
+    },
     {
       "slug": "sugarfall-the-pink-party-pack-free",
       "status": "ok"
@@ -15,7 +27,7 @@
     },
     {
       "slug": "orerry-solar-system-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/orerry-solar-system-pack: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "spectral-carnage-sewers-free-tileset-map",
@@ -31,7 +43,7 @@
     },
     {
       "slug": "dark-fantasy-dungeon-builder-free-four-realm-tileset",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/dark-fantasy-dungeon-builder-free-four-realm-tileset: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "dark-fantasy-modular-gui-pack-704-ui-assets-160-icons",
@@ -47,11 +59,11 @@
     },
     {
       "slug": "cash-cloud",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/cash-cloud: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "mode-7",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/mode-7: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "bundle",
@@ -87,7 +99,7 @@
     },
     {
       "slug": "infina-dix-engine",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/infina-dix-engine: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "color-dynamic-sigils-svg-export-pack",
@@ -103,7 +115,7 @@
     },
     {
       "slug": "the-ultimate-everything-laser-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/the-ultimate-everything-laser-pack: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "10-svg-programmable-live-backdrop-pipelines",
@@ -111,15 +123,15 @@
     },
     {
       "slug": "aaaa-layered-mountain-dynamic-sky-live-backdrop-engine",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/aaaa-layered-mountain-dynamic-sky-live-backdrop-engine: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "cool-backdrop-layers-engine",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/cool-backdrop-layers-engine: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "aaaa-pixel-combat-timeline-engine",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/aaaa-pixel-combat-timeline-engine: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "aaaa-sprite-fusion-metamorphosis-equation-spine-engine",

@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-08-13
+Generated: 2026-08-14
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **170**
+- Total indexed records: **173**
 - Total clusters: **11**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -117,6 +117,9 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Action Command Charge Formula](pages/itch-action-command-charge-formula.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/action-command-charge-formula | action-command, charge, formula, game-dev, itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [Animated VFX UI Pack - 80+ Assets](pages/itch-animated-vfx-ui-pack-80-assets.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets | itch, game-assets, garebearproductionz |
 | [Any Image to Pixel SVG Converter (Only 1 FREE)](pages/itch-any-image-to-pixel-svg-converter.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/any-image-to-pixel-svg-converter | free, converter, pixel, svg, image, itch, game-assets, garebearproductionz |
+| [Arcanum I - Part 1— Animated Pixel Spell Effects (75 effects, 1,200 frames)](pages/itch-arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames | itch, game-assets, garebearproductionz |
+| [Arcanum I - Part 2 — Animated Pixel Spell Abilities (23 spells, 752 frames)](pages/itch-arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames | itch, game-assets, garebearproductionz |
+| [Arcanum I - Part 3 — Animated Full-Screen VFX Overlays (30 screens, 960 frames)](pages/itch-arcanum-i-part-3-animated-full-screen-vfx-overlays-30-screens-960-frames.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/arcanum-i-part-3-animated-full-screen-vfx-overlays-30-screens-960-frames | itch, game-assets, garebearproductionz |
 | [Black & Red Dice SVG & PNG 2D-3D Export Engine](pages/itch-black-red-dice-svg-png-export-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine | itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Blood Bound by Pixel Scythe & SVG (FREE)](pages/itch-blood-bound-scythe-svg-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/blood-bound-scythe-svg-free | free, scythe, weapon, svg, pixel-art, itch, game-assets, garebearproductionz |
 | [Cash Cloud Sprite Pack (FREE)](pages/itch-cash-cloud.html) | Itch Asset Pack | https://garebearproductionz.itch.io/cash-cloud | itch, game-assets, garebearproductionz |
