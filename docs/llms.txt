@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-08-14
+Generated: 2026-08-15
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -439,19 +439,19 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: free, converter, pixel, svg, image, itch, game-assets, garebearproductionz
 
-- Arcanum I - Part 1— Animated Pixel Spell Effects (75 effects, 1,200 frames): Arcanum I - Part 1— Animated Pixel Spell Effects (75 effects, 1,200 frames) Official GareBearProductionz itch product ($2.75) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- Arcanum I - Part 1— Animated Pixel Spell Effects (75 effects, 1,200 frames): Arcanum I - Part 1— Animated Pixel Spell Effects (75 effects, 1,200 frames) Official GareBearProductionz itch product ($2.06 -25%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames.html
   Public URL: https://garebearproductionz.itch.io/arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Arcanum I - Part 2 — Animated Pixel Spell Abilities (23 spells, 752 frames): Arcanum I - Part 2 — Animated Pixel Spell Abilities (23 spells, 752 frames) Official GareBearProductionz itch product ($3.75) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- Arcanum I - Part 2 — Animated Pixel Spell Abilities (23 spells, 752 frames): Arcanum I - Part 2 — Animated Pixel Spell Abilities (23 spells, 752 frames) Official GareBearProductionz itch product ($2.81 -25%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames.html
   Public URL: https://garebearproductionz.itch.io/arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Arcanum I - Part 3 — Animated Full-Screen VFX Overlays (30 screens, 960 frames): Arcanum I - Part 3 — Animated Full-Screen VFX Overlays (30 screens, 960 frames) Official GareBearProductionz itch product ($3.33) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- Arcanum I - Part 3 — Animated Full-Screen VFX Overlays (30 screens, 960 frames): Arcanum I - Part 3 — Animated Full-Screen VFX Overlays (30 screens, 960 frames) Official GareBearProductionz itch product ($2.49 -25%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-arcanum-i-part-3-animated-full-screen-vfx-overlays-30-screens-960-frames.html
   Public URL: https://garebearproductionz.itch.io/arcanum-i-part-3-animated-full-screen-vfx-overlays-30-screens-960-frames
   GitHub: N/A
