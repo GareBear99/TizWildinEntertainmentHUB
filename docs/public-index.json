@@ -1,11 +1,11 @@
 {
   "schemaVersion": "2.0",
-  "generatedAt": "2026-08-15",
+  "generatedAt": "2026-08-16",
   "name": "TizWildin Entertainment HUB Public Link Index",
   "description": "Static crawler-friendly index of TizWildin audio, producer, public list, credibility, and ARC source-spine routes.",
   "owner": "GareBear99",
   "baseUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB",
-  "itemCount": 173,
+  "itemCount": 174,
   "items": [
     {
       "cluster": "AI and Automation Tools",
@@ -2818,6 +2818,35 @@
       "page": "pages/itch-evil-eye-four-pack.html",
       "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-evil-eye-four-pack.html",
       "canonicalUrl": "https://garebearproductionz.itch.io/evil-eye-four-pack",
+      "repoUrl": "",
+      "docsUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html"
+    },
+    {
+      "cluster": "Game Asset Store / Itch Inventory",
+      "kind": "Itch Game Tool / Formula",
+      "name": "EZ GUI Menu Panels",
+      "description": "EZ GUI Menu Panels Official GareBearProductionz itch product ($2.50) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.",
+      "repo": "",
+      "url": "https://garebearproductionz.itch.io/menu-panels",
+      "docs": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html",
+      "status": "released",
+      "tags": [
+        "itch",
+        "game-assets",
+        "garebearproductionz"
+      ],
+      "priority": 42,
+      "license": "See individual itch page",
+      "language": "HTML / JavaScript / Assets",
+      "source_manifest": "all_items.json",
+      "page_slug": "itch-menu-panels",
+      "render_page": true,
+      "cover": "https://img.itch.zone/aW1nLzI5MzAxMTM5LmdpZg==/original/lAxp8w.gif",
+      "animated": "https://img.itch.zone/aW1nLzI5MzAxMTM5LmdpZg==/original/0p1qLc.gif",
+      "id": "itch-menu-panels",
+      "page": "pages/itch-menu-panels.html",
+      "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-menu-panels.html",
+      "canonicalUrl": "https://garebearproductionz.itch.io/menu-panels",
       "repoUrl": "",
       "docsUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html"
     },

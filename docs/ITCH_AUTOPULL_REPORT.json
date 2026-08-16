@@ -1,10 +1,14 @@
 {
-  "generatedAt": "2026-08-15T09:39:37Z",
+  "generatedAt": "2026-08-16T09:40:36Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 81,
-  "itemsWritten": 81,
-  "mediaReadyItems": 81,
+  "itemsParsed": 82,
+  "itemsWritten": 82,
+  "mediaReadyItems": 82,
   "detailStatus": [
+    {
+      "slug": "menu-panels",
+      "status": "ok"
+    },
     {
       "slug": "arcanum-i-part-3-animated-full-screen-vfx-overlays-30-screens-960-frames",
       "status": "ok"
