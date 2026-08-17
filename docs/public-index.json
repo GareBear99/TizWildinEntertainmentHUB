@@ -1,11 +1,11 @@
 {
   "schemaVersion": "2.0",
-  "generatedAt": "2026-08-16",
+  "generatedAt": "2026-08-17",
   "name": "TizWildin Entertainment HUB Public Link Index",
   "description": "Static crawler-friendly index of TizWildin audio, producer, public list, credibility, and ARC source-spine routes.",
   "owner": "GareBear99",
   "baseUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB",
-  "itemCount": 174,
+  "itemCount": 175,
   "items": [
     {
       "cluster": "AI and Automation Tools",
@@ -2825,7 +2825,7 @@
       "cluster": "Game Asset Store / Itch Inventory",
       "kind": "Itch Game Tool / Formula",
       "name": "EZ GUI Menu Panels",
-      "description": "EZ GUI Menu Panels Official GareBearProductionz itch product ($2.50) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.",
+      "description": "EZ GUI Menu Panels Official GareBearProductionz itch product ($1.87 -25%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.",
       "repo": "",
       "url": "https://garebearproductionz.itch.io/menu-panels",
       "docs": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html",
@@ -2948,6 +2948,35 @@
       "page": "pages/itch-freeeq8-most-advanced-free-eq-opensource.html",
       "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-freeeq8-most-advanced-free-eq-opensource.html",
       "canonicalUrl": "https://garebearproductionz.itch.io/freeeq8-most-advanced-free-eq-opensource",
+      "repoUrl": "",
+      "docsUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html"
+    },
+    {
+      "cluster": "Game Asset Store / Itch Inventory",
+      "kind": "Itch Game Tool / Formula",
+      "name": "Gossamer — 289 Pixel Cobwebs, Corner Webs & Screen Overlays",
+      "description": "Spider Webs Official GareBearProductionz itch product ($1.12 -25%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.",
+      "repo": "",
+      "url": "https://garebearproductionz.itch.io/gossamer-pixel-cobwebs-corner-webs-screen-overlays",
+      "docs": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html",
+      "status": "released",
+      "tags": [
+        "itch",
+        "game-assets",
+        "garebearproductionz"
+      ],
+      "priority": 42,
+      "license": "See individual itch page",
+      "language": "HTML / JavaScript / Assets",
+      "source_manifest": "all_items.json",
+      "page_slug": "itch-gossamer-pixel-cobwebs-corner-webs-screen-overlays",
+      "render_page": true,
+      "cover": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/77%2FG0f.gif",
+      "animated": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/BSQRt6.gif",
+      "id": "itch-gossamer-pixel-cobwebs-corner-webs-screen-overlays",
+      "page": "pages/itch-gossamer-pixel-cobwebs-corner-webs-screen-overlays.html",
+      "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-gossamer-pixel-cobwebs-corner-webs-screen-overlays.html",
+      "canonicalUrl": "https://garebearproductionz.itch.io/gossamer-pixel-cobwebs-corner-webs-screen-overlays",
       "repoUrl": "",
       "docsUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html"
     },

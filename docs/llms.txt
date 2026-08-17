@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-08-16
+Generated: 2026-08-17
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -535,7 +535,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: evil-eye, svg, animation, icons, pixel-art, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
 
-- EZ GUI Menu Panels: EZ GUI Menu Panels Official GareBearProductionz itch product ($2.50) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- EZ GUI Menu Panels: EZ GUI Menu Panels Official GareBearProductionz itch product ($1.87 -25%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-menu-panels.html
   Public URL: https://garebearproductionz.itch.io/menu-panels
   GitHub: N/A
@@ -558,6 +558,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://garebearproductionz.itch.io/freeeq8-most-advanced-free-eq-opensource
   GitHub: N/A
   Tags: freeeq8, audio, plugin, eq, open-source, itch, game-assets, garebearproductionz
+
+- Gossamer — 289 Pixel Cobwebs, Corner Webs & Screen Overlays: Spider Webs Official GareBearProductionz itch product ($1.12 -25%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-gossamer-pixel-cobwebs-corner-webs-screen-overlays.html
+  Public URL: https://garebearproductionz.itch.io/gossamer-pixel-cobwebs-corner-webs-screen-overlays
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
 
 - GW3 Style 2D Projected 3D Grid World Synth Engine (Free): Free projected-3D grid world synth engine route. Official GareBearProductionz itch product (Free) in the Games & Playable Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-gw3-style-2d-projected-3d-grid-world-engine.html

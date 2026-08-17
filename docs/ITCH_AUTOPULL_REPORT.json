@@ -1,10 +1,14 @@
 {
-  "generatedAt": "2026-08-16T09:40:36Z",
+  "generatedAt": "2026-08-17T09:56:41Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 82,
-  "itemsWritten": 82,
-  "mediaReadyItems": 82,
+  "itemsParsed": 83,
+  "itemsWritten": 83,
+  "mediaReadyItems": 83,
   "detailStatus": [
+    {
+      "slug": "gossamer-pixel-cobwebs-corner-webs-screen-overlays",
+      "status": "ok"
+    },
     {
       "slug": "menu-panels",
       "status": "ok"
@@ -323,15 +327,15 @@
     },
     {
       "slug": "live-pentagram-formula-2d-3d",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/live-pentagram-formula-2d-3d: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "npc-theme-of-sacrifice",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/npc-theme-of-sacrifice: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "summoners-delights",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/summoners-delights: HTTP Error 429: Too Many Requests"
     }
   ],
   "sellerPagesBaked": [
