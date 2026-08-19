@@ -1,6 +1,6 @@
 {
   "schemaVersion": "2.0",
-  "generatedAt": "2026-08-18",
+  "generatedAt": "2026-08-19",
   "name": "TizWildin Entertainment HUB Public Link Index",
   "description": "Static crawler-friendly index of TizWildin audio, producer, public list, credibility, and ARC source-spine routes.",
   "owner": "GareBear99",
@@ -2971,8 +2971,8 @@
       "source_manifest": "all_items.json",
       "page_slug": "itch-gossamer-pixel-cobwebs-corner-webs-screen-overlays",
       "render_page": true,
-      "cover": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/77%2FG0f.gif",
-      "animated": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/BSQRt6.gif",
+      "cover": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/m8McAx.gif",
+      "animated": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/zlHpPj.gif",
       "id": "itch-gossamer-pixel-cobwebs-corner-webs-screen-overlays",
       "page": "pages/itch-gossamer-pixel-cobwebs-corner-webs-screen-overlays.html",
       "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-gossamer-pixel-cobwebs-corner-webs-screen-overlays.html",

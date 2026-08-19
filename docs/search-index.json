@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-18T09:48:10Z",
+  "generatedAt": "2026-08-19T09:48:53Z",
   "documentCount": 6720,
-  "tokenCount": 8325,
+  "tokenCount": 8324,
   "documents": [
     {
       "id": "route:slushai",
@@ -10244,20 +10244,19 @@
       "title": "TizWildinEntertainmentHUB / all_items.json",
       "kind": "indexed-file",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/repo-file-search.html?repo=tizwildin-entertainment-hub&q=all_items.json",
-      "summary": "{ \"schemaVersion\": \"1.0\", \"generatedAt\": \"2026 08 18T09:48:08Z\", \"owner\": \"GareBearProductionz\", \"accountUrl\": \"https://garebearproductionz.itch.io/\", \"summary\": { \"totalPublicProfileItems\": 83, \"formulaA1ItemsInManifest tizwildinentertainm",
+      "summary": "{ \"schemaVersion\": \"1.0\", \"generatedAt\": \"2026 08 19T09:48:51Z\", \"owner\": \"GareBearProductionz\", \"accountUrl\": \"https://garebearproductionz.itch.io/\", \"summary\": { \"totalPublicProfileItems\": 83, \"formulaA1ItemsInManifest tizwildinentertainm",
       "tokens": [
         ".json",
         "000.00",
         "08",
-        "08z",
         "1.0",
         "10-svg-programmable-live-backdrop-pipelines",
         "120-elemental-vfx-pixel-abilities-icons",
         "168.81",
         "18",
         "188490",
-        "18t09",
         "191122",
+        "19t09",
         "2026",
         "25.00",
         "28",
@@ -10265,6 +10264,7 @@
         "2d-sunset-generation-formula",
         "36",
         "48",
+        "51z",
         "55",
         "5k",
         "83",
@@ -13166,12 +13166,12 @@
       "title": "TizWildinEntertainmentHUB / docs/llms.txt",
       "kind": "indexed-file",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/repo-file-search.html?repo=tizwildin-entertainment-hub&q=docs/llms.txt",
-      "summary": "TizWildin Entertainment HUB Public Index Generated: 2026 08 18 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB This is the crawler/LLM friendly plain text index for the GareBear99 / TizWildin / ARC ecosy tizwildinentertainm",
+      "summary": "TizWildin Entertainment HUB Public Index Generated: 2026 08 19 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB This is the crawler/LLM friendly plain text index for the GareBear99 / TizWildin / ARC ecosy tizwildinentertainm",
       "tokens": [
         "#packs",
         ".txt",
         "08",
-        "18",
+        "19",
         "2026",
         "aether.html",
         "ai",
@@ -13726,17 +13726,17 @@
       "title": "TizWildinEntertainmentHUB / docs/ITCH_AUTOPULL_REPORT.json",
       "kind": "indexed-file",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/repo-file-search.html?repo=tizwildin-entertainment-hub&q=docs/ITCH_AUTOPULL_REPORT.json",
-      "summary": "{ \"generatedAt\": \"2026 08 18T09:48:08Z\", \"profileUrl\": \"https://garebearproductionz.itch.io/\", \"itemsParsed\": 83, \"itemsWritten\": 83, \"mediaReadyItems\": 83, \"detailStatus\": [ { \"slug\": \"gossamer pixel cobwebs corner webs tizwildinentertainm",
+      "summary": "{ \"generatedAt\": \"2026 08 19T09:48:51Z\", \"profileUrl\": \"https://garebearproductionz.itch.io/\", \"itemsParsed\": 83, \"itemsWritten\": 83, \"mediaReadyItems\": 83, \"detailStatus\": [ { \"slug\": \"gossamer pixel cobwebs corner webs tizwildinentertainm",
       "tokens": [
         ".json",
         "08",
-        "08z",
         "1200",
-        "18t09",
+        "19t09",
         "2026",
         "23",
         "30",
         "48",
+        "51z",
         "75",
         "752",
         "83",
@@ -15121,14 +15121,14 @@
       "title": "TizWildinEntertainmentHUB / docs/sitemap.xml",
       "kind": "indexed-file",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/repo-file-search.html?repo=tizwildin-entertainment-hub&q=docs/sitemap.xml",
-      "summary": "<?xml version=\"1.0\" encoding=\"UTF 8\"? <urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" <url <loc https://garebear99.github.io/TizWildinEntertainmentHUB/</loc <lastmod 2026 08 18</lastmod <changefreq weekly</ch tizwildinentertainm",
+      "summary": "<?xml version=\"1.0\" encoding=\"UTF 8\"? <urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" <url <loc https://garebear99.github.io/TizWildinEntertainmentHUB/</loc <lastmod 2026 08 19</lastmod <changefreq weekly</ch tizwildinentertainm",
       "tokens": [
         ".xml",
         "0.8",
         "0.9",
         "08",
         "1.0",
-        "18",
+        "19",
         "2026",
         "aether-card.svg",
         "arc-audiobench-card.svg",
@@ -15435,7 +15435,7 @@
       "title": "TizWildinEntertainmentHUB / docs/PUBLIC_LINK_GRAPH.md",
       "kind": "indexed-file",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/repo-file-search.html?repo=tizwildin-entertainment-hub&q=docs/PUBLIC_LINK_GRAPH.md",
-      "summary": "Public Link Graph Generated: 2026 08 18 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index. Summary Total indexed records: 175 Total clusters: 11 Generator: scripts/ tizwildinentertainm",
+      "summary": "Public Link Graph Generated: 2026 08 19 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index. Summary Total indexed records: 175 Total clusters: 11 Generator: scripts/ tizwildinentertainm",
       "tokens": [
         ".md",
         "08",
@@ -15443,7 +15443,7 @@
         "11",
         "120-elemental-vfx-pixel-abilities-icons",
         "175",
-        "18",
+        "19",
         "2026",
         "2d-chibi-pixel-elemental-rigging-concept",
         "2d-sunset-generation-formula",
@@ -15812,13 +15812,13 @@
       "title": "TizWildinEntertainmentHUB / docs/public-index.json",
       "kind": "indexed-file",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/repo-file-search.html?repo=tizwildin-entertainment-hub&q=docs/public-index.json",
-      "summary": "{ \"schemaVersion\": \"2.0\", \"generatedAt\": \"2026 08 18\", \"name\": \"TizWildin Entertainment HUB Public Link Index\", \"description\": \"Static crawler friendly index of TizWildin audio, producer, public list, credibility, and AR tizwildinentertainm",
+      "summary": "{ \"schemaVersion\": \"2.0\", \"generatedAt\": \"2026 08 19\", \"name\": \"TizWildin Entertainment HUB Public Link Index\", \"description\": \"Static crawler friendly index of TizWildin audio, producer, public list, credibility, and AR tizwildinentertainm",
       "tokens": [
         "#packs",
         ".json",
         "08",
         "175",
-        "18",
+        "19",
         "2.0",
         "2026",
         "35",
@@ -16315,7 +16315,7 @@
       "title": "TizWildinEntertainmentHUB / docs/SEO_BUILD_REPORT.json",
       "kind": "indexed-file",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/repo-file-search.html?repo=tizwildin-entertainment-hub&q=docs/SEO_BUILD_REPORT.json",
-      "summary": "{ \"generatedAt\": \"2026 08 18\", \"items\": 175, \"clusters\": { \"AI and Automation Tools\": 1, \"ARC Source Spine\": 17, \"Academic Papers and Technical Writing\": 8, \"Creator and Audio Tools\": 6, \"Credibility and Submission Track tizwildinentertainm",
+      "summary": "{ \"generatedAt\": \"2026 08 19\", \"items\": 175, \"clusters\": { \"AI and Automation Tools\": 1, \"ARC Source Spine\": 17, \"Academic Papers and Technical Writing\": 8, \"Creator and Audio Tools\": 6, \"Credibility and Submission Track tizwildinentertainm",
       "tokens": [
         ".json",
         "08",
@@ -16325,6 +16325,7 @@
         "17",
         "175",
         "18",
+        "19",
         "2026",
         "289",
         "404",
@@ -17074,23 +17075,24 @@
       "title": "TizWildinEntertainmentHUB / docs/index-health.json",
       "kind": "indexed-file",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/repo-file-search.html?repo=tizwildin-entertainment-hub&q=docs/index-health.json",
-      "summary": "{ \"schemaVersion\": \"1.0\", \"generatedAt\": \"2026 08 17T09:56:43Z\", \"qualityGrade\": \"A\", \"qualityScore\": 90, \"metrics\": { \"publicRoutes\": 175, \"sitemapUrls\": 404, \"sourceRepos\": 56, \"indexedFiles\": 1023, \"extractedLinks\": 5 tizwildinentertainm",
+      "summary": "{ \"schemaVersion\": \"1.0\", \"generatedAt\": \"2026 08 18T09:48:10Z\", \"qualityGrade\": \"A\", \"qualityScore\": 90, \"metrics\": { \"publicRoutes\": 175, \"sitemapUrls\": 404, \"sourceRepos\": 56, \"indexedFiles\": 1023, \"extractedLinks\": 5 tizwildinentertainm",
       "tokens": [
         ".json",
         "08",
         "1.0",
         "1023",
+        "10z",
         "175",
-        "17t09",
+        "18t09",
         "2026",
         "40",
         "404",
-        "43z",
-        "5469",
+        "48",
+        "5466",
         "56",
-        "6723",
+        "6720",
         "74.4",
-        "8327",
+        "8325",
         "90",
         "adding",
         "api",
@@ -17892,11 +17894,11 @@
       "title": "TizWildinEntertainmentHUB / docs/ORPHAN_PAGES_REPORT.json",
       "kind": "indexed-file",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/repo-file-search.html?repo=tizwildin-entertainment-hub&q=docs/ORPHAN_PAGES_REPORT.json",
-      "summary": "{ \"generatedAt\": \"2026 08 18\", \"orphanCount\": 58, \"note\": \"Pages present in docs/pages but not referenced by public index.json or sitemap.xml. Safe to prune or convert to meta refresh redirects once confirmed nothing ext tizwildinentertainm",
+      "summary": "{ \"generatedAt\": \"2026 08 19\", \"orphanCount\": 58, \"note\": \"Pages present in docs/pages but not referenced by public index.json or sitemap.xml. Safe to prune or convert to meta refresh redirects once confirmed nothing ext tizwildinentertainm",
       "tokens": [
         ".json",
         "08",
-        "18",
+        "19",
         "2026",
         "58",
         "account.html",
@@ -28002,20 +28004,19 @@
       "title": "TizWildinEntertainmentHUB / docs/data/all_items.json",
       "kind": "indexed-file",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/repo-file-search.html?repo=tizwildin-entertainment-hub&q=docs/data/all_items.json",
-      "summary": "{ \"schemaVersion\": \"1.0\", \"generatedAt\": \"2026 08 18T09:48:08Z\", \"owner\": \"GareBearProductionz\", \"accountUrl\": \"https://garebearproductionz.itch.io/\", \"summary\": { \"totalPublicProfileItems\": 83, \"formulaA1ItemsInManifest tizwildinentertainm",
+      "summary": "{ \"schemaVersion\": \"1.0\", \"generatedAt\": \"2026 08 19T09:48:51Z\", \"owner\": \"GareBearProductionz\", \"accountUrl\": \"https://garebearproductionz.itch.io/\", \"summary\": { \"totalPublicProfileItems\": 83, \"formulaA1ItemsInManifest tizwildinentertainm",
       "tokens": [
         ".json",
         "000.00",
         "08",
-        "08z",
         "1.0",
         "10-svg-programmable-live-backdrop-pipelines",
         "120-elemental-vfx-pixel-abilities-icons",
         "168.81",
         "18",
         "188490",
-        "18t09",
         "191122",
+        "19t09",
         "2026",
         "25.00",
         "28",
@@ -28023,6 +28024,7 @@
         "2d-sunset-generation-formula",
         "36",
         "48",
+        "51z",
         "55",
         "5k",
         "83",
@@ -41495,15 +41497,12 @@
       "tokens": [
         ".html",
         "289",
-        "2fg0f.gif",
-        "77",
         "all-account-inventory.html",
         "amp",
         "arc",
         "audio-tools",
         "author",
-        "aw1nlzi5mzi0mzy3lmdpzg",
-        "bsqrt6.gif",
+        "aw1nlzi5mzuzoti5lmdpzg",
         "canonical",
         "charset",
         "cobwebs",
@@ -41539,6 +41538,7 @@
         "lang",
         "large",
         "link",
+        "m8mcax.gif",
         "max",
         "meta",
         "name",
@@ -41570,9 +41570,10 @@
         "utf",
         "viewport",
         "webs",
-        "width"
+        "width",
+        "zlhppj.gif"
       ],
-      "tokenCount": 179,
+      "tokenCount": 178,
       "metadata": {
         "repo": "TizWildinEntertainmentHUB",
         "path": "docs/pages/itch-gossamer-pixel-cobwebs-corner-webs-screen-overlays.html"
@@ -102825,37 +102826,36 @@
     },
     {
       "id": "link:283",
-      "title": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/77%2FG0f.gif",
+      "title": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/m8McAx.gif",
       "kind": "extracted-link",
-      "url": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/77%2FG0f.gif",
-      "summary": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/77%2FG0f.gif TizWildinEntertainmentHUB ",
+      "url": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/m8McAx.gif",
+      "summary": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/m8McAx.gif TizWildinEntertainmentHUB ",
       "tokens": [
-        "2fg0f.gif",
-        "77",
-        "aw1nlzi5mzi0mzy3lmdpzg",
+        "aw1nlzi5mzuzoti5lmdpzg",
         "extracted-link",
         "img.itch.zone",
+        "m8mcax.gif",
         "original",
         "tizwildinentertainmenthub"
       ],
-      "tokenCount": 17,
+      "tokenCount": 14,
       "metadata": {
         "repo": "TizWildinEntertainmentHUB"
       }
     },
     {
       "id": "link:284",
-      "title": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/BSQRt6.gif",
+      "title": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/zlHpPj.gif",
       "kind": "extracted-link",
-      "url": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/BSQRt6.gif",
-      "summary": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/BSQRt6.gif TizWildinEntertainmentHUB ",
+      "url": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/zlHpPj.gif",
+      "summary": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/zlHpPj.gif TizWildinEntertainmentHUB ",
       "tokens": [
-        "aw1nlzi5mzi0mzy3lmdpzg",
-        "bsqrt6.gif",
+        "aw1nlzi5mzuzoti5lmdpzg",
         "extracted-link",
         "img.itch.zone",
         "original",
-        "tizwildinentertainmenthub"
+        "tizwildinentertainmenthub",
+        "zlhppj.gif"
       ],
       "tokenCount": 14,
       "metadata": {
@@ -107195,37 +107195,36 @@
     },
     {
       "id": "link:522",
-      "title": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/77%2FG0f.gif",
+      "title": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/m8McAx.gif",
       "kind": "extracted-link",
-      "url": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/77%2FG0f.gif",
-      "summary": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/77%2FG0f.gif TizWildinEntertainmentHUB ",
+      "url": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/m8McAx.gif",
+      "summary": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/m8McAx.gif TizWildinEntertainmentHUB ",
       "tokens": [
-        "2fg0f.gif",
-        "77",
-        "aw1nlzi5mzi0mzy3lmdpzg",
+        "aw1nlzi5mzuzoti5lmdpzg",
         "extracted-link",
         "img.itch.zone",
+        "m8mcax.gif",
         "original",
         "tizwildinentertainmenthub"
       ],
-      "tokenCount": 17,
+      "tokenCount": 14,
       "metadata": {
         "repo": "TizWildinEntertainmentHUB"
       }
     },
     {
       "id": "link:523",
-      "title": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/BSQRt6.gif",
+      "title": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/zlHpPj.gif",
       "kind": "extracted-link",
-      "url": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/BSQRt6.gif",
-      "summary": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/BSQRt6.gif TizWildinEntertainmentHUB ",
+      "url": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/zlHpPj.gif",
+      "summary": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/zlHpPj.gif TizWildinEntertainmentHUB ",
       "tokens": [
-        "aw1nlzi5mzi0mzy3lmdpzg",
-        "bsqrt6.gif",
+        "aw1nlzi5mzuzoti5lmdpzg",
         "extracted-link",
         "img.itch.zone",
         "original",
-        "tizwildinentertainmenthub"
+        "tizwildinentertainmenthub",
+        "zlhppj.gif"
       ],
       "tokenCount": 14,
       "metadata": {
@@ -148792,37 +148791,36 @@
     },
     {
       "id": "link:2828",
-      "title": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/77%2FG0f.gif",
+      "title": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/m8McAx.gif",
       "kind": "extracted-link",
-      "url": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/77%2FG0f.gif",
-      "summary": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/77%2FG0f.gif TizWildinEntertainmentHUB ",
+      "url": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/m8McAx.gif",
+      "summary": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/m8McAx.gif TizWildinEntertainmentHUB ",
       "tokens": [
-        "2fg0f.gif",
-        "77",
-        "aw1nlzi5mzi0mzy3lmdpzg",
+        "aw1nlzi5mzuzoti5lmdpzg",
         "extracted-link",
         "img.itch.zone",
+        "m8mcax.gif",
         "original",
         "tizwildinentertainmenthub"
       ],
-      "tokenCount": 17,
+      "tokenCount": 14,
       "metadata": {
         "repo": "TizWildinEntertainmentHUB"
       }
     },
     {
       "id": "link:2829",
-      "title": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/BSQRt6.gif",
+      "title": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/zlHpPj.gif",
       "kind": "extracted-link",
-      "url": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/BSQRt6.gif",
-      "summary": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/BSQRt6.gif TizWildinEntertainmentHUB ",
+      "url": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/zlHpPj.gif",
+      "summary": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/zlHpPj.gif TizWildinEntertainmentHUB ",
       "tokens": [
-        "aw1nlzi5mzi0mzy3lmdpzg",
-        "bsqrt6.gif",
+        "aw1nlzi5mzuzoti5lmdpzg",
         "extracted-link",
         "img.itch.zone",
         "original",
-        "tizwildinentertainmenthub"
+        "tizwildinentertainmenthub",
+        "zlhppj.gif"
       ],
       "tokenCount": 14,
       "metadata": {
@@ -162137,37 +162135,36 @@
     },
     {
       "id": "link:3590",
-      "title": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/77%2FG0f.gif",
+      "title": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/m8McAx.gif",
       "kind": "extracted-link",
-      "url": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/77%2FG0f.gif",
-      "summary": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/77%2FG0f.gif TizWildinEntertainmentHUB ",
+      "url": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/m8McAx.gif",
+      "summary": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/m8McAx.gif TizWildinEntertainmentHUB ",
       "tokens": [
-        "2fg0f.gif",
-        "77",
-        "aw1nlzi5mzi0mzy3lmdpzg",
+        "aw1nlzi5mzuzoti5lmdpzg",
         "extracted-link",
         "img.itch.zone",
+        "m8mcax.gif",
         "original",
         "tizwildinentertainmenthub"
       ],
-      "tokenCount": 17,
+      "tokenCount": 14,
       "metadata": {
         "repo": "TizWildinEntertainmentHUB"
       }
     },
     {
       "id": "link:3591",
-      "title": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/BSQRt6.gif",
+      "title": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/zlHpPj.gif",
       "kind": "extracted-link",
-      "url": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/BSQRt6.gif",
-      "summary": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/BSQRt6.gif TizWildinEntertainmentHUB ",
+      "url": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/zlHpPj.gif",
+      "summary": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/zlHpPj.gif TizWildinEntertainmentHUB ",
       "tokens": [
-        "aw1nlzi5mzi0mzy3lmdpzg",
-        "bsqrt6.gif",
+        "aw1nlzi5mzuzoti5lmdpzg",
         "extracted-link",
         "img.itch.zone",
         "original",
-        "tizwildinentertainmenthub"
+        "tizwildinentertainmenthub",
+        "zlhppj.gif"
       ],
       "tokenCount": 14,
       "metadata": {
@@ -166643,37 +166640,36 @@
     },
     {
       "id": "link:3837",
-      "title": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/77%2FG0f.gif",
+      "title": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/m8McAx.gif",
       "kind": "extracted-link",
-      "url": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/77%2FG0f.gif",
-      "summary": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/77%2FG0f.gif TizWildinEntertainmentHUB ",
+      "url": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/m8McAx.gif",
+      "summary": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/m8McAx.gif TizWildinEntertainmentHUB ",
       "tokens": [
-        "2fg0f.gif",
-        "77",
-        "aw1nlzi5mzi0mzy3lmdpzg",
+        "aw1nlzi5mzuzoti5lmdpzg",
         "extracted-link",
         "img.itch.zone",
+        "m8mcax.gif",
         "original",
         "tizwildinentertainmenthub"
       ],
-      "tokenCount": 17,
+      "tokenCount": 14,
       "metadata": {
         "repo": "TizWildinEntertainmentHUB"
       }
     },
     {
       "id": "link:3838",
-      "title": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/BSQRt6.gif",
+      "title": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/zlHpPj.gif",
       "kind": "extracted-link",
-      "url": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/BSQRt6.gif",
-      "summary": "https://img.itch.zone/aW1nLzI5MzI0MzY3LmdpZg==/original/BSQRt6.gif TizWildinEntertainmentHUB ",
+      "url": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/zlHpPj.gif",
+      "summary": "https://img.itch.zone/aW1nLzI5MzUzOTI5LmdpZg==/original/zlHpPj.gif TizWildinEntertainmentHUB ",
       "tokens": [
-        "aw1nlzi5mzi0mzy3lmdpzg",
-        "bsqrt6.gif",
+        "aw1nlzi5mzuzoti5lmdpzg",
         "extracted-link",
         "img.itch.zone",
         "original",
-        "tizwildinentertainmenthub"
+        "tizwildinentertainmenthub",
+        "zlhppj.gif"
       ],
       "tokenCount": 14,
       "metadata": {
@@ -239098,12 +239094,7 @@
       102,
       235,
       237,
-      266,
-      283,
-      286,
-      289,
       294,
-      310,
       338,
       441,
       454,
@@ -261057,11 +261048,6 @@
       310,
       454
     ],
-    "08z": [
-      235,
-      270,
-      454
-    ],
     "10-svg-programmable-live-backdrop-pipelines": [
       235,
       241,
@@ -261114,11 +261100,6 @@
       4084,
       5093
     ],
-    "18t09": [
-      235,
-      270,
-      454
-    ],
     "191122": [
       235,
       237,
@@ -261128,6 +261109,11 @@
       1779,
       4085,
       5094
+    ],
+    "19t09": [
+      235,
+      270,
+      454
     ],
     "2026": [
       235,
@@ -261230,11 +261216,17 @@
     "48": [
       235,
       270,
+      302,
       454,
       962,
       979,
       997,
       1015
+    ],
+    "51z": [
+      235,
+      270,
+      454
     ],
     "55": [
       235,
@@ -268219,8 +268211,14 @@
     ],
     "19": [
       246,
+      266,
+      283,
+      286,
+      289,
+      294,
       301,
-      303
+      303,
+      310
     ],
     "brand": [
       246
@@ -281048,7 +281046,10 @@
     "1023": [
       302
     ],
-    "17t09": [
+    "10z": [
+      302
+    ],
+    "18t09": [
       302
     ],
     "40": [
@@ -281056,19 +281057,16 @@
       441,
       989
     ],
-    "43z": [
+    "5466": [
       302
     ],
-    "5469": [
-      302
-    ],
-    "6723": [
+    "6720": [
       302
     ],
     "74.4": [
       302
     ],
-    "8327": [
+    "8325": [
       302
     ],
     "90": [
@@ -293568,23 +293566,7 @@
       5058,
       5478
     ],
-    "2fg0f.gif": [
-      608,
-      1537,
-      1776,
-      4082,
-      4844,
-      5091
-    ],
-    "77": [
-      608,
-      1537,
-      1776,
-      4082,
-      4844,
-      5091
-    ],
-    "aw1nlzi5mzi0mzy3lmdpzg": [
+    "aw1nlzi5mzuzoti5lmdpzg": [
       608,
       1537,
       1538,
@@ -293597,16 +293579,24 @@
       5091,
       5092
     ],
-    "bsqrt6.gif": [
+    "m8mcax.gif": [
+      608,
+      1537,
+      1776,
+      4082,
+      4844,
+      5091
+    ],
+    "overlays.html": [
+      608
+    ],
+    "zlhppj.gif": [
       608,
       1538,
       1777,
       4083,
       4845,
       5092
-    ],
-    "overlays.html": [
-      608
     ],
     "reposit": [
       609,
