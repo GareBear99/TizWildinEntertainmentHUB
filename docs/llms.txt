@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-08-21
+Generated: 2026-08-22
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -451,12 +451,6 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Arcanum I - Part 3 — Animated Full-Screen VFX Overlays (30 screens, 960 frames): Arcanum I - Part 3 — Animated Full-Screen VFX Overlays (30 screens, 960 frames) Official GareBearProductionz itch product ($3.33) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
-  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-arcanum-i-part-3-animated-full-screen-vfx-overlays-30-screens-960-frames.html
-  Public URL: https://garebearproductionz.itch.io/arcanum-i-part-3-animated-full-screen-vfx-overlays-30-screens-960-frames
-  GitHub: N/A
-  Tags: itch, game-assets, garebearproductionz
-
 - Black & Red Dice SVG & PNG 2D-3D Export Engine: Black & Red Dice SVG & PNG 2D-3D Export Engine Official GareBearProductionz itch product ($3.50 -50%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-black-red-dice-svg-png-export-engine.html
   Public URL: https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine
@@ -486,12 +480,6 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://garebearproductionz.itch.io/cool-backdrop-layers-engine
   GitHub: N/A
   Tags: backdrop, layers, engine, svg, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
-
-- Crawl Space SVG Live Backdrop Engine & Animated Prop Layers: Crawl-space live backdrop engine with animated SVG prop layers. Official GareBearProductionz itch product ($1.25 -50%) in the Live Backdrops & Scene Engines line; checkout and downloads happen on the official itch page.
-  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-crawl-space-svg-live-backdrop-engine-animated-props.html
-  Public URL: https://garebearproductionz.itch.io/crawl-space-svg-live-backdrop-engine-animated-props
-  GitHub: N/A
-  Tags: backdrop, svg, animation, props, pixel-art, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
 
 - Dark Fantasy Dungeon Builder - Free Four-Realm Tileset: Dark Fantasy Dungeon Builder - Free Four-Realm Tileset Official GareBearProductionz itch product (Free) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-dark-fantasy-dungeon-builder-free-four-realm-tileset.html
@@ -534,12 +522,6 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://garebearproductionz.itch.io/evil-eye-four-pack
   GitHub: N/A
   Tags: evil-eye, svg, animation, icons, pixel-art, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
-
-- EZ GUI Menu Panels: EZ GUI Menu Panels Official GareBearProductionz itch product ($2.50) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
-  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-menu-panels.html
-  Public URL: https://garebearproductionz.itch.io/menu-panels
-  GitHub: N/A
-  Tags: itch, game-assets, garebearproductionz
 
 - FREE Haunter Sprites: FREE Haunter Sprites Official GareBearProductionz itch product (FREE) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-free-haunter-sprites.html

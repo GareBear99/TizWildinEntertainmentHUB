@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-21",
-  "orphanCount": 58,
+  "generatedAt": "2026-08-22",
+  "orphanCount": 61,
   "note": "Pages present in docs/pages but not referenced by public-index.json or sitemap.xml. Safe to prune or convert to meta-refresh redirects once confirmed nothing external links to them.",
   "orphans": [
     "account.html",
@@ -27,9 +27,12 @@
     "discovery-lists-and-public-routes-tizwildin-io-router.html",
     "discovery-lists-and-public-routes-tizwildin-release-vault.html",
     "docs.html",
+    "itch-arcanum-i-part-3-animated-full-screen-vfx-overlays-30-screens-960-frames.html",
     "itch-coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts.html",
+    "itch-crawl-space-svg-live-backdrop-engine-animated-props.html",
     "itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html",
     "itch-enchanted-sprite-fx-engine.html",
+    "itch-menu-panels.html",
     "itch-slagworks-4-map-animated-tileset.html",
     "tizwildin-audio-plugins-aether.html",
     "tizwildin-audio-plugins-bassmaid.html",
