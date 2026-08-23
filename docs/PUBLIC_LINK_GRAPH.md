@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-08-22
+Generated: 2026-08-23
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **172**
+- Total indexed records: **173**
 - Total clusters: **11**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -106,6 +106,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [FireBall Generator & Formula/Sprite Exporter](pages/itch-fireball-generator-formula.html) | Itch Asset Pack | https://garebearproductionz.itch.io/fireball-generator-formula | fireball, comet, sprite-generator, gif, json, vfx, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [The Ultimate Everything Laser Pack & Dynamic Generator Engine (49 Sprite Sheets)](pages/itch-the-ultimate-everything-laser-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/the-ultimate-everything-laser-pack | laser, vfx, spritesheet, gif, json, offline-tool, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [(FREE) Pixel Paladin Hammer + Chibi](pages/itch-free-pixel-paladin-hammer-chibi.html) | Itch Asset Pack | https://garebearproductionz.itch.io/free-pixel-paladin-hammer-chibi | free, hammer, paladin, chibi, pixel-art, itch, game-assets, garebearproductionz |
+| [1,200 Animated Pixel Sigils — Magic Circles, Runes & Loading Spinners](pages/itch-1200-animated-pixel-sigils-magic-circles-runes-loading-spinners.html) | Itch Asset Pack | https://garebearproductionz.itch.io/1200-animated-pixel-sigils-magic-circles-runes-loading-spinners | itch, game-assets, garebearproductionz |
 | [12 Sigil Color Dynamic Icon SVG Export Pack & Hover FX Engine](pages/itch-color-dynamic-sigils-svg-export-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/color-dynamic-sigils-svg-export-pack | sigil, svg, icons, live-icon, hover, export, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [120 Elemental VFX Pixel Abilities & Icons](pages/itch-120-elemental-vfx-pixel-abilities-icons.html) | Itch Asset Pack | https://garebearproductionz.itch.io/120-elemental-vfx-pixel-abilities-icons | itch, game-assets, garebearproductionz |
 | [2D Chibi-Pixel Elemental Rigging Concept (FREE)](pages/itch-2d-chibi-pixel-elemental-rigging-concept.html) | Itch Asset Pack | https://garebearproductionz.itch.io/2d-chibi-pixel-elemental-rigging-concept | free, chibi, elemental, rigging, sprites, itch, game-assets, garebearproductionz |

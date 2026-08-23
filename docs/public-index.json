@@ -1,11 +1,11 @@
 {
   "schemaVersion": "2.0",
-  "generatedAt": "2026-08-22",
+  "generatedAt": "2026-08-23",
   "name": "TizWildin Entertainment HUB Public Link Index",
   "description": "Static crawler-friendly index of TizWildin audio, producer, public list, credibility, and ARC source-spine routes.",
   "owner": "GareBear99",
   "baseUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB",
-  "itemCount": 172,
+  "itemCount": 173,
   "items": [
     {
       "cluster": "AI and Automation Tools",
@@ -1951,6 +1951,35 @@
       "page": "pages/itch-free-pixel-paladin-hammer-chibi.html",
       "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-free-pixel-paladin-hammer-chibi.html",
       "canonicalUrl": "https://garebearproductionz.itch.io/free-pixel-paladin-hammer-chibi",
+      "repoUrl": "",
+      "docsUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html"
+    },
+    {
+      "cluster": "Game Asset Store / Itch Inventory",
+      "kind": "Itch Asset Pack",
+      "name": "1,200 Animated Pixel Sigils — Magic Circles, Runes & Loading Spinners",
+      "description": "Arcanum II - Part 1 Official GareBearProductionz itch product (paid) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.",
+      "repo": "",
+      "url": "https://garebearproductionz.itch.io/1200-animated-pixel-sigils-magic-circles-runes-loading-spinners",
+      "docs": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html",
+      "status": "released",
+      "tags": [
+        "itch",
+        "game-assets",
+        "garebearproductionz"
+      ],
+      "priority": 42,
+      "license": "See individual itch page",
+      "language": "HTML / JavaScript / Assets",
+      "source_manifest": "all_items.json",
+      "page_slug": "itch-1200-animated-pixel-sigils-magic-circles-runes-loading-spinners",
+      "render_page": true,
+      "cover": "https://img.itch.zone/aW1nLzI5NDY1MTExLmdpZg==/original/PfEc3J.gif",
+      "animated": "https://img.itch.zone/aW1nLzI5NDY1MTExLmdpZg==/original/IOVBa4.gif",
+      "id": "itch-1200-animated-pixel-sigils-magic-circles-runes-loading-spinners",
+      "page": "pages/itch-1200-animated-pixel-sigils-magic-circles-runes-loading-spinners.html",
+      "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-1200-animated-pixel-sigils-magic-circles-runes-loading-spinners.html",
+      "canonicalUrl": "https://garebearproductionz.itch.io/1200-animated-pixel-sigils-magic-circles-runes-loading-spinners",
       "repoUrl": "",
       "docsUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html"
     },

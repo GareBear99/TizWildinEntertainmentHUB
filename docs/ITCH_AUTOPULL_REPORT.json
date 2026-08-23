@@ -1,10 +1,14 @@
 {
-  "generatedAt": "2026-08-22T09:41:19Z",
+  "generatedAt": "2026-08-23T09:42:15Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 80,
-  "itemsWritten": 80,
-  "mediaReadyItems": 80,
+  "itemsParsed": 81,
+  "itemsWritten": 81,
+  "mediaReadyItems": 81,
   "detailStatus": [
+    {
+      "slug": "1200-animated-pixel-sigils-magic-circles-runes-loading-spinners",
+      "status": "ok"
+    },
     {
       "slug": "gossamer-pixel-cobwebs-corner-webs-screen-overlays",
       "status": "ok"
@@ -227,15 +231,15 @@
     },
     {
       "slug": "infernal-hell-icons-free-basic-fx",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/infernal-hell-icons-free-basic-fx: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "svg-icon-starter-kit-pipeline",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/svg-icon-starter-kit-pipeline: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "holy-svg-png-icon-set",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/holy-svg-png-icon-set: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "spectral-icon-svg-pipeline-kit",
@@ -311,11 +315,11 @@
     },
     {
       "slug": "2d-sunset-generation-formula",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/2d-sunset-generation-formula: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "live-pentagram-formula-2d-3d",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/live-pentagram-formula-2d-3d: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "npc-theme-of-sacrifice",

@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-08-22
+Generated: 2026-08-23
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -372,6 +372,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://garebearproductionz.itch.io/free-pixel-paladin-hammer-chibi
   GitHub: N/A
   Tags: free, hammer, paladin, chibi, pixel-art, itch, game-assets, garebearproductionz
+
+- 1,200 Animated Pixel Sigils — Magic Circles, Runes & Loading Spinners: Arcanum II - Part 1 Official GareBearProductionz itch product (paid) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-1200-animated-pixel-sigils-magic-circles-runes-loading-spinners.html
+  Public URL: https://garebearproductionz.itch.io/1200-animated-pixel-sigils-magic-circles-runes-loading-spinners
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
 
 - 12 Sigil Color Dynamic Icon SVG Export Pack & Hover FX Engine: 12 animated color-dynamic sigil icons with hover lift, glow and SVG export tooling. Official GareBearProductionz itch product ($1.66 -50%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-color-dynamic-sigils-svg-export-pack.html
