@@ -1,10 +1,14 @@
 {
-  "generatedAt": "2026-08-23T09:42:15Z",
+  "generatedAt": "2026-08-24T10:03:11Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 81,
-  "itemsWritten": 81,
-  "mediaReadyItems": 81,
+  "itemsParsed": 82,
+  "itemsWritten": 82,
+  "mediaReadyItems": 82,
   "detailStatus": [
+    {
+      "slug": "256-pixel-runes-glyphs-symbols-that-write-themselves",
+      "status": "ok"
+    },
     {
       "slug": "1200-animated-pixel-sigils-magic-circles-runes-loading-spinners",
       "status": "ok"
@@ -231,15 +235,15 @@
     },
     {
       "slug": "infernal-hell-icons-free-basic-fx",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/infernal-hell-icons-free-basic-fx: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "svg-icon-starter-kit-pipeline",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/svg-icon-starter-kit-pipeline: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "holy-svg-png-icon-set",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/holy-svg-png-icon-set: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "spectral-icon-svg-pipeline-kit",

@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-08-23
+Generated: 2026-08-24
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **173**
+- Total indexed records: **174**
 - Total clusters: **11**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -109,6 +109,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [1,200 Animated Pixel Sigils — Magic Circles, Runes & Loading Spinners](pages/itch-1200-animated-pixel-sigils-magic-circles-runes-loading-spinners.html) | Itch Asset Pack | https://garebearproductionz.itch.io/1200-animated-pixel-sigils-magic-circles-runes-loading-spinners | itch, game-assets, garebearproductionz |
 | [12 Sigil Color Dynamic Icon SVG Export Pack & Hover FX Engine](pages/itch-color-dynamic-sigils-svg-export-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/color-dynamic-sigils-svg-export-pack | sigil, svg, icons, live-icon, hover, export, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [120 Elemental VFX Pixel Abilities & Icons](pages/itch-120-elemental-vfx-pixel-abilities-icons.html) | Itch Asset Pack | https://garebearproductionz.itch.io/120-elemental-vfx-pixel-abilities-icons | itch, game-assets, garebearproductionz |
+| [256 pixel runes, glyphs & symbols that write themselves](pages/itch-256-pixel-runes-glyphs-symbols-that-write-themselves.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/256-pixel-runes-glyphs-symbols-that-write-themselves | itch, game-assets, garebearproductionz |
 | [2D Chibi-Pixel Elemental Rigging Concept (FREE)](pages/itch-2d-chibi-pixel-elemental-rigging-concept.html) | Itch Asset Pack | https://garebearproductionz.itch.io/2d-chibi-pixel-elemental-rigging-concept | free, chibi, elemental, rigging, sprites, itch, game-assets, garebearproductionz |
 | [2D Sunset Generator & Formula + Sprites (FREE)](pages/itch-2d-sunset-generation-formula.html) | Itch Asset Pack | https://garebearproductionz.itch.io/2d-sunset-generation-formula | free, sunset, backdrop, generator, sprites, itch, game-assets, garebearproductionz |
 | [2D-2.5D Gravity Projectile Generator/Formula](pages/itch-gravity-projectile-generator-formula.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/gravity-projectile-generator-formula | gravity, projectile, 2d, 2.5d, formula, itch, game-assets, garebearproductionz |
