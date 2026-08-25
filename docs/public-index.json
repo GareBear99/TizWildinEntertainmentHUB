@@ -1,6 +1,6 @@
 {
   "schemaVersion": "2.0",
-  "generatedAt": "2026-08-24",
+  "generatedAt": "2026-08-25",
   "name": "TizWildin Entertainment HUB Public Link Index",
   "description": "Static crawler-friendly index of TizWildin audio, producer, public list, credibility, and ARC source-spine routes.",
   "owner": "GareBear99",
@@ -2279,7 +2279,7 @@
       "source_manifest": "all_items.json",
       "page_slug": "itch-sprite-color-effect-mutator-engine",
       "render_page": true,
-      "cover": "https://img.itch.zone/aW1nLzI5NDg1NjczLmpwZWc=/original/akjmoO.jpeg",
+      "cover": "https://img.itch.zone/aW1nLzI5NTE5ODMzLmpwZWc=/original/FlDqX8.jpeg",
       "animated": "https://img.itch.zone/aW1nLzI4MTY0OTU3LmdpZg==/original/HXtiKD.gif",
       "id": "itch-sprite-color-effect-mutator-engine",
       "page": "pages/itch-sprite-color-effect-mutator-engine.html",
