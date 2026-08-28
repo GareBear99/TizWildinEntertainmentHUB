@@ -1,6 +1,6 @@
 # Public Link Graph
 
-Generated: 2026-08-27
+Generated: 2026-08-28
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
