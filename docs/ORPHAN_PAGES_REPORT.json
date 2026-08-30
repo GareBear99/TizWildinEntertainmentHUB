@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29",
+  "generatedAt": "2026-08-30",
   "orphanCount": 61,
   "note": "Pages present in docs/pages but not referenced by public-index.json or sitemap.xml. Safe to prune or convert to meta-refresh redirects once confirmed nothing external links to them.",
   "orphans": [
