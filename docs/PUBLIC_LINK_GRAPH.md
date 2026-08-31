@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-08-30
+Generated: 2026-08-31
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **174**
+- Total indexed records: **176**
 - Total clusters: **11**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -106,13 +106,14 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [FireBall Generator & Formula/Sprite Exporter](pages/itch-fireball-generator-formula.html) | Itch Asset Pack | https://garebearproductionz.itch.io/fireball-generator-formula | fireball, comet, sprite-generator, gif, json, vfx, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [The Ultimate Everything Laser Pack & Dynamic Generator Engine (49 Sprite Sheets)](pages/itch-the-ultimate-everything-laser-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/the-ultimate-everything-laser-pack | laser, vfx, spritesheet, gif, json, offline-tool, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [(FREE) Pixel Paladin Hammer + Chibi](pages/itch-free-pixel-paladin-hammer-chibi.html) | Itch Asset Pack | https://garebearproductionz.itch.io/free-pixel-paladin-hammer-chibi | free, hammer, paladin, chibi, pixel-art, itch, game-assets, garebearproductionz |
-| [1,200 Animated Pixel Sigils — Magic Circles, Runes & Loading Spinners](pages/itch-1200-animated-pixel-sigils-magic-circles-runes-loading-spinners.html) | Itch Asset Pack | https://garebearproductionz.itch.io/1200-animated-pixel-sigils-magic-circles-runes-loading-spinners | itch, game-assets, garebearproductionz |
+| [1,200 Animated Pixel Sigils - Magic Circles, Runes & Loading Spinners](pages/itch-1200-animated-pixel-sigils-magic-circles-runes-loading-spinners.html) | Itch Asset Pack | https://garebearproductionz.itch.io/1200-animated-pixel-sigils-magic-circles-runes-loading-spinners | itch, game-assets, garebearproductionz |
 | [12 Sigil Color Dynamic Icon SVG Export Pack & Hover FX Engine](pages/itch-color-dynamic-sigils-svg-export-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/color-dynamic-sigils-svg-export-pack | sigil, svg, icons, live-icon, hover, export, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [120 Elemental VFX Pixel Abilities & Icons](pages/itch-120-elemental-vfx-pixel-abilities-icons.html) | Itch Asset Pack | https://garebearproductionz.itch.io/120-elemental-vfx-pixel-abilities-icons | itch, game-assets, garebearproductionz |
 | [256 pixel runes, glyphs & symbols that write themselves](pages/itch-256-pixel-runes-glyphs-symbols-that-write-themselves.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/256-pixel-runes-glyphs-symbols-that-write-themselves | itch, game-assets, garebearproductionz |
 | [2D Chibi-Pixel Elemental Rigging Concept (FREE)](pages/itch-2d-chibi-pixel-elemental-rigging-concept.html) | Itch Asset Pack | https://garebearproductionz.itch.io/2d-chibi-pixel-elemental-rigging-concept | free, chibi, elemental, rigging, sprites, itch, game-assets, garebearproductionz |
 | [2D Sunset Generator & Formula + Sprites (FREE)](pages/itch-2d-sunset-generation-formula.html) | Itch Asset Pack | https://garebearproductionz.itch.io/2d-sunset-generation-formula | free, sunset, backdrop, generator, sprites, itch, game-assets, garebearproductionz |
 | [2D-2.5D Gravity Projectile Generator/Formula](pages/itch-gravity-projectile-generator-formula.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/gravity-projectile-generator-formula | gravity, projectile, 2d, 2.5d, formula, itch, game-assets, garebearproductionz |
+| [40 animated Pixel FX Pack - Dash, Land, Impact](pages/itch-40-animated-pixel-fx-pack-dash-land-impact.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/40-animated-pixel-fx-pack-dash-land-impact | itch, game-assets, garebearproductionz |
 | [AA Indie Demon Sprite Sheet Generator Formula V1](pages/itch-demon-sprite-sheet-generator.html) | Itch Asset Pack | https://garebearproductionz.itch.io/demon-sprite-sheet-generator | demon, sprite-sheet, generator, formula, pixel-art, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [AAAA Layered Mountain Dynamic Sky Live Backdrop Engine](pages/itch-aaaa-layered-mountain-dynamic-sky-live-backdrop-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/aaaa-layered-mountain-dynamic-sky-live-backdrop-engine | mountain, sky, backdrop, seeded, svg, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [AAAA Sprite Mutation & Continuity Engine & Exporter](pages/itch-sprite-color-effect-mutator-engine.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/sprite-color-effect-mutator-engine | sprite, mutation, continuity, exporter, vfx, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
@@ -163,6 +164,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Pyro-Maniac Chibi Sprite Pack (FREE)](pages/itch-pyromancy-chibi-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/pyromancy-chibi-pack | free, pyro, chibi, sprite, pixel-art, itch, game-assets, garebearproductionz |
 | [Reward Pocket Generator Formula](pages/itch-reward-pocket-generator-formula.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/reward-pocket-generator-formula | reward, generator, formula, items, game-dev, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Scarlet Witch DarkHold Sprite (FREE)](pages/itch-scarlette-witchs-darkhold-sprite-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/scarlette-witchs-darkhold-sprite-free | free, sprite, darkhold, pixel-art, itch, game-assets, garebearproductionz |
+| [Shadow Pixel Character Pack - copies any sprite](pages/itch-shadow-pixel-character-pack-copies-any-sprite.html) | Itch Asset Pack | https://garebearproductionz.itch.io/shadow-pixel-character-pack-copies-any-sprite | itch, game-assets, garebearproductionz |
 | [Skully Asset Pack & Lightweight Canvas Engine Demo](pages/itch-skully-asset-pack-lightweight-canvas-engine-demo.html) | Itch Playable Game / Engine | https://garebearproductionz.itch.io/skully-asset-pack-lightweight-canvas-engine-demo | skully, canvas, engine, skeleton, pixel-art, itch, game-assets, garebearproductionz |
 | [SLAGWORKS: CinderHaul - 6 Map Animated Tileset 1,910 Sprites](pages/itch-slagworks-cinderhaul-6-map-animated-tileset.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/slagworks-cinderhaul-6-map-animated-tileset | itch, game-assets, garebearproductionz |
 | [SLAGWORKS: Spectral Carnage Sewer Deck (FREE)](pages/itch-spectral-carnage-sewers-free-tileset-map.html) | Itch Asset Pack | https://garebearproductionz.itch.io/spectral-carnage-sewers-free-tileset-map | itch, game-assets, garebearproductionz |

@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-08-30
+Generated: 2026-08-31
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -373,7 +373,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: free, hammer, paladin, chibi, pixel-art, itch, game-assets, garebearproductionz
 
-- 1,200 Animated Pixel Sigils — Magic Circles, Runes & Loading Spinners: Arcanum II - Part 1: 1200 VFX Sigils Official GareBearProductionz itch product ($3.33 -25%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
+- 1,200 Animated Pixel Sigils - Magic Circles, Runes & Loading Spinners: Arcanum II - Part 1: 1200 VFX Sigils Official GareBearProductionz itch product ($3.33 -25%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-1200-animated-pixel-sigils-magic-circles-runes-loading-spinners.html
   Public URL: https://garebearproductionz.itch.io/1200-animated-pixel-sigils-magic-circles-runes-loading-spinners
   GitHub: N/A
@@ -414,6 +414,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://garebearproductionz.itch.io/gravity-projectile-generator-formula
   GitHub: N/A
   Tags: gravity, projectile, 2d, 2.5d, formula, itch, game-assets, garebearproductionz
+
+- 40 animated Pixel FX Pack - Dash, Land, Impact: 40 animated effect strips. 8 recolour sets. 264 PNGs Official GareBearProductionz itch product ($3.33 -25%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-40-animated-pixel-fx-pack-dash-land-impact.html
+  Public URL: https://garebearproductionz.itch.io/40-animated-pixel-fx-pack-dash-land-impact
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
 
 - AA Indie Demon Sprite Sheet Generator Formula V1: Demon sprite-sheet generator/formula package. Official GareBearProductionz itch product ($2.49 -25%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-demon-sprite-sheet-generator.html
@@ -714,6 +720,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://garebearproductionz.itch.io/scarlette-witchs-darkhold-sprite-free
   GitHub: N/A
   Tags: free, sprite, darkhold, pixel-art, itch, game-assets, garebearproductionz
+
+- Shadow Pixel Character Pack - copies any sprite: Copies any sprite into a shadow. 46 strips, 322 PNGs, and the two scripts that do it. Official GareBearProductionz itch product ($11.05 -15%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-shadow-pixel-character-pack-copies-any-sprite.html
+  Public URL: https://garebearproductionz.itch.io/shadow-pixel-character-pack-copies-any-sprite
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
 
 - Skully Asset Pack & Lightweight Canvas Engine Demo: Skully asset pack and lightweight vanilla canvas engine demo. Official GareBearProductionz itch product (paid) in the Games & Playable Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-skully-asset-pack-lightweight-canvas-engine-demo.html
