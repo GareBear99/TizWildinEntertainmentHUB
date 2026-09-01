@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-08-31
+Generated: 2026-09-01
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **176**
+- Total indexed records: **177**
 - Total clusters: **11**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -181,6 +181,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Transparent D20 Dice Color 3D OBJ Pack](pages/itch-d20-dice-color-3d-obj-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/d20-dice-color-3d-obj-pack | itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [VFX Test Rooms & Elemental Frequency Arena Engines (FREE 2D-3D)](pages/itch-vfx-test-room-elemental-frequency-arena-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/vfx-test-room-elemental-frequency-arena-engine | free, vfx, test-room, arena, elemental, itch, game-assets, garebearproductionz |
 | [Wraith Necropolis Gate Backdrop & Layers FREE](pages/itch-wraith-necropolis-gate-backdrop.html) | Itch Asset Pack | https://garebearproductionz.itch.io/wraith-necropolis-gate-backdrop | free, wraith, necropolis, backdrop, layers, itch, game-assets, garebearproductionz |
+| [Yurei - Echo Shadow Character Pack](pages/itch-yurei-echo-shadow-character-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/yurei-echo-shadow-character-pack | itch, game-assets, garebearproductionz |
 
 ### Games and Interactive Demos
 

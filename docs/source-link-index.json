@@ -1173,6 +1173,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "all_items.json",
+      "url": "https://garebearproductionz.itch.io/yurei-echo-shadow-character-pack",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub all_items.json https://garebearproductionz.itch.io/yurei-echo-shadow-character-pack garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "all_items.json",
       "url": "https://img.itch.zone/aW1hZ2UvNDY3NTQ0NS8yNzkxNzY1Ny5naWY=/original/N%2BWRhP.gif",
       "domain": "img.itch.zone",
       "queryText": "tizwildinentertainmenthub all_items.json https://img.itch.zone/aw1hz2uvndy3ntq0ns8ynzkxnzy1ny5nawy=/original/n%2bwrhp.gif img.itch.zone"
@@ -2317,6 +2325,22 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "all_items.json",
+      "url": "https://img.itch.zone/aW1nLzI5Njg5NDY1LmdpZg==/original/8aFz5A.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub all_items.json https://img.itch.zone/aw1nlzi5njg5ndy1lmdpzg==/original/8afz5a.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "all_items.json",
+      "url": "https://img.itch.zone/aW1nLzI5Njg5NDY1LmdpZg==/original/W91SGI.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub all_items.json https://img.itch.zone/aw1nlzi5njg5ndy1lmdpzg==/original/w91sgi.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "all_items.json",
       "url": "https://itch.io/s/188490/formula-a1-steal-bundle",
       "domain": "itch.io",
       "queryText": "tizwildinentertainmenthub all_items.json https://itch.io/s/188490/formula-a1-steal-bundle itch.io"
@@ -3112,6 +3136,14 @@
       "url": "https://garebearproductionz.itch.io/wraith-necropolis-gate-backdrop",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub all-account-inventory.html https://garebearproductionz.itch.io/wraith-necropolis-gate-backdrop garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "all-account-inventory.html",
+      "url": "https://garebearproductionz.itch.io/yurei-echo-shadow-character-pack",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub all-account-inventory.html https://garebearproductionz.itch.io/yurei-echo-shadow-character-pack garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -4256,6 +4288,22 @@
       "url": "https://img.itch.zone/aW1nLzI5NjYzMjQ3LmdpZg==/original/U9rtcd.gif",
       "domain": "img.itch.zone",
       "queryText": "tizwildinentertainmenthub all-account-inventory.html https://img.itch.zone/aw1nlzi5njyzmjq3lmdpzg==/original/u9rtcd.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "all-account-inventory.html",
+      "url": "https://img.itch.zone/aW1nLzI5Njg5NDY1LmdpZg==/original/8aFz5A.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub all-account-inventory.html https://img.itch.zone/aw1nlzi5njg5ndy1lmdpzg==/original/8afz5a.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "all-account-inventory.html",
+      "url": "https://img.itch.zone/aW1nLzI5Njg5NDY1LmdpZg==/original/W91SGI.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub all-account-inventory.html https://img.itch.zone/aw1nlzi5njg5ndy1lmdpzg==/original/w91sgi.gif img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -6669,6 +6717,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/llms.txt",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-yurei-echo-shadow-character-pack.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-yurei-echo-shadow-character-pack.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/llms.txt",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/libhunt-submission-branch.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebear99.github.io/tizwildinentertainmenthub/pages/libhunt-submission-branch.html garebear99.github.io"
@@ -7536,14 +7592,6 @@
       "url": "https://garebearproductionz.itch.io/npc-theme-of-sacrifice",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebearproductionz.itch.io/npc-theme-of-sacrifice garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/llms.txt",
-      "url": "https://garebearproductionz.itch.io/orerry-solar-system-pack",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebearproductionz.itch.io/orerry-solar-system-pack garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -9597,17 +9645,97 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/blood-bone-scythe:",
+      "url": "https://garebearproductionz.itch.io/40-animated-pixel-fx-pack-dash-land-impact:",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/blood-bone-scythe: garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/40-animated-pixel-fx-pack-dash-land-impact: garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/thor-mjolnir-svg-physics-engine:",
+      "url": "https://garebearproductionz.itch.io/arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames:",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/thor-mjolnir-svg-physics-engine: garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames: garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
+      "url": "https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts:",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts: garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
+      "url": "https://garebearproductionz.itch.io/doom-style-ray-trace-engine-asset-pack:",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/doom-style-ray-trace-engine-asset-pack: garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
+      "url": "https://garebearproductionz.itch.io/fireball-generator-formula:",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/fireball-generator-formula: garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
+      "url": "https://garebearproductionz.itch.io/free-haunter-sprites:",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/free-haunter-sprites: garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
+      "url": "https://garebearproductionz.itch.io/gossamer-pixel-cobwebs-corner-webs-screen-overlays:",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/gossamer-pixel-cobwebs-corner-webs-screen-overlays: garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
+      "url": "https://garebearproductionz.itch.io/infina-dix-engine:",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/infina-dix-engine: garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
+      "url": "https://garebearproductionz.itch.io/pride-crown-concept-art:",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/pride-crown-concept-art: garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
+      "url": "https://garebearproductionz.itch.io/pyromancy-chibi-pack:",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/pyromancy-chibi-pack: garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
+      "url": "https://garebearproductionz.itch.io/shadow-pixel-character-pack-copies-any-sprite:",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/shadow-pixel-character-pack-copies-any-sprite: garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
+      "url": "https://garebearproductionz.itch.io/the-cathedral-of-madness-concept-pixel-art:",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/the-cathedral-of-madness-concept-pixel-art: garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -10765,6 +10893,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/ecosystem-index.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-yurei-echo-shadow-character-pack.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-yurei-echo-shadow-character-pack.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ecosystem-index.html",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/libhunt-submission-branch.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebear99.github.io/tizwildinentertainmenthub/pages/libhunt-submission-branch.html garebear99.github.io"
@@ -11624,14 +11760,6 @@
       "url": "https://garebearproductionz.itch.io/neolution-grid-engine",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebearproductionz.itch.io/neolution-grid-engine garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ecosystem-index.html",
-      "url": "https://garebearproductionz.itch.io/npc-theme-of-sacrifice",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebearproductionz.itch.io/npc-theme-of-sacrifice garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -15189,6 +15317,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
+      "url": "https://garebearproductionz.itch.io/yurei-echo-shadow-character-pack",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md https://garebearproductionz.itch.io/yurei-echo-shadow-character-pack garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
       "url": "https://github.com/GareBear99/AETHER_Choir-Atmosphere-Designer",
       "domain": "github.com",
       "queryText": "tizwildinentertainmenthub docs/public_link_graph.md https://github.com/garebear99/aether_choir-atmosphere-designer github.com"
@@ -16440,14 +16576,6 @@
       "url": "pages/itch-professional-grade-studio-violin-audio-synth-formula.html",
       "domain": "",
       "queryText": "tizwildinentertainmenthub docs/public_link_graph.md pages/itch-professional-grade-studio-violin-audio-synth-formula.html "
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
-      "url": "pages/itch-professional-occult-covenant-icon-kit.html",
-      "domain": "",
-      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md pages/itch-professional-occult-covenant-icon-kit.html "
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -18061,6 +18189,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/public-index.json",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-yurei-echo-shadow-character-pack.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-yurei-echo-shadow-character-pack.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/public-index.json",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/libhunt-submission-branch.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebear99.github.io/tizwildinentertainmenthub/pages/libhunt-submission-branch.html garebear99.github.io"
@@ -18928,14 +19064,6 @@
       "url": "https://garebearproductionz.itch.io/npc-theme-of-sacrifice",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebearproductionz.itch.io/npc-theme-of-sacrifice garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/public-index.json",
-      "url": "https://garebearproductionz.itch.io/orerry-solar-system-pack",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/public-index.json https://garebearproductionz.itch.io/orerry-solar-system-pack garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -21613,6 +21741,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/data/all_items.json",
+      "url": "https://garebearproductionz.itch.io/yurei-echo-shadow-character-pack",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://garebearproductionz.itch.io/yurei-echo-shadow-character-pack garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/data/all_items.json",
       "url": "https://img.itch.zone/aW1hZ2UvNDY3NTQ0NS8yNzkxNzY1Ny5naWY=/original/N%2BWRhP.gif",
       "domain": "img.itch.zone",
       "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://img.itch.zone/aw1hz2uvndy3ntq0ns8ynzkxnzy1ny5nawy=/original/n%2bwrhp.gif img.itch.zone"
@@ -22752,6 +22888,22 @@
       "url": "https://img.itch.zone/aW1nLzI5NjYzMjQ3LmdpZg==/original/U9rtcd.gif",
       "domain": "img.itch.zone",
       "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://img.itch.zone/aw1nlzi5njyzmjq3lmdpzg==/original/u9rtcd.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/data/all_items.json",
+      "url": "https://img.itch.zone/aW1nLzI5Njg5NDY1LmdpZg==/original/8aFz5A.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://img.itch.zone/aw1nlzi5njg5ndy1lmdpzg==/original/8afz5a.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/data/all_items.json",
+      "url": "https://img.itch.zone/aW1nLzI5Njg5NDY1LmdpZg==/original/W91SGI.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://img.itch.zone/aw1nlzi5njg5ndy1lmdpzg==/original/w91sgi.gif img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -29829,6 +29981,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/all-account-inventory.html",
+      "url": "https://garebearproductionz.itch.io/yurei-echo-shadow-character-pack",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://garebearproductionz.itch.io/yurei-echo-shadow-character-pack garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/all-account-inventory.html",
       "url": "https://img.itch.zone/aW1hZ2UvNDY3NTQ0NS8yNzkxNzY1Ny5naWY=/original/N%2BWRhP.gif",
       "domain": "img.itch.zone",
       "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://img.itch.zone/aw1hz2uvndy3ntq0ns8ynzkxnzy1ny5nawy=/original/n%2bwrhp.gif img.itch.zone"
@@ -30968,6 +31128,22 @@
       "url": "https://img.itch.zone/aW1nLzI5NjYzMjQ3LmdpZg==/original/U9rtcd.gif",
       "domain": "img.itch.zone",
       "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://img.itch.zone/aw1nlzi5njyzmjq3lmdpzg==/original/u9rtcd.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/all-account-inventory.html",
+      "url": "https://img.itch.zone/aW1nLzI5Njg5NDY1LmdpZg==/original/8aFz5A.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://img.itch.zone/aw1nlzi5njg5ndy1lmdpzg==/original/8afz5a.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/all-account-inventory.html",
+      "url": "https://img.itch.zone/aW1nLzI5Njg5NDY1LmdpZg==/original/W91SGI.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://img.itch.zone/aw1nlzi5njg5ndy1lmdpzg==/original/w91sgi.gif img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -35532,6 +35708,62 @@
     {
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-yurei-echo-shadow-character-pack.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-yurei-echo-shadow-character-pack.html https://garebear99.github.io/tizwildinentertainmenthub garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-yurei-echo-shadow-character-pack.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-yurei-echo-shadow-character-pack.html https://garebear99.github.io/tizwildinentertainmenthub/pages/all-account-inventory.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-yurei-echo-shadow-character-pack.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-yurei-echo-shadow-character-pack.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-yurei-echo-shadow-character-pack.html https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-yurei-echo-shadow-character-pack.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-yurei-echo-shadow-character-pack.html",
+      "url": "https://garebearproductionz.itch.io/yurei-echo-shadow-character-pack",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-yurei-echo-shadow-character-pack.html https://garebearproductionz.itch.io/yurei-echo-shadow-character-pack garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-yurei-echo-shadow-character-pack.html",
+      "url": "https://img.itch.zone/aW1nLzI5Njg5NDY1LmdpZg==/original/8aFz5A.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-yurei-echo-shadow-character-pack.html https://img.itch.zone/aw1nlzi5njg5ndy1lmdpzg==/original/8afz5a.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-yurei-echo-shadow-character-pack.html",
+      "url": "https://img.itch.zone/aW1nLzI5Njg5NDY1LmdpZg==/original/W91SGI.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-yurei-echo-shadow-character-pack.html https://img.itch.zone/aw1nlzi5njg5ndy1lmdpzg==/original/w91sgi.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-yurei-echo-shadow-character-pack.html",
+      "url": "https://schema.org",
+      "domain": "schema.org",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-yurei-echo-shadow-character-pack.html https://schema.org schema.org"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/itch-gravity-projectile-generator-formula.html",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB",
       "domain": "garebear99.github.io",
@@ -36477,6 +36709,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://garebearproductionz.itch.io/40-animated-pixel-fx-pack-dash-land-impact",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/40-animated-pixel-fx-pack-dash-land-impact garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
       "url": "https://garebearproductionz.itch.io/aaaa-layered-mountain-dynamic-sky-live-backdrop-engine",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/aaaa-layered-mountain-dynamic-sky-live-backdrop-engine garebearproductionz.itch.io"
@@ -36944,6 +37184,14 @@
       "url": "https://garebearproductionz.itch.io/scarlette-witchs-darkhold-sprite-free",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/scarlette-witchs-darkhold-sprite-free garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://garebearproductionz.itch.io/shadow-pixel-character-pack-copies-any-sprite",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/shadow-pixel-character-pack-copies-any-sprite garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -38112,22 +38360,6 @@
       "url": "https://img.itch.zone/aW1nLzI4MjMwNTQ5LmdpZg==/original/HGgxM0.gif",
       "domain": "img.itch.zone",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1nlzi4mjmwntq5lmdpzg==/original/hggxm0.gif img.itch.zone"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://img.itch.zone/aW1nLzI4MjMyMTcxLnBuZw==/original/SjWFzk.png",
-      "domain": "img.itch.zone",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1nlzi4mjmymtcxlnbuzw==/original/sjwfzk.png img.itch.zone"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://img.itch.zone/aW1nLzI4MjU5NDg1LmdpZg==/original/5QFFxJ.gif",
-      "domain": "img.itch.zone",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1nlzi4mju5ndg1lmdpzg==/original/5qffxj.gif img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -44099,14 +44331,14 @@
     }
   ],
   "summary": {
-    "linkCount": 5512,
+    "linkCount": 5541,
     "domains": {
-      "garebear99.github.io": 1772,
+      "garebear99.github.io": 1778,
       "github.com": 1018,
-      "img.itch.zone": 835,
-      "garebearproductionz.itch.io": 776,
+      "img.itch.zone": 843,
+      "garebearproductionz.itch.io": 791,
       "www.w3.org": 333,
-      "schema.org": 242,
+      "schema.org": 243,
       "dev.to": 48,
       "127.0.0.1:8000": 36,
       "img.shields.io": 34,

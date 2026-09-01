@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-08-31
+Generated: 2026-09-01
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -822,6 +822,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://garebearproductionz.itch.io/wraith-necropolis-gate-backdrop
   GitHub: N/A
   Tags: free, wraith, necropolis, backdrop, layers, itch, game-assets, garebearproductionz
+
+- Yurei - Echo Shadow Character Pack: Named for the Japanese vengeful shadow spirit: Yurei Official GareBearProductionz itch product ($4.25 -15%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-yurei-echo-shadow-character-pack.html
+  Public URL: https://garebearproductionz.itch.io/yurei-echo-shadow-character-pack
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
 
 ## Games and Interactive Demos
 

@@ -1,11 +1,11 @@
 {
   "schemaVersion": "2.0",
-  "generatedAt": "2026-08-31",
+  "generatedAt": "2026-09-01",
   "name": "TizWildin Entertainment HUB Public Link Index",
   "description": "Static crawler-friendly index of TizWildin audio, producer, public list, credibility, and ARC source-spine routes.",
   "owner": "GareBear99",
   "baseUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB",
-  "itemCount": 176,
+  "itemCount": 177,
   "items": [
     {
       "cluster": "AI and Automation Tools",
@@ -4401,6 +4401,35 @@
       "page": "pages/itch-wraith-necropolis-gate-backdrop.html",
       "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-wraith-necropolis-gate-backdrop.html",
       "canonicalUrl": "https://garebearproductionz.itch.io/wraith-necropolis-gate-backdrop",
+      "repoUrl": "",
+      "docsUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html"
+    },
+    {
+      "cluster": "Game Asset Store / Itch Inventory",
+      "kind": "Itch Asset Pack",
+      "name": "Yurei - Echo Shadow Character Pack",
+      "description": "Named for the Japanese vengeful shadow spirit: Yurei Official GareBearProductionz itch product ($4.25 -15%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.",
+      "repo": "",
+      "url": "https://garebearproductionz.itch.io/yurei-echo-shadow-character-pack",
+      "docs": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html",
+      "status": "released",
+      "tags": [
+        "itch",
+        "game-assets",
+        "garebearproductionz"
+      ],
+      "priority": 42,
+      "license": "See individual itch page",
+      "language": "HTML / JavaScript / Assets",
+      "source_manifest": "all_items.json",
+      "page_slug": "itch-yurei-echo-shadow-character-pack",
+      "render_page": true,
+      "cover": "https://img.itch.zone/aW1nLzI5Njg5NDY1LmdpZg==/original/8aFz5A.gif",
+      "animated": "https://img.itch.zone/aW1nLzI5Njg5NDY1LmdpZg==/original/W91SGI.gif",
+      "id": "itch-yurei-echo-shadow-character-pack",
+      "page": "pages/itch-yurei-echo-shadow-character-pack.html",
+      "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-yurei-echo-shadow-character-pack.html",
+      "canonicalUrl": "https://garebearproductionz.itch.io/yurei-echo-shadow-character-pack",
       "repoUrl": "",
       "docsUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html"
     },

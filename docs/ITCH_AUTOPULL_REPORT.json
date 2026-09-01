@@ -1,17 +1,21 @@
 {
-  "generatedAt": "2026-08-31T17:03:34Z",
+  "generatedAt": "2026-09-01T14:09:21Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 84,
-  "itemsWritten": 84,
-  "mediaReadyItems": 84,
+  "itemsParsed": 85,
+  "itemsWritten": 85,
+  "mediaReadyItems": 85,
   "detailStatus": [
     {
-      "slug": "shadow-pixel-character-pack-copies-any-sprite",
+      "slug": "yurei-echo-shadow-character-pack",
       "status": "ok"
     },
     {
+      "slug": "shadow-pixel-character-pack-copies-any-sprite",
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/shadow-pixel-character-pack-copies-any-sprite: HTTP Error 429: Too Many Requests"
+    },
+    {
       "slug": "40-animated-pixel-fx-pack-dash-land-impact",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/40-animated-pixel-fx-pack-dash-land-impact: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "256-pixel-runes-glyphs-symbols-that-write-themselves",
@@ -23,11 +27,11 @@
     },
     {
       "slug": "gossamer-pixel-cobwebs-corner-webs-screen-overlays",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/gossamer-pixel-cobwebs-corner-webs-screen-overlays: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames",
@@ -99,11 +103,11 @@
     },
     {
       "slug": "doom-style-ray-trace-engine-asset-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/doom-style-ray-trace-engine-asset-pack: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "d20-dice-color-3d-obj-pack",
@@ -115,7 +119,7 @@
     },
     {
       "slug": "infina-dix-engine",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/infina-dix-engine: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "color-dynamic-sigils-svg-export-pack",
@@ -179,11 +183,11 @@
     },
     {
       "slug": "the-cathedral-of-madness-concept-pixel-art",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/the-cathedral-of-madness-concept-pixel-art: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "pride-crown-concept-art",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/pride-crown-concept-art: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "scarlette-witchs-darkhold-sprite-free",
@@ -259,11 +263,11 @@
     },
     {
       "slug": "thor-mjolnir-svg-physics-engine",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/thor-mjolnir-svg-physics-engine: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "blood-bone-scythe",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/blood-bone-scythe: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "free-pixel-paladin-hammer-chibi",
@@ -291,11 +295,11 @@
     },
     {
       "slug": "fireball-generator-formula",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/fireball-generator-formula: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "pyromancy-chibi-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/pyromancy-chibi-pack: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "infernal-archetypes",
@@ -303,7 +307,7 @@
     },
     {
       "slug": "free-haunter-sprites",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/free-haunter-sprites: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "action-command-charge-formula",
