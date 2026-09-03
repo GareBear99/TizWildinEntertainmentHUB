@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-09-02
+Generated: 2026-09-03
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -733,7 +733,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: skully, canvas, engine, skeleton, pixel-art, itch, game-assets, garebearproductionz
 
-- SLAGWORKS: CinderHaul - 6 Map Animated Tileset 1,910 Sprites: SLAGWORKS: CinderHaul - 6 Map Animated Tileset 1,910 Sprites Official GareBearProductionz itch product ($2.49 -25%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- SLAGWORKS: CinderHaul - 6 Map Animated Tileset 1,910 Sprites: SLAGWORKS: CinderHaul - 6 Map Animated Tileset 1,910 Sprites Official GareBearProductionz itch product ($3.33 -25%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-slagworks-cinderhaul-6-map-animated-tileset.html
   Public URL: https://garebearproductionz.itch.io/slagworks-cinderhaul-6-map-animated-tileset
   GitHub: N/A
@@ -826,6 +826,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
 - Yurei - Echo Shadow Character Pack: Named for the Japanese vengeful shadow spirit: Yurei Official GareBearProductionz itch product ($4.25 -15%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-yurei-echo-shadow-character-pack.html
   Public URL: https://garebearproductionz.itch.io/yurei-echo-shadow-character-pack
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
+- Yurei Shadow Fighters - Three Silhouette Characters: Yurei Shadow Fighters Character Pack - 38 animations, 119 frames Official GareBearProductionz itch product ($2.97 -15%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-yurei-shadow-fighters-three-silhouette-characters.html
+  Public URL: https://garebearproductionz.itch.io/yurei-shadow-fighters-three-silhouette-characters
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 

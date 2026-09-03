@@ -1,10 +1,14 @@
 {
-  "generatedAt": "2026-09-02T13:38:45Z",
+  "generatedAt": "2026-09-03T13:35:14Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 85,
-  "itemsWritten": 85,
-  "mediaReadyItems": 85,
+  "itemsParsed": 86,
+  "itemsWritten": 86,
+  "mediaReadyItems": 86,
   "detailStatus": [
+    {
+      "slug": "yurei-shadow-fighters-three-silhouette-characters",
+      "status": "ok"
+    },
     {
       "slug": "yurei-echo-shadow-character-pack",
       "status": "ok"

@@ -1,11 +1,11 @@
 {
   "schemaVersion": "2.0",
-  "generatedAt": "2026-09-02",
+  "generatedAt": "2026-09-03",
   "name": "TizWildin Entertainment HUB Public Link Index",
   "description": "Static crawler-friendly index of TizWildin audio, producer, public list, credibility, and ARC source-spine routes.",
   "owner": "GareBear99",
   "baseUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB",
-  "itemCount": 177,
+  "itemCount": 178,
   "items": [
     {
       "cluster": "AI and Automation Tools",
@@ -3914,7 +3914,7 @@
       "cluster": "Game Asset Store / Itch Inventory",
       "kind": "Itch Game Tool / Formula",
       "name": "SLAGWORKS: CinderHaul - 6 Map Animated Tileset 1,910 Sprites",
-      "description": "SLAGWORKS: CinderHaul - 6 Map Animated Tileset 1,910 Sprites Official GareBearProductionz itch product ($2.49 -25%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.",
+      "description": "SLAGWORKS: CinderHaul - 6 Map Animated Tileset 1,910 Sprites Official GareBearProductionz itch product ($3.33 -25%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.",
       "repo": "",
       "url": "https://garebearproductionz.itch.io/slagworks-cinderhaul-6-map-animated-tileset",
       "docs": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html",
@@ -4430,6 +4430,35 @@
       "page": "pages/itch-yurei-echo-shadow-character-pack.html",
       "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-yurei-echo-shadow-character-pack.html",
       "canonicalUrl": "https://garebearproductionz.itch.io/yurei-echo-shadow-character-pack",
+      "repoUrl": "",
+      "docsUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html"
+    },
+    {
+      "cluster": "Game Asset Store / Itch Inventory",
+      "kind": "Itch Asset Pack",
+      "name": "Yurei Shadow Fighters - Three Silhouette Characters",
+      "description": "Yurei Shadow Fighters Character Pack - 38 animations, 119 frames Official GareBearProductionz itch product ($2.97 -15%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.",
+      "repo": "",
+      "url": "https://garebearproductionz.itch.io/yurei-shadow-fighters-three-silhouette-characters",
+      "docs": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html",
+      "status": "released",
+      "tags": [
+        "itch",
+        "game-assets",
+        "garebearproductionz"
+      ],
+      "priority": 42,
+      "license": "See individual itch page",
+      "language": "HTML / JavaScript / Assets",
+      "source_manifest": "all_items.json",
+      "page_slug": "itch-yurei-shadow-fighters-three-silhouette-characters",
+      "render_page": true,
+      "cover": "https://img.itch.zone/aW1nLzI5NzM0NTY4LmdpZg==/original/OZ0bAc.gif",
+      "animated": "https://img.itch.zone/aW1nLzI5NzM0NTY4LmdpZg==/original/28mvfB.gif",
+      "id": "itch-yurei-shadow-fighters-three-silhouette-characters",
+      "page": "pages/itch-yurei-shadow-fighters-three-silhouette-characters.html",
+      "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-yurei-shadow-fighters-three-silhouette-characters.html",
+      "canonicalUrl": "https://garebearproductionz.itch.io/yurei-shadow-fighters-three-silhouette-characters",
       "repoUrl": "",
       "docsUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html"
     },

@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-09-02
+Generated: 2026-09-03
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **177**
+- Total indexed records: **178**
 - Total clusters: **11**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -182,6 +182,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [VFX Test Rooms & Elemental Frequency Arena Engines (FREE 2D-3D)](pages/itch-vfx-test-room-elemental-frequency-arena-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/vfx-test-room-elemental-frequency-arena-engine | free, vfx, test-room, arena, elemental, itch, game-assets, garebearproductionz |
 | [Wraith Necropolis Gate Backdrop & Layers FREE](pages/itch-wraith-necropolis-gate-backdrop.html) | Itch Asset Pack | https://garebearproductionz.itch.io/wraith-necropolis-gate-backdrop | free, wraith, necropolis, backdrop, layers, itch, game-assets, garebearproductionz |
 | [Yurei - Echo Shadow Character Pack](pages/itch-yurei-echo-shadow-character-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/yurei-echo-shadow-character-pack | itch, game-assets, garebearproductionz |
+| [Yurei Shadow Fighters - Three Silhouette Characters](pages/itch-yurei-shadow-fighters-three-silhouette-characters.html) | Itch Asset Pack | https://garebearproductionz.itch.io/yurei-shadow-fighters-three-silhouette-characters | itch, game-assets, garebearproductionz |
 
 ### Games and Interactive Demos
 
