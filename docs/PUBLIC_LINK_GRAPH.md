@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-09-04
+Generated: 2026-09-05
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **178**
+- Total indexed records: **179**
 - Total clusters: **11**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -146,6 +146,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Holy Live FX SVG & PNG Icon 8-Set Pipeline Kit](pages/itch-holy-svg-png-icon-set.html) | Itch Asset Pack | https://garebearproductionz.itch.io/holy-svg-png-icon-set | icons, holy, svg, png, live-fx, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Infernal Archetype Sprites (FREE)](pages/itch-infernal-archetypes.html) | Itch Asset Pack | https://garebearproductionz.itch.io/infernal-archetypes | free, infernal, sprites, demon, pixel-art, itch, game-assets, garebearproductionz |
 | [Live Pentagram Formula 2D-2.5D](pages/itch-live-pentagram-formula-2d-3d.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/live-pentagram-formula-2d-3d | pentagram, ritual, 2d, 2.5d, formula, itch, game-assets, garebearproductionz, formula-a1-bundle |
+| [Live Smog VFX & Shadow Run Map Layers](pages/itch-shadow-run-map-layers-live-smog-fx.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/shadow-run-map-layers-live-smog-fx | itch, game-assets, garebearproductionz |
 | [Live SVG Icon Starter Kit Pipeline + 4 Live Hell FX Icons](pages/itch-svg-icon-starter-kit-pipeline.html) | Itch Asset Pack | https://garebearproductionz.itch.io/svg-icon-starter-kit-pipeline | icons, svg, hell, starter-kit, live-fx, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [MODE-7 FLOORCAST ENGINE](pages/itch-mode-7.html) | Itch Playable Game / Engine | https://garebearproductionz.itch.io/mode-7 | itch, game-assets, garebearproductionz |
 | [Multi Layered Epic Free SVG Backdrop Static Scene (Free)](pages/itch-multi-layered-epic-free-svg-backdrop-static-scene.html) | Itch Playable Game / Engine | https://garebearproductionz.itch.io/multi-layered-epic-free-svg-backdrop-static-scene | free, svg, backdrop, scene, layers, itch, game-assets, garebearproductionz |

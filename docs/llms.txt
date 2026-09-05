@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-09-04
+Generated: 2026-09-05
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -612,6 +612,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://garebearproductionz.itch.io/live-pentagram-formula-2d-3d
   GitHub: N/A
   Tags: pentagram, ritual, 2d, 2.5d, formula, itch, game-assets, garebearproductionz, formula-a1-bundle
+
+- Live Smog VFX & Shadow Run Map Layers: Smog & Fog FX Map Pack Official GareBearProductionz itch product ($2.33 -15%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-shadow-run-map-layers-live-smog-fx.html
+  Public URL: https://garebearproductionz.itch.io/shadow-run-map-layers-live-smog-fx
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
 
 - Live SVG Icon Starter Kit Pipeline + 4 Live Hell FX Icons: Starter live-SVG icon pipeline with four hell FX icons. Official GareBearProductionz itch product ($0.75 -50%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-svg-icon-starter-kit-pipeline.html

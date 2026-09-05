@@ -1,11 +1,11 @@
 {
   "schemaVersion": "2.0",
-  "generatedAt": "2026-09-04",
+  "generatedAt": "2026-09-05",
   "name": "TizWildin Entertainment HUB Public Link Index",
   "description": "Static crawler-friendly index of TizWildin audio, producer, public list, credibility, and ARC source-spine routes.",
   "owner": "GareBear99",
   "baseUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB",
-  "itemCount": 178,
+  "itemCount": 179,
   "items": [
     {
       "cluster": "AI and Automation Tools",
@@ -3240,6 +3240,35 @@
       "page": "pages/itch-live-pentagram-formula-2d-3d.html",
       "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-live-pentagram-formula-2d-3d.html",
       "canonicalUrl": "https://garebearproductionz.itch.io/live-pentagram-formula-2d-3d",
+      "repoUrl": "",
+      "docsUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html"
+    },
+    {
+      "cluster": "Game Asset Store / Itch Inventory",
+      "kind": "Itch Game Tool / Formula",
+      "name": "Live Smog VFX & Shadow Run Map Layers",
+      "description": "Smog & Fog FX Map Pack Official GareBearProductionz itch product ($2.33 -15%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.",
+      "repo": "",
+      "url": "https://garebearproductionz.itch.io/shadow-run-map-layers-live-smog-fx",
+      "docs": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html",
+      "status": "released",
+      "tags": [
+        "itch",
+        "game-assets",
+        "garebearproductionz"
+      ],
+      "priority": 42,
+      "license": "See individual itch page",
+      "language": "HTML / JavaScript / Assets",
+      "source_manifest": "all_items.json",
+      "page_slug": "itch-shadow-run-map-layers-live-smog-fx",
+      "render_page": true,
+      "cover": "https://img.itch.zone/aW1nLzI5NzY3NTg5LmdpZg==/original/iwfATe.gif",
+      "animated": "https://img.itch.zone/aW1nLzI5NzY3NTg5LmdpZg==/original/6wtCC%2B.gif",
+      "id": "itch-shadow-run-map-layers-live-smog-fx",
+      "page": "pages/itch-shadow-run-map-layers-live-smog-fx.html",
+      "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-shadow-run-map-layers-live-smog-fx.html",
+      "canonicalUrl": "https://garebearproductionz.itch.io/shadow-run-map-layers-live-smog-fx",
       "repoUrl": "",
       "docsUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html"
     },
