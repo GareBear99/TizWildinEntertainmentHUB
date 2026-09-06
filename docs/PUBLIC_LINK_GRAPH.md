@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-09-05
+Generated: 2026-09-06
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **179**
+- Total indexed records: **184**
 - Total clusters: **11**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -125,6 +125,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Black & Red Dice SVG & PNG 2D-3D Export Engine](pages/itch-black-red-dice-svg-png-export-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine | itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Blood Bound by Pixel Scythe & SVG (FREE)](pages/itch-blood-bound-scythe-svg-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/blood-bound-scythe-svg-free | free, scythe, weapon, svg, pixel-art, itch, game-assets, garebearproductionz |
 | [Cash Cloud Sprite Pack (FREE)](pages/itch-cash-cloud.html) | Itch Asset Pack | https://garebearproductionz.itch.io/cash-cloud | itch, game-assets, garebearproductionz |
+| [Chaos Arcanum Part 1](pages/itch-ichor-glyph.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/ichor-glyph | itch, game-assets, garebearproductionz |
 | [Coin Physics & Triple Buffer Atomic Swap Pack & Engine Kit](pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html) | Itch Asset Pack | https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts | itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [Cool Backdrop Layers & Engine](pages/itch-cool-backdrop-layers-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/cool-backdrop-layers-engine | backdrop, layers, engine, svg, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Dark Fantasy Dungeon Builder - Free Four-Realm Tileset](pages/itch-dark-fantasy-dungeon-builder-free-four-realm-tileset.html) | Itch Asset Pack | https://garebearproductionz.itch.io/dark-fantasy-dungeon-builder-free-four-realm-tileset | itch, game-assets, garebearproductionz |
@@ -164,8 +165,11 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Professional Occult Covenant Icon Kit & FX Formula](pages/itch-professional-occult-covenant-icon-kit.html) | Itch Asset Pack | https://garebearproductionz.itch.io/professional-occult-covenant-icon-kit | occult, covenant, icons, svg, fx, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Pyro-Maniac Chibi Sprite Pack (FREE)](pages/itch-pyromancy-chibi-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/pyromancy-chibi-pack | free, pyro, chibi, sprite, pixel-art, itch, game-assets, garebearproductionz |
 | [Reward Pocket Generator Formula](pages/itch-reward-pocket-generator-formula.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/reward-pocket-generator-formula | reward, generator, formula, items, game-dev, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
+| [Rift Edge - Laser Sword & Glow Slash Pack](pages/itch-rift-edge-laser-sword-glow-slash-pack.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/rift-edge-laser-sword-glow-slash-pack | itch, game-assets, garebearproductionz |
 | [Scarlet Witch DarkHold Sprite (FREE)](pages/itch-scarlette-witchs-darkhold-sprite-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/scarlette-witchs-darkhold-sprite-free | free, sprite, darkhold, pixel-art, itch, game-assets, garebearproductionz |
+| [Shadow Fighters — Dragon Knight, Iron Sentinel, Xeno Grunt (+ Raptor)](pages/itch-shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor | itch, game-assets, garebearproductionz |
 | [Shadow Pixel Character Pack - copies any sprite](pages/itch-shadow-pixel-character-pack-copies-any-sprite.html) | Itch Asset Pack | https://garebearproductionz.itch.io/shadow-pixel-character-pack-copies-any-sprite | itch, game-assets, garebearproductionz |
+| [Shadow Trooper Silhouette (FREE)](pages/itch-shadow-trooper-silhouette-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/shadow-trooper-silhouette-free | itch, game-assets, garebearproductionz |
 | [Skully Asset Pack & Lightweight Canvas Engine Demo](pages/itch-skully-asset-pack-lightweight-canvas-engine-demo.html) | Itch Playable Game / Engine | https://garebearproductionz.itch.io/skully-asset-pack-lightweight-canvas-engine-demo | skully, canvas, engine, skeleton, pixel-art, itch, game-assets, garebearproductionz |
 | [SLAGWORKS: CinderHaul - 6 Map Animated Tileset 1,910 Sprites](pages/itch-slagworks-cinderhaul-6-map-animated-tileset.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/slagworks-cinderhaul-6-map-animated-tileset | itch, game-assets, garebearproductionz |
 | [SLAGWORKS: Spectral Carnage Sewer Deck (FREE)](pages/itch-spectral-carnage-sewers-free-tileset-map.html) | Itch Asset Pack | https://garebearproductionz.itch.io/spectral-carnage-sewers-free-tileset-map | itch, game-assets, garebearproductionz |
@@ -181,6 +185,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Thor Mjölnir 4 Set + SVG Physics Velocity Engine + Bonus Quake Hammer Set](pages/itch-thor-mjolnir-svg-physics-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/thor-mjolnir-svg-physics-engine | mjolnir, hammer, physics, svg, weapon, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Transparent D20 Dice Color 3D OBJ Pack](pages/itch-d20-dice-color-3d-obj-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/d20-dice-color-3d-obj-pack | itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [VFX Test Rooms & Elemental Frequency Arena Engines (FREE 2D-3D)](pages/itch-vfx-test-room-elemental-frequency-arena-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/vfx-test-room-elemental-frequency-arena-engine | free, vfx, test-room, arena, elemental, itch, game-assets, garebearproductionz |
+| [Victory Wraith (FREE)](pages/itch-victory-wraith-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/victory-wraith-free | itch, game-assets, garebearproductionz |
 | [Wraith Necropolis Gate Backdrop & Layers FREE](pages/itch-wraith-necropolis-gate-backdrop.html) | Itch Asset Pack | https://garebearproductionz.itch.io/wraith-necropolis-gate-backdrop | free, wraith, necropolis, backdrop, layers, itch, game-assets, garebearproductionz |
 | [Yurei - Echo Shadow Character Pack](pages/itch-yurei-echo-shadow-character-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/yurei-echo-shadow-character-pack | itch, game-assets, garebearproductionz |
 | [Yurei Shadow Fighters - Three Silhouette Characters](pages/itch-yurei-shadow-fighters-three-silhouette-characters.html) | Itch Asset Pack | https://garebearproductionz.itch.io/yurei-shadow-fighters-three-silhouette-characters | itch, game-assets, garebearproductionz |

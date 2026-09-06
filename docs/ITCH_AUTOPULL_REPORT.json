@@ -1,10 +1,30 @@
 {
-  "generatedAt": "2026-09-05T12:42:17Z",
+  "generatedAt": "2026-09-06T12:53:38Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 87,
-  "itemsWritten": 87,
-  "mediaReadyItems": 87,
+  "itemsParsed": 92,
+  "itemsWritten": 92,
+  "mediaReadyItems": 92,
   "detailStatus": [
+    {
+      "slug": "rift-edge-laser-sword-glow-slash-pack",
+      "status": "ok"
+    },
+    {
+      "slug": "ichor-glyph",
+      "status": "ok"
+    },
+    {
+      "slug": "victory-wraith-free",
+      "status": "ok"
+    },
+    {
+      "slug": "shadow-trooper-silhouette-free",
+      "status": "ok"
+    },
+    {
+      "slug": "shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor",
+      "status": "ok"
+    },
     {
       "slug": "shadow-run-map-layers-live-smog-fx",
       "status": "ok"
