@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-06T12:53:40Z",
+  "generatedAt": "2026-09-07T15:03:46Z",
   "qualityGrade": "A",
   "qualityScore": 90,
   "metrics": {
@@ -10,7 +10,7 @@
     "indexedFiles": 1034,
     "extractedLinks": 5396,
     "searchRecords": 6670,
-    "searchTokens": 8447,
+    "searchTokens": 8445,
     "readinessAverage": 74.4,
     "pendingHydration": 40,
     "linkIssues": 0,

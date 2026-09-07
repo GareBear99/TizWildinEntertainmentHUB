@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-09-06
+Generated: 2026-09-07
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -487,7 +487,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Chaos Arcanum Part 1: Chaos Magic & Blood FX/Slashes Official GareBearProductionz itch product ($1.75) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- Chaos Arcanum Part 1 - Blood FX & More: Chaos Magic & Blood FX/Slashes Official GareBearProductionz itch product ($0.96 -45%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-ichor-glyph.html
   Public URL: https://garebearproductionz.itch.io/ichor-glyph
   GitHub: N/A
@@ -727,7 +727,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: reward, generator, formula, items, game-dev, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
 
-- Rift Edge - Laser Sword & Glow Slash Pack: Rift Edge - Laser Sword & Glow Slash Pack Official GareBearProductionz itch product ($1.20) in the Hero Generators line; checkout and downloads happen on the official itch page.
+- Rift Edge - Laser Sword & Glow Slash Pack: Rift Edge - Laser Sword & Glow Slash Pack Official GareBearProductionz itch product ($0.90 -25%) in the Hero Generators line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-rift-edge-laser-sword-glow-slash-pack.html
   Public URL: https://garebearproductionz.itch.io/rift-edge-laser-sword-glow-slash-pack
   GitHub: N/A
@@ -745,7 +745,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Shadow Pixel Character Pack - copies any sprite: Copies any sprite into a shadow. 46 strips, 322 PNGs, and the two scripts that do it. Official GareBearProductionz itch product ($10.66 -18%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
+- Shadow Pixel Character Pack - copies any sprite: Copies any sprite into a shadow. 46 strips, 322 PNGs, and the two scripts that do it. Official GareBearProductionz itch product ($9.75 -25%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-shadow-pixel-character-pack-copies-any-sprite.html
   Public URL: https://garebearproductionz.itch.io/shadow-pixel-character-pack-copies-any-sprite
   GitHub: N/A
