@@ -1,10 +1,18 @@
 {
-  "generatedAt": "2026-09-08T13:37:24Z",
+  "generatedAt": "2026-09-09T13:42:40Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 92,
-  "itemsWritten": 92,
-  "mediaReadyItems": 92,
+  "itemsParsed": 93,
+  "itemsWritten": 93,
+  "mediaReadyItems": 93,
   "detailStatus": [
+    {
+      "slug": "arcanum-iii-vanta-abilities",
+      "status": "ok"
+    },
+    {
+      "slug": "slash-fx-101",
+      "status": "ok"
+    },
     {
       "slug": "rift-edge-laser-sword-glow-slash-pack",
       "status": "ok"
@@ -167,10 +175,6 @@
     },
     {
       "slug": "aaaa-layered-mountain-dynamic-sky-live-backdrop-engine",
-      "status": "ok"
-    },
-    {
-      "slug": "cool-backdrop-layers-engine",
       "status": "ok"
     },
     {

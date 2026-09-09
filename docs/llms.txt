@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-09-08
+Generated: 2026-09-09
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -469,6 +469,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
+- Arcanum III - Vanta Abilities: Arcanum III - Vanta Abilities Official GareBearProductionz itch product ($1.37 -45%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-arcanum-iii-vanta-abilities.html
+  Public URL: https://garebearproductionz.itch.io/arcanum-iii-vanta-abilities
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
 - Black & Red Dice SVG & PNG 2D-3D Export Engine: Black & Red Dice SVG & PNG 2D-3D Export Engine Official GareBearProductionz itch product ($3.50 -50%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-black-red-dice-svg-png-export-engine.html
   Public URL: https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine
@@ -498,12 +504,6 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz, formula-a1-bundle
-
-- Cool Backdrop Layers & Engine: Compact layered backdrop engine for animated scene composition. Official GareBearProductionz itch product ($0.50 -50%) in the Live Backdrops & Scene Engines line; checkout and downloads happen on the official itch page.
-  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-cool-backdrop-layers-engine.html
-  Public URL: https://garebearproductionz.itch.io/cool-backdrop-layers-engine
-  GitHub: N/A
-  Tags: backdrop, layers, engine, svg, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
 
 - Dark Fantasy Dungeon Builder - Free Four-Realm Tileset: Dark Fantasy Dungeon Builder - Free Four-Realm Tileset Official GareBearProductionz itch product (Free) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-dark-fantasy-dungeon-builder-free-four-realm-tileset.html
@@ -772,6 +772,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
 - SLAGWORKS: Spectral Carnage Sewer Deck (FREE): SLAGWORKS: Spectral Carnage Sewer Deck (FREE) Official GareBearProductionz itch product (FREE) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-spectral-carnage-sewers-free-tileset-map.html
   Public URL: https://garebearproductionz.itch.io/spectral-carnage-sewers-free-tileset-map
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
+- Slash FX 101 (FREE): Static Slash FX FREE Official GareBearProductionz itch product (FREE) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-slash-fx-101.html
+  Public URL: https://garebearproductionz.itch.io/slash-fx-101
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 

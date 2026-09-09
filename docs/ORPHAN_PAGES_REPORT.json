@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-08",
-  "orphanCount": 61,
+  "generatedAt": "2026-09-09",
+  "orphanCount": 62,
   "note": "Pages present in docs/pages but not referenced by public-index.json or sitemap.xml. Safe to prune or convert to meta-refresh redirects once confirmed nothing external links to them.",
   "orphans": [
     "account.html",
@@ -29,6 +29,7 @@
     "docs.html",
     "itch-arcanum-i-part-3-animated-full-screen-vfx-overlays-30-screens-960-frames.html",
     "itch-coin-physics-pack-engine-kit-tripple-buffer-atomic-swap-hash-receipts.html",
+    "itch-cool-backdrop-layers-engine.html",
     "itch-crawl-space-svg-live-backdrop-engine-animated-props.html",
     "itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html",
     "itch-enchanted-sprite-fx-engine.html",

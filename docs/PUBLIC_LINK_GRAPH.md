@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-09-08
+Generated: 2026-09-09
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **184**
+- Total indexed records: **185**
 - Total clusters: **11**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -122,12 +122,12 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Any Image to Pixel SVG Converter (Only 1 FREE)](pages/itch-any-image-to-pixel-svg-converter.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/any-image-to-pixel-svg-converter | free, converter, pixel, svg, image, itch, game-assets, garebearproductionz |
 | [Arcanum I - Part 1— Animated Pixel Spell Effects (75 effects, 1,200 frames)](pages/itch-arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames | itch, game-assets, garebearproductionz |
 | [Arcanum I - Part 2 — Animated Pixel Spell Abilities (23 spells, 752 frames)](pages/itch-arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames | itch, game-assets, garebearproductionz |
+| [Arcanum III - Vanta Abilities](pages/itch-arcanum-iii-vanta-abilities.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/arcanum-iii-vanta-abilities | itch, game-assets, garebearproductionz |
 | [Black & Red Dice SVG & PNG 2D-3D Export Engine](pages/itch-black-red-dice-svg-png-export-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine | itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Blood Bound by Pixel Scythe & SVG (FREE)](pages/itch-blood-bound-scythe-svg-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/blood-bound-scythe-svg-free | free, scythe, weapon, svg, pixel-art, itch, game-assets, garebearproductionz |
 | [Cash Cloud Sprite Pack (FREE)](pages/itch-cash-cloud.html) | Itch Asset Pack | https://garebearproductionz.itch.io/cash-cloud | itch, game-assets, garebearproductionz |
 | [Chaos Arcanum Part 1 - Blood FX & More](pages/itch-ichor-glyph.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/ichor-glyph | itch, game-assets, garebearproductionz |
 | [Coin Physics & Triple Buffer Atomic Swap Pack & Engine Kit](pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html) | Itch Asset Pack | https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts | itch, game-assets, garebearproductionz, formula-a1-bundle |
-| [Cool Backdrop Layers & Engine](pages/itch-cool-backdrop-layers-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/cool-backdrop-layers-engine | backdrop, layers, engine, svg, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Dark Fantasy Dungeon Builder - Free Four-Realm Tileset](pages/itch-dark-fantasy-dungeon-builder-free-four-realm-tileset.html) | Itch Asset Pack | https://garebearproductionz.itch.io/dark-fantasy-dungeon-builder-free-four-realm-tileset | itch, game-assets, garebearproductionz |
 | [Dark Fantasy Modular GUI Pack - 704 UI Assets + 160 Icons](pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html) | Itch Asset Pack | https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons | itch, game-assets, garebearproductionz |
 | [DIVINITY — the Imperilator arms and the seven sins (FREE)](pages/itch-divinity-the-imperilator-arms-and-the-seven-sins.html) | Itch Asset Pack | https://garebearproductionz.itch.io/divinity-the-imperilator-arms-and-the-seven-sins | itch, game-assets, garebearproductionz |
@@ -173,6 +173,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Skully Asset Pack & Lightweight Canvas Engine Demo](pages/itch-skully-asset-pack-lightweight-canvas-engine-demo.html) | Itch Playable Game / Engine | https://garebearproductionz.itch.io/skully-asset-pack-lightweight-canvas-engine-demo | skully, canvas, engine, skeleton, pixel-art, itch, game-assets, garebearproductionz |
 | [SLAGWORKS: CinderHaul - 6 Map Animated Tileset 1,910 Sprites](pages/itch-slagworks-cinderhaul-6-map-animated-tileset.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/slagworks-cinderhaul-6-map-animated-tileset | itch, game-assets, garebearproductionz |
 | [SLAGWORKS: Spectral Carnage Sewer Deck (FREE)](pages/itch-spectral-carnage-sewers-free-tileset-map.html) | Itch Asset Pack | https://garebearproductionz.itch.io/spectral-carnage-sewers-free-tileset-map | itch, game-assets, garebearproductionz |
+| [Slash FX 101 (FREE)](pages/itch-slash-fx-101.html) | Itch Asset Pack | https://garebearproductionz.itch.io/slash-fx-101 | itch, game-assets, garebearproductionz |
 | [Spectral Icon SVG Pipeline Kit](pages/itch-spectral-icon-svg-pipeline-kit.html) | Itch Asset Pack | https://garebearproductionz.itch.io/spectral-icon-svg-pipeline-kit | icons, spectral, svg, pipeline, ui, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Sphinx Pyramid Activation Layered Live Animated Map Backdrop](pages/itch-sphinx-activation-layered-live-map.html) | Itch Asset Pack | https://garebearproductionz.itch.io/sphinx-activation-layered-live-map | sphinx, pyramid, backdrop, svg, ritual, tilemap, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Static Atmos - PDF Demo 'Wraith Eternal' Comic](pages/itch-static-atmos.html) | Itch Asset Pack | https://garebearproductionz.itch.io/static-atmos | wraith, comic, pdf, atmos, music, itch, game-assets, garebearproductionz |
