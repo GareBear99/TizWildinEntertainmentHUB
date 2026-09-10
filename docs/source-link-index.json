@@ -26741,6 +26741,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://garebearproductionz.itch.io/arcanum-iii-vanta-abilities",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/arcanum-iii-vanta-abilities garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
       "url": "https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine garebearproductionz.itch.io"
@@ -26800,14 +26808,6 @@
       "url": "https://garebearproductionz.itch.io/color-dynamic-sigils-svg-export-pack",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/color-dynamic-sigils-svg-export-pack garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://garebearproductionz.itch.io/cool-backdrop-layers-engine",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/cool-backdrop-layers-engine garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -27200,6 +27200,14 @@
       "url": "https://garebearproductionz.itch.io/slagworks-cinderhaul-6-map-animated-tileset",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/slagworks-cinderhaul-6-map-animated-tileset garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://garebearproductionz.itch.io/slash-fx-101",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/slash-fx-101 garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -28088,14 +28096,6 @@
       "url": "https://img.itch.zone/aW1nLzI4MDk1NzAxLmdpZg==/original/wOjfVi.gif",
       "domain": "img.itch.zone",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1nlzi4mdk1nzaxlmdpzg==/original/wojfvi.gif img.itch.zone"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://img.itch.zone/aW1nLzI4MDk4NTIzLmpwZWc=/original/LCUrSX.jpeg",
-      "domain": "img.itch.zone",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1nlzi4mdk4ntizlmpwzwc=/original/lcursx.jpeg img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -43279,8 +43279,8 @@
     "domains": {
       "garebear99.github.io": 1640,
       "github.com": 1015,
-      "img.itch.zone": 896,
-      "garebearproductionz.itch.io": 763,
+      "img.itch.zone": 895,
+      "garebearproductionz.itch.io": 764,
       "www.w3.org": 333,
       "schema.org": 250,
       "dev.to": 48,
