@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-09-11
+Generated: 2026-09-12
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -595,6 +595,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: wraith, lore, jukebox, nekranomicon, itch, game-assets, garebearproductionz
 
+- HEMORRHAGE - Blood FX: 40 effects across 8 forms, 128px, 12 frames. Official GareBearProductionz itch product ($0.82 -45%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-hemorrhage-blood-fx.html
+  Public URL: https://garebearproductionz.itch.io/hemorrhage-blood-fx
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
 - HOLO SPRITE OVERLAY EXPORT ENGINE: HOLO SPRITE OVERLAY EXPORT ENGINE Official GareBearProductionz itch product ($8.25 -25%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-holo-sprite-overlay-engine.html
   Public URL: https://garebearproductionz.itch.io/holo-sprite-overlay-engine
@@ -727,9 +733,15 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: reward, generator, formula, items, game-dev, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
 
-- Rift Edge - Laser Sword & Glow Slash Pack: Rift Edge - Laser Sword & Glow Slash Pack Official GareBearProductionz itch product ($0.90 -25%) in the Hero Generators line; checkout and downloads happen on the official itch page.
+- Rift Edge - Laser Sword & Glow Slash Pack: Rift Edge - Laser Sword & Glow Slash Pack Official GareBearProductionz itch product ($0.80 -33%) in the Hero Generators line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-rift-edge-laser-sword-glow-slash-pack.html
   Public URL: https://garebearproductionz.itch.io/rift-edge-laser-sword-glow-slash-pack
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
+- Riftedge - 1001 Slash FX Pack: 1001 Slash VFX Animations Official GareBearProductionz itch product ($2.44 -45%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-riftedge-1001-slash-fx.html
+  Public URL: https://garebearproductionz.itch.io/riftedge-1001-slash-fx
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 

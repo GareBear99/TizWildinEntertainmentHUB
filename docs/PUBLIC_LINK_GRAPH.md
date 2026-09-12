@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-09-11
+Generated: 2026-09-12
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **185**
+- Total indexed records: **187**
 - Total clusters: **11**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -143,6 +143,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [HD Cinematic Audio SFX Pack (FREE)](pages/itch-hd-cinematic-audio-sfx-pack-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/hd-cinematic-audio-sfx-pack-free | free, audio, sfx, cinematic, metal, itch, game-assets, garebearproductionz |
 | [HD Pixel Laser Beam Pulse Glow FX Pack & Audio SFX (FREE)](pages/itch-ultimate-free-hd-laser-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/ultimate-free-hd-laser-pack | free, laser, vfx, audio, sprites, itch, game-assets, garebearproductionz |
 | [Hell's Jukebox Demo & NEKRANOMICON - Author: Cthulu](pages/itch-hells-jukebox-nekranomicon-author-cthulu.html) | Itch Asset Pack | https://garebearproductionz.itch.io/hells-jukebox-nekranomicon-author-cthulu | wraith, lore, jukebox, nekranomicon, itch, game-assets, garebearproductionz |
+| [HEMORRHAGE - Blood FX](pages/itch-hemorrhage-blood-fx.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/hemorrhage-blood-fx | itch, game-assets, garebearproductionz |
 | [HOLO SPRITE OVERLAY EXPORT ENGINE](pages/itch-holo-sprite-overlay-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/holo-sprite-overlay-engine | itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [Holy Live FX SVG & PNG Icon 8-Set Pipeline Kit](pages/itch-holy-svg-png-icon-set.html) | Itch Asset Pack | https://garebearproductionz.itch.io/holy-svg-png-icon-set | icons, holy, svg, png, live-fx, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Infernal Archetype Sprites (FREE)](pages/itch-infernal-archetypes.html) | Itch Asset Pack | https://garebearproductionz.itch.io/infernal-archetypes | free, infernal, sprites, demon, pixel-art, itch, game-assets, garebearproductionz |
@@ -166,6 +167,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Pyro-Maniac Chibi Sprite Pack (FREE)](pages/itch-pyromancy-chibi-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/pyromancy-chibi-pack | free, pyro, chibi, sprite, pixel-art, itch, game-assets, garebearproductionz |
 | [Reward Pocket Generator Formula](pages/itch-reward-pocket-generator-formula.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/reward-pocket-generator-formula | reward, generator, formula, items, game-dev, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Rift Edge - Laser Sword & Glow Slash Pack](pages/itch-rift-edge-laser-sword-glow-slash-pack.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/rift-edge-laser-sword-glow-slash-pack | itch, game-assets, garebearproductionz |
+| [Riftedge - 1001 Slash FX Pack](pages/itch-riftedge-1001-slash-fx.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/riftedge-1001-slash-fx | itch, game-assets, garebearproductionz |
 | [Scarlet Witch DarkHold Sprite (FREE)](pages/itch-scarlette-witchs-darkhold-sprite-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/scarlette-witchs-darkhold-sprite-free | free, sprite, darkhold, pixel-art, itch, game-assets, garebearproductionz |
 | [Shadow Fighters — Dragon Knight, Iron Sentinel, Xeno Grunt (+ Raptor)](pages/itch-shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor | itch, game-assets, garebearproductionz |
 | [Shadow Pixel Character Pack - copies any sprite](pages/itch-shadow-pixel-character-pack-copies-any-sprite.html) | Itch Asset Pack | https://garebearproductionz.itch.io/shadow-pixel-character-pack-copies-any-sprite | itch, game-assets, garebearproductionz |

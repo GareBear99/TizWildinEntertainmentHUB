@@ -1,10 +1,18 @@
 {
-  "generatedAt": "2026-09-11T13:34:33Z",
+  "generatedAt": "2026-09-12T12:52:07Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 93,
-  "itemsWritten": 93,
-  "mediaReadyItems": 93,
+  "itemsParsed": 95,
+  "itemsWritten": 95,
+  "mediaReadyItems": 94,
   "detailStatus": [
+    {
+      "slug": "hemorrhage-blood-fx",
+      "status": "ok"
+    },
+    {
+      "slug": "riftedge-1001-slash-fx",
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/riftedge-1001-slash-fx: HTTP Error 429: Too Many Requests"
+    },
     {
       "slug": "arcanum-iii-vanta-abilities",
       "status": "ok"
@@ -31,7 +39,7 @@
     },
     {
       "slug": "shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "shadow-run-map-layers-live-smog-fx",
@@ -75,7 +83,7 @@
     },
     {
       "slug": "sugarfall-the-pink-party-pack-free",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/sugarfall-the-pink-party-pack-free: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "divinity-the-imperilator-arms-and-the-seven-sins",
