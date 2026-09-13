@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-09-12
+Generated: 2026-09-13
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **187**
+- Total indexed records: **189**
 - Total clusters: **11**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -128,6 +128,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Cash Cloud Sprite Pack (FREE)](pages/itch-cash-cloud.html) | Itch Asset Pack | https://garebearproductionz.itch.io/cash-cloud | itch, game-assets, garebearproductionz |
 | [Chaos Arcanum Part 1 - Blood FX & More](pages/itch-ichor-glyph.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/ichor-glyph | itch, game-assets, garebearproductionz |
 | [Coin Physics & Triple Buffer Atomic Swap Pack & Engine Kit](pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html) | Itch Asset Pack | https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts | itch, game-assets, garebearproductionz, formula-a1-bundle |
+| [COSMIC DISRUPTION – Free Fast-Paced Game Music Pack](pages/itch-cosmic-disruption-free-fast-paced-game-music-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/cosmic-disruption-free-fast-paced-game-music-pack | itch, game-assets, garebearproductionz |
 | [Dark Fantasy Dungeon Builder - Free Four-Realm Tileset](pages/itch-dark-fantasy-dungeon-builder-free-four-realm-tileset.html) | Itch Asset Pack | https://garebearproductionz.itch.io/dark-fantasy-dungeon-builder-free-four-realm-tileset | itch, game-assets, garebearproductionz |
 | [Dark Fantasy Modular GUI Pack - 704 UI Assets + 160 Icons](pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html) | Itch Asset Pack | https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons | itch, game-assets, garebearproductionz |
 | [DIVINITY — the Imperilator arms and the seven sins (FREE)](pages/itch-divinity-the-imperilator-arms-and-the-seven-sins.html) | Itch Asset Pack | https://garebearproductionz.itch.io/divinity-the-imperilator-arms-and-the-seven-sins | itch, game-assets, garebearproductionz |
@@ -143,7 +144,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [HD Cinematic Audio SFX Pack (FREE)](pages/itch-hd-cinematic-audio-sfx-pack-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/hd-cinematic-audio-sfx-pack-free | free, audio, sfx, cinematic, metal, itch, game-assets, garebearproductionz |
 | [HD Pixel Laser Beam Pulse Glow FX Pack & Audio SFX (FREE)](pages/itch-ultimate-free-hd-laser-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/ultimate-free-hd-laser-pack | free, laser, vfx, audio, sprites, itch, game-assets, garebearproductionz |
 | [Hell's Jukebox Demo & NEKRANOMICON - Author: Cthulu](pages/itch-hells-jukebox-nekranomicon-author-cthulu.html) | Itch Asset Pack | https://garebearproductionz.itch.io/hells-jukebox-nekranomicon-author-cthulu | wraith, lore, jukebox, nekranomicon, itch, game-assets, garebearproductionz |
-| [HEMORRHAGE - Blood FX](pages/itch-hemorrhage-blood-fx.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/hemorrhage-blood-fx | itch, game-assets, garebearproductionz |
+| [HEMORRHAGE - Chaos Blood FX](pages/itch-hemorrhage-blood-fx.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/hemorrhage-blood-fx | itch, game-assets, garebearproductionz |
 | [HOLO SPRITE OVERLAY EXPORT ENGINE](pages/itch-holo-sprite-overlay-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/holo-sprite-overlay-engine | itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [Holy Live FX SVG & PNG Icon 8-Set Pipeline Kit](pages/itch-holy-svg-png-icon-set.html) | Itch Asset Pack | https://garebearproductionz.itch.io/holy-svg-png-icon-set | icons, holy, svg, png, live-fx, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Infernal Archetype Sprites (FREE)](pages/itch-infernal-archetypes.html) | Itch Asset Pack | https://garebearproductionz.itch.io/infernal-archetypes | free, infernal, sprites, demon, pixel-art, itch, game-assets, garebearproductionz |
@@ -172,6 +173,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Shadow Fighters — Dragon Knight, Iron Sentinel, Xeno Grunt (+ Raptor)](pages/itch-shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor | itch, game-assets, garebearproductionz |
 | [Shadow Pixel Character Pack - copies any sprite](pages/itch-shadow-pixel-character-pack-copies-any-sprite.html) | Itch Asset Pack | https://garebearproductionz.itch.io/shadow-pixel-character-pack-copies-any-sprite | itch, game-assets, garebearproductionz |
 | [Shadow Trooper Silhouette (FREE)](pages/itch-shadow-trooper-silhouette-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/shadow-trooper-silhouette-free | itch, game-assets, garebearproductionz |
+| [Shoji Dojo - Matrix Rooms](pages/itch-shoji-dojo.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/shoji-dojo | itch, game-assets, garebearproductionz |
 | [Skully Asset Pack & Lightweight Canvas Engine Demo](pages/itch-skully-asset-pack-lightweight-canvas-engine-demo.html) | Itch Playable Game / Engine | https://garebearproductionz.itch.io/skully-asset-pack-lightweight-canvas-engine-demo | skully, canvas, engine, skeleton, pixel-art, itch, game-assets, garebearproductionz |
 | [SLAGWORKS: CinderHaul - 6 Map Animated Tileset 1,910 Sprites](pages/itch-slagworks-cinderhaul-6-map-animated-tileset.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/slagworks-cinderhaul-6-map-animated-tileset | itch, game-assets, garebearproductionz |
 | [SLAGWORKS: Spectral Carnage Sewer Deck (FREE)](pages/itch-spectral-carnage-sewers-free-tileset-map.html) | Itch Asset Pack | https://garebearproductionz.itch.io/spectral-carnage-sewers-free-tileset-map | itch, game-assets, garebearproductionz |
