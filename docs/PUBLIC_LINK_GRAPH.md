@@ -1,6 +1,6 @@
 # Public Link Graph
 
-Generated: 2026-09-13
+Generated: 2026-09-14
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
@@ -173,7 +173,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Shadow Fighters — Dragon Knight, Iron Sentinel, Xeno Grunt (+ Raptor)](pages/itch-shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor | itch, game-assets, garebearproductionz |
 | [Shadow Pixel Character Pack - copies any sprite](pages/itch-shadow-pixel-character-pack-copies-any-sprite.html) | Itch Asset Pack | https://garebearproductionz.itch.io/shadow-pixel-character-pack-copies-any-sprite | itch, game-assets, garebearproductionz |
 | [Shadow Trooper Silhouette (FREE)](pages/itch-shadow-trooper-silhouette-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/shadow-trooper-silhouette-free | itch, game-assets, garebearproductionz |
-| [Shoji Dojo - Matrix Rooms](pages/itch-shoji-dojo.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/shoji-dojo | itch, game-assets, garebearproductionz |
+| [Shoji Dojo - Matrix Rooms 750+ Combinations](pages/itch-shoji-dojo.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/shoji-dojo | itch, game-assets, garebearproductionz |
 | [Skully Asset Pack & Lightweight Canvas Engine Demo](pages/itch-skully-asset-pack-lightweight-canvas-engine-demo.html) | Itch Playable Game / Engine | https://garebearproductionz.itch.io/skully-asset-pack-lightweight-canvas-engine-demo | skully, canvas, engine, skeleton, pixel-art, itch, game-assets, garebearproductionz |
 | [SLAGWORKS: CinderHaul - 6 Map Animated Tileset 1,910 Sprites](pages/itch-slagworks-cinderhaul-6-map-animated-tileset.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/slagworks-cinderhaul-6-map-animated-tileset | itch, game-assets, garebearproductionz |
 | [SLAGWORKS: Spectral Carnage Sewer Deck (FREE)](pages/itch-spectral-carnage-sewers-free-tileset-map.html) | Itch Asset Pack | https://garebearproductionz.itch.io/spectral-carnage-sewers-free-tileset-map | itch, game-assets, garebearproductionz |

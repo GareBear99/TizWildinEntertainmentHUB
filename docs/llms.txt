@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-09-13
+Generated: 2026-09-14
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -775,7 +775,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Shoji Dojo - Matrix Rooms: Dojo Map Pack - 30 walls, 25 floors, raw and lit as separate layers. Official GareBearProductionz itch product ($1.25 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- Shoji Dojo - Matrix Rooms 750+ Combinations: Dojo Map Pack - 30 walls, 25 floors, raw and lit as separate layers. Official GareBearProductionz itch product ($3.60 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-shoji-dojo.html
   Public URL: https://garebearproductionz.itch.io/shoji-dojo
   GitHub: N/A
