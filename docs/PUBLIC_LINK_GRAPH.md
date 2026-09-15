@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-09-14
+Generated: 2026-09-15
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **189**
+- Total indexed records: **188**
 - Total clusters: **11**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -122,7 +122,6 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Any Image to Pixel SVG Converter (Only 1 FREE)](pages/itch-any-image-to-pixel-svg-converter.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/any-image-to-pixel-svg-converter | free, converter, pixel, svg, image, itch, game-assets, garebearproductionz |
 | [Arcanum I - Part 1— Animated Pixel Spell Effects (75 effects, 1,200 frames)](pages/itch-arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames | itch, game-assets, garebearproductionz |
 | [Arcanum I - Part 2 — Animated Pixel Spell Abilities (23 spells, 752 frames)](pages/itch-arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames | itch, game-assets, garebearproductionz |
-| [Arcanum III - Vanta Abilities](pages/itch-arcanum-iii-vanta-abilities.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/arcanum-iii-vanta-abilities | itch, game-assets, garebearproductionz |
 | [Black & Red Dice SVG & PNG 2D-3D Export Engine](pages/itch-black-red-dice-svg-png-export-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine | itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Blood Bound by Pixel Scythe & SVG (FREE)](pages/itch-blood-bound-scythe-svg-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/blood-bound-scythe-svg-free | free, scythe, weapon, svg, pixel-art, itch, game-assets, garebearproductionz |
 | [Cash Cloud Sprite Pack (FREE)](pages/itch-cash-cloud.html) | Itch Asset Pack | https://garebearproductionz.itch.io/cash-cloud | itch, game-assets, garebearproductionz |
@@ -144,10 +143,10 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [HD Cinematic Audio SFX Pack (FREE)](pages/itch-hd-cinematic-audio-sfx-pack-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/hd-cinematic-audio-sfx-pack-free | free, audio, sfx, cinematic, metal, itch, game-assets, garebearproductionz |
 | [HD Pixel Laser Beam Pulse Glow FX Pack & Audio SFX (FREE)](pages/itch-ultimate-free-hd-laser-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/ultimate-free-hd-laser-pack | free, laser, vfx, audio, sprites, itch, game-assets, garebearproductionz |
 | [Hell's Jukebox Demo & NEKRANOMICON - Author: Cthulu](pages/itch-hells-jukebox-nekranomicon-author-cthulu.html) | Itch Asset Pack | https://garebearproductionz.itch.io/hells-jukebox-nekranomicon-author-cthulu | wraith, lore, jukebox, nekranomicon, itch, game-assets, garebearproductionz |
-| [HEMORRHAGE - Chaos Blood FX](pages/itch-hemorrhage-blood-fx.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/hemorrhage-blood-fx | itch, game-assets, garebearproductionz |
 | [HOLO SPRITE OVERLAY EXPORT ENGINE](pages/itch-holo-sprite-overlay-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/holo-sprite-overlay-engine | itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [Holy Live FX SVG & PNG Icon 8-Set Pipeline Kit](pages/itch-holy-svg-png-icon-set.html) | Itch Asset Pack | https://garebearproductionz.itch.io/holy-svg-png-icon-set | icons, holy, svg, png, live-fx, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Infernal Archetype Sprites (FREE)](pages/itch-infernal-archetypes.html) | Itch Asset Pack | https://garebearproductionz.itch.io/infernal-archetypes | free, infernal, sprites, demon, pixel-art, itch, game-assets, garebearproductionz |
+| [Japanese Dojo Tileset (FREE)](pages/itch-japanese-dojo-tileset-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/japanese-dojo-tileset-free | itch, game-assets, garebearproductionz |
 | [Live Pentagram Formula 2D-2.5D](pages/itch-live-pentagram-formula-2d-3d.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/live-pentagram-formula-2d-3d | pentagram, ritual, 2d, 2.5d, formula, itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [Live Smog VFX & Shadow Run Map Layers](pages/itch-shadow-run-map-layers-live-smog-fx.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/shadow-run-map-layers-live-smog-fx | itch, game-assets, garebearproductionz |
 | [Live SVG Icon Starter Kit Pipeline + 4 Live Hell FX Icons](pages/itch-svg-icon-starter-kit-pipeline.html) | Itch Asset Pack | https://garebearproductionz.itch.io/svg-icon-starter-kit-pipeline | icons, svg, hell, starter-kit, live-fx, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |

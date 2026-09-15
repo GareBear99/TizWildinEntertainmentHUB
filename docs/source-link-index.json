@@ -613,14 +613,6 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "all-account-inventory.html",
-      "url": "https://garebearproductionz.itch.io/arcanum-iii-vanta-abilities",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub all-account-inventory.html https://garebearproductionz.itch.io/arcanum-iii-vanta-abilities garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "all-account-inventory.html",
       "url": "https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub all-account-inventory.html https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine garebearproductionz.itch.io"
@@ -845,14 +837,6 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "all-account-inventory.html",
-      "url": "https://garebearproductionz.itch.io/hemorrhage-blood-fx",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub all-account-inventory.html https://garebearproductionz.itch.io/hemorrhage-blood-fx garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "all-account-inventory.html",
       "url": "https://garebearproductionz.itch.io/holo-sprite-overlay-engine",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub all-account-inventory.html https://garebearproductionz.itch.io/holo-sprite-overlay-engine garebearproductionz.itch.io"
@@ -904,6 +888,14 @@
       "url": "https://garebearproductionz.itch.io/infina-dix-engine",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub all-account-inventory.html https://garebearproductionz.itch.io/infina-dix-engine garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "all-account-inventory.html",
+      "url": "https://garebearproductionz.itch.io/japanese-dojo-tileset-free",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub all-account-inventory.html https://garebearproductionz.itch.io/japanese-dojo-tileset-free garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -2468,6 +2460,14 @@
     {
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "all-account-inventory.html",
+      "url": "https://img.itch.zone/aW1nLzI5Nzk1MDQ4LmdpZg==/original/zcPclI.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub all-account-inventory.html https://img.itch.zone/aw1nlzi5nzk1mdq4lmdpzg==/original/zcpcli.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "index-seo.html",
       "url": "https://ffm.bio/no4km87",
       "domain": "ffm.bio",
@@ -3509,14 +3509,6 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "all_items.json",
-      "url": "https://garebearproductionz.itch.io/arcanum-iii-vanta-abilities",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub all_items.json https://garebearproductionz.itch.io/arcanum-iii-vanta-abilities garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "all_items.json",
       "url": "https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub all_items.json https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine garebearproductionz.itch.io"
@@ -3741,14 +3733,6 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "all_items.json",
-      "url": "https://garebearproductionz.itch.io/hemorrhage-blood-fx",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub all_items.json https://garebearproductionz.itch.io/hemorrhage-blood-fx garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "all_items.json",
       "url": "https://garebearproductionz.itch.io/holo-sprite-overlay-engine",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub all_items.json https://garebearproductionz.itch.io/holo-sprite-overlay-engine garebearproductionz.itch.io"
@@ -3800,6 +3784,14 @@
       "url": "https://garebearproductionz.itch.io/infina-dix-engine",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub all_items.json https://garebearproductionz.itch.io/infina-dix-engine garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "all_items.json",
+      "url": "https://garebearproductionz.itch.io/japanese-dojo-tileset-free",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub all_items.json https://garebearproductionz.itch.io/japanese-dojo-tileset-free garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -5368,6 +5360,14 @@
       "url": "https://img.itch.zone/aW1nLzI5Nzk1MDQ4LmdpZg==/original/zcPclI.gif",
       "domain": "img.itch.zone",
       "queryText": "tizwildinentertainmenthub all_items.json https://img.itch.zone/aw1nlzi5nzk1mdq4lmdpzg==/original/zcpcli.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "all_items.json",
+      "url": "https://img.itch.zone/aW1nLzI5NzkwMjk2LmdpZg==/original/EXkxtb.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub all_items.json https://img.itch.zone/aw1nlzi5nzkwmjk2lmdpzg==/original/exkxtb.gif img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -11365,14 +11365,6 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/sitemap.xml",
-      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-arcanum-iii-vanta-abilities.html",
-      "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-arcanum-iii-vanta-abilities.html garebear99.github.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/sitemap.xml",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-black-red-dice-svg-png-export-engine.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-black-red-dice-svg-png-export-engine.html garebear99.github.io"
@@ -11540,6 +11532,14 @@
     {
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/sitemap.xml",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-free-pixel-paladin-hammer-chibi.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/sitemap.xml https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-free-pixel-paladin-hammer-chibi.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/SOURCE_INDEXING_SYSTEM.md",
       "url": "https://github.com/GareBear99/example-repo",
       "domain": "github.com",
@@ -11560,22 +11560,6 @@
       "url": "https://garebearproductionz.itch.io/",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/ garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/neolution-grid-engine:",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/neolution-grid-engine: garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/skully-asset-pack-lightweight-canvas-engine-demo:",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/skully-asset-pack-lightweight-canvas-engine-demo: garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -12429,14 +12413,6 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/ecosystem-index.html",
-      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-arcanum-iii-vanta-abilities.html",
-      "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-arcanum-iii-vanta-abilities.html garebear99.github.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ecosystem-index.html",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-black-red-dice-svg-png-export-engine.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-black-red-dice-svg-png-export-engine.html garebear99.github.io"
@@ -12661,14 +12637,6 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/ecosystem-index.html",
-      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-hemorrhage-blood-fx.html",
-      "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-hemorrhage-blood-fx.html garebear99.github.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ecosystem-index.html",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-holo-sprite-overlay-engine.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-holo-sprite-overlay-engine.html garebear99.github.io"
@@ -12720,6 +12688,14 @@
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-infina-dix-engine.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-infina-dix-engine.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ecosystem-index.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-japanese-dojo-tileset-free.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-japanese-dojo-tileset-free.html garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -13621,14 +13597,6 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/ecosystem-index.html",
-      "url": "https://garebearproductionz.itch.io/arcanum-iii-vanta-abilities",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebearproductionz.itch.io/arcanum-iii-vanta-abilities garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ecosystem-index.html",
       "url": "https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine garebearproductionz.itch.io"
@@ -13840,6 +13808,22 @@
       "url": "https://garebearproductionz.itch.io/hd-cinematic-audio-sfx-pack-free",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebearproductionz.itch.io/hd-cinematic-audio-sfx-pack-free garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ecosystem-index.html",
+      "url": "https://garebearproductionz.itch.io/hells-jukebox-nekranomicon-author-cthulu",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebearproductionz.itch.io/hells-jukebox-nekranomicon-author-cthulu garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ecosystem-index.html",
+      "url": "https://garebearproductionz.itch.io/holo-sprite-overlay-engine",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/ecosystem-index.html https://garebearproductionz.itch.io/holo-sprite-overlay-engine garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -14421,14 +14405,6 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/llms.txt",
-      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-arcanum-iii-vanta-abilities.html",
-      "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-arcanum-iii-vanta-abilities.html garebear99.github.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/llms.txt",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-black-red-dice-svg-png-export-engine.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-black-red-dice-svg-png-export-engine.html garebear99.github.io"
@@ -14653,14 +14629,6 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/llms.txt",
-      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-hemorrhage-blood-fx.html",
-      "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-hemorrhage-blood-fx.html garebear99.github.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/llms.txt",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-holo-sprite-overlay-engine.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-holo-sprite-overlay-engine.html garebear99.github.io"
@@ -14712,6 +14680,14 @@
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-infina-dix-engine.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-infina-dix-engine.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/llms.txt",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-japanese-dojo-tileset-free.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-japanese-dojo-tileset-free.html garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -15613,14 +15589,6 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/llms.txt",
-      "url": "https://garebearproductionz.itch.io/arcanum-iii-vanta-abilities",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebearproductionz.itch.io/arcanum-iii-vanta-abilities garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/llms.txt",
       "url": "https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine garebearproductionz.itch.io"
@@ -15844,6 +15812,22 @@
     {
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/llms.txt",
+      "url": "https://garebearproductionz.itch.io/holo-sprite-overlay-engine",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebearproductionz.itch.io/holo-sprite-overlay-engine garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/llms.txt",
+      "url": "https://garebearproductionz.itch.io/holy-svg-png-icon-set",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/llms.txt https://garebearproductionz.itch.io/holy-svg-png-icon-set garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
       "url": "https://ffm.bio/no4km87",
       "domain": "ffm.bio",
@@ -16032,14 +16016,6 @@
       "url": "https://garebearproductionz.itch.io/arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/public_link_graph.md https://garebearproductionz.itch.io/arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
-      "url": "https://garebearproductionz.itch.io/arcanum-iii-vanta-abilities",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md https://garebearproductionz.itch.io/arcanum-iii-vanta-abilities garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -16269,14 +16245,6 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
-      "url": "https://garebearproductionz.itch.io/hemorrhage-blood-fx",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md https://garebearproductionz.itch.io/hemorrhage-blood-fx garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
       "url": "https://garebearproductionz.itch.io/holo-sprite-overlay-engine",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/public_link_graph.md https://garebearproductionz.itch.io/holo-sprite-overlay-engine garebearproductionz.itch.io"
@@ -16328,6 +16296,14 @@
       "url": "https://garebearproductionz.itch.io/infina-dix-engine",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/public_link_graph.md https://garebearproductionz.itch.io/infina-dix-engine garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
+      "url": "https://garebearproductionz.itch.io/japanese-dojo-tileset-free",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md https://garebearproductionz.itch.io/japanese-dojo-tileset-free garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -17573,14 +17549,6 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
-      "url": "pages/itch-arcanum-iii-vanta-abilities.html",
-      "domain": "",
-      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md pages/itch-arcanum-iii-vanta-abilities.html "
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
       "url": "pages/itch-black-red-dice-svg-png-export-engine.html",
       "domain": "",
       "queryText": "tizwildinentertainmenthub docs/public_link_graph.md pages/itch-black-red-dice-svg-png-export-engine.html "
@@ -17805,14 +17773,6 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
-      "url": "pages/itch-hemorrhage-blood-fx.html",
-      "domain": "",
-      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md pages/itch-hemorrhage-blood-fx.html "
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
       "url": "pages/itch-holo-sprite-overlay-engine.html",
       "domain": "",
       "queryText": "tizwildinentertainmenthub docs/public_link_graph.md pages/itch-holo-sprite-overlay-engine.html "
@@ -17840,6 +17800,30 @@
       "url": "pages/itch-indie-dynamic-merchant-cart.html",
       "domain": "",
       "queryText": "tizwildinentertainmenthub docs/public_link_graph.md pages/itch-indie-dynamic-merchant-cart.html "
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
+      "url": "pages/itch-infernal-archetypes.html",
+      "domain": "",
+      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md pages/itch-infernal-archetypes.html "
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
+      "url": "pages/itch-infernal-hell-icons-free-basic-fx.html",
+      "domain": "",
+      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md pages/itch-infernal-hell-icons-free-basic-fx.html "
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/PUBLIC_LINK_GRAPH.md",
+      "url": "pages/itch-infina-dix-engine.html",
+      "domain": "",
+      "queryText": "tizwildinentertainmenthub docs/public_link_graph.md pages/itch-infina-dix-engine.html "
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -18549,14 +18533,6 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/data/all_items.json",
-      "url": "https://garebearproductionz.itch.io/arcanum-iii-vanta-abilities",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://garebearproductionz.itch.io/arcanum-iii-vanta-abilities garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/data/all_items.json",
       "url": "https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine garebearproductionz.itch.io"
@@ -18781,14 +18757,6 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/data/all_items.json",
-      "url": "https://garebearproductionz.itch.io/hemorrhage-blood-fx",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://garebearproductionz.itch.io/hemorrhage-blood-fx garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/data/all_items.json",
       "url": "https://garebearproductionz.itch.io/holo-sprite-overlay-engine",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://garebearproductionz.itch.io/holo-sprite-overlay-engine garebearproductionz.itch.io"
@@ -18840,6 +18808,14 @@
       "url": "https://garebearproductionz.itch.io/infina-dix-engine",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://garebearproductionz.itch.io/infina-dix-engine garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/data/all_items.json",
+      "url": "https://garebearproductionz.itch.io/japanese-dojo-tileset-free",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://garebearproductionz.itch.io/japanese-dojo-tileset-free garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -20408,6 +20384,14 @@
       "url": "https://img.itch.zone/aW1nLzI5Nzk1MDQ4LmdpZg==/original/zcPclI.gif",
       "domain": "img.itch.zone",
       "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://img.itch.zone/aw1nlzi5nzk1mdq4lmdpzg==/original/zcpcli.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/data/all_items.json",
+      "url": "https://img.itch.zone/aW1nLzI5NzkwMjk2LmdpZg==/original/EXkxtb.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://img.itch.zone/aw1nlzi5nzkwmjk2lmdpzg==/original/exkxtb.gif img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -23992,6 +23976,62 @@
       "url": "https://schema.org",
       "domain": "schema.org",
       "queryText": "tizwildinentertainmenthub docs/pages/tizwildin-sample-packs-tizwildin-aurora.html https://schema.org schema.org"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-japanese-dojo-tileset-free.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-japanese-dojo-tileset-free.html https://garebear99.github.io/tizwildinentertainmenthub garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-japanese-dojo-tileset-free.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-japanese-dojo-tileset-free.html https://garebear99.github.io/tizwildinentertainmenthub/pages/all-account-inventory.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-japanese-dojo-tileset-free.html",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-japanese-dojo-tileset-free.html",
+      "domain": "garebear99.github.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-japanese-dojo-tileset-free.html https://garebear99.github.io/tizwildinentertainmenthub/pages/itch-japanese-dojo-tileset-free.html garebear99.github.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-japanese-dojo-tileset-free.html",
+      "url": "https://garebearproductionz.itch.io/japanese-dojo-tileset-free",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-japanese-dojo-tileset-free.html https://garebearproductionz.itch.io/japanese-dojo-tileset-free garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-japanese-dojo-tileset-free.html",
+      "url": "https://img.itch.zone/aW1nLzI5OTk1Mjc4LnBuZw==/original/6sUlJY.png",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-japanese-dojo-tileset-free.html https://img.itch.zone/aw1nlzi5otk1mjc4lnbuzw==/original/6suljy.png img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-japanese-dojo-tileset-free.html",
+      "url": "https://img.itch.zone/aW1nLzI5OTk1NTA2LmdpZg==/original/cf9nWN.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-japanese-dojo-tileset-free.html https://img.itch.zone/aw1nlzi5otk1nta2lmdpzg==/original/cf9nwn.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/itch-japanese-dojo-tileset-free.html",
+      "url": "https://schema.org",
+      "domain": "schema.org",
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-japanese-dojo-tileset-free.html https://schema.org schema.org"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -31501,14 +31541,6 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/all-account-inventory.html",
-      "url": "https://garebearproductionz.itch.io/arcanum-iii-vanta-abilities",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://garebearproductionz.itch.io/arcanum-iii-vanta-abilities garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/all-account-inventory.html",
       "url": "https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine garebearproductionz.itch.io"
@@ -31733,14 +31765,6 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/all-account-inventory.html",
-      "url": "https://garebearproductionz.itch.io/hemorrhage-blood-fx",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://garebearproductionz.itch.io/hemorrhage-blood-fx garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/all-account-inventory.html",
       "url": "https://garebearproductionz.itch.io/holo-sprite-overlay-engine",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://garebearproductionz.itch.io/holo-sprite-overlay-engine garebearproductionz.itch.io"
@@ -31792,6 +31816,14 @@
       "url": "https://garebearproductionz.itch.io/infina-dix-engine",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://garebearproductionz.itch.io/infina-dix-engine garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/all-account-inventory.html",
+      "url": "https://garebearproductionz.itch.io/japanese-dojo-tileset-free",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://garebearproductionz.itch.io/japanese-dojo-tileset-free garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -33352,6 +33384,14 @@
       "url": "https://img.itch.zone/aW1nLzI5Nzk1MDQ4LmdpZg==/original/ebE8C7.gif",
       "domain": "img.itch.zone",
       "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://img.itch.zone/aw1nlzi5nzk1mdq4lmdpzg==/original/ebe8c7.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/all-account-inventory.html",
+      "url": "https://img.itch.zone/aW1nLzI5Nzk1MDQ4LmdpZg==/original/zcPclI.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://img.itch.zone/aw1nlzi5nzk1mdq4lmdpzg==/original/zcpcli.gif img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -43547,14 +43587,14 @@
     }
   ],
   "summary": {
-    "linkCount": 5443,
+    "linkCount": 5448,
     "domains": {
-      "garebear99.github.io": 1660,
+      "garebear99.github.io": 1661,
       "github.com": 1015,
-      "img.itch.zone": 883,
-      "garebearproductionz.itch.io": 786,
+      "img.itch.zone": 889,
+      "garebearproductionz.itch.io": 782,
       "www.w3.org": 337,
-      "schema.org": 254,
+      "schema.org": 255,
       "dev.to": 48,
       "127.0.0.1:8000": 36,
       "img.shields.io": 34,

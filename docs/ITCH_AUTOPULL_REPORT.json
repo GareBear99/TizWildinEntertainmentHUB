@@ -1,10 +1,14 @@
 {
-  "generatedAt": "2026-09-14T15:53:22Z",
+  "generatedAt": "2026-09-15T14:19:56Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 97,
-  "itemsWritten": 97,
-  "mediaReadyItems": 97,
+  "itemsParsed": 96,
+  "itemsWritten": 96,
+  "mediaReadyItems": 96,
   "detailStatus": [
+    {
+      "slug": "japanese-dojo-tileset-free",
+      "status": "ok"
+    },
     {
       "slug": "cosmic-disruption-free-fast-paced-game-music-pack",
       "status": "ok"
@@ -14,15 +18,7 @@
       "status": "ok"
     },
     {
-      "slug": "hemorrhage-blood-fx",
-      "status": "ok"
-    },
-    {
       "slug": "riftedge-1001-slash-fx",
-      "status": "ok"
-    },
-    {
-      "slug": "arcanum-iii-vanta-abilities",
       "status": "ok"
     },
     {
@@ -367,11 +363,11 @@
     },
     {
       "slug": "neolution-grid-engine",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/neolution-grid-engine: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "skully-asset-pack-lightweight-canvas-engine-demo",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/skully-asset-pack-lightweight-canvas-engine-demo: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "gravity-projectile-generator-formula",

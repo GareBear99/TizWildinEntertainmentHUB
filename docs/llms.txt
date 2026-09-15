@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-09-14
+Generated: 2026-09-15
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -469,12 +469,6 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Arcanum III - Vanta Abilities: Arcanum III - Vanta Abilities Official GareBearProductionz itch product ($1.62 -35%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
-  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-arcanum-iii-vanta-abilities.html
-  Public URL: https://garebearproductionz.itch.io/arcanum-iii-vanta-abilities
-  GitHub: N/A
-  Tags: itch, game-assets, garebearproductionz
-
 - Black & Red Dice SVG & PNG 2D-3D Export Engine: Black & Red Dice SVG & PNG 2D-3D Export Engine Official GareBearProductionz itch product ($3.50 -50%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-black-red-dice-svg-png-export-engine.html
   Public URL: https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine
@@ -601,12 +595,6 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: wraith, lore, jukebox, nekranomicon, itch, game-assets, garebearproductionz
 
-- HEMORRHAGE - Chaos Blood FX: 40 effects across 8 forms, 128px, 12 frames. Official GareBearProductionz itch product ($0.97 -35%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
-  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-hemorrhage-blood-fx.html
-  Public URL: https://garebearproductionz.itch.io/hemorrhage-blood-fx
-  GitHub: N/A
-  Tags: itch, game-assets, garebearproductionz
-
 - HOLO SPRITE OVERLAY EXPORT ENGINE: HOLO SPRITE OVERLAY EXPORT ENGINE Official GareBearProductionz itch product ($8.25 -25%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-holo-sprite-overlay-engine.html
   Public URL: https://garebearproductionz.itch.io/holo-sprite-overlay-engine
@@ -624,6 +612,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://garebearproductionz.itch.io/infernal-archetypes
   GitHub: N/A
   Tags: free, infernal, sprites, demon, pixel-art, itch, game-assets, garebearproductionz
+
+- Japanese Dojo Tileset (FREE): Japanese Dojo Tileset (FREE) Official GareBearProductionz itch product (FREE) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-japanese-dojo-tileset-free.html
+  Public URL: https://garebearproductionz.itch.io/japanese-dojo-tileset-free
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
 
 - Live Pentagram Formula 2D-2.5D: 2D/projected-3D live pentagram formula for ritual FX. Official GareBearProductionz itch product ($4.99 -25%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-live-pentagram-formula-2d-3d.html
