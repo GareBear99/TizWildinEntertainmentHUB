@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-09-15
+Generated: 2026-09-16
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -720,6 +720,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://garebearproductionz.itch.io/professional-occult-covenant-icon-kit
   GitHub: N/A
   Tags: occult, covenant, icons, svg, fx, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- Pyre Fire Pack Generator Tools: Pyre Fire Pack Generator Tools Official GareBearProductionz itch product ($3.75 -25%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-pyre-fire-pack-generator-tools.html
+  Public URL: https://garebearproductionz.itch.io/pyre-fire-pack-generator-tools
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
 
 - Pyro-Maniac Chibi Sprite Pack (FREE): Free pyromancy chibi sprite pack. Official GareBearProductionz itch product (FREE) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-pyromancy-chibi-pack.html

@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-09-15
+Generated: 2026-09-16
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **188**
+- Total indexed records: **189**
 - Total clusters: **11**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -164,6 +164,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Pride Crown Concept Sprite Art (Free)](pages/itch-pride-crown-concept-art.html) | Itch Asset Pack | https://garebearproductionz.itch.io/pride-crown-concept-art | free, crown, concept, sprite, pixel-art, itch, game-assets, garebearproductionz |
 | [Professional Grade Studio Violin Audio Synth Formula](pages/itch-professional-grade-studio-violin-audio-synth-formula.html) | Itch Asset Pack | https://garebearproductionz.itch.io/professional-grade-studio-violin-audio-synth-formula | audio, synth, violin, physical-modeling, formula, itch, game-assets, garebearproductionz |
 | [Professional Occult Covenant Icon Kit & FX Formula](pages/itch-professional-occult-covenant-icon-kit.html) | Itch Asset Pack | https://garebearproductionz.itch.io/professional-occult-covenant-icon-kit | occult, covenant, icons, svg, fx, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
+| [Pyre Fire Pack Generator Tools](pages/itch-pyre-fire-pack-generator-tools.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/pyre-fire-pack-generator-tools | itch, game-assets, garebearproductionz |
 | [Pyro-Maniac Chibi Sprite Pack (FREE)](pages/itch-pyromancy-chibi-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/pyromancy-chibi-pack | free, pyro, chibi, sprite, pixel-art, itch, game-assets, garebearproductionz |
 | [Reward Pocket Generator Formula](pages/itch-reward-pocket-generator-formula.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/reward-pocket-generator-formula | reward, generator, formula, items, game-dev, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Rift Edge - Laser Sword & Glow Slash Pack](pages/itch-rift-edge-laser-sword-glow-slash-pack.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/rift-edge-laser-sword-glow-slash-pack | itch, game-assets, garebearproductionz |

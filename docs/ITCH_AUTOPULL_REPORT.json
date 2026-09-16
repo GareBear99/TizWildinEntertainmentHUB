@@ -1,10 +1,14 @@
 {
-  "generatedAt": "2026-09-15T14:19:56Z",
+  "generatedAt": "2026-09-16T14:11:57Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 96,
-  "itemsWritten": 96,
-  "mediaReadyItems": 96,
+  "itemsParsed": 97,
+  "itemsWritten": 97,
+  "mediaReadyItems": 97,
   "detailStatus": [
+    {
+      "slug": "pyre-fire-pack-generator-tools",
+      "status": "ok"
+    },
     {
       "slug": "japanese-dojo-tileset-free",
       "status": "ok"

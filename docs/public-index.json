@@ -1,11 +1,11 @@
 {
   "schemaVersion": "2.0",
-  "generatedAt": "2026-09-15",
+  "generatedAt": "2026-09-16",
   "name": "TizWildin Entertainment HUB Public Link Index",
   "description": "Static crawler-friendly index of TizWildin audio, producer, public list, credibility, and ARC source-spine routes.",
   "owner": "GareBear99",
   "baseUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB",
-  "itemCount": 188,
+  "itemCount": 189,
   "items": [
     {
       "cluster": "AI and Automation Tools",
@@ -3822,6 +3822,35 @@
       "page": "pages/itch-professional-occult-covenant-icon-kit.html",
       "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-professional-occult-covenant-icon-kit.html",
       "canonicalUrl": "https://garebearproductionz.itch.io/professional-occult-covenant-icon-kit",
+      "repoUrl": "",
+      "docsUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html"
+    },
+    {
+      "cluster": "Game Asset Store / Itch Inventory",
+      "kind": "Itch Game Tool / Formula",
+      "name": "Pyre Fire Pack Generator Tools",
+      "description": "Pyre Fire Pack Generator Tools Official GareBearProductionz itch product ($3.75 -25%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.",
+      "repo": "",
+      "url": "https://garebearproductionz.itch.io/pyre-fire-pack-generator-tools",
+      "docs": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html",
+      "status": "released",
+      "tags": [
+        "itch",
+        "game-assets",
+        "garebearproductionz"
+      ],
+      "priority": 42,
+      "license": "See individual itch page",
+      "language": "HTML / JavaScript / Assets",
+      "source_manifest": "all_items.json",
+      "page_slug": "itch-pyre-fire-pack-generator-tools",
+      "render_page": true,
+      "cover": "https://img.itch.zone/aW1nLzMwMDI4OTMyLmdpZg==/original/e6gL9A.gif",
+      "animated": "https://img.itch.zone/aW1nLzMwMDI4OTMyLmdpZg==/original/%2BIFY8L.gif",
+      "id": "itch-pyre-fire-pack-generator-tools",
+      "page": "pages/itch-pyre-fire-pack-generator-tools.html",
+      "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-pyre-fire-pack-generator-tools.html",
+      "canonicalUrl": "https://garebearproductionz.itch.io/pyre-fire-pack-generator-tools",
       "repoUrl": "",
       "docsUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html"
     },
