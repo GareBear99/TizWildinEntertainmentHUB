@@ -1,6 +1,6 @@
 {
   "schemaVersion": "2.0",
-  "generatedAt": "2026-09-22",
+  "generatedAt": "2026-09-23",
   "name": "TizWildin Entertainment HUB Public Link Index",
   "description": "Static crawler-friendly index of TizWildin audio, producer, public list, credibility, and ARC source-spine routes.",
   "owner": "GareBear99",
@@ -3575,7 +3575,7 @@
       "page_slug": "itch-orerry-solar-system-pack",
       "render_page": true,
       "cover": "https://img.itch.zone/aW1nLzI5MTYxMDI1LmpwZWc=/original/GZM6XU.jpeg",
-      "animated": "",
+      "animated": "https://img.itch.zone/aW1nLzI3ODc2MzQ0LmdpZg==/original/qAACHS.gif",
       "id": "itch-orerry-solar-system-pack",
       "page": "pages/itch-orerry-solar-system-pack.html",
       "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-orerry-solar-system-pack.html",
