@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-28T17:40:23Z",
+  "generatedAt": "2026-09-29T15:50:37Z",
   "documentCount": 6748,
-  "tokenCount": 8519,
+  "tokenCount": 8518,
   "documents": [
     {
       "id": "route:slushai",
@@ -11780,7 +11780,7 @@
       "title": "TizWildinEntertainmentHUB / all_items.json",
       "kind": "indexed-file",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/repo-file-search.html?repo=tizwildin-entertainment-hub&q=all_items.json",
-      "summary": "{ \"schemaVersion\": \"1.0\", \"generatedAt\": \"2026 09 28T17:40:22Z\", \"owner\": \"GareBearProductionz\", \"accountUrl\": \"https://garebearproductionz.itch.io/\", \"summary\": { \"totalPublicProfileItems\": 97, \"formulaA1ItemsInManifest tizwildinentertainm",
+      "summary": "{ \"schemaVersion\": \"1.0\", \"generatedAt\": \"2026 09 29T15:50:36Z\", \"owner\": \"GareBearProductionz\", \"accountUrl\": \"https://garebearproductionz.itch.io/\", \"summary\": { \"totalPublicProfileItems\": 97, \"formulaA1ItemsInManifest tizwildinentertainm",
       "tokens": [
         ".json",
         "000.00",
@@ -11794,17 +11794,17 @@
         "188490",
         "191122",
         "2026",
-        "22z",
         "25.00",
         "256-pixel-runes-glyphs-symbols-that-write-themselves",
         "28",
-        "28t17",
+        "29t15",
         "2d-chibi-pixel-elemental-rigging-concept",
         "2d-sunset-generation-formula",
         "33",
         "34",
-        "40",
+        "36z",
         "40-animated-pixel-fx-pack-dash-land-impact",
+        "50",
         "5k",
         "64",
         "85",
@@ -16020,7 +16020,7 @@
       "title": "TizWildinEntertainmentHUB / docs/SEO_BUILD_REPORT.json",
       "kind": "indexed-file",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/repo-file-search.html?repo=tizwildin-entertainment-hub&q=docs/SEO_BUILD_REPORT.json",
-      "summary": "{ \"generatedAt\": \"2026 09 28\", \"items\": 189, \"clusters\": { \"AI and Automation Tools\": 1, \"ARC Source Spine\": 17, \"Academic Papers and Technical Writing\": 8, \"Creator and Audio Tools\": 6, \"Credibility and Submission Track tizwildinentertainm",
+      "summary": "{ \"generatedAt\": \"2026 09 29\", \"items\": 189, \"clusters\": { \"AI and Automation Tools\": 1, \"ARC Source Spine\": 17, \"Academic Papers and Technical Writing\": 8, \"Creator and Audio Tools\": 6, \"Credibility and Submission Track tizwildinentertainm",
       "tokens": [
         ".json",
         "09",
@@ -16031,7 +16031,7 @@
         "18",
         "189",
         "2026",
-        "28",
+        "29",
         "309",
         "420",
         "98",
@@ -16647,18 +16647,17 @@
       "title": "TizWildinEntertainmentHUB / docs/index-health.json",
       "kind": "indexed-file",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/repo-file-search.html?repo=tizwildin-entertainment-hub&q=docs/index-health.json",
-      "summary": "{ \"schemaVersion\": \"1.0\", \"generatedAt\": \"2026 09 27T14:42:17Z\", \"qualityGrade\": \"A\", \"qualityScore\": 90, \"metrics\": { \"publicRoutes\": 189, \"sitemapUrls\": 420, \"sourceRepos\": 56, \"indexedFiles\": 1044, \"extractedLinks\": 5 tizwildinentertainm",
+      "summary": "{ \"schemaVersion\": \"1.0\", \"generatedAt\": \"2026 09 28T17:40:23Z\", \"qualityGrade\": \"A\", \"qualityScore\": 90, \"metrics\": { \"publicRoutes\": 189, \"sitemapUrls\": 420, \"sourceRepos\": 56, \"indexedFiles\": 1044, \"extractedLinks\": 5 tizwildinentertainm",
       "tokens": [
         ".json",
         "09",
         "1.0",
         "1044",
-        "17z",
         "189",
         "2026",
-        "27t14",
+        "23z",
+        "28t17",
         "40",
-        "42",
         "420",
         "5459",
         "56",
@@ -17616,7 +17615,7 @@
       "title": "TizWildinEntertainmentHUB / docs/PUBLIC_LINK_GRAPH.md",
       "kind": "indexed-file",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/repo-file-search.html?repo=tizwildin-entertainment-hub&q=docs/PUBLIC_LINK_GRAPH.md",
-      "summary": "Public Link Graph Generated: 2026 09 28 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index. Summary Total indexed records: 189 Total clusters: 11 Generator: scripts/ tizwildinentertainm",
+      "summary": "Public Link Graph Generated: 2026 09 29 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index. Summary Total indexed records: 189 Total clusters: 11 Generator: scripts/ tizwildinentertainm",
       "tokens": [
         ".md",
         "09",
@@ -17627,7 +17626,7 @@
         "189",
         "2026",
         "256-pixel-runes-glyphs-symbols-that-write-themselves",
-        "28",
+        "29",
         "2d-chibi-pixel-elemental-rigging-concept",
         "2d-sunset-generation-formula",
         "40-animated-pixel-fx-pack-dash-land-impact",
@@ -17777,13 +17776,13 @@
       "title": "TizWildinEntertainmentHUB / docs/llms.txt",
       "kind": "indexed-file",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/repo-file-search.html?repo=tizwildin-entertainment-hub&q=docs/llms.txt",
-      "summary": "TizWildin Entertainment HUB Public Index Generated: 2026 09 28 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB This is the crawler/LLM friendly plain text index for the GareBear99 / TizWildin / ARC ecosy tizwildinentertainm",
+      "summary": "TizWildin Entertainment HUB Public Index Generated: 2026 09 29 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB This is the crawler/LLM friendly plain text index for the GareBear99 / TizWildin / ARC ecosy tizwildinentertainm",
       "tokens": [
         "#packs",
         ".txt",
         "09",
         "2026",
-        "28",
+        "29",
         "aether.html",
         "ai",
         "all-account-inventory.html",
@@ -18723,12 +18722,12 @@
       "title": "TizWildinEntertainmentHUB / docs/ORPHAN_PAGES_REPORT.json",
       "kind": "indexed-file",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/repo-file-search.html?repo=tizwildin-entertainment-hub&q=docs/ORPHAN_PAGES_REPORT.json",
-      "summary": "{ \"generatedAt\": \"2026 09 28\", \"orphanCount\": 64, \"note\": \"Pages present in docs/pages but not referenced by public index.json or sitemap.xml. Safe to prune or convert to meta refresh redirects once confirmed nothing ext tizwildinentertainm",
+      "summary": "{ \"generatedAt\": \"2026 09 29\", \"orphanCount\": 64, \"note\": \"Pages present in docs/pages but not referenced by public index.json or sitemap.xml. Safe to prune or convert to meta refresh redirects once confirmed nothing ext tizwildinentertainm",
       "tokens": [
         ".json",
         "09",
         "2026",
-        "28",
+        "29",
         "64",
         "account.html",
         "api.html",
@@ -18979,16 +18978,16 @@
       "title": "TizWildinEntertainmentHUB / docs/ITCH_AUTOPULL_REPORT.json",
       "kind": "indexed-file",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/repo-file-search.html?repo=tizwildin-entertainment-hub&q=docs/ITCH_AUTOPULL_REPORT.json",
-      "summary": "{ \"generatedAt\": \"2026 09 28T17:40:22Z\", \"profileUrl\": \"https://garebearproductionz.itch.io/\", \"itemsParsed\": 97, \"itemsWritten\": 97, \"mediaReadyItems\": 97, \"detailStatus\": [ { \"slug\": \"pyre fire pack generator tools\", \" tizwildinentertainm",
+      "summary": "{ \"generatedAt\": \"2026 09 29T15:50:36Z\", \"profileUrl\": \"https://garebearproductionz.itch.io/\", \"itemsParsed\": 97, \"itemsWritten\": 97, \"mediaReadyItems\": 97, \"detailStatus\": [ { \"slug\": \"pyre fire pack generator tools\", \" tizwildinentertainm",
       "tokens": [
         ".json",
         "09",
         "1001",
         "101",
         "2026",
-        "22z",
-        "28t17",
-        "40",
+        "29t15",
+        "36z",
+        "50",
         "97",
         "audio-tools",
         "cosmic",
@@ -19839,7 +19838,7 @@
       "title": "TizWildinEntertainmentHUB / docs/sitemap.xml",
       "kind": "indexed-file",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/repo-file-search.html?repo=tizwildin-entertainment-hub&q=docs/sitemap.xml",
-      "summary": "<?xml version=\"1.0\" encoding=\"UTF 8\"? <urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" <url <loc https://garebear99.github.io/TizWildinEntertainmentHUB/</loc <lastmod 2026 09 28</lastmod <changefreq weekly</ch tizwildinentertainm",
+      "summary": "<?xml version=\"1.0\" encoding=\"UTF 8\"? <urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\" <url <loc https://garebear99.github.io/TizWildinEntertainmentHUB/</loc <lastmod 2026 09 29</lastmod <changefreq weekly</ch tizwildinentertainm",
       "tokens": [
         ".xml",
         "0.8",
@@ -19847,7 +19846,7 @@
         "09",
         "1.0",
         "2026",
-        "28",
+        "29",
         "aether-card.svg",
         "arc-audiobench-card.svg",
         "arc-core-card.svg",
@@ -22150,7 +22149,7 @@
       "title": "TizWildinEntertainmentHUB / docs/data/all_items.json",
       "kind": "indexed-file",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/repo-file-search.html?repo=tizwildin-entertainment-hub&q=docs/data/all_items.json",
-      "summary": "{ \"schemaVersion\": \"1.0\", \"generatedAt\": \"2026 09 28T17:40:22Z\", \"owner\": \"GareBearProductionz\", \"accountUrl\": \"https://garebearproductionz.itch.io/\", \"summary\": { \"totalPublicProfileItems\": 97, \"formulaA1ItemsInManifest tizwildinentertainm",
+      "summary": "{ \"schemaVersion\": \"1.0\", \"generatedAt\": \"2026 09 29T15:50:36Z\", \"owner\": \"GareBearProductionz\", \"accountUrl\": \"https://garebearproductionz.itch.io/\", \"summary\": { \"totalPublicProfileItems\": 97, \"formulaA1ItemsInManifest tizwildinentertainm",
       "tokens": [
         ".json",
         "000.00",
@@ -22164,17 +22163,17 @@
         "188490",
         "191122",
         "2026",
-        "22z",
         "25.00",
         "256-pixel-runes-glyphs-symbols-that-write-themselves",
         "28",
-        "28t17",
+        "29t15",
         "2d-chibi-pixel-elemental-rigging-concept",
         "2d-sunset-generation-formula",
         "33",
         "34",
-        "40",
+        "36z",
         "40-animated-pixel-fx-pack-dash-land-impact",
+        "50",
         "5k",
         "64",
         "85",
@@ -240054,10 +240053,7 @@
     ],
     "40": [
       66,
-      259,
       311,
-      333,
-      369,
       391,
       592,
       940,
@@ -270834,11 +270830,6 @@
     "28": [
       258,
       259,
-      305,
-      320,
-      321,
-      330,
-      342,
       369,
       976,
       1011,
@@ -270846,6 +270837,11 @@
     ],
     "29": [
       258,
+      305,
+      320,
+      321,
+      330,
+      342,
       903
     ],
     "57": [
@@ -271191,16 +271187,11 @@
       259,
       369
     ],
-    "22z": [
-      259,
-      333,
-      369
-    ],
     "25.00": [
       259,
       369
     ],
-    "28t17": [
+    "29t15": [
       259,
       333,
       369
@@ -271375,6 +271366,29 @@
       841,
       842,
       843
+    ],
+    "36z": [
+      259,
+      333,
+      369
+    ],
+    "50": [
+      259,
+      260,
+      316,
+      333,
+      369,
+      629,
+      972,
+      1021,
+      1154,
+      1281,
+      1843,
+      1844,
+      2343,
+      2344,
+      2345,
+      2346
     ],
     "85": [
       259,
@@ -271640,21 +271654,6 @@
       316,
       1844,
       2344,
-      2346
-    ],
-    "50": [
-      260,
-      316,
-      629,
-      972,
-      1021,
-      1154,
-      1281,
-      1843,
-      1844,
-      2343,
-      2344,
-      2345,
       2346
     ],
     "56": [
@@ -285150,13 +285149,10 @@
     "1044": [
       311
     ],
-    "17z": [
+    "23z": [
       311
     ],
-    "27t14": [
-      311
-    ],
-    "42": [
+    "28t17": [
       311
     ],
     "5459": [
