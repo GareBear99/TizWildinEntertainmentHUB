@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T18:26:49Z",
+  "generatedAt": "2026-10-06T16:28:33Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
   "itemsParsed": 97,
   "itemsWritten": 97,
@@ -7,19 +7,19 @@
   "detailStatus": [
     {
       "slug": "pyre-fire-pack-generator-tools",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/pyre-fire-pack-generator-tools: HTTP Error 522: <none>"
     },
     {
       "slug": "japanese-dojo-tileset-free",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/japanese-dojo-tileset-free: HTTP Error 522: <none>"
     },
     {
       "slug": "cosmic-disruption-free-fast-paced-game-music-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/cosmic-disruption-free-fast-paced-game-music-pack: HTTP Error 522: <none>"
     },
     {
       "slug": "shoji-dojo",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/shoji-dojo: HTTP Error 522: <none>"
     },
     {
       "slug": "riftedge-1001-slash-fx",
@@ -27,19 +27,19 @@
     },
     {
       "slug": "slash-fx-101",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/slash-fx-101: The read operation timed out"
     },
     {
       "slug": "rift-edge-laser-sword-glow-slash-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/rift-edge-laser-sword-glow-slash-pack: The read operation timed out"
     },
     {
       "slug": "ichor-glyph",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/ichor-glyph: HTTP Error 522: <none>"
     },
     {
       "slug": "victory-wraith-free",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/victory-wraith-free: The read operation timed out"
     },
     {
       "slug": "shadow-trooper-silhouette-free",
@@ -47,67 +47,67 @@
     },
     {
       "slug": "shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor: HTTP Error 522: <none>"
     },
     {
       "slug": "shadow-run-map-layers-live-smog-fx",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/shadow-run-map-layers-live-smog-fx: HTTP Error 522: <none>"
     },
     {
       "slug": "yurei-shadow-fighters-three-silhouette-characters",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/yurei-shadow-fighters-three-silhouette-characters: HTTP Error 522: <none>"
     },
     {
       "slug": "yurei-echo-shadow-character-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/yurei-echo-shadow-character-pack: HTTP Error 522: <none>"
     },
     {
       "slug": "shadow-pixel-character-pack-copies-any-sprite",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/shadow-pixel-character-pack-copies-any-sprite: HTTP Error 522: <none>"
     },
     {
       "slug": "40-animated-pixel-fx-pack-dash-land-impact",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/40-animated-pixel-fx-pack-dash-land-impact: HTTP Error 522: <none>"
     },
     {
       "slug": "256-pixel-runes-glyphs-symbols-that-write-themselves",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/256-pixel-runes-glyphs-symbols-that-write-themselves: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "1200-animated-pixel-sigils-magic-circles-runes-loading-spinners",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/1200-animated-pixel-sigils-magic-circles-runes-loading-spinners: HTTP Error 522: <none>"
     },
     {
       "slug": "gossamer-pixel-cobwebs-corner-webs-screen-overlays",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/gossamer-pixel-cobwebs-corner-webs-screen-overlays: HTTP Error 522: <none>"
     },
     {
       "slug": "arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames: HTTP Error 525: <none>"
     },
     {
       "slug": "arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames: HTTP Error 522: <none>"
     },
     {
       "slug": "sugarfall-the-pink-party-pack-free",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/sugarfall-the-pink-party-pack-free: HTTP Error 522: <none>"
     },
     {
       "slug": "divinity-the-imperilator-arms-and-the-seven-sins",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/divinity-the-imperilator-arms-and-the-seven-sins: HTTP Error 522: <none>"
     },
     {
       "slug": "orerry-solar-system-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/orerry-solar-system-pack: HTTP Error 525: <none>"
     },
     {
       "slug": "spectral-carnage-sewers-free-tileset-map",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/spectral-carnage-sewers-free-tileset-map: HTTP Error 522: <none>"
     },
     {
       "slug": "slagworks-cinderhaul-6-map-animated-tileset",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/slagworks-cinderhaul-6-map-animated-tileset: The read operation timed out"
     },
     {
       "slug": "animated-vfx-ui-pack-80-assets",
@@ -115,15 +115,15 @@
     },
     {
       "slug": "dark-fantasy-dungeon-builder-free-four-realm-tileset",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/dark-fantasy-dungeon-builder-free-four-realm-tileset: The read operation timed out"
     },
     {
       "slug": "dark-fantasy-modular-gui-pack-704-ui-assets-160-icons",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons: The read operation timed out"
     },
     {
       "slug": "120-elemental-vfx-pixel-abilities-icons",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/120-elemental-vfx-pixel-abilities-icons: HTTP Error 522: <none>"
     },
     {
       "slug": "elemental-wisp-sprite-pack",
@@ -131,35 +131,35 @@
     },
     {
       "slug": "cash-cloud",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/cash-cloud: HTTP Error 522: <none>"
     },
     {
       "slug": "mode-7",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/mode-7: HTTP Error 522: <none>"
     },
     {
       "slug": "bundle",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/bundle: HTTP Error 522: <none>"
     },
     {
       "slug": "enchanted-sprite-vfx-engine",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine: HTTP Error 522: <none>"
     },
     {
       "slug": "holo-sprite-overlay-engine",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/holo-sprite-overlay-engine: HTTP Error 522: <none>"
     },
     {
       "slug": "necrommancers-audio-toolkit",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/necrommancers-audio-toolkit: HTTP Error 525: <none>"
     },
     {
       "slug": "doom-style-ray-trace-engine-asset-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/doom-style-ray-trace-engine-asset-pack: The read operation timed out"
     },
     {
       "slug": "coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts: The read operation timed out"
     },
     {
       "slug": "d20-dice-color-3d-obj-pack",
@@ -171,39 +171,39 @@
     },
     {
       "slug": "infina-dix-engine",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/infina-dix-engine: HTTP Error 522: <none>"
     },
     {
       "slug": "color-dynamic-sigils-svg-export-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/color-dynamic-sigils-svg-export-pack: HTTP Error 522: <none>"
     },
     {
       "slug": "sphinx-activation-layered-live-map",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/sphinx-activation-layered-live-map: The read operation timed out"
     },
     {
       "slug": "the-ultimate-everything-laser-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/the-ultimate-everything-laser-pack: The read operation timed out"
     },
     {
       "slug": "10-svg-programmable-live-backdrop-pipelines",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/10-svg-programmable-live-backdrop-pipelines: The read operation timed out"
     },
     {
       "slug": "aaaa-layered-mountain-dynamic-sky-live-backdrop-engine",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/aaaa-layered-mountain-dynamic-sky-live-backdrop-engine: The read operation timed out"
     },
     {
       "slug": "aaaa-pixel-combat-timeline-engine",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/aaaa-pixel-combat-timeline-engine: HTTP Error 522: <none>"
     },
     {
       "slug": "aaaa-sprite-fusion-metamorphosis-equation-spine-engine",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/aaaa-sprite-fusion-metamorphosis-equation-spine-engine: HTTP Error 522: <none>"
     },
     {
       "slug": "sprite-color-effect-mutator-engine",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/sprite-color-effect-mutator-engine: HTTP Error 522: <none>"
     },
     {
       "slug": "celestial-event-moons",
@@ -211,23 +211,23 @@
     },
     {
       "slug": "multi-layered-epic-free-svg-backdrop-static-scene",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/multi-layered-epic-free-svg-backdrop-static-scene: The read operation timed out"
     },
     {
       "slug": "evil-eye-four-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/evil-eye-four-pack: The read operation timed out"
     },
     {
       "slug": "alien-invasion-live-animated-backdrop-layers",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/alien-invasion-live-animated-backdrop-layers: HTTP Error 522: <none>"
     },
     {
       "slug": "wraith-necropolis-gate-backdrop",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/wraith-necropolis-gate-backdrop: HTTP Error 522: <none>"
     },
     {
       "slug": "vfx-test-room-elemental-frequency-arena-engine",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/vfx-test-room-elemental-frequency-arena-engine: The read operation timed out"
     },
     {
       "slug": "the-cathedral-of-madness-concept-pixel-art",
@@ -235,59 +235,59 @@
     },
     {
       "slug": "pride-crown-concept-art",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/pride-crown-concept-art: HTTP Error 522: <none>"
     },
     {
       "slug": "scarlette-witchs-darkhold-sprite-free",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/scarlette-witchs-darkhold-sprite-free: HTTP Error 522: <none>"
     },
     {
       "slug": "hells-jukebox-nekranomicon-author-cthulu",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/hells-jukebox-nekranomicon-author-cthulu: HTTP Error 522: <none>"
     },
     {
       "slug": "the-widowmaker-live-vanta-black-svg-3-phase-boss",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/the-widowmaker-live-vanta-black-svg-3-phase-boss: HTTP Error 522: <none>"
     },
     {
       "slug": "cool-pixel-portraits",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/cool-pixel-portraits: HTTP Error 522: <none>"
     },
     {
       "slug": "megabot-rigging-concept-free",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/megabot-rigging-concept-free: HTTP Error 522: <none>"
     },
     {
       "slug": "2d-chibi-pixel-elemental-rigging-concept",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/2d-chibi-pixel-elemental-rigging-concept: The read operation timed out"
     },
     {
       "slug": "hd-cinematic-audio-sfx-pack-free",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/hd-cinematic-audio-sfx-pack-free: HTTP Error 522: <none>"
     },
     {
       "slug": "professional-grade-studio-violin-audio-synth-formula",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/professional-grade-studio-violin-audio-synth-formula: HTTP Error 522: <none>"
     },
     {
       "slug": "ultimate-free-hd-laser-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/ultimate-free-hd-laser-pack: HTTP Error 522: <none>"
     },
     {
       "slug": "pixel-velocity-weight-physics-quake-hammer",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/pixel-velocity-weight-physics-quake-hammer: HTTP Error 522: <none>"
     },
     {
       "slug": "blood-bound-scythe-svg-free",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/blood-bound-scythe-svg-free: HTTP Error 522: <none>"
     },
     {
       "slug": "gw3-style-2d-projected-3d-grid-world-engine",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/gw3-style-2d-projected-3d-grid-world-engine: HTTP Error 522: <none>"
     },
     {
       "slug": "freeeq8-most-advanced-free-eq-opensource",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/freeeq8-most-advanced-free-eq-opensource: HTTP Error 522: <none>"
     },
     {
       "slug": "any-image-to-pixel-svg-converter",
@@ -295,19 +295,19 @@
     },
     {
       "slug": "infernal-hell-icons-free-basic-fx",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/infernal-hell-icons-free-basic-fx: HTTP Error 522: <none>"
     },
     {
       "slug": "svg-icon-starter-kit-pipeline",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/svg-icon-starter-kit-pipeline: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "holy-svg-png-icon-set",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/holy-svg-png-icon-set: The read operation timed out"
     },
     {
       "slug": "spectral-icon-svg-pipeline-kit",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/spectral-icon-svg-pipeline-kit: HTTP Error 522: <none>"
     },
     {
       "slug": "thor-mjolnir-svg-physics-engine",
@@ -315,15 +315,15 @@
     },
     {
       "slug": "blood-bone-scythe",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/blood-bone-scythe: HTTP Error 522: <none>"
     },
     {
       "slug": "free-pixel-paladin-hammer-chibi",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/free-pixel-paladin-hammer-chibi: HTTP Error 522: <none>"
     },
     {
       "slug": "professional-occult-covenant-icon-kit",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/professional-occult-covenant-icon-kit: HTTP Error 522: <none>"
     },
     {
       "slug": "indie-dynamic-merchant-cart",
@@ -331,23 +331,23 @@
     },
     {
       "slug": "pixel-abyssal-teleporter",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/pixel-abyssal-teleporter: HTTP Error 522: <none>"
     },
     {
       "slug": "static-atmos",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/static-atmos: The read operation timed out"
     },
     {
       "slug": "demon-sprite-sheet-generator",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/demon-sprite-sheet-generator: HTTP Error 522: <none>"
     },
     {
       "slug": "fireball-generator-formula",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/fireball-generator-formula: HTTP Error 522: <none>"
     },
     {
       "slug": "pyromancy-chibi-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/pyromancy-chibi-pack: HTTP Error 522: <none>"
     },
     {
       "slug": "infernal-archetypes",
@@ -355,23 +355,23 @@
     },
     {
       "slug": "free-haunter-sprites",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/free-haunter-sprites: HTTP Error 522: <none>"
     },
     {
       "slug": "action-command-charge-formula",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/action-command-charge-formula: HTTP Error 522: <none>"
     },
     {
       "slug": "reward-pocket-generator-formula",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/reward-pocket-generator-formula: HTTP Error 522: <none>"
     },
     {
       "slug": "neolution-grid-engine",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/neolution-grid-engine: HTTP Error 522: <none>"
     },
     {
       "slug": "skully-asset-pack-lightweight-canvas-engine-demo",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/skully-asset-pack-lightweight-canvas-engine-demo: The read operation timed out"
     },
     {
       "slug": "gravity-projectile-generator-formula",
@@ -379,15 +379,15 @@
     },
     {
       "slug": "2d-sunset-generation-formula",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/2d-sunset-generation-formula: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "live-pentagram-formula-2d-3d",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/live-pentagram-formula-2d-3d: HTTP Error 522: <none>"
     },
     {
       "slug": "npc-theme-of-sacrifice",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/npc-theme-of-sacrifice: HTTP Error 522: <none>"
     },
     {
       "slug": "summoners-delights",
