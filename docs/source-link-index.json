@@ -14540,14 +14540,6 @@
     {
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets:",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets: garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/SOURCE_SPINE_AUTOSYNC.md",
       "url": "https://ffm.bio/no4km87",
       "domain": "ffm.bio",
@@ -43683,12 +43675,12 @@
     }
   ],
   "summary": {
-    "linkCount": 5460,
+    "linkCount": 5459,
     "domains": {
       "garebear99.github.io": 1665,
       "github.com": 1014,
       "img.itch.zone": 901,
-      "garebearproductionz.itch.io": 787,
+      "garebearproductionz.itch.io": 786,
       "www.w3.org": 337,
       "schema.org": 256,
       "dev.to": 41,

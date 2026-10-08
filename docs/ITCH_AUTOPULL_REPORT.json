@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T16:28:40Z",
+  "generatedAt": "2026-10-08T16:27:48Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
   "itemsParsed": 97,
   "itemsWritten": 97,
@@ -111,7 +111,7 @@
     },
     {
       "slug": "animated-vfx-ui-pack-80-assets",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "dark-fantasy-dungeon-builder-free-four-realm-tileset",
