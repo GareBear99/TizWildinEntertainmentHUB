@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T16:12:19Z",
+  "generatedAt": "2026-10-10T15:23:16Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
   "itemsParsed": 97,
   "itemsWritten": 97,
@@ -19,7 +19,7 @@
     },
     {
       "slug": "shoji-dojo",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/shoji-dojo: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "riftedge-1001-slash-fx",
@@ -151,7 +151,7 @@
     },
     {
       "slug": "necrommancers-audio-toolkit",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/necrommancers-audio-toolkit: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "doom-style-ray-trace-engine-asset-pack",
