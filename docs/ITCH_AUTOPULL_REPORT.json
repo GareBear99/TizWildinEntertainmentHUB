@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T15:23:16Z",
+  "generatedAt": "2026-10-11T15:40:14Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
   "itemsParsed": 97,
   "itemsWritten": 97,
@@ -19,7 +19,7 @@
     },
     {
       "slug": "shoji-dojo",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/shoji-dojo: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "riftedge-1001-slash-fx",
@@ -107,11 +107,11 @@
     },
     {
       "slug": "slagworks-cinderhaul-6-map-animated-tileset",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/slagworks-cinderhaul-6-map-animated-tileset: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "animated-vfx-ui-pack-80-assets",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "dark-fantasy-dungeon-builder-free-four-realm-tileset",
@@ -151,11 +151,11 @@
     },
     {
       "slug": "necrommancers-audio-toolkit",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/necrommancers-audio-toolkit: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "doom-style-ray-trace-engine-asset-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/doom-style-ray-trace-engine-asset-pack: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts",
