@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T15:40:14Z",
+  "generatedAt": "2026-10-12T19:02:10Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
   "itemsParsed": 97,
   "itemsWritten": 97,
@@ -107,11 +107,11 @@
     },
     {
       "slug": "slagworks-cinderhaul-6-map-animated-tileset",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/slagworks-cinderhaul-6-map-animated-tileset: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "animated-vfx-ui-pack-80-assets",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "dark-fantasy-dungeon-builder-free-four-realm-tileset",
@@ -155,7 +155,7 @@
     },
     {
       "slug": "doom-style-ray-trace-engine-asset-pack",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/doom-style-ray-trace-engine-asset-pack: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts",
