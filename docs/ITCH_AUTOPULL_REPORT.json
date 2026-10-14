@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T16:58:08Z",
+  "generatedAt": "2026-10-14T14:30:45Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
   "itemsParsed": 97,
   "itemsWritten": 97,
@@ -23,15 +23,15 @@
     },
     {
       "slug": "riftedge-1001-slash-fx",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/riftedge-1001-slash-fx: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "slash-fx-101",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/slash-fx-101: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "rift-edge-laser-sword-glow-slash-pack",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/rift-edge-laser-sword-glow-slash-pack: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "ichor-glyph",
@@ -99,7 +99,7 @@
     },
     {
       "slug": "orerry-solar-system-pack",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/orerry-solar-system-pack: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "spectral-carnage-sewers-free-tileset-map",
@@ -119,7 +119,7 @@
     },
     {
       "slug": "dark-fantasy-modular-gui-pack-704-ui-assets-160-icons",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "120-elemental-vfx-pixel-abilities-icons",
@@ -131,7 +131,7 @@
     },
     {
       "slug": "cash-cloud",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/cash-cloud: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "mode-7",
@@ -175,7 +175,7 @@
     },
     {
       "slug": "color-dynamic-sigils-svg-export-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/color-dynamic-sigils-svg-export-pack: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "sphinx-activation-layered-live-map",
@@ -199,7 +199,7 @@
     },
     {
       "slug": "aaaa-sprite-fusion-metamorphosis-equation-spine-engine",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/aaaa-sprite-fusion-metamorphosis-equation-spine-engine: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "sprite-color-effect-mutator-engine",
@@ -219,11 +219,11 @@
     },
     {
       "slug": "alien-invasion-live-animated-backdrop-layers",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/alien-invasion-live-animated-backdrop-layers: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "wraith-necropolis-gate-backdrop",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/wraith-necropolis-gate-backdrop: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "vfx-test-room-elemental-frequency-arena-engine",
@@ -287,7 +287,7 @@
     },
     {
       "slug": "freeeq8-most-advanced-free-eq-opensource",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/freeeq8-most-advanced-free-eq-opensource: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "any-image-to-pixel-svg-converter",
@@ -327,7 +327,7 @@
     },
     {
       "slug": "indie-dynamic-merchant-cart",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/indie-dynamic-merchant-cart: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "pixel-abyssal-teleporter",
@@ -351,7 +351,7 @@
     },
     {
       "slug": "infernal-archetypes",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/infernal-archetypes: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "free-haunter-sprites",
