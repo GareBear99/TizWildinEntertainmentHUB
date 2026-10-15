@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T14:30:45Z",
+  "generatedAt": "2026-10-15T14:09:54Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
   "itemsParsed": 97,
   "itemsWritten": 97,
@@ -23,11 +23,11 @@
     },
     {
       "slug": "riftedge-1001-slash-fx",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/riftedge-1001-slash-fx: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "slash-fx-101",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/slash-fx-101: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "rift-edge-laser-sword-glow-slash-pack",
@@ -131,7 +131,7 @@
     },
     {
       "slug": "cash-cloud",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/cash-cloud: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "mode-7",
@@ -175,7 +175,7 @@
     },
     {
       "slug": "color-dynamic-sigils-svg-export-pack",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/color-dynamic-sigils-svg-export-pack: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "sphinx-activation-layered-live-map",
@@ -323,11 +323,11 @@
     },
     {
       "slug": "professional-occult-covenant-icon-kit",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/professional-occult-covenant-icon-kit: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "indie-dynamic-merchant-cart",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/indie-dynamic-merchant-cart: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "pixel-abyssal-teleporter",
