@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T16:28:07Z",
+  "generatedAt": "2026-10-20T14:18:03Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
   "itemsParsed": 97,
   "itemsWritten": 97,
@@ -127,7 +127,7 @@
     },
     {
       "slug": "elemental-wisp-sprite-pack",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/elemental-wisp-sprite-pack: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "cash-cloud",
@@ -139,19 +139,19 @@
     },
     {
       "slug": "bundle",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/bundle: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "enchanted-sprite-vfx-engine",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "holo-sprite-overlay-engine",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/holo-sprite-overlay-engine: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "necrommancers-audio-toolkit",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/necrommancers-audio-toolkit: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "doom-style-ray-trace-engine-asset-pack",
@@ -171,11 +171,11 @@
     },
     {
       "slug": "infina-dix-engine",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/infina-dix-engine: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "color-dynamic-sigils-svg-export-pack",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/color-dynamic-sigils-svg-export-pack: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "sphinx-activation-layered-live-map",
@@ -187,7 +187,7 @@
     },
     {
       "slug": "10-svg-programmable-live-backdrop-pipelines",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/10-svg-programmable-live-backdrop-pipelines: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "aaaa-layered-mountain-dynamic-sky-live-backdrop-engine",
@@ -211,7 +211,7 @@
     },
     {
       "slug": "multi-layered-epic-free-svg-backdrop-static-scene",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/multi-layered-epic-free-svg-backdrop-static-scene: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "evil-eye-four-pack",
@@ -231,11 +231,11 @@
     },
     {
       "slug": "the-cathedral-of-madness-concept-pixel-art",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/the-cathedral-of-madness-concept-pixel-art: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "pride-crown-concept-art",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/pride-crown-concept-art: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "scarlette-witchs-darkhold-sprite-free",
@@ -307,7 +307,7 @@
     },
     {
       "slug": "spectral-icon-svg-pipeline-kit",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/spectral-icon-svg-pipeline-kit: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "thor-mjolnir-svg-physics-engine",
@@ -347,7 +347,7 @@
     },
     {
       "slug": "pyromancy-chibi-pack",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/pyromancy-chibi-pack: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "infernal-archetypes",
@@ -387,11 +387,11 @@
     },
     {
       "slug": "npc-theme-of-sacrifice",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/npc-theme-of-sacrifice: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "summoners-delights",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/summoners-delights: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     }
   ],
   "sellerPagesBaked": [
