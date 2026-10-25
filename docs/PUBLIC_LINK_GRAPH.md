@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-10-24
+Generated: 2026-10-25
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **189**
+- Total indexed records: **191**
 - Total clusters: **11**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -126,6 +126,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Blood Bound by Pixel Scythe & SVG (FREE)](pages/itch-blood-bound-scythe-svg-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/blood-bound-scythe-svg-free | free, scythe, weapon, svg, pixel-art, itch, game-assets, garebearproductionz |
 | [Cash Cloud Sprite Pack (FREE)](pages/itch-cash-cloud.html) | Itch Asset Pack | https://garebearproductionz.itch.io/cash-cloud | itch, game-assets, garebearproductionz |
 | [Chaos Arcanum Part 1 - Blood FX & More](pages/itch-ichor-glyph.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/ichor-glyph | itch, game-assets, garebearproductionz |
+| [Cloudworks - Pixel Cloud & Parallax Toolkit + Trains!](pages/itch-cloudworks-pixel-cloud-parallax-toolkit-trains.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/cloudworks-pixel-cloud-parallax-toolkit-trains | itch, game-assets, garebearproductionz |
 | [Coin Physics & Triple Buffer Atomic Swap Pack & Engine Kit](pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html) | Itch Asset Pack | https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts | itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [COSMIC DISRUPTION – Free Fast-Paced Game Music Pack](pages/itch-cosmic-disruption-free-fast-paced-game-music-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/cosmic-disruption-free-fast-paced-game-music-pack | itch, game-assets, garebearproductionz |
 | [Dark Fantasy Dungeon Builder - Free Four-Realm Tileset](pages/itch-dark-fantasy-dungeon-builder-free-four-realm-tileset.html) | Itch Asset Pack | https://garebearproductionz.itch.io/dark-fantasy-dungeon-builder-free-four-realm-tileset | itch, game-assets, garebearproductionz |
@@ -143,6 +144,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [HD Cinematic Audio SFX Pack (FREE)](pages/itch-hd-cinematic-audio-sfx-pack-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/hd-cinematic-audio-sfx-pack-free | free, audio, sfx, cinematic, metal, itch, game-assets, garebearproductionz |
 | [HD Pixel Laser Beam Pulse Glow FX Pack & Audio SFX (FREE)](pages/itch-ultimate-free-hd-laser-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/ultimate-free-hd-laser-pack | free, laser, vfx, audio, sprites, itch, game-assets, garebearproductionz |
 | [Hell's Jukebox Demo & NEKRANOMICON - Author: Cthulu](pages/itch-hells-jukebox-nekranomicon-author-cthulu.html) | Itch Asset Pack | https://garebearproductionz.itch.io/hells-jukebox-nekranomicon-author-cthulu | wraith, lore, jukebox, nekranomicon, itch, game-assets, garebearproductionz |
+| [HEMORRHAGE - Chaos Blood FX](pages/itch-hemorrhage-blood-fx.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/hemorrhage-blood-fx | itch, game-assets, garebearproductionz |
 | [HOLO SPRITE OVERLAY EXPORT ENGINE](pages/itch-holo-sprite-overlay-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/holo-sprite-overlay-engine | itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [Holy Live FX SVG & PNG Icon 8-Set Pipeline Kit](pages/itch-holy-svg-png-icon-set.html) | Itch Asset Pack | https://garebearproductionz.itch.io/holy-svg-png-icon-set | icons, holy, svg, png, live-fx, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Infernal Archetype Sprites (FREE)](pages/itch-infernal-archetypes.html) | Itch Asset Pack | https://garebearproductionz.itch.io/infernal-archetypes | free, infernal, sprites, demon, pixel-art, itch, game-assets, garebearproductionz |

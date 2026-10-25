@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-10-24
+Generated: 2026-10-25
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -493,6 +493,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
+- Cloudworks - Pixel Cloud & Parallax Toolkit + Trains!: Cloudworks - Pixel Cloud & Parallax Toolkit + Trains! Official GareBearProductionz itch product ($6.99) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-cloudworks-pixel-cloud-parallax-toolkit-trains.html
+  Public URL: https://garebearproductionz.itch.io/cloudworks-pixel-cloud-parallax-toolkit-trains
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
 - Coin Physics & Triple Buffer Atomic Swap Pack & Engine Kit: Coin Physics & Triple Buffer Atomic Swap Pack & Engine Kit Official GareBearProductionz itch product ($11.24 -25%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html
   Public URL: https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts
@@ -594,6 +600,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://garebearproductionz.itch.io/hells-jukebox-nekranomicon-author-cthulu
   GitHub: N/A
   Tags: wraith, lore, jukebox, nekranomicon, itch, game-assets, garebearproductionz
+
+- HEMORRHAGE - Chaos Blood FX: 40 effects across 8 forms, 128px, 12 frames. Official GareBearProductionz itch product ($0.82 -45%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-hemorrhage-blood-fx.html
+  Public URL: https://garebearproductionz.itch.io/hemorrhage-blood-fx
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
 
 - HOLO SPRITE OVERLAY EXPORT ENGINE: HOLO SPRITE OVERLAY EXPORT ENGINE Official GareBearProductionz itch product ($8.25 -25%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-holo-sprite-overlay-engine.html

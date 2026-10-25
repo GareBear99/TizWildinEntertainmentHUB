@@ -1,10 +1,14 @@
 {
-  "generatedAt": "2026-10-24T13:19:39Z",
+  "generatedAt": "2026-10-25T13:42:23Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 97,
-  "itemsWritten": 97,
-  "mediaReadyItems": 97,
+  "itemsParsed": 99,
+  "itemsWritten": 99,
+  "mediaReadyItems": 99,
   "detailStatus": [
+    {
+      "slug": "cloudworks-pixel-cloud-parallax-toolkit-trains",
+      "status": "ok"
+    },
     {
       "slug": "pyre-fire-pack-generator-tools",
       "status": "ok"
@@ -19,6 +23,10 @@
     },
     {
       "slug": "shoji-dojo",
+      "status": "ok"
+    },
+    {
+      "slug": "hemorrhage-blood-fx",
       "status": "ok"
     },
     {

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-24",
-  "orphanCount": 64,
+  "generatedAt": "2026-10-25",
+  "orphanCount": 63,
   "note": "Pages present in docs/pages but not referenced by public-index.json or sitemap.xml. Safe to prune or convert to meta-refresh redirects once confirmed nothing external links to them.",
   "orphans": [
     "account.html",
@@ -34,7 +34,6 @@
     "itch-crawl-space-svg-live-backdrop-engine-animated-props.html",
     "itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html",
     "itch-enchanted-sprite-fx-engine.html",
-    "itch-hemorrhage-blood-fx.html",
     "itch-menu-panels.html",
     "itch-slagworks-4-map-animated-tileset.html",
     "tizwildin-audio-plugins-aether.html",
