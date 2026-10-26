@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-10-25
+Generated: 2026-10-26
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **191**
+- Total indexed records: **192**
 - Total clusters: **11**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -141,6 +141,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [FreeEQ8 (Most Advanced EQ OpenSource)](pages/itch-freeeq8-most-advanced-free-eq-opensource.html) | Itch Asset Pack | https://garebearproductionz.itch.io/freeeq8-most-advanced-free-eq-opensource | freeeq8, audio, plugin, eq, open-source, itch, game-assets, garebearproductionz |
 | [Gossamer — 289 Pixel Cobwebs, Corner Webs & Screen Overlays](pages/itch-gossamer-pixel-cobwebs-corner-webs-screen-overlays.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/gossamer-pixel-cobwebs-corner-webs-screen-overlays | itch, game-assets, garebearproductionz |
 | [GW3 Style 2D Projected 3D Grid World Synth Engine (Free)](pages/itch-gw3-style-2d-projected-3d-grid-world-engine.html) | Itch Playable Game / Engine | https://garebearproductionz.itch.io/gw3-style-2d-projected-3d-grid-world-engine | free, grid, engine, 2d, 3d, itch, game-assets, garebearproductionz |
+| [Halloween Asset & Audio SFX Pack (FREE)](pages/itch-halloween-asset-audio-sfx-pack-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/halloween-asset-audio-sfx-pack-free | itch, game-assets, garebearproductionz |
 | [HD Cinematic Audio SFX Pack (FREE)](pages/itch-hd-cinematic-audio-sfx-pack-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/hd-cinematic-audio-sfx-pack-free | free, audio, sfx, cinematic, metal, itch, game-assets, garebearproductionz |
 | [HD Pixel Laser Beam Pulse Glow FX Pack & Audio SFX (FREE)](pages/itch-ultimate-free-hd-laser-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/ultimate-free-hd-laser-pack | free, laser, vfx, audio, sprites, itch, game-assets, garebearproductionz |
 | [Hell's Jukebox Demo & NEKRANOMICON - Author: Cthulu](pages/itch-hells-jukebox-nekranomicon-author-cthulu.html) | Itch Asset Pack | https://garebearproductionz.itch.io/hells-jukebox-nekranomicon-author-cthulu | wraith, lore, jukebox, nekranomicon, itch, game-assets, garebearproductionz |

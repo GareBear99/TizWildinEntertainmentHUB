@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-10-25
+Generated: 2026-10-26
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -349,7 +349,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: alien, ufo, backdrop, layers, gif, svg, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
 
-- Celestial Event Moons + Dynamic Generator Engine: Moon/sky-cycle generator with sheets and dynamic celestial event outputs. Official GareBearProductionz itch product ($1.37 -45%) in the Hero Generators line; checkout and downloads happen on the official itch page.
+- Celestial Event Moons + Dynamic Generator Engine: Moon/sky-cycle generator with sheets and dynamic celestial event outputs. Official GareBearProductionz itch product ($1.25 -50%) in the Hero Generators line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-celestial-event-moons.html
   Public URL: https://garebearproductionz.itch.io/celestial-event-moons
   GitHub: N/A
@@ -373,7 +373,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: free, hammer, paladin, chibi, pixel-art, itch, game-assets, garebearproductionz
 
-- 1,200 Animated Pixel Sigils - Magic Circles, Runes & Loading Spinners: Arcanum II - Part 1: 1200 VFX Sigils Official GareBearProductionz itch product ($2.44 -45%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
+- 1,200 Animated Pixel Sigils - Magic Circles, Runes & Loading Spinners: Arcanum II - Part 1: 1200 VFX Sigils Official GareBearProductionz itch product ($2.22 -50%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-1200-animated-pixel-sigils-magic-circles-runes-loading-spinners.html
   Public URL: https://garebearproductionz.itch.io/1200-animated-pixel-sigils-magic-circles-runes-loading-spinners
   GitHub: N/A
@@ -385,13 +385,13 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: sigil, svg, icons, live-icon, hover, export, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
 
-- 120 Elemental VFX Pixel Abilities & Icons: 120 Elemental VFX Pixel Abilities & Icons Official GareBearProductionz itch product ($1.83 -45%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
+- 120 Elemental VFX Pixel Abilities & Icons: 120 Elemental VFX Pixel Abilities & Icons Official GareBearProductionz itch product ($1.66 -50%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-120-elemental-vfx-pixel-abilities-icons.html
   Public URL: https://garebearproductionz.itch.io/120-elemental-vfx-pixel-abilities-icons
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- 256 pixel runes, glyphs & symbols that write themselves: Arcanum II - Part 2: 256 VFX Runes/Symbols Official GareBearProductionz itch product ($1.83 -45%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- 256 pixel runes, glyphs & symbols that write themselves: Arcanum II - Part 2: 256 VFX Runes/Symbols Official GareBearProductionz itch product ($1.66 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-256-pixel-runes-glyphs-symbols-that-write-themselves.html
   Public URL: https://garebearproductionz.itch.io/256-pixel-runes-glyphs-symbols-that-write-themselves
   GitHub: N/A
@@ -457,13 +457,13 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: free, converter, pixel, svg, image, itch, game-assets, garebearproductionz
 
-- Arcanum I - Part 1— Animated Pixel Spell Effects (75 effects, 1,200 frames): Arcanum I - Part 1— Animated Pixel Spell Effects (75 effects, 1,200 frames) Official GareBearProductionz itch product ($1.51 -45%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- Arcanum I - Part 1— Animated Pixel Spell Effects (75 effects, 1,200 frames): Arcanum I - Part 1— Animated Pixel Spell Effects (75 effects, 1,200 frames) Official GareBearProductionz itch product ($1.37 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames.html
   Public URL: https://garebearproductionz.itch.io/arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Arcanum I - Part 2 — Animated Pixel Spell Abilities (23 spells, 752 frames): Arcanum I - Part 2 — Animated Pixel Spell Abilities (23 spells, 752 frames) Official GareBearProductionz itch product ($2.44 -45%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- Arcanum I - Part 2 — Animated Pixel Spell Abilities (23 spells, 752 frames): Arcanum I - Part 2 — Animated Pixel Spell Abilities (23 spells, 752 frames) Official GareBearProductionz itch product ($2.22 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames.html
   Public URL: https://garebearproductionz.itch.io/arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames
   GitHub: N/A
@@ -487,7 +487,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Chaos Arcanum Part 1 - Blood FX & More: Chaos Magic & Blood FX/Slashes Official GareBearProductionz itch product ($0.96 -45%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- Chaos Arcanum Part 1 - Blood FX & More: Chaos Magic & Blood FX/Slashes Official GareBearProductionz itch product ($0.87 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-ichor-glyph.html
   Public URL: https://garebearproductionz.itch.io/ichor-glyph
   GitHub: N/A
@@ -499,7 +499,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Coin Physics & Triple Buffer Atomic Swap Pack & Engine Kit: Coin Physics & Triple Buffer Atomic Swap Pack & Engine Kit Official GareBearProductionz itch product ($11.24 -25%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
+- Coin Physics & Triple Buffer Atomic Swap Pack & Engine Kit: Coin Physics & Triple Buffer Atomic Swap Pack & Engine Kit Official GareBearProductionz itch product ($7.49 -50%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html
   Public URL: https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts
   GitHub: N/A
@@ -535,7 +535,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz, formula-a1-bundle
 
-- Elemental Wisp Sprite Pack: Elemental Wisp Sprite Pack Official GareBearProductionz itch product ($1.83 -45%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
+- Elemental Wisp Sprite Pack: Elemental Wisp Sprite Pack Official GareBearProductionz itch product ($1.66 -50%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-elemental-wisp-sprite-pack.html
   Public URL: https://garebearproductionz.itch.io/elemental-wisp-sprite-pack
   GitHub: N/A
@@ -571,7 +571,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: freeeq8, audio, plugin, eq, open-source, itch, game-assets, garebearproductionz
 
-- Gossamer — 289 Pixel Cobwebs, Corner Webs & Screen Overlays: Spider Webs Official GareBearProductionz itch product ($1.12 -25%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- Gossamer — 289 Pixel Cobwebs, Corner Webs & Screen Overlays: Spider Webs Official GareBearProductionz itch product ($0.75 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-gossamer-pixel-cobwebs-corner-webs-screen-overlays.html
   Public URL: https://garebearproductionz.itch.io/gossamer-pixel-cobwebs-corner-webs-screen-overlays
   GitHub: N/A
@@ -582,6 +582,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://garebearproductionz.itch.io/gw3-style-2d-projected-3d-grid-world-engine
   GitHub: N/A
   Tags: free, grid, engine, 2d, 3d, itch, game-assets, garebearproductionz
+
+- Halloween Asset & Audio SFX Pack (FREE): Halloween Asset & Audio SFX Pack (FREE) Official GareBearProductionz itch product (FREE) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-halloween-asset-audio-sfx-pack-free.html
+  Public URL: https://garebearproductionz.itch.io/halloween-asset-audio-sfx-pack-free
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
 
 - HD Cinematic Audio SFX Pack (FREE): Free cinematic audio SFX pack. Official GareBearProductionz itch product (FREE) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-hd-cinematic-audio-sfx-pack-free.html
@@ -601,7 +607,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: wraith, lore, jukebox, nekranomicon, itch, game-assets, garebearproductionz
 
-- HEMORRHAGE - Chaos Blood FX: 40 effects across 8 forms, 128px, 12 frames. Official GareBearProductionz itch product ($0.82 -45%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- HEMORRHAGE - Chaos Blood FX: 40 effects across 8 forms, 128px, 12 frames. Official GareBearProductionz itch product ($0.75 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-hemorrhage-blood-fx.html
   Public URL: https://garebearproductionz.itch.io/hemorrhage-blood-fx
   GitHub: N/A
@@ -775,7 +781,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Shadow Pixel Character Pack - copies any sprite: Copies any sprite into a shadow. 46 strips, 322 PNGs, and the two scripts that do it. Official GareBearProductionz itch product ($9.75 -25%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
+- Shadow Pixel Character Pack - copies any sprite: Copies any sprite into a shadow. 46 strips, 322 PNGs, and the two scripts that do it. Official GareBearProductionz itch product ($6.50 -50%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-shadow-pixel-character-pack-copies-any-sprite.html
   Public URL: https://garebearproductionz.itch.io/shadow-pixel-character-pack-copies-any-sprite
   GitHub: N/A
@@ -877,7 +883,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: mjolnir, hammer, physics, svg, weapon, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
 
-- Transparent D20 Dice Color 3D OBJ Pack: Transparent D20 Dice Color 3D OBJ Pack Official GareBearProductionz itch product ($9.75 -25%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
+- Transparent D20 Dice Color 3D OBJ Pack: Transparent D20 Dice Color 3D OBJ Pack Official GareBearProductionz itch product ($6.50 -50%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-d20-dice-color-3d-obj-pack.html
   Public URL: https://garebearproductionz.itch.io/d20-dice-color-3d-obj-pack
   GitHub: N/A
