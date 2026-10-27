@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-10-26
+Generated: 2026-10-27
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -445,7 +445,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: action-command, charge, formula, game-dev, itch, game-assets, garebearproductionz, formula-a1-bundle
 
-- Animated VFX UI Pack - 80+ Assets: Animated VFX UI Pack - 80+ Assets Official GareBearProductionz itch product ($1.83 -45%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- Animated VFX UI Pack - 80+ Assets: Animated VFX UI Pack - 80+ Assets Official GareBearProductionz itch product ($1.66 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-animated-vfx-ui-pack-80-assets.html
   Public URL: https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets
   GitHub: N/A
@@ -493,7 +493,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Cloudworks - Pixel Cloud & Parallax Toolkit + Trains!: Cloudworks - Pixel Cloud & Parallax Toolkit + Trains! Official GareBearProductionz itch product ($6.99) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- Cloudworks - Pixel Cloud & Parallax Toolkit + Trains!: Cloudworks - Pixel Cloud & Parallax Toolkit + Trains! Official GareBearProductionz itch product ($3.49 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-cloudworks-pixel-cloud-parallax-toolkit-trains.html
   Public URL: https://garebearproductionz.itch.io/cloudworks-pixel-cloud-parallax-toolkit-trains
   GitHub: N/A
