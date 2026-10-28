@@ -1,12 +1,28 @@
 {
-  "generatedAt": "2026-10-27T15:21:41Z",
+  "generatedAt": "2026-10-28T16:00:30Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 100,
-  "itemsWritten": 100,
-  "mediaReadyItems": 100,
+  "itemsParsed": 102,
+  "itemsWritten": 102,
+  "mediaReadyItems": 102,
   "detailStatus": [
     {
+      "slug": "impact-fx-halloween-edition-pixel-spooky-vfx-sfx-pack",
+      "status": "ok"
+    },
+    {
+      "slug": "impact-fx-pixel-combat-vfx-sfx-pack",
+      "status": "ok"
+    },
+    {
       "slug": "halloween-asset-audio-sfx-pack-free",
+      "status": "ok"
+    },
+    {
+      "slug": "animated-vfx-ui-pack-80-assets",
+      "status": "ok"
+    },
+    {
+      "slug": "dark-fantasy-modular-gui-pack-704-ui-assets-160-icons",
       "status": "ok"
     },
     {
@@ -18,7 +34,31 @@
       "status": "ok"
     },
     {
+      "slug": "gossamer-pixel-cobwebs-corner-webs-screen-overlays",
+      "status": "ok"
+    },
+    {
+      "slug": "arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames",
+      "status": "ok"
+    },
+    {
+      "slug": "arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames",
+      "status": "ok"
+    },
+    {
+      "slug": "256-pixel-runes-glyphs-symbols-that-write-themselves",
+      "status": "ok"
+    },
+    {
+      "slug": "1200-animated-pixel-sigils-magic-circles-runes-loading-spinners",
+      "status": "ok"
+    },
+    {
       "slug": "japanese-dojo-tileset-free",
+      "status": "ok"
+    },
+    {
+      "slug": "dark-fantasy-dungeon-builder-free-four-realm-tileset",
       "status": "ok"
     },
     {
@@ -26,11 +66,11 @@
       "status": "ok"
     },
     {
-      "slug": "shoji-dojo",
+      "slug": "orerry-solar-system-pack",
       "status": "ok"
     },
     {
-      "slug": "hemorrhage-blood-fx",
+      "slug": "coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts",
       "status": "ok"
     },
     {
@@ -46,15 +86,43 @@
       "status": "ok"
     },
     {
+      "slug": "shoji-dojo",
+      "status": "ok"
+    },
+    {
+      "slug": "hemorrhage-blood-fx",
+      "status": "ok"
+    },
+    {
       "slug": "ichor-glyph",
       "status": "ok"
     },
     {
-      "slug": "victory-wraith-free",
+      "slug": "120-elemental-vfx-pixel-abilities-icons",
       "status": "ok"
     },
     {
-      "slug": "shadow-trooper-silhouette-free",
+      "slug": "elemental-wisp-sprite-pack",
+      "status": "ok"
+    },
+    {
+      "slug": "spectral-carnage-sewers-free-tileset-map",
+      "status": "ok"
+    },
+    {
+      "slug": "slagworks-cinderhaul-6-map-animated-tileset",
+      "status": "ok"
+    },
+    {
+      "slug": "the-ultimate-everything-laser-pack",
+      "status": "ok"
+    },
+    {
+      "slug": "40-animated-pixel-fx-pack-dash-land-impact",
+      "status": "ok"
+    },
+    {
+      "slug": "shadow-pixel-character-pack-copies-any-sprite",
       "status": "ok"
     },
     {
@@ -74,35 +142,11 @@
       "status": "ok"
     },
     {
-      "slug": "shadow-pixel-character-pack-copies-any-sprite",
+      "slug": "shadow-trooper-silhouette-free",
       "status": "ok"
     },
     {
-      "slug": "40-animated-pixel-fx-pack-dash-land-impact",
-      "status": "ok"
-    },
-    {
-      "slug": "256-pixel-runes-glyphs-symbols-that-write-themselves",
-      "status": "ok"
-    },
-    {
-      "slug": "1200-animated-pixel-sigils-magic-circles-runes-loading-spinners",
-      "status": "ok"
-    },
-    {
-      "slug": "gossamer-pixel-cobwebs-corner-webs-screen-overlays",
-      "status": "ok"
-    },
-    {
-      "slug": "arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames",
-      "status": "ok"
-    },
-    {
-      "slug": "arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames",
-      "status": "ok"
-    },
-    {
-      "slug": "sugarfall-the-pink-party-pack-free",
+      "slug": "victory-wraith-free",
       "status": "ok"
     },
     {
@@ -110,35 +154,7 @@
       "status": "ok"
     },
     {
-      "slug": "orerry-solar-system-pack",
-      "status": "ok"
-    },
-    {
-      "slug": "spectral-carnage-sewers-free-tileset-map",
-      "status": "ok"
-    },
-    {
-      "slug": "slagworks-cinderhaul-6-map-animated-tileset",
-      "status": "ok"
-    },
-    {
-      "slug": "animated-vfx-ui-pack-80-assets",
-      "status": "ok"
-    },
-    {
-      "slug": "dark-fantasy-dungeon-builder-free-four-realm-tileset",
-      "status": "ok"
-    },
-    {
-      "slug": "dark-fantasy-modular-gui-pack-704-ui-assets-160-icons",
-      "status": "ok"
-    },
-    {
-      "slug": "120-elemental-vfx-pixel-abilities-icons",
-      "status": "ok"
-    },
-    {
-      "slug": "elemental-wisp-sprite-pack",
+      "slug": "sugarfall-the-pink-party-pack-free",
       "status": "ok"
     },
     {
@@ -170,10 +186,6 @@
       "status": "ok"
     },
     {
-      "slug": "coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts",
-      "status": "ok"
-    },
-    {
       "slug": "d20-dice-color-3d-obj-pack",
       "status": "ok"
     },
@@ -191,10 +203,6 @@
     },
     {
       "slug": "sphinx-activation-layered-live-map",
-      "status": "ok"
-    },
-    {
-      "slug": "the-ultimate-everything-laser-pack",
       "status": "ok"
     },
     {
