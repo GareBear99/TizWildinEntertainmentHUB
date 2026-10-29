@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-10-28
+Generated: 2026-10-29
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -415,7 +415,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: gravity, projectile, 2d, 2.5d, formula, itch, game-assets, garebearproductionz
 
-- 40 animated Pixel FX Pack - Dash, Land, Impact: 40 animated effect strips. 8 recolour sets. 264 PNGs Official GareBearProductionz itch product ($2.88 -35%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- 40 animated Pixel FX Pack - Dash, Land, Impact: 40 animated effect strips. 8 recolour sets. 264 PNGs Official GareBearProductionz itch product ($2.22 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-40-animated-pixel-fx-pack-dash-land-impact.html
   Public URL: https://garebearproductionz.itch.io/40-animated-pixel-fx-pack-dash-land-impact
   GitHub: N/A
@@ -517,7 +517,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Dark Fantasy Modular GUI Pack - 704 UI Assets + 160 Icons: Full Graphical Interface - 704 UI Assets + 160 Icons + 64 Glyphs Official GareBearProductionz itch product ($4.55 -35%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
+- Dark Fantasy Modular GUI Pack - 704 UI Assets + 160 Icons: Full Graphical Interface - 704 UI Assets + 160 Icons + 64 Glyphs Official GareBearProductionz itch product ($3.50 -50%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html
   Public URL: https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons
   GitHub: N/A
@@ -631,9 +631,15 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- IMPACT FX - Pixel Combat VFX + SFX Pack: IMPACT FX - Pixel Combat VFX + SFX Pack Official GareBearProductionz itch product ($0.50 -50%) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.
+- IMPACT FX - Pixel Combat VFX + SFX Pack: IMPACT FX - Pixel Combat VFX + SFX Pack Official GareBearProductionz itch product ($0.60 -50%) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-impact-fx-pixel-combat-vfx-sfx-pack.html
   Public URL: https://garebearproductionz.itch.io/impact-fx-pixel-combat-vfx-sfx-pack
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
+- Impact FX Lite - Free Pixel VFX + SFX Sampler: Impact FX Lite - Free Pixel VFX + SFX Sampler Official GareBearProductionz itch product (Free) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-impact-fx-lite-free-pixel-vfx-sfx-sampler.html
+  Public URL: https://garebearproductionz.itch.io/impact-fx-lite-free-pixel-vfx-sfx-sampler
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
@@ -751,7 +757,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: occult, covenant, icons, svg, fx, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
 
-- Pyre Fire Pack Generator Tools: Pyre Fire Pack Generator Tools Official GareBearProductionz itch product ($3.25 -35%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- Pyre Fire Pack Generator Tools: Pyre Fire Pack Generator Tools Official GareBearProductionz itch product ($2.50 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-pyre-fire-pack-generator-tools.html
   Public URL: https://garebearproductionz.itch.io/pyre-fire-pack-generator-tools
   GitHub: N/A
@@ -895,7 +901,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: mjolnir, hammer, physics, svg, weapon, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
 
-- Transparent D20 Dice Color 3D OBJ Pack: Transparent D20 Dice Color 3D OBJ Pack Official GareBearProductionz itch product ($6.50 -50%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
+- Transparent D20 Dice Color 3D OBJ Pack: Transparent D20 Dice Color 3D OBJ Pack Official GareBearProductionz itch product ($9.75 -25%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-d20-dice-color-3d-obj-pack.html
   Public URL: https://garebearproductionz.itch.io/d20-dice-color-3d-obj-pack
   GitHub: N/A

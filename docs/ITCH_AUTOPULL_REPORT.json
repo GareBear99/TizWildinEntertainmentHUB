@@ -1,10 +1,14 @@
 {
-  "generatedAt": "2026-10-28T16:00:30Z",
+  "generatedAt": "2026-10-29T16:08:24Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 102,
-  "itemsWritten": 102,
-  "mediaReadyItems": 102,
+  "itemsParsed": 103,
+  "itemsWritten": 103,
+  "mediaReadyItems": 103,
   "detailStatus": [
+    {
+      "slug": "impact-fx-lite-free-pixel-vfx-sfx-sampler",
+      "status": "ok"
+    },
     {
       "slug": "impact-fx-halloween-edition-pixel-spooky-vfx-sfx-pack",
       "status": "ok"
@@ -26,7 +30,15 @@
       "status": "ok"
     },
     {
-      "slug": "cloudworks-pixel-cloud-parallax-toolkit-trains",
+      "slug": "arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames",
+      "status": "ok"
+    },
+    {
+      "slug": "arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames",
+      "status": "ok"
+    },
+    {
+      "slug": "elemental-wisp-sprite-pack",
       "status": "ok"
     },
     {
@@ -38,11 +50,7 @@
       "status": "ok"
     },
     {
-      "slug": "arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames",
-      "status": "ok"
-    },
-    {
-      "slug": "arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames",
+      "slug": "120-elemental-vfx-pixel-abilities-icons",
       "status": "ok"
     },
     {
@@ -51,6 +59,10 @@
     },
     {
       "slug": "1200-animated-pixel-sigils-magic-circles-runes-loading-spinners",
+      "status": "ok"
+    },
+    {
+      "slug": "cloudworks-pixel-cloud-parallax-toolkit-trains",
       "status": "ok"
     },
     {
@@ -95,15 +107,7 @@
     },
     {
       "slug": "ichor-glyph",
-      "status": "ok"
-    },
-    {
-      "slug": "120-elemental-vfx-pixel-abilities-icons",
-      "status": "ok"
-    },
-    {
-      "slug": "elemental-wisp-sprite-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/ichor-glyph: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "spectral-carnage-sewers-free-tileset-map",
@@ -123,7 +127,7 @@
     },
     {
       "slug": "shadow-pixel-character-pack-copies-any-sprite",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/shadow-pixel-character-pack-copies-any-sprite: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor",
@@ -167,7 +171,7 @@
     },
     {
       "slug": "bundle",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/bundle: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "enchanted-sprite-vfx-engine",
@@ -411,7 +415,7 @@
     },
     {
       "slug": "summoners-delights",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/summoners-delights: HTTP Error 429: Too Many Requests"
     }
   ],
   "sellerPagesBaked": [
