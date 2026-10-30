@@ -1,11 +1,11 @@
 {
   "schemaVersion": "2.0",
-  "generatedAt": "2026-10-29",
+  "generatedAt": "2026-10-30",
   "name": "TizWildin Entertainment HUB Public Link Index",
   "description": "Static crawler-friendly index of TizWildin audio, producer, public list, credibility, and ARC source-spine routes.",
   "owner": "GareBear99",
   "baseUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB",
-  "itemCount": 195,
+  "itemCount": 196,
   "items": [
     {
       "cluster": "AI and Automation Tools",
@@ -3281,6 +3281,35 @@
       "page": "pages/itch-holy-svg-png-icon-set.html",
       "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-holy-svg-png-icon-set.html",
       "canonicalUrl": "https://garebearproductionz.itch.io/holy-svg-png-icon-set",
+      "repoUrl": "",
+      "docsUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html"
+    },
+    {
+      "cluster": "Game Asset Store / Itch Inventory",
+      "kind": "Itch Asset Pack",
+      "name": "Impact FX - Christmas Edition | Pixel Winter VFX + SFX Pack",
+      "description": "Impact FX - Christmas Edition | Pixel Winter VFX + SFX Pack Official GareBearProductionz itch product ($0.96 -20%) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.",
+      "repo": "",
+      "url": "https://garebearproductionz.itch.io/impact-fx-christmas-edition-pixel-winter-vfx-sfx-pack",
+      "docs": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html",
+      "status": "released",
+      "tags": [
+        "itch",
+        "game-assets",
+        "garebearproductionz"
+      ],
+      "priority": 42,
+      "license": "See individual itch page",
+      "language": "HTML / JavaScript / Assets",
+      "source_manifest": "all_items.json",
+      "page_slug": "itch-impact-fx-christmas-edition-pixel-winter-vfx-sfx-pack",
+      "render_page": true,
+      "cover": "https://img.itch.zone/aW1nLzMxNTU5NjU3LmdpZg==/original/83O3bl.gif",
+      "animated": "https://img.itch.zone/aW1nLzMxNTU5NjU3LmdpZg==/original/D4rKo%2B.gif",
+      "id": "itch-impact-fx-christmas-edition-pixel-winter-vfx-sfx-pack",
+      "page": "pages/itch-impact-fx-christmas-edition-pixel-winter-vfx-sfx-pack.html",
+      "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-impact-fx-christmas-edition-pixel-winter-vfx-sfx-pack.html",
+      "canonicalUrl": "https://garebearproductionz.itch.io/impact-fx-christmas-edition-pixel-winter-vfx-sfx-pack",
       "repoUrl": "",
       "docsUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html"
     },

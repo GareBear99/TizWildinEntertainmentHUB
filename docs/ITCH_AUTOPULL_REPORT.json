@@ -1,10 +1,14 @@
 {
-  "generatedAt": "2026-10-29T16:08:24Z",
+  "generatedAt": "2026-10-30T15:56:01Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 103,
-  "itemsWritten": 103,
-  "mediaReadyItems": 103,
+  "itemsParsed": 104,
+  "itemsWritten": 104,
+  "mediaReadyItems": 104,
   "detailStatus": [
+    {
+      "slug": "impact-fx-christmas-edition-pixel-winter-vfx-sfx-pack",
+      "status": "ok"
+    },
     {
       "slug": "impact-fx-lite-free-pixel-vfx-sfx-sampler",
       "status": "ok"
@@ -107,7 +111,7 @@
     },
     {
       "slug": "ichor-glyph",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/ichor-glyph: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "spectral-carnage-sewers-free-tileset-map",
@@ -127,10 +131,6 @@
     },
     {
       "slug": "shadow-pixel-character-pack-copies-any-sprite",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/shadow-pixel-character-pack-copies-any-sprite: HTTP Error 429: Too Many Requests"
-    },
-    {
-      "slug": "shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor",
       "status": "ok"
     },
     {
@@ -143,6 +143,10 @@
     },
     {
       "slug": "yurei-echo-shadow-character-pack",
+      "status": "ok"
+    },
+    {
+      "slug": "shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor",
       "status": "ok"
     },
     {
@@ -171,7 +175,7 @@
     },
     {
       "slug": "bundle",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/bundle: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     },
     {
       "slug": "enchanted-sprite-vfx-engine",
@@ -415,7 +419,7 @@
     },
     {
       "slug": "summoners-delights",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/summoners-delights: HTTP Error 429: Too Many Requests"
+      "status": "ok"
     }
   ],
   "sellerPagesBaked": [

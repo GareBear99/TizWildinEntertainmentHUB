@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-10-29
+Generated: 2026-10-30
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -624,6 +624,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://garebearproductionz.itch.io/holy-svg-png-icon-set
   GitHub: N/A
   Tags: icons, holy, svg, png, live-fx, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- Impact FX - Christmas Edition | Pixel Winter VFX + SFX Pack: Impact FX - Christmas Edition | Pixel Winter VFX + SFX Pack Official GareBearProductionz itch product ($0.96 -20%) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-impact-fx-christmas-edition-pixel-winter-vfx-sfx-pack.html
+  Public URL: https://garebearproductionz.itch.io/impact-fx-christmas-edition-pixel-winter-vfx-sfx-pack
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
 
 - Impact FX - Halloween Edition | Pixel Spooky VFX + SFX Pack: Impact FX - Halloween Edition | Pixel Spooky VFX + SFX Pack Official GareBearProductionz itch product ($1.25 -50%) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-impact-fx-halloween-edition-pixel-spooky-vfx-sfx-pack.html

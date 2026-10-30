@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-10-29
+Generated: 2026-10-30
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **195**
+- Total indexed records: **196**
 - Total clusters: **11**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -148,6 +148,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [HEMORRHAGE - Chaos Blood FX](pages/itch-hemorrhage-blood-fx.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/hemorrhage-blood-fx | itch, game-assets, garebearproductionz |
 | [HOLO SPRITE OVERLAY EXPORT ENGINE](pages/itch-holo-sprite-overlay-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/holo-sprite-overlay-engine | itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [Holy Live FX SVG & PNG Icon 8-Set Pipeline Kit](pages/itch-holy-svg-png-icon-set.html) | Itch Asset Pack | https://garebearproductionz.itch.io/holy-svg-png-icon-set | icons, holy, svg, png, live-fx, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
+| [Impact FX - Christmas Edition | Pixel Winter VFX + SFX Pack](pages/itch-impact-fx-christmas-edition-pixel-winter-vfx-sfx-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/impact-fx-christmas-edition-pixel-winter-vfx-sfx-pack | itch, game-assets, garebearproductionz |
 | [Impact FX - Halloween Edition | Pixel Spooky VFX + SFX Pack](pages/itch-impact-fx-halloween-edition-pixel-spooky-vfx-sfx-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/impact-fx-halloween-edition-pixel-spooky-vfx-sfx-pack | itch, game-assets, garebearproductionz |
 | [IMPACT FX - Pixel Combat VFX + SFX Pack](pages/itch-impact-fx-pixel-combat-vfx-sfx-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/impact-fx-pixel-combat-vfx-sfx-pack | itch, game-assets, garebearproductionz |
 | [Impact FX Lite - Free Pixel VFX + SFX Sampler](pages/itch-impact-fx-lite-free-pixel-vfx-sfx-sampler.html) | Itch Asset Pack | https://garebearproductionz.itch.io/impact-fx-lite-free-pixel-vfx-sfx-sampler | itch, game-assets, garebearproductionz |
