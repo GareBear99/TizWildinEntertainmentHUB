@@ -1,10 +1,14 @@
 {
-  "generatedAt": "2026-10-30T15:56:01Z",
+  "generatedAt": "2026-10-31T15:19:35Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 104,
-  "itemsWritten": 104,
-  "mediaReadyItems": 104,
+  "itemsParsed": 105,
+  "itemsWritten": 105,
+  "mediaReadyItems": 105,
   "detailStatus": [
+    {
+      "slug": "impact-fx-advanced-12-hero-pixel-vfx-meteor-black-hole-portal-tornado-more",
+      "status": "ok"
+    },
     {
       "slug": "impact-fx-christmas-edition-pixel-winter-vfx-sfx-pack",
       "status": "ok"

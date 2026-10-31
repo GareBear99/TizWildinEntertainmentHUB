@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-10-30
+Generated: 2026-10-31
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **196**
+- Total indexed records: **197**
 - Total clusters: **11**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -151,6 +151,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Impact FX - Christmas Edition | Pixel Winter VFX + SFX Pack](pages/itch-impact-fx-christmas-edition-pixel-winter-vfx-sfx-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/impact-fx-christmas-edition-pixel-winter-vfx-sfx-pack | itch, game-assets, garebearproductionz |
 | [Impact FX - Halloween Edition | Pixel Spooky VFX + SFX Pack](pages/itch-impact-fx-halloween-edition-pixel-spooky-vfx-sfx-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/impact-fx-halloween-edition-pixel-spooky-vfx-sfx-pack | itch, game-assets, garebearproductionz |
 | [IMPACT FX - Pixel Combat VFX + SFX Pack](pages/itch-impact-fx-pixel-combat-vfx-sfx-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/impact-fx-pixel-combat-vfx-sfx-pack | itch, game-assets, garebearproductionz |
+| [Impact FX Advanced - 12 Hero Pixel VFX | Meteor, Black Hole, Portal, Tornado & More](pages/itch-impact-fx-advanced-12-hero-pixel-vfx-meteor-black-hole-portal-tornado-more.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/impact-fx-advanced-12-hero-pixel-vfx-meteor-black-hole-portal-tornado-more | itch, game-assets, garebearproductionz |
 | [Impact FX Lite - Free Pixel VFX + SFX Sampler](pages/itch-impact-fx-lite-free-pixel-vfx-sfx-sampler.html) | Itch Asset Pack | https://garebearproductionz.itch.io/impact-fx-lite-free-pixel-vfx-sfx-sampler | itch, game-assets, garebearproductionz |
 | [Infernal Archetype Sprites (FREE)](pages/itch-infernal-archetypes.html) | Itch Asset Pack | https://garebearproductionz.itch.io/infernal-archetypes | free, infernal, sprites, demon, pixel-art, itch, game-assets, garebearproductionz |
 | [Japanese Dojo Tileset (FREE)](pages/itch-japanese-dojo-tileset-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/japanese-dojo-tileset-free | itch, game-assets, garebearproductionz |
