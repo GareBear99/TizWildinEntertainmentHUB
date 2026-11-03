@@ -1,10 +1,14 @@
 {
-  "generatedAt": "2026-11-02T19:29:06Z",
+  "generatedAt": "2026-11-03T17:03:18Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 105,
-  "itemsWritten": 105,
-  "mediaReadyItems": 105,
+  "itemsParsed": 106,
+  "itemsWritten": 106,
+  "mediaReadyItems": 106,
   "detailStatus": [
+    {
+      "slug": "frostbound-arena-winter-pixel-arena-kit-tileset-heroes-enemies-boss-ui-sfx-music",
+      "status": "ok"
+    },
     {
       "slug": "impact-fx-advanced-12-hero-pixel-vfx-meteor-black-hole-portal-tornado-more",
       "status": "ok"
@@ -19,11 +23,11 @@
     },
     {
       "slug": "impact-fx-halloween-edition-pixel-spooky-vfx-sfx-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/impact-fx-halloween-edition-pixel-spooky-vfx-sfx-pack: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "impact-fx-pixel-combat-vfx-sfx-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/impact-fx-pixel-combat-vfx-sfx-pack: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "halloween-asset-audio-sfx-pack-free",
@@ -127,7 +131,7 @@
     },
     {
       "slug": "the-ultimate-everything-laser-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/the-ultimate-everything-laser-pack: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "40-animated-pixel-fx-pack-dash-land-impact",
@@ -147,7 +151,7 @@
     },
     {
       "slug": "yurei-echo-shadow-character-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/yurei-echo-shadow-character-pack: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor",
@@ -231,7 +235,7 @@
     },
     {
       "slug": "aaaa-sprite-fusion-metamorphosis-equation-spine-engine",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/aaaa-sprite-fusion-metamorphosis-equation-spine-engine: HTTP Error 429: Too Many Requests"
     },
     {
       "slug": "sprite-color-effect-mutator-engine",

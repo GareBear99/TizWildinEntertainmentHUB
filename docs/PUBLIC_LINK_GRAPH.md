@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-11-02
+Generated: 2026-11-03
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **197**
+- Total indexed records: **198**
 - Total clusters: **11**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -139,6 +139,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [FREE Haunter Sprites](pages/itch-free-haunter-sprites.html) | Itch Asset Pack | https://garebearproductionz.itch.io/free-haunter-sprites | free, haunter, sprites, pixel-art, itch, game-assets, garebearproductionz |
 | [Free Pixel SVG Portrait Asset Builder Kit (Generator & Pack)](pages/itch-cool-pixel-portraits.html) | Itch Playable Game / Engine | https://garebearproductionz.itch.io/cool-pixel-portraits | free, portrait, pixel, svg, generator, itch, game-assets, garebearproductionz |
 | [FreeEQ8 (Most Advanced EQ OpenSource)](pages/itch-freeeq8-most-advanced-free-eq-opensource.html) | Itch Asset Pack | https://garebearproductionz.itch.io/freeeq8-most-advanced-free-eq-opensource | freeeq8, audio, plugin, eq, open-source, itch, game-assets, garebearproductionz |
+| [Frostbound Arena - Winter Pixel Arena Kit (Tileset, Heroes, Enemies, Boss, UI, SFX + Music)](pages/itch-frostbound-arena-winter-pixel-arena-kit-tileset-heroes-enemies-boss-ui-sfx-music.html) | Itch Asset Pack | https://garebearproductionz.itch.io/frostbound-arena-winter-pixel-arena-kit-tileset-heroes-enemies-boss-ui-sfx-music | itch, game-assets, garebearproductionz |
 | [Gossamer — 289 Pixel Cobwebs, Corner Webs & Screen Overlays](pages/itch-gossamer-pixel-cobwebs-corner-webs-screen-overlays.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/gossamer-pixel-cobwebs-corner-webs-screen-overlays | itch, game-assets, garebearproductionz |
 | [GW3 Style 2D Projected 3D Grid World Synth Engine (Free)](pages/itch-gw3-style-2d-projected-3d-grid-world-engine.html) | Itch Playable Game / Engine | https://garebearproductionz.itch.io/gw3-style-2d-projected-3d-grid-world-engine | free, grid, engine, 2d, 3d, itch, game-assets, garebearproductionz |
 | [Halloween Asset & Audio SFX Pack (FREE)](pages/itch-halloween-asset-audio-sfx-pack-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/halloween-asset-audio-sfx-pack-free | itch, game-assets, garebearproductionz |
