@@ -1,11 +1,11 @@
 {
   "schemaVersion": "2.0",
-  "generatedAt": "2026-11-03",
+  "generatedAt": "2026-11-04",
   "name": "TizWildin Entertainment HUB Public Link Index",
   "description": "Static crawler-friendly index of TizWildin audio, producer, public list, credibility, and ARC source-spine routes.",
   "owner": "GareBear99",
   "baseUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB",
-  "itemCount": 198,
+  "itemCount": 199,
   "items": [
     {
       "cluster": "AI and Automation Tools",
@@ -4218,7 +4218,7 @@
       "cluster": "Game Asset Store / Itch Inventory",
       "kind": "Itch Game Tool / Formula",
       "name": "Riftedge - 1001 Slash FX Pack",
-      "description": "1001 Slash VFX Animations Official GareBearProductionz itch product ($2.88 -35%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.",
+      "description": "1001 Slash VFX Animations Official GareBearProductionz itch product ($2.22 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.",
       "repo": "",
       "url": "https://garebearproductionz.itch.io/riftedge-1001-slash-fx",
       "docs": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html",
@@ -4778,6 +4778,35 @@
       "page": "pages/itch-infina-dix-engine.html",
       "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-infina-dix-engine.html",
       "canonicalUrl": "https://garebearproductionz.itch.io/infina-dix-engine",
+      "repoUrl": "",
+      "docsUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html"
+    },
+    {
+      "cluster": "Game Asset Store / Itch Inventory",
+      "kind": "Itch Game Tool / Formula",
+      "name": "THE KING'S GAMBIT - GOTHIC ARENA KIT v1.0.0",
+      "description": "THE KING'S GAMBIT - GOTHIC ARENA KIT Official GareBearProductionz itch product ($2.25 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.",
+      "repo": "",
+      "url": "https://garebearproductionz.itch.io/the-kings-gambit-gothic-arena-kit-v100",
+      "docs": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html",
+      "status": "released",
+      "tags": [
+        "itch",
+        "game-assets",
+        "garebearproductionz"
+      ],
+      "priority": 42,
+      "license": "See individual itch page",
+      "language": "HTML / JavaScript / Assets",
+      "source_manifest": "all_items.json",
+      "page_slug": "itch-the-kings-gambit-gothic-arena-kit-v100",
+      "render_page": true,
+      "cover": "https://img.itch.zone/aW1nLzMxODA3NzM4LmdpZg==/original/%2Bi4meD.gif",
+      "animated": "https://img.itch.zone/aW1nLzMxODA3NzM4LmdpZg==/original/gxrjMj.gif",
+      "id": "itch-the-kings-gambit-gothic-arena-kit-v100",
+      "page": "pages/itch-the-kings-gambit-gothic-arena-kit-v100.html",
+      "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-the-kings-gambit-gothic-arena-kit-v100.html",
+      "canonicalUrl": "https://garebearproductionz.itch.io/the-kings-gambit-gothic-arena-kit-v100",
       "repoUrl": "",
       "docsUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html"
     },

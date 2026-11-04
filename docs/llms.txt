@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-11-03
+Generated: 2026-11-04
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -799,7 +799,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Riftedge - 1001 Slash FX Pack: 1001 Slash VFX Animations Official GareBearProductionz itch product ($2.88 -35%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- Riftedge - 1001 Slash FX Pack: 1001 Slash VFX Animations Official GareBearProductionz itch product ($2.22 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-riftedge-1001-slash-fx.html
   Public URL: https://garebearproductionz.itch.io/riftedge-1001-slash-fx
   GitHub: N/A
@@ -904,6 +904,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
 - The Infina Dix Engine (Ultimate Free Dice Pack): Infina Dice - Ultimate Free Dice Pack Official GareBearProductionz itch product (Free) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-infina-dix-engine.html
   Public URL: https://garebearproductionz.itch.io/infina-dix-engine
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
+- THE KING'S GAMBIT - GOTHIC ARENA KIT v1.0.0: THE KING'S GAMBIT - GOTHIC ARENA KIT Official GareBearProductionz itch product ($2.25 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-the-kings-gambit-gothic-arena-kit-v100.html
+  Public URL: https://garebearproductionz.itch.io/the-kings-gambit-gothic-arena-kit-v100
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 

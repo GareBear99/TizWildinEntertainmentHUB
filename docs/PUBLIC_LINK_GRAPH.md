@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-11-03
+Generated: 2026-11-04
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **198**
+- Total indexed records: **199**
 - Total clusters: **11**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -195,6 +195,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [SVG Hell Fiery Icon Pipelines + Basic Live FX](pages/itch-infernal-hell-icons-free-basic-fx.html) | Itch Asset Pack | https://garebearproductionz.itch.io/infernal-hell-icons-free-basic-fx | icons, hell, svg, fx, pipeline, itch, game-assets, garebearproductionz, live-svg-fx-bundle |
 | [The Cathedral of Madness - Concept Pixel Art](pages/itch-the-cathedral-of-madness-concept-pixel-art.html) | Itch Asset Pack | https://garebearproductionz.itch.io/the-cathedral-of-madness-concept-pixel-art | cathedral, concept, pixel-art, dark-fantasy, itch, game-assets, garebearproductionz |
 | [The Infina Dix Engine (Ultimate Free Dice Pack)](pages/itch-infina-dix-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/infina-dix-engine | itch, game-assets, garebearproductionz |
+| [THE KING'S GAMBIT - GOTHIC ARENA KIT v1.0.0](pages/itch-the-kings-gambit-gothic-arena-kit-v100.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/the-kings-gambit-gothic-arena-kit-v100 | itch, game-assets, garebearproductionz |
 | [The WidowMaker: Live HD Vanta Black SVG 3 Phase Boss + GIF Exporter (Free)](pages/itch-the-widowmaker-live-vanta-black-svg-3-phase-boss.html) | Itch Asset Pack | https://garebearproductionz.itch.io/the-widowmaker-live-vanta-black-svg-3-phase-boss | free, boss, svg, gif, vanta-black, itch, game-assets, garebearproductionz |
 | [Thor Mjölnir 4 Set + SVG Physics Velocity Engine + Bonus Quake Hammer Set](pages/itch-thor-mjolnir-svg-physics-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/thor-mjolnir-svg-physics-engine | mjolnir, hammer, physics, svg, weapon, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Transparent D20 Dice Color 3D OBJ Pack](pages/itch-d20-dice-color-3d-obj-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/d20-dice-color-3d-obj-pack | itch, game-assets, garebearproductionz, formula-a1-bundle |
