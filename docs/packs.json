@@ -72,10 +72,26 @@
     {
       "id": "free_riser_producer",
       "name": "Free Riser Producer Kit",
-      "description": "115+ risers and 63 downlifters - noise, synth, drum, FX, cinematic.",
+      "description": "186 risers and downlifters - noise, synth, drum, FX, cinematic.",
       "category": "producer_kits",
       "repo": "Free-Riser-Producer-Kit",
       "tags": ["risers", "downlifters", "fx"]
+    },
+    {
+      "id": "subwoofer_crown_bass",
+      "name": "Subwoofer Crown Bass Pack",
+      "description": "70 subwoofer bass WAVs - keyed 808s, bass loops, impacts, growls, risers, source mutants, and game UI bass. Free.",
+      "category": "producer_kits",
+      "repo": "Free-808-Producer-Kit",
+      "tags": ["subwoofer", "808", "bass", "free"]
+    },
+    {
+      "id": "free_drum_producer",
+      "name": "Free Drum Producer Kit",
+      "description": "136 drum one-shots - kicks, snares, claps, hats, and percussion.",
+      "category": "producer_kits",
+      "repo": "Free-Drum-Producer-Kit",
+      "tags": ["drums", "one-shots", "percussion"]
     },
     {
       "id": "phonk_producer",

@@ -125,6 +125,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: https://github.com/GareBear99/ARC-Neuron-LLMBuilder
   Tags: arc, llm, local-ai, governance, model-promotion, economics, dev.to, paper, technical-writing
 
+- DAFx26 Paper: Simper SVF Topology and EQ Frequency Cramping (dev.to): DAFx26 Demo Track announcement for the FreeEQ8 paper: Simper SVF topology, SPSC concurrency, and variable-cadence Dynamic EQ. The article's title predates the paper's withdrawal of the decramping claim - the SVF does not decramp, both topologies measure identical, and a -3.383 dB cramping error remains at the geometric-mean frequency; real decramping is future work.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/dafx26-paper-simper-svf-topology-and-eq-frequency-cramping-dev-to.html
+  Public URL: https://dev.to/tizwildin/we-eliminated-eq-frequency-cramping-without-oversampling-heres-how-dafx26-paper-4f7l
+  GitHub: https://github.com/GareBear99/FreeEQ8
+  Tags: dsp, svf, cramping, dafx, parametric-eq, oversampling, dev.to, paper, technical-writing
+
 - FreeEQ8 Current Status: Open-Source Parametric EQ, Rekkerd Coverage, and the Road to Smart EQ: Published milestone article covering FreeEQ8's Rekkerd.org press coverage, current feature set, Smart EQ layer roadmap (explainable deterministic mix-assist), and Match EQ direction.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/freeeq8-current-status-open-source-parametric-eq-rekkerd-coverage-and-the-road-to-smart-eq.html
   Public URL: https://dev.to/tizwildin/freeeq8-current-status-open-source-parametric-eq-rekkerd-coverage-and-the-road-to-smart-eq-3pk6
@@ -161,11 +167,11 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: https://github.com/GareBear99/Instrudio
   Tags: violin, physical-modeling, helmholtz, bowed-string, stradivari-eq, sympathetic-resonance, dev.to, paper, technical-writing
 
-- We Eliminated EQ Frequency Cramping Without Oversampling — DAFx26 Paper: DAFx26 Demo Track announcement: FreeEQ8/ProEQ8 implements Simper SVF topology for de-cramped HF response without oversampling. Covers the math, benchmarks, and why bilinear-transform biquads cramp at high frequencies.
-  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/we-eliminated-eq-frequency-cramping-without-oversampling-dafx26-paper.html
-  Public URL: https://dev.to/tizwildin/we-eliminated-eq-frequency-cramping-without-oversampling-heres-how-dafx26-paper-4f7l
-  GitHub: https://github.com/GareBear99/FreeEQ8
-  Tags: dsp, svf, cramping, dafx, parametric-eq, oversampling, dev.to, paper, technical-writing
+- Therum: A Serum-2-Quality Hybrid Synthesizer in Framework-Free C++: Specification paper for Therum, a Serum-2-quality hybrid synthesizer on a framework-free C++ DSP core (iPlug2). Wavetable engine band-limited by construction, filter decramping specified as a tested hypothesis (the FreeEQ8 paper proved the SVF does not decramp), modulation and FX architecture, and the measurement plan that proves Serum 2 quality or better.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/therum-a-serum-2-quality-hybrid-synthesizer-in-framework-free-c-plus-plus.html
+  Public URL: https://github.com/GareBear99/Therum_JUCE-Plugin/blob/main/PAPER.md
+  GitHub: https://github.com/GareBear99/Therum_JUCE-Plugin
+  Tags: therum, synthesizer, wavetable, dsp, serum, iplug2, framework-free, paper, technical-writing
 
 ## Creator and Audio Tools
 
@@ -1167,13 +1173,19 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: https://github.com/GareBear99/Free-Dark-Piano-Sound-Kit
   Tags: piano, cinematic, midi, sample-pack, producer-tools
 
+- Free Drum Producer Kit: 136 drum one-shots - kicks, snares, claps, hats, and percussion.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/free-drum-producer-kit.html
+  Public URL: https://github.com/GareBear99/Free-Drum-Producer-Kit
+  GitHub: https://github.com/GareBear99/Free-Drum-Producer-Kit
+  Tags: drums, one-shots, percussion, sample-pack, producer-tools
+
 - Free Future Bass Producer Kit: Loops, fills, drums, bass, synths, pads, and FX.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/free-future-bass-producer-kit.html
   Public URL: https://github.com/GareBear99/Free-Future-Bass-Producer-Kit
   GitHub: https://github.com/GareBear99/Free-Future-Bass-Producer-Kit
   Tags: future-bass, loops, synths, sample-pack, producer-tools
 
-- Free Riser Producer Kit: 115+ risers and 63 downlifters - noise, synth, drum, FX, cinematic.
+- Free Riser Producer Kit: 186 risers and downlifters - noise, synth, drum, FX, cinematic.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/free-riser-producer-kit.html
   Public URL: https://github.com/GareBear99/Free-Riser-Producer-Kit
   GitHub: https://github.com/GareBear99/Free-Riser-Producer-Kit
@@ -1190,6 +1202,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://github.com/GareBear99/Phonk_Producer_Toolkit
   GitHub: https://github.com/GareBear99/Phonk_Producer_Toolkit
   Tags: phonk, drift, starter, sample-pack, producer-tools
+
+- Subwoofer Crown Bass Pack: 70 subwoofer bass WAVs - keyed 808s, bass loops, impacts, growls, risers, source mutants, and game UI bass. Free.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/subwoofer-crown-bass-pack.html
+  Public URL: https://github.com/GareBear99/Free-808-Producer-Kit
+  GitHub: https://github.com/GareBear99/Free-808-Producer-Kit
+  Tags: subwoofer, 808, bass, free, sample-pack, producer-tools
 
 - TizWildin-Aurora: 3-segment original synth melody pack with loops, stems, demo renders, and neon/cinematic phrasing.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-aurora.html
@@ -1220,3 +1238,62 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://github.com/GareBear99/TizWildin-Skyline
   GitHub: https://github.com/GareBear99/TizWildin-Skyline
   Tags: synthwave, darkwave, loops, sample-pack, producer-tools
+
+## Source Repository Search Index
+- Repository file search: https://garebear99.github.io/TizWildinEntertainmentHUB/repo-file-search.html
+- Awesome Audio Plugins Dev source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-awesome-audio-plugins-dev.html
+- TizWildinEntertainmentHUB source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-entertainment-hub.html
+- Awesome Audio Lists source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-awesome-audio-lists.html
+- Awesome Music Platforms source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-awesome-music-platforms.html
+- Awesome Python Audio Science source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-awesome-python-audio-science.html
+- FreeEQ8 source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freeeq8.html
+- FreeVox8 source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freevox8.html
+- TizWildin Release Vault source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-release-vault.html
+- TizWildin .io Router source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-io-router.html
+- Deconstructed Loops / Packs Router source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-deconstructed-loops-router.html
+- ARC-Neuron-LLMBuilder source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-neuron-llmbuilder.html
+- Therum source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-therum.html
+- ARC-Core source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-core.html
+- arc-lucifer-cleanroom-runtime source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-lucifer-cleanroom-runtime.html
+- arc-language-module source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-language-module.html
+- Arc-RAR source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-rar.html
+- OmniBinary Runtime source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-omnibinary-runtime.html
+- AETHER source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-aether.html
+- BassMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-bassmaid.html
+- ChainMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-chainmaid.html
+- FreeSampler source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freesampler.html
+- GlueMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-gluemaid.html
+- Instrudio source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-instrudio.html
+- MeterMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-metermaid.html
+- MixMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-mixmaid.html
+- MultiMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-multimaid.html
+- PaintMask source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-paintmask.html
+- RiftWave Suite source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-riftwavesuite.html
+- SpaceMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-spacemaid.html
+- WhisperGate source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-whispergate.html
+- WURP source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-wurp.html
+- XyloCore source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-xylocore.html
+- ARC-AudioBench source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-audiobench.html
+- BannerBass source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-bannerbass.html
+- Instrudio Bongo source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-instrudio-bongo.html
+- Instrudio Harp source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-instrudio-harp.html
+- Instrudio Violin source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-instrudio-violin.html
+- PAP-Forge-Audio source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-pap-forge-audio.html
+- VF-PlexLab source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-vf-plexlab.html
+- Voxel Audio source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-voxel-audio.html
+- Neolution source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-neolution.html
+- RiftAscent source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-rift-ascent.html
+- FreeEQ8 Technical Architecture (dev.to) source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freeeq8-devto.html
+- Real-Time State-Space Parameterization and Lock-Free Semantic Analysis in Digital Equalization source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freeeq8-paper.html
+- Studio Violin: Helmholtz Bowed String, H2 Correction, Stradivari Body EQ, and Sympathetic Resonance source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-instrudio-violin-devto.html
+- Free 808 Producer Kit source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-free-808-producer.html
+- Free Dark Piano Sound Kit source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-free-dark-piano.html
+- Free Future Bass Producer Kit source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-free-future-bass.html
+- Free Riser Producer Kit source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-free-riser-producer.html
+- Free Violin Synth Sample Kit source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-free-violin-synth.html
+- Phonk Producer Toolkit source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-phonk-producer.html
+- TizWildin-Aurora source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-aurora.html
+- TizWildin-Chime source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-chime.html
+- TizWildin-Chroma source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-chroma.html
+- TizWildin-Obsidian source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-obsidian.html
+- TizWildin-Skyline source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-skyline.html

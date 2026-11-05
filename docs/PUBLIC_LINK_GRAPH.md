@@ -6,7 +6,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 
 ## Summary
 
-- Total indexed records: **199**
+- Total indexed records: **202**
 - Total clusters: **11**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -46,13 +46,14 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | Route | Type | Repository | Tags |
 |---|---|---|---|
 | [ARC-Neuron LLMBuilder and the Future Economics of Real AI](pages/arc-neuron-llmbuilder-and-the-future-economics-of-real-ai.html) | Paper / Technical Article | https://github.com/GareBear99/ARC-Neuron-LLMBuilder | arc, llm, local-ai, governance, model-promotion, economics, dev.to, paper, technical-writing |
+| [DAFx26 Paper: Simper SVF Topology and EQ Frequency Cramping (dev.to)](pages/dafx26-paper-simper-svf-topology-and-eq-frequency-cramping-dev-to.html) | Paper / Technical Article | https://github.com/GareBear99/FreeEQ8 | dsp, svf, cramping, dafx, parametric-eq, oversampling, dev.to, paper, technical-writing |
 | [FreeEQ8 Current Status: Open-Source Parametric EQ, Rekkerd Coverage, and the Road to Smart EQ](pages/freeeq8-current-status-open-source-parametric-eq-rekkerd-coverage-and-the-road-to-smart-eq.html) | Paper / Technical Article | https://github.com/GareBear99/FreeEQ8 | dsp, freeeq8, rekkerd, smart-eq, match-eq, open-source, dev.to, paper, technical-writing |
 | [FreeEQ8 Technical Architecture (dev.to)](pages/freeeq8-technical-architecture-dev-to.html) | Paper / Technical Article | https://github.com/GareBear99/FreeEQ8 | dsp, architecture, blog, dev.to, paper, technical-writing |
 | [Made This for Developers & Producers Alike](pages/made-this-for-developers-and-producers-alike.html) | Paper / Technical Article | https://github.com/GareBear99/TizWildinEntertainmentHUB | ecosystem, producers, developers, press, rekkerd, audioapp, dev.to, paper, technical-writing |
 | [Proto-Synth Grid Engine: Building a Math-First 2D World Runtime That Feels 3D](pages/proto-synth-grid-engine-building-a-math-first-2d-world-runtime-that-feels-3d.html) | Paper / Technical Article | https://github.com/GareBear99/Proto-Synth_Grid_Engine | arc, grid-engine, deterministic, blueprint, simulation, neural-synth, dev.to, paper, technical-writing |
 | [Real-Time State-Space Parameterization and Lock-Free Semantic Analysis in Digital Equalization](pages/real-time-state-space-parameterization-and-lock-free-semantic-analysis-in-digital-equalization.html) | Paper / Technical Article | https://github.com/GareBear99/FreeEQ8 | dsp, svf, lock-free, real-time, parametric-eq, semantic-analysis, paper, technical-writing |
 | [Studio Violin: Helmholtz Bowed String, H2 Correction, Stradivari Body EQ, and Sympathetic Resonance](pages/studio-violin-helmholtz-bowed-string-h2-correction-stradivari-body-eq-and-sympathetic-resonance.html) | Paper / Technical Article | https://github.com/GareBear99/Instrudio | violin, physical-modeling, helmholtz, bowed-string, stradivari-eq, sympathetic-resonance, dev.to, paper, technical-writing |
-| [We Eliminated EQ Frequency Cramping Without Oversampling — DAFx26 Paper](pages/we-eliminated-eq-frequency-cramping-without-oversampling-dafx26-paper.html) | Paper / Technical Article | https://github.com/GareBear99/FreeEQ8 | dsp, svf, cramping, dafx, parametric-eq, oversampling, dev.to, paper, technical-writing |
+| [Therum: A Serum-2-Quality Hybrid Synthesizer in Framework-Free C++](pages/therum-a-serum-2-quality-hybrid-synthesizer-in-framework-free-c-plus-plus.html) | Paper / Technical Article | https://github.com/GareBear99/Therum_JUCE-Plugin | therum, synthesizer, wavetable, dsp, serum, iplug2, framework-free, paper, technical-writing |
 
 ### Creator and Audio Tools
 
@@ -257,10 +258,12 @@ This file documents every static route generated for the TizWildinEntertainmentH
 |---|---|---|---|
 | [Free 808 Producer Kit](pages/free-808-producer-kit.html) | Sample Pack / Producer Resource | https://github.com/GareBear99/Free-808-Producer-Kit | 808, bass, trap, sample-pack, producer-tools |
 | [Free Dark Piano Sound Kit](pages/free-dark-piano-sound-kit.html) | Sample Pack / Producer Resource | https://github.com/GareBear99/Free-Dark-Piano-Sound-Kit | piano, cinematic, midi, sample-pack, producer-tools |
+| [Free Drum Producer Kit](pages/free-drum-producer-kit.html) | Sample Pack / Producer Resource | https://github.com/GareBear99/Free-Drum-Producer-Kit | drums, one-shots, percussion, sample-pack, producer-tools |
 | [Free Future Bass Producer Kit](pages/free-future-bass-producer-kit.html) | Sample Pack / Producer Resource | https://github.com/GareBear99/Free-Future-Bass-Producer-Kit | future-bass, loops, synths, sample-pack, producer-tools |
 | [Free Riser Producer Kit](pages/free-riser-producer-kit.html) | Sample Pack / Producer Resource | https://github.com/GareBear99/Free-Riser-Producer-Kit | risers, downlifters, fx, sample-pack, producer-tools |
 | [Free Violin Synth Sample Kit](pages/free-violin-synth-sample-kit.html) | Sample Pack / Producer Resource | https://github.com/GareBear99/Free-Violin-Synth-Sample-Kit | violin, physical-model, instrudio, sample-pack, producer-tools |
 | [Phonk Producer Toolkit](pages/phonk-producer-toolkit.html) | Sample Pack / Producer Resource | https://github.com/GareBear99/Phonk_Producer_Toolkit | phonk, drift, starter, sample-pack, producer-tools |
+| [Subwoofer Crown Bass Pack](pages/subwoofer-crown-bass-pack.html) | Sample Pack / Producer Resource | https://github.com/GareBear99/Free-808-Producer-Kit | subwoofer, 808, bass, free, sample-pack, producer-tools |
 | [TizWildin-Aurora](pages/tizwildin-aurora.html) | Sample Pack / Producer Resource | https://github.com/GareBear99/TizWildin-Aurora | loops, stems, synth, neon, sample-pack, producer-tools |
 | [TizWildin-Chime](pages/tizwildin-chime.html) | Sample Pack / Producer Resource | https://github.com/GareBear99/TizWildin-Chime | chime, glass, 88bpm, sample-pack, producer-tools |
 | [TizWildin-Chroma](pages/tizwildin-chroma.html) | Sample Pack / Producer Resource | https://github.com/GareBear99/TizWildin-Chroma | game, synthwave, loops, sample-pack, producer-tools |

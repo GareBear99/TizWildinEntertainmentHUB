@@ -191,11 +191,12 @@ The HUB is its own **TizWildinEntertainment product** — a **VST3/AU plugin + S
 | Title | Venue | Status |
 |-------|-------|--------|
 | [**Real-Time State-Space Parameterization and Lock-Free Semantic Analysis in Digital Equalization**](https://github.com/GareBear99/FreeEQ8/blob/main/PAPER.md) | DAFx / AES target | 📝 Preprint |
+| [**Therum: A Serum-2-Quality Hybrid Synthesizer in Framework-Free C++**](https://github.com/GareBear99/Therum_JUCE-Plugin/blob/main/PAPER.md) | Preprint | 📝 Preprint |
 | [**FreeEQ8 Technical Architecture**](https://dev.to/tizwildin/real-time-state-space-parameterization-and-lock-free-semantic-analysis-in-digital-equalization-38jn) | dev.to | ✅ Published |
 | [**FreeEQ8 Current Status: Rekkerd Coverage & Road to Smart EQ**](https://dev.to/tizwildin/freeeq8-current-status-open-source-parametric-eq-rekkerd-coverage-and-the-road-to-smart-eq-3pk6) | dev.to | ✅ Published |
 | [**Studio Violin: Helmholtz Bowed String, H2 Correction, Stradivari Body EQ & Sympathetic Resonance**](https://dev.to/tizwildin/studio-violin-helmholtz-bowed-string-h2-correction-stradivari-body-eq-sympathetic-resonance-3c8l) | dev.to | ✅ Published |
 | [**Made This for Developers & Producers Alike**](https://dev.to/tizwildin/made-this-for-developers-producers-alike-30bo) | dev.to | ✅ Published |
-| [**We Eliminated EQ Frequency Cramping Without Oversampling — DAFx26 Paper**](https://dev.to/tizwildin/we-eliminated-eq-frequency-cramping-without-oversampling-heres-how-dafx26-paper-4f7l) | dev.to | ✅ Published |
+| [**DAFx26 Paper: Simper SVF Topology and EQ Frequency Cramping**](https://dev.to/tizwildin/we-eliminated-eq-frequency-cramping-without-oversampling-heres-how-dafx26-paper-4f7l) | dev.to | ✅ Published |
 
 ### 🤖 AI / ARC Ecosystem
 

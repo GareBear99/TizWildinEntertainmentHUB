@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import argparse
 import html
+import http.client
 import json
 import re
 import sys
@@ -62,7 +63,7 @@ def now_iso() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
-def fetch(url: str, timeout: int = 25, tries: int = 2, sleep_s: float = 0.8) -> str:
+def fetch(url: str, timeout: int = 25, tries: int = 3, sleep_s: float = 0.8) -> str:
     last: Exception | None = None
     for attempt in range(tries):
         try:
@@ -70,7 +71,22 @@ def fetch(url: str, timeout: int = 25, tries: int = 2, sleep_s: float = 0.8) -> 
             with urlopen(req, timeout=timeout) as resp:
                 raw = resp.read()
             return raw.decode("utf-8", errors="replace")
-        except (HTTPError, URLError, TimeoutError) as exc:
+        except HTTPError as exc:
+            last = exc
+            # itch rate-limits aggressively (429) and sometimes resets the
+            # connection mid-body (IncompleteRead). Back off longer on 429
+            # (honour Retry-After when the server sends one) and retry.
+            if exc.code == 429:
+                retry_after = exc.headers.get("Retry-After") if exc.headers else None
+                try:
+                    wait = float(retry_after) if retry_after else 30.0
+                except (TypeError, ValueError):
+                    wait = 30.0
+            else:
+                wait = sleep_s
+            if attempt + 1 < tries:
+                time.sleep(wait)
+        except (URLError, TimeoutError, http.client.HTTPException) as exc:
             last = exc
             if attempt + 1 < tries:
                 time.sleep(sleep_s)

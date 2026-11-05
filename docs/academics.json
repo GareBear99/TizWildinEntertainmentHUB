@@ -90,9 +90,21 @@
       "status": "published"
     },
     {
+      "id": "therum_paper",
+      "name": "Therum: A Serum-2-Quality Hybrid Synthesizer in Framework-Free C++",
+      "description": "Specification paper for Therum, a Serum-2-quality hybrid synthesizer on a framework-free C++ DSP core (iPlug2). Wavetable engine band-limited by construction, filter decramping specified as a tested hypothesis (the FreeEQ8 paper proved the SVF does not decramp), modulation and FX architecture, and the measurement plan that proves Serum 2 quality or better.",
+      "category": "preprint",
+      "url": "https://github.com/GareBear99/Therum_JUCE-Plugin/blob/main/PAPER.md",
+      "repo": "Therum_JUCE-Plugin",
+      "tags": ["therum", "synthesizer", "wavetable", "dsp", "serum", "iplug2", "framework-free"],
+      "venue": "Preprint",
+      "authors": "Gary Doman (GareBear99 / TizWildin)",
+      "status": "preprint"
+    },
+    {
       "id": "dafx26_svf_cramping_devto",
-      "name": "We Eliminated EQ Frequency Cramping Without Oversampling — DAFx26 Paper",
-      "description": "DAFx26 Demo Track announcement: FreeEQ8/ProEQ8 implements Simper SVF topology for de-cramped HF response without oversampling. Covers the math, benchmarks, and why bilinear-transform biquads cramp at high frequencies.",
+      "name": "DAFx26 Paper: Simper SVF Topology and EQ Frequency Cramping (dev.to)",
+      "description": "DAFx26 Demo Track announcement for the FreeEQ8 paper: Simper SVF topology, SPSC concurrency, and variable-cadence Dynamic EQ. The article's title predates the paper's withdrawal of the decramping claim - the SVF does not decramp, both topologies measure identical, and a -3.383 dB cramping error remains at the geometric-mean frequency; real decramping is future work.",
       "category": "published",
       "url": "https://dev.to/tizwildin/we-eliminated-eq-frequency-cramping-without-oversampling-heres-how-dafx26-paper-4f7l",
       "repo": "FreeEQ8",
