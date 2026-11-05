@@ -4,14 +4,14 @@
   "owner": "GareBearProductionz",
   "accountUrl": "https://garebearproductionz.itch.io/",
   "summary": {
-    "totalPublicProfileItems": 107,
+    "totalPublicProfileItems": 111,
     "formulaA1ItemsInManifest": 28,
     "liveSvgFxItemsInManifest": 18,
-    "freeItems": 35,
-    "paidItems": 72,
+    "freeItems": 36,
+    "paidItems": 75,
     "mediaReadyItems": 107,
     "autopullReady": true,
-    "totalItems": 107
+    "totalItems": 111
   },
   "sales": [
     {
@@ -3942,6 +3942,134 @@
         "published": "29 days ago",
         "updated": "29 days ago"
       }
+    },
+    {
+      "id": "808-producer-kit",
+      "rank": 108,
+      "name": "808 Producer Kit",
+      "url": "https://garebearproductionz.itch.io/808-producer-kit",
+      "priceType": "paid",
+      "status": "released",
+      "accountOwner": "GareBearProductionz",
+      "source": "https://garebearproductionz.itch.io/",
+      "category": "audio_music",
+      "kind": "asset_pack",
+      "description": "94 hand-crafted 808 bass samples - every chromatic key, 7 characters, BPM-synced tails. Trap, drill, hip-hop ready.",
+      "tags": [],
+      "featured": false,
+      "saleMemberships": [],
+      "media": {
+        "cover": null,
+        "animated": null,
+        "type": "none",
+        "alt": "808 Producer Kit",
+        "source": "manual",
+        "updatedAt": "2026-11-05T16:33:48Z"
+      },
+      "itch": {
+        "slug": "808-producer-kit",
+        "priceLabel": "$1.37",
+        "creator": "GareBearProductionz",
+        "lastSeenOnProfile": "2026-11-05T16:33:48Z",
+        "published": "2026-11-05",
+        "updated": "2026-11-05"
+      }
+    },
+    {
+      "id": "subwoofer-crown-bass-pack",
+      "rank": 109,
+      "name": "Subwoofer Crown Bass Pack",
+      "url": "https://garebearproductionz.itch.io/subwoofer-crown-bass-pack",
+      "priceType": "free",
+      "status": "released",
+      "accountOwner": "GareBearProductionz",
+      "source": "https://garebearproductionz.itch.io/",
+      "category": "audio_music",
+      "kind": "asset_pack",
+      "description": "70 game-ready bass samples - keyed 808s, phonk loops, impacts, growls, risers and UI stingers. Drift-phonk chaos, free.",
+      "tags": [],
+      "featured": false,
+      "saleMemberships": [],
+      "media": {
+        "cover": null,
+        "animated": null,
+        "type": "none",
+        "alt": "Subwoofer Crown Bass Pack",
+        "source": "manual",
+        "updatedAt": "2026-11-05T16:33:48Z"
+      },
+      "itch": {
+        "slug": "subwoofer-crown-bass-pack",
+        "priceLabel": "Free",
+        "creator": "GareBearProductionz",
+        "lastSeenOnProfile": "2026-11-05T16:33:48Z",
+        "published": "2026-11-05",
+        "updated": "2026-11-05"
+      }
+    },
+    {
+      "id": "violin-synth-sample-kit",
+      "rank": 110,
+      "name": "Violin Synth Sample Kit",
+      "url": "https://garebearproductionz.itch.io/violin-synth-sample-kit",
+      "priceType": "paid",
+      "status": "released",
+      "accountOwner": "GareBearProductionz",
+      "source": "https://garebearproductionz.itch.io/",
+      "category": "audio_music",
+      "kind": "asset_pack",
+      "description": "204 violin one-shots from a physical-model violin - 6 presets, G3 to E6, 48kHz stereo. Cinematic, dark, ready to play.",
+      "tags": [],
+      "featured": false,
+      "saleMemberships": [],
+      "media": {
+        "cover": null,
+        "animated": null,
+        "type": "none",
+        "alt": "Violin Synth Sample Kit",
+        "source": "manual",
+        "updatedAt": "2026-11-05T16:33:48Z"
+      },
+      "itch": {
+        "slug": "violin-synth-sample-kit",
+        "priceLabel": "$2.50",
+        "creator": "GareBearProductionz",
+        "lastSeenOnProfile": "2026-11-05T16:33:48Z",
+        "published": "2026-11-05",
+        "updated": "2026-11-05"
+      }
+    },
+    {
+      "id": "a-devils-game-hellfire-arena-kit",
+      "rank": 111,
+      "name": "A Devil's Game - Hellfire Arena Kit",
+      "url": "https://garebearproductionz.itch.io/a-devils-game-hellfire-arena-kit",
+      "priceType": "paid",
+      "status": "released",
+      "accountOwner": "GareBearProductionz",
+      "source": "https://garebearproductionz.itch.io/",
+      "category": "game_tools",
+      "kind": "asset_pack",
+      "description": "Build your own devil's court - a complete side-view hell arena kit. Tileset, parallax backdrop, demon crowds, two empty thrones, full UI kit.",
+      "tags": [],
+      "featured": false,
+      "saleMemberships": [],
+      "media": {
+        "cover": null,
+        "animated": null,
+        "type": "none",
+        "alt": "A Devil's Game - Hellfire Arena Kit",
+        "source": "manual",
+        "updatedAt": "2026-11-05T16:33:48Z"
+      },
+      "itch": {
+        "slug": "a-devils-game-hellfire-arena-kit",
+        "priceLabel": "$2.10 -50%",
+        "creator": "GareBearProductionz",
+        "lastSeenOnProfile": "2026-11-05T16:33:48Z",
+        "published": "2026-11-05",
+        "updated": "2026-11-05"
+      }
     }
   ],
   "metadata": {
@@ -3952,10 +4080,21 @@
       "notes": "GitHub Pages cannot reliably fetch/scrape itch.io pages client-side because of CORS, so live account refresh happens at build time and writes all_items.json/docs/data/all_items.json. The browser then no-cache fetches the JSON like the rest of the HUB manifests.",
       "mediaPolicy": "Prefer animated GIF/media when itch exposes it; otherwise use cover image; otherwise render a deterministic SVG fallback."
     },
-    "generatedAt": "2026-11-04T17:15:13Z",
+    "generatedAt": "2026-11-05T16:33:48Z",
     "autopullLastRun": "2026-11-04T17:15:13Z",
     "autopullSource": "https://garebearproductionz.itch.io/",
-    "autopullItemCount": 107,
-    "autopullDetailEnriched": true
+    "autopullItemCount": 111,
+    "autopullDetailEnriched": true,
+    "manualAdditions": {
+      "addedAt": "2026-11-05T16:33:48Z",
+      "reason": "itch.io rate-limited the autopull from this VM (HTTP 429 / connection resets on the profile and detail pages), so the 4 live packs could not be pulled automatically. Added by hand from the verified live listings; the next successful autopull run (daily CI, GitHub Actions IP) will enrich them with cover media, tags, and exact published dates and re-rank them by profile order.",
+      "items": [
+        "808-producer-kit",
+        "subwoofer-crown-bass-pack",
+        "violin-synth-sample-kit",
+        "a-devils-game-hellfire-arena-kit"
+      ],
+      "notAdded": "Rift Ascent (generator-rift-ascent-infinite-heat) is RESTRICTED on itch until Gary wakes up - not public, so not in the inventory. Phonk / Riser / Drum / Dark Piano / Future Bass are prepped but not published on itch yet (gated on the listen pass)."
+    }
   }
 }

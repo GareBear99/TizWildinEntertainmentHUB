@@ -6,7 +6,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 
 ## Summary
 
-- Total indexed records: **203**
+- Total indexed records: **207**
 - Total clusters: **11**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -115,6 +115,8 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [2D Sunset Generator & Formula + Sprites (FREE)](pages/itch-2d-sunset-generation-formula.html) | Itch Asset Pack | https://garebearproductionz.itch.io/2d-sunset-generation-formula | free, sunset, backdrop, generator, sprites, itch, game-assets, garebearproductionz |
 | [2D-2.5D Gravity Projectile Generator/Formula](pages/itch-gravity-projectile-generator-formula.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/gravity-projectile-generator-formula | gravity, projectile, 2d, 2.5d, formula, itch, game-assets, garebearproductionz |
 | [40 animated Pixel FX Pack - Dash, Land, Impact](pages/itch-40-animated-pixel-fx-pack-dash-land-impact.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/40-animated-pixel-fx-pack-dash-land-impact | itch, game-assets, garebearproductionz |
+| [808 Producer Kit](pages/itch-808-producer-kit.html) | Itch Asset Pack | https://garebearproductionz.itch.io/808-producer-kit | itch, game-assets, garebearproductionz |
+| [A Devil's Game - Hellfire Arena Kit](pages/itch-a-devils-game-hellfire-arena-kit.html) | Itch Asset Pack | https://garebearproductionz.itch.io/a-devils-game-hellfire-arena-kit | itch, game-assets, garebearproductionz |
 | [AA Indie Demon Sprite Sheet Generator Formula V1](pages/itch-demon-sprite-sheet-generator.html) | Itch Asset Pack | https://garebearproductionz.itch.io/demon-sprite-sheet-generator | demon, sprite-sheet, generator, formula, pixel-art, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [AAAA Layered Mountain Dynamic Sky Live Backdrop Engine](pages/itch-aaaa-layered-mountain-dynamic-sky-live-backdrop-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/aaaa-layered-mountain-dynamic-sky-live-backdrop-engine | mountain, sky, backdrop, seeded, svg, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [AAAA Sprite Mutation & Continuity Engine & Exporter](pages/itch-sprite-color-effect-mutator-engine.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/sprite-color-effect-mutator-engine | sprite, mutation, continuity, exporter, vfx, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
@@ -191,6 +193,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Spectral Icon SVG Pipeline Kit](pages/itch-spectral-icon-svg-pipeline-kit.html) | Itch Asset Pack | https://garebearproductionz.itch.io/spectral-icon-svg-pipeline-kit | icons, spectral, svg, pipeline, ui, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Sphinx Pyramid Activation Layered Live Animated Map Backdrop](pages/itch-sphinx-activation-layered-live-map.html) | Itch Asset Pack | https://garebearproductionz.itch.io/sphinx-activation-layered-live-map | sphinx, pyramid, backdrop, svg, ritual, tilemap, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Static Atmos - PDF Demo 'Wraith Eternal' Comic](pages/itch-static-atmos.html) | Itch Asset Pack | https://garebearproductionz.itch.io/static-atmos | wraith, comic, pdf, atmos, music, itch, game-assets, garebearproductionz |
+| [Subwoofer Crown Bass Pack](pages/itch-subwoofer-crown-bass-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/subwoofer-crown-bass-pack | itch, game-assets, garebearproductionz |
 | [SUGARFALL — the pink party pack (FREE)](pages/itch-sugarfall-the-pink-party-pack-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/sugarfall-the-pink-party-pack-free | itch, game-assets, garebearproductionz |
 | [Summoner's Delight](pages/itch-summoners-delights.html) | Itch Asset Pack | https://garebearproductionz.itch.io/summoners-delights | summoner, gif, assets, pixel-art, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [SVG Hell Fiery Icon Pipelines + Basic Live FX](pages/itch-infernal-hell-icons-free-basic-fx.html) | Itch Asset Pack | https://garebearproductionz.itch.io/infernal-hell-icons-free-basic-fx | icons, hell, svg, fx, pipeline, itch, game-assets, garebearproductionz, live-svg-fx-bundle |
@@ -202,6 +205,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Transparent D20 Dice Color 3D OBJ Pack](pages/itch-d20-dice-color-3d-obj-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/d20-dice-color-3d-obj-pack | itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [VFX Test Rooms & Elemental Frequency Arena Engines (FREE 2D-3D)](pages/itch-vfx-test-room-elemental-frequency-arena-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/vfx-test-room-elemental-frequency-arena-engine | free, vfx, test-room, arena, elemental, itch, game-assets, garebearproductionz |
 | [Victory Wraith (FREE)](pages/itch-victory-wraith-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/victory-wraith-free | itch, game-assets, garebearproductionz |
+| [Violin Synth Sample Kit](pages/itch-violin-synth-sample-kit.html) | Itch Asset Pack | https://garebearproductionz.itch.io/violin-synth-sample-kit | itch, game-assets, garebearproductionz |
 | [Wraith Necropolis Gate Backdrop & Layers FREE](pages/itch-wraith-necropolis-gate-backdrop.html) | Itch Asset Pack | https://garebearproductionz.itch.io/wraith-necropolis-gate-backdrop | free, wraith, necropolis, backdrop, layers, itch, game-assets, garebearproductionz |
 | [Yurei - Echo Shadow Character Pack](pages/itch-yurei-echo-shadow-character-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/yurei-echo-shadow-character-pack | itch, game-assets, garebearproductionz |
 | [Yurei Shadow Fighters - Three Silhouette Characters](pages/itch-yurei-shadow-fighters-three-silhouette-characters.html) | Itch Asset Pack | https://garebearproductionz.itch.io/yurei-shadow-fighters-three-silhouette-characters | itch, game-assets, garebearproductionz |

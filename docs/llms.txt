@@ -427,6 +427,18 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
+- 808 Producer Kit: 94 hand-crafted 808 bass samples - every chromatic key, 7 characters, BPM-synced tails. Trap, drill, hip-hop ready. Official GareBearProductionz itch product ($1.37) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-808-producer-kit.html
+  Public URL: https://garebearproductionz.itch.io/808-producer-kit
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
+- A Devil's Game - Hellfire Arena Kit: Build your own devil's court - a complete side-view hell arena kit. Tileset, parallax backdrop, demon crowds, two empty thrones, full UI kit. Official GareBearProductionz itch product ($2.10 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-a-devils-game-hellfire-arena-kit.html
+  Public URL: https://garebearproductionz.itch.io/a-devils-game-hellfire-arena-kit
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
 - AA Indie Demon Sprite Sheet Generator Formula V1: Demon sprite-sheet generator/formula package. Official GareBearProductionz itch product ($2.49 -25%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-demon-sprite-sheet-generator.html
   Public URL: https://garebearproductionz.itch.io/demon-sprite-sheet-generator
@@ -883,6 +895,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: wraith, comic, pdf, atmos, music, itch, game-assets, garebearproductionz
 
+- Subwoofer Crown Bass Pack: 70 game-ready bass samples - keyed 808s, phonk loops, impacts, growls, risers and UI stingers. Drift-phonk chaos, free. Official GareBearProductionz itch product (Free) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-subwoofer-crown-bass-pack.html
+  Public URL: https://garebearproductionz.itch.io/subwoofer-crown-bass-pack
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
 - SUGARFALL — the pink party pack (FREE): SUGARFALL — the pink party pack (FREE) Official GareBearProductionz itch product (FREE) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-sugarfall-the-pink-party-pack-free.html
   Public URL: https://garebearproductionz.itch.io/sugarfall-the-pink-party-pack-free
@@ -946,6 +964,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
 - Victory Wraith (FREE): Victory Wraith (FREE) Official GareBearProductionz itch product (FREE) in the Wraith Lore & Story Assets line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-victory-wraith-free.html
   Public URL: https://garebearproductionz.itch.io/victory-wraith-free
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
+- Violin Synth Sample Kit: 204 violin one-shots from a physical-model violin - 6 presets, G3 to E6, 48kHz stereo. Cinematic, dark, ready to play. Official GareBearProductionz itch product ($2.50) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-violin-synth-sample-kit.html
+  Public URL: https://garebearproductionz.itch.io/violin-synth-sample-kit
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
