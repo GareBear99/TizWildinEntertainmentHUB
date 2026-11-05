@@ -86,10 +86,12 @@ pending on the Cloudflare token).
    anyone (it dispatches a GitHub workflow). Whether the secret is set cannot be
    checked without triggering a dispatch. Gary to confirm the secret is set, or
    set it (`wrangler secret put WORKER_SHARED_SECRET`).
-7. **`/hub/master-key/link` + `/hub/master-key/unlink` are email-only** (same
+7. **`/hub/master-key/link`, `/unlink`, and `/reset` are email-only** (same
    flaw as the `/hub/account` leak, not fixed in v3.2.0). Anyone knowing a Master
-   Key owner's email can link/unlink seats. Needs a design decision + the account
-   page sending proof on link/unlink.
+   Key owner's email can link/unlink/reset seats. Needs a design decision + the
+   account page sending proof on link/unlink/reset. (Recorded as a security
+   follow-up note in `docs/API.md` next to those three endpoints; the account
+   page never calls them, so no page change was needed.)
 
 ## Ready to delete — awaiting Gary's confirmation (NOT deleted)
 
