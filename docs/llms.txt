@@ -697,7 +697,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: pentagram, ritual, 2d, 2.5d, formula, itch, game-assets, garebearproductionz, formula-a1-bundle
 
-- Live Smog VFX & Shadow Run Map Layers: Smog & Fog FX Map Pack Official GareBearProductionz itch product ($1.37 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- Live Smog VFX & Shadow Run Map Layers: Four dark parallax arenas wrapped in living fog — separated layers, looping smoke, yours to rebuild. Official GareBearProductionz itch product ($1.37 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-shadow-run-map-layers-live-smog-fx.html
   Public URL: https://garebearproductionz.itch.io/shadow-run-map-layers-live-smog-fx
   GitHub: N/A
@@ -895,7 +895,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: wraith, comic, pdf, atmos, music, itch, game-assets, garebearproductionz
 
-- Subwoofer Crown Bass Pack: 70 game-ready bass samples - keyed 808s, phonk loops, impacts, growls, risers and UI stingers. Drift-phonk chaos, free. Official GareBearProductionz itch product (Free) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.
+- Subwoofer Crown Bass Pack (FREE): 70 game-ready bass samples - keyed 808s, phonk loops, impacts, growls, risers and UI stingers. Drift-phonk chaos, free. Official GareBearProductionz itch product (FREE) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-subwoofer-crown-bass-pack.html
   Public URL: https://garebearproductionz.itch.io/subwoofer-crown-bass-pack
   GitHub: N/A

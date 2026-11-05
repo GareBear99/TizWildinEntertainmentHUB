@@ -1,112 +1,112 @@
 rank	id	title	category	priceType	kind	sales	url
-1	the-kings-gambit-gothic-arena-kit-v100	THE KING'S GAMBIT - GOTHIC ARENA KIT v1.0.0	game_tools	paid	tool		https://garebearproductionz.itch.io/the-kings-gambit-gothic-arena-kit-v100
-2	frostbound-arena-winter-pixel-arena-kit-tileset-heroes-enemies-boss-ui-sfx-music	Frostbound Arena - Winter Pixel Arena Kit (Tileset, Heroes, Enemies, Boss, UI, SFX + Music)	audio_music	paid	asset_pack		https://garebearproductionz.itch.io/frostbound-arena-winter-pixel-arena-kit-tileset-heroes-enemies-boss-ui-sfx-music
-3	impact-fx-advanced-12-hero-pixel-vfx-meteor-black-hole-portal-tornado-more	Impact FX Advanced - 12 Hero Pixel VFX | Meteor, Black Hole, Portal, Tornado & More	game_tools	paid	tool		https://garebearproductionz.itch.io/impact-fx-advanced-12-hero-pixel-vfx-meteor-black-hole-portal-tornado-more
-4	impact-fx-christmas-edition-pixel-winter-vfx-sfx-pack	Impact FX - Christmas Edition | Pixel Winter VFX + SFX Pack	audio_music	paid	asset_pack		https://garebearproductionz.itch.io/impact-fx-christmas-edition-pixel-winter-vfx-sfx-pack
-5	impact-fx-lite-free-pixel-vfx-sfx-sampler	Impact FX Lite - Free Pixel VFX + SFX Sampler	audio_music	free	asset_pack		https://garebearproductionz.itch.io/impact-fx-lite-free-pixel-vfx-sfx-sampler
-6	impact-fx-halloween-edition-pixel-spooky-vfx-sfx-pack	Impact FX - Halloween Edition | Pixel Spooky VFX + SFX Pack	audio_music	paid	asset_pack		https://garebearproductionz.itch.io/impact-fx-halloween-edition-pixel-spooky-vfx-sfx-pack
-7	impact-fx-pixel-combat-vfx-sfx-pack	IMPACT FX - Pixel Combat VFX + SFX Pack	audio_music	paid	asset_pack		https://garebearproductionz.itch.io/impact-fx-pixel-combat-vfx-sfx-pack
-8	halloween-asset-audio-sfx-pack-free	Halloween Asset & Audio SFX Pack (FREE)	audio_music	free	asset_pack		https://garebearproductionz.itch.io/halloween-asset-audio-sfx-pack-free
-9	animated-vfx-ui-pack-80-assets	Animated VFX UI Pack - 80+ Assets	game_tools	paid	tool		https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets
-10	dark-fantasy-modular-gui-pack-704-ui-assets-160-icons	Dark Fantasy Modular GUI Pack - 704 UI Assets + 160 Icons	icons_sigils	paid	asset_pack		https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons
-11	arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames	Arcanum I - Part 2 — Animated Pixel Spell Abilities (23 spells, 752 frames)	game_tools	paid	tool		https://garebearproductionz.itch.io/arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames
-12	arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames	Arcanum I - Part 1— Animated Pixel Spell Effects (75 effects, 1,200 frames)	game_tools	paid	tool		https://garebearproductionz.itch.io/arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames
-13	elemental-wisp-sprite-pack	Elemental Wisp Sprite Pack	sprite_characters	paid	asset_pack		https://garebearproductionz.itch.io/elemental-wisp-sprite-pack
-14	pyre-fire-pack-generator-tools	Pyre Fire Pack Generator Tools	game_tools	paid	tool		https://garebearproductionz.itch.io/pyre-fire-pack-generator-tools
-15	gossamer-pixel-cobwebs-corner-webs-screen-overlays	Gossamer — 289 Pixel Cobwebs, Corner Webs & Screen Overlays	game_tools	paid	tool		https://garebearproductionz.itch.io/gossamer-pixel-cobwebs-corner-webs-screen-overlays
-16	120-elemental-vfx-pixel-abilities-icons	120 Elemental VFX Pixel Abilities & Icons	icons_sigils	paid	asset_pack		https://garebearproductionz.itch.io/120-elemental-vfx-pixel-abilities-icons
-17	256-pixel-runes-glyphs-symbols-that-write-themselves	256 pixel runes, glyphs & symbols that write themselves	game_tools	paid	tool		https://garebearproductionz.itch.io/256-pixel-runes-glyphs-symbols-that-write-themselves
-18	1200-animated-pixel-sigils-magic-circles-runes-loading-spinners	1,200 Animated Pixel Sigils - Magic Circles, Runes & Loading Spinners	icons_sigils	paid	asset_pack		https://garebearproductionz.itch.io/1200-animated-pixel-sigils-magic-circles-runes-loading-spinners
-19	cloudworks-pixel-cloud-parallax-toolkit-trains	Cloudworks - Pixel Cloud & Parallax Toolkit + Trains!	game_tools	paid	tool		https://garebearproductionz.itch.io/cloudworks-pixel-cloud-parallax-toolkit-trains
-20	japanese-dojo-tileset-free	Japanese Dojo Tileset (FREE)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/japanese-dojo-tileset-free
-21	dark-fantasy-dungeon-builder-free-four-realm-tileset	Dark Fantasy Dungeon Builder - Free Four-Realm Tileset	free_samples	free	asset_pack		https://garebearproductionz.itch.io/dark-fantasy-dungeon-builder-free-four-realm-tileset
-22	cosmic-disruption-free-fast-paced-game-music-pack	COSMIC DISRUPTION – Free Fast-Paced Game Music Pack	games_engines	free	asset_pack		https://garebearproductionz.itch.io/cosmic-disruption-free-fast-paced-game-music-pack
-23	orerry-solar-system-pack	Orerry Solar System Pack - Live VFX Animations + Scale Accuracy & Tilt	game_tools	paid	tool		https://garebearproductionz.itch.io/orerry-solar-system-pack
-24	coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts	Coin Physics & Triple Buffer Atomic Swap Pack & Engine Kit	weapons_props	paid	asset_pack	formula_a1_5k	https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts
-25	riftedge-1001-slash-fx	Riftedge - 1001 Slash FX Pack	game_tools	paid	tool		https://garebearproductionz.itch.io/riftedge-1001-slash-fx
-26	slash-fx-101	Slash FX 101 (FREE)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/slash-fx-101
-27	rift-edge-laser-sword-glow-slash-pack	Rift Edge - Laser Sword & Glow Slash Pack	hero_generators	paid	tool		https://garebearproductionz.itch.io/rift-edge-laser-sword-glow-slash-pack
-28	shoji-dojo	Shoji Dojo - Matrix Rooms 750+ Combinations	game_tools	paid	tool		https://garebearproductionz.itch.io/shoji-dojo
-29	hemorrhage-blood-fx	HEMORRHAGE - Chaos Blood FX	game_tools	paid	tool		https://garebearproductionz.itch.io/hemorrhage-blood-fx
-30	ichor-glyph	Chaos Arcanum Part 1 - Blood FX & More	game_tools	paid	tool		https://garebearproductionz.itch.io/ichor-glyph
-31	spectral-carnage-sewers-free-tileset-map	SLAGWORKS: Spectral Carnage Sewer Deck (FREE)	icons_sigils	free	asset_pack		https://garebearproductionz.itch.io/spectral-carnage-sewers-free-tileset-map
-32	slagworks-cinderhaul-6-map-animated-tileset	SLAGWORKS: CinderHaul - 6 Map Animated Tileset 1,910 Sprites	game_tools	paid	tool		https://garebearproductionz.itch.io/slagworks-cinderhaul-6-map-animated-tileset
-33	the-ultimate-everything-laser-pack	The Ultimate Everything Laser Pack & Dynamic Generator Engine (49 Sprite Sheets)	hero_generators	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/the-ultimate-everything-laser-pack
-34	40-animated-pixel-fx-pack-dash-land-impact	40 animated Pixel FX Pack - Dash, Land, Impact	game_tools	paid	tool		https://garebearproductionz.itch.io/40-animated-pixel-fx-pack-dash-land-impact
-35	shadow-pixel-character-pack-copies-any-sprite	Shadow Pixel Character Pack - copies any sprite	sprite_characters	paid	asset_pack		https://garebearproductionz.itch.io/shadow-pixel-character-pack-copies-any-sprite
-36	shadow-run-map-layers-live-smog-fx	Live Smog VFX & Shadow Run Map Layers	game_tools	paid	tool		https://garebearproductionz.itch.io/shadow-run-map-layers-live-smog-fx
-37	yurei-shadow-fighters-three-silhouette-characters	Yurei Shadow Fighters - Three Silhouette Characters	sprite_characters	paid	asset_pack		https://garebearproductionz.itch.io/yurei-shadow-fighters-three-silhouette-characters
-38	yurei-echo-shadow-character-pack	Yurei - Echo Shadow Character Pack	sprite_characters	paid	asset_pack		https://garebearproductionz.itch.io/yurei-echo-shadow-character-pack
-39	shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor	Shadow Fighters — Dragon Knight, Iron Sentinel, Xeno Grunt (+ Raptor)	game_tools	paid	tool		https://garebearproductionz.itch.io/shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor
-40	shadow-trooper-silhouette-free	Shadow Trooper Silhouette (FREE)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/shadow-trooper-silhouette-free
-41	victory-wraith-free	Victory Wraith (FREE)	wraith_lore	free	asset_pack		https://garebearproductionz.itch.io/victory-wraith-free
-42	divinity-the-imperilator-arms-and-the-seven-sins	DIVINITY — the Imperilator arms and the seven sins (FREE)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/divinity-the-imperilator-arms-and-the-seven-sins
-43	sugarfall-the-pink-party-pack-free	SUGARFALL — the pink party pack (FREE)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/sugarfall-the-pink-party-pack-free
-44	cash-cloud	Cash Cloud Sprite Pack (FREE)	sprite_characters	free	asset_pack		https://garebearproductionz.itch.io/cash-cloud
-45	mode-7	MODE-7 FLOORCAST ENGINE	games_engines	paid	game		https://garebearproductionz.itch.io/mode-7
-46	bundle	NECROMANCER'S TOOLKIT - EXPANDED RITUAL WORLD BUNDLE EDITION	game_tools	paid	bundle	formula_a1_5k	https://garebearproductionz.itch.io/bundle
-47	enchanted-sprite-vfx-engine	ENCHANTED SPRITE VFX ENGINE	sprite_characters	paid	asset_pack	formula_a1_5k	https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine
-48	holo-sprite-overlay-engine	HOLO SPRITE OVERLAY EXPORT ENGINE	sprite_characters	paid	asset_pack	formula_a1_5k	https://garebearproductionz.itch.io/holo-sprite-overlay-engine
-49	necrommancers-audio-toolkit	Necrommancers Sacred Geometry Audio ToolKit	audio_music	paid	asset_pack	formula_a1_5k	https://garebearproductionz.itch.io/necrommancers-audio-toolkit
-50	doom-style-ray-trace-engine-asset-pack	Doom Style Ray Cast Engine & Asset Pack	games_engines	paid	game	formula_a1_5k	https://garebearproductionz.itch.io/doom-style-ray-trace-engine-asset-pack
-51	d20-dice-color-3d-obj-pack	Transparent D20 Dice Color 3D OBJ Pack	weapons_props	paid	asset_pack	formula_a1_5k	https://garebearproductionz.itch.io/d20-dice-color-3d-obj-pack
-52	black-red-dice-svg-png-export-engine	Black & Red Dice SVG & PNG 2D-3D Export Engine	weapons_props	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine
-53	infina-dix-engine	The Infina Dix Engine (Ultimate Free Dice Pack)	weapons_props	free	asset_pack		https://garebearproductionz.itch.io/infina-dix-engine
-54	color-dynamic-sigils-svg-export-pack	12 Sigil Color Dynamic Icon SVG Export Pack & Hover FX Engine	icons_sigils	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/color-dynamic-sigils-svg-export-pack
-55	sphinx-activation-layered-live-map	Sphinx Pyramid Activation Layered Live Animated Map Backdrop	live_backdrops	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/sphinx-activation-layered-live-map
-56	10-svg-programmable-live-backdrop-pipelines	20+ SVG Programmable Live Backdrop Pipelines & Layers Vol 1	live_backdrops	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/10-svg-programmable-live-backdrop-pipelines
-57	aaaa-layered-mountain-dynamic-sky-live-backdrop-engine	AAAA Layered Mountain Dynamic Sky Live Backdrop Engine	live_backdrops	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/aaaa-layered-mountain-dynamic-sky-live-backdrop-engine
-58	aaaa-pixel-combat-timeline-engine	AAAA Pixel Combat Timeline Engine	game_tools	paid	tool	formula_a1_5k	https://garebearproductionz.itch.io/aaaa-pixel-combat-timeline-engine
-59	aaaa-sprite-fusion-metamorphosis-equation-spine-engine	AAAA Sprite Fusion, Metamorphosis & Equation Spine Engine	game_tools	paid	tool	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/aaaa-sprite-fusion-metamorphosis-equation-spine-engine
-60	sprite-color-effect-mutator-engine	AAAA Sprite Mutation & Continuity Engine & Exporter	game_tools	paid	tool	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/sprite-color-effect-mutator-engine
-61	celestial-event-moons	Celestial Event Moons + Dynamic Generator Engine	hero_generators	paid	asset_pack	formula_a1_5k	https://garebearproductionz.itch.io/celestial-event-moons
-62	multi-layered-epic-free-svg-backdrop-static-scene	Multi Layered Epic Free SVG Backdrop Static Scene (Free)	free_samples	free	game		https://garebearproductionz.itch.io/multi-layered-epic-free-svg-backdrop-static-scene
-63	evil-eye-four-pack	Evil Eye Four Pack & Live SVG Animations	icons_sigils	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/evil-eye-four-pack
-64	alien-invasion-live-animated-backdrop-layers	ALIEN INVASION!!! 2D UFO Live Pixel Animated Backdrop & Layers	live_backdrops	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/alien-invasion-live-animated-backdrop-layers
-65	wraith-necropolis-gate-backdrop	Wraith Necropolis Gate Backdrop & Layers FREE	free_samples	free	asset_pack		https://garebearproductionz.itch.io/wraith-necropolis-gate-backdrop
-66	vfx-test-room-elemental-frequency-arena-engine	VFX Test Rooms & Elemental Frequency Arena Engines (FREE 2D-3D)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/vfx-test-room-elemental-frequency-arena-engine
-67	the-cathedral-of-madness-concept-pixel-art	The Cathedral of Madness - Concept Pixel Art	wraith_lore	paid	asset_pack		https://garebearproductionz.itch.io/the-cathedral-of-madness-concept-pixel-art
-68	pride-crown-concept-art	Pride Crown Concept Sprite Art (Free)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/pride-crown-concept-art
-69	scarlette-witchs-darkhold-sprite-free	Scarlet Witch DarkHold Sprite (FREE)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/scarlette-witchs-darkhold-sprite-free
-70	hells-jukebox-nekranomicon-author-cthulu	Hell's Jukebox Demo & NEKRANOMICON - Author: Cthulu	wraith_lore	paid	asset_pack		https://garebearproductionz.itch.io/hells-jukebox-nekranomicon-author-cthulu
-71	the-widowmaker-live-vanta-black-svg-3-phase-boss	The WidowMaker: Live HD Vanta Black SVG 3 Phase Boss + GIF Exporter (Free)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/the-widowmaker-live-vanta-black-svg-3-phase-boss
-72	cool-pixel-portraits	Free Pixel SVG Portrait Asset Builder Kit (Generator & Pack)	free_samples	free	game		https://garebearproductionz.itch.io/cool-pixel-portraits
-73	megabot-rigging-concept-free	Pixel MegaBot Rigging Concept + SVG (Free)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/megabot-rigging-concept-free
-74	2d-chibi-pixel-elemental-rigging-concept	2D Chibi-Pixel Elemental Rigging Concept (FREE)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/2d-chibi-pixel-elemental-rigging-concept
-75	hd-cinematic-audio-sfx-pack-free	HD Cinematic Audio SFX Pack (FREE)	audio_music	free	asset_pack		https://garebearproductionz.itch.io/hd-cinematic-audio-sfx-pack-free
-76	professional-grade-studio-violin-audio-synth-formula	Professional Grade Studio Violin Audio Synth Formula	audio_music	paid	asset_pack		https://garebearproductionz.itch.io/professional-grade-studio-violin-audio-synth-formula
-77	ultimate-free-hd-laser-pack	HD Pixel Laser Beam Pulse Glow FX Pack & Audio SFX (FREE)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/ultimate-free-hd-laser-pack
-78	pixel-velocity-weight-physics-quake-hammer	Pixel Elemental Velocity Weight Physics 2.5D Quake Hammer (FREE Thor Engine)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/pixel-velocity-weight-physics-quake-hammer
-79	blood-bound-scythe-svg-free	Blood Bound by Pixel Scythe & SVG (FREE)	weapons_props	free	asset_pack		https://garebearproductionz.itch.io/blood-bound-scythe-svg-free
-80	gw3-style-2d-projected-3d-grid-world-engine	GW3 Style 2D Projected 3D Grid World Synth Engine (Free)	games_engines	free	game		https://garebearproductionz.itch.io/gw3-style-2d-projected-3d-grid-world-engine
-81	freeeq8-most-advanced-free-eq-opensource	FreeEQ8 (Most Advanced EQ OpenSource)	audio_music	free	asset_pack		https://garebearproductionz.itch.io/freeeq8-most-advanced-free-eq-opensource
-82	any-image-to-pixel-svg-converter	Any Image to Pixel SVG Converter (Only 1 FREE)	game_tools	free	tool		https://garebearproductionz.itch.io/any-image-to-pixel-svg-converter
-83	infernal-hell-icons-free-basic-fx	SVG Hell Fiery Icon Pipelines + Basic Live FX	icons_sigils	paid	asset_pack	live_svg_fx	https://garebearproductionz.itch.io/infernal-hell-icons-free-basic-fx
-84	svg-icon-starter-kit-pipeline	Live SVG Icon Starter Kit Pipeline + 4 Live Hell FX Icons	icons_sigils	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/svg-icon-starter-kit-pipeline
-85	holy-svg-png-icon-set	Holy Live FX SVG & PNG Icon 8-Set Pipeline Kit	icons_sigils	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/holy-svg-png-icon-set
-86	spectral-icon-svg-pipeline-kit	Spectral Icon SVG Pipeline Kit	icons_sigils	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/spectral-icon-svg-pipeline-kit
-87	thor-mjolnir-svg-physics-engine	Thor Mjölnir 4 Set + SVG Physics Velocity Engine + Bonus Quake Hammer Set	weapons_props	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/thor-mjolnir-svg-physics-engine
-88	blood-bone-scythe	Pixel Blood & Bone Demon Scythe + SVG (FREE)	weapons_props	free	asset_pack		https://garebearproductionz.itch.io/blood-bone-scythe
-89	free-pixel-paladin-hammer-chibi	(FREE) Pixel Paladin Hammer + Chibi	weapons_props	free	asset_pack		https://garebearproductionz.itch.io/free-pixel-paladin-hammer-chibi
-90	professional-occult-covenant-icon-kit	Professional Occult Covenant Icon Kit & FX Formula	icons_sigils	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/professional-occult-covenant-icon-kit
-91	indie-dynamic-merchant-cart	AAAA Indie Dynamic Merchant Cart	hero_generators	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/indie-dynamic-merchant-cart
-92	pixel-abyssal-teleporter	Pixel Abyssal Teleportation Device	weapons_props	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/pixel-abyssal-teleporter
-93	static-atmos	Static Atmos - PDF Demo 'Wraith Eternal' Comic	wraith_lore	paid	asset_pack		https://garebearproductionz.itch.io/static-atmos
-94	demon-sprite-sheet-generator	AA Indie Demon Sprite Sheet Generator Formula V1	sprite_characters	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/demon-sprite-sheet-generator
-95	fireball-generator-formula	FireBall Generator & Formula/Sprite Exporter	hero_generators	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/fireball-generator-formula
-96	pyromancy-chibi-pack	Pyro-Maniac Chibi Sprite Pack (FREE)	sprite_characters	free	asset_pack		https://garebearproductionz.itch.io/pyromancy-chibi-pack
-97	infernal-archetypes	Infernal Archetype Sprites (FREE)	sprite_characters	free	asset_pack		https://garebearproductionz.itch.io/infernal-archetypes
-98	free-haunter-sprites	FREE Haunter Sprites	sprite_characters	free	asset_pack		https://garebearproductionz.itch.io/free-haunter-sprites
-99	action-command-charge-formula	Action Command Charge Formula	game_tools	paid	tool	formula_a1_5k	https://garebearproductionz.itch.io/action-command-charge-formula
-100	reward-pocket-generator-formula	Reward Pocket Generator Formula	game_tools	paid	tool	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/reward-pocket-generator-formula
-101	neolution-grid-engine	Neolution & Grid Engine (Controller Support)	games_engines	paid	game	formula_a1_5k	https://garebearproductionz.itch.io/neolution-grid-engine
-102	skully-asset-pack-lightweight-canvas-engine-demo	Skully Asset Pack & Lightweight Canvas Engine Demo	games_engines	paid	game		https://garebearproductionz.itch.io/skully-asset-pack-lightweight-canvas-engine-demo
-103	gravity-projectile-generator-formula	2D-2.5D Gravity Projectile Generator/Formula	game_tools	paid	tool		https://garebearproductionz.itch.io/gravity-projectile-generator-formula
-104	2d-sunset-generation-formula	2D Sunset Generator & Formula + Sprites (FREE)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/2d-sunset-generation-formula
-105	live-pentagram-formula-2d-3d	Live Pentagram Formula 2D-2.5D	game_tools	paid	tool	formula_a1_5k	https://garebearproductionz.itch.io/live-pentagram-formula-2d-3d
-106	npc-theme-of-sacrifice	NPC Theme of Sacrifice	audio_music	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/npc-theme-of-sacrifice
-107	summoners-delights	Summoner's Delight	sprite_characters	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/summoners-delights
-108	808-producer-kit	808 Producer Kit	audio_music	paid	asset_pack		https://garebearproductionz.itch.io/808-producer-kit
-109	subwoofer-crown-bass-pack	Subwoofer Crown Bass Pack	audio_music	free	asset_pack		https://garebearproductionz.itch.io/subwoofer-crown-bass-pack
-110	violin-synth-sample-kit	Violin Synth Sample Kit	audio_music	paid	asset_pack		https://garebearproductionz.itch.io/violin-synth-sample-kit
-111	a-devils-game-hellfire-arena-kit	A Devil's Game - Hellfire Arena Kit	game_tools	paid	asset_pack		https://garebearproductionz.itch.io/a-devils-game-hellfire-arena-kit
+1	a-devils-game-hellfire-arena-kit	A Devil's Game - Hellfire Arena Kit	game_tools	paid	asset_pack		https://garebearproductionz.itch.io/a-devils-game-hellfire-arena-kit
+2	the-kings-gambit-gothic-arena-kit-v100	THE KING'S GAMBIT - GOTHIC ARENA KIT v1.0.0	game_tools	paid	tool		https://garebearproductionz.itch.io/the-kings-gambit-gothic-arena-kit-v100
+3	frostbound-arena-winter-pixel-arena-kit-tileset-heroes-enemies-boss-ui-sfx-music	Frostbound Arena - Winter Pixel Arena Kit (Tileset, Heroes, Enemies, Boss, UI, SFX + Music)	audio_music	paid	asset_pack		https://garebearproductionz.itch.io/frostbound-arena-winter-pixel-arena-kit-tileset-heroes-enemies-boss-ui-sfx-music
+4	impact-fx-advanced-12-hero-pixel-vfx-meteor-black-hole-portal-tornado-more	Impact FX Advanced - 12 Hero Pixel VFX | Meteor, Black Hole, Portal, Tornado & More	game_tools	paid	tool		https://garebearproductionz.itch.io/impact-fx-advanced-12-hero-pixel-vfx-meteor-black-hole-portal-tornado-more
+5	impact-fx-christmas-edition-pixel-winter-vfx-sfx-pack	Impact FX - Christmas Edition | Pixel Winter VFX + SFX Pack	audio_music	paid	asset_pack		https://garebearproductionz.itch.io/impact-fx-christmas-edition-pixel-winter-vfx-sfx-pack
+6	impact-fx-lite-free-pixel-vfx-sfx-sampler	Impact FX Lite - Free Pixel VFX + SFX Sampler	audio_music	free	asset_pack		https://garebearproductionz.itch.io/impact-fx-lite-free-pixel-vfx-sfx-sampler
+7	impact-fx-halloween-edition-pixel-spooky-vfx-sfx-pack	Impact FX - Halloween Edition | Pixel Spooky VFX + SFX Pack	audio_music	paid	asset_pack		https://garebearproductionz.itch.io/impact-fx-halloween-edition-pixel-spooky-vfx-sfx-pack
+8	impact-fx-pixel-combat-vfx-sfx-pack	IMPACT FX - Pixel Combat VFX + SFX Pack	audio_music	paid	asset_pack		https://garebearproductionz.itch.io/impact-fx-pixel-combat-vfx-sfx-pack
+9	halloween-asset-audio-sfx-pack-free	Halloween Asset & Audio SFX Pack (FREE)	audio_music	free	asset_pack		https://garebearproductionz.itch.io/halloween-asset-audio-sfx-pack-free
+10	subwoofer-crown-bass-pack	Subwoofer Crown Bass Pack (FREE)	audio_music	free	asset_pack		https://garebearproductionz.itch.io/subwoofer-crown-bass-pack
+11	808-producer-kit	808 Producer Kit	audio_music	paid	asset_pack		https://garebearproductionz.itch.io/808-producer-kit
+12	violin-synth-sample-kit	Violin Synth Sample Kit	audio_music	paid	asset_pack		https://garebearproductionz.itch.io/violin-synth-sample-kit
+13	animated-vfx-ui-pack-80-assets	Animated VFX UI Pack - 80+ Assets	game_tools	paid	tool		https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets
+14	dark-fantasy-modular-gui-pack-704-ui-assets-160-icons	Dark Fantasy Modular GUI Pack - 704 UI Assets + 160 Icons	icons_sigils	paid	asset_pack		https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons
+15	arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames	Arcanum I - Part 2 — Animated Pixel Spell Abilities (23 spells, 752 frames)	game_tools	paid	tool		https://garebearproductionz.itch.io/arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames
+16	arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames	Arcanum I - Part 1— Animated Pixel Spell Effects (75 effects, 1,200 frames)	game_tools	paid	tool		https://garebearproductionz.itch.io/arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames
+17	elemental-wisp-sprite-pack	Elemental Wisp Sprite Pack	sprite_characters	paid	asset_pack		https://garebearproductionz.itch.io/elemental-wisp-sprite-pack
+18	pyre-fire-pack-generator-tools	Pyre Fire Pack Generator Tools	game_tools	paid	tool		https://garebearproductionz.itch.io/pyre-fire-pack-generator-tools
+19	gossamer-pixel-cobwebs-corner-webs-screen-overlays	Gossamer — 289 Pixel Cobwebs, Corner Webs & Screen Overlays	game_tools	paid	tool		https://garebearproductionz.itch.io/gossamer-pixel-cobwebs-corner-webs-screen-overlays
+20	120-elemental-vfx-pixel-abilities-icons	120 Elemental VFX Pixel Abilities & Icons	icons_sigils	paid	asset_pack		https://garebearproductionz.itch.io/120-elemental-vfx-pixel-abilities-icons
+21	256-pixel-runes-glyphs-symbols-that-write-themselves	256 pixel runes, glyphs & symbols that write themselves	game_tools	paid	tool		https://garebearproductionz.itch.io/256-pixel-runes-glyphs-symbols-that-write-themselves
+22	1200-animated-pixel-sigils-magic-circles-runes-loading-spinners	1,200 Animated Pixel Sigils - Magic Circles, Runes & Loading Spinners	icons_sigils	paid	asset_pack		https://garebearproductionz.itch.io/1200-animated-pixel-sigils-magic-circles-runes-loading-spinners
+23	cloudworks-pixel-cloud-parallax-toolkit-trains	Cloudworks - Pixel Cloud & Parallax Toolkit + Trains!	game_tools	paid	tool		https://garebearproductionz.itch.io/cloudworks-pixel-cloud-parallax-toolkit-trains
+24	japanese-dojo-tileset-free	Japanese Dojo Tileset (FREE)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/japanese-dojo-tileset-free
+25	dark-fantasy-dungeon-builder-free-four-realm-tileset	Dark Fantasy Dungeon Builder - Free Four-Realm Tileset	free_samples	free	asset_pack		https://garebearproductionz.itch.io/dark-fantasy-dungeon-builder-free-four-realm-tileset
+26	cosmic-disruption-free-fast-paced-game-music-pack	COSMIC DISRUPTION – Free Fast-Paced Game Music Pack	games_engines	free	asset_pack		https://garebearproductionz.itch.io/cosmic-disruption-free-fast-paced-game-music-pack
+27	orerry-solar-system-pack	Orerry Solar System Pack - Live VFX Animations + Scale Accuracy & Tilt	game_tools	paid	tool		https://garebearproductionz.itch.io/orerry-solar-system-pack
+28	coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts	Coin Physics & Triple Buffer Atomic Swap Pack & Engine Kit	weapons_props	paid	asset_pack	formula_a1_5k	https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts
+29	riftedge-1001-slash-fx	Riftedge - 1001 Slash FX Pack	game_tools	paid	tool		https://garebearproductionz.itch.io/riftedge-1001-slash-fx
+30	slash-fx-101	Slash FX 101 (FREE)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/slash-fx-101
+31	rift-edge-laser-sword-glow-slash-pack	Rift Edge - Laser Sword & Glow Slash Pack	hero_generators	paid	tool		https://garebearproductionz.itch.io/rift-edge-laser-sword-glow-slash-pack
+32	shoji-dojo	Shoji Dojo - Matrix Rooms 750+ Combinations	game_tools	paid	tool		https://garebearproductionz.itch.io/shoji-dojo
+33	hemorrhage-blood-fx	HEMORRHAGE - Chaos Blood FX	game_tools	paid	tool		https://garebearproductionz.itch.io/hemorrhage-blood-fx
+34	ichor-glyph	Chaos Arcanum Part 1 - Blood FX & More	game_tools	paid	tool		https://garebearproductionz.itch.io/ichor-glyph
+35	spectral-carnage-sewers-free-tileset-map	SLAGWORKS: Spectral Carnage Sewer Deck (FREE)	icons_sigils	free	asset_pack		https://garebearproductionz.itch.io/spectral-carnage-sewers-free-tileset-map
+36	slagworks-cinderhaul-6-map-animated-tileset	SLAGWORKS: CinderHaul - 6 Map Animated Tileset 1,910 Sprites	game_tools	paid	tool		https://garebearproductionz.itch.io/slagworks-cinderhaul-6-map-animated-tileset
+37	the-ultimate-everything-laser-pack	The Ultimate Everything Laser Pack & Dynamic Generator Engine (49 Sprite Sheets)	hero_generators	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/the-ultimate-everything-laser-pack
+38	40-animated-pixel-fx-pack-dash-land-impact	40 animated Pixel FX Pack - Dash, Land, Impact	game_tools	paid	tool		https://garebearproductionz.itch.io/40-animated-pixel-fx-pack-dash-land-impact
+39	shadow-pixel-character-pack-copies-any-sprite	Shadow Pixel Character Pack - copies any sprite	sprite_characters	paid	asset_pack		https://garebearproductionz.itch.io/shadow-pixel-character-pack-copies-any-sprite
+40	shadow-run-map-layers-live-smog-fx	Live Smog VFX & Shadow Run Map Layers	game_tools	paid	tool		https://garebearproductionz.itch.io/shadow-run-map-layers-live-smog-fx
+41	yurei-shadow-fighters-three-silhouette-characters	Yurei Shadow Fighters - Three Silhouette Characters	sprite_characters	paid	asset_pack		https://garebearproductionz.itch.io/yurei-shadow-fighters-three-silhouette-characters
+42	yurei-echo-shadow-character-pack	Yurei - Echo Shadow Character Pack	sprite_characters	paid	asset_pack		https://garebearproductionz.itch.io/yurei-echo-shadow-character-pack
+43	shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor	Shadow Fighters — Dragon Knight, Iron Sentinel, Xeno Grunt (+ Raptor)	game_tools	paid	tool		https://garebearproductionz.itch.io/shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor
+44	shadow-trooper-silhouette-free	Shadow Trooper Silhouette (FREE)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/shadow-trooper-silhouette-free
+45	victory-wraith-free	Victory Wraith (FREE)	wraith_lore	free	asset_pack		https://garebearproductionz.itch.io/victory-wraith-free
+46	divinity-the-imperilator-arms-and-the-seven-sins	DIVINITY — the Imperilator arms and the seven sins (FREE)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/divinity-the-imperilator-arms-and-the-seven-sins
+47	sugarfall-the-pink-party-pack-free	SUGARFALL — the pink party pack (FREE)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/sugarfall-the-pink-party-pack-free
+48	cash-cloud	Cash Cloud Sprite Pack (FREE)	sprite_characters	free	asset_pack		https://garebearproductionz.itch.io/cash-cloud
+49	mode-7	MODE-7 FLOORCAST ENGINE	games_engines	paid	game		https://garebearproductionz.itch.io/mode-7
+50	bundle	NECROMANCER'S TOOLKIT - EXPANDED RITUAL WORLD BUNDLE EDITION	game_tools	paid	bundle	formula_a1_5k	https://garebearproductionz.itch.io/bundle
+51	enchanted-sprite-vfx-engine	ENCHANTED SPRITE VFX ENGINE	sprite_characters	paid	asset_pack	formula_a1_5k	https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine
+52	holo-sprite-overlay-engine	HOLO SPRITE OVERLAY EXPORT ENGINE	sprite_characters	paid	asset_pack	formula_a1_5k	https://garebearproductionz.itch.io/holo-sprite-overlay-engine
+53	necrommancers-audio-toolkit	Necrommancers Sacred Geometry Audio ToolKit	audio_music	paid	asset_pack	formula_a1_5k	https://garebearproductionz.itch.io/necrommancers-audio-toolkit
+54	doom-style-ray-trace-engine-asset-pack	Doom Style Ray Cast Engine & Asset Pack	games_engines	paid	game	formula_a1_5k	https://garebearproductionz.itch.io/doom-style-ray-trace-engine-asset-pack
+55	d20-dice-color-3d-obj-pack	Transparent D20 Dice Color 3D OBJ Pack	weapons_props	paid	asset_pack	formula_a1_5k	https://garebearproductionz.itch.io/d20-dice-color-3d-obj-pack
+56	black-red-dice-svg-png-export-engine	Black & Red Dice SVG & PNG 2D-3D Export Engine	weapons_props	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine
+57	infina-dix-engine	The Infina Dix Engine (Ultimate Free Dice Pack)	weapons_props	free	asset_pack		https://garebearproductionz.itch.io/infina-dix-engine
+58	color-dynamic-sigils-svg-export-pack	12 Sigil Color Dynamic Icon SVG Export Pack & Hover FX Engine	icons_sigils	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/color-dynamic-sigils-svg-export-pack
+59	sphinx-activation-layered-live-map	Sphinx Pyramid Activation Layered Live Animated Map Backdrop	live_backdrops	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/sphinx-activation-layered-live-map
+60	10-svg-programmable-live-backdrop-pipelines	20+ SVG Programmable Live Backdrop Pipelines & Layers Vol 1	live_backdrops	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/10-svg-programmable-live-backdrop-pipelines
+61	aaaa-layered-mountain-dynamic-sky-live-backdrop-engine	AAAA Layered Mountain Dynamic Sky Live Backdrop Engine	live_backdrops	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/aaaa-layered-mountain-dynamic-sky-live-backdrop-engine
+62	aaaa-pixel-combat-timeline-engine	AAAA Pixel Combat Timeline Engine	game_tools	paid	tool	formula_a1_5k	https://garebearproductionz.itch.io/aaaa-pixel-combat-timeline-engine
+63	aaaa-sprite-fusion-metamorphosis-equation-spine-engine	AAAA Sprite Fusion, Metamorphosis & Equation Spine Engine	game_tools	paid	tool	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/aaaa-sprite-fusion-metamorphosis-equation-spine-engine
+64	sprite-color-effect-mutator-engine	AAAA Sprite Mutation & Continuity Engine & Exporter	game_tools	paid	tool	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/sprite-color-effect-mutator-engine
+65	celestial-event-moons	Celestial Event Moons + Dynamic Generator Engine	hero_generators	paid	asset_pack	formula_a1_5k	https://garebearproductionz.itch.io/celestial-event-moons
+66	multi-layered-epic-free-svg-backdrop-static-scene	Multi Layered Epic Free SVG Backdrop Static Scene (Free)	free_samples	free	game		https://garebearproductionz.itch.io/multi-layered-epic-free-svg-backdrop-static-scene
+67	evil-eye-four-pack	Evil Eye Four Pack & Live SVG Animations	icons_sigils	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/evil-eye-four-pack
+68	alien-invasion-live-animated-backdrop-layers	ALIEN INVASION!!! 2D UFO Live Pixel Animated Backdrop & Layers	live_backdrops	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/alien-invasion-live-animated-backdrop-layers
+69	wraith-necropolis-gate-backdrop	Wraith Necropolis Gate Backdrop & Layers FREE	free_samples	free	asset_pack		https://garebearproductionz.itch.io/wraith-necropolis-gate-backdrop
+70	vfx-test-room-elemental-frequency-arena-engine	VFX Test Rooms & Elemental Frequency Arena Engines (FREE 2D-3D)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/vfx-test-room-elemental-frequency-arena-engine
+71	the-cathedral-of-madness-concept-pixel-art	The Cathedral of Madness - Concept Pixel Art	wraith_lore	paid	asset_pack		https://garebearproductionz.itch.io/the-cathedral-of-madness-concept-pixel-art
+72	pride-crown-concept-art	Pride Crown Concept Sprite Art (Free)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/pride-crown-concept-art
+73	scarlette-witchs-darkhold-sprite-free	Scarlet Witch DarkHold Sprite (FREE)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/scarlette-witchs-darkhold-sprite-free
+74	hells-jukebox-nekranomicon-author-cthulu	Hell's Jukebox Demo & NEKRANOMICON - Author: Cthulu	wraith_lore	paid	asset_pack		https://garebearproductionz.itch.io/hells-jukebox-nekranomicon-author-cthulu
+75	the-widowmaker-live-vanta-black-svg-3-phase-boss	The WidowMaker: Live HD Vanta Black SVG 3 Phase Boss + GIF Exporter (Free)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/the-widowmaker-live-vanta-black-svg-3-phase-boss
+76	cool-pixel-portraits	Free Pixel SVG Portrait Asset Builder Kit (Generator & Pack)	free_samples	free	game		https://garebearproductionz.itch.io/cool-pixel-portraits
+77	megabot-rigging-concept-free	Pixel MegaBot Rigging Concept + SVG (Free)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/megabot-rigging-concept-free
+78	2d-chibi-pixel-elemental-rigging-concept	2D Chibi-Pixel Elemental Rigging Concept (FREE)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/2d-chibi-pixel-elemental-rigging-concept
+79	hd-cinematic-audio-sfx-pack-free	HD Cinematic Audio SFX Pack (FREE)	audio_music	free	asset_pack		https://garebearproductionz.itch.io/hd-cinematic-audio-sfx-pack-free
+80	professional-grade-studio-violin-audio-synth-formula	Professional Grade Studio Violin Audio Synth Formula	audio_music	paid	asset_pack		https://garebearproductionz.itch.io/professional-grade-studio-violin-audio-synth-formula
+81	ultimate-free-hd-laser-pack	HD Pixel Laser Beam Pulse Glow FX Pack & Audio SFX (FREE)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/ultimate-free-hd-laser-pack
+82	pixel-velocity-weight-physics-quake-hammer	Pixel Elemental Velocity Weight Physics 2.5D Quake Hammer (FREE Thor Engine)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/pixel-velocity-weight-physics-quake-hammer
+83	blood-bound-scythe-svg-free	Blood Bound by Pixel Scythe & SVG (FREE)	weapons_props	free	asset_pack		https://garebearproductionz.itch.io/blood-bound-scythe-svg-free
+84	gw3-style-2d-projected-3d-grid-world-engine	GW3 Style 2D Projected 3D Grid World Synth Engine (Free)	games_engines	free	game		https://garebearproductionz.itch.io/gw3-style-2d-projected-3d-grid-world-engine
+85	freeeq8-most-advanced-free-eq-opensource	FreeEQ8 (Most Advanced EQ OpenSource)	audio_music	free	asset_pack		https://garebearproductionz.itch.io/freeeq8-most-advanced-free-eq-opensource
+86	any-image-to-pixel-svg-converter	Any Image to Pixel SVG Converter (Only 1 FREE)	game_tools	free	tool		https://garebearproductionz.itch.io/any-image-to-pixel-svg-converter
+87	infernal-hell-icons-free-basic-fx	SVG Hell Fiery Icon Pipelines + Basic Live FX	icons_sigils	paid	asset_pack	live_svg_fx	https://garebearproductionz.itch.io/infernal-hell-icons-free-basic-fx
+88	svg-icon-starter-kit-pipeline	Live SVG Icon Starter Kit Pipeline + 4 Live Hell FX Icons	icons_sigils	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/svg-icon-starter-kit-pipeline
+89	holy-svg-png-icon-set	Holy Live FX SVG & PNG Icon 8-Set Pipeline Kit	icons_sigils	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/holy-svg-png-icon-set
+90	spectral-icon-svg-pipeline-kit	Spectral Icon SVG Pipeline Kit	icons_sigils	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/spectral-icon-svg-pipeline-kit
+91	thor-mjolnir-svg-physics-engine	Thor Mjölnir 4 Set + SVG Physics Velocity Engine + Bonus Quake Hammer Set	weapons_props	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/thor-mjolnir-svg-physics-engine
+92	blood-bone-scythe	Pixel Blood & Bone Demon Scythe + SVG (FREE)	weapons_props	free	asset_pack		https://garebearproductionz.itch.io/blood-bone-scythe
+93	free-pixel-paladin-hammer-chibi	(FREE) Pixel Paladin Hammer + Chibi	weapons_props	free	asset_pack		https://garebearproductionz.itch.io/free-pixel-paladin-hammer-chibi
+94	professional-occult-covenant-icon-kit	Professional Occult Covenant Icon Kit & FX Formula	icons_sigils	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/professional-occult-covenant-icon-kit
+95	indie-dynamic-merchant-cart	AAAA Indie Dynamic Merchant Cart	hero_generators	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/indie-dynamic-merchant-cart
+96	pixel-abyssal-teleporter	Pixel Abyssal Teleportation Device	weapons_props	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/pixel-abyssal-teleporter
+97	static-atmos	Static Atmos - PDF Demo 'Wraith Eternal' Comic	wraith_lore	paid	asset_pack		https://garebearproductionz.itch.io/static-atmos
+98	demon-sprite-sheet-generator	AA Indie Demon Sprite Sheet Generator Formula V1	sprite_characters	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/demon-sprite-sheet-generator
+99	fireball-generator-formula	FireBall Generator & Formula/Sprite Exporter	hero_generators	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/fireball-generator-formula
+100	pyromancy-chibi-pack	Pyro-Maniac Chibi Sprite Pack (FREE)	sprite_characters	free	asset_pack		https://garebearproductionz.itch.io/pyromancy-chibi-pack
+101	infernal-archetypes	Infernal Archetype Sprites (FREE)	sprite_characters	free	asset_pack		https://garebearproductionz.itch.io/infernal-archetypes
+102	free-haunter-sprites	FREE Haunter Sprites	sprite_characters	free	asset_pack		https://garebearproductionz.itch.io/free-haunter-sprites
+103	action-command-charge-formula	Action Command Charge Formula	game_tools	paid	tool	formula_a1_5k	https://garebearproductionz.itch.io/action-command-charge-formula
+104	reward-pocket-generator-formula	Reward Pocket Generator Formula	game_tools	paid	tool	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/reward-pocket-generator-formula
+105	neolution-grid-engine	Neolution & Grid Engine (Controller Support)	games_engines	paid	game	formula_a1_5k	https://garebearproductionz.itch.io/neolution-grid-engine
+106	skully-asset-pack-lightweight-canvas-engine-demo	Skully Asset Pack & Lightweight Canvas Engine Demo	games_engines	paid	game		https://garebearproductionz.itch.io/skully-asset-pack-lightweight-canvas-engine-demo
+107	gravity-projectile-generator-formula	2D-2.5D Gravity Projectile Generator/Formula	game_tools	paid	tool		https://garebearproductionz.itch.io/gravity-projectile-generator-formula
+108	2d-sunset-generation-formula	2D Sunset Generator & Formula + Sprites (FREE)	free_samples	free	asset_pack		https://garebearproductionz.itch.io/2d-sunset-generation-formula
+109	live-pentagram-formula-2d-3d	Live Pentagram Formula 2D-2.5D	game_tools	paid	tool	formula_a1_5k	https://garebearproductionz.itch.io/live-pentagram-formula-2d-3d
+110	npc-theme-of-sacrifice	NPC Theme of Sacrifice	audio_music	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/npc-theme-of-sacrifice
+111	summoners-delights	Summoner's Delight	sprite_characters	paid	asset_pack	formula_a1_5k,live_svg_fx	https://garebearproductionz.itch.io/summoners-delights
