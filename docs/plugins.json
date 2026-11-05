@@ -16,27 +16,27 @@
     {
       "id": "flagship",
       "name": "Flagship",
-      "icon": "\ud83e\udd47"
+      "icon": "🥇"
     },
     {
       "id": "instruments",
       "name": "Instruments",
-      "icon": "\ud83c\udfb9"
+      "icon": "🎹"
     },
     {
       "id": "maid_suite",
       "name": "Maid Suite",
-      "icon": "\ud83e\uddf9"
+      "icon": "🧹"
     },
     {
       "id": "sound_design",
       "name": "Sound Design",
-      "icon": "\ud83d\udd0a"
+      "icon": "🔊"
     },
     {
       "id": "experimental",
       "name": "Experimental",
-      "icon": "\ud83e\uddea"
+      "icon": "🧪"
     }
   ],
   "plugins": [
@@ -55,6 +55,19 @@
       "status": "production"
     },
     {
+      "id": "proeq8",
+      "name": "ProEQ8",
+      "description": "Commercial 24-band parametric EQ - the pro companion to FreeEQ8, same lock-free architecture with 24 bands. Checkout coming soon.",
+      "category": "flagship",
+      "repo": "FreeEQ8",
+      "license": "Commercial",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "status": "beta"
+    },
+    {
       "id": "freevox8",
       "name": "FreeVox8",
       "description": "Spectral vocoder, ghost-resynthesis, and dynamic masking plugin. Frequency-domain audio manipulation for creative sound design.",
@@ -70,7 +83,7 @@
     {
       "id": "instrudio",
       "name": "Instrudio",
-      "description": "10 fully playable instruments \u2014 cross-platform instrument ecosystem with hybrid HTML/plugin architecture.",
+      "description": "10 fully playable instruments — cross-platform instrument ecosystem with hybrid HTML/plugin architecture.",
       "category": "instruments",
       "repo": "Instrudio",
       "license": "FREE",
@@ -110,7 +123,7 @@
     {
       "id": "spacemaid",
       "name": "SpaceMaid",
-      "description": "Spatial audio processing \u2014 depth, width, and reverb tools.",
+      "description": "Spatial audio processing — depth, width, and reverb tools.",
       "category": "maid_suite",
       "repo": "SpaceMaid",
       "license": "FREE",
@@ -123,7 +136,7 @@
     {
       "id": "gluemaid",
       "name": "GlueMaid",
-      "description": "Mix bus glue and cohesion tool \u2014 compression and tonal shaping.",
+      "description": "Mix bus glue and cohesion tool — compression and tonal shaping.",
       "category": "maid_suite",
       "repo": "GlueMaid",
       "license": "FREE",
@@ -136,7 +149,7 @@
     {
       "id": "mixmaid",
       "name": "MixMaid",
-      "description": "Real-time spectral balance and mix correction \u2014 gently guides mixes toward balanced tonal distribution, proper headroom, and controlled dynamics.",
+      "description": "Real-time spectral balance and mix correction — gently guides mixes toward balanced tonal distribution, proper headroom, and controlled dynamics.",
       "category": "maid_suite",
       "repo": "MixMaid",
       "license": "FREE",
@@ -149,7 +162,7 @@
     {
       "id": "chainmaid",
       "name": "ChainMaid",
-      "description": "Sidechain plugin \u2014 clean sidechain ducking and pumping effects for EDM, trap, and mix engineering.",
+      "description": "Sidechain plugin — clean sidechain ducking and pumping effects for EDM, trap, and mix engineering.",
       "category": "maid_suite",
       "repo": "ChainMaid",
       "license": "FREE",
@@ -162,7 +175,7 @@
     {
       "id": "multimaid",
       "name": "MultiMaid",
-      "description": "Focused multiband dynamics plugin for the Maid suite \u2014 deliberately non-overlapping with FreeEQ8, GlueMaid, MixMaid, BassMaid, SpaceMaid, ChainMaid, and MeterMaid.",
+      "description": "Focused multiband dynamics plugin for the Maid suite — deliberately non-overlapping with FreeEQ8, GlueMaid, MixMaid, BassMaid, SpaceMaid, ChainMaid, and MeterMaid.",
       "category": "maid_suite",
       "repo": "MultiMaid",
       "license": "FREE",
@@ -179,7 +192,7 @@
     {
       "id": "metermaid",
       "name": "MeterMaid",
-      "description": "Single-plugin mastering + metering suite: BS.1770-4 K-weighted loudness, EBU R128 gated integration, 4\u00d7 oversampled true peak, spectrogram, chromagram, goniometer, and an octagonal target radar.",
+      "description": "Single-plugin mastering + metering suite: BS.1770-4 K-weighted loudness, EBU R128 gated integration, 4× oversampled true peak, spectrogram, chromagram, goniometer, and an octagonal target radar.",
       "category": "maid_suite",
       "repo": "MeterMaid",
       "license": "FREE",
@@ -196,7 +209,7 @@
     {
       "id": "paintmask",
       "name": "PaintMask",
-      "description": "Visual paint-based audio processing \u2014 shape sound with brush strokes, splashes, and geometry that become MIDI patterns.",
+      "description": "Visual paint-based audio processing — shape sound with brush strokes, splashes, and geometry that become MIDI patterns.",
       "category": "experimental",
       "repo": "PaintMask_Free-JUCE-Plugin",
       "license": "FREE",
@@ -209,7 +222,7 @@
     {
       "id": "wurp",
       "name": "WURP",
-      "description": "Toxic Motion Engine \u2014 mutates audio with formant motion, corrosive saturation, elastic pitch, and reactive animated UI.",
+      "description": "Toxic Motion Engine — mutates audio with formant motion, corrosive saturation, elastic pitch, and reactive animated UI.",
       "category": "experimental",
       "repo": "WURP_Toxic-Motion-Engine_JUCE",
       "license": "FREE",
@@ -222,7 +235,7 @@
     {
       "id": "aether",
       "name": "AETHER",
-      "description": "Choir & atmosphere designer for cinematic sound design \u2014 procedural choirs, pads, and evolving textures.",
+      "description": "Choir & atmosphere designer for cinematic sound design — procedural choirs, pads, and evolving textures.",
       "category": "experimental",
       "repo": "AETHER_Choir-Atmosphere-Designer",
       "license": "FREE",
@@ -261,7 +274,7 @@
     {
       "id": "riftwavesuite",
       "name": "RiftWave Suite",
-      "description": "Modular synth engine + waveform synthesis \u2014 RiftSynth + WaveForm in Lite and Pro editions.",
+      "description": "Modular synth engine + waveform synthesis — RiftSynth + WaveForm in Lite and Pro editions.",
       "category": "sound_design",
       "repo": "RiftWaveSuite_RiftSynth_WaveForm_Lite",
       "license": "FREE",
@@ -270,7 +283,7 @@
         "AU"
       ],
       "demoUrl": "https://garebear99.github.io/RiftAscent/",
-      "demoLabel": "\u25b6\ufe0f Play RiftAscent",
+      "demoLabel": "▶️ Play RiftAscent",
       "status": "beta"
     },
     {
@@ -289,7 +302,7 @@
     {
       "id": "vf_plexlab",
       "name": "VF-PlexLab",
-      "description": "VocalForge PersonaPlex Lab \u2014 JUCE plugin + local backend + HTML tester around NVIDIA PersonaPlex for voice-conditioned vocal asset generation, spoken hooks, whispers, chants, and sample-pack export.",
+      "description": "VocalForge PersonaPlex Lab — JUCE plugin + local backend + HTML tester around NVIDIA PersonaPlex for voice-conditioned vocal asset generation, spoken hooks, whispers, chants, and sample-pack export.",
       "category": "experimental",
       "repo": "VF-PlexLab",
       "license": "FREE",

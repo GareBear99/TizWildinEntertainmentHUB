@@ -6,7 +6,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 
 ## Summary
 
-- Total indexed records: **202**
+- Total indexed records: **203**
 - Total clusters: **11**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -245,6 +245,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [MultiMaid](pages/multimaid.html) | Audio Plugin / Producer Tool | https://github.com/GareBear99/MultiMaid | VST3, AU, Standalone, maid_suite, audio-plugin, music-production |
 | [PaintMask](pages/paintmask.html) | Audio Plugin / Producer Tool | https://github.com/GareBear99/PaintMask_Free-JUCE-Plugin | VST3, AU, experimental, audio-plugin, music-production |
 | [PAP-Forge-Audio](pages/pap-forge-audio.html) | Audio Plugin / Producer Tool | https://github.com/GareBear99/PAP-Forge-Audio | VST3, AU, experimental, audio-plugin, music-production |
+| [ProEQ8](pages/proeq8.html) | Audio Plugin / Producer Tool | https://github.com/GareBear99/FreeEQ8 | VST3, AU, flagship, audio-plugin, music-production |
 | [RiftWave Suite](pages/riftwave-suite.html) | Audio Plugin / Producer Tool | https://github.com/GareBear99/RiftWaveSuite_RiftSynth_WaveForm_Lite | VST3, AU, sound_design, audio-plugin, music-production |
 | [SpaceMaid](pages/spacemaid.html) | Audio Plugin / Producer Tool | https://github.com/GareBear99/SpaceMaid | VST3, AU, maid_suite, audio-plugin, music-production |
 | [VF-PlexLab](pages/vf-plexlab.html) | Audio Plugin / Producer Tool | https://github.com/GareBear99/VF-PlexLab | VST3, AU, experimental, audio-plugin, music-production |

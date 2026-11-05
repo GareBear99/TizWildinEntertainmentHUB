@@ -5,7 +5,7 @@
   "description": "Static crawler-friendly index of TizWildin audio, producer, public list, credibility, and ARC source-spine routes.",
   "owner": "GareBear99",
   "baseUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB",
-  "itemCount": 202,
+  "itemCount": 203,
   "items": [
     {
       "cluster": "AI and Automation Tools",
@@ -5880,6 +5880,37 @@
       "canonicalUrl": "https://github.com/GareBear99/PAP-Forge-Audio",
       "repoUrl": "https://github.com/GareBear99/PAP-Forge-Audio",
       "docsUrl": "https://github.com/GareBear99/PAP-Forge-Audio#readme"
+    },
+    {
+      "cluster": "TizWildin Audio Plugins",
+      "kind": "Audio Plugin / Producer Tool",
+      "name": "ProEQ8",
+      "description": "Commercial 24-band parametric EQ - the pro companion to FreeEQ8, same lock-free architecture with 24 bands. Checkout coming soon.",
+      "repo": "FreeEQ8",
+      "url": "",
+      "docs": "",
+      "status": "beta",
+      "tags": [
+        "VST3",
+        "AU",
+        "flagship",
+        "audio-plugin",
+        "music-production"
+      ],
+      "priority": 30,
+      "license": "Commercial",
+      "language": "Mixed",
+      "source_manifest": "plugins.json",
+      "page_slug": "",
+      "render_page": true,
+      "cover": "",
+      "animated": "",
+      "id": "proeq8",
+      "page": "pages/proeq8.html",
+      "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/proeq8.html",
+      "canonicalUrl": "https://github.com/GareBear99/FreeEQ8",
+      "repoUrl": "https://github.com/GareBear99/FreeEQ8",
+      "docsUrl": "https://github.com/GareBear99/FreeEQ8#readme"
     },
     {
       "cluster": "TizWildin Audio Plugins",

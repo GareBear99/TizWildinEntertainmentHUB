@@ -1123,6 +1123,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: https://github.com/GareBear99/PAP-Forge-Audio
   Tags: VST3, AU, experimental, audio-plugin, music-production
 
+- ProEQ8: Commercial 24-band parametric EQ - the pro companion to FreeEQ8, same lock-free architecture with 24 bands. Checkout coming soon.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/proeq8.html
+  Public URL: https://github.com/GareBear99/FreeEQ8
+  GitHub: https://github.com/GareBear99/FreeEQ8
+  Tags: VST3, AU, flagship, audio-plugin, music-production
+
 - RiftWave Suite: Modular synth engine + waveform synthesis — RiftSynth + WaveForm in Lite and Pro editions.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/riftwave-suite.html
   Public URL: https://github.com/GareBear99/RiftWaveSuite_RiftSynth_WaveForm_Lite

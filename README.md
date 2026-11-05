@@ -1,6 +1,6 @@
 > 🎛️ Part of the [TizWildin Plugin Ecosystem](https://garebear99.github.io/TizWildinEntertainmentHUB/) — 20+ free audio plugins with a live update dashboard.
 >
-> [FreeEQ8](https://github.com/GareBear99/FreeEQ8) · [FreeVox8](https://github.com/GareBear99/FreeVox8) · [XyloCore](https://github.com/GareBear99/XyloCore) · [Instrudio](https://github.com/GareBear99/Instrudio) · [Therum](https://github.com/GareBear99/Therum_JUCE-Plugin) · [BassMaid](https://github.com/GareBear99/BassMaid) · [SpaceMaid](https://github.com/GareBear99/SpaceMaid) · [GlueMaid](https://github.com/GareBear99/GlueMaid) · [MixMaid](https://github.com/GareBear99/MixMaid) · [MultiMaid](https://github.com/GareBear99/MultiMaid) · [MeterMaid](https://github.com/GareBear99/MeterMaid) · [ChainMaid](https://github.com/GareBear99/ChainMaid) · [PaintMask](https://github.com/GareBear99/PaintMask_Free-JUCE-Plugin) · [WURP](https://github.com/GareBear99/WURP_Toxic-Motion-Engine_JUCE) · [AETHER](https://github.com/GareBear99/AETHER_Choir-Atmosphere-Designer) · [WhisperGate](https://github.com/GareBear99/WhisperGate_Free-JUCE-Plugin) · [RiftWave](https://github.com/GareBear99/RiftWaveSuite_RiftSynth_WaveForm_Lite) · [FreeSampler](https://github.com/GareBear99/FreeSampler_v0.3) · [VF-PlexLab](https://github.com/GareBear99/VF-PlexLab) · [PAP-Forge-Audio](https://github.com/GareBear99/PAP-Forge-Audio)
+> [FreeEQ8](https://github.com/GareBear99/FreeEQ8) · [ProEQ8](https://github.com/GareBear99/FreeEQ8) · [FreeVox8](https://github.com/GareBear99/FreeVox8) · [XyloCore](https://github.com/GareBear99/XyloCore) · [Instrudio](https://github.com/GareBear99/Instrudio) · [Therum](https://github.com/GareBear99/Therum_JUCE-Plugin) · [BassMaid](https://github.com/GareBear99/BassMaid) · [SpaceMaid](https://github.com/GareBear99/SpaceMaid) · [GlueMaid](https://github.com/GareBear99/GlueMaid) · [MixMaid](https://github.com/GareBear99/MixMaid) · [MultiMaid](https://github.com/GareBear99/MultiMaid) · [MeterMaid](https://github.com/GareBear99/MeterMaid) · [ChainMaid](https://github.com/GareBear99/ChainMaid) · [PaintMask](https://github.com/GareBear99/PaintMask_Free-JUCE-Plugin) · [WURP](https://github.com/GareBear99/WURP_Toxic-Motion-Engine_JUCE) · [AETHER](https://github.com/GareBear99/AETHER_Choir-Atmosphere-Designer) · [WhisperGate](https://github.com/GareBear99/WhisperGate_Free-JUCE-Plugin) · [RiftWave](https://github.com/GareBear99/RiftWaveSuite_RiftSynth_WaveForm_Lite) · [FreeSampler](https://github.com/GareBear99/FreeSampler_v0.3) · [VF-PlexLab](https://github.com/GareBear99/VF-PlexLab) · [PAP-Forge-Audio](https://github.com/GareBear99/PAP-Forge-Audio)
 >
 > 🎧 **SoundCloud:** [TizWildin on SoundCloud](https://soundcloud.com/tizwildin) — original music, remixes, VIP mixes, experimental drops, and underground releases.
 >
@@ -50,7 +50,7 @@ The default `.io` public dashboard (`docs/index.html`) includes a **📚 Lists**
 
 <div align="center">
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=6C7BBD&center=true&vCenter=true&width=840&lines=20+Free+Plugin+Versions+%2B+The+HUB;Updater+%7C+Version+Controller+%7C+Downloader;Every+plugin+has+a+free+version+on+the+HUB;Payments+and+upgrades+live+inside+each+product" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=6C7BBD&center=true&vCenter=true&width=840&lines=21+Plugin+Versions+%2B+The+HUB;Updater+%7C+Version+Controller+%7C+Downloader;Every+plugin+has+a+free+version+on+the+HUB;Payments+and+upgrades+live+inside+each+product" alt="Typing SVG" /></a>
 
 <br>
 
@@ -121,6 +121,7 @@ The HUB is its own **TizWildinEntertainment product** — a **VST3/AU plugin + S
 | Plugin | Description | Status |
 |--------|-------------|--------|
 | [**FreeEQ8**](https://github.com/GareBear99/FreeEQ8) | 8-band parametric EQ — dynamic EQ, linear phase, match EQ, M/S, spectrum analyzer | ✅ Production |
+| [**ProEQ8**](https://github.com/GareBear99/FreeEQ8) | Commercial 24-band parametric EQ — the pro companion to FreeEQ8. Checkout coming soon. | ⚠️ Beta |
 | [**FreeVox8**](https://github.com/GareBear99/FreeVox8) | Spectral vocoder, ghost-resynthesis, and dynamic masking plugin | ⚠️ Beta |
 | [**Therum**](https://github.com/GareBear99/Therum_JUCE-Plugin) | Free wavetable synthesizer — in development | 🚧 Dev |
 

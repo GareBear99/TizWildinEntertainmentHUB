@@ -6,6 +6,7 @@
       "displayName": "Flagship",
       "products": [
         "freeeq8",
+        "proeq8",
         "freevox8",
         "therum"
       ]
@@ -72,6 +73,25 @@
         "Standalone"
       ],
       "developmentStage": "production"
+    },
+    {
+      "productId": "proeq8",
+      "displayName": "ProEQ8",
+      "groupId": "flagship",
+      "edition": "pro",
+      "licenseClass": "COMMERCIAL",
+      "status": "source_ready",
+      "includedInOwnsEveryVST": false,
+      "priceModel": "paid",
+      "freeVersionAvailable": true,
+      "paymentSurface": "in_product",
+      "distributionMode": "release_or_source",
+      "repo": "FreeEQ8",
+      "formats": [
+        "VST3",
+        "AU"
+      ],
+      "developmentStage": "beta"
     },
     {
       "productId": "freevox8",

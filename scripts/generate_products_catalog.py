@@ -32,15 +32,26 @@ def main() -> None:
 
     products = []
     for p in plugins["plugins"]:
+        # The catalog's commerce fields derive from the plugin's license.
+        # All plugins were FREE until ProEQ8, so a commercial license must
+        # map to paid/pro — never silently inherit the free defaults.
+        if p.get("license") == "Commercial":
+            edition = "pro"
+            license_class = "COMMERCIAL"
+            price_model = "paid"
+        else:
+            edition = "free"
+            license_class = "FREE_OPEN"
+            price_model = "free"
         products.append({
             "productId": p["id"],
             "displayName": p["name"],
             "groupId": p["category"],
-            "edition": "free",
-            "licenseClass": "FREE_OPEN",
+            "edition": edition,
+            "licenseClass": license_class,
             "status": "source_ready",
             "includedInOwnsEveryVST": False,
-            "priceModel": "free",
+            "priceModel": price_model,
             "freeVersionAvailable": True,
             "paymentSurface": "in_product",
             "distributionMode": "release_or_source",

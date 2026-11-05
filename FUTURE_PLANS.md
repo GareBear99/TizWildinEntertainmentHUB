@@ -2,7 +2,7 @@
 
 ## Purpose
 
-With the v2.3 ecosystem stabilized and the 20-plugin suite positioned for public release, the TizWildin ecosystem is no longer just a collection of tools. It is a reusable architecture, public software brand, creator-resource network, and long-term intellectual property stack.
+With the v2.3 ecosystem stabilized and the 21-plugin suite positioned for public release, the TizWildin ecosystem is no longer just a collection of tools. It is a reusable architecture, public software brand, creator-resource network, and long-term intellectual property stack.
 
 The goal moving forward is to convert the ecosystem into a sustainable revenue engine without weakening the free/open-source discovery layer that makes the brand visible.
 
@@ -10,7 +10,7 @@ The goal moving forward is to convert the ecosystem into a sustainable revenue e
 
 TizWildin / GareBear99 now has several compounding assets:
 
-- A public-facing audio plugin ecosystem centered around FreeEQ8 and the 20-plugin suite.
+- A public-facing audio plugin ecosystem centered around FreeEQ8 and the 21-plugin suite.
 - A creator HUB for plugins, sample packs, producer tools, release routing, and public links.
 - A source-spine/indexing system designed to make repos, links, release pages, and ecosystem routes discoverable.
 - ARC-related infrastructure for deterministic AI, local orchestration, receipts, and future automation.
