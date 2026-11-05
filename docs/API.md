@@ -189,6 +189,8 @@ Master Key allows 1-3 seats per subscription at $3 CAD/seat/month.
 { "primaryEmail": "owner@example.com" }
 ```
 
+> **Security follow-up (open):** `/hub/master-key/link`, `/hub/master-key/unlink`, and `/hub/master-key/reset` currently accept only the owner's email — there is no ownership proof, so anyone who knows a Master Key owner's email can link/unlink/reset seats (link even returns the generated seat license key). The account-read endpoints (`/hub/products`, `/hub/account`, `/hub/master-key/status`) were fixed to require a session token or license key; these three were not, because fixing them needs a design decision (how the page proves Master Key ownership on link/unlink) plus a worker change. Do not rely on these endpoints being restricted until that lands.
+
 ---
 
 ## HUB Account

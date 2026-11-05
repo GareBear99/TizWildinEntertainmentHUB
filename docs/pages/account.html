@@ -259,6 +259,58 @@ function showSignedIn() {
   loadAccountData();
 }
 
+// ── Session token for account reads ──
+// The license server requires proof of ownership (a session token or a
+// license key) on /hub/products, /hub/account and /hub/master-key/status:
+// without proof they return 401. The token is issued at sign-in
+// (/hub/signin, /auth/google/signin, /auth/soundcloud/callback) and kept
+// on currentUser. Google sign-in fetches its token asynchronously, so it
+// may not have arrived when loadAccountData runs, and a restored session
+// may predate tokens entirely — so make sure we have one first, by
+// asking /hub/signin for a fresh session token for this email. Sending
+// the token is harmless against the old worker (it ignores the extra
+// param) and required by the fixed worker.
+async function ensureSessionToken() {
+  if (currentUser?.token) return currentUser.token;
+  if (!currentUser?.email) return null;
+  try {
+    const resp = await fetch(API + '/hub/signin', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ email: currentUser.email, name: currentUser.name || '', provider: currentUser.provider || '', picture: currentUser.picture || '' })
+    });
+    const data = await resp.json();
+    if (data.token) {
+      currentUser.token = data.token;
+      if (data.accountId) currentUser.accountId = data.accountId;
+      localStorage.setItem('tiz_session', JSON.stringify(currentUser));
+      return data.token;
+    }
+  } catch(e) { /* fall through — the reads below try without a token */ }
+  return null;
+}
+
+// Fetch an account-read endpoint, sending the session token when we have
+// one (?token=, the same form checkFollowStatus already uses). Returns the
+// Response so callers can check for 401 (expired/invalid session).
+function accountFetch(path) {
+  const url = API + path + '?email=' + encodeURIComponent(currentUser.email)
+    + (currentUser.token ? '&token=' + encodeURIComponent(currentUser.token) : '');
+  return fetch(url);
+}
+
+// The stored session token is missing or no longer valid (the server
+// rotated its signing secret, or the token predates the proof
+// requirement). Clear it so the next sign-in gets a fresh one, and tell
+// the user to sign in again instead of showing an empty account.
+function showSessionExpired() {
+  if (currentUser) { delete currentUser.token; localStorage.setItem('tiz_session', JSON.stringify(currentUser)); }
+  const msg = 'Your session has expired. Please sign out and sign in again.';
+  document.getElementById('licenseStatus').textContent = msg;
+  document.getElementById('masterKeyStatus').innerHTML = '<p>' + msg + '</p>';
+  document.getElementById('catalogContainer').innerHTML = '<p>' + msg + '</p>';
+}
+
 async function loadAccountData() {
   if (!currentUser?.email) {
     document.getElementById('licenseStatus').textContent = 'Sign in with an email to view licenses.';
@@ -266,13 +318,16 @@ async function loadAccountData() {
     document.getElementById('catalogContainer').innerHTML = '<p>Sign in to see products.</p>';
     return;
   }
+  // Get a session token before any account read (see ensureSessionToken).
+  await ensureSessionToken();
   try {
     // Fetch owned products (new unified endpoint)
-    const productsResp = await fetch(API + '/hub/products?email=' + encodeURIComponent(currentUser.email));
-    const productsData = await productsResp.json();
-    
+    const productsResp = await accountFetch('/hub/products');
+
     // Also get legacy ProEQ8 device info
-    const resp = await fetch(API + '/hub/account?email=' + encodeURIComponent(currentUser.email));
+    const resp = await accountFetch('/hub/account');
+    if (productsResp.status === 401 || resp.status === 401) { showSessionExpired(); return; }
+    const productsData = await productsResp.json();
     const data = await resp.json();
     
     // Licenses section (ProEQ8 with device tracking)
@@ -347,7 +402,7 @@ async function loadAccountData() {
     // Master Key status
     const mkStatus = document.getElementById('masterKeyStatus');
     const mkActions = document.getElementById('masterKeyActions');
-    const mkResp = await fetch(API + '/hub/master-key/status?email=' + encodeURIComponent(currentUser.email));
+    const mkResp = await accountFetch('/hub/master-key/status');
     const mkData = await mkResp.json();
     if (mkData.hasMasterKey && mkData.status === 'active') {
       mkStatus.innerHTML = '<div class="mk-badge mk-active">✅ Master Key Active — Device unlinking enabled</div>';
