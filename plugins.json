@@ -248,7 +248,7 @@
     {
       "id": "therum",
       "name": "Therum",
-      "description": "Bootleg Serum \u2014 free wavetable synthesizer with visual waveform editing and modulation.",
+      "description": "Free wavetable synthesizer with visual waveform editing and modulation — in development.",
       "category": "flagship",
       "repo": "Therum_JUCE-Plugin",
       "license": "FREE",
@@ -256,7 +256,7 @@
         "VST3",
         "AU"
       ],
-      "status": "production"
+      "status": "dev"
     },
     {
       "id": "riftwavesuite",

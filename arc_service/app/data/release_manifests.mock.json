@@ -2,100 +2,181 @@
   "freeeq8": {
     "productId": "freeeq8",
     "channel": "stable",
-    "latestVersion": "1.0.0",
+    "latestVersion": "1.0.0-demo",
     "artifactMode": "source",
-    "artifactUrl": "https://github.com/GareBear99/FreeEQ8",
-    "sha256": "749090caf2951ac87edc62b419680f7d6015c8840f122f6a4cfca5d96b94e80e",
-    "signature": "arc-demo-signed-local",
-    "notes": "Open repo build available.",
-    "artifactPath": "/mnt/data/TizWildinEntertainmentHUB_v1_3/artifacts/staged/freeeq8-1.0.0.zip"
+    "artifactUrl": "https://github.com/GareBear99/freeeq8",
+    "sha256": "71ec34e1e2b4fe78beaa7af6304b704ddbe34dd8c78471a6839260d20dcccbc4",
+    "signature": "arc-demo-generated"
   },
-  "therum": {
-    "productId": "therum",
+  "freevox8": {
+    "productId": "freevox8",
     "channel": "stable",
-    "latestVersion": "1.0.0",
+    "latestVersion": "1.0.0-demo",
     "artifactMode": "source",
-    "artifactUrl": "https://github.com/GareBear99/Therum",
-    "sha256": "60ecf0754dc61f5be1d9054292ca7873ff4e4228419ef35dd974816dc2260d41",
-    "signature": "arc-demo-signed-local",
-    "notes": "Flagship synth scaffold.",
-    "artifactPath": "/mnt/data/TizWildinEntertainmentHUB_v1_3/artifacts/staged/therum-1.0.0.zip"
+    "artifactUrl": "https://github.com/GareBear99/freevox8",
+    "sha256": "dfe703bbb47f543a85cc95116bd296426a0d8c2192bb2953faa06308af0eeb65",
+    "signature": "arc-demo-generated"
   },
-  "wurp": {
-    "productId": "wurp",
-    "channel": "beta",
-    "latestVersion": "0.8.5",
-    "artifactMode": "source",
-    "artifactUrl": "https://github.com/GareBear99/WURP",
-    "sha256": "bbe682be6ba52baa43db0bde4734bda50e4dd90d632b8d3aa688d530e75aef77",
-    "signature": "arc-demo-signed-local",
-    "notes": "Beta channel track for Toxicron branch.",
-    "artifactPath": "/mnt/data/TizWildinEntertainmentHUB_v1_3/artifacts/staged/wurp-0.8.5.zip"
-  },
-  "aether": {
-    "productId": "aether",
+  "instrudio": {
+    "productId": "instrudio",
     "channel": "stable",
-    "latestVersion": "0.8.2",
+    "latestVersion": "1.0.0-demo",
     "artifactMode": "source",
-    "artifactUrl": "https://github.com/GareBear99/AETHER",
-    "sha256": "1970e4bbe24e7b6004fbdecedcacb39927d8ed8c424c40c2ce171fd99d7365ad",
-    "signature": "arc-demo-signed-local",
-    "notes": "Addon-capable atmosphere designer scaffold.",
-    "artifactPath": "/mnt/data/TizWildinEntertainmentHUB_v1_3/artifacts/staged/aether-0.8.2.zip"
+    "artifactUrl": "https://github.com/GareBear99/instrudio",
+    "sha256": "3d4b3d4eb9acb6519c6e03cd62c13c44163bc024eb3edfdbb853f427d1bc0f9b",
+    "signature": "arc-demo-generated"
   },
-  "whispergate": {
-    "productId": "whispergate",
+  "xylocore": {
+    "productId": "xylocore",
     "channel": "stable",
-    "latestVersion": "0.7.5",
+    "latestVersion": "1.0.0-demo",
     "artifactMode": "source",
-    "artifactUrl": "https://github.com/GareBear99/WhisperGate",
-    "sha256": "f6b21114dd71ccef494aa7e378bc64ad5410b43fa173f5463aa6f40a1b07cc48",
-    "signature": "arc-demo-signed-local",
-    "notes": "Free ritual atmosphere scaffold.",
-    "artifactPath": "/mnt/data/TizWildinEntertainmentHUB_v1_3/artifacts/staged/whispergate-0.7.5.zip"
+    "artifactUrl": "https://github.com/GareBear99/xylocore",
+    "sha256": "0c81395b2fa89e06f73b26b79d41eab116f9cbfcbebb79828bcbc38acf0d1838",
+    "signature": "arc-demo-generated"
+  },
+  "bassmaid": {
+    "productId": "bassmaid",
+    "channel": "stable",
+    "latestVersion": "1.0.0-demo",
+    "artifactMode": "source",
+    "artifactUrl": "https://github.com/GareBear99/bassmaid",
+    "sha256": "ac4c17bd7e0fe5f5bc0034592770c8e6b9c832c9d0800e24acc007561bb2d52a",
+    "signature": "arc-demo-generated"
+  },
+  "spacemaid": {
+    "productId": "spacemaid",
+    "channel": "stable",
+    "latestVersion": "1.0.0-demo",
+    "artifactMode": "source",
+    "artifactUrl": "https://github.com/GareBear99/spacemaid",
+    "sha256": "4d110c963a97eb6167be886aa375222219112cbd5126bf67e2c6787950980344",
+    "signature": "arc-demo-generated"
+  },
+  "gluemaid": {
+    "productId": "gluemaid",
+    "channel": "stable",
+    "latestVersion": "1.0.0-demo",
+    "artifactMode": "source",
+    "artifactUrl": "https://github.com/GareBear99/gluemaid",
+    "sha256": "281e58e37144785b420aeff401cdac6a0bfd16cec3b4072c7856dc7a17b7d11e",
+    "signature": "arc-demo-generated"
+  },
+  "mixmaid": {
+    "productId": "mixmaid",
+    "channel": "stable",
+    "latestVersion": "1.0.0-demo",
+    "artifactMode": "source",
+    "artifactUrl": "https://github.com/GareBear99/mixmaid",
+    "sha256": "a7aa29461618abe24f18fc488b62421e07840264505b78faef9061ac67aabe6f",
+    "signature": "arc-demo-generated"
+  },
+  "chainmaid": {
+    "productId": "chainmaid",
+    "channel": "stable",
+    "latestVersion": "1.0.0-demo",
+    "artifactMode": "source",
+    "artifactUrl": "https://github.com/GareBear99/chainmaid",
+    "sha256": "313c8087f24b2b86f6382fe14b769b5d17b8edf53ed41b153e36bd040eb6c181",
+    "signature": "arc-demo-generated"
+  },
+  "multimaid": {
+    "productId": "multimaid",
+    "channel": "stable",
+    "latestVersion": "1.0.0-demo",
+    "artifactMode": "source",
+    "artifactUrl": "https://github.com/GareBear99/multimaid",
+    "sha256": "1d0daa5502f6d67a864366da67608b83f20fb101bb814ef38e59eef0ea095f64",
+    "signature": "arc-demo-generated"
+  },
+  "metermaid": {
+    "productId": "metermaid",
+    "channel": "stable",
+    "latestVersion": "1.0.0-demo",
+    "artifactMode": "source",
+    "artifactUrl": "https://github.com/GareBear99/metermaid",
+    "sha256": "a7e03b6851c6443b45c0c7684296155b30e6de7a5090a0fbc4d7c5ecd403d7c6",
+    "signature": "arc-demo-generated"
   },
   "paintmask": {
     "productId": "paintmask",
     "channel": "stable",
-    "latestVersion": "2.0.0",
-    "artifactMode": "zip",
-    "artifactUrl": "file:///mnt/data/TizWildinEntertainmentHUB_v1_3/artifacts/staged/therum-1.0.0.zip",
-    "artifactPath": "",
-    "sha256": "60ecf0754dc61f5be1d9054292ca7873ff4e4228419ef35dd974816dc2260d41",
-    "signature": "arc-demo-signed-local",
-    "notes": "Imported test artifact"
-  },
-  "waveform_riftsynth_lite": {
-    "productId": "waveform_riftsynth_lite",
-    "channel": "stable",
-    "latestVersion": "1.0.0",
+    "latestVersion": "1.0.0-demo",
     "artifactMode": "source",
-    "artifactUrl": "https://github.com/GareBear99/WaveForm-RiftSynth-Lite",
-    "sha256": "a6aa1233f0d900621b008ce24bb7d815d7522e927cb137a1e48ba54c22d9622f",
-    "signature": "arc-demo-signed-local",
-    "notes": "Free lite combo release.",
-    "artifactPath": "/mnt/data/TizWildinEntertainmentHUB_v1_3/artifacts/staged/waveform_riftsynth_lite-1.0.0.zip"
+    "artifactUrl": "https://github.com/GareBear99/paintmask",
+    "sha256": "7d075cf1c48d775453bdee772eaf9a524e661eace81a001d7f5f1c92dc39d0e1",
+    "signature": "arc-demo-generated"
   },
-  "waveform_pro": {
-    "productId": "waveform_pro",
+  "wurp": {
+    "productId": "wurp",
     "channel": "stable",
-    "latestVersion": "0.9.1",
+    "latestVersion": "1.0.0-demo",
     "artifactMode": "source",
-    "artifactUrl": "https://github.com/GareBear99/WaveForm-Pro",
-    "sha256": "1d13cf318cb0a65464d4d00fa2c136e314118b8520c1f0c7a58c6127a25f4fac",
-    "signature": "arc-demo-signed-local",
-    "notes": "Pro build plan placeholder.",
-    "artifactPath": "/mnt/data/TizWildinEntertainmentHUB_v1_3/artifacts/staged/waveform_pro-0.9.1.zip"
+    "artifactUrl": "https://github.com/GareBear99/wurp",
+    "sha256": "77c9a885d2ff8a0a0ee3a4fc996b3b5347c2ff846831657b71178fcf27aaf722",
+    "signature": "arc-demo-generated"
   },
-  "riftsynth_pro": {
-    "productId": "riftsynth_pro",
+  "aether": {
+    "productId": "aether",
     "channel": "stable",
-    "latestVersion": "0.9.1",
+    "latestVersion": "1.0.0-demo",
     "artifactMode": "source",
-    "artifactUrl": "https://github.com/GareBear99/RiftSynth-Pro",
-    "sha256": "789e8ef71e5698aee9694251696c0a213abf9154b3a86eb8ac12edf58873bb65",
-    "signature": "arc-demo-signed-local",
-    "notes": "Pro build plan placeholder.",
-    "artifactPath": "/mnt/data/TizWildinEntertainmentHUB_v1_3/artifacts/staged/riftsynth_pro-0.9.1.zip"
+    "artifactUrl": "https://github.com/GareBear99/aether",
+    "sha256": "56b8059e807e72a5bd6d3cf25c80639a3994f758dddde4198323d5248c8406ca",
+    "signature": "arc-demo-generated"
+  },
+  "whispergate": {
+    "productId": "whispergate",
+    "channel": "stable",
+    "latestVersion": "1.0.0-demo",
+    "artifactMode": "source",
+    "artifactUrl": "https://github.com/GareBear99/whispergate",
+    "sha256": "f1d62b693c2cacd84e9c954d98b870a66865267ae4477815f881174f962164a0",
+    "signature": "arc-demo-generated"
+  },
+  "therum": {
+    "productId": "therum",
+    "channel": "stable",
+    "latestVersion": "1.0.0-demo",
+    "artifactMode": "source",
+    "artifactUrl": "https://github.com/GareBear99/therum",
+    "sha256": "4ce0214c617e00b51e49c77e41d0838dbe964fe429fe2f9b58bb0576f000c54b",
+    "signature": "arc-demo-generated"
+  },
+  "riftwavesuite": {
+    "productId": "riftwavesuite",
+    "channel": "stable",
+    "latestVersion": "1.0.0-demo",
+    "artifactMode": "source",
+    "artifactUrl": "https://github.com/GareBear99/riftwavesuite",
+    "sha256": "181f163c660ce9bb96b89b37a9720efc08abfdc3b0333366e4f7f016b4ca8eb7",
+    "signature": "arc-demo-generated"
+  },
+  "freesampler": {
+    "productId": "freesampler",
+    "channel": "stable",
+    "latestVersion": "1.0.0-demo",
+    "artifactMode": "source",
+    "artifactUrl": "https://github.com/GareBear99/freesampler",
+    "sha256": "4371233f0cc68baf09237fadb3f3304198c6f0fcd45c4f1b2c6e2701c1729275",
+    "signature": "arc-demo-generated"
+  },
+  "vf_plexlab": {
+    "productId": "vf_plexlab",
+    "channel": "stable",
+    "latestVersion": "1.0.0-demo",
+    "artifactMode": "source",
+    "artifactUrl": "https://github.com/GareBear99/vf_plexlab",
+    "sha256": "073a3087f7cf6ca281ae9b4080ba3392a12491903d63d30a88fdeefb609ebf95",
+    "signature": "arc-demo-generated"
+  },
+  "pap_forge_audio": {
+    "productId": "pap_forge_audio",
+    "channel": "stable",
+    "latestVersion": "1.0.0-demo",
+    "artifactMode": "source",
+    "artifactUrl": "https://github.com/GareBear99/pap_forge_audio",
+    "sha256": "d42041fecf9dc719df72460a38859644e581005880cf61eef0e7a03c92f40009",
+    "signature": "arc-demo-generated"
   }
 }

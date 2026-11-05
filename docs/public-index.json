@@ -1,6 +1,6 @@
 {
   "schemaVersion": "2.0",
-  "generatedAt": "2026-11-04",
+  "generatedAt": "2026-11-05",
   "name": "TizWildin Entertainment HUB Public Link Index",
   "description": "Static crawler-friendly index of TizWildin audio, producer, public list, credibility, and ARC source-spine routes.",
   "owner": "GareBear99",
@@ -5475,11 +5475,11 @@
       "cluster": "TizWildin Audio Plugins",
       "kind": "Audio Plugin / Producer Tool",
       "name": "Therum",
-      "description": "Bootleg Serum — free wavetable synthesizer with visual waveform editing and modulation.",
+      "description": "Free wavetable synthesizer with visual waveform editing and modulation — in development.",
       "repo": "Therum_JUCE-Plugin",
       "url": "",
       "docs": "",
-      "status": "production",
+      "status": "dev",
       "tags": [
         "VST3",
         "AU",

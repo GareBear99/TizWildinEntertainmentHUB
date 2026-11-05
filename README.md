@@ -50,7 +50,7 @@ The default `.io` public dashboard (`docs/index.html`) includes a **📚 Lists**
 
 <div align="center">
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=6C7BBD&center=true&vCenter=true&width=840&lines=21+Free+Plugin+Versions+%2B+The+HUB;Updater+%7C+Version+Controller+%7C+Downloader;Every+plugin+has+a+free+version+on+the+HUB;Payments+and+upgrades+live+inside+each+product" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=6C7BBD&center=true&vCenter=true&width=840&lines=20+Free+Plugin+Versions+%2B+The+HUB;Updater+%7C+Version+Controller+%7C+Downloader;Every+plugin+has+a+free+version+on+the+HUB;Payments+and+upgrades+live+inside+each+product" alt="Typing SVG" /></a>
 
 <br>
 
@@ -122,7 +122,7 @@ The HUB is its own **TizWildinEntertainment product** — a **VST3/AU plugin + S
 |--------|-------------|--------|
 | [**FreeEQ8**](https://github.com/GareBear99/FreeEQ8) | 8-band parametric EQ — dynamic EQ, linear phase, match EQ, M/S, spectrum analyzer | ✅ Production |
 | [**FreeVox8**](https://github.com/GareBear99/FreeVox8) | Spectral vocoder, ghost-resynthesis, and dynamic masking plugin | ⚠️ Beta |
-| [**Therum**](https://github.com/GareBear99/Therum_JUCE-Plugin) | Bootleg Serum — free wavetable synth | ✅ Production |
+| [**Therum**](https://github.com/GareBear99/Therum_JUCE-Plugin) | Free wavetable synthesizer — in development | 🚧 Dev |
 
 ## 🎹 Instruments
 
