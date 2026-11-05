@@ -1,0 +1,323 @@
+{
+  "owner": "GareBear99",
+  "ecosystem": "TizWildin Entertainment / GareBear99 Audio Discovery Network",
+  "description": "Canonical public awesome-list and discovery surfaces linked from the TizWildinEntertainment HUB.",
+  "categories": [
+    {
+      "id": "start_here",
+      "name": "Start Here",
+      "icon": "🚀"
+    },
+    {
+      "id": "hub_lists",
+      "name": "Hub & Discovery Lists",
+      "icon": "📚"
+    },
+    {
+      "id": "audio_dev",
+      "name": "Audio Development Lists",
+      "icon": "🧰"
+    },
+    {
+      "id": "artist_platforms",
+      "name": "Artist Platform Lists",
+      "icon": "🎧"
+    },
+    {
+      "id": "project_anchors",
+      "name": "Project Anchors",
+      "icon": "⚓"
+    },
+    {
+      "id": "python_audio_science",
+      "name": "Python Audio Science Lists",
+      "icon": "🐍"
+    },
+    {
+      "id": "arc_source_spine",
+      "name": "ARC Source Spine",
+      "icon": "🧠"
+    }
+  ],
+  "lists": [
+    {
+      "id": "tizwildin-all-links-ffm",
+      "name": "TizWildin All Links / FFM Bio",
+      "description": "Primary all-links route for TizWildin / GareBearProductionz: music, releases, SoundCloud, Spotify, YouTube, social pages, sample packs, tools, and public ecosystem links.",
+      "category": "start_here",
+      "url": "https://ffm.bio/no4km87",
+      "type": "Primary All-Links Route",
+      "status": "canonical external hub",
+      "tags": [
+        "all links",
+        "ffm bio",
+        "music links",
+        "tizwildin",
+        "soundcloud",
+        "spotify",
+        "youtube",
+        "creator ecosystem",
+        "public links"
+      ],
+      "priority": 0,
+      "startHere": true
+    },
+    {
+      "id": "awesome-audio-plugins-dev",
+      "name": "Awesome Audio Plugins Dev",
+      "description": "START HERE: the main public entry list for the GareBear99 / TizWildin audio ecosystem. Curated audio plugin development and discovery resources for JUCE, VST3/AU, DSP, open-source plugin projects, FreeEQ8, FreeVox8, and developer visibility.",
+      "category": "start_here",
+      "repo": "awesome-audio-plugins-dev",
+      "type": "START HERE",
+      "status": "canonical entry point",
+      "tags": [
+        "start here",
+        "audio plugins",
+        "JUCE",
+        "DSP",
+        "VST3",
+        "AU",
+        "FreeEQ8",
+        "FreeVox8",
+        "developer resources"
+      ],
+      "priority": 1,
+      "startHere": true
+    },
+    {
+      "id": "awesome-audio-lists",
+      "name": "Awesome Audio Lists",
+      "description": "Parent hub for audio directories, plugin submission targets, sample-pack directories, music-platform lists, and public discovery surfaces.",
+      "category": "hub_lists",
+      "repo": "awesome-audio-lists",
+      "type": "Parent Hub",
+      "status": "canonical",
+      "tags": [
+        "audio lists",
+        "submission targets",
+        "SEO hub",
+        "discovery"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "awesome-music-platforms",
+      "name": "Awesome Music Platforms",
+      "description": "SEO-maximized list of music platforms for streaming, distribution, beat selling, sample packs, sync licensing, promotion, storefronts, analytics, and independent artist tools.",
+      "category": "artist_platforms",
+      "repo": "awesome-music-platforms",
+      "type": "Satellite List",
+      "status": "canonical",
+      "tags": [
+        "music platforms",
+        "distribution",
+        "beat selling",
+        "sample packs",
+        "sync licensing"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "awesome-python-audio-science",
+      "name": "Awesome Python Audio Science",
+      "description": "Python scientific audio, DSP, MIR, machine-learning audio, datasets, notebooks, plugin testing, and creator-audio research tooling; linked to the TizWildin HUB and deconstructed-loop/router ecosystem.",
+      "category": "python_audio_science",
+      "repo": "awesome-python-audio-science",
+      "type": "Satellite List",
+      "status": "canonical",
+      "priority": 4,
+      "tags": [
+        "python audio",
+        "scientific audio",
+        "DSP",
+        "MIR",
+        "machine learning audio",
+        "datasets",
+        "plugin testing"
+      ]
+    },
+    {
+      "id": "freeeq8",
+      "name": "FreeEQ8",
+      "description": "Flagship free/open audio plugin anchor for GitHub SEO, producer trust, plugin-discovery traffic, and the larger TizWildin audio ecosystem.",
+      "category": "project_anchors",
+      "repo": "FreeEQ8",
+      "type": "Plugin Anchor",
+      "status": "production",
+      "tags": [
+        "free EQ",
+        "audio plugin",
+        "VST3",
+        "AU",
+        "producer tool"
+      ],
+      "priority": 5
+    },
+    {
+      "id": "freevox8",
+      "name": "FreeVox8",
+      "description": "Canonical spectral vocoder and ghost-resynthesis continuation anchor for future HUB routing, plugin list visibility, and public audio-tech credibility.",
+      "category": "project_anchors",
+      "repo": "FreeVox8",
+      "type": "Plugin Anchor",
+      "status": "release candidate",
+      "tags": [
+        "spectral vocoder",
+        "ghost resynthesis",
+        "audio plugin",
+        "FreeVox8"
+      ],
+      "priority": 6
+    },
+    {
+      "id": "tizwildin-release-vault",
+      "name": "TizWildin Release Vault",
+      "description": "Release proof and catalog routing surface for distributed tracks, monetized releases, and official TizWildin music catalog status.",
+      "category": "project_anchors",
+      "repo": "TizWildin-Release-Vault",
+      "type": "Release Proof",
+      "status": "canonical",
+      "tags": [
+        "release vault",
+        "catalog proof",
+        "music releases"
+      ],
+      "priority": 7
+    },
+    {
+      "id": "tizwildin-io-router",
+      "name": "TizWildin .io Router",
+      "description": "Public GitHub Pages router for plugins, lists, packs, deconstructed loops, visualizers, release proof, and TizWildin ecosystem navigation.",
+      "category": "project_anchors",
+      "repo": "TizWildinEntertainmentHUB",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/",
+      "type": "IO Router",
+      "status": "public route",
+      "priority": 8,
+      "tags": [
+        "io router",
+        "deconstructed loops",
+        "sample packs",
+        "plugins",
+        "lists",
+        "visualizers"
+      ]
+    },
+    {
+      "id": "deconstructed-loops-router",
+      "name": "Deconstructed Loops / Packs Router",
+      "description": "Public route for TizWildin deconstructed loops, stems, free sample packs, producer assets, and future pack-store/Release Vault handoff.",
+      "category": "project_anchors",
+      "repo": "TizWildinEntertainmentHUB",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/#packs",
+      "type": "Packs Route",
+      "status": "public route",
+      "priority": 9,
+      "tags": [
+        "deconstructed loops",
+        "stems",
+        "sample packs",
+        "producer packs",
+        "router"
+      ]
+    },
+    {
+      "id": "arc-neuron-llmbuilder",
+      "name": "ARC-Neuron-LLMBuilder",
+      "description": "Local-first cognition-core builder for ARC: dataset preparation, model-building experiments, GGUF-oriented local AI workflows, receipts, and reproducible AI growth pipelines.",
+      "category": "arc_source_spine",
+      "repo": "ARC-Neuron-LLMBuilder",
+      "type": "ARC Route",
+      "status": "public route",
+      "tags": [
+        "local AI",
+        "LLM",
+        "GGUF",
+        "cognition core",
+        "receipts"
+      ],
+      "priority": 20
+    },
+    {
+      "id": "arc-core",
+      "name": "ARC-Core",
+      "description": "Signal-intelligence event spine and local-first AI governance console for deterministic routing, authority gates, receipts, calibration, incident tracking, and replayable evidence.",
+      "category": "arc_source_spine",
+      "repo": "ARC-Core",
+      "type": "ARC Route",
+      "status": "public route",
+      "tags": [
+        "ARC",
+        "AI governance",
+        "receipts",
+        "event sourcing",
+        "FastAPI"
+      ],
+      "priority": 21
+    },
+    {
+      "id": "arc-lucifer-cleanroom-runtime",
+      "name": "arc-lucifer-cleanroom-runtime",
+      "description": "Local-first cleanroom AI runtime route for offline model execution, token streaming, deterministic event capture, and reproducible inference behavior.",
+      "category": "arc_source_spine",
+      "repo": "arc-lucifer-cleanroom-runtime",
+      "type": "ARC Route",
+      "status": "public route",
+      "tags": [
+        "local AI",
+        "runtime",
+        "offline AI",
+        "token streaming"
+      ],
+      "priority": 22
+    },
+    {
+      "id": "arc-language-module",
+      "name": "arc-language-module",
+      "description": "Language and cognition foundation route for linguistic structure, transliteration, lineage, phonology, and language-learning data.",
+      "category": "arc_source_spine",
+      "repo": "arc-language-module",
+      "type": "ARC Route",
+      "status": "public route",
+      "tags": [
+        "NLP",
+        "linguistics",
+        "language learning",
+        "cognition"
+      ],
+      "priority": 23
+    },
+    {
+      "id": "arc-rar",
+      "name": "Arc-RAR",
+      "description": "CLI-first archive manager with native-app control plane, autowrap intent validation, receipts, restore paths, and reproducible project archive handling.",
+      "category": "arc_source_spine",
+      "repo": "Arc-RAR",
+      "type": "ARC Route",
+      "status": "public route",
+      "tags": [
+        "archive",
+        "CLI",
+        "receipts",
+        "reproducibility"
+      ],
+      "priority": 24
+    },
+    {
+      "id": "omnibinary-runtime",
+      "name": "OmniBinary Runtime",
+      "description": "Native-first binary intake and execution-fabric scaffold for file inspection, host profiling, lane selection, receipts, audits, and runtime-readiness reporting.",
+      "category": "arc_source_spine",
+      "repo": "omnibinary-runtime",
+      "type": "ARC Route",
+      "status": "public route",
+      "tags": [
+        "binary runtime",
+        "native first",
+        "receipts",
+        "audits"
+      ],
+      "priority": 25
+    }
+  ]
+}

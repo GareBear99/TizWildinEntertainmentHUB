@@ -683,6 +683,29 @@ Allow: /TizWildinEntertainmentHUB/llms.txt
         "orphans": orphans,
     }, indent=2))
 
+    # Mirror the root data JSONs into docs/ so the live site loads its own
+    # data from its own URL (GitHub Pages serves docs/, so plugins.json etc.
+    # 404 at the site URL unless they live here). The site entry fetches
+    # them via relative paths. Root stays the source of truth; this copy
+    # keeps the mirror in sync on every index rebuild (CI runs this daily).
+    for name in (
+        "plugins.json",
+        "packs.json",
+        "lists.json",
+        "tools.json",
+        "games.json",
+        "promotionals.json",
+        "academics.json",
+        "tutorials.json",
+        "all_items.json",
+    ):
+        (DOCS / name).write_bytes((ROOT / name).read_bytes())
+    # docs/data/ is the established static-docs mirror for the files the
+    # autopull and the Lists tab reference; keep those in sync too.
+    (DOCS / "data").mkdir(exist_ok=True)
+    for name in ("plugins.json", "packs.json", "lists.json", "all_items.json"):
+        (DOCS / "data" / name).write_bytes((ROOT / name).read_bytes())
+
     print(f"Built public index: {len(items)} records, {len(seen)} sitemap URLs, {audit['socialCards']} social cards, {len(orphans)} orphan pages reported")
 
 

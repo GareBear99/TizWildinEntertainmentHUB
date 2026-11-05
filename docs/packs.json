@@ -1,0 +1,97 @@
+{
+  "owner": "GareBear99",
+  "categories": [
+    { "id": "tizwildin_packs", "name": "TizWildin Sample Packs", "icon": "🧬" },
+    { "id": "producer_kits", "name": "Free Producer Kits", "icon": "🥁" }
+  ],
+  "packs": [
+    {
+      "id": "tizwildin_aurora",
+      "name": "TizWildin-Aurora",
+      "description": "3-segment original synth melody pack with loops, stems, demo renders, and neon/cinematic phrasing.",
+      "category": "tizwildin_packs",
+      "repo": "TizWildin-Aurora",
+      "tags": ["loops", "stems", "synth", "neon"]
+    },
+    {
+      "id": "tizwildin_obsidian",
+      "name": "TizWildin-Obsidian",
+      "description": "Dark cinematic sample pack with choir textures, menu loops, transitions, bass, atmosphere, drums, and electric-banjo extensions.",
+      "category": "tizwildin_packs",
+      "repo": "TizWildin-Obsidian",
+      "tags": ["cinematic", "choir", "dark", "atmosphere"]
+    },
+    {
+      "id": "tizwildin_skyline",
+      "name": "TizWildin-Skyline",
+      "description": "30 BPM-tagged synthwave and darkwave loops with generator snapshot and dark neon additions.",
+      "category": "tizwildin_packs",
+      "repo": "TizWildin-Skyline",
+      "tags": ["synthwave", "darkwave", "loops"]
+    },
+    {
+      "id": "tizwildin_chroma",
+      "name": "TizWildin-Chroma",
+      "description": "Multi-segment game synthwave loop sample pack from TizWildin Entertainment.",
+      "category": "tizwildin_packs",
+      "repo": "TizWildin-Chroma",
+      "tags": ["game", "synthwave", "loops"]
+    },
+    {
+      "id": "tizwildin_chime",
+      "name": "TizWildin-Chime",
+      "description": "Multi-part 88 BPM chime collection spanning glass, void, halo, reed, and neon synthwave lanes.",
+      "category": "tizwildin_packs",
+      "repo": "TizWildin-Chime",
+      "tags": ["chime", "glass", "88bpm"]
+    },
+    {
+      "id": "free_violin_synth",
+      "name": "Free Violin Synth Sample Kit",
+      "description": "Physical-model violin sample kit rendered from the Instrudio violin instrument.",
+      "category": "producer_kits",
+      "repo": "Free-Violin-Synth-Sample-Kit",
+      "tags": ["violin", "physical-model", "instrudio"]
+    },
+    {
+      "id": "free_dark_piano",
+      "name": "Free Dark Piano Sound Kit",
+      "description": "88 piano notes plus dark and cinematic loops and MIDI.",
+      "category": "producer_kits",
+      "repo": "Free-Dark-Piano-Sound-Kit",
+      "tags": ["piano", "cinematic", "midi"]
+    },
+    {
+      "id": "free_808_producer",
+      "name": "Free 808 Producer Kit",
+      "description": "94 hand-crafted 808 bass samples tuned to every chromatic key.",
+      "category": "producer_kits",
+      "repo": "Free-808-Producer-Kit",
+      "tags": ["808", "bass", "trap"]
+    },
+    {
+      "id": "free_riser_producer",
+      "name": "Free Riser Producer Kit",
+      "description": "115+ risers and 63 downlifters - noise, synth, drum, FX, cinematic.",
+      "category": "producer_kits",
+      "repo": "Free-Riser-Producer-Kit",
+      "tags": ["risers", "downlifters", "fx"]
+    },
+    {
+      "id": "phonk_producer",
+      "name": "Phonk Producer Toolkit",
+      "description": "Drift phonk starter kit - 808s, cowbells, drums, MIDI, templates.",
+      "category": "producer_kits",
+      "repo": "Phonk_Producer_Toolkit",
+      "tags": ["phonk", "drift", "starter"]
+    },
+    {
+      "id": "free_future_bass",
+      "name": "Free Future Bass Producer Kit",
+      "description": "Loops, fills, drums, bass, synths, pads, and FX.",
+      "category": "producer_kits",
+      "repo": "Free-Future-Bass-Producer-Kit",
+      "tags": ["future-bass", "loops", "synths"]
+    }
+  ]
+}
