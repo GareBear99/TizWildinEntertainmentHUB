@@ -103,7 +103,7 @@
     "channel": "stable",
     "latestVersion": "1.0.0-demo",
     "artifactMode": "source",
-    "artifactUrl": "https://github.com/GareBear99/paintmask",
+    "artifactUrl": "https://github.com/GareBear99/PaintMask_Free-JUCE-Plugin",
     "sha256": "7d075cf1c48d775453bdee772eaf9a524e661eace81a001d7f5f1c92dc39d0e1",
     "signature": "arc-demo-generated"
   },
@@ -130,7 +130,7 @@
     "channel": "stable",
     "latestVersion": "1.0.0-demo",
     "artifactMode": "source",
-    "artifactUrl": "https://github.com/GareBear99/whispergate",
+    "artifactUrl": "https://github.com/GareBear99/WhisperGate_Free-JUCE-Plugin",
     "sha256": "f1d62b693c2cacd84e9c954d98b870a66865267ae4477815f881174f962164a0",
     "signature": "arc-demo-generated"
   },
@@ -139,7 +139,7 @@
     "channel": "stable",
     "latestVersion": "1.0.0-demo",
     "artifactMode": "source",
-    "artifactUrl": "https://github.com/GareBear99/therum",
+    "artifactUrl": "https://github.com/GareBear99/Therum_JUCE-Plugin",
     "sha256": "4ce0214c617e00b51e49c77e41d0838dbe964fe429fe2f9b58bb0576f000c54b",
     "signature": "arc-demo-generated"
   },

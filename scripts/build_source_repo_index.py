@@ -13,7 +13,7 @@ GitHub API ingestion. Network access is never required for CI; set
 SOURCE_INDEX_FETCH_REMOTE=1 or pass --fetch-remote to hydrate remote repositories.
 """
 from __future__ import annotations
-import argparse, hashlib, html, json, os, re, shutil, sys, tempfile, time, zipfile, urllib.request, urllib.error
+import argparse, hashlib, html, json, os, posixpath, re, shutil, sys, tempfile, time, zipfile, urllib.request, urllib.error
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -181,9 +181,33 @@ def estimate_budget(repo_count:int, expected_files:int):
     base=float(pol.get('baseSeconds',20)); per=float(pol.get('secondsPerThousandFiles',8)); maxs=float(pol.get('maxSeconds',240)); per_repo=float(pol.get('secondsPerRepo',2))
     return min(maxs, base + repo_count*per_repo + (max(1, expected_files)/1000.0)*per)
 
+def repo_blob_url(repo, source_path, url):
+    """Resolve a link extracted from a source-repo file to an absolute URL.
+
+    Repo-relative links (./x, ../x) point at files inside the *source* repo,
+    so they resolve to that repo's GitHub blob page. Left as-is they 404 on
+    the HUB, which does not host the other repo's files. Absolute, anchor,
+    mailto and template URLs pass through untouched.
+    """
+    if not url or url.startswith(("http://", "https://", "mailto:", "#", "/")):
+        return url
+    if "{" in url or "}" in url:
+        return url
+    base = (repo.get("url") or "").rstrip("/")
+    if not base.startswith("https://github.com/"):
+        return url
+    branch = repo.get("branch") or "main"
+    path, _, frag = url.partition("#")
+    rel = posixpath.normpath(posixpath.join(posixpath.dirname(source_path or ""), path))
+    if rel.startswith("..") or rel in (".", ""):
+        return url
+    out = f"{base}/blob/{branch}/{rel}"
+    return out + ("#" + frag if frag else "")
+
+
 def repo_page(repo, stats, files, links):
     file_rows='\n'.join(f'<li><code>{html.escape(f["path"])}</code> <span>{f["bytes"]} bytes · {f["linkCount"]} links</span></li>' for f in files[:500])
-    link_rows='\n'.join(f'<li><a href="{html.escape(l["url"])}">{html.escape(l["url"])}</a> <span>{html.escape(l.get("sourcePath",""))}</span></li>' for l in links[:250])
+    link_rows='\n'.join(f'<li><a href="{html.escape(repo_blob_url(repo, l.get("sourcePath", ""), l["url"]))}">{html.escape(repo_blob_url(repo, l.get("sourcePath", ""), l["url"]))}</a> <span>{html.escape(l.get("sourcePath",""))}</span></li>' for l in links[:250])
     desc=html.escape('Queryable source file and link index for '+public_clean(repo['name']))
     return f"""<!doctype html><html lang='en'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'><title>{html.escape(public_clean(repo['name']))} Source Index</title><meta name='description' content='{desc}'><link rel='canonical' href='{BASE}/pages/source-{slug(repo['id'])}.html'><style>body{{font-family:system-ui;background:#080a12;color:#ecf2ff;margin:0;padding:24px}}main{{max-width:1120px;margin:auto}}a{{color:#8ea2ff}}code{{color:#86efac}}li{{margin:8px 0}}span{{color:#9fb0d8}}</style></head><body><main><h1>{html.escape(public_clean(repo['name']))} Source Index</h1><p>{desc}</p><p><a href='{html.escape(repo.get('url',''))}'>Repository</a> · <a href='{html.escape(repo.get('docs',''))}'>Docs</a> · <a href='../repo-file-search.html'>Search all indexed files</a></p><dl><dt>Cluster</dt><dd>{html.escape(public_clean(repo.get('cluster','')))}</dd><dt>Indexed files</dt><dd>{stats.get('fileCount',0)}</dd><dt>Extracted links</dt><dd>{stats.get('linkCount',0)}</dd></dl><h2>Indexed files</h2><ol>{file_rows}</ol><h2>Extracted links</h2><ol>{link_rows}</ol></main></body></html>"""
 

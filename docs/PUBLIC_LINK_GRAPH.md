@@ -6,8 +6,8 @@ This file documents every static route generated for the TizWildinEntertainmentH
 
 ## Summary
 
-- Total indexed records: **208**
-- Total clusters: **11**
+- Total indexed records: **220**
+- Total clusters: **12**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
 
@@ -46,7 +46,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | Route | Type | Repository | Tags |
 |---|---|---|---|
 | [ARC-Neuron LLMBuilder and the Future Economics of Real AI](pages/arc-neuron-llmbuilder-and-the-future-economics-of-real-ai.html) | Paper / Technical Article | https://github.com/GareBear99/ARC-Neuron-LLMBuilder | arc, llm, local-ai, governance, model-promotion, economics, dev.to, paper, technical-writing |
-| [DAFx26 Paper: Simper SVF Topology and EQ Frequency Cramping (dev.to)](pages/dafx26-paper-simper-svf-topology-and-eq-frequency-cramping-dev-to.html) | Paper / Technical Article | https://github.com/GareBear99/FreeEQ8 | dsp, svf, cramping, dafx, parametric-eq, oversampling, dev.to, paper, technical-writing |
+| [DAFx26 Paper: Simper SVF Topology and EQ Frequency Cramping (dev.to)](pages/dafx26-paper-simper-svf-topology-and-eq-frequency-cramping-dev-to.html) | Paper / Technical Article | https://github.com/GareBear99/FreeEQ8 | dsp, svf, cramping, dafx, parametric-eq, oversampling, paper, paper, technical-writing |
 | [FreeEQ8 Current Status: Open-Source Parametric EQ, Rekkerd Coverage, and the Road to Smart EQ](pages/freeeq8-current-status-open-source-parametric-eq-rekkerd-coverage-and-the-road-to-smart-eq.html) | Paper / Technical Article | https://github.com/GareBear99/FreeEQ8 | dsp, freeeq8, rekkerd, smart-eq, match-eq, open-source, dev.to, paper, technical-writing |
 | [FreeEQ8 Technical Architecture (dev.to)](pages/freeeq8-technical-architecture-dev-to.html) | Paper / Technical Article | https://github.com/GareBear99/FreeEQ8 | dsp, architecture, blog, dev.to, paper, technical-writing |
 | [Made This for Developers & Producers Alike](pages/made-this-for-developers-and-producers-alike.html) | Paper / Technical Article | https://github.com/GareBear99/TizWildinEntertainmentHUB | ecosystem, producers, developers, press, rekkerd, audioapp, dev.to, paper, technical-writing |
@@ -125,6 +125,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Any Image to Pixel SVG Converter (Only 1 FREE)](pages/itch-any-image-to-pixel-svg-converter.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/any-image-to-pixel-svg-converter | free, converter, pixel, svg, image, itch, game-assets, garebearproductionz |
 | [Arcanum I - Part 1— Animated Pixel Spell Effects (75 effects, 1,200 frames)](pages/itch-arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames | itch, game-assets, garebearproductionz |
 | [Arcanum I - Part 2 — Animated Pixel Spell Abilities (23 spells, 752 frames)](pages/itch-arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames | itch, game-assets, garebearproductionz |
+| [Arcanum I - Part 3 — Animated Full-Screen VFX Overlays (30 screens, 960 frames)](pages/itch-arcanum-i-part-3-animated-full-screen-vfx-overlays-30-screens-960-frames.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/arcanum-i-part-3-animated-full-screen-vfx-overlays-30-screens-960-frames | itch, game-assets, garebearproductionz |
 | [Black & Red Dice SVG & PNG 2D-3D Export Engine](pages/itch-black-red-dice-svg-png-export-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine | itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Blood Bound by Pixel Scythe & SVG (FREE)](pages/itch-blood-bound-scythe-svg-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/blood-bound-scythe-svg-free | free, scythe, weapon, svg, pixel-art, itch, game-assets, garebearproductionz |
 | [Cash Cloud Sprite Pack (FREE)](pages/itch-cash-cloud.html) | Itch Asset Pack | https://garebearproductionz.itch.io/cash-cloud | itch, game-assets, garebearproductionz |
@@ -132,13 +133,17 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Cloudworks - Pixel Cloud & Parallax Toolkit + Trains!](pages/itch-cloudworks-pixel-cloud-parallax-toolkit-trains.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/cloudworks-pixel-cloud-parallax-toolkit-trains | itch, game-assets, garebearproductionz |
 | [Coin Physics & Triple Buffer Atomic Swap Pack & Engine Kit](pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html) | Itch Asset Pack | https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts | itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [COSMIC DISRUPTION – Free Fast-Paced Game Music Pack](pages/itch-cosmic-disruption-free-fast-paced-game-music-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/cosmic-disruption-free-fast-paced-game-music-pack | itch, game-assets, garebearproductionz |
+| [Crawl Space SVG Live Backdrop Engine & Animated Prop Layers](pages/itch-crawl-space-svg-live-backdrop-engine-animated-props.html) | Itch Asset Pack | https://garebearproductionz.itch.io/crawl-space-svg-live-backdrop-engine-animated-props | itch, game-assets, garebearproductionz |
 | [Dark Fantasy Dungeon Builder - Free Four-Realm Tileset](pages/itch-dark-fantasy-dungeon-builder-free-four-realm-tileset.html) | Itch Asset Pack | https://garebearproductionz.itch.io/dark-fantasy-dungeon-builder-free-four-realm-tileset | itch, game-assets, garebearproductionz |
 | [Dark Fantasy Modular GUI Pack - 704 UI Assets + 160 Icons](pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html) | Itch Asset Pack | https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons | itch, game-assets, garebearproductionz |
+| [Dark Fantasy Modular GUI Pack - 704 UI Assets + 160 Icons + 64 Glyphs](pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html) | Itch Asset Pack | https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs | itch, game-assets, garebearproductionz |
 | [DIVINITY — the Imperilator arms and the seven sins (FREE)](pages/itch-divinity-the-imperilator-arms-and-the-seven-sins.html) | Itch Asset Pack | https://garebearproductionz.itch.io/divinity-the-imperilator-arms-and-the-seven-sins | itch, game-assets, garebearproductionz |
 | [Doom Style Ray Cast Engine & Asset Pack](pages/itch-doom-style-ray-trace-engine-asset-pack.html) | Itch Playable Game / Engine | https://garebearproductionz.itch.io/doom-style-ray-trace-engine-asset-pack | itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [Elemental Wisp Sprite Pack](pages/itch-elemental-wisp-sprite-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/elemental-wisp-sprite-pack | itch, game-assets, garebearproductionz |
+| [ENCHANTED SPRITE FX ENGINE](pages/itch-enchanted-sprite-fx-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/enchanted-sprite-fx-engine | itch, game-assets, garebearproductionz |
 | [ENCHANTED SPRITE VFX ENGINE](pages/itch-enchanted-sprite-vfx-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine | itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [Evil Eye Four Pack & Live SVG Animations](pages/itch-evil-eye-four-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/evil-eye-four-pack | evil-eye, svg, animation, icons, pixel-art, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
+| [EZ GUI Menu Panels](pages/itch-menu-panels.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/menu-panels | itch, game-assets, garebearproductionz |
 | [FREE Haunter Sprites](pages/itch-free-haunter-sprites.html) | Itch Asset Pack | https://garebearproductionz.itch.io/free-haunter-sprites | free, haunter, sprites, pixel-art, itch, game-assets, garebearproductionz |
 | [Free Pixel SVG Portrait Asset Builder Kit (Generator & Pack)](pages/itch-cool-pixel-portraits.html) | Itch Playable Game / Engine | https://garebearproductionz.itch.io/cool-pixel-portraits | free, portrait, pixel, svg, generator, itch, game-assets, garebearproductionz |
 | [FreeEQ8 (Most Advanced EQ OpenSource)](pages/itch-freeeq8-most-advanced-free-eq-opensource.html) | Itch Asset Pack | https://garebearproductionz.itch.io/freeeq8-most-advanced-free-eq-opensource | freeeq8, audio, plugin, eq, open-source, itch, game-assets, garebearproductionz |
@@ -188,6 +193,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Shadow Trooper Silhouette (FREE)](pages/itch-shadow-trooper-silhouette-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/shadow-trooper-silhouette-free | itch, game-assets, garebearproductionz |
 | [Shoji Dojo - Matrix Rooms 750+ Combinations](pages/itch-shoji-dojo.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/shoji-dojo | itch, game-assets, garebearproductionz |
 | [Skully Asset Pack & Lightweight Canvas Engine Demo](pages/itch-skully-asset-pack-lightweight-canvas-engine-demo.html) | Itch Playable Game / Engine | https://garebearproductionz.itch.io/skully-asset-pack-lightweight-canvas-engine-demo | skully, canvas, engine, skeleton, pixel-art, itch, game-assets, garebearproductionz |
+| [SLAGWORKS: CinderHaul - 4 Map Animated Tileset + 2 Bonus Maps](pages/itch-slagworks-4-map-animated-tileset.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/slagworks-4-map-animated-tileset | itch, game-assets, garebearproductionz |
 | [SLAGWORKS: CinderHaul - 6 Map Animated Tileset 1,910 Sprites](pages/itch-slagworks-cinderhaul-6-map-animated-tileset.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/slagworks-cinderhaul-6-map-animated-tileset | itch, game-assets, garebearproductionz |
 | [SLAGWORKS: Spectral Carnage Sewer Deck (FREE)](pages/itch-spectral-carnage-sewers-free-tileset-map.html) | Itch Asset Pack | https://garebearproductionz.itch.io/spectral-carnage-sewers-free-tileset-map | itch, game-assets, garebearproductionz |
 | [Slash FX 101 (FREE)](pages/itch-slash-fx-101.html) | Itch Asset Pack | https://garebearproductionz.itch.io/slash-fx-101 | itch, game-assets, garebearproductionz |
@@ -221,6 +227,17 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [SlimeVeil](pages/slimeveil.html) | Coming Soon Game | https://garebear99.github.io/TizWildinEntertainmentHUB/pages/slimeveil.html | game, game, interactive-demo |
 | [ThingsHappening](pages/thingshappening.html) | Coming Soon Game | https://garebear99.github.io/TizWildinEntertainmentHUB/pages/thingshappening.html | game, game, interactive-demo |
 | [WraithEternal](pages/wraitheternal.html) | Coming Soon Game | https://garebear99.github.io/TizWildinEntertainmentHUB/pages/wraitheternal.html | game, game, interactive-demo |
+
+### HUB Site Pages
+
+| Route | Type | Repository | Tags |
+|---|---|---|---|
+| [About the HUB](pages/about.html) | About Page | https://github.com/GareBear99/TizWildinEntertainmentHUB | about, tizwildin, garebear99 |
+| [Account](pages/account.html) | Account / Licence Route | https://github.com/GareBear99/TizWildinEntertainmentHUB | account, licence, master-key, auth |
+| [API Reference](pages/api.html) | API Reference | https://github.com/GareBear99/TizWildinEntertainmentHUB | api, cloudflare-workers, stripe, licences |
+| [Contact](pages/contact.html) | Contact Page | https://github.com/GareBear99/TizWildinEntertainmentHUB | contact, support, issues |
+| [Documentation](pages/docs.html) | Documentation | https://github.com/GareBear99/TizWildinEntertainmentHUB | docs, guide, help, getting-started |
+| [Privacy Policy](pages/privacy-policy.html) | Privacy Policy | https://github.com/GareBear99/TizWildinEntertainmentHUB | privacy, cookies, adsense, policy |
 
 ### Promotionals and Community
 

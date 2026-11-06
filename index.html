@@ -177,6 +177,8 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;background:ra
     <a href="pages/docs.html">📖 Docs</a>
     <a href="pages/api.html">🌐 API</a>
     <a href="pages/account.html">🔑 Account</a>
+    <a href="pages/about.html">ℹ️ About</a>
+    <a href="pages/contact.html">✉️ Contact</a>
     <a href="https://github.com/GareBear99/Portfolio/issues" target="_blank" rel="noopener">🎫 Support</a>
     <a href="sitemap.xml">Sitemap</a>
   </div>
@@ -235,7 +237,6 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;background:ra
       <div id="newsFeed" style="display:grid;gap:8px;max-height:280px;overflow-y:auto">
         <div style="text-align:center;padding:20px;color:var(--sub);font-size:12px"><span class="spinner"></span> Loading releases...</div>
       </div>
-      <p style="font-size:11px;color:var(--sub);margin-top:10px;text-align:center">Press coverage, blog posts &amp; announcements — coming soon</p>
     </div>
   </aside>
 </section>
@@ -302,7 +303,7 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;background:ra
 </div>
 
 <div id="screen-packs" class="screen">
-  <div class="controls">
+  <div class="controls" id="packs">
     <div class="stats" id="packStats"></div>
   </div>
 
@@ -362,7 +363,7 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;background:ra
 
 <div class="footer">
   Built with ❤️ by Gary Doman (GareBear99 / TizWildin)<br>
-  "Great sound shouldn't cost anything" — ⭐ <a href="https://github.com/GareBear99/TizWildinEntertainmentHUB">Star the repo</a> · 💖 <a href="https://github.com/sponsors/GareBear99">Sponsor</a> · 📚 <a href="https://github.com/GareBear99/awesome-audio-lists">Audio Lists Hub</a><br>
+  "Great sound shouldn't cost anything" — ⭐ <a href="https://github.com/GareBear99/TizWildinEntertainmentHUB">Star the repo</a> · 💖 <a href="https://github.com/sponsors/GareBear99">Sponsor</a> · 📚 <a href="https://github.com/GareBear99/awesome-audio-lists">Audio Lists Hub</a> · 🔒 <a href="pages/privacy-policy.html">Privacy Policy</a><br>
   <span id="communityCount" style="font-size:12px;color:var(--accent)"></span>
 </div>
 
@@ -433,6 +434,18 @@ function switchScreen(name) {
   document.getElementById('tab-' + name).classList.add('active');
   document.getElementById('screen-' + name).classList.add('active');
 }
+
+// ── Deep-link support: #packs / #screen-<tab> ──
+// Route pages and the SEO index link to #packs; the tab buttons link to
+// #screen-<tab>. Honour both on load and on hashchange so a shared link
+// opens the right tab instead of landing on a hidden screen.
+const HASH_TABS = ['plugins', 'packs', 'lists', 'tools', 'games', 'all', 'promos', 'academics', 'tutorials'];
+function routeFromHash() {
+  const h = (location.hash || '').replace(/^#(?:screen-)?/, '');
+  if (HASH_TABS.includes(h)) switchScreen(h);
+}
+window.addEventListener('hashchange', routeFromHash);
+routeFromHash();
 
 // ── Cache-busted fetch so manifest updates propagate without hard refresh ──
 function fetchNoCache(url) {

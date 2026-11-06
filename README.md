@@ -54,9 +54,9 @@ The default `.io` public dashboard (`docs/index.html`) includes a **📚 Lists**
 
 <br>
 
-<a href="https://github.com/GareBear99/TizWildinEntertainmentHUB/releases/latest"><img src="https://img.shields.io/badge/⬇_DOWNLOAD_HUB_(macOS)-22c55e?style=for-the-badge&logo=apple&logoColor=white" alt="Download macOS" /></a>
-<a href="https://github.com/GareBear99/TizWildinEntertainmentHUB/releases/latest"><img src="https://img.shields.io/badge/⬇_DOWNLOAD_HUB_(Windows)-6c7bbd?style=for-the-badge&logo=windows&logoColor=white" alt="Download Windows" /></a>
-<a href="https://github.com/GareBear99/TizWildinEntertainmentHUB/releases/latest"><img src="https://img.shields.io/badge/⬇_DOWNLOAD_HUB_(Linux)-eab308?style=for-the-badge&logo=linux&logoColor=white" alt="Download Linux" /></a>
+<a href="https://github.com/GareBear99/TizWildinEntertainmentHUB/tree/main/hub_app"><img src="https://img.shields.io/badge/🛠️_BUILD_DESKTOP_APP_FROM_SOURCE-6c7bbd?style=for-the-badge&logo=github&logoColor=white" alt="Build the desktop app from source" /></a>
+
+> No signed installers yet — the desktop VST3/AU/Standalone app is a buildable JUCE scaffold in `hub_app/` (this repo has no GitHub Releases yet), so there is no installer to download. The live HUB is the web dashboard below; when the first Release ships, this badge will point at its installers.
 
 <br>
 
@@ -112,7 +112,7 @@ The HUB is its own **TizWildinEntertainment product** — a **VST3/AU plugin + S
 - **🆓 Free-version-first delivery** — every plugin on the HUB has a free version
 - **💳 Payments stay in the plugin** — optional upgrades, unlocks, or purchases happen inside each product instead of inside the HUB
 
-> Available as: **VST3** · **AU** · **Standalone** — [download the latest release](https://github.com/GareBear99/TizWildinEntertainmentHUB/releases/latest)
+> Available now as the [live web dashboard](https://garebear99.github.io/TizWildinEntertainmentHUB/). The desktop VST3/AU/Standalone app is a [buildable JUCE scaffold](https://github.com/GareBear99/TizWildinEntertainmentHUB/tree/main/hub_app) — no signed installers or GitHub Release yet.
 
 <p align="center"><img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%"></p>
 
@@ -329,14 +329,6 @@ The dashboard automatically picks it up and checks for releases.
 
 <p align="center"><img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%"></p>
 
-## 🗃️ PROJECT STATS
-
-<div align="center">
-  <a href="https://github.com/GareBear99">
-    <img src="https://github-readme-stats.vercel.app/api?username=GareBear99&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0b12&title_color=6c7bbd&icon_color=22c55e&text_color=e8eaf0" />
-  </a>
-</div>
-
 <p align="center"><img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%"></p>
 
 <div align="center">
@@ -347,8 +339,8 @@ Explore the full plugin and resource list: [**Awesome Audio Plugins & Dev**](htt
 
 ### 💫 Thanks to our supporters
 
-<a href="https://github.com/GareBear99/TizWildinEntertainmentHUB/stargazers">
-  <img src="http://reporoster.com/stars/dark/GareBear99/TizWildinEntertainmentHUB" alt="Stargazers" />
+<a href="https://github.com/GareBear99/TizWildinEntertainmentHUB">
+  <img src="https://img.shields.io/github/stars/GareBear99/TizWildinEntertainmentHUB?style=flat&color=eab308&logo=github&logoColor=white&label=Stars" alt="Stargazers" />
 </a>
 
 <a href="https://github.com/GareBear99/TizWildinEntertainmentHUB/network/members">
@@ -535,3 +527,10 @@ python scripts/benchmark_public_index.py
 The public HUB landing page now combines a polished SaaS-style hero with the existing crawlable source-of-truth architecture. The top of `docs/index.html` now presents the ecosystem like a premium product front door, while the lower sections preserve the live plugin manifests, free-version routes, release checks, public lists, JSON indexes, sitemap, LLM index, ARC source spine, and release-vault routing.
 
 See `docs/HUB_TRUST_SPINE.md` for the trust-spine positioning and claim-safe public messaging.
+
+## AdSense / ads.txt
+
+- Publisher ID (confirmed live in the AdSense account, 2026-11-03): `pub-5584590642779290` — see `docs/ads.txt` (`google.com, pub-5584590642779290, DIRECT, f08c47fec0942fa0`).
+- Auto ads is ON for `garebear99.github.io`; the AdSense code is pub-ID-only. **Zero ad units exist in the account, so no slot IDs exist anywhere — none are invented here, and the HUB needs none.**
+- No AdSense code is live on the HUB yet, so no ads are served here. The privacy policy (`docs/pages/privacy-policy.html`) discloses the future advertising-cookie behaviour.
+- **Domain-root limitation:** AdSense only checks `ads.txt` at the domain root (`garebear99.github.io/ads.txt`). The HUB's own `docs/ads.txt` (served at `/TizWildinEntertainmentHUB/ads.txt`) declares the seller relationship but does NOT clear AdSense's "ads.txt: Not found" for the site — the root `ads.txt` ships with the separate `garebear99.github.io` root-site package (`root-site/` in the ADMENSION work).

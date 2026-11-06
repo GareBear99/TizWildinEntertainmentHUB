@@ -368,6 +368,91 @@ def collect_items() -> list[LinkItem]:
             source_manifest="generator fixed routes",
         ))
 
+    # Hand-written site pages (account / API / docs / about / contact /
+    # privacy policy). These are real pages linked from the dashboard nav,
+    # but they are not generated from a JSON manifest, so they were invisible
+    # to the index and sitemap until they were listed here explicitly.
+    # render_page=False: the generator indexes them without overwriting the
+    # hand-written HTML. Added 2026-11-03 (orphan-page cleanup).
+    site_pages = [
+        # (cluster, kind, name, description, url, tags, priority, page_slug)
+        ("HUB Site Pages", "Account / Licence Route", "Account",
+         "Sign in with Google to manage your TizWildin plugin license keys, SoundCloud/Spotify links, and Master Key subscription.",
+         f"{BASE}/pages/account.html", ["account", "licence", "master-key", "auth"], 1, "account"),
+        ("HUB Site Pages", "API Reference", "API Reference",
+         "Complete API documentation for the TizWildin HUB Cloudflare Worker backend — authentication, licensing, Master Key subscriptions, and Stripe integration.",
+         f"{BASE}/pages/api.html", ["api", "cloudflare-workers", "stripe", "licences"], 1, "api"),
+        ("HUB Site Pages", "Documentation", "Documentation",
+         "Documentation for the TizWildin Entertainment HUB — free audio plugins, sample packs, MIDI tools, games, ARC source spine, and creator ecosystem.",
+         f"{BASE}/pages/docs.html", ["docs", "guide", "help", "getting-started"], 1, "docs"),
+        ("HUB Site Pages", "About Page", "About the HUB",
+         "About the TizWildin Entertainment HUB: 20 free audio plugins, 11 free sample packs, browser tools, games and research from Gary Doman (GareBear99 / TizWildin).",
+         f"{BASE}/pages/about.html", ["about", "tizwildin", "garebear99"], 1, "about"),
+        ("HUB Site Pages", "Contact Page", "Contact",
+         "Contact the TizWildin Entertainment HUB: support, bug reports, licensing and community links for Gary Doman (GareBear99 / TizWildin). No public email — the fastest route is a GitHub issue.",
+         f"{BASE}/pages/contact.html", ["contact", "support", "issues"], 1, "contact"),
+        ("HUB Site Pages", "Privacy Policy", "Privacy Policy",
+         "Privacy Policy for the TizWildin Entertainment HUB: what data the site collects, cookies and advertising disclosures, third-party services, and your rights.",
+         f"{BASE}/pages/privacy-policy.html", ["privacy", "cookies", "adsense", "policy"], 1, "privacy-policy"),
+        # Legacy itch route pages that the inventory autopull dropped from
+        # all_items.json (renamed/delisted there) but whose itch products are
+        # still live — verified HTTP 200 on 2026-11-03. Kept indexed with
+        # their existing hand-built route pages; source_manifest is NOT
+        # all_items.json so the validator's itch-coverage guard is unaffected.
+        ("Game Asset Store / Itch Inventory", "Itch Game Tool / Formula",
+         "Arcanum I - Part 3 — Animated Full-Screen VFX Overlays (30 screens, 960 frames)",
+         "Arcanum I - Part 3 — Animated Full-Screen VFX Overlays (30 screens, 960 frames) Official GareBearProductionz itch product ($3.33) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.",
+         "https://garebearproductionz.itch.io/arcanum-i-part-3-animated-full-screen-vfx-overlays-30-screens-960-frames",
+         ["itch", "game-assets", "garebearproductionz"], 42, "itch-arcanum-i-part-3-animated-full-screen-vfx-overlays-30-screens-960-frames"),
+        ("Game Asset Store / Itch Inventory", "Itch Asset Pack",
+         "Crawl Space SVG Live Backdrop Engine & Animated Prop Layers",
+         "Crawl-space live backdrop engine with animated SVG prop layers. Official GareBearProductionz itch product ($1.25 -50%) in the Live Backdrops & Scene Engines line; checkout and downloads happen on the official itch page.",
+         "https://garebearproductionz.itch.io/crawl-space-svg-live-backdrop-engine-animated-props",
+         ["itch", "game-assets", "garebearproductionz"], 42, "itch-crawl-space-svg-live-backdrop-engine-animated-props"),
+        ("Game Asset Store / Itch Inventory", "Itch Asset Pack",
+         "Dark Fantasy Modular GUI Pack - 704 UI Assets + 160 Icons + 64 Glyphs",
+         "Full Graphical Interface Official GareBearProductionz itch product ($5.25 -25%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.",
+         "https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs",
+         ["itch", "game-assets", "garebearproductionz"], 42, "itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs"),
+        ("Game Asset Store / Itch Inventory", "Itch Asset Pack",
+         "ENCHANTED SPRITE FX ENGINE",
+         "HOLOGRAPHIC Official GareBearProductionz itch product ($9.75 -25%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.",
+         "https://garebearproductionz.itch.io/enchanted-sprite-fx-engine",
+         ["itch", "game-assets", "garebearproductionz"], 42, "itch-enchanted-sprite-fx-engine"),
+        ("Game Asset Store / Itch Inventory", "Itch Game Tool / Formula",
+         "EZ GUI Menu Panels",
+         "EZ GUI Menu Panels Official GareBearProductionz itch product ($2.50) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.",
+         "https://garebearproductionz.itch.io/menu-panels",
+         ["itch", "game-assets", "garebearproductionz"], 42, "itch-menu-panels"),
+        ("Game Asset Store / Itch Inventory", "Itch Game Tool / Formula",
+         "SLAGWORKS: CinderHaul - 4 Map Animated Tileset + 2 Bonus Maps",
+         "SLAGWORKS: CinderHaul - 4 Map Animated Tileset + 2 Bonus Maps Official GareBearProductionz itch product ($3.33) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.",
+         "https://garebearproductionz.itch.io/slagworks-4-map-animated-tileset",
+         ["itch", "game-assets", "garebearproductionz"], 42, "itch-slagworks-4-map-animated-tileset"),
+    ]
+    existing = {i.name.lower() for i in items}
+    for cluster, kind, name, desc, url, tags, prio, page_slug in site_pages:
+        if name.lower() in existing:
+            continue
+        is_itch = kind.startswith("Itch")
+        items.append(LinkItem(
+            cluster=cluster,
+            kind=kind,
+            name=name,
+            description=desc,
+            repo="" if is_itch else "TizWildinEntertainmentHUB",
+            url=url,
+            docs=f"{BASE}/pages/all-account-inventory.html" if is_itch else "",
+            status="released" if is_itch else "public route",
+            tags=tags,
+            priority=prio,
+            license="See individual itch page" if is_itch else "See repository",
+            language="HTML / JavaScript / Assets" if is_itch else "HTML / JavaScript",
+            source_manifest="generator fixed site pages",
+            page_slug=page_slug,
+            render_page=False,
+        ))
+
     # Deduplicate by page id, keeping the highest-priority item.
     dedup: dict[str, LinkItem] = {}
     for item in sorted(items, key=lambda x: (x.priority, x.name.lower())):

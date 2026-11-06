@@ -1,0 +1,22 @@
+# ads.txt for TizWildin Entertainment HUB
+# https://garebear99.github.io/TizWildinEntertainmentHUB/
+#
+# Publisher ID CONFIRMED live in Gary's AdSense account on 2026-11-03:
+# pub-5584590642779290 (ca-pub-5584590642779290). Auto ads is ON for
+# garebear99.github.io and the AdSense code is pub-ID-only.
+#
+# ZERO ad units exist in the AdSense account, so NO slot IDs exist anywhere.
+# Do not invent slot IDs — the HUB needs none (Auto ads uses the publisher
+# ID alone). No AdSense code is live on the HUB yet, so no ads are served
+# here; this file only declares the authorised seller relationship.
+#
+# IMPORTANT — domain-root limitation: AdSense only checks ads.txt at the
+# DOMAIN ROOT, i.e. https://garebear99.github.io/ads.txt. This file lives
+# at /TizWildinEntertainmentHUB/ads.txt and does NOT satisfy AdSense's
+# "ads.txt: Not found" status for the site. The root ads.txt ships with the
+# separate garebear99.github.io root-site package (root-site/ in the
+# ADMENSION work) — that is what clears the "Not found" check, not this file.
+# Do not invent or substitute a different publisher ID.
+
+# Google AdSense
+google.com, pub-5584590642779290, DIRECT, f08c47fec0942fa0

@@ -127,9 +127,9 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
 
 - DAFx26 Paper: Simper SVF Topology and EQ Frequency Cramping (dev.to): DAFx26 Demo Track announcement for the FreeEQ8 paper: Simper SVF topology, SPSC concurrency, and variable-cadence Dynamic EQ. The article's title predates the paper's withdrawal of the decramping claim - the SVF does not decramp, both topologies measure identical, and a -3.383 dB cramping error remains at the geometric-mean frequency; real decramping is future work.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/dafx26-paper-simper-svf-topology-and-eq-frequency-cramping-dev-to.html
-  Public URL: https://dev.to/tizwildin/we-eliminated-eq-frequency-cramping-without-oversampling-heres-how-dafx26-paper-4f7l
+  Public URL: https://github.com/GareBear99/FreeEQ8/blob/main/paper/DAFx26_FreeEQ8.pdf
   GitHub: https://github.com/GareBear99/FreeEQ8
-  Tags: dsp, svf, cramping, dafx, parametric-eq, oversampling, dev.to, paper, technical-writing
+  Tags: dsp, svf, cramping, dafx, parametric-eq, oversampling, paper, paper, technical-writing
 
 - FreeEQ8 Current Status: Open-Source Parametric EQ, Rekkerd Coverage, and the Road to Smart EQ: Published milestone article covering FreeEQ8's Rekkerd.org press coverage, current feature set, Smart EQ layer roadmap (explainable deterministic mix-assist), and Match EQ direction.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/freeeq8-current-status-open-source-parametric-eq-rekkerd-coverage-and-the-road-to-smart-eq.html
@@ -487,6 +487,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
+- Arcanum I - Part 3 — Animated Full-Screen VFX Overlays (30 screens, 960 frames): Arcanum I - Part 3 — Animated Full-Screen VFX Overlays (30 screens, 960 frames) Official GareBearProductionz itch product ($3.33) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-arcanum-i-part-3-animated-full-screen-vfx-overlays-30-screens-960-frames.html
+  Public URL: https://garebearproductionz.itch.io/arcanum-i-part-3-animated-full-screen-vfx-overlays-30-screens-960-frames
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
 - Black & Red Dice SVG & PNG 2D-3D Export Engine: Black & Red Dice SVG & PNG 2D-3D Export Engine Official GareBearProductionz itch product ($3.50 -50%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-black-red-dice-svg-png-export-engine.html
   Public URL: https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine
@@ -529,6 +535,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
+- Crawl Space SVG Live Backdrop Engine & Animated Prop Layers: Crawl-space live backdrop engine with animated SVG prop layers. Official GareBearProductionz itch product ($1.25 -50%) in the Live Backdrops & Scene Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-crawl-space-svg-live-backdrop-engine-animated-props.html
+  Public URL: https://garebearproductionz.itch.io/crawl-space-svg-live-backdrop-engine-animated-props
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
 - Dark Fantasy Dungeon Builder - Free Four-Realm Tileset: Dark Fantasy Dungeon Builder - Free Four-Realm Tileset Official GareBearProductionz itch product (Free) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-dark-fantasy-dungeon-builder-free-four-realm-tileset.html
   Public URL: https://garebearproductionz.itch.io/dark-fantasy-dungeon-builder-free-four-realm-tileset
@@ -538,6 +550,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
 - Dark Fantasy Modular GUI Pack - 704 UI Assets + 160 Icons: Full Graphical Interface - 704 UI Assets + 160 Icons + 64 Glyphs Official GareBearProductionz itch product ($7.15 -35%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html
   Public URL: https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
+- Dark Fantasy Modular GUI Pack - 704 UI Assets + 160 Icons + 64 Glyphs: Full Graphical Interface Official GareBearProductionz itch product ($5.25 -25%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html
+  Public URL: https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
@@ -559,6 +577,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
+- ENCHANTED SPRITE FX ENGINE: HOLOGRAPHIC Official GareBearProductionz itch product ($9.75 -25%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-enchanted-sprite-fx-engine.html
+  Public URL: https://garebearproductionz.itch.io/enchanted-sprite-fx-engine
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
 - ENCHANTED SPRITE VFX ENGINE: HOLOGRAPHIC Official GareBearProductionz itch product ($8.45 -35%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-enchanted-sprite-vfx-engine.html
   Public URL: https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine
@@ -570,6 +594,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://garebearproductionz.itch.io/evil-eye-four-pack
   GitHub: N/A
   Tags: evil-eye, svg, animation, icons, pixel-art, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- EZ GUI Menu Panels: EZ GUI Menu Panels Official GareBearProductionz itch product ($2.50) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-menu-panels.html
+  Public URL: https://garebearproductionz.itch.io/menu-panels
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
 
 - FREE Haunter Sprites: FREE Haunter Sprites Official GareBearProductionz itch product (FREE) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-free-haunter-sprites.html
@@ -865,6 +895,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: skully, canvas, engine, skeleton, pixel-art, itch, game-assets, garebearproductionz
 
+- SLAGWORKS: CinderHaul - 4 Map Animated Tileset + 2 Bonus Maps: SLAGWORKS: CinderHaul - 4 Map Animated Tileset + 2 Bonus Maps Official GareBearProductionz itch product ($3.33) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-slagworks-4-map-animated-tileset.html
+  Public URL: https://garebearproductionz.itch.io/slagworks-4-map-animated-tileset
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
 - SLAGWORKS: CinderHaul - 6 Map Animated Tileset 1,910 Sprites: SLAGWORKS: CinderHaul - 6 Map Animated Tileset 1,910 Sprites Official GareBearProductionz itch product ($2.22 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-slagworks-cinderhaul-6-map-animated-tileset.html
   Public URL: https://garebearproductionz.itch.io/slagworks-cinderhaul-6-map-animated-tileset
@@ -1034,6 +1070,44 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/wraitheternal.html
   GitHub: N/A
   Tags: game, game, interactive-demo
+
+## HUB Site Pages
+
+- About the HUB: About the TizWildin Entertainment HUB: 20 free audio plugins, 11 free sample packs, browser tools, games and research from Gary Doman (GareBear99 / TizWildin).
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/about.html
+  Public URL: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/about.html
+  GitHub: https://github.com/GareBear99/TizWildinEntertainmentHUB
+  Tags: about, tizwildin, garebear99
+
+- Account: Sign in with Google to manage your TizWildin plugin license keys, SoundCloud/Spotify links, and Master Key subscription.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/account.html
+  Public URL: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/account.html
+  GitHub: https://github.com/GareBear99/TizWildinEntertainmentHUB
+  Tags: account, licence, master-key, auth
+
+- API Reference: Complete API documentation for the TizWildin HUB Cloudflare Worker backend — authentication, licensing, Master Key subscriptions, and Stripe integration.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/api.html
+  Public URL: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/api.html
+  GitHub: https://github.com/GareBear99/TizWildinEntertainmentHUB
+  Tags: api, cloudflare-workers, stripe, licences
+
+- Contact: Contact the TizWildin Entertainment HUB: support, bug reports, licensing and community links for Gary Doman (GareBear99 / TizWildin). No public email — the fastest route is a GitHub issue.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/contact.html
+  Public URL: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/contact.html
+  GitHub: https://github.com/GareBear99/TizWildinEntertainmentHUB
+  Tags: contact, support, issues
+
+- Documentation: Documentation for the TizWildin Entertainment HUB — free audio plugins, sample packs, MIDI tools, games, ARC source spine, and creator ecosystem.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/docs.html
+  Public URL: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/docs.html
+  GitHub: https://github.com/GareBear99/TizWildinEntertainmentHUB
+  Tags: docs, guide, help, getting-started
+
+- Privacy Policy: Privacy Policy for the TizWildin Entertainment HUB: what data the site collects, cookies and advertising disclosures, third-party services, and your rights.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/privacy-policy.html
+  Public URL: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/privacy-policy.html
+  GitHub: https://github.com/GareBear99/TizWildinEntertainmentHUB
+  Tags: privacy, cookies, adsense, policy
 
 ## Promotionals and Community
 
@@ -1274,62 +1348,3 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://github.com/GareBear99/TizWildin-Skyline
   GitHub: https://github.com/GareBear99/TizWildin-Skyline
   Tags: synthwave, darkwave, loops, sample-pack, producer-tools
-
-## Source Repository Search Index
-- Repository file search: https://garebear99.github.io/TizWildinEntertainmentHUB/repo-file-search.html
-- Awesome Audio Plugins Dev source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-awesome-audio-plugins-dev.html
-- TizWildinEntertainmentHUB source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-entertainment-hub.html
-- Awesome Audio Lists source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-awesome-audio-lists.html
-- Awesome Music Platforms source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-awesome-music-platforms.html
-- Awesome Python Audio Science source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-awesome-python-audio-science.html
-- FreeEQ8 source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freeeq8.html
-- FreeVox8 source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freevox8.html
-- TizWildin Release Vault source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-release-vault.html
-- TizWildin .io Router source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-io-router.html
-- Deconstructed Loops / Packs Router source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-deconstructed-loops-router.html
-- ARC-Neuron-LLMBuilder source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-neuron-llmbuilder.html
-- Therum source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-therum.html
-- ARC-Core source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-core.html
-- arc-lucifer-cleanroom-runtime source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-lucifer-cleanroom-runtime.html
-- arc-language-module source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-language-module.html
-- Arc-RAR source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-rar.html
-- OmniBinary Runtime source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-omnibinary-runtime.html
-- AETHER source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-aether.html
-- BassMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-bassmaid.html
-- ChainMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-chainmaid.html
-- FreeSampler source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freesampler.html
-- GlueMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-gluemaid.html
-- Instrudio source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-instrudio.html
-- MeterMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-metermaid.html
-- MixMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-mixmaid.html
-- MultiMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-multimaid.html
-- PaintMask source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-paintmask.html
-- RiftWave Suite source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-riftwavesuite.html
-- SpaceMaid source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-spacemaid.html
-- WhisperGate source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-whispergate.html
-- WURP source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-wurp.html
-- XyloCore source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-xylocore.html
-- ARC-AudioBench source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-arc-audiobench.html
-- BannerBass source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-bannerbass.html
-- Instrudio Bongo source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-instrudio-bongo.html
-- Instrudio Harp source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-instrudio-harp.html
-- Instrudio Violin source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-instrudio-violin.html
-- PAP-Forge-Audio source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-pap-forge-audio.html
-- VF-PlexLab source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-vf-plexlab.html
-- Voxel Audio source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-voxel-audio.html
-- Neolution source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-neolution.html
-- RiftAscent source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-rift-ascent.html
-- FreeEQ8 Technical Architecture (dev.to) source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freeeq8-devto.html
-- Real-Time State-Space Parameterization and Lock-Free Semantic Analysis in Digital Equalization source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-freeeq8-paper.html
-- Studio Violin: Helmholtz Bowed String, H2 Correction, Stradivari Body EQ, and Sympathetic Resonance source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-instrudio-violin-devto.html
-- Free 808 Producer Kit source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-free-808-producer.html
-- Free Dark Piano Sound Kit source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-free-dark-piano.html
-- Free Future Bass Producer Kit source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-free-future-bass.html
-- Free Riser Producer Kit source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-free-riser-producer.html
-- Free Violin Synth Sample Kit source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-free-violin-synth.html
-- Phonk Producer Toolkit source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-phonk-producer.html
-- TizWildin-Aurora source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-aurora.html
-- TizWildin-Chime source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-chime.html
-- TizWildin-Chroma source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-chroma.html
-- TizWildin-Obsidian source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-obsidian.html
-- TizWildin-Skyline source index: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-skyline.html

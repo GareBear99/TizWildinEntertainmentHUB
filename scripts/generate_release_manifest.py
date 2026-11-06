@@ -17,7 +17,7 @@ for p in catalog['products']:
         'channel': 'stable',
         'latestVersion': version,
         'artifactMode': 'source',
-        'artifactUrl': f'https://github.com/GareBear99/{product_id}',
+        'artifactUrl': f'https://github.com/GareBear99/{p.get("repo") or product_id}',
         'sha256': digest(product_id + version),
         'signature': 'arc-demo-generated'
     }
