@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-11-05
+Generated: 2026-11-06
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **207**
+- Total indexed records: **208**
 - Total clusters: **11**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -168,6 +168,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Necrommancers Sacred Geometry Audio ToolKit](pages/itch-necrommancers-audio-toolkit.html) | Itch Asset Pack | https://garebearproductionz.itch.io/necrommancers-audio-toolkit | itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [Neolution & Grid Engine (Controller Support)](pages/itch-neolution-grid-engine.html) | Itch Playable Game / Engine | https://garebearproductionz.itch.io/neolution-grid-engine | neolution, rhythm, grid, controller, canvas, itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [NPC Theme of Sacrifice](pages/itch-npc-theme-of-sacrifice.html) | Itch Asset Pack | https://garebearproductionz.itch.io/npc-theme-of-sacrifice | npc, theme, music, audio, sacrifice, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
+| [Orc Bungalo - Mystic Meadow Arena Kit](pages/itch-orc-bungalo-mystic-meadow-arena-kit.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/orc-bungalo-mystic-meadow-arena-kit | itch, game-assets, garebearproductionz |
 | [Orerry Solar System Pack - Live VFX Animations + Scale Accuracy & Tilt](pages/itch-orerry-solar-system-pack.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/orerry-solar-system-pack | itch, game-assets, garebearproductionz |
 | [Pixel Abyssal Teleportation Device](pages/itch-pixel-abyssal-teleporter.html) | Itch Asset Pack | https://garebearproductionz.itch.io/pixel-abyssal-teleporter | teleporter, abyssal, pedestal, pixel-art, prop, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Pixel Blood & Bone Demon Scythe + SVG (FREE)](pages/itch-blood-bone-scythe.html) | Itch Asset Pack | https://garebearproductionz.itch.io/blood-bone-scythe | free, scythe, demon, weapon, svg, itch, game-assets, garebearproductionz |

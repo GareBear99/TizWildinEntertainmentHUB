@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-11-05
+Generated: 2026-11-06
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -744,6 +744,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://garebearproductionz.itch.io/npc-theme-of-sacrifice
   GitHub: N/A
   Tags: npc, theme, music, audio, sacrifice, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
+
+- Orc Bungalo - Mystic Meadow Arena Kit: A mystic meadow arena kit: orc king on his throne, bonus blimp fleet, pixie and orc crowds, 77 tiles, full UI kit. Official GareBearProductionz itch product ($5.50) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-orc-bungalo-mystic-meadow-arena-kit.html
+  Public URL: https://garebearproductionz.itch.io/orc-bungalo-mystic-meadow-arena-kit
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
 
 - Orerry Solar System Pack - Live VFX Animations + Scale Accuracy & Tilt: Orerry Solar System Pack - Live VFX Animations + Scale Accuracy & Tilt Official GareBearProductionz itch product (paid) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-orerry-solar-system-pack.html
