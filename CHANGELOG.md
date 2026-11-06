@@ -1,4 +1,11 @@
 
+## 2026-11-05 — Itch inventory, ProEQ8 catalog, Cloudflare inventory
+
+- Added the 4 live audio packs to the itch inventory (107 → 111 items): 808 Producer Kit ($1.37 CAD), Subwoofer Crown Bass Pack (free), Violin Synth Sample Kit ($2.50 CAD), A Devil's Game – Hellfire Arena Kit ($2.10 CAD). The itch refresh run that followed (17:22 UTC) enriched 3 of the 4 with live covers/descriptions; A Devil's Game detail fetch hit itch rate-limiting (HTTP 429) and kept its manual entry plus a profile fallback.
+- Made ProEQ8 visible in the catalog as the commercial pro EQ; fixed the live site loading its own data (JSONs at the site URL, relative fetches); consolidated the catalog to one source of truth; moved Therum to dev; corrected the DAFx26 claim and the Riser count.
+- Account page now sends its session token on account reads (ready for the fixed tizwildin-hub worker v3.2.0).
+- Added `CLOUDFLARE.md`: worker inventory, repo mapping, and live ping results for the Cloudflare account.
+
 ## 2026-05-03 — V1 Start Here List Routing Update
 
 - Promoted `awesome-audio-plugins-dev` as the canonical **Start Here** list on the default public V1 dashboard.

@@ -15,6 +15,8 @@ One-time or subscription bundle for `ownsEveryVST`.
 - Quantity-based: yes
 - Quantity cap enforced by ARC: 0..9 extra seats
 
+> **Not the Master Key.** The 0..9 cap above (and `maxExtraSeats: 9` in `arc_service/app/data/products.catalog.json`) belongs to the ARC-side "Extra Seats" product for the ownsEveryVST bundle. The live license worker (tizwildin-hub) caps **Master Key at 3 seats** (`Math.min(3, …)` on checkout and link; $3 CAD/seat/month, max $9 CAD/month). Do not read the 9 as a Master Key seat count — the two numbers are different products enforced in different places.
+
 ## Webhooks ARC should ingest
 - checkout.session.completed
 - customer.subscription.created

@@ -83,6 +83,7 @@ The HUB backend is a Cloudflare Worker handling authentication, licensing, subsc
 ## ProEQ8 Licensing
 
 ### POST /activate
+A license activates on at most **2 devices** (worker-enforced: `MAX_DEVICES_PER_LICENSE=2` in the tizwildin-hub worker; a third activation is rejected until a slot is freed via `/deactivate`).
 **Request:**
 ```json
 {
@@ -190,6 +191,8 @@ Master Key allows 1-3 seats per subscription at $3 CAD/seat/month.
 ```
 
 > **Security follow-up (open):** `/hub/master-key/link`, `/hub/master-key/unlink`, and `/hub/master-key/reset` currently accept only the owner's email — there is no ownership proof, so anyone who knows a Master Key owner's email can link/unlink/reset seats (link even returns the generated seat license key). The account-read endpoints (`/hub/products`, `/hub/account`, `/hub/master-key/status`) were fixed to require a session token or license key; these three were not, because fixing them needs a design decision (how the page proves Master Key ownership on link/unlink) plus a worker change. Do not rely on these endpoints being restricted until that lands.
+>
+> **Decision owed (Gary):** what ownership proof must `/hub/master-key/link`, `/unlink`, and `/reset` require? Options: (a) the same session token the account page now sends on `/hub/account` reads; (b) proof of the owner's Master Key license key; (c) a signed request. Until Gary picks one, the worker is unchanged (email-only) and the account page does not call these endpoints. Picking (a) or (b) needs a worker change plus an account-page change; the choice also decides whether a linked seat key can ever be returned to an unauthenticated caller (today it can).
 
 ---
 
@@ -229,6 +232,8 @@ Master Key allows 1-3 seats per subscription at $3 CAD/seat/month.
 
 ### POST /create-checkout
 ProEQ8 one-time purchase ($29.99 CAD).
+
+> **Price decision owed (Gary):** the $29.99 CAD figure above is what the tizwildin-hub worker source currently carries (`proeq8: { price: 2999 }`); the ProEQ8 price itself is **not decided** — $20 USD vs $29.99 CAD is Gary's call — and checkout is not live (no deployed checkout worker). Do not treat $29.99 CAD as the settled price until Gary confirms it.
 ```json
 {
   "email": "user@example.com",
