@@ -11,6 +11,14 @@ Why build-time instead of browser-time?
 
 So this script pulls the public itch pages, writes the manifest, and the site then
 loads all_items.json with cache busting just like plugins.json/packs.json/etc.
+
+Media URLs are verified, not just collected: every cover/animated URL is
+HEAD-checked during the refresh. A URL that 404s is replaced from the item's
+current detail page (og:image / screenshots, first live candidate wins) and
+the swap is recorded in the run report; a URL that still cannot be resolved
+is flagged there instead of being silently kept. A URL that cannot be
+checked (429 / 5xx / network error after retries) is "unknown" — never
+treated as dead — so a rate-limit can never rewrite working media.
 """
 from __future__ import annotations
 
@@ -19,6 +27,7 @@ import html
 import http.client
 import json
 import re
+import subprocess
 import sys
 import time
 from dataclasses import dataclass
@@ -90,7 +99,27 @@ def fetch(url: str, timeout: int = 25, tries: int = 3, sleep_s: float = 0.8) -> 
             last = exc
             if attempt + 1 < tries:
                 time.sleep(sleep_s)
+    # Last resort: itch resets urllib connections mid-body (IncompleteRead)
+    # and rate-limits urllib harder than curl. curl ships on the GitHub
+    # runner, macOS, and any normal Python host, so one curl attempt keeps a
+    # transient transport failure from failing the whole refresh.
+    try:
+        return _fetch_curl(url, timeout)
+    except Exception as exc:
+        last = exc
     raise RuntimeError(f"failed to fetch {url}: {last}")
+
+
+def _fetch_curl(url: str, timeout: int = 25) -> str:
+    proc = subprocess.run(
+        ["curl", "-sS", "--fail", "--max-time", str(timeout),
+         "-A", USER_AGENT, "-H", "Accept: text/html,application/xhtml+xml", url],
+        capture_output=True, timeout=timeout + 10)
+    if proc.returncode != 0:
+        raise RuntimeError(
+            f"curl failed ({proc.returncode}): "
+            f"{proc.stderr.decode('utf-8', 'replace').strip()[:200]}")
+    return proc.stdout.decode("utf-8", errors="replace")
 
 
 def clean_text(s: str) -> str:
@@ -180,6 +209,101 @@ def pick_media(urls: Iterable[str]) -> dict:
     cover = next((u for u in urls if u != animated), "") or animated
     media_type = "gif" if animated else ("image" if cover else "fallback")
     return {"cover": cover, "animated": animated, "type": media_type}
+
+
+_HEAD_CACHE: dict[str, str] = {}
+
+
+def head_status(url: str, tries: int = 3) -> str:
+    """Return 'live', 'dead', or 'unknown' for a media URL.
+
+    HEAD first (no body, so itch's mid-body connection resets cannot bite);
+    fall back to a ranged GET when HEAD is refused. 404/410 is dead.
+    429/5xx/network errors are retried, then reported as unknown so a
+    rate-limit never deletes or rewrites a working URL.
+    """
+    for attempt in range(tries):
+        for method in ("HEAD", "GET"):
+            try:
+                req = Request(url, method=method, headers={"User-Agent": USER_AGENT})
+                if method == "GET":
+                    req.add_header("Range", "bytes=0-0")
+                with urlopen(req, timeout=20) as resp:
+                    if resp.status in (200, 206):
+                        return "live"
+                    if resp.status in (404, 410):
+                        return "dead"
+                    return "unknown"
+            except HTTPError as exc:
+                if exc.code in (404, 410):
+                    return "dead"
+                if exc.code in (429, 500, 502, 503, 504):
+                    break  # retry the whole attempt
+                return "unknown"
+            except (URLError, TimeoutError, http.client.HTTPException):
+                break  # retry the whole attempt
+        if attempt + 1 < tries:
+            time.sleep(2.0 * (attempt + 1))
+    return "unknown"
+
+
+def _head_cached(url: str) -> str:
+    if url not in _HEAD_CACHE:
+        _HEAD_CACHE[url] = head_status(url)
+        time.sleep(0.1)
+    return _HEAD_CACHE[url]
+
+
+def pick_live_media(urls: Iterable[str]) -> dict:
+    """Like pick_media, but skips URLs that do not resolve.
+
+    Verifies candidates in priority order (og:image first) and picks the
+    first live animated GIF and the first live cover. Dead candidates are
+    counted and skipped. When nothing verifies live (e.g. the CDN is
+    rate-limiting HEADs), falls back to the first unverified candidate so a
+    transient outage never empties media — the caller records the
+    verification state instead. Returns the media dict plus 'verified'
+    ('live' | 'unknown' | 'dead') and 'dead_skipped'.
+    """
+    urls = [itch_original(u) for u in urls if u]
+    ordered = list(dict.fromkeys(urls))
+    live_gif = ""
+    live_cover = ""
+    unknown_gif = ""
+    unknown_cover = ""
+    dead_skipped = 0
+    for u in ordered:
+        status = _head_cached(u)
+        if status == "dead":
+            dead_skipped += 1
+            continue
+        is_gif = ".gif" in u.lower()
+        if status == "live":
+            if is_gif and not live_gif:
+                live_gif = u
+            elif not live_cover:
+                live_cover = u
+        else:  # unknown
+            if is_gif and not unknown_gif:
+                unknown_gif = u
+            elif not unknown_cover:
+                unknown_cover = u
+        if live_gif and live_cover:
+            break
+    animated = live_gif or unknown_gif
+    cover = live_cover or unknown_cover or animated
+    if animated and cover:
+        if _HEAD_CACHE.get(animated) == "live" and _HEAD_CACHE.get(cover) == "live":
+            verified = "live"
+        else:
+            verified = "unknown"
+    elif animated or cover:
+        verified = "unknown"
+    else:
+        verified = "dead"
+    media_type = "gif" if animated else ("image" if cover else "fallback")
+    return {"cover": cover, "animated": animated, "type": media_type,
+            "verified": verified, "dead_skipped": dead_skipped}
 
 
 def parse_meta_media(page_html: str, base: str) -> list[str]:
@@ -351,16 +475,16 @@ def scrape_sale_memberships(sales: list[dict]) -> dict[str, list[str]]:
     return memberships
 
 
-def enrich_from_detail_page(item: dict) -> tuple[dict, str]:
+def enrich_from_detail_page(item: dict) -> tuple[dict, str, dict]:
     url = item.get("url", "")
     if not url:
-        return item, "no-url"
+        return item, "no-url", {"verified": "dead", "dead_skipped": 0}
     try:
         body = fetch(url, tries=1)
     except Exception as exc:
-        return item, f"detail-fetch-failed:{exc}"
+        return item, f"detail-fetch-failed:{exc}", {"verified": "unknown", "dead_skipped": 0}
     media_urls = parse_meta_media(body, url)
-    picked = pick_media(media_urls)
+    picked = pick_live_media(media_urls)
     media = item.setdefault("media", {})
     if picked.get("animated"):
         media["animated"] = picked["animated"]
@@ -377,7 +501,82 @@ def enrich_from_detail_page(item: dict) -> tuple[dict, str]:
         m = re.search(label + r"\s+([^\n\r]{0,80}?)(?:Status|Category|Author|Tags|Purchase|$)", text, re.I)
         if m:
             itch[label.lower()] = " ".join(m.group(1).split())[:80]
-    return item, "ok"
+    return item, "ok", {"verified": picked["verified"], "dead_skipped": picked["dead_skipped"]}
+
+
+def verify_and_repair_media(items: list[dict]) -> dict:
+    """HEAD-verify every item's cover/animated; repair dead ones from the detail page.
+
+    Runs after merge + enrich, so it also covers media that came from the
+    profile page or survived a failed detail enrichment. A dead URL is
+    replaced with the first live candidate from a fresh detail-page fetch;
+    a URL that still cannot be resolved stays in place and is listed in
+    'unresolved' (never silently kept). Returns the verification report.
+    """
+    repaired: list[dict] = []
+    unresolved: list[dict] = []
+    checked_urls = 0
+    live_urls = 0
+    dead_before = 0
+    unverified_urls = 0
+    media_ready = 0
+    for item in items:
+        media = item.setdefault("media", {})
+        cover_status = _head_cached(media["cover"]) if media.get("cover") else "dead"
+        animated_status = _head_cached(media["animated"]) if media.get("animated") else "dead"
+        if media.get("cover"):
+            checked_urls += 1
+        if media.get("animated"):
+            checked_urls += 1
+        for status in (cover_status, animated_status):
+            if status == "live":
+                live_urls += 1
+            elif status == "unknown":
+                unverified_urls += 1
+        dead_fields = [f for f, s in (("cover", cover_status), ("animated", animated_status))
+                       if media.get(f) and s == "dead"]
+        dead_before += len(dead_fields)
+        if dead_fields:
+            url = item.get("url", "")
+            picked: dict = {}
+            reason = ""
+            if url:
+                try:
+                    body = fetch(url)
+                    picked = pick_live_media(parse_meta_media(body, url))
+                except Exception as exc:
+                    reason = f"detail-refetch-failed:{exc}"
+                time.sleep(0.5)
+            else:
+                reason = "no-url"
+            for field in dead_fields:
+                new = picked.get(field) or ""
+                if new and new != media[field]:
+                    repaired.append({"slug": item.get("id", ""), "field": field,
+                                     "old": media[field], "new": new})
+                    media[field] = new
+                    media["source"] = "itch-detail"
+                    media["updatedAt"] = now_iso()
+                else:
+                    unresolved.append({"slug": item.get("id", ""), "field": field,
+                                       "url": media[field],
+                                       "reason": reason or "no-live-media-on-detail-page"})
+            media["type"] = "gif" if media.get("animated") else ("image" if media.get("cover") else "fallback")
+        final_cover = _head_cached(media["cover"]) if media.get("cover") else "dead"
+        final_animated = _head_cached(media["animated"]) if media.get("animated") else "dead"
+        if final_cover == "live" or final_animated == "live":
+            media_ready += 1
+    return {
+        "checkedUrls": checked_urls,
+        "liveUrls": live_urls,
+        "deadUrlsBeforeRepair": dead_before,
+        "repairedCount": len(repaired),
+        "unresolvedCount": len(unresolved),
+        "unverifiedUrls": unverified_urls,
+        "mediaReadyItems": media_ready,
+        "repaired": repaired,
+        "unresolved": unresolved,
+    }
 
 
 def update_manifest(enrich_details: bool = True, limit: int | None = None) -> tuple[dict, dict]:
@@ -404,12 +603,14 @@ def update_manifest(enrich_details: bool = True, limit: int | None = None) -> tu
     existing_by_slug={slug_from_url(i.get("url", "")): i for i in manifest.get("items", [])}
     merged=[]
     detail_status=[]
+    enrich_dead_skipped = 0
     for scraped_item in scraped:
         slug=slug_from_url(scraped_item.get("url", ""))
         item=merge_item(existing_by_slug.get(slug), scraped_item, known_memberships)
         if enrich_details:
-            item, status = enrich_from_detail_page(item)
+            item, status, note = enrich_from_detail_page(item)
             detail_status.append({"slug": slug, "status": status})
+            enrich_dead_skipped += note.get("dead_skipped", 0)
             time.sleep(0.15)
         merged.append(item)
     # Preserve existing items not currently visible only if they are explicitly marked keep.
@@ -417,6 +618,8 @@ def update_manifest(enrich_details: bool = True, limit: int | None = None) -> tu
     extras=[i for i in manifest.get("items", []) if slug_from_url(i.get("url", "")) not in scraped_slugs and i.get("keepIfMissing")]
     merged.extend(extras)
     merged.sort(key=lambda x: x.get("rank", 999))
+    media_check = verify_and_repair_media(merged)
+    media_check["deadCandidatesSkippedDuringEnrich"] = enrich_dead_skipped
     manifest["items"] = merged
     manifest.setdefault("metadata", {})
     manifest["metadata"].update({
@@ -429,7 +632,9 @@ def update_manifest(enrich_details: bool = True, limit: int | None = None) -> tu
     manifest["generatedAt"] = now_iso()
     paid=sum(1 for i in merged if i.get("priceType") == "paid")
     free=sum(1 for i in merged if i.get("priceType") == "free")
-    media_ready=sum(1 for i in merged if (i.get("media") or {}).get("cover") or (i.get("media") or {}).get("animated"))
+    # mediaReady now means "at least one media URL verified live", not just
+    # "a URL string is present" — the old count was unverified.
+    media_ready = media_check["mediaReadyItems"]
     manifest.setdefault("summary", {})
     manifest["summary"].update({
         "totalItems": len(merged),
@@ -451,6 +656,17 @@ def update_manifest(enrich_details: bool = True, limit: int | None = None) -> tu
         "itemsWritten": len(merged),
         "mediaReadyItems": media_ready,
         "detailStatus": detail_status[:200],
+        "mediaVerification": {
+            "checkedUrls": media_check["checkedUrls"],
+            "liveUrls": media_check["liveUrls"],
+            "deadUrlsBeforeRepair": media_check["deadUrlsBeforeRepair"],
+            "deadCandidatesSkippedDuringEnrich": media_check["deadCandidatesSkippedDuringEnrich"],
+            "repairedCount": media_check["repairedCount"],
+            "unresolvedCount": media_check["unresolvedCount"],
+            "unverifiedUrls": media_check["unverifiedUrls"],
+        },
+        "mediaRepaired": media_check["repaired"],
+        "mediaUnresolved": media_check["unresolved"],
     }
     return manifest, report
 

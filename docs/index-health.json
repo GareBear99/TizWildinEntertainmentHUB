@@ -1,19 +1,19 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-06T04:23:40Z",
-  "qualityGrade": "A",
-  "qualityScore": 90,
+  "generatedAt": "2026-11-06T04:57:17Z",
+  "qualityGrade": "B+",
+  "qualityScore": 80,
   "metrics": {
     "publicRoutes": 208,
     "sitemapUrls": 447,
     "sourceRepos": 56,
     "indexedFiles": 1081,
-    "extractedLinks": 5884,
-    "searchRecords": 7229,
-    "searchTokens": 8737,
+    "extractedLinks": 5631,
+    "searchRecords": 6976,
+    "searchTokens": 8767,
     "readinessAverage": 74.4,
     "pendingHydration": 40,
-    "linkIssues": 0,
+    "linkIssues": 227,
     "benchmarkGrade": "A - fast, validated, and production-ready for current repo graph"
   },
   "nextImprovements": [
