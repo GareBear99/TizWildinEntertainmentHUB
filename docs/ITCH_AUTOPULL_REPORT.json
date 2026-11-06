@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T04:55:02Z",
+  "generatedAt": "2026-11-06T16:48:51Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
   "itemsParsed": 112,
   "itemsWritten": 112,
@@ -135,7 +135,7 @@
     },
     {
       "slug": "shoji-dojo",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/shoji-dojo: curl failed (22): curl: (22) The requested URL returned error: 429"
     },
     {
       "slug": "hemorrhage-blood-fx",
@@ -163,7 +163,7 @@
     },
     {
       "slug": "shadow-pixel-character-pack-copies-any-sprite",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/shadow-pixel-character-pack-copies-any-sprite: curl failed (22): curl: (22) The requested URL returned error: 429"
+      "status": "ok"
     },
     {
       "slug": "shadow-run-map-layers-live-smog-fx",
@@ -179,7 +179,7 @@
     },
     {
       "slug": "shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor: curl failed (22): curl: (22) The requested URL returned error: 429"
     },
     {
       "slug": "shadow-trooper-silhouette-free",
@@ -239,7 +239,7 @@
     },
     {
       "slug": "color-dynamic-sigils-svg-export-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/color-dynamic-sigils-svg-export-pack: curl failed (22): curl: (22) The requested URL returned error: 429"
     },
     {
       "slug": "sphinx-activation-layered-live-map",
@@ -456,21 +456,14 @@
   ],
   "mediaVerification": {
     "checkedUrls": 200,
-    "liveUrls": 199,
-    "deadUrlsBeforeRepair": 1,
-    "deadCandidatesSkippedDuringEnrich": 301,
-    "repairedCount": 1,
+    "liveUrls": 200,
+    "deadUrlsBeforeRepair": 0,
+    "deadCandidatesSkippedDuringEnrich": 299,
+    "repairedCount": 0,
     "unresolvedCount": 0,
     "unverifiedUrls": 0
   },
-  "mediaRepaired": [
-    {
-      "slug": "shadow-pixel-character-pack-copies-any-sprite",
-      "field": "cover",
-      "old": "https://img.itch.zone/aW1nLzI5NjYzMjQ3LmdpZg==/original/3w8dHq.gif",
-      "new": "https://img.itch.zone/aW1nLzI5NjY5ODk3LmdpZg==/original/x04y0n.gif"
-    }
-  ],
+  "mediaRepaired": [],
   "mediaUnresolved": [],
   "sellerPagesBaked": [
     "all-account-inventory.html",
