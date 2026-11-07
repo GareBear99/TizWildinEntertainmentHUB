@@ -54,11 +54,12 @@ This pass upgrades the HUB from a simple public route layer into a repeatable st
 
 ### Current validated build
 
-- Indexed records: 52
-- Static route pages: 52
-- Sitemap URLs: 113
-- Generated social cards: 53
-- Critical routes verified: FreeEQ8, ARC-Core, Public Credibility SEO Tracker
+- Indexed records: 221
+- Static route pages: 330
+- Sitemap URLs: 463
+- Generated social cards: 174
+- Critical routes verified: FreeEQ8, ARC-Core, Public Credibility SEO Tracker, Free Sample Packs landing page (`packs.html`)
+- Validated 2026-11-07 with `python3 scripts/build_public_index.py` → `python3 scripts/build_search_index.py` → `python3 scripts/validate_public_index.py` (VALIDATION OK: 221 items, 463 sitemap URLs, 221 route pages). Packs cluster: 14 entries (13 per-pack pages + the packs landing page). Search index: 7,043 documents, 8,809 tokens.
 
 ### Remaining external-only work
 

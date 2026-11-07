@@ -113,6 +113,14 @@ class RadioQueue:
         self.history: list[dict] = _load_json(HISTORY_FILE)
         self.current_track: dict | None = None
         self._playlist_index = 0
+        # Submissions already played (from history) — without this, a file
+        # sitting in the submissions dir is re-queued on every next_track()
+        # and replays forever, starving the playlist. A re-upload gets a
+        # new timestamped filename, so it is not blocked by this.
+        self._played_submissions: set[str] = {
+            entry.get("file", "") for entry in self.history
+            if entry.get("source") == "submission"
+        }
 
     def refresh_playlist(self) -> None:
         """Refresh playlist from local files (downloaded from SC or manually placed)."""
@@ -126,7 +134,11 @@ class RadioQueue:
     def refresh_submissions(self) -> None:
         """Check for new promotional submissions."""
         subs = scan_submissions(SUBMISSIONS_DIR)
-        new_subs = [s for s in subs if s not in self.submission_queue]
+        new_subs = [
+            s for s in subs
+            if s not in self.submission_queue
+            and Path(s).name not in self._played_submissions
+        ]
         if new_subs:
             self.submission_queue.extend(new_subs)
             print(f"[queue] {len(new_subs)} new submissions queued")
@@ -137,12 +149,14 @@ class RadioQueue:
         self.refresh_submissions()
         if self.submission_queue:
             track_path = self.submission_queue.pop(0)
+            self._played_submissions.add(Path(track_path).name)
             self._log_play(track_path, source="submission")
             return track_path
 
         # Fall back to playlist
         self.refresh_playlist()
         if not self.playlist:
+            self._save_queue_state()  # idle state, so /radio/queue reads "idle" not "offline"
             return None
 
         if self._playlist_index >= len(self.playlist):
@@ -167,7 +181,29 @@ class RadioQueue:
         self.history.insert(0, entry)
         self.history = self.history[:200]  # Keep last 200
         _save_json(HISTORY_FILE, self.history)
+        self._save_queue_state()
         print(f"[queue] Now playing: {name} ({source})")
+
+    def _save_queue_state(self) -> None:
+        """Persist current queue state to QUEUE_FILE (/app/data/queue.json).
+
+        This file is the single source of truth the ARC service reads for
+        GET /radio/queue (via the shared radio_data volume). It is written
+        on every track pick so arc never has to guess whether the radio is
+        streaming: status is "streaming" while a track is up, "idle" when
+        nothing is playing. QUEUE_FILE was defined in config.py but never
+        written before this — the arc side used to hardcode "streaming".
+        """
+        state = {
+            "status": "streaming" if self.current_track else "idle",
+            "nowPlaying": self.current_track,
+            "submissionQueue": [Path(p).name for p in self.submission_queue],
+            "queueLength": len(self.submission_queue),
+            "playlistLength": len(self.playlist),
+            "submissionsPending": len(self.submission_queue),
+            "updatedAt": datetime.now(UTC).isoformat(),
+        }
+        _save_json(QUEUE_FILE, state)
 
     def get_status(self) -> dict:
         """Return current queue status for API."""

@@ -56,6 +56,56 @@
 <section class="hero"><span class="badge">Coming Soon Promotional Route</span><h1>TizWildin 24/7 Radio Stream</h1><p>Coming soon — 24/7 live radio stream connected to YouTube, with future song-submission routing for the promotional roster and badge-gated daily submissions.</p>
 
 <div class="nav"><a href="https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-24-7-radio-stream.html">Open public URL</a><a href="https://garebear99.github.io/TizWildinEntertainmentHUB/pages/tizwildin-24-7-radio-stream.html">Docs / README</a><a href="../public-index.json">JSON index</a><a href="../sitemap.xml">Sitemap</a></div></section>
+<section class="card" id="radio-player-card" style="margin-bottom:20px;min-height:0">
+<h3>🎧 Listen</h3>
+<p id="radio-status" class="small">Checking the radio status…</p>
+<audio id="radio-player" controls preload="none" style="width:100%;max-width:640px" disabled></audio>
+<p id="radio-now-playing" class="small">Now playing: —</p>
+<p class="small">Player source: the Cloudflare Worker song-load layer
+(<code class="mono">tizwildin-radio.admension.workers.dev</code> — <code class="mono">/stream.m3u8</code>
++ <code class="mono">/now-playing</code>). The Worker is written but <strong>not deployed yet</strong>
+(R2 / Stream Live / Paid plan still to enable), so the player stays disabled and
+shows the planned state instead of faking a live stream. When the 24/7 stream
+goes live it also airs on YouTube — see <a href="tizwildin-youtube.html">TizWildin YouTube</a>.</p>
+</section>
+<script>
+(function () {
+  // Planned Worker URL — NOT deployed yet (see cloudflare/radio-worker/README.md).
+  // The player probes it and only wires up when it answers live:true.
+  var WORKER = "https://tizwildin-radio.admension.workers.dev";
+  var statusEl = document.getElementById("radio-status");
+  var player = document.getElementById("radio-player");
+  var npEl = document.getElementById("radio-now-playing");
+  function planned(reason) {
+    statusEl.textContent = "📻 Planned — the 24/7 stream is not live yet. " + reason;
+    player.setAttribute("disabled", "");
+    player.removeAttribute("src");
+    npEl.textContent = "Now playing: — (stream offline)";
+  }
+  function fetchJson(path, ms) {
+    var ctrl = new AbortController();
+    var t = setTimeout(function () { ctrl.abort(); }, ms || 5000);
+    return fetch(WORKER + path, { signal: ctrl.signal })
+      .then(function (r) { clearTimeout(t); if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); });
+  }
+  fetchJson("/health").then(function (health) {
+    if (!health.live) {
+      planned("The radio Worker is reachable but no live Stream input is configured yet.");
+      return;
+    }
+    statusEl.textContent = "🔴 LIVE — TizWildin 24/7 Radio";
+    player.removeAttribute("disabled");
+    player.src = WORKER + "/stream.m3u8";
+    return fetchJson("/now-playing").then(function (np) {
+      npEl.textContent = np.nowPlaying
+        ? "Now playing: " + np.nowPlaying.title + " — " + (np.nowPlaying.artist || "TizWildin") + " (" + np.nowPlaying.source + ")"
+        : "Now playing: — (between tracks)";
+    }).catch(function () { npEl.textContent = "Now playing: —"; });
+  }).catch(function () {
+    planned("The radio Worker is not deployed yet.");
+  });
+})();
+</script>
 <section class="callout"><strong>Index purpose:</strong> This static page gives crawlers, directories, LLM readers, and humans a dedicated canonical route for this project instead of hiding it inside JavaScript UI state.</section>
 <h2>Public metadata</h2><table><tbody>
 <tr><th>Cluster</th><td>Promotionals and Community</td></tr>
@@ -68,4 +118,4 @@
 </tbody></table>
 <h2>SEO tags</h2><div class="tags"><span class="tag">radio</span><span class="tag">24-7</span><span class="tag">youtube</span><span class="tag">stream</span><span class="tag">submit</span><span class="tag">promotion</span><span class="tag">community</span></div>
 <h2>Related ecosystem routes</h2><ul><li><a href="garebear-productionz-facebook-group.html">GareBear Productionz (Facebook Group)</a> — Promotional Route</li><li><a href="partnered-group-promotional-network.html">Partnered Group — Promotional Network</a> — Promotional Route</li><li><a href="tizwildin-garebearproductionz-facebook-page.html">TizWildin / GareBearProductionz (Facebook Page)</a> — Promotional Route</li><li><a href="tizwildin-on-soundcloud.html">TizWildin on SoundCloud</a> — Promotional Route</li><li><a href="tizwildin-youtube.html">TizWildin YouTube</a> — Promotional Route</li><li><a href="song-submission-portal.html">Song Submission Portal</a> — Coming Soon Promotional Route</li></ul>
-<p class="small">Generated 2026-11-06. This page is part of the static public link graph for TizWildinEntertainmentHUB.</p></main></body></html>
+<p class="small">Generated 2026-11-07. This page is part of the static public link graph for TizWildinEntertainmentHUB.</p></main></body></html>

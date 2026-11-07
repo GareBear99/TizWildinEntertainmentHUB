@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-11-06
+Generated: 2026-11-07
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **220**
+- Total indexed records: **221**
 - Total clusters: **12**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -279,6 +279,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 
 | Route | Type | Repository | Tags |
 |---|---|---|---|
+| [Free Sample Packs](packs.html) | Packs Landing Page | https://github.com/GareBear99/TizWildinEntertainmentHUB | free sample packs, sample packs, producer kits, 808, drums, loops, sample-pack, producer-tools |
 | [Free 808 Producer Kit](pages/free-808-producer-kit.html) | Sample Pack / Producer Resource | https://github.com/GareBear99/Free-808-Producer-Kit | 808, bass, trap, sample-pack, producer-tools |
 | [Free Dark Piano Sound Kit](pages/free-dark-piano-sound-kit.html) | Sample Pack / Producer Resource | https://github.com/GareBear99/Free-Dark-Piano-Sound-Kit | piano, cinematic, midi, sample-pack, producer-tools |
 | [Free Drum Producer Kit](pages/free-drum-producer-kit.html) | Sample Pack / Producer Resource | https://github.com/GareBear99/Free-Drum-Producer-Kit | drums, one-shots, percussion, sample-pack, producer-tools |

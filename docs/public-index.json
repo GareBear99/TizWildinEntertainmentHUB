@@ -1,11 +1,11 @@
 {
   "schemaVersion": "2.0",
-  "generatedAt": "2026-11-06",
+  "generatedAt": "2026-11-07",
   "name": "TizWildin Entertainment HUB Public Link Index",
   "description": "Static crawler-friendly index of TizWildin audio, producer, public list, credibility, and ARC source-spine routes.",
   "owner": "GareBear99",
   "baseUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB",
-  "itemCount": 220,
+  "itemCount": 221,
   "items": [
     {
       "cluster": "AI and Automation Tools",
@@ -1410,7 +1410,7 @@
       "name": "Deconstructed Loops / Packs Router",
       "description": "Public route for TizWildin deconstructed loops, stems, free sample packs, producer assets, and future pack-store/Release Vault handoff.",
       "repo": "TizWildinEntertainmentHUB",
-      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/#packs",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/packs.html",
       "docs": "",
       "status": "public route",
       "tags": [
@@ -1433,7 +1433,7 @@
       "id": "deconstructed-loops-packs-router",
       "page": "pages/deconstructed-loops-packs-router.html",
       "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/deconstructed-loops-packs-router.html",
-      "canonicalUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/#packs",
+      "canonicalUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/packs.html",
       "repoUrl": "https://github.com/GareBear99/TizWildinEntertainmentHUB",
       "docsUrl": "https://github.com/GareBear99/TizWildinEntertainmentHUB#readme"
     },
@@ -5605,7 +5605,7 @@
       "cluster": "HUB Site Pages",
       "kind": "About Page",
       "name": "About the HUB",
-      "description": "About the TizWildin Entertainment HUB: 20 free audio plugins, 11 free sample packs, browser tools, games and research from Gary Doman (GareBear99 / TizWildin).",
+      "description": "About the TizWildin Entertainment HUB: 21 free audio plugins, 13 free sample packs, browser tools, games and research from Gary Doman (GareBear99 / TizWildin).",
       "repo": "TizWildinEntertainmentHUB",
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/about.html",
       "docs": "",
@@ -6594,6 +6594,40 @@
       "canonicalUrl": "https://github.com/GareBear99/XyloCore",
       "repoUrl": "https://github.com/GareBear99/XyloCore",
       "docsUrl": "https://github.com/GareBear99/XyloCore#readme"
+    },
+    {
+      "cluster": "TizWildin Sample Packs",
+      "kind": "Packs Landing Page",
+      "name": "Free Sample Packs",
+      "description": "Static SEO landing page for all 13 free TizWildin sample packs and producer kits — loops, stems, 808s, drums, risers, chimes, and synthwave kits, free and open-source on GitHub.",
+      "repo": "TizWildinEntertainmentHUB",
+      "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/packs.html",
+      "docs": "",
+      "status": "public route",
+      "tags": [
+        "free sample packs",
+        "sample packs",
+        "producer kits",
+        "808",
+        "drums",
+        "loops",
+        "sample-pack",
+        "producer-tools"
+      ],
+      "priority": 1,
+      "license": "See repository",
+      "language": "HTML",
+      "source_manifest": "generator fixed site pages",
+      "page_slug": "packs",
+      "render_page": false,
+      "cover": "",
+      "animated": "",
+      "id": "packs",
+      "page": "packs.html",
+      "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/packs.html",
+      "canonicalUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/packs.html",
+      "repoUrl": "https://github.com/GareBear99/TizWildinEntertainmentHUB",
+      "docsUrl": "https://github.com/GareBear99/TizWildinEntertainmentHUB#readme"
     },
     {
       "cluster": "TizWildin Sample Packs",

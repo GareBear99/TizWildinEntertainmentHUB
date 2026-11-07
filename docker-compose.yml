@@ -6,6 +6,11 @@ services:
       - "8000:8000"
     volumes:
       - radio_submissions:/app/data/radio_submissions
+      # Shared with the radio service so GET /radio/queue + /radio/history
+      # read the files the radio service actually writes
+      # (/app/data/queue.json + /app/data/history.json). Without this mount
+      # the arc container could never see the radio's state.
+      - radio_data:/app/data
     environment:
       ARC_WEBHOOK_SECRET: arc_demo_secret
       SOUNDCLOUD_CLIENT_ID: ${SOUNDCLOUD_CLIENT_ID:-}
@@ -13,6 +18,8 @@ services:
       TIZWILDIN_SC_USER_ID: ${TIZWILDIN_SC_USER_ID:-}
       ADMIN_API_TOKEN: ${ADMIN_API_TOKEN:-}
       RADIO_SUBMISSIONS_DIR: /app/data/radio_submissions
+      RADIO_HISTORY_FILE: /app/data/history.json
+      RADIO_QUEUE_FILE: /app/data/queue.json
 
   radio:
     build:

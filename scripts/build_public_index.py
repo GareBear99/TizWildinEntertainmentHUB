@@ -65,6 +65,10 @@ class LinkItem:
     language: str = ""
     source_manifest: str = ""
     page_slug: str = ""
+    # Top-level docs page (e.g. "packs.html") instead of the default
+    # "pages/<slug>.html" route page. Used for hand-written pages that live
+    # beside index-seo.html and are indexed, not generated.
+    page_path: str = ""
     render_page: bool = True
     cover: str = ""
     animated: str = ""
@@ -75,7 +79,7 @@ class LinkItem:
 
     @property
     def page(self) -> str:
-        return f"pages/{self.id}.html"
+        return self.page_path or f"pages/{self.id}.html"
 
     @property
     def page_url(self) -> str:
@@ -386,7 +390,7 @@ def collect_items() -> list[LinkItem]:
          "Documentation for the TizWildin Entertainment HUB — free audio plugins, sample packs, MIDI tools, games, ARC source spine, and creator ecosystem.",
          f"{BASE}/pages/docs.html", ["docs", "guide", "help", "getting-started"], 1, "docs"),
         ("HUB Site Pages", "About Page", "About the HUB",
-         "About the TizWildin Entertainment HUB: 20 free audio plugins, 11 free sample packs, browser tools, games and research from Gary Doman (GareBear99 / TizWildin).",
+         "About the TizWildin Entertainment HUB: 21 free audio plugins, 13 free sample packs, browser tools, games and research from Gary Doman (GareBear99 / TizWildin).",
          f"{BASE}/pages/about.html", ["about", "tizwildin", "garebear99"], 1, "about"),
         ("HUB Site Pages", "Contact Page", "Contact",
          "Contact the TizWildin Entertainment HUB: support, bug reports, licensing and community links for Gary Doman (GareBear99 / TizWildin). No public email — the fastest route is a GitHub issue.",
@@ -452,6 +456,31 @@ def collect_items() -> list[LinkItem]:
             page_slug=page_slug,
             render_page=False,
         ))
+
+    # Packs SEO landing page (docs/packs.html) — hand-written static page,
+    # sibling to index-seo.html, NOT a generated route page. Indexed here
+    # (render_page=False) so it enters public-index.json, llms.txt,
+    # ecosystem-index.html, the link graph, sitemap, and search-index on
+    # rebuild. page_path overrides the default pages/<slug>.html route.
+    # Priority 1 puts it first in the packs cluster, so every per-pack
+    # page's "Related ecosystem routes" links back to it.
+    items.append(LinkItem(
+        cluster="TizWildin Sample Packs",
+        kind="Packs Landing Page",
+        name="Free Sample Packs",
+        description="Static SEO landing page for all 13 free TizWildin sample packs and producer kits — loops, stems, 808s, drums, risers, chimes, and synthwave kits, free and open-source on GitHub.",
+        repo="TizWildinEntertainmentHUB",
+        url=f"{BASE}/packs.html",
+        status="public route",
+        tags=["free sample packs", "sample packs", "producer kits", "808", "drums", "loops", "sample-pack", "producer-tools"],
+        priority=1,
+        license="See repository",
+        language="HTML",
+        source_manifest="generator fixed site pages",
+        page_slug="packs",
+        page_path="packs.html",
+        render_page=False,
+    ))
 
     # Deduplicate by page id, keeping the highest-priority item.
     dedup: dict[str, LinkItem] = {}
@@ -569,8 +598,14 @@ def render_item_page(item: LinkItem, all_items: list[LinkItem]) -> None:
     related = [x for x in all_items if x.cluster == item.cluster and x.id != item.id][:8]
     # Route pages live inside docs/pages/, so sibling links must be bare
     # filenames — using x.page ("pages/<id>.html") here doubled the path
-    # to /pages/pages/<id>.html and 404'd.
-    related_links = "".join(f'<li><a href="{html.escape(x.id)}.html">{html.escape(x.name)}</a> — {html.escape(x.kind)}</li>' for x in related)
+    # to /pages/pages/<id>.html and 404'd. The exception is an item whose
+    # page is a top-level docs file (page_path, e.g. packs.html): from
+    # pages/ that resolves as ../packs.html.
+    related_links = "".join(
+        f'<li><a href="{html.escape(x.id)}.html">{html.escape(x.name)}</a> — {html.escape(x.kind)}</li>'
+        if x.page.startswith("pages/") else
+        f'<li><a href="../{html.escape(x.page)}">{html.escape(x.name)}</a> — {html.escape(x.kind)}</li>'
+        for x in related)
     tags = "".join(f'<span class="tag">{html.escape(str(t))}</span>' for t in (item.tags or []) if t)
     desc = f"{item.name} public route in the TizWildin / ARC ecosystem: {item.description}"
     # Real itch cover as the share image when the autopull harvested one;
@@ -609,7 +644,10 @@ def render_item_page(item: LinkItem, all_items: list[LinkItem]) -> None:
             f'onerror="if(!this.dataset.fb&&this.src.indexOf(\'/original/\')>-1){{this.dataset.fb=1;this.src=this.src.replace(\'/original/\',\'/315x250%23c/\');}}else{{this.closest(\'.itch-cover-box\').classList.add(\'failed\');}}">'
             f'<span class="cover-pill{pill_cls}">{pill}</span></div>{swap_js}'
         )
-    body = f'''<div class="crumbs"><a href="../ecosystem-index.html">Ecosystem index</a> / {html.escape(item.cluster)}</div>
+    # Breadcrumb back to the packs landing page for per-pack pages, so the
+    # 13 pack routes point at their hub node instead of only at each other.
+    packs_crumb = ' / <a href="../packs.html">All free packs</a>' if item.cluster == "TizWildin Sample Packs" else ""
+    body = f'''<div class="crumbs"><a href="../ecosystem-index.html">Ecosystem index</a>{packs_crumb} / {html.escape(item.cluster)}</div>
 <section class="hero"><span class="badge">{html.escape(item.kind)}</span><h1>{html.escape(item.name)}</h1><p>{html.escape(item.description)}</p>
 {media_hero}
 <div class="nav"><a href="{html.escape(item.canonical_url)}">Open public URL</a>{f'<a href="{html.escape(item.repo_url)}">GitHub repository</a>' if item.repo_url else ''}<a href="{html.escape(item.docs_url)}">Docs / README</a><a href="../public-index.json">JSON index</a><a href="../sitemap.xml">Sitemap</a></div></section>
@@ -649,7 +687,7 @@ def build() -> None:
         "owner": OWNER,
         "baseUrl": BASE,
         "itemCount": len(items),
-        "items": [asdict(i) | {
+        "items": [{k: v for k, v in asdict(i).items() if k != "page_path"} | {
             "id": i.id,
             "page": i.page,
             "pageUrl": i.page_url,
@@ -666,7 +704,7 @@ def build() -> None:
 
     body = '''<section class="hero"><h1>TizWildin Entertainment HUB</h1>
 <p>GitHub-Pages-friendly public index for free audio plugins, sample packs, awesome lists, creator tools, public credibility submission routes, and the ARC source-spine routes connected to the GareBear99 ecosystem.</p>
-<div class="nav"><a href="index.html">Interactive dashboard</a><a href="index-seo.html">SEO landing page</a><a href="arc-index.html">ARC source spine</a><a href="public-index.json">JSON index</a><a href="llms.txt">LLM text index</a><a href="PUBLIC_LINK_GRAPH.md">Link graph</a><a href="sitemap.xml">Sitemap</a></div></section>'''
+<div class="nav"><a href="index.html">Interactive dashboard</a><a href="index-seo.html">SEO landing page</a><a href="packs.html">Free sample packs</a><a href="arc-index.html">ARC source spine</a><a href="public-index.json">JSON index</a><a href="llms.txt">LLM text index</a><a href="PUBLIC_LINK_GRAPH.md">Link graph</a><a href="sitemap.xml">Sitemap</a></div></section>'''
     for cluster, vals in by_cluster.items():
         body += f'<h2>{html.escape(cluster)}</h2><section class="grid">' + ''.join(item_card(v) for v in vals) + '</section>'
     graph = {"@context": "https://schema.org", "@type": "CollectionPage", "name": "TizWildin Entertainment HUB Public Ecosystem Index", "url": f"{BASE}/ecosystem-index.html", "description": public_index["description"], "hasPart": [{"@type": "WebPage", "name": i.name, "url": i.page_url} for i in items]}
@@ -702,7 +740,7 @@ def build() -> None:
     write(DOCS / "PUBLIC_LINK_GRAPH.md", "\n".join(md))
 
     # Sitemap includes dashboard, indexes, route pages, and social cards.
-    urls = ["", "index.html", "index-seo.html", "ecosystem-index.html", "arc-index.html", "public-index.json", "llms.txt", "PUBLIC_LINK_GRAPH.md"]
+    urls = ["", "index.html", "index-seo.html", "packs.html", "ecosystem-index.html", "arc-index.html", "public-index.json", "llms.txt", "PUBLIC_LINK_GRAPH.md"]
     urls += [i.page for i in items]
     urls += [f"assets/social/{p.name}" for p in SOCIAL.glob("*.svg")]
     # Preserve source-repo route pages contributed by build_source_repo_index.py

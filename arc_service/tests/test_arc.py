@@ -329,3 +329,105 @@ def test_release_import_and_remote_file_execute():
     assert body['approved'] is True
     assert body['executed'][0]['status'] == 'executed'
 
+
+# ── Radio / quality gate + queue/history alignment ────────────────────
+
+def _strip_module_docstring(text: str) -> str:
+    """Return file content after the closing of the module docstring."""
+    return text.split('"""\n', 1)[1]
+
+
+def test_vendored_quality_gate_matches_radio():
+    """Vendored gate must stay in sync with radio_service/quality_gate.py."""
+    repo = Path(__file__).resolve().parents[2]
+    radio = (repo / "radio_service" / "quality_gate.py").read_text()
+    vendored = (repo / "arc_service" / "app" / "services" / "radio_quality_gate.py").read_text()
+    assert _strip_module_docstring(vendored) == _strip_module_docstring(radio)
+
+
+def test_vendored_quality_gate_runs_full_gate(tmp_path):
+    """The vendored gate runs the FULL gate (loudnorm), not the ffprobe-only fallback.
+
+    A clean 45s tone must pass with loudness details present — the basic
+    fallback has no `integrated_lufs` in its details at all.
+    """
+    import subprocess
+    from app.services.radio_quality_gate import quality_check_submission
+    tone = tmp_path / "tone.mp3"
+    subprocess.run(
+        ["ffmpeg", "-v", "quiet", "-y", "-f", "lavfi", "-i", "sine=frequency=440:duration=45",
+         "-af", "volume=0.5", "-b:a", "192k", str(tone)],
+        check=True, timeout=60,
+    )
+    qc = quality_check_submission(str(tone))
+    assert qc["passed"] is True
+    assert qc["score"] >= 50
+    assert "integrated_lufs" in qc["details"], "full gate must report loudness (fallback does not)"
+    assert "true_peak_db" in qc["details"]
+    assert qc["verdict"].startswith("✅")
+
+
+def test_vendored_quality_gate_rejects_too_short(tmp_path):
+    """A 5s clip fails the duration rule in the full gate."""
+    import subprocess
+    from app.services.radio_quality_gate import quality_check_submission
+    tone = tmp_path / "short.mp3"
+    subprocess.run(
+        ["ffmpeg", "-v", "quiet", "-y", "-f", "lavfi", "-i", "sine=frequency=440:duration=5",
+         "-af", "volume=0.5", str(tone)],
+        check=True, timeout=60,
+    )
+    qc = quality_check_submission(str(tone))
+    assert qc["passed"] is False
+    assert any("Too short" in i for i in qc["issues"])
+
+
+def test_radio_queue_offline_without_queue_file(monkeypatch, tmp_path):
+    """No queue file (radio never ran) => honest 'offline', not hardcoded 'streaming'."""
+    monkeypatch.setenv("RADIO_QUEUE_FILE", str(tmp_path / "missing-queue.json"))
+    monkeypatch.setenv("RADIO_SUBMISSIONS_DIR", str(tmp_path))
+    body = client.get("/radio/queue").json()
+    assert body["status"] == "offline"
+    assert body["nowPlaying"] is None
+    assert body["submissionsPending"] == 0
+
+
+def test_radio_queue_reads_radio_queue_file(monkeypatch, tmp_path):
+    """Queue state written by the radio service is passed through verbatim."""
+    import json
+    queue_file = tmp_path / "queue.json"
+    queue_file.write_text(json.dumps({
+        "status": "streaming",
+        "nowPlaying": {"file": "track.mp3", "title": "track", "source": "playlist", "played_at": "2026-11-07T00:00:00+00:00"},
+        "submissionQueue": ["sub_a.mp3"],
+        "queueLength": 1,
+        "playlistLength": 12,
+        "submissionsPending": 1,
+        "updatedAt": "2026-11-07T00:00:00+00:00",
+    }))
+    monkeypatch.setenv("RADIO_QUEUE_FILE", str(queue_file))
+    monkeypatch.setenv("RADIO_SUBMISSIONS_DIR", str(tmp_path))
+    body = client.get("/radio/queue").json()
+    assert body["status"] == "streaming"
+    assert body["nowPlaying"]["title"] == "track"
+    assert body["queueLength"] == 1
+    assert body["playlistLength"] == 12
+
+
+def test_radio_history_reads_radio_history_file(monkeypatch, tmp_path):
+    """History is read from the file the radio service writes (history.json)."""
+    import json
+    history_file = tmp_path / "history.json"
+    history_file.write_text(json.dumps([
+        {"file": "a.mp3", "title": "a", "source": "playlist", "played_at": "2026-11-07T00:00:00+00:00"},
+        {"file": "b.mp3", "title": "b", "source": "submission", "played_at": "2026-11-07T00:01:00+00:00"},
+    ]))
+    monkeypatch.setenv("RADIO_HISTORY_FILE", str(history_file))
+    body = client.get("/radio/history", params={"limit": 1}).json()
+    assert len(body["history"]) == 1
+    assert body["history"][0]["file"] == "a.mp3"
+
+
+def test_radio_history_empty_without_file(monkeypatch, tmp_path):
+    monkeypatch.setenv("RADIO_HISTORY_FILE", str(tmp_path / "missing-history.json"))
+    assert client.get("/radio/history").json() == {"history": []}

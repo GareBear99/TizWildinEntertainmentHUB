@@ -1,0 +1,36 @@
+# TizWildin 24/7 Radio — Cloudflare Worker
+#
+# Deploy target (when Gary approves): https://tizwildin-radio.admension.workers.dev
+# (workers.dev subdomain for this account is `admension` — see CLOUDFLARE.md)
+#
+# NOTHING here is deployed yet. R2, Stream, and the Paid plan are all still
+# off. Deploying requires Gary's approval (Paid plan = $5/mo + usage).
+
+name = "tizwildin-radio"
+main = "src/index.js"
+compatibility_date = "2026-11-07"
+
+# Free plan is fine for the code as written (KV + R2 reads + redirects).
+# The Paid plan ($5/mo) is only needed for Stream Live / Email sending and
+# for the higher CPU limits — see README.md "What Gary needs to enable".
+
+# KV namespace for now-playing / history / track registry / queue state.
+# TODO (deploy time): create it and paste the real id —
+#   npx wrangler kv namespace create RADIO_KV
+# The placeholder id below lets `wrangler dev --local` run; `wrangler deploy`
+# will fail until the real namespace id is pasted in.
+[[kv_namespaces]]
+binding = "RADIO_KV"
+id = "00000000000000000000000000000000"
+
+# R2 bucket for gate-passed audio. Optional until the bucket exists.
+# TODO (deploy time): create it and uncomment —
+#   npx wrangler r2 bucket create tizwildin-radio-audio
+# [[r2_buckets]]
+# binding = "RADIO_AUDIO"
+# bucket_name = "tizwildin-radio-audio"
+
+[vars]
+# Cloudflare Stream Live HLS playback URL. Empty until a Stream live input
+# exists; while empty, GET /stream.m3u8 honestly answers 503 "planned".
+STREAM_LIVE_URL = ""

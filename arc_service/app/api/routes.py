@@ -480,12 +480,17 @@ def radio_submit(request: "RadioSubmitRequest"):
 
     file_path = os.path.join(submissions_dir, downloaded[0])
 
-    # Quality gate (FreeEQ8-style analysis)
+    # Quality gate (FreeEQ8-style analysis).
+    # The gate lives in radio_service/quality_gate.py, but the arc container
+    # only ships ./app and shares no code volume with the radio container,
+    # so `from radio_service.quality_gate import ...` can never resolve here
+    # (the old import always fell through to the ffprobe-only fallback).
+    # Use the vendored copy at app/services/radio_quality_gate.py instead.
     try:
-        from radio_service_quality import quality_check
-        qc = quality_check(file_path)
+        from app.services.radio_quality_gate import quality_check_submission
+        qc = quality_check_submission(file_path)
     except ImportError:
-        # Inline basic quality check if radio_service isn't importable
+        # Inline basic quality check if the vendored gate isn't importable
         qc = _basic_quality_check(file_path)
 
     # Record submission + check verified badge
@@ -573,27 +578,53 @@ def account_verified(token: str):
 
 @router.get("/radio/queue")
 def radio_queue():
-    """Get current radio queue status."""
+    """Get current radio queue status.
+
+    Single source of truth: the radio service's queue state file
+    (radio_service writes /app/data/queue.json — see
+    radio_service/queue_manager.py `_save_queue_state`). The arc container
+    reads it through the shared `radio_data` volume (docker-compose.yml);
+    RADIO_QUEUE_FILE overrides the path. If the radio service has never
+    run, there is no queue file — the status is honestly "offline", never
+    a hardcoded "streaming". submissionsPending falls back to counting the
+    shared submissions dir in that case.
+    """
     import os, json
     from pathlib import Path
-    queue_file = os.environ.get("RADIO_QUEUE_FILE", "data/radio_queue.json")
-    history_file = os.environ.get("RADIO_HISTORY_FILE", "data/radio_history.json")
+    queue_file = os.environ.get("RADIO_QUEUE_FILE", "/app/data/queue.json")
     submissions_dir = os.environ.get("RADIO_SUBMISSIONS_DIR", "data/radio_submissions")
-    pending = len([f for f in os.listdir(submissions_dir) if not f.startswith(".")]) if os.path.isdir(submissions_dir) else 0
+    pending_from_dir = len([f for f in os.listdir(submissions_dir) if not f.startswith(".")]) if os.path.isdir(submissions_dir) else 0
+    if os.path.exists(queue_file):
+        try:
+            state = json.loads(Path(queue_file).read_text())
+            state.setdefault("submissionsPending", state.get("queueLength", pending_from_dir))
+            return state
+        except Exception:
+            pass
     return {
-        "submissionsPending": pending,
-        "status": "streaming",
+        "status": "offline",
+        "nowPlaying": None,
+        "queueLength": 0,
+        "playlistLength": 0,
+        "submissionsPending": pending_from_dir,
     }
 
 
 @router.get("/radio/history")
 def radio_history(limit: int = 50):
-    """Get recent radio play history."""
+    """Get recent radio play history.
+
+    Single source of truth: the radio service's history file
+    (radio_service writes /app/data/history.json — see
+    radio_service/queue_manager.py `_log_play`). The arc container reads
+    it through the shared `radio_data` volume (docker-compose.yml);
+    RADIO_HISTORY_FILE overrides the path. The old default
+    (data/radio_history.json) was a path the radio service never wrote to.
+    """
     import json
     from pathlib import Path
-    history_file = os.environ.get("RADIO_HISTORY_FILE", "data/radio_history.json") if "os" in dir() else "data/radio_history.json"
     import os
-    history_file = os.environ.get("RADIO_HISTORY_FILE", "data/radio_history.json")
+    history_file = os.environ.get("RADIO_HISTORY_FILE", "/app/data/history.json")
     if os.path.exists(history_file):
         try:
             data = json.loads(Path(history_file).read_text())

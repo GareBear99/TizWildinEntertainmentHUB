@@ -1,0 +1,1 @@
+{"description":"TizWildin 24/7 Radio — Cloudflare Worker song-load layer (queue, now-playing, R2 audio, Stream Live HLS).","name":"tizwildin-radio","private":true,"scripts":{"deploy":"wrangler deploy","dev":"wrangler dev --local","test":"node --test test/*.mjs"},"type":"module","version":"0.1.0"}
