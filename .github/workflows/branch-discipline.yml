@@ -1,0 +1,44 @@
+name: Branch Discipline
+
+# Branch governance CI: every push to main/develop and every pull request
+# must rebuild the public index and pass both validators, so no branch can
+# land with a stale index or an invalid branch map.
+on:
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
+    branches:
+      - main
+      - develop
+
+jobs:
+  branch-discipline:
+    name: Branch map + public index validation
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Rebuild public index
+        run: python scripts/build_public_index.py
+
+      - name: Validate public index
+        run: python scripts/validate_public_index.py
+
+      - name: Validate branch map
+        run: python scripts/validate_branch_map.py
+
+      - name: Fail on uncommitted generated output
+        run: |
+          if [ -n "$(git status --porcelain docs/public-index.json docs/sitemap.xml docs/llms.txt docs/SEO_BUILD_REPORT.json docs/PUBLIC_LINK_GRAPH.md)" ]; then
+            echo "Generated public-index output is stale: rebuild with 'python scripts/build_public_index.py' and commit the result."
+            git status --porcelain docs/public-index.json docs/sitemap.xml docs/llms.txt docs/SEO_BUILD_REPORT.json docs/PUBLIC_LINK_GRAPH.md
+            exit 1
+          fi

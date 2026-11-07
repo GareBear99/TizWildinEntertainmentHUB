@@ -15,3 +15,11 @@ This queue keeps the ecosystem work moving in controlled branches.
 | 9 | `release/public-index-v8` | Release | Freeze, validate, publish |
 
 A branch is complete only after it updates source manifests/docs, rebuilds the public index, passes validation, and records the next action.
+
+## Branch 1 status (2026-11-07)
+
+`seo/public-index-v8-branching` is open and in progress on its own branch (created from `main` at `c987fe8`). Most of its deliverable was already on `main` (branch-map.json, the four BRANCHING_*.md docs, `scripts/validate_branch_map.py`, the six public branch route pages). The missing pieces were delivered on this branch: `.github/workflows/branch-discipline.yml` (CI validation for branch map + public index), `.github/pull_request_template.md`, and `.github/ISSUE_TEMPLATE/branch-task.md` — the audit report had listed these as added, but they never existed in the repo. Public index rebuilt and all three validators pass on this branch.
+
+## Next action
+
+Open Branch 2: `submission/libhunt-arc-graph` — finish the ARC LibHunt alternatives graph (ARC-Neuron ↔ ARC-Core ↔ Lucifer Runtime ↔ Language Module ↔ Arc-RAR), with an evidence note saved and STATUS_BOARD updated before its status changes from queued to submitted.

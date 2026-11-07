@@ -19,7 +19,7 @@
     {
       "name": "seo/public-index-v8-branching",
       "cluster": "SEO / public index",
-      "status": "next",
+      "status": "in-progress",
       "purpose": "Add branch governance, validation, branch-map data, and public branch pages.",
       "mustPass": [
         "python scripts/build_public_index.py",
