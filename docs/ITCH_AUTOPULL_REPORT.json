@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T16:48:51Z",
+  "generatedAt": "2026-11-07T15:41:28Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
   "itemsParsed": 112,
   "itemsWritten": 112,
@@ -135,7 +135,7 @@
     },
     {
       "slug": "shoji-dojo",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/shoji-dojo: curl failed (22): curl: (22) The requested URL returned error: 429"
+      "status": "ok"
     },
     {
       "slug": "hemorrhage-blood-fx",
@@ -179,7 +179,7 @@
     },
     {
       "slug": "shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor: curl failed (22): curl: (22) The requested URL returned error: 429"
+      "status": "ok"
     },
     {
       "slug": "shadow-trooper-silhouette-free",
@@ -239,7 +239,7 @@
     },
     {
       "slug": "color-dynamic-sigils-svg-export-pack",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/color-dynamic-sigils-svg-export-pack: curl failed (22): curl: (22) The requested URL returned error: 429"
+      "status": "ok"
     },
     {
       "slug": "sphinx-activation-layered-live-map",
@@ -458,7 +458,7 @@
     "checkedUrls": 200,
     "liveUrls": 200,
     "deadUrlsBeforeRepair": 0,
-    "deadCandidatesSkippedDuringEnrich": 299,
+    "deadCandidatesSkippedDuringEnrich": 327,
     "repairedCount": 0,
     "unresolvedCount": 0,
     "unverifiedUrls": 0
