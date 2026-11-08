@@ -457,8 +457,9 @@ def collect_items() -> list[LinkItem]:
             render_page=False,
         ))
 
-    # Packs SEO landing page (docs/packs.html) — hand-written static page,
-    # sibling to index-seo.html, NOT a generated route page. Indexed here
+    # Packs SEO landing page (docs/packs.html) — generated from packs.json
+    # by scripts/generate_packs_html.py (2026-11-08), sibling to
+    # index-seo.html, NOT a generated route page. Indexed here
     # (render_page=False) so it enters public-index.json, llms.txt,
     # ecosystem-index.html, the link graph, sitemap, and search-index on
     # rebuild. page_path overrides the default pages/<slug>.html route.

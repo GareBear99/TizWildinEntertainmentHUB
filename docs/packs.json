@@ -67,6 +67,7 @@
       "description": "94 hand-crafted 808 bass samples tuned to every chromatic key.",
       "category": "producer_kits",
       "repo": "Free-808-Producer-Kit",
+      "featured": true,
       "tags": ["808", "bass", "trap"]
     },
     {
@@ -88,7 +89,7 @@
     {
       "id": "free_drum_producer",
       "name": "Free Drum Producer Kit",
-      "description": "136 drum one-shots - kicks, snares, claps, hats, and percussion.",
+      "description": "136 WAVs (114 one-shots + 22 loops) - kicks, snares, claps, hats, and percussion.",
       "category": "producer_kits",
       "repo": "Free-Drum-Producer-Kit",
       "tags": ["drums", "one-shots", "percussion"]
