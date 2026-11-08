@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-11-07
+Generated: 2026-11-08
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -493,7 +493,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Black & Red Dice SVG & PNG 2D-3D Export Engine: Black & Red Dice SVG & PNG 2D-3D Export Engine Official GareBearProductionz itch product ($3.50 -50%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
+- Black & Red Dice SVG & PNG 2D-3D Export Engine: A D6 dice engine with correct opposite pairs, 24 valid cube orientations, random roll, force top face, SVG/PNG export. Official GareBearProductionz itch product ($3.50 -50%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-black-red-dice-svg-png-export-engine.html
   Public URL: https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine
   GitHub: N/A
@@ -505,7 +505,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: free, scythe, weapon, svg, pixel-art, itch, game-assets, garebearproductionz
 
-- Cash Cloud Sprite Pack (FREE): Cash Cloud Sprite Pack (FREE) Official GareBearProductionz itch product (FREE) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
+- Cash Cloud Sprite Pack (FREE): A clean vector currency pack for game UI: symbol, sigil, pulse, rain, loader spinner, animated loops. SVG and PNG. Official GareBearProductionz itch product (FREE) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-cash-cloud.html
   Public URL: https://garebearproductionz.itch.io/cash-cloud
   GitHub: N/A
@@ -523,13 +523,13 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Coin Physics & Triple Buffer Atomic Swap Pack & Engine Kit: Coin Physics & Triple Buffer Atomic Swap Pack & Engine Kit Official GareBearProductionz itch product ($11.24 -25%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
+- Coin Physics & Triple Buffer Atomic Swap Pack & Engine Kit: A pixel coin burst pack and live collectible engine: 5 coin types, burst physics, spin, bounce, sparkle, pickup magnet. Official GareBearProductionz itch product ($11.24 -25%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html
   Public URL: https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz, formula-a1-bundle
 
-- COSMIC DISRUPTION – Free Fast-Paced Game Music Pack: COSMIC DISRUPTION – Free Fast-Paced Game Music Pack Official GareBearProductionz itch product (Free) in the Games & Playable Engines line; checkout and downloads happen on the official itch page.
+- COSMIC DISRUPTION – Free Fast-Paced Game Music Pack: 7 electronic tracks for action, sci-fi games - combat, boss fights, chases, drone swarms. Free for commercial use. Official GareBearProductionz itch product (Free) in the Games & Playable Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-cosmic-disruption-free-fast-paced-game-music-pack.html
   Public URL: https://garebearproductionz.itch.io/cosmic-disruption-free-fast-paced-game-music-pack
   GitHub: N/A
@@ -541,7 +541,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Dark Fantasy Dungeon Builder - Free Four-Realm Tileset: Dark Fantasy Dungeon Builder - Free Four-Realm Tileset Official GareBearProductionz itch product (Free) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
+- Dark Fantasy Dungeon Builder - Free Four-Realm Tileset: Build dungeons across 4 realms: 1,056 modular tiles, 80 objects, 40 premade rooms, 12 demo maps, Tiled files, painter. Official GareBearProductionz itch product (Free) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-dark-fantasy-dungeon-builder-free-four-realm-tileset.html
   Public URL: https://garebearproductionz.itch.io/dark-fantasy-dungeon-builder-free-four-realm-tileset
   GitHub: N/A
@@ -559,13 +559,13 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- DIVINITY — the Imperilator arms and the seven sins (FREE): DIVINITY — the Imperilator arms and the seven sins (FREE) Official GareBearProductionz itch product (FREE) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
+- DIVINITY — the Imperilator arms and the seven sins (FREE): 13 animated holy weapons, 416 frames: 5 holy arms, their infernal counterpart, one weapon per deadly sin. 96px, looping. Official GareBearProductionz itch product (FREE) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-divinity-the-imperilator-arms-and-the-seven-sins.html
   Public URL: https://garebearproductionz.itch.io/divinity-the-imperilator-arms-and-the-seven-sins
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Doom Style Ray Cast Engine & Asset Pack: Doom Style Ray Cast Engine & Asset Pack Official GareBearProductionz itch product ($2.50 -50%) in the Games & Playable Engines line; checkout and downloads happen on the official itch page.
+- Doom Style Ray Cast Engine & Asset Pack: VOIDWALK: a from-scratch Doom-style raycaster in vanilla JS, 2D canvas, DDA walls, floorcasting, procedural textures. Official GareBearProductionz itch product ($2.50 -50%) in the Games & Playable Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-doom-style-ray-trace-engine-asset-pack.html
   Public URL: https://garebearproductionz.itch.io/doom-style-ray-trace-engine-asset-pack
   GitHub: N/A
@@ -583,7 +583,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- ENCHANTED SPRITE VFX ENGINE: HOLOGRAPHIC Official GareBearProductionz itch product ($8.45 -35%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
+- ENCHANTED SPRITE VFX ENGINE: Drop a sprite in, make it shiny, export it - 12 elements, 10 rarity tiers, PNG, GIF, sprite sheets, ZIPs, no install. Official GareBearProductionz itch product ($8.45 -35%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-enchanted-sprite-vfx-engine.html
   Public URL: https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine
   GitHub: N/A
@@ -601,7 +601,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- FREE Haunter Sprites: FREE Haunter Sprites Official GareBearProductionz itch product (FREE) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
+- FREE Haunter Sprites: A free modular haunter boss, enemy pack - isolated head, expressions, hands, limbs float, rotate, lag for uncanny ghost Official GareBearProductionz itch product (FREE) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-free-haunter-sprites.html
   Public URL: https://garebearproductionz.itch.io/free-haunter-sprites
   GitHub: N/A
@@ -637,7 +637,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: free, grid, engine, 2d, 3d, itch, game-assets, garebearproductionz
 
-- Halloween Asset & Audio SFX Pack (FREE): Halloween Asset & Audio SFX Pack (FREE) Official GareBearProductionz itch product (FREE) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.
+- Halloween Asset & Audio SFX Pack (FREE): A ready-to-use Halloween kit: 12 pixel sprites, 14 SFX, 2 seamless music loops - pumpkin, ghost, skull, cauldron. Free. Official GareBearProductionz itch product (FREE) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-halloween-asset-audio-sfx-pack-free.html
   Public URL: https://garebearproductionz.itch.io/halloween-asset-audio-sfx-pack-free
   GitHub: N/A
@@ -667,7 +667,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- HOLO SPRITE OVERLAY EXPORT ENGINE: HOLO SPRITE OVERLAY EXPORT ENGINE Official GareBearProductionz itch product ($8.25 -25%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
+- HOLO SPRITE OVERLAY EXPORT ENGINE: Add holographic foil shine to any sprite, alpha-masked, shine only lands on your art, PNG, GIF, sprite sheet, ZIP. Official GareBearProductionz itch product ($8.25 -25%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-holo-sprite-overlay-engine.html
   Public URL: https://garebearproductionz.itch.io/holo-sprite-overlay-engine
   GitHub: N/A
@@ -703,7 +703,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Impact FX Lite - Free Pixel VFX + SFX Sampler: Impact FX Lite - Free Pixel VFX + SFX Sampler Official GareBearProductionz itch product (Free) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.
+- Impact FX Lite - Free Pixel VFX + SFX Sampler: Try before you buy: 3 animated pixel VFX, 3 matching SFX - Explosion, Heavy Slash, Pumpkin Burst. 64x64 PNG strips, GIFs Official GareBearProductionz itch product (Free) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-impact-fx-lite-free-pixel-vfx-sfx-sampler.html
   Public URL: https://garebearproductionz.itch.io/impact-fx-lite-free-pixel-vfx-sfx-sampler
   GitHub: N/A
@@ -715,7 +715,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: free, infernal, sprites, demon, pixel-art, itch, game-assets, garebearproductionz
 
-- Japanese Dojo Tileset (FREE): Japanese Dojo Tileset (FREE) Official GareBearProductionz itch product (FREE) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
+- Japanese Dojo Tileset (FREE): A top-down 16x16 dojo tileset, 4 colours: tatami, shoji walls, doors, torii, sword rack, armour stand, walking student. Official GareBearProductionz itch product (FREE) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-japanese-dojo-tileset-free.html
   Public URL: https://garebearproductionz.itch.io/japanese-dojo-tileset-free
   GitHub: N/A
@@ -739,7 +739,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: icons, svg, hell, starter-kit, live-fx, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
 
-- MODE-7 FLOORCAST ENGINE: SNES BROWSER FLOORCAST ENGINE Official GareBearProductionz itch product ($5.50 -50%) in the Games & Playable Engines line; checkout and downloads happen on the official itch page.
+- MODE-7 FLOORCAST ENGINE: An SNES-style browser floorcast engine - Mode 7 floors for retro racers, overworlds, running in the browser, no install. Official GareBearProductionz itch product ($5.50 -50%) in the Games & Playable Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-mode-7.html
   Public URL: https://garebearproductionz.itch.io/mode-7
   GitHub: N/A
@@ -757,7 +757,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz, formula-a1-bundle
 
-- Necrommancers Sacred Geometry Audio ToolKit: Necrommancers Sacred Geometry Audio ToolKit Official GareBearProductionz itch product ($3.33 -25%) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.
+- Necrommancers Sacred Geometry Audio ToolKit: A standalone dark synth generating ritual loops from oscillators, filtered noise, procedural reverb, 13 patches, WAV. Official GareBearProductionz itch product ($3.33 -25%) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-necrommancers-audio-toolkit.html
   Public URL: https://garebearproductionz.itch.io/necrommancers-audio-toolkit
   GitHub: N/A
@@ -781,7 +781,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Orerry Solar System Pack - Live VFX Animations + Scale Accuracy & Tilt: Orerry Solar System Pack - Live VFX Animations + Scale Accuracy & Tilt Official GareBearProductionz itch product (paid) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- Orerry Solar System Pack - Live VFX Animations + Scale Accuracy & Tilt: The solar system at true relative scale and tilt - Earth done properly - live VFX animations for space scenes, skyboxes Official GareBearProductionz itch product (paid) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-orerry-solar-system-pack.html
   Public URL: https://garebearproductionz.itch.io/orerry-solar-system-pack
   GitHub: N/A
@@ -847,13 +847,13 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: reward, generator, formula, items, game-dev, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
 
-- Rift Edge - Laser Sword & Glow Slash Pack: Rift Edge - Laser Sword & Glow Slash Pack Official GareBearProductionz itch product ($0.80 -33%) in the Hero Generators line; checkout and downloads happen on the official itch page.
+- Rift Edge - Laser Sword & Glow Slash Pack: Ten beam swords, twenty-four cuts with burning vanta rims - each sword as still, strip, 12-frame ignition, generator. Official GareBearProductionz itch product ($0.80 -33%) in the Hero Generators line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-rift-edge-laser-sword-glow-slash-pack.html
   Public URL: https://garebearproductionz.itch.io/rift-edge-laser-sword-glow-slash-pack
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Riftedge - 1001 Slash FX Pack: 1001 Slash VFX Animations Official GareBearProductionz itch product ($2.22 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- Riftedge - 1001 Slash FX Pack: The full Riftedge set: 1,001 slash VFX animations for combat, dashes, finishers - free Slash FX 101 is just a tenth. Official GareBearProductionz itch product ($2.22 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-riftedge-1001-slash-fx.html
   Public URL: https://garebearproductionz.itch.io/riftedge-1001-slash-fx
   GitHub: N/A
@@ -865,7 +865,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: free, sprite, darkhold, pixel-art, itch, game-assets, garebearproductionz
 
-- Shadow Fighters — Dragon Knight, Iron Sentinel, Xeno Grunt (+ Raptor): Shadow Fighters — Dragon Knight, Iron Sentinel, Xeno Grunt (+ Raptor) Official GareBearProductionz itch product ($3.07 -18%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- Shadow Fighters — Dragon Knight, Iron Sentinel, Xeno Grunt (+ Raptor): Dragon Knight, Iron Sentinel, Xeno Grunt, raptor companion - 65 animations, 290 frames, effects kept lit, bodies dark. Official GareBearProductionz itch product ($3.07 -18%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor.html
   Public URL: https://garebearproductionz.itch.io/shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor
   GitHub: N/A
@@ -877,7 +877,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Shadow Trooper Silhouette (FREE): Yurei: Shadow Trooper Official GareBearProductionz itch product (FREE) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
+- Shadow Trooper Silhouette (FREE): A silhouette Shadow Trooper: 6 animations, 41 frames, blacked to silhouette, core, beam, bolts kept lit. Drop-in enemy. Official GareBearProductionz itch product (FREE) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-shadow-trooper-silhouette-free.html
   Public URL: https://garebearproductionz.itch.io/shadow-trooper-silhouette-free
   GitHub: N/A
@@ -901,19 +901,19 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- SLAGWORKS: CinderHaul - 6 Map Animated Tileset 1,910 Sprites: SLAGWORKS: CinderHaul - 6 Map Animated Tileset 1,910 Sprites Official GareBearProductionz itch product ($2.22 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- SLAGWORKS: CinderHaul - 6 Map Animated Tileset 1,910 Sprites: Six 32x32 industrial tilesets - magma, molten steel, coolant, sewage, runoff, cold storage - 1,910 sprites, 34 palettes. Official GareBearProductionz itch product ($2.22 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-slagworks-cinderhaul-6-map-animated-tileset.html
   Public URL: https://garebearproductionz.itch.io/slagworks-cinderhaul-6-map-animated-tileset
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- SLAGWORKS: Spectral Carnage Sewer Deck (FREE): SLAGWORKS: Spectral Carnage Sewer Deck (FREE) Official GareBearProductionz itch product (FREE) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
+- SLAGWORKS: Spectral Carnage Sewer Deck (FREE): A 32x32 top-down sewer, industrial tileset: brickwork, sludge channels, gas vents, plumbing props, 4 animated containers Official GareBearProductionz itch product (FREE) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-spectral-carnage-sewers-free-tileset-map.html
   Public URL: https://garebearproductionz.itch.io/spectral-carnage-sewers-free-tileset-map
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Slash FX 101 (FREE): 101 Static Slash FX FREE Official GareBearProductionz itch product (FREE) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
+- Slash FX 101 (FREE): 101 free slash effects - a tenth of 1001. 6 forms, 10 beams, 5 severities, 96px grid, each cut recorded from its seed Official GareBearProductionz itch product (FREE) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-slash-fx-101.html
   Public URL: https://garebearproductionz.itch.io/slash-fx-101
   GitHub: N/A
@@ -943,7 +943,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- SUGARFALL — the pink party pack (FREE): SUGARFALL — the pink party pack (FREE) Official GareBearProductionz itch product (FREE) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
+- SUGARFALL — the pink party pack (FREE): 12 pink party weapons, 5 full-screen overlays in hot pink - cupcake bombs, sprinkle daggers, heart veils, meltdowns. Official GareBearProductionz itch product (FREE) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-sugarfall-the-pink-party-pack-free.html
   Public URL: https://garebearproductionz.itch.io/sugarfall-the-pink-party-pack-free
   GitHub: N/A
@@ -991,7 +991,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: mjolnir, hammer, physics, svg, weapon, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
 
-- Transparent D20 Dice Color 3D OBJ Pack: Transparent D20 Dice Color 3D OBJ Pack Official GareBearProductionz itch product ($9.75 -25%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
+- Transparent D20 Dice Color 3D OBJ Pack: A 3D transparent D20 with glowing numbers, glass shading, hue-shifted colours, spin, roll, recolour, OBJ, PNG export. Official GareBearProductionz itch product ($9.75 -25%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-d20-dice-color-3d-obj-pack.html
   Public URL: https://garebearproductionz.itch.io/d20-dice-color-3d-obj-pack
   GitHub: N/A
@@ -1003,7 +1003,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: free, vfx, test-room, arena, elemental, itch, game-assets, garebearproductionz
 
-- Victory Wraith (FREE): Victory Wraith (FREE) Official GareBearProductionz itch product (FREE) in the Wraith Lore & Story Assets line; checkout and downloads happen on the official itch page.
+- Victory Wraith (FREE): A free wraith sprite to haunt your game — a spectral enemy draft, ready to drop into a dark fantasy or horror scene. Official GareBearProductionz itch product (FREE) in the Wraith Lore & Story Assets line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-victory-wraith-free.html
   Public URL: https://garebearproductionz.itch.io/victory-wraith-free
   GitHub: N/A
@@ -1289,7 +1289,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: https://github.com/GareBear99/Free-Dark-Piano-Sound-Kit
   Tags: piano, cinematic, midi, sample-pack, producer-tools
 
-- Free Drum Producer Kit: 136 drum one-shots - kicks, snares, claps, hats, and percussion.
+- Free Drum Producer Kit: 136 WAVs (114 one-shots + 22 loops) - kicks, snares, claps, hats, and percussion.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/free-drum-producer-kit.html
   Public URL: https://github.com/GareBear99/Free-Drum-Producer-Kit
   GitHub: https://github.com/GareBear99/Free-Drum-Producer-Kit

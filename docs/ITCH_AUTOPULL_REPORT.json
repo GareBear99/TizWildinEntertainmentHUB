@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T15:41:28Z",
+  "generatedAt": "2026-11-08T15:59:50Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
   "itemsParsed": 112,
   "itemsWritten": 112,
@@ -458,7 +458,7 @@
     "checkedUrls": 200,
     "liveUrls": 200,
     "deadUrlsBeforeRepair": 0,
-    "deadCandidatesSkippedDuringEnrich": 327,
+    "deadCandidatesSkippedDuringEnrich": 326,
     "repairedCount": 0,
     "unresolvedCount": 0,
     "unverifiedUrls": 0
