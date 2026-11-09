@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-08T15:59:50Z",
+  "generatedAt": "2026-11-09T19:51:44Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 112,
-  "itemsWritten": 112,
-  "mediaReadyItems": 112,
+  "itemsParsed": 113,
+  "itemsWritten": 113,
+  "mediaReadyItems": 113,
   "detailStatus": [
     {
       "slug": "orc-bungalo-mystic-meadow-arena-kit",
@@ -55,6 +55,10 @@
     },
     {
       "slug": "violin-synth-sample-kit",
+      "status": "ok"
+    },
+    {
+      "slug": "avatar-generator",
       "status": "ok"
     },
     {
@@ -455,10 +459,10 @@
     }
   ],
   "mediaVerification": {
-    "checkedUrls": 200,
-    "liveUrls": 200,
+    "checkedUrls": 201,
+    "liveUrls": 201,
     "deadUrlsBeforeRepair": 0,
-    "deadCandidatesSkippedDuringEnrich": 326,
+    "deadCandidatesSkippedDuringEnrich": 344,
     "repairedCount": 0,
     "unresolvedCount": 0,
     "unverifiedUrls": 0

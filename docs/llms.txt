@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-11-08
+Generated: 2026-11-09
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -490,6 +490,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
 - Arcanum I - Part 3 — Animated Full-Screen VFX Overlays (30 screens, 960 frames): Arcanum I - Part 3 — Animated Full-Screen VFX Overlays (30 screens, 960 frames) Official GareBearProductionz itch product ($3.33) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-arcanum-i-part-3-animated-full-screen-vfx-overlays-30-screens-960-frames.html
   Public URL: https://garebearproductionz.itch.io/arcanum-i-part-3-animated-full-screen-vfx-overlays-30-screens-960-frames
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
+- Avatar Generator — 2.4 Billion Succubus Combinations: Build your succubus. 2,419,200,000 combinations across 13 groups — scales, hair, horns, wings, eyes, outfits, tails. Play in browser Official GareBearProductionz itch product (paid) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-avatar-generator.html
+  Public URL: https://garebearproductionz.itch.io/avatar-generator
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 

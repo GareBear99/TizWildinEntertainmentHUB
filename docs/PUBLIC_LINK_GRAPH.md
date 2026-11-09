@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-11-08
+Generated: 2026-11-09
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **221**
+- Total indexed records: **222**
 - Total clusters: **12**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -126,6 +126,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Arcanum I - Part 1— Animated Pixel Spell Effects (75 effects, 1,200 frames)](pages/itch-arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames | itch, game-assets, garebearproductionz |
 | [Arcanum I - Part 2 — Animated Pixel Spell Abilities (23 spells, 752 frames)](pages/itch-arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames | itch, game-assets, garebearproductionz |
 | [Arcanum I - Part 3 — Animated Full-Screen VFX Overlays (30 screens, 960 frames)](pages/itch-arcanum-i-part-3-animated-full-screen-vfx-overlays-30-screens-960-frames.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/arcanum-i-part-3-animated-full-screen-vfx-overlays-30-screens-960-frames | itch, game-assets, garebearproductionz |
+| [Avatar Generator — 2.4 Billion Succubus Combinations](pages/itch-avatar-generator.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/avatar-generator | itch, game-assets, garebearproductionz |
 | [Black & Red Dice SVG & PNG 2D-3D Export Engine](pages/itch-black-red-dice-svg-png-export-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine | itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Blood Bound by Pixel Scythe & SVG (FREE)](pages/itch-blood-bound-scythe-svg-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/blood-bound-scythe-svg-free | free, scythe, weapon, svg, pixel-art, itch, game-assets, garebearproductionz |
 | [Cash Cloud Sprite Pack (FREE)](pages/itch-cash-cloud.html) | Itch Asset Pack | https://garebearproductionz.itch.io/cash-cloud | itch, game-assets, garebearproductionz |

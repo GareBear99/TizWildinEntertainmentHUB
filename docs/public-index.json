@@ -1,11 +1,11 @@
 {
   "schemaVersion": "2.0",
-  "generatedAt": "2026-11-08",
+  "generatedAt": "2026-11-09",
   "name": "TizWildin Entertainment HUB Public Link Index",
   "description": "Static crawler-friendly index of TizWildin audio, producer, public list, credibility, and ARC source-spine routes.",
   "owner": "GareBear99",
   "baseUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB",
-  "itemCount": 221,
+  "itemCount": 222,
   "items": [
     {
       "cluster": "AI and Automation Tools",
@@ -2591,6 +2591,35 @@
       "page": "pages/itch-arcanum-i-part-3-animated-full-screen-vfx-overlays-30-screens-960-frames.html",
       "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-arcanum-i-part-3-animated-full-screen-vfx-overlays-30-screens-960-frames.html",
       "canonicalUrl": "https://garebearproductionz.itch.io/arcanum-i-part-3-animated-full-screen-vfx-overlays-30-screens-960-frames",
+      "repoUrl": "",
+      "docsUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html"
+    },
+    {
+      "cluster": "Game Asset Store / Itch Inventory",
+      "kind": "Itch Game Tool / Formula",
+      "name": "Avatar Generator — 2.4 Billion Succubus Combinations",
+      "description": "Build your succubus. 2,419,200,000 combinations across 13 groups — scales, hair, horns, wings, eyes, outfits, tails. Play in browser Official GareBearProductionz itch product (paid) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.",
+      "repo": "",
+      "url": "https://garebearproductionz.itch.io/avatar-generator",
+      "docs": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html",
+      "status": "released",
+      "tags": [
+        "itch",
+        "game-assets",
+        "garebearproductionz"
+      ],
+      "priority": 42,
+      "license": "See individual itch page",
+      "language": "HTML / JavaScript / Assets",
+      "source_manifest": "all_items.json",
+      "page_slug": "itch-avatar-generator",
+      "render_page": true,
+      "cover": "https://img.itch.zone/aW1nLzMxOTkwMjgxLmpwZWc=/original/lW2QP%2F.jpeg",
+      "animated": "",
+      "id": "itch-avatar-generator",
+      "page": "pages/itch-avatar-generator.html",
+      "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-avatar-generator.html",
+      "canonicalUrl": "https://garebearproductionz.itch.io/avatar-generator",
       "repoUrl": "",
       "docsUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html"
     },
