@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-11-09
+Generated: 2026-11-10
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **222**
+- Total indexed records: **224**
 - Total clusters: **12**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -129,6 +129,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Avatar Generator — 2.4 Billion Succubus Combinations](pages/itch-avatar-generator.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/avatar-generator | itch, game-assets, garebearproductionz |
 | [Black & Red Dice SVG & PNG 2D-3D Export Engine](pages/itch-black-red-dice-svg-png-export-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine | itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Blood Bound by Pixel Scythe & SVG (FREE)](pages/itch-blood-bound-scythe-svg-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/blood-bound-scythe-svg-free | free, scythe, weapon, svg, pixel-art, itch, game-assets, garebearproductionz |
+| [Boss Backgrounds — Free Pack](pages/itch-boss-backgrounds-free-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/boss-backgrounds-free-pack | itch, game-assets, garebearproductionz |
 | [Cash Cloud Sprite Pack (FREE)](pages/itch-cash-cloud.html) | Itch Asset Pack | https://garebearproductionz.itch.io/cash-cloud | itch, game-assets, garebearproductionz |
 | [Chaos Arcanum Part 1 - Blood FX & More](pages/itch-ichor-glyph.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/ichor-glyph | itch, game-assets, garebearproductionz |
 | [Cloudworks — Pixel Cloud & Parallax Toolkit + Trains](pages/itch-cloudworks-pixel-cloud-parallax-toolkit-trains.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/cloudworks-pixel-cloud-parallax-toolkit-trains | itch, game-assets, garebearproductionz |
@@ -168,6 +169,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Live Pentagram Formula 2D-2.5D](pages/itch-live-pentagram-formula-2d-3d.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/live-pentagram-formula-2d-3d | pentagram, ritual, 2d, 2.5d, formula, itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [Live Smog VFX & Shadow Run Map Layers](pages/itch-shadow-run-map-layers-live-smog-fx.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/shadow-run-map-layers-live-smog-fx | itch, game-assets, garebearproductionz |
 | [Live SVG Icon Starter Kit Pipeline + 4 Live Hell FX Icons](pages/itch-svg-icon-starter-kit-pipeline.html) | Itch Asset Pack | https://garebearproductionz.itch.io/svg-icon-starter-kit-pipeline | icons, svg, hell, starter-kit, live-fx, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
+| [Minds Eye — Free Pack](pages/itch-minds-eye-free-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/minds-eye-free-pack | itch, game-assets, garebearproductionz |
 | [MODE-7 FLOORCAST ENGINE](pages/itch-mode-7.html) | Itch Playable Game / Engine | https://garebearproductionz.itch.io/mode-7 | itch, game-assets, garebearproductionz |
 | [Multi Layered Epic Free SVG Backdrop Static Scene (Free)](pages/itch-multi-layered-epic-free-svg-backdrop-static-scene.html) | Itch Playable Game / Engine | https://garebearproductionz.itch.io/multi-layered-epic-free-svg-backdrop-static-scene | free, svg, backdrop, scene, layers, itch, game-assets, garebearproductionz |
 | [NECROMANCER'S TOOLKIT - EXPANDED RITUAL WORLD BUNDLE EDITION](pages/itch-bundle.html) | Itch Bundle | https://garebearproductionz.itch.io/bundle | itch, game-assets, garebearproductionz, formula-a1-bundle |
@@ -201,7 +203,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Spectral Icon SVG Pipeline Kit](pages/itch-spectral-icon-svg-pipeline-kit.html) | Itch Asset Pack | https://garebearproductionz.itch.io/spectral-icon-svg-pipeline-kit | icons, spectral, svg, pipeline, ui, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Sphinx Pyramid Activation Layered Live Animated Map Backdrop](pages/itch-sphinx-activation-layered-live-map.html) | Itch Asset Pack | https://garebearproductionz.itch.io/sphinx-activation-layered-live-map | sphinx, pyramid, backdrop, svg, ritual, tilemap, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Static Atmos - PDF Demo 'Wraith Eternal' Comic](pages/itch-static-atmos.html) | Itch Asset Pack | https://garebearproductionz.itch.io/static-atmos | wraith, comic, pdf, atmos, music, itch, game-assets, garebearproductionz |
-| [Subwoofer Crown Bass Pack (FREE)](pages/itch-subwoofer-crown-bass-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/subwoofer-crown-bass-pack | itch, game-assets, garebearproductionz |
+| [Subwoofer Crown Bass Pack](pages/itch-subwoofer-crown-bass-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/subwoofer-crown-bass-pack | itch, game-assets, garebearproductionz |
 | [SUGARFALL — the pink party pack (FREE)](pages/itch-sugarfall-the-pink-party-pack-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/sugarfall-the-pink-party-pack-free | itch, game-assets, garebearproductionz |
 | [Summoner's Delight](pages/itch-summoners-delights.html) | Itch Asset Pack | https://garebearproductionz.itch.io/summoners-delights | summoner, gif, assets, pixel-art, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [SVG Hell Fiery Icon Pipelines + Basic Live FX](pages/itch-infernal-hell-icons-free-basic-fx.html) | Itch Asset Pack | https://garebearproductionz.itch.io/infernal-hell-icons-free-basic-fx | icons, hell, svg, fx, pipeline, itch, game-assets, garebearproductionz, live-svg-fx-bundle |
