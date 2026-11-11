@@ -79,3 +79,23 @@ at `docs/api-routes-daily.md` for promotional continuity (same content, no secre
 - **New routes used/found:** none today.
 - **Revenue:** $0 new today (no sales verified).
 - **Could not verify:** Bluesky referral post (13:42 PM run summary empty, Mac poster logs not accessible from this VM); Threads evening run's final outcome (still listed running at 20:42 PST; no post in state.json or poster.log).
+
+## 2026-11-10 (Tue)
+
+- **Nostr posts:** #13 King's Gambit ($2.25 CAD) — POSTED ~10:44 PST, verified live on relay.primal.net + relay.nostr.net (event 86bbf99b…, note https://nostr.band/note1s6alnx6cu7n30vjclyffszmj5ksyne03ygr89yglkvrc64p6zu3saaryxk, 2/7 relays; damus 503, nos.lol + nostr.mom + wellorder timeouts, nostr.band connection lost). Cover via nostr.build: https://image.nostr.build/f765f08a5e0cb612f351d6bbcfbe2431c80a9739876009cfd300137b7b657af0.gif. No referral code in this note. Key read transiently from the Mac, never saved.
+- **Nostr posts:** #14 A Devil's Game ($2.10 CAD) — POSTED ~16:43 PST, verified live on relay.primal.net + relay.nostr.net (event f1be56ec…, note https://nostr.band/note17xl9dmymw09t9vwc8vx7nvtq8aq79az3z7dxtxrahr35093kq2fquts45u, 2/7 relays; damus 503, nos.lol + nostr.mom + wellorder timeouts, nostr.band connection lost). Cover via nostr.build: https://image.nostr.build/f5b6c66bcb92bd5a289a4ec42b96ffad76b4f3a12e6336c6914471c898f67afc.jpg. No referral code in this note. Key read transiently from the Mac, never saved.
+- **Paying assets promoted:** King's Gambit (Nostr, $2.25 CAD), A Devil's Game (Nostr, $2.10 CAD).
+- **Revenue:** $0 new today (no sales verified).
+
+## 2026-11-10 (Tue) — final (closes the in-progress section above)
+
+- **API routes work:** none today — no new routes researched or used, no poster changes.
+- **Bluesky posts:** no post verified from run history. bluesky-post-daily-am 07:42 PST and bluesky-post-daily-pm 13:42 PST fired but both were gate-held (recurring job takes over Nov 12; runonce crons own Nov 6–11). Runonce bluesky-post-adevils-game-pm 07:42 PST FAILED — Mac offline (last seen 07:17 PST), poster script never ran, draft 15 A Devil's Game not posted. Referral draft `08-muse-referral-boss.json`: outcome UNCONFIRMED — Mac poster logs not accessible from this VM.
+- **Threads posts:** `08d-muse-referral-boss.json` — Muse referral (siren boss + code 7LU3P6) — POSTED 01:02 PST, verified live (late post from the Nov 9 18:42 run). `09-adevils-game.json` — A Devil's Game ($2.10 CAD, was $4.20) — POSTED 12:47 PST, verified live. `10-pharaohs-sands.json` — Pharaoh's Sands ($4.20 CAD, was $8.40) — POSTED 18:48 PST, verified live. Morning 06:42 PST run: no post (all drafts SKIP/HOLD on the 6h interval). Next due: `11-wisp-pack.json` at the 06:42 run Nov 11.
+- **Nostr posts:** #13 King's Gambit ($2.25 CAD) POSTED ~10:44 PST, verified live. #14 A Devil's Game ($2.10 CAD) POSTED ~16:43 PST, verified live.
+- **Hive posts:** Cloudworks ($6.99 CAD) POSTED 10:42 PST, verified live. Pharaoh's Sands ($4.20 CAD) POSTED 16:42 PST, verified live. Muse referral draft prepared today (approved, image via images.hive.blog), due ~20:45 PST — not yet posted at log time.
+- **Paying assets promoted:** A Devil's Game (Threads + Nostr, $2.10 CAD), Pharaoh's Sands (Threads + Hive, $4.20 CAD), King's Gambit (Nostr, $2.25 CAD), Cloudworks (Hive, $6.99 CAD).
+- **Acquired today:** itch inventory 115 → 117 (autopull 1d02640, 13:20 PST) — two NEW paid listings, both published today: Pharaoh's Sands — Desert Sun Court Arena Kit, $4.20 (https://garebearproductionz.itch.io/pharaohs-sands-desert-sun-court-arena-kit, published 12:20 PST); Flags & Banners Collection — Vol 1, $2.49 (https://garebearproductionz.itch.io/flags-banners-collection-vol-1, published 12:24 PST). No price changes in the autopull (only lastSeen refreshes); no sales verified; no sales-audit work today. Queue work landed: Nostr runonce crons extended through Dec 4 (49 crons); Pharaoh's Sands swapped into the next slot on Nostr (Nov 11 10:42), Hive (posted 16:42) and Threads (posted 18:48); stale Dec 1 Nostr Pharaoh's Sands cron ($10.00) removed and replaced with Fireball Generator Formula ($7.50). Hive draft 61 (Dec 9, Pharaoh's Sands) still carries the stale $10.00 price — needs re-pricing to $4.20 when next touched.
+- **New routes used/found:** none today.
+- **Revenue:** $0 new today (no sales verified).
+- **Could not verify:** Bluesky — no post verified from run history (Mac poster logs not accessible from this VM); referral draft 08 outcome unconfirmed; Pharaoh's Sands Bluesky queue swap outcome unconfirmed (coordinator's Bluesky result never landed).
