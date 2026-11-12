@@ -1,10 +1,18 @@
 {
-  "generatedAt": "2026-11-10T17:05:50Z",
+  "generatedAt": "2026-11-12T17:38:22Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 115,
-  "itemsWritten": 115,
-  "mediaReadyItems": 115,
+  "itemsParsed": 119,
+  "itemsWritten": 119,
+  "mediaReadyItems": 119,
   "detailStatus": [
+    {
+      "slug": "pharaohs-sands-desert-sun-court-arena-kit",
+      "status": "ok"
+    },
+    {
+      "slug": "flags-banners-collection-vol-1",
+      "status": "ok"
+    },
     {
       "slug": "orc-bungalo-mystic-meadow-arena-kit",
       "status": "ok"
@@ -22,7 +30,59 @@
       "status": "ok"
     },
     {
+      "slug": "animated-vfx-ui-pack-80-assets",
+      "status": "ok"
+    },
+    {
+      "slug": "dark-fantasy-modular-gui-pack-704-ui-assets-160-icons",
+      "status": "ok"
+    },
+    {
+      "slug": "elemental-wisp-sprite-pack",
+      "status": "ok"
+    },
+    {
+      "slug": "arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames",
+      "status": "ok"
+    },
+    {
+      "slug": "arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames",
+      "status": "ok"
+    },
+    {
+      "slug": "1200-animated-pixel-sigils-magic-circles-runes-loading-spinners",
+      "status": "ok"
+    },
+    {
+      "slug": "256-pixel-runes-glyphs-symbols-that-write-themselves",
+      "status": "ok"
+    },
+    {
+      "slug": "120-elemental-vfx-pixel-abilities-icons",
+      "status": "ok"
+    },
+    {
+      "slug": "coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts",
+      "status": "ok"
+    },
+    {
+      "slug": "orerry-solar-system-pack",
+      "status": "ok"
+    },
+    {
+      "slug": "cosmic-disruption-free-fast-paced-game-music-pack",
+      "status": "ok"
+    },
+    {
       "slug": "minds-eye-free-pack",
+      "status": "ok"
+    },
+    {
+      "slug": "pharaohs-sands-crowds",
+      "status": "ok"
+    },
+    {
+      "slug": "arena-crowds-collection",
       "status": "ok"
     },
     {
@@ -70,43 +130,11 @@
       "status": "ok"
     },
     {
-      "slug": "animated-vfx-ui-pack-80-assets",
-      "status": "ok"
-    },
-    {
-      "slug": "dark-fantasy-modular-gui-pack-704-ui-assets-160-icons",
-      "status": "ok"
-    },
-    {
-      "slug": "arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames",
-      "status": "ok"
-    },
-    {
-      "slug": "arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames",
-      "status": "ok"
-    },
-    {
-      "slug": "elemental-wisp-sprite-pack",
-      "status": "ok"
-    },
-    {
       "slug": "pyre-fire-pack-generator-tools",
       "status": "ok"
     },
     {
       "slug": "gossamer-pixel-cobwebs-corner-webs-screen-overlays",
-      "status": "ok"
-    },
-    {
-      "slug": "120-elemental-vfx-pixel-abilities-icons",
-      "status": "ok"
-    },
-    {
-      "slug": "256-pixel-runes-glyphs-symbols-that-write-themselves",
-      "status": "ok"
-    },
-    {
-      "slug": "1200-animated-pixel-sigils-magic-circles-runes-loading-spinners",
       "status": "ok"
     },
     {
@@ -119,18 +147,6 @@
     },
     {
       "slug": "dark-fantasy-dungeon-builder-free-four-realm-tileset",
-      "status": "ok"
-    },
-    {
-      "slug": "cosmic-disruption-free-fast-paced-game-music-pack",
-      "status": "ok"
-    },
-    {
-      "slug": "orerry-solar-system-pack",
-      "status": "ok"
-    },
-    {
-      "slug": "coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts",
       "status": "ok"
     },
     {
@@ -467,10 +483,10 @@
     }
   ],
   "mediaVerification": {
-    "checkedUrls": 204,
-    "liveUrls": 204,
+    "checkedUrls": 212,
+    "liveUrls": 212,
     "deadUrlsBeforeRepair": 0,
-    "deadCandidatesSkippedDuringEnrich": 348,
+    "deadCandidatesSkippedDuringEnrich": 354,
     "repairedCount": 0,
     "unresolvedCount": 0,
     "unverifiedUrls": 0

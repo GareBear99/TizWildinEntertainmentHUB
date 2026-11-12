@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-11-10
+Generated: 2026-11-12
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -493,6 +493,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
+- Arena Crowds Collection: Arena Crowds Collection Official GareBearProductionz itch product ($2.22 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-arena-crowds-collection.html
+  Public URL: https://garebearproductionz.itch.io/arena-crowds-collection
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
 - Avatar Generator — 2.4 Billion Succubus Combinations: Build your succubus. 2,419,200,000 combinations across 13 groups — scales, hair, horns, wings, eyes, outfits, tails. Play in browser Official GareBearProductionz itch product (paid) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-avatar-generator.html
   Public URL: https://garebearproductionz.itch.io/avatar-generator
@@ -529,13 +535,13 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Cloudworks — Pixel Cloud & Parallax Toolkit + Trains: A procedural pixel-sky engine: seeded clouds, parallax horizons, a train on the trestle — export the whole scene. Official GareBearProductionz itch product ($6.99) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- Cloudworks — Pixel Cloud & Parallax Toolkit + Trains: A procedural pixel-sky engine: seeded clouds, parallax horizons, a train on the trestle — export the whole scene. Official GareBearProductionz itch product ($3.49 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-cloudworks-pixel-cloud-parallax-toolkit-trains.html
   Public URL: https://garebearproductionz.itch.io/cloudworks-pixel-cloud-parallax-toolkit-trains
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Coin Physics & Triple Buffer Atomic Swap Pack & Engine Kit: A pixel coin burst pack and live collectible engine: 5 coin types, burst physics, spin, bounce, sparkle, pickup magnet. Official GareBearProductionz itch product ($11.24 -25%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
+- Coin Physics & Triple Buffer Atomic Swap Pack & Engine Kit: A pixel coin burst pack and live collectible engine: 5 coin types, burst physics, spin, bounce, sparkle, pickup magnet. Official GareBearProductionz itch product ($7.49 -50%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html
   Public URL: https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts
   GitHub: N/A
@@ -613,6 +619,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
+- Flags & Banners Collection — Vol 1: 30 waving pixel-art flags: hanging banners, pole flags, pennants. Winter, gothic, hell, meadow and desert themes. Official GareBearProductionz itch product ($1.66 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-flags-banners-collection-vol-1.html
+  Public URL: https://garebearproductionz.itch.io/flags-banners-collection-vol-1
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
 - FREE Haunter Sprites: A free modular haunter boss, enemy pack - isolated head, expressions, hands, limbs float, rotate, lag for uncanny ghost Official GareBearProductionz itch product (FREE) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-free-haunter-sprites.html
   Public URL: https://garebearproductionz.itch.io/free-haunter-sprites
@@ -637,7 +649,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Gossamer — 289 Pixel Cobwebs, Corner Webs & Screen Overlays: 289 pixel cobwebs, 5 thread colours, corner webs, membrane webs, orbs, strands, 9 full-screen overlays, Python included Official GareBearProductionz itch product ($1.12 -25%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- Gossamer — 289 Pixel Cobwebs, Corner Webs & Screen Overlays: 289 pixel cobwebs, 5 thread colours, corner webs, membrane webs, orbs, strands, 9 full-screen overlays, Python included Official GareBearProductionz itch product ($0.75 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-gossamer-pixel-cobwebs-corner-webs-screen-overlays.html
   Public URL: https://garebearproductionz.itch.io/gossamer-pixel-cobwebs-corner-webs-screen-overlays
   GitHub: N/A
@@ -802,6 +814,18 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
 - Orerry Solar System Pack - Live VFX Animations + Scale Accuracy & Tilt: The solar system at true relative scale and tilt - Earth done properly - live VFX animations for space scenes, skyboxes Official GareBearProductionz itch product (paid) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-orerry-solar-system-pack.html
   Public URL: https://garebearproductionz.itch.io/orerry-solar-system-pack
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
+- Pharaoh's Sands Crowds: Pharaoh's Sands Crowds Official GareBearProductionz itch product ($2.22 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-pharaohs-sands-crowds.html
+  Public URL: https://garebearproductionz.itch.io/pharaohs-sands-crowds
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
+- Pharaoh's Sands — Desert Sun Court Arena Kit: A desert sun-court arena kit: pharaoh king on his throne, bonus UFO fleet, jackal and mummy crowds, 77 tiles, UI kit. Official GareBearProductionz itch product ($4.20 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-pharaohs-sands-desert-sun-court-arena-kit.html
+  Public URL: https://garebearproductionz.itch.io/pharaohs-sands-desert-sun-court-arena-kit
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 

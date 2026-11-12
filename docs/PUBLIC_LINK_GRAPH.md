@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-11-10
+Generated: 2026-11-12
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **224**
+- Total indexed records: **228**
 - Total clusters: **12**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -126,6 +126,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Arcanum I - Part 1— Animated Pixel Spell Effects (75 effects, 1,200 frames)](pages/itch-arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames | itch, game-assets, garebearproductionz |
 | [Arcanum I - Part 2 — Animated Pixel Spell Abilities (23 spells, 752 frames)](pages/itch-arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames | itch, game-assets, garebearproductionz |
 | [Arcanum I - Part 3 — Animated Full-Screen VFX Overlays (30 screens, 960 frames)](pages/itch-arcanum-i-part-3-animated-full-screen-vfx-overlays-30-screens-960-frames.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/arcanum-i-part-3-animated-full-screen-vfx-overlays-30-screens-960-frames | itch, game-assets, garebearproductionz |
+| [Arena Crowds Collection](pages/itch-arena-crowds-collection.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/arena-crowds-collection | itch, game-assets, garebearproductionz |
 | [Avatar Generator — 2.4 Billion Succubus Combinations](pages/itch-avatar-generator.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/avatar-generator | itch, game-assets, garebearproductionz |
 | [Black & Red Dice SVG & PNG 2D-3D Export Engine](pages/itch-black-red-dice-svg-png-export-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine | itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Blood Bound by Pixel Scythe & SVG (FREE)](pages/itch-blood-bound-scythe-svg-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/blood-bound-scythe-svg-free | free, scythe, weapon, svg, pixel-art, itch, game-assets, garebearproductionz |
@@ -146,6 +147,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [ENCHANTED SPRITE VFX ENGINE](pages/itch-enchanted-sprite-vfx-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine | itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [Evil Eye Four Pack & Live SVG Animations](pages/itch-evil-eye-four-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/evil-eye-four-pack | evil-eye, svg, animation, icons, pixel-art, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [EZ GUI Menu Panels](pages/itch-menu-panels.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/menu-panels | itch, game-assets, garebearproductionz |
+| [Flags & Banners Collection — Vol 1](pages/itch-flags-banners-collection-vol-1.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/flags-banners-collection-vol-1 | itch, game-assets, garebearproductionz |
 | [FREE Haunter Sprites](pages/itch-free-haunter-sprites.html) | Itch Asset Pack | https://garebearproductionz.itch.io/free-haunter-sprites | free, haunter, sprites, pixel-art, itch, game-assets, garebearproductionz |
 | [Free Pixel SVG Portrait Asset Builder Kit (Generator & Pack)](pages/itch-cool-pixel-portraits.html) | Itch Playable Game / Engine | https://garebearproductionz.itch.io/cool-pixel-portraits | free, portrait, pixel, svg, generator, itch, game-assets, garebearproductionz |
 | [FreeEQ8 (Most Advanced EQ OpenSource)](pages/itch-freeeq8-most-advanced-free-eq-opensource.html) | Itch Asset Pack | https://garebearproductionz.itch.io/freeeq8-most-advanced-free-eq-opensource | freeeq8, audio, plugin, eq, open-source, itch, game-assets, garebearproductionz |
@@ -178,6 +180,8 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [NPC Theme of Sacrifice](pages/itch-npc-theme-of-sacrifice.html) | Itch Asset Pack | https://garebearproductionz.itch.io/npc-theme-of-sacrifice | npc, theme, music, audio, sacrifice, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Orc Bungalo - Mystic Meadow Arena Kit](pages/itch-orc-bungalo-mystic-meadow-arena-kit.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/orc-bungalo-mystic-meadow-arena-kit | itch, game-assets, garebearproductionz |
 | [Orerry Solar System Pack - Live VFX Animations + Scale Accuracy & Tilt](pages/itch-orerry-solar-system-pack.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/orerry-solar-system-pack | itch, game-assets, garebearproductionz |
+| [Pharaoh's Sands Crowds](pages/itch-pharaohs-sands-crowds.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/pharaohs-sands-crowds | itch, game-assets, garebearproductionz |
+| [Pharaoh's Sands — Desert Sun Court Arena Kit](pages/itch-pharaohs-sands-desert-sun-court-arena-kit.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/pharaohs-sands-desert-sun-court-arena-kit | itch, game-assets, garebearproductionz |
 | [Pixel Abyssal Teleportation Device](pages/itch-pixel-abyssal-teleporter.html) | Itch Asset Pack | https://garebearproductionz.itch.io/pixel-abyssal-teleporter | teleporter, abyssal, pedestal, pixel-art, prop, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Pixel Blood & Bone Demon Scythe + SVG (FREE)](pages/itch-blood-bone-scythe.html) | Itch Asset Pack | https://garebearproductionz.itch.io/blood-bone-scythe | free, scythe, demon, weapon, svg, itch, game-assets, garebearproductionz |
 | [Pixel Elemental Velocity Weight Physics 2.5D Quake Hammer (FREE Thor Engine)](pages/itch-pixel-velocity-weight-physics-quake-hammer.html) | Itch Asset Pack | https://garebearproductionz.itch.io/pixel-velocity-weight-physics-quake-hammer | free, hammer, physics, 2d, 2.5d, itch, game-assets, garebearproductionz |
