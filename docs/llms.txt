@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-11-12
+Generated: 2026-11-13
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -493,7 +493,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Arena Crowds Collection: Arena Crowds Collection Official GareBearProductionz itch product ($2.22 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- Arena Crowds Collection - Vol 1: Arena Crowds Collection - Vol 1 Official GareBearProductionz itch product ($2.22 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-arena-crowds-collection.html
   Public URL: https://garebearproductionz.itch.io/arena-crowds-collection
   GitHub: N/A
@@ -817,9 +817,21 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
+- Palm Primal — Pygmy Tribes Arena Kit: Side-view jungle arena kit: 4 pygmy tribes, a voodoo magician, the chief's box, 77-tile autotile set, UI kit and font. Official GareBearProductionz itch product ($4.20 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-palm-primal-pygmy-tribes-arena-kit.html
+  Public URL: https://garebearproductionz.itch.io/palm-primal-pygmy-tribes-arena-kit
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
 - Pharaoh's Sands Crowds: Pharaoh's Sands Crowds Official GareBearProductionz itch product ($2.22 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-pharaohs-sands-crowds.html
   Public URL: https://garebearproductionz.itch.io/pharaohs-sands-crowds
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
+- Pharaoh's Sands Operators: 26 animated operators from the Pharaoh's Sands fleet: 22 crew + 4 UFO pilots, loops on transparent backgrounds. Official GareBearProductionz itch product ($1.25 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-pharaohs-sands-operators.html
+  Public URL: https://garebearproductionz.itch.io/pharaohs-sands-operators
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 

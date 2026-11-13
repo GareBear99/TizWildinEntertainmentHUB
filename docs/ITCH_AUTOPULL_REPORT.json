@@ -1,16 +1,20 @@
 {
-  "generatedAt": "2026-11-12T17:38:22Z",
+  "generatedAt": "2026-11-13T17:14:32Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 119,
-  "itemsWritten": 119,
-  "mediaReadyItems": 119,
+  "itemsParsed": 121,
+  "itemsWritten": 121,
+  "mediaReadyItems": 121,
   "detailStatus": [
     {
-      "slug": "pharaohs-sands-desert-sun-court-arena-kit",
+      "slug": "palm-primal-pygmy-tribes-arena-kit",
       "status": "ok"
     },
     {
       "slug": "flags-banners-collection-vol-1",
+      "status": "ok"
+    },
+    {
+      "slug": "pharaohs-sands-desert-sun-court-arena-kit",
       "status": "ok"
     },
     {
@@ -75,6 +79,10 @@
     },
     {
       "slug": "minds-eye-free-pack",
+      "status": "ok"
+    },
+    {
+      "slug": "pharaohs-sands-operators",
       "status": "ok"
     },
     {
@@ -483,10 +491,10 @@
     }
   ],
   "mediaVerification": {
-    "checkedUrls": 212,
-    "liveUrls": 212,
+    "checkedUrls": 216,
+    "liveUrls": 216,
     "deadUrlsBeforeRepair": 0,
-    "deadCandidatesSkippedDuringEnrich": 354,
+    "deadCandidatesSkippedDuringEnrich": 356,
     "repairedCount": 0,
     "unresolvedCount": 0,
     "unverifiedUrls": 0
