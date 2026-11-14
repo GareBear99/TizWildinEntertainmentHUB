@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-11-13
+Generated: 2026-11-14
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **230**
+- Total indexed records: **231**
 - Total clusters: **12**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -183,6 +183,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Palm Primal — Pygmy Tribes Arena Kit](pages/itch-palm-primal-pygmy-tribes-arena-kit.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/palm-primal-pygmy-tribes-arena-kit | itch, game-assets, garebearproductionz |
 | [Pharaoh's Sands Crowds](pages/itch-pharaohs-sands-crowds.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/pharaohs-sands-crowds | itch, game-assets, garebearproductionz |
 | [Pharaoh's Sands Operators](pages/itch-pharaohs-sands-operators.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/pharaohs-sands-operators | itch, game-assets, garebearproductionz |
+| [Pharaoh's Sands Warriors](pages/itch-pharaohs-sands-warriors.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/pharaohs-sands-warriors | itch, game-assets, garebearproductionz |
 | [Pharaoh's Sands — Desert Sun Court Arena Kit](pages/itch-pharaohs-sands-desert-sun-court-arena-kit.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/pharaohs-sands-desert-sun-court-arena-kit | itch, game-assets, garebearproductionz |
 | [Pixel Abyssal Teleportation Device](pages/itch-pixel-abyssal-teleporter.html) | Itch Asset Pack | https://garebearproductionz.itch.io/pixel-abyssal-teleporter | teleporter, abyssal, pedestal, pixel-art, prop, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Pixel Blood & Bone Demon Scythe + SVG (FREE)](pages/itch-blood-bone-scythe.html) | Itch Asset Pack | https://garebearproductionz.itch.io/blood-bone-scythe | free, scythe, demon, weapon, svg, itch, game-assets, garebearproductionz |

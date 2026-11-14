@@ -1,11 +1,11 @@
 {
   "schemaVersion": "2.0",
-  "generatedAt": "2026-11-13",
+  "generatedAt": "2026-11-14",
   "name": "TizWildin Entertainment HUB Public Link Index",
   "description": "Static crawler-friendly index of TizWildin audio, producer, public list, credibility, and ARC source-spine routes.",
   "owner": "GareBear99",
   "baseUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB",
-  "itemCount": 230,
+  "itemCount": 231,
   "items": [
     {
       "cluster": "AI and Automation Tools",
@@ -4340,6 +4340,35 @@
       "page": "pages/itch-pharaohs-sands-operators.html",
       "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-pharaohs-sands-operators.html",
       "canonicalUrl": "https://garebearproductionz.itch.io/pharaohs-sands-operators",
+      "repoUrl": "",
+      "docsUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html"
+    },
+    {
+      "cluster": "Game Asset Store / Itch Inventory",
+      "kind": "Itch Game Tool / Formula",
+      "name": "Pharaoh's Sands Warriors",
+      "description": "20 mini desert soldiers: 5 roles x 4 teams, walk, spear, khopesh, bow and staff. Pixel art for your game. Official GareBearProductionz itch product ($2.49 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.",
+      "repo": "",
+      "url": "https://garebearproductionz.itch.io/pharaohs-sands-warriors",
+      "docs": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html",
+      "status": "released",
+      "tags": [
+        "itch",
+        "game-assets",
+        "garebearproductionz"
+      ],
+      "priority": 42,
+      "license": "See individual itch page",
+      "language": "HTML / JavaScript / Assets",
+      "source_manifest": "all_items.json",
+      "page_slug": "itch-pharaohs-sands-warriors",
+      "render_page": true,
+      "cover": "https://img.itch.zone/aW1hZ2UvNTM1ODgxNS8zMjI0MDI1OS5naWY=/original/F5Wqs7.gif",
+      "animated": "https://img.itch.zone/aW1nLzMyMjQwMjQ0LmdpZg==/original/gdqjnT.gif",
+      "id": "itch-pharaohs-sands-warriors",
+      "page": "pages/itch-pharaohs-sands-warriors.html",
+      "pageUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-pharaohs-sands-warriors.html",
+      "canonicalUrl": "https://garebearproductionz.itch.io/pharaohs-sands-warriors",
       "repoUrl": "",
       "docsUrl": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/all-account-inventory.html"
     },

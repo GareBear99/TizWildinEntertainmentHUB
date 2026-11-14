@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-11-13
+Generated: 2026-11-14
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -832,6 +832,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
 - Pharaoh's Sands Operators: 26 animated operators from the Pharaoh's Sands fleet: 22 crew + 4 UFO pilots, loops on transparent backgrounds. Official GareBearProductionz itch product ($1.25 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-pharaohs-sands-operators.html
   Public URL: https://garebearproductionz.itch.io/pharaohs-sands-operators
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
+- Pharaoh's Sands Warriors: 20 mini desert soldiers: 5 roles x 4 teams, walk, spear, khopesh, bow and staff. Pixel art for your game. Official GareBearProductionz itch product ($2.49 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-pharaohs-sands-warriors.html
+  Public URL: https://garebearproductionz.itch.io/pharaohs-sands-warriors
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 

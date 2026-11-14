@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-13T17:14:32Z",
+  "generatedAt": "2026-11-14T15:50:37Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 121,
-  "itemsWritten": 121,
-  "mediaReadyItems": 121,
+  "itemsParsed": 122,
+  "itemsWritten": 122,
+  "mediaReadyItems": 122,
   "detailStatus": [
     {
       "slug": "palm-primal-pygmy-tribes-arena-kit",
@@ -15,6 +15,10 @@
     },
     {
       "slug": "pharaohs-sands-desert-sun-court-arena-kit",
+      "status": "ok"
+    },
+    {
+      "slug": "pharaohs-sands-warriors",
       "status": "ok"
     },
     {
@@ -491,10 +495,10 @@
     }
   ],
   "mediaVerification": {
-    "checkedUrls": 216,
-    "liveUrls": 216,
+    "checkedUrls": 218,
+    "liveUrls": 218,
     "deadUrlsBeforeRepair": 0,
-    "deadCandidatesSkippedDuringEnrich": 356,
+    "deadCandidatesSkippedDuringEnrich": 357,
     "repairedCount": 0,
     "unresolvedCount": 0,
     "unverifiedUrls": 0
