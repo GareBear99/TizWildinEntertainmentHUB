@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-11-15
+Generated: 2026-11-16
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **231**
+- Total indexed records: **232**
 - Total clusters: **12**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -181,6 +181,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Orc Bungalo - Mystic Meadow Arena Kit](pages/itch-orc-bungalo-mystic-meadow-arena-kit.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/orc-bungalo-mystic-meadow-arena-kit | itch, game-assets, garebearproductionz |
 | [Orerry Solar System Pack - Live VFX Animations + Scale Accuracy & Tilt](pages/itch-orerry-solar-system-pack.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/orerry-solar-system-pack | itch, game-assets, garebearproductionz |
 | [Palm Primal — Pygmy Tribes Arena Kit](pages/itch-palm-primal-pygmy-tribes-arena-kit.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/palm-primal-pygmy-tribes-arena-kit | itch, game-assets, garebearproductionz |
+| [Pharaoh's Sands Bundle — Oasis Tilemap + Wasteland Add-On](pages/itch-pharaohs-sands-bundle-oasis-tilemap-wasteland-add-on.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/pharaohs-sands-bundle-oasis-tilemap-wasteland-add-on | itch, game-assets, garebearproductionz |
 | [Pharaoh's Sands Crowds](pages/itch-pharaohs-sands-crowds.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/pharaohs-sands-crowds | itch, game-assets, garebearproductionz |
 | [Pharaoh's Sands Operators](pages/itch-pharaohs-sands-operators.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/pharaohs-sands-operators | itch, game-assets, garebearproductionz |
 | [Pharaoh's Sands Warriors](pages/itch-pharaohs-sands-warriors.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/pharaohs-sands-warriors | itch, game-assets, garebearproductionz |

@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-15T16:22:25Z",
+  "generatedAt": "2026-11-16T19:38:57Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 122,
-  "itemsWritten": 122,
-  "mediaReadyItems": 122,
+  "itemsParsed": 123,
+  "itemsWritten": 123,
+  "mediaReadyItems": 123,
   "detailStatus": [
     {
       "slug": "palm-primal-pygmy-tribes-arena-kit",
@@ -11,6 +11,10 @@
     },
     {
       "slug": "flags-banners-collection-vol-1",
+      "status": "ok"
+    },
+    {
+      "slug": "pharaohs-sands-bundle-oasis-tilemap-wasteland-add-on",
       "status": "ok"
     },
     {
@@ -495,10 +499,10 @@
     }
   ],
   "mediaVerification": {
-    "checkedUrls": 218,
-    "liveUrls": 218,
+    "checkedUrls": 220,
+    "liveUrls": 220,
     "deadUrlsBeforeRepair": 0,
-    "deadCandidatesSkippedDuringEnrich": 357,
+    "deadCandidatesSkippedDuringEnrich": 359,
     "repairedCount": 0,
     "unresolvedCount": 0,
     "unverifiedUrls": 0

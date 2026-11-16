@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-11-15
+Generated: 2026-11-16
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -820,6 +820,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
 - Palm Primal — Pygmy Tribes Arena Kit: Side-view jungle arena kit: 4 pygmy tribes, a voodoo magician, the chief's box, 77-tile autotile set, UI kit and font. Official GareBearProductionz itch product ($4.20 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-palm-primal-pygmy-tribes-arena-kit.html
   Public URL: https://garebearproductionz.itch.io/palm-primal-pygmy-tribes-arena-kit
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
+- Pharaoh's Sands Bundle — Oasis Tilemap + Wasteland Add-On: Two packs. The living desert and the dead one. Oasis tilemap + wasteland add-on, same 34-colour palette. Official GareBearProductionz itch product ($1.25 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-pharaohs-sands-bundle-oasis-tilemap-wasteland-add-on.html
+  Public URL: https://garebearproductionz.itch.io/pharaohs-sands-bundle-oasis-tilemap-wasteland-add-on
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
