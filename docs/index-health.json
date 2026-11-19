@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-18T18:04:38Z",
+  "generatedAt": "2026-11-19T18:23:59Z",
   "qualityGrade": "B+",
   "qualityScore": 80,
   "metrics": {
@@ -8,9 +8,9 @@
     "sitemapUrls": 474,
     "sourceRepos": 56,
     "indexedFiles": 1111,
-    "extractedLinks": 6228,
-    "searchRecords": 7627,
-    "searchTokens": 9311,
+    "extractedLinks": 6221,
+    "searchRecords": 7620,
+    "searchTokens": 9318,
     "readinessAverage": 74.4,
     "pendingHydration": 40,
     "linkIssues": 19,

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T18:04:35Z",
+  "generatedAt": "2026-11-19T18:23:58Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
   "itemsParsed": 123,
   "itemsWritten": 123,
@@ -14,15 +14,15 @@
       "status": "ok"
     },
     {
-      "slug": "pharaohs-sands-bundle-oasis-tilemap-wasteland-add-on",
-      "status": "ok"
-    },
-    {
       "slug": "pharaohs-sands-desert-sun-court-arena-kit",
       "status": "ok"
     },
     {
       "slug": "pharaohs-sands-warriors",
+      "status": "ok"
+    },
+    {
+      "slug": "pharaohs-sands-bundle-oasis-tilemap-wasteland-add-on",
       "status": "ok"
     },
     {
