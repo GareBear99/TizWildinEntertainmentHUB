@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-11-19
+Generated: 2026-11-20
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **232**
+- Total indexed records: **234**
 - Total clusters: **12**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -126,13 +126,14 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Arcanum I - Part 1— Animated Pixel Spell Effects (75 effects, 1,200 frames)](pages/itch-arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames | itch, game-assets, garebearproductionz |
 | [Arcanum I - Part 2 — Animated Pixel Spell Abilities (23 spells, 752 frames)](pages/itch-arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames | itch, game-assets, garebearproductionz |
 | [Arcanum I - Part 3 — Animated Full-Screen VFX Overlays (30 screens, 960 frames)](pages/itch-arcanum-i-part-3-animated-full-screen-vfx-overlays-30-screens-960-frames.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/arcanum-i-part-3-animated-full-screen-vfx-overlays-30-screens-960-frames | itch, game-assets, garebearproductionz |
-| [Arena Crowds Collection - Vol 1](pages/itch-arena-crowds-collection.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/arena-crowds-collection | itch, game-assets, garebearproductionz |
+| [Arena Crowds Collection Vol 1 - 700 Assets](pages/itch-arena-crowds-collection.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/arena-crowds-collection | itch, game-assets, garebearproductionz |
 | [Avatar Generator — 2.4 Billion Succubus Combinations](pages/itch-avatar-generator.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/avatar-generator | itch, game-assets, garebearproductionz |
 | [Black & Red Dice SVG & PNG 2D-3D Export Engine](pages/itch-black-red-dice-svg-png-export-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine | itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Blood Bound by Pixel Scythe & SVG (FREE)](pages/itch-blood-bound-scythe-svg-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/blood-bound-scythe-svg-free | free, scythe, weapon, svg, pixel-art, itch, game-assets, garebearproductionz |
 | [Boss Backgrounds — Free Pack](pages/itch-boss-backgrounds-free-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/boss-backgrounds-free-pack | itch, game-assets, garebearproductionz |
 | [Cash Cloud Sprite Pack (FREE)](pages/itch-cash-cloud.html) | Itch Asset Pack | https://garebearproductionz.itch.io/cash-cloud | itch, game-assets, garebearproductionz |
 | [Chaos Arcanum Part 1 - Blood FX & More](pages/itch-ichor-glyph.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/ichor-glyph | itch, game-assets, garebearproductionz |
+| [Cinder Wastes - 283 Assets](pages/itch-cinder-wastes.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/cinder-wastes | itch, game-assets, garebearproductionz |
 | [Cloudworks — Pixel Cloud & Parallax Toolkit + Trains](pages/itch-cloudworks-pixel-cloud-parallax-toolkit-trains.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/cloudworks-pixel-cloud-parallax-toolkit-trains | itch, game-assets, garebearproductionz |
 | [Coin Physics & Triple Buffer Atomic Swap Pack & Engine Kit](pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html) | Itch Asset Pack | https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts | itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [COSMIC DISRUPTION – Free Fast-Paced Game Music Pack](pages/itch-cosmic-disruption-free-fast-paced-game-music-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/cosmic-disruption-free-fast-paced-game-music-pack | itch, game-assets, garebearproductionz |
@@ -182,10 +183,10 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Orerry Solar System Pack - Live VFX Animations + Scale Accuracy & Tilt](pages/itch-orerry-solar-system-pack.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/orerry-solar-system-pack | itch, game-assets, garebearproductionz |
 | [Palm Primal — Pygmy Tribes Arena Kit](pages/itch-palm-primal-pygmy-tribes-arena-kit.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/palm-primal-pygmy-tribes-arena-kit | itch, game-assets, garebearproductionz |
 | [Pharaoh's Sands Bundle — Oasis Tilemap + Wasteland Add-On](pages/itch-pharaohs-sands-bundle-oasis-tilemap-wasteland-add-on.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/pharaohs-sands-bundle-oasis-tilemap-wasteland-add-on | itch, game-assets, garebearproductionz |
-| [Pharaoh's Sands Crowds](pages/itch-pharaohs-sands-crowds.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/pharaohs-sands-crowds | itch, game-assets, garebearproductionz |
 | [Pharaoh's Sands Operators](pages/itch-pharaohs-sands-operators.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/pharaohs-sands-operators | itch, game-assets, garebearproductionz |
 | [Pharaoh's Sands Warriors](pages/itch-pharaohs-sands-warriors.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/pharaohs-sands-warriors | itch, game-assets, garebearproductionz |
 | [Pharaoh's Sands — Desert Sun Court Arena Kit](pages/itch-pharaohs-sands-desert-sun-court-arena-kit.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/pharaohs-sands-desert-sun-court-arena-kit | itch, game-assets, garebearproductionz |
+| [Pharaoh’s Sands Crowds - 450 Assets](pages/itch-pharaohs-sands-crowds.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/pharaohs-sands-crowds | itch, game-assets, garebearproductionz |
 | [Pixel Abyssal Teleportation Device](pages/itch-pixel-abyssal-teleporter.html) | Itch Asset Pack | https://garebearproductionz.itch.io/pixel-abyssal-teleporter | teleporter, abyssal, pedestal, pixel-art, prop, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Pixel Blood & Bone Demon Scythe + SVG (FREE)](pages/itch-blood-bone-scythe.html) | Itch Asset Pack | https://garebearproductionz.itch.io/blood-bone-scythe | free, scythe, demon, weapon, svg, itch, game-assets, garebearproductionz |
 | [Pixel Elemental Velocity Weight Physics 2.5D Quake Hammer (FREE Thor Engine)](pages/itch-pixel-velocity-weight-physics-quake-hammer.html) | Itch Asset Pack | https://garebearproductionz.itch.io/pixel-velocity-weight-physics-quake-hammer | free, hammer, physics, 2d, 2.5d, itch, game-assets, garebearproductionz |
@@ -211,6 +212,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Spectral Icon SVG Pipeline Kit](pages/itch-spectral-icon-svg-pipeline-kit.html) | Itch Asset Pack | https://garebearproductionz.itch.io/spectral-icon-svg-pipeline-kit | icons, spectral, svg, pipeline, ui, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Sphinx Pyramid Activation Layered Live Animated Map Backdrop](pages/itch-sphinx-activation-layered-live-map.html) | Itch Asset Pack | https://garebearproductionz.itch.io/sphinx-activation-layered-live-map | sphinx, pyramid, backdrop, svg, ritual, tilemap, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Static Atmos - PDF Demo 'Wraith Eternal' Comic](pages/itch-static-atmos.html) | Itch Asset Pack | https://garebearproductionz.itch.io/static-atmos | wraith, comic, pdf, atmos, music, itch, game-assets, garebearproductionz |
+| [Static Sprawl - 184 Assets](pages/itch-static-sprawl.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/static-sprawl | itch, game-assets, garebearproductionz |
 | [Subwoofer Crown Bass Pack](pages/itch-subwoofer-crown-bass-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/subwoofer-crown-bass-pack | itch, game-assets, garebearproductionz |
 | [SUGARFALL — the pink party pack (FREE)](pages/itch-sugarfall-the-pink-party-pack-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/sugarfall-the-pink-party-pack-free | itch, game-assets, garebearproductionz |
 | [Summoner's Delight](pages/itch-summoners-delights.html) | Itch Asset Pack | https://garebearproductionz.itch.io/summoners-delights | summoner, gif, assets, pixel-art, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |

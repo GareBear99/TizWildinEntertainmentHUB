@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-11-19
+Generated: 2026-11-20
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -331,7 +331,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: svg, backdrop, pipeline, animation, backgrounds, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
 
-- AAAA Indie Dynamic Merchant Cart: Deterministic procedural merchant-cart canvas engine with seed controls and PNG export. Official GareBearProductionz itch product ($10 -50%) in the Hero Generators line; checkout and downloads happen on the official itch page.
+- AAAA Indie Dynamic Merchant Cart: Deterministic procedural merchant-cart canvas engine with seed controls and PNG export. Official GareBearProductionz itch product ($15 -25%) in the Hero Generators line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-indie-dynamic-merchant-cart.html
   Public URL: https://garebearproductionz.itch.io/indie-dynamic-merchant-cart
   GitHub: N/A
@@ -361,7 +361,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: moon, skycycle, celestial, pixel-art, backdrop, itch, game-assets, garebearproductionz, formula-a1-bundle
 
-- FireBall Generator & Formula/Sprite Exporter: Standalone procedural fireball/comet sprite generator with PNG, GIF and JSON export. Official GareBearProductionz itch product ($7.50 -50%) in the Hero Generators line; checkout and downloads happen on the official itch page.
+- FireBall Generator & Formula/Sprite Exporter: Standalone procedural fireball/comet sprite generator with PNG, GIF and JSON export. Official GareBearProductionz itch product ($11.25 -25%) in the Hero Generators line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-fireball-generator-formula.html
   Public URL: https://garebearproductionz.itch.io/fireball-generator-formula
   GitHub: N/A
@@ -385,7 +385,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- 12 Sigil Color Dynamic Icon SVG Export Pack & Hover FX Engine: 12 animated color-dynamic sigil icons with hover lift, glow and SVG export tooling. Official GareBearProductionz itch product ($1.66 -50%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
+- 12 Sigil Color Dynamic Icon SVG Export Pack & Hover FX Engine: 12 animated color-dynamic sigil icons with hover lift, glow and SVG export tooling. Official GareBearProductionz itch product ($2.49 -25%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-color-dynamic-sigils-svg-export-pack.html
   Public URL: https://garebearproductionz.itch.io/color-dynamic-sigils-svg-export-pack
   GitHub: N/A
@@ -445,7 +445,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: demon, sprite-sheet, generator, formula, pixel-art, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
 
-- AAAA Layered Mountain Dynamic Sky Live Backdrop Engine: Layered seeded mountain and dynamic sky backdrop engine for game scenery. Official GareBearProductionz itch product ($0.75 -50%) in the Live Backdrops & Scene Engines line; checkout and downloads happen on the official itch page.
+- AAAA Layered Mountain Dynamic Sky Live Backdrop Engine: Layered seeded mountain and dynamic sky backdrop engine for game scenery. Official GareBearProductionz itch product ($1.12 -25%) in the Live Backdrops & Scene Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-aaaa-layered-mountain-dynamic-sky-live-backdrop-engine.html
   Public URL: https://garebearproductionz.itch.io/aaaa-layered-mountain-dynamic-sky-live-backdrop-engine
   GitHub: N/A
@@ -493,7 +493,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Arena Crowds Collection - Vol 1: Arena Crowds Collection - Vol 1 Official GareBearProductionz itch product ($2.22 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- Arena Crowds Collection Vol 1 - 700 Assets: Arena Crowds Collection Vol 1 - 700 Assets Official GareBearProductionz itch product ($2.22 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-arena-crowds-collection.html
   Public URL: https://garebearproductionz.itch.io/arena-crowds-collection
   GitHub: N/A
@@ -505,7 +505,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Black & Red Dice SVG & PNG 2D-3D Export Engine: A D6 dice engine with correct opposite pairs, 24 valid cube orientations, random roll, force top face, SVG/PNG export. Official GareBearProductionz itch product ($3.50 -50%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
+- Black & Red Dice SVG & PNG 2D-3D Export Engine: A D6 dice engine with correct opposite pairs, 24 valid cube orientations, random roll, force top face, SVG/PNG export. Official GareBearProductionz itch product ($5.25 -25%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-black-red-dice-svg-png-export-engine.html
   Public URL: https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine
   GitHub: N/A
@@ -532,6 +532,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
 - Chaos Arcanum Part 1 - Blood FX & More: Chaos Magic & Blood FX/Slashes Official GareBearProductionz itch product ($1.13 -35%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-ichor-glyph.html
   Public URL: https://garebearproductionz.itch.io/ichor-glyph
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
+- Cinder Wastes - 283 Assets: 283 assets. Volcanic wasteland backdrop + 4-phase lava floor for side-view games. 34 colours, animated, commercial OK. Official GareBearProductionz itch product ($2.49 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-cinder-wastes.html
+  Public URL: https://garebearproductionz.itch.io/cinder-wastes
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
@@ -565,7 +571,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Dark Fantasy Modular GUI Pack - 704 UI Assets + 160 Icons: Full Graphical Interface - 704 UI Assets + 160 Icons + 64 Glyphs Official GareBearProductionz itch product ($7.15 -35%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
+- Dark Fantasy Modular GUI Pack - 704 UI Assets + 160 Icons: Full Graphical Interface - 704 UI Assets + 160 Icons + 64 Glyphs Official GareBearProductionz itch product ($6.17 -35%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html
   Public URL: https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons
   GitHub: N/A
@@ -607,7 +613,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz, formula-a1-bundle
 
-- Evil Eye Four Pack & Live SVG Animations: Four-pack of animated live SVG evil-eye assets. Official GareBearProductionz itch product ($0.50 -50%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
+- Evil Eye Four Pack & Live SVG Animations: Four-pack of animated live SVG evil-eye assets. Official GareBearProductionz itch product ($0.75 -25%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-evil-eye-four-pack.html
   Public URL: https://garebearproductionz.itch.io/evil-eye-four-pack
   GitHub: N/A
@@ -697,7 +703,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz, formula-a1-bundle
 
-- Holy Live FX SVG & PNG Icon 8-Set Pipeline Kit: Eight-piece holy live FX SVG/PNG icon pipeline kit. Official GareBearProductionz itch product ($2 -50%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
+- Holy Live FX SVG & PNG Icon 8-Set Pipeline Kit: Eight-piece holy live FX SVG/PNG icon pipeline kit. Official GareBearProductionz itch product ($3 -25%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-holy-svg-png-icon-set.html
   Public URL: https://garebearproductionz.itch.io/holy-svg-png-icon-set
   GitHub: N/A
@@ -757,7 +763,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Live SVG Icon Starter Kit Pipeline + 4 Live Hell FX Icons: Starter live-SVG icon pipeline with four hell FX icons. Official GareBearProductionz itch product ($0.75 -50%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
+- Live SVG Icon Starter Kit Pipeline + 4 Live Hell FX Icons: Starter live-SVG icon pipeline with four hell FX icons. Official GareBearProductionz itch product ($1.12 -25%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-svg-icon-starter-kit-pipeline.html
   Public URL: https://garebearproductionz.itch.io/svg-icon-starter-kit-pipeline
   GitHub: N/A
@@ -829,12 +835,6 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Pharaoh's Sands Crowds: Pharaoh's Sands Crowds Official GareBearProductionz itch product ($2.22 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
-  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-pharaohs-sands-crowds.html
-  Public URL: https://garebearproductionz.itch.io/pharaohs-sands-crowds
-  GitHub: N/A
-  Tags: itch, game-assets, garebearproductionz
-
 - Pharaoh's Sands Operators: 26 animated operators from the Pharaoh's Sands fleet: 22 crew + 4 UFO pilots, loops on transparent backgrounds. Official GareBearProductionz itch product ($1.25 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-pharaohs-sands-operators.html
   Public URL: https://garebearproductionz.itch.io/pharaohs-sands-operators
@@ -850,6 +850,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
 - Pharaoh's Sands — Desert Sun Court Arena Kit: A desert sun-court arena kit: pharaoh king on his throne, bonus UFO fleet, jackal and mummy crowds, 77 tiles, UI kit. Official GareBearProductionz itch product ($4.20 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-pharaohs-sands-desert-sun-court-arena-kit.html
   Public URL: https://garebearproductionz.itch.io/pharaohs-sands-desert-sun-court-arena-kit
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
+- Pharaoh’s Sands Crowds - 450 Assets: Pharaoh’s Sands Crowds - 450 Assets Official GareBearProductionz itch product ($2.22 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-pharaohs-sands-crowds.html
+  Public URL: https://garebearproductionz.itch.io/pharaohs-sands-crowds
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
@@ -889,7 +895,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: audio, synth, violin, physical-modeling, formula, itch, game-assets, garebearproductionz
 
-- Professional Occult Covenant Icon Kit & FX Formula: Occult/covenant icon kit with live SVG execution pipeline formula. Official GareBearProductionz itch product ($3.33 -50%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
+- Professional Occult Covenant Icon Kit & FX Formula: Occult/covenant icon kit with live SVG execution pipeline formula. Official GareBearProductionz itch product ($4.99 -25%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-professional-occult-covenant-icon-kit.html
   Public URL: https://garebearproductionz.itch.io/professional-occult-covenant-icon-kit
   GitHub: N/A
@@ -907,7 +913,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: free, pyro, chibi, sprite, pixel-art, itch, game-assets, garebearproductionz
 
-- Reward Pocket Generator Formula: Reward-pocket generator formula for item/reward pipeline concepts. Official GareBearProductionz itch product ($0.50 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- Reward Pocket Generator Formula: Reward-pocket generator formula for item/reward pipeline concepts. Official GareBearProductionz itch product ($0.75 -25%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-reward-pocket-generator-formula.html
   Public URL: https://garebearproductionz.itch.io/reward-pocket-generator-formula
   GitHub: N/A
@@ -985,7 +991,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Spectral Icon SVG Pipeline Kit: Spectral SVG icon pipeline kit for ghost/realm UI assets. Official GareBearProductionz itch product ($1.66 -50%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
+- Spectral Icon SVG Pipeline Kit: Spectral SVG icon pipeline kit for ghost/realm UI assets. Official GareBearProductionz itch product ($2.49 -25%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-spectral-icon-svg-pipeline-kit.html
   Public URL: https://garebearproductionz.itch.io/spectral-icon-svg-pipeline-kit
   GitHub: N/A
@@ -1002,6 +1008,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://garebearproductionz.itch.io/static-atmos
   GitHub: N/A
   Tags: wraith, comic, pdf, atmos, music, itch, game-assets, garebearproductionz
+
+- Static Sprawl - 184 Assets: 184 assets. Rain-soaked cyberpunk city + wet neon street for side-view games. 34 colours, animated, commercial OK. Official GareBearProductionz itch product ($3.49 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-static-sprawl.html
+  Public URL: https://garebearproductionz.itch.io/static-sprawl
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
 
 - Subwoofer Crown Bass Pack: 70 game-ready bass samples - keyed 808s, phonk loops, impacts, growls, risers and UI stingers. Drift-phonk chaos, free. Official GareBearProductionz itch product (FREE / NYP) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-subwoofer-crown-bass-pack.html
@@ -1051,7 +1063,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: free, boss, svg, gif, vanta-black, itch, game-assets, garebearproductionz
 
-- Thor Mjölnir 4 Set + SVG Physics Velocity Engine + Bonus Quake Hammer Set: Mjölnir four-set with SVG physics velocity engine and quake-hammer bonus. Official GareBearProductionz itch product ($1 -50%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
+- Thor Mjölnir 4 Set + SVG Physics Velocity Engine + Bonus Quake Hammer Set: Mjölnir four-set with SVG physics velocity engine and quake-hammer bonus. Official GareBearProductionz itch product ($1.50 -25%) in the Weapons, Props & Devices line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-thor-mjolnir-svg-physics-engine.html
   Public URL: https://garebearproductionz.itch.io/thor-mjolnir-svg-physics-engine
   GitHub: N/A

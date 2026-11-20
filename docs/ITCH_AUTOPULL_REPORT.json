@@ -1,10 +1,18 @@
 {
-  "generatedAt": "2026-11-19T18:23:58Z",
+  "generatedAt": "2026-11-20T17:49:29Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 123,
-  "itemsWritten": 123,
-  "mediaReadyItems": 123,
+  "itemsParsed": 125,
+  "itemsWritten": 125,
+  "mediaReadyItems": 125,
   "detailStatus": [
+    {
+      "slug": "static-sprawl",
+      "status": "ok"
+    },
+    {
+      "slug": "cinder-wastes",
+      "status": "ok"
+    },
     {
       "slug": "palm-primal-pygmy-tribes-arena-kit",
       "status": "ok"
@@ -499,10 +507,10 @@
     }
   ],
   "mediaVerification": {
-    "checkedUrls": 220,
-    "liveUrls": 220,
+    "checkedUrls": 224,
+    "liveUrls": 224,
     "deadUrlsBeforeRepair": 0,
-    "deadCandidatesSkippedDuringEnrich": 359,
+    "deadCandidatesSkippedDuringEnrich": 361,
     "repairedCount": 0,
     "unresolvedCount": 0,
     "unverifiedUrls": 0
