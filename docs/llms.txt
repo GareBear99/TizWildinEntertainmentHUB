@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-11-20
+Generated: 2026-11-21
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -463,7 +463,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: action-command, charge, formula, game-dev, itch, game-assets, garebearproductionz, formula-a1-bundle
 
-- Animated VFX UI Pack - 80+ Assets: 80 animated UI effects, 4-theme, Spectral, Blood, Bone, Holy Void, panels, buttons, bars, overlays, offline Asset Studio Official GareBearProductionz itch product ($3.75 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- Animated VFX UI Pack - 80+ Assets: 80 animated UI effects, 4-theme, Spectral, Blood, Bone, Holy Void, panels, buttons, bars, overlays, offline Asset Studio Official GareBearProductionz itch product ($2.62 -65%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-animated-vfx-ui-pack-80-assets.html
   Public URL: https://garebearproductionz.itch.io/animated-vfx-ui-pack-80-assets
   GitHub: N/A
@@ -571,7 +571,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
-- Dark Fantasy Modular GUI Pack - 704 UI Assets + 160 Icons: Full Graphical Interface - 704 UI Assets + 160 Icons + 64 Glyphs Official GareBearProductionz itch product ($6.17 -35%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
+- Dark Fantasy Modular GUI Pack - 704 UI Assets + 160 Icons: Full Graphical Interface - 704 UI Assets + 160 Icons + 64 Glyphs Official GareBearProductionz itch product ($3.32 -65%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html
   Public URL: https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons
   GitHub: N/A
@@ -595,7 +595,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz, formula-a1-bundle
 
-- Elemental Wisp Sprite Pack: 8 elemental wisps, Graveglow, Nightveil, Bloodwick and more - 96 animation sets, 832 frames, 48 abilities, Wisp Studio. Official GareBearProductionz itch product ($2.16 -35%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
+- Elemental Wisp Sprite Pack: 8 elemental wisps, Graveglow, Nightveil, Bloodwick and more - 96 animation sets, 832 frames, 48 abilities, Wisp Studio. Official GareBearProductionz itch product ($1.16 -65%) in the Sprites & Character Packs line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-elemental-wisp-sprite-pack.html
   Public URL: https://garebearproductionz.itch.io/elemental-wisp-sprite-pack
   GitHub: N/A
@@ -612,6 +612,18 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   Public URL: https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz, formula-a1-bundle
+
+- Eternal Dungeon — Volume I & II Part One: 12 animated occult cards: 9 Volume I + 3 Cardinals, dual V1/V2 backs, 112 animations, viewer included. Official GareBearProductionz itch product ($5.62 -25%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-eternal-dungeon-core-deck.html
+  Public URL: https://garebearproductionz.itch.io/eternal-dungeon-core-deck
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
+- Eternal Dungeon — Volume II Part Two: System Cards (FREE): 3 free System cards: Nekral Catalyst, Clean Chaos, All-State Leylines. V1/V2 faces and backs, viewer included. Official GareBearProductionz itch product (FREE) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-eternal-dungeon-volume-ii-part-two-system-cards.html
+  Public URL: https://garebearproductionz.itch.io/eternal-dungeon-volume-ii-part-two-system-cards
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
 
 - Evil Eye Four Pack & Live SVG Animations: Four-pack of animated live SVG evil-eye assets. Official GareBearProductionz itch product ($0.75 -25%) in the Icons, Sigils & Covenant FX line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-evil-eye-four-pack.html
@@ -901,7 +913,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: occult, covenant, icons, svg, fx, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
 
-- Pyre Fire Pack Generator Tools: Pyre fire tools: build your own fires, bonus ember bowl sets lit and unlit, sample random generator, dark fantasy scenes Official GareBearProductionz itch product ($3.25 -35%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- Pyre Fire Pack Generator Tools - +80 fire sprites: Pyre fire tools: build your own fires, bonus ember bowl sets lit and unlit, sample random generator, dark fantasy scenes Official GareBearProductionz itch product ($1.75 -65%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-pyre-fire-pack-generator-tools.html
   Public URL: https://garebearproductionz.itch.io/pyre-fire-pack-generator-tools
   GitHub: N/A
