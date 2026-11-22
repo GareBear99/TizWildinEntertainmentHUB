@@ -1,6 +1,6 @@
 {
   "schemaVersion": "2.0",
-  "generatedAt": "2026-11-21",
+  "generatedAt": "2026-11-22",
   "name": "TizWildin Entertainment HUB Public Link Index",
   "description": "Static crawler-friendly index of TizWildin audio, producer, public list, credibility, and ARC source-spine routes.",
   "owner": "GareBear99",
@@ -3233,7 +3233,7 @@
       "source_manifest": "all_items.json",
       "page_slug": "itch-eternal-dungeon-volume-ii-part-two-system-cards",
       "render_page": true,
-      "cover": "https://img.itch.zone/aW1hZ2UvNTQxMzM0NC8zMjYwOTE2NC5naWY=/original/RRVuUP.gif",
+      "cover": "https://img.itch.zone/aW1hZ2UvNTQxMzM0NC8zMjYyNTczNy5qcGVn/original/HEeUlz.jpeg",
       "animated": "https://img.itch.zone/aW1nLzMyNjA5NzMzLmdpZg==/original/Coz1wt.gif",
       "id": "itch-eternal-dungeon-volume-ii-part-two-system-cards",
       "page": "pages/itch-eternal-dungeon-volume-ii-part-two-system-cards.html",

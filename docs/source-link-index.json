@@ -1981,9 +1981,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "all-account-inventory.html",
-      "url": "https://img.itch.zone/aW1hZ2UvNTQxMzM0NC8zMjYwOTE2NC5naWY=/original/RRVuUP.gif",
+      "url": "https://img.itch.zone/aW1hZ2UvNTQxMzM0NC8zMjYyNTczNy5qcGVn/original/HEeUlz.jpeg",
       "domain": "img.itch.zone",
-      "queryText": "tizwildinentertainmenthub all-account-inventory.html https://img.itch.zone/aw1hz2uvntqxmzm0nc8zmjywote2nc5nawy=/original/rrvuup.gif img.itch.zone"
+      "queryText": "tizwildinentertainmenthub all-account-inventory.html https://img.itch.zone/aw1hz2uvntqxmzm0nc8zmjyyntczny5qcgvn/original/heeulz.jpeg img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -5333,9 +5333,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "all_items.json",
-      "url": "https://img.itch.zone/aW1hZ2UvNTQxMzM0NC8zMjYwOTE2NC5naWY=/original/RRVuUP.gif",
+      "url": "https://img.itch.zone/aW1hZ2UvNTQxMzM0NC8zMjYyNTczNy5qcGVn/original/HEeUlz.jpeg",
       "domain": "img.itch.zone",
-      "queryText": "tizwildinentertainmenthub all_items.json https://img.itch.zone/aw1hz2uvntqxmzm0nc8zmjywote2nc5nawy=/original/rrvuup.gif img.itch.zone"
+      "queryText": "tizwildinentertainmenthub all_items.json https://img.itch.zone/aw1hz2uvntqxmzm0nc8zmjyyntczny5qcgvn/original/heeulz.jpeg img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -7501,6 +7501,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/api-routes-daily.md",
+      "url": "https://bsky.app/profile/did:plc:l6llas4qbq3urzv6o2u7fqto/post/3n2txsyr3k22o",
+      "domain": "bsky.app",
+      "queryText": "tizwildinentertainmenthub docs/api-routes-daily.md https://bsky.app/profile/did:plc:l6llas4qbq3urzv6o2u7fqto/post/3n2txsyr3k22o bsky.app"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/api-routes-daily.md",
       "url": "https://bsky.app/profile/tizwildin.bsky.social/post/3mzv6ewgauw2k",
       "domain": "bsky.app",
       "queryText": "tizwildinentertainmenthub docs/api-routes-daily.md https://bsky.app/profile/tizwildin.bsky.social/post/3mzv6ewgauw2k bsky.app"
@@ -7677,6 +7685,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/api-routes-daily.md",
+      "url": "https://hive.blog/@tizwildin/1200-animated-pixel-sigils-magic-circles-runes-loading-spinners",
+      "domain": "hive.blog",
+      "queryText": "tizwildinentertainmenthub docs/api-routes-daily.md https://hive.blog/@tizwildin/1200-animated-pixel-sigils-magic-circles-runes-loading-spinners hive.blog"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/api-routes-daily.md",
       "url": "https://hive.blog/@tizwildin/arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames",
       "domain": "hive.blog",
       "queryText": "tizwildinentertainmenthub docs/api-routes-daily.md https://hive.blog/@tizwildin/arcanum-i-part-1-animated-pixel-spell-effects-75-effects-1200-frames hive.blog"
@@ -7728,6 +7744,14 @@
       "url": "https://hive.blog/@tizwildin/wake-up-1-billion-muse-tokens-is-not-a-typo",
       "domain": "hive.blog",
       "queryText": "tizwildinentertainmenthub docs/api-routes-daily.md https://hive.blog/@tizwildin/wake-up-1-billion-muse-tokens-is-not-a-typo hive.blog"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/api-routes-daily.md",
+      "url": "https://image.nostr.build/109504bce6e8a8a871ee44451a364f25f9110b4c969dc97aa4c0ac5826fc0d64.jpg",
+      "domain": "image.nostr.build",
+      "queryText": "tizwildinentertainmenthub docs/api-routes-daily.md https://image.nostr.build/109504bce6e8a8a871ee44451a364f25f9110b4c969dc97aa4c0ac5826fc0d64.jpg image.nostr.build"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -7949,6 +7973,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/api-routes-daily.md",
+      "url": "https://nostr.band/note1n4gnus997tae0smauz4u8v23hw95227euqre8xe24d6gn7fpddjqdzynvc",
+      "domain": "nostr.band",
+      "queryText": "tizwildinentertainmenthub docs/api-routes-daily.md https://nostr.band/note1n4gnus997tae0smauz4u8v23hw95227euqre8xe24d6gn7fpddjqdzynvc nostr.band"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/api-routes-daily.md",
       "url": "https://nostr.band/note1p5dn28yyseeduw400a548kdutsqlcy4w8zh4qg73tj66yyepyw6sd6vffh",
       "domain": "nostr.band",
       "queryText": "tizwildinentertainmenthub docs/api-routes-daily.md https://nostr.band/note1p5dn28yyseeduw400a548kdutsqlcy4w8zh4qg73tj66yyepyw6sd6vffh nostr.band"
@@ -8120,6 +8152,14 @@
       "url": "https://www.threads.com/@garebearproductionz/post/DfzhEk8Dmkj",
       "domain": "www.threads.com",
       "queryText": "tizwildinentertainmenthub docs/api-routes-daily.md https://www.threads.com/@garebearproductionz/post/dfzhek8dmkj www.threads.com"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/api-routes-daily.md",
+      "url": "https://www.threads.com/@garebearproductionz/post/DgBByqGkypw",
+      "domain": "www.threads.com",
+      "queryText": "tizwildinentertainmenthub docs/api-routes-daily.md https://www.threads.com/@garebearproductionz/post/dgbbyqgkypw www.threads.com"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -15909,9 +15949,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/all_items.json",
-      "url": "https://img.itch.zone/aW1hZ2UvNTQxMzM0NC8zMjYwOTE2NC5naWY=/original/RRVuUP.gif",
+      "url": "https://img.itch.zone/aW1hZ2UvNTQxMzM0NC8zMjYyNTczNy5qcGVn/original/HEeUlz.jpeg",
       "domain": "img.itch.zone",
-      "queryText": "tizwildinentertainmenthub docs/all_items.json https://img.itch.zone/aw1hz2uvntqxmzm0nc8zmjywote2nc5nawy=/original/rrvuup.gif img.itch.zone"
+      "queryText": "tizwildinentertainmenthub docs/all_items.json https://img.itch.zone/aw1hz2uvntqxmzm0nc8zmjyyntczny5qcgvn/original/heeulz.jpeg img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -21493,121 +21533,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/aaaa-pixel-combat-timeline-engine:",
+      "url": "https://garebearproductionz.itch.io/120-elemental-vfx-pixel-abilities-icons:",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/aaaa-pixel-combat-timeline-engine: garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/aaaa-sprite-fusion-metamorphosis-equation-spine-engine:",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/aaaa-sprite-fusion-metamorphosis-equation-spine-engine: garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/avatar-generator:",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/avatar-generator: garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/cash-cloud:",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/cash-cloud: garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/color-dynamic-sigils-svg-export-pack:",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/color-dynamic-sigils-svg-export-pack: garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/doom-style-ray-trace-engine-asset-pack:",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/doom-style-ray-trace-engine-asset-pack: garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/free-pixel-paladin-hammer-chibi:",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/free-pixel-paladin-hammer-chibi: garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/freeeq8-most-advanced-free-eq-opensource:",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/freeeq8-most-advanced-free-eq-opensource: garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/hd-cinematic-audio-sfx-pack-free:",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/hd-cinematic-audio-sfx-pack-free: garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/hemorrhage-blood-fx:",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/hemorrhage-blood-fx: garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/ichor-glyph:",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/ichor-glyph: garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/indie-dynamic-merchant-cart:",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/indie-dynamic-merchant-cart: garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/mode-7:",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/mode-7: garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/the-ultimate-everything-laser-pack:",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/the-ultimate-everything-laser-pack: garebearproductionz.itch.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/victory-wraith-free:",
-      "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/victory-wraith-free: garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/120-elemental-vfx-pixel-abilities-icons: garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -24381,9 +24309,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/itch-eternal-dungeon-volume-ii-part-two-system-cards.html",
-      "url": "https://img.itch.zone/aW1hZ2UvNTQxMzM0NC8zMjYwOTE2NC5naWY=/original/RRVuUP.gif",
+      "url": "https://img.itch.zone/aW1hZ2UvNTQxMzM0NC8zMjYyNTczNy5qcGVn/original/HEeUlz.jpeg",
       "domain": "img.itch.zone",
-      "queryText": "tizwildinentertainmenthub docs/pages/itch-eternal-dungeon-volume-ii-part-two-system-cards.html https://img.itch.zone/aw1hz2uvntqxmzm0nc8zmjywote2nc5nawy=/original/rrvuup.gif img.itch.zone"
+      "queryText": "tizwildinentertainmenthub docs/pages/itch-eternal-dungeon-volume-ii-part-two-system-cards.html https://img.itch.zone/aw1hz2uvntqxmzm0nc8zmjyyntczny5qcgvn/original/heeulz.jpeg img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -28517,70 +28445,6 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "http://127.0.0.1:8000",
-      "domain": "127.0.0.1:8000",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html http://127.0.0.1:8000 127.0.0.1:8000"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://admension-api.admension.workers.dev",
-      "domain": "admension-api.admension.workers.dev",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://admension-api.admension.workers.dev admension-api.admension.workers.dev"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://api.github.com/repos/${OWNER}/${plugin.repo}/releases/latest`",
-      "domain": "api.github.com",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://api.github.com/repos/${owner}/${plugin.repo}/releases/latest` api.github.com"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://api.github.com/repos/GareBear99/${r.repo}/releases?per_page=3`",
-      "domain": "api.github.com",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://api.github.com/repos/garebear99/${r.repo}/releases?per_page=3` api.github.com"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://api.github.com/users/GareBear99/events?per_page=15`",
-      "domain": "api.github.com",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://api.github.com/users/garebear99/events?per_page=15` api.github.com"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://arc-ai-operator.admension.workers.dev",
-      "domain": "arc-ai-operator.admension.workers.dev",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://arc-ai-operator.admension.workers.dev arc-ai-operator.admension.workers.dev"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://botfortress-api.admension.workers.dev",
-      "domain": "botfortress-api.admension.workers.dev",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://botfortress-api.admension.workers.dev botfortress-api.admension.workers.dev"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://botfortress.admension.workers.dev",
-      "domain": "botfortress.admension.workers.dev",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://botfortress.admension.workers.dev botfortress.admension.workers.dev"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
       "url": "https://ffm.bio/no4km87",
       "domain": "ffm.bio",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://ffm.bio/no4km87 ffm.bio"
@@ -28589,17 +28453,17 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://garebear99.github.io/Portfolio/review.html`",
+      "url": "https://garebear99.github.io/Neolution/",
       "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebear99.github.io/portfolio/review.html` garebear99.github.io"
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebear99.github.io/neolution/ garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://garebear99.github.io/RAG-Command-Center/`",
+      "url": "https://garebear99.github.io/RiftAscent/",
       "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebear99.github.io/rag-command-center/` garebear99.github.io"
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebear99.github.io/riftascent/ garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -28640,14 +28504,6 @@
       "url": "https://garebear99.github.io/TizWildinEntertainmentHUB/pages/source-tizwildin-entertainment-hub.html",
       "domain": "garebear99.github.io",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebear99.github.io/tizwildinentertainmenthub/pages/source-tizwildin-entertainment-hub.html garebear99.github.io"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://garebear99.github.io/admension/`",
-      "domain": "garebear99.github.io",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebear99.github.io/admension/` garebear99.github.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -28984,6 +28840,22 @@
       "url": "https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine",
       "domain": "garebearproductionz.itch.io",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://garebearproductionz.itch.io/eternal-dungeon-core-deck",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/eternal-dungeon-core-deck garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://garebearproductionz.itch.io/eternal-dungeon-volume-ii-part-two-system-cards",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://garebearproductionz.itch.io/eternal-dungeon-volume-ii-part-two-system-cards garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -29661,81 +29533,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://github.com/${OWNER}/${g.linkedPluginRepo}",
-      "domain": "github.com",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://github.com/${owner}/${g.linkedpluginrepo} github.com"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://github.com/${OWNER}/${g.repo}",
-      "domain": "github.com",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://github.com/${owner}/${g.repo} github.com"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://github.com/${OWNER}/${item.repo}`",
-      "domain": "github.com",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://github.com/${owner}/${item.repo}` github.com"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://github.com/${OWNER}/${p.repo}",
-      "domain": "github.com",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://github.com/${owner}/${p.repo} github.com"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://github.com/${OWNER}/${pack.repo}",
-      "domain": "github.com",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://github.com/${owner}/${pack.repo} github.com"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://github.com/${OWNER}/${pack.repo}/archive/refs/heads/main.zip`",
-      "domain": "github.com",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://github.com/${owner}/${pack.repo}/archive/refs/heads/main.zip` github.com"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://github.com/${OWNER}/${plugin.repo}",
-      "domain": "github.com",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://github.com/${owner}/${plugin.repo} github.com"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://github.com/${OWNER}/${plugin.repo}`",
-      "domain": "github.com",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://github.com/${owner}/${plugin.repo}` github.com"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
       "url": "https://github.com/${OWNER}/${repo}`",
       "domain": "github.com",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://github.com/${owner}/${repo}` github.com"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://github.com/${OWNER}/${t.repo}",
-      "domain": "github.com",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://github.com/${owner}/${t.repo} github.com"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -29816,14 +29616,6 @@
       "url": "https://github.com/GareBear99/Phonk_Producer_Toolkit",
       "domain": "github.com",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://github.com/garebear99/phonk_producer_toolkit github.com"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://github.com/GareBear99/Portfolio/issues",
-      "domain": "github.com",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://github.com/garebear99/portfolio/issues github.com"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -29928,14 +29720,6 @@
       "url": "https://github.com/GareBear99/awesome-python-audio-science",
       "domain": "github.com",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://github.com/garebear99/awesome-python-audio-science github.com"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://github.com/sponsors/GareBear99",
-      "domain": "github.com",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://github.com/sponsors/garebear99 github.com"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -30149,9 +29933,161 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1hZ2UvNDczNTM5OS8yODIzMDY2NC5qcGVn/original/g6Z531.jpeg",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvndczntm5os8yodizmdy2nc5qcgvn/original/g6z531.jpeg img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1hZ2UvNDczNTUyOC8yODIzMTg2OS5naWY=/original/bKDP4n.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvndczntuyoc8yodizmtg2os5nawy=/original/bkdp4n.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1hZ2UvNDczNTk5Ni8yODI1MjI1NC5wbmc=/original/hNOS80.png",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvndczntk5ni8yodi1mji1nc5wbmc=/original/hnos80.png img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1hZ2UvNDg4MzY5Ni8yOTE4NzM5Mi5naWY=/original/Qk5GO9.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvndg4mzy5ni8yote4nzm5mi5nawy=/original/qk5go9.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1hZ2UvNDg4Mzc4NC8yOTE4ODAwMS5naWY=/original/9YBVbP.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvndg4mzc4nc8yote4odawms5nawy=/original/9ybvbp.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1hZ2UvNDk2MTA1Ny8yOTY4OTQ3Ny5naWY=/original/B5xV8L.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvndk2mta1ny8yoty4otq3ny5nawy=/original/b5xv8l.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1hZ2UvNDk3MzQxNC8yOTc2NzYyMS5wbmc=/original/0MKPb%2F.png",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvndk3mzqxnc8yotc2nzyyms5wbmc=/original/0mkpb%2f.png img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1hZ2UvNDk3NDgzNy8yOTc3NjA3MC5naWY=/original/HaEjl4.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvndk3ndgzny8yotc3nja3mc5nawy=/original/haejl4.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1hZ2UvNDk3ODQ4Mi8yOTgwNTE0OC5naWY=/original/y49MY7.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvndk3odq4mi8yotgwnte0oc5nawy=/original/y49my7.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1hZ2UvNDk3OTA2My8yOTgwMzY1My5naWY=/original/JHhQs3.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvndk3ota2my8yotgwmzy1my5nawy=/original/jhhqs3.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1hZ2UvNDk5ODU0MS8yOTkyNDQ2Ni5naWY=/original/9wHuXp.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvndk5odu0ms8yotkyndq2ni5nawy=/original/9whuxp.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1hZ2UvNTI3MDA2My8zMTYxNDUwOS5naWY=/original/wvgnJ4.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvnti3mda2my8zmtyxnduwos5nawy=/original/wvgnj4.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
       "url": "https://img.itch.zone/aW1hZ2UvNTI5MDQ5OS8zMTc1MjUxOS5naWY=/original/M%2FgrZI.gif",
       "domain": "img.itch.zone",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvnti5mdq5os8zmtc1mjuxos5nawy=/original/m%2fgrzi.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1hZ2UvNTIyMTg0OS8zMTMyNTc3OS5naWY=/original/cYlRgk.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvntiymtg0os8zmtmyntc3os5nawy=/original/cylrgk.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1hZ2UvNTM0MDE2MC8zMjEwNDU5NC5naWY=/original/nGcT6V.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvntm0mde2mc8zmjewndu5nc5nawy=/original/ngct6v.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1hZ2UvNTM0MDEwMS8zMjEwNDIxOC5naWY=/original/4GG1lK.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvntm0mdewms8zmjewndixoc5nawy=/original/4gg1lk.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1hZ2UvNTM1MjE4Mi8zMjE5MDY2OS5naWY=/original/5fPdhP.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvntm1mje4mi8zmje5mdy2os5nawy=/original/5fpdhp.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1hZ2UvNTM1Mzg4My8zMjIwNDQ3Mi5naWY=/original/mVMM7o.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvntm1mzg4my8zmjiwndq3mi5nawy=/original/mvmm7o.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1hZ2UvNTM1ODgxNS8zMjI0MDI1OS5naWY=/original/F5Wqs7.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvntm1odgxns8zmji0mdi1os5nawy=/original/f5wqs7.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1hZ2UvNTM3NjQ2Ny8zMjM0OTYyOC5naWY=/original/lSgFID.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvntm3njq2ny8zmjm0otyyoc5nawy=/original/lsgfid.gif img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -30168,6 +30104,78 @@
       "url": "https://img.itch.zone/aW1hZ2UvNTMwODAzNC8zMTg4MTg2Mi5naWY=/original/q6kerj.gif",
       "domain": "img.itch.zone",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvntmwodaznc8zmtg4mtg2mi5nawy=/original/q6kerj.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1hZ2UvNTMwODAzNC8zMTkzNjE1Ny5naWY=/original/RNPHle.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvntmwodaznc8zmtkznje1ny5nawy=/original/rnphle.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1hZ2UvNTMzMDIxNC8zMjAzNjM3Ny5wbmc=/original/3HzsO%2B.png",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvntmzmdixnc8zmjaznjm3ny5wbmc=/original/3hzso%2b.png img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1hZ2UvNTMzNjE2OC8zMjA3OTgwMi5naWY=/original/agkNLw.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvntmznje2oc8zmja3otgwmi5nawy=/original/agknlw.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1hZ2UvNTMzNjE3Ny8zMjA3OTY5Ni5naWY=/original/tH93gl.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvntmznje3ny8zmja3oty5ni5nawy=/original/th93gl.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1hZ2UvNTQwNTUwNS8zMjU1NzQ1OC5naWY=/original/hddmra.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvntqwntuwns8zmju1nzq1oc5nawy=/original/hddmra.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1hZ2UvNTQxMjk5OC8zMjYwODkwMC5naWY=/original/dRzr7Z.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvntqxmjk5oc8zmjywodkwmc5nawy=/original/drzr7z.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1hZ2UvNTQxMzM0NC8zMjYwOTE2NC5naWY=/original/RRVuUP.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1hz2uvntqxmzm0nc8zmjywote2nc5nawy=/original/rrvuup.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1nLzI3ODYxNzMzLmdpZg==/original/ZsD8UZ.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1nlzi3odyxnzmzlmdpzg==/original/zsd8uz.gif img.itch.zone"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
+      "url": "https://img.itch.zone/aW1nLzI3ODYyNDQ4LmdpZg==/original/2KYWel.gif",
+      "domain": "img.itch.zone",
+      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://img.itch.zone/aw1nlzi3odyyndq4lmdpzg==/original/2kywel.gif img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -30285,14 +30293,6 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://rag-command-center-api.admension.workers.dev",
-      "domain": "rag-command-center-api.admension.workers.dev",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://rag-command-center-api.admension.workers.dev rag-command-center-api.admension.workers.dev"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
       "url": "https://schema.org",
       "domain": "schema.org",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://schema.org schema.org"
@@ -30304,22 +30304,6 @@
       "url": "https://soundcloud.com/tizwildin",
       "domain": "soundcloud.com",
       "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://soundcloud.com/tizwildin soundcloud.com"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://tizwildin-hub.admension.workers.dev",
-      "domain": "tizwildin-hub.admension.workers.dev",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://tizwildin-hub.admension.workers.dev tizwildin-hub.admension.workers.dev"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-tizwildin-entertainment-hub.html",
-      "url": "https://tizwildin-hub.admension.workers.dev`",
-      "domain": "tizwildin-hub.admension.workers.dev`",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-tizwildin-entertainment-hub.html https://tizwildin-hub.admension.workers.dev` tizwildin-hub.admension.workers.dev`"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -31885,9 +31869,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/all-account-inventory.html",
-      "url": "https://img.itch.zone/aW1hZ2UvNTQxMzM0NC8zMjYwOTE2NC5naWY=/original/RRVuUP.gif",
+      "url": "https://img.itch.zone/aW1hZ2UvNTQxMzM0NC8zMjYyNTczNy5qcGVn/original/HEeUlz.jpeg",
       "domain": "img.itch.zone",
-      "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://img.itch.zone/aw1hz2uvntqxmzm0nc8zmjywote2nc5nawy=/original/rrvuup.gif img.itch.zone"
+      "queryText": "tizwildinentertainmenthub docs/pages/all-account-inventory.html https://img.itch.zone/aw1hz2uvntqxmzm0nc8zmjyyntczny5qcgvn/original/heeulz.jpeg img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -39325,14 +39309,6 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/pages/source-arc-core.html",
-      "url": "http://testserver",
-      "domain": "testserver",
-      "queryText": "tizwildinentertainmenthub docs/pages/source-arc-core.html http://testserver testserver"
-    },
-    {
-      "repoId": "tizwildin-entertainment-hub",
-      "repoName": "TizWildinEntertainmentHUB",
-      "sourcePath": "docs/pages/source-arc-core.html",
       "url": "http://www.w3.org/2000/svg",
       "domain": "www.w3.org",
       "queryText": "tizwildinentertainmenthub docs/pages/source-arc-core.html http://www.w3.org/2000/svg www.w3.org"
@@ -43357,9 +43333,9 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/data/all_items.json",
-      "url": "https://img.itch.zone/aW1hZ2UvNTQxMzM0NC8zMjYwOTE2NC5naWY=/original/RRVuUP.gif",
+      "url": "https://img.itch.zone/aW1hZ2UvNTQxMzM0NC8zMjYyNTczNy5qcGVn/original/HEeUlz.jpeg",
       "domain": "img.itch.zone",
-      "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://img.itch.zone/aw1hz2uvntqxmzm0nc8zmjywote2nc5nawy=/original/rrvuup.gif img.itch.zone"
+      "queryText": "tizwildinentertainmenthub docs/data/all_items.json https://img.itch.zone/aw1hz2uvntqxmzm0nc8zmjyyntczny5qcgvn/original/heeulz.jpeg img.itch.zone"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -50163,45 +50139,41 @@
     }
   ],
   "summary": {
-    "linkCount": 6270,
+    "linkCount": 6267,
     "domains": {
-      "garebear99.github.io": 1715,
-      "garebearproductionz.itch.io": 1321,
-      "github.com": 1149,
-      "img.itch.zone": 907,
+      "garebear99.github.io": 1714,
+      "garebearproductionz.itch.io": 1309,
+      "github.com": 1138,
+      "img.itch.zone": 935,
       "www.w3.org": 358,
       "schema.org": 298,
       "dev.to": 41,
       "img.shields.io": 32,
-      "127.0.0.1:8000": 29,
-      "nostr.band": 19,
-      "bsky.app": 16,
-      "image.nostr.build": 16,
+      "127.0.0.1:8000": 28,
+      "nostr.band": 20,
+      "bsky.app": 17,
+      "image.nostr.build": 17,
       "ffm.bio": 15,
       "soundcloud.com": 15,
       "www.facebook.com": 15,
-      "www.threads.com": 14,
+      "www.threads.com": 15,
       "open.spotify.com": 13,
       "www.youtube.com": 12,
-      "api.github.com": 11,
-      "testserver": 11,
+      "testserver": 10,
       "example.local": 10,
-      "tizwildin-hub.admension.workers.dev": 9,
-      "hive.blog": 7,
+      "api.github.com": 8,
+      "tizwildin-hub.admension.workers.dev": 8,
+      "hive.blog": 8,
       "itch.io": 5,
       "json-schema.org": 5,
-      "arc-ai-operator.admension.workers.dev": 4,
       "www.sitemaps.org": 4,
       "www.contributor-covenant.org": 4,
       "api.soundcloud.com": 4,
       "w.soundcloud.com": 3,
-      "tizwildin-hub.admension.workers.dev`": 3,
+      "arc-ai-operator.admension.workers.dev": 3,
       "raw.githubusercontent.com": 3,
       "capsule-render.vercel.app": 2,
-      "admension-api.admension.workers.dev": 2,
-      "botfortress-api.admension.workers.dev": 2,
-      "botfortress.admension.workers.dev": 2,
-      "rag-command-center-api.admension.workers.dev": 2,
+      "tizwildin-hub.admension.workers.dev`": 2,
       "yoursite.com": 2,
       "github\\.com": 2,
       "garebearproductionz\\.itch\\.io": 2,
@@ -50218,6 +50190,10 @@
       "git.io": 1,
       "i.imgur.com": 1,
       "readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=6C7BBD&center=true&vCenter=true&width=840&lines=21+Plugin+Versions+%2B+The+HUB;Updater+%7C+Version+Controller+%7C+Downloader;Every+plugin+has+a+free+version+on+the+HUB;Payments+and+upgrades+live+inside+each+product": 1,
+      "admension-api.admension.workers.dev": 1,
+      "botfortress-api.admension.workers.dev": 1,
+      "botfortress.admension.workers.dev": 1,
+      "rag-command-center-api.admension.workers.dev": 1,
       "localhost:8080": 1,
       "localhost:*`": 1,
       "garebear99.github.io`": 1,
