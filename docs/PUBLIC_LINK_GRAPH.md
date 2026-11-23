@@ -1,6 +1,6 @@
 # Public Link Graph
 
-Generated: 2026-11-22
+Generated: 2026-11-23
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
@@ -146,7 +146,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Elemental Wisp Sprite Pack](pages/itch-elemental-wisp-sprite-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/elemental-wisp-sprite-pack | itch, game-assets, garebearproductionz |
 | [ENCHANTED SPRITE FX ENGINE](pages/itch-enchanted-sprite-fx-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/enchanted-sprite-fx-engine | itch, game-assets, garebearproductionz |
 | [ENCHANTED SPRITE VFX ENGINE](pages/itch-enchanted-sprite-vfx-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine | itch, game-assets, garebearproductionz, formula-a1-bundle |
-| [Eternal Dungeon — Volume I & II Part One](pages/itch-eternal-dungeon-core-deck.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/eternal-dungeon-core-deck | itch, game-assets, garebearproductionz |
+| [Eternal Dungeon Card Deck — Volume I & II Part One](pages/itch-eternal-dungeon-core-deck.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/eternal-dungeon-core-deck | itch, game-assets, garebearproductionz |
 | [Eternal Dungeon — Volume II Part Two: System Cards (FREE)](pages/itch-eternal-dungeon-volume-ii-part-two-system-cards.html) | Itch Asset Pack | https://garebearproductionz.itch.io/eternal-dungeon-volume-ii-part-two-system-cards | itch, game-assets, garebearproductionz |
 | [Evil Eye Four Pack & Live SVG Animations](pages/itch-evil-eye-four-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/evil-eye-four-pack | evil-eye, svg, animation, icons, pixel-art, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [EZ GUI Menu Panels](pages/itch-menu-panels.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/menu-panels | itch, game-assets, garebearproductionz |

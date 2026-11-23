@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-11-22
+Generated: 2026-11-23
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -613,7 +613,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz, formula-a1-bundle
 
-- Eternal Dungeon — Volume I & II Part One: 12 animated occult cards: 9 Volume I + 3 Cardinals, dual V1/V2 backs, 112 animations, viewer included. Official GareBearProductionz itch product ($5.62 -25%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+- Eternal Dungeon Card Deck — Volume I & II Part One: 12 animated occult cards: 9 Volume I + 3 Cardinals, dual V1/V2 backs, 112 animations, viewer included. Official GareBearProductionz itch product ($5.62 -25%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-eternal-dungeon-core-deck.html
   Public URL: https://garebearproductionz.itch.io/eternal-dungeon-core-deck
   GitHub: N/A

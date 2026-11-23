@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T17:11:26Z",
+  "generatedAt": "2026-11-23T21:22:26Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
   "itemsParsed": 127,
   "itemsWritten": 127,
@@ -23,7 +23,7 @@
     },
     {
       "slug": "slagworks-cinderhaul-6-map-animated-tileset",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/slagworks-cinderhaul-6-map-animated-tileset: curl failed (22): curl: (22) The requested URL returned error: 429"
     },
     {
       "slug": "static-sprawl",
@@ -103,7 +103,7 @@
     },
     {
       "slug": "120-elemental-vfx-pixel-abilities-icons",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/120-elemental-vfx-pixel-abilities-icons: curl failed (22): curl: (22) The requested URL returned error: 429"
+      "status": "ok"
     },
     {
       "slug": "coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts",
@@ -179,7 +179,7 @@
     },
     {
       "slug": "pyre-fire-pack-generator-tools",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/pyre-fire-pack-generator-tools: curl failed (22): curl: (22) The requested URL returned error: 429"
     },
     {
       "slug": "gossamer-pixel-cobwebs-corner-webs-screen-overlays",
@@ -207,7 +207,7 @@
     },
     {
       "slug": "shoji-dojo",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/shoji-dojo: curl failed (22): curl: (22) The requested URL returned error: 429"
     },
     {
       "slug": "hemorrhage-blood-fx",
@@ -271,7 +271,7 @@
     },
     {
       "slug": "enchanted-sprite-vfx-engine",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine: curl failed (22): curl: (22) The requested URL returned error: 429"
     },
     {
       "slug": "holo-sprite-overlay-engine",
@@ -287,7 +287,7 @@
     },
     {
       "slug": "d20-dice-color-3d-obj-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/d20-dice-color-3d-obj-pack: curl failed (22): curl: (22) The requested URL returned error: 429"
     },
     {
       "slug": "black-red-dice-svg-png-export-engine",
@@ -371,7 +371,7 @@
     },
     {
       "slug": "cool-pixel-portraits",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/cool-pixel-portraits: curl failed (22): curl: (22) The requested URL returned error: 429"
     },
     {
       "slug": "megabot-rigging-concept-free",
@@ -518,7 +518,7 @@
     "checkedUrls": 228,
     "liveUrls": 228,
     "deadUrlsBeforeRepair": 0,
-    "deadCandidatesSkippedDuringEnrich": 362,
+    "deadCandidatesSkippedDuringEnrich": 355,
     "repairedCount": 0,
     "unresolvedCount": 0,
     "unverifiedUrls": 0
