@@ -7877,6 +7877,14 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/api-routes-daily.md",
+      "url": "https://image.nostr.build/e77f95f04ae86c4a1e88a57efb1d77819acccb2a99e2d46752d8130f1e3b85c1.jpg",
+      "domain": "image.nostr.build",
+      "queryText": "tizwildinentertainmenthub docs/api-routes-daily.md https://image.nostr.build/e77f95f04ae86c4a1e88a57efb1d77819acccb2a99e2d46752d8130f1e3b85c1.jpg image.nostr.build"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/api-routes-daily.md",
       "url": "https://image.nostr.build/e86fcc86630ecedeb257f42d5490dea5cf709c7581e3cd2d163585d750099ef3.jpg",
       "domain": "image.nostr.build",
       "queryText": "tizwildinentertainmenthub docs/api-routes-daily.md https://image.nostr.build/e86fcc86630ecedeb257f42d5490dea5cf709c7581e3cd2d163585d750099ef3.jpg image.nostr.build"
@@ -8024,6 +8032,14 @@
       "url": "https://nostr.band/note1pq3zjhtsw46vwt2vhru4rlfh0kmdy79lme73lk0q0gstagmc4tsswtcuaz",
       "domain": "nostr.band",
       "queryText": "tizwildinentertainmenthub docs/api-routes-daily.md https://nostr.band/note1pq3zjhtsw46vwt2vhru4rlfh0kmdy79lme73lk0q0gstagmc4tsswtcuaz nostr.band"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/api-routes-daily.md",
+      "url": "https://nostr.band/note1pzhpxh592vpaxguhdnu06nlupcdyt0afj7qp98twx97ndrlfxtmstnw273",
+      "domain": "nostr.band",
+      "queryText": "tizwildinentertainmenthub docs/api-routes-daily.md https://nostr.band/note1pzhpxh592vpaxguhdnu06nlupcdyt0afj7qp98twx97ndrlfxtmstnw273 nostr.band"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -8208,6 +8224,14 @@
       "url": "https://www.threads.com/@garebearproductionz/post/DgDmETij3P8",
       "domain": "www.threads.com",
       "queryText": "tizwildinentertainmenthub docs/api-routes-daily.md https://www.threads.com/@garebearproductionz/post/dgdmetij3p8 www.threads.com"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/api-routes-daily.md",
+      "url": "https://www.threads.com/@garebearproductionz/post/DgGL9CHDMrc",
+      "domain": "www.threads.com",
+      "queryText": "tizwildinentertainmenthub docs/api-routes-daily.md https://www.threads.com/@garebearproductionz/post/dggl9chdmrc www.threads.com"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -21581,49 +21605,105 @@
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/cool-pixel-portraits:",
+      "url": "https://garebearproductionz.itch.io/1200-animated-pixel-sigils-magic-circles-runes-loading-spinners:",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/cool-pixel-portraits: garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/1200-animated-pixel-sigils-magic-circles-runes-loading-spinners: garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/d20-dice-color-3d-obj-pack:",
+      "url": "https://garebearproductionz.itch.io/256-pixel-runes-glyphs-symbols-that-write-themselves:",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/d20-dice-color-3d-obj-pack: garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/256-pixel-runes-glyphs-symbols-that-write-themselves: garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine:",
+      "url": "https://garebearproductionz.itch.io/a-devils-game-hellfire-arena-kit:",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine: garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/a-devils-game-hellfire-arena-kit: garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/pyre-fire-pack-generator-tools:",
+      "url": "https://garebearproductionz.itch.io/arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames:",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/pyre-fire-pack-generator-tools: garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/arcanum-i-part-2-animated-pixel-spell-abilities-23-spells-752-frames: garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/shoji-dojo:",
+      "url": "https://garebearproductionz.itch.io/avatar-generator:",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/shoji-dojo: garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/avatar-generator: garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
       "repoName": "TizWildinEntertainmentHUB",
       "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
-      "url": "https://garebearproductionz.itch.io/slagworks-cinderhaul-6-map-animated-tileset:",
+      "url": "https://garebearproductionz.itch.io/boss-backgrounds-free-pack:",
       "domain": "garebearproductionz.itch.io",
-      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/slagworks-cinderhaul-6-map-animated-tileset: garebearproductionz.itch.io"
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/boss-backgrounds-free-pack: garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
+      "url": "https://garebearproductionz.itch.io/cinder-wastes:",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/cinder-wastes: garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
+      "url": "https://garebearproductionz.itch.io/cosmic-disruption-free-fast-paced-game-music-pack:",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/cosmic-disruption-free-fast-paced-game-music-pack: garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
+      "url": "https://garebearproductionz.itch.io/frostbound-arena-winter-pixel-arena-kit-tileset-heroes-enemies-boss-ui-sfx-music:",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/frostbound-arena-winter-pixel-arena-kit-tileset-heroes-enemies-boss-ui-sfx-music: garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
+      "url": "https://garebearproductionz.itch.io/pharaohs-sands-desert-sun-court-arena-kit:",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/pharaohs-sands-desert-sun-court-arena-kit: garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
+      "url": "https://garebearproductionz.itch.io/professional-grade-studio-violin-audio-synth-formula:",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/professional-grade-studio-violin-audio-synth-formula: garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
+      "url": "https://garebearproductionz.itch.io/shadow-run-map-layers-live-smog-fx:",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/shadow-run-map-layers-live-smog-fx: garebearproductionz.itch.io"
+    },
+    {
+      "repoId": "tizwildin-entertainment-hub",
+      "repoName": "TizWildinEntertainmentHUB",
+      "sourcePath": "docs/ITCH_AUTOPULL_REPORT.json",
+      "url": "https://garebearproductionz.itch.io/spectral-carnage-sewers-free-tileset-map:",
+      "domain": "garebearproductionz.itch.io",
+      "queryText": "tizwildinentertainmenthub docs/itch_autopull_report.json https://garebearproductionz.itch.io/spectral-carnage-sewers-free-tileset-map: garebearproductionz.itch.io"
     },
     {
       "repoId": "tizwildin-entertainment-hub",
@@ -50227,10 +50307,10 @@
     }
   ],
   "summary": {
-    "linkCount": 6278,
+    "linkCount": 6288,
     "domains": {
       "garebear99.github.io": 1714,
-      "garebearproductionz.itch.io": 1314,
+      "garebearproductionz.itch.io": 1321,
       "github.com": 1138,
       "img.itch.zone": 935,
       "www.w3.org": 358,
@@ -50238,10 +50318,10 @@
       "dev.to": 41,
       "img.shields.io": 32,
       "127.0.0.1:8000": 28,
-      "nostr.band": 22,
-      "image.nostr.build": 19,
+      "nostr.band": 23,
+      "image.nostr.build": 20,
+      "www.threads.com": 18,
       "bsky.app": 17,
-      "www.threads.com": 17,
       "ffm.bio": 15,
       "soundcloud.com": 15,
       "www.facebook.com": 15,
