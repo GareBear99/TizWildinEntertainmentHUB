@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T19:17:00Z",
+  "generatedAt": "2026-11-26T19:02:40Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
   "itemsParsed": 127,
   "itemsWritten": 127,
@@ -43,7 +43,7 @@
     },
     {
       "slug": "pharaohs-sands-desert-sun-court-arena-kit",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/pharaohs-sands-desert-sun-court-arena-kit: curl failed (22): curl: (22) The requested URL returned error: 429"
+      "status": "ok"
     },
     {
       "slug": "pharaohs-sands-warriors",
@@ -119,7 +119,7 @@
     },
     {
       "slug": "minds-eye-free-pack",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/minds-eye-free-pack: curl failed (22): curl: (22) The requested URL returned error: 429"
+      "status": "ok"
     },
     {
       "slug": "pharaohs-sands-operators",
@@ -151,7 +151,7 @@
     },
     {
       "slug": "impact-fx-pixel-combat-vfx-sfx-pack",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/impact-fx-pixel-combat-vfx-sfx-pack: curl failed (22): curl: (22) The requested URL returned error: 429"
+      "status": "ok"
     },
     {
       "slug": "halloween-asset-audio-sfx-pack-free",
@@ -167,7 +167,7 @@
     },
     {
       "slug": "808-producer-kit",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/808-producer-kit: curl failed (22): curl: (22) The requested URL returned error: 429"
+      "status": "ok"
     },
     {
       "slug": "violin-synth-sample-kit",
@@ -187,7 +187,7 @@
     },
     {
       "slug": "cloudworks-pixel-cloud-parallax-toolkit-trains",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/cloudworks-pixel-cloud-parallax-toolkit-trains: curl failed (22): curl: (22) The requested URL returned error: 429"
+      "status": "ok"
     },
     {
       "slug": "japanese-dojo-tileset-free",
@@ -203,7 +203,7 @@
     },
     {
       "slug": "rift-edge-laser-sword-glow-slash-pack",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/rift-edge-laser-sword-glow-slash-pack: curl failed (22): curl: (22) The requested URL returned error: 429"
     },
     {
       "slug": "shoji-dojo",
@@ -211,7 +211,7 @@
     },
     {
       "slug": "hemorrhage-blood-fx",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/hemorrhage-blood-fx: curl failed (22): curl: (22) The requested URL returned error: 429"
     },
     {
       "slug": "ichor-glyph",
@@ -219,7 +219,7 @@
     },
     {
       "slug": "40-animated-pixel-fx-pack-dash-land-impact",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/40-animated-pixel-fx-pack-dash-land-impact: curl failed (22): curl: (22) The requested URL returned error: 429"
+      "status": "ok"
     },
     {
       "slug": "shadow-pixel-character-pack-copies-any-sprite",
@@ -291,7 +291,7 @@
     },
     {
       "slug": "black-red-dice-svg-png-export-engine",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/black-red-dice-svg-png-export-engine: curl failed (22): curl: (22) The requested URL returned error: 429"
+      "status": "ok"
     },
     {
       "slug": "infina-dix-engine",
@@ -299,7 +299,7 @@
     },
     {
       "slug": "color-dynamic-sigils-svg-export-pack",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/color-dynamic-sigils-svg-export-pack: curl failed (22): curl: (22) The requested URL returned error: 429"
+      "status": "ok"
     },
     {
       "slug": "sphinx-activation-layered-live-map",
@@ -355,15 +355,15 @@
     },
     {
       "slug": "pride-crown-concept-art",
-      "status": "ok"
+      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/pride-crown-concept-art: curl failed (22): curl: (22) The requested URL returned error: 429"
     },
     {
       "slug": "scarlette-witchs-darkhold-sprite-free",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/scarlette-witchs-darkhold-sprite-free: curl failed (22): curl: (22) The requested URL returned error: 429"
+      "status": "ok"
     },
     {
       "slug": "hells-jukebox-nekranomicon-author-cthulu",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/hells-jukebox-nekranomicon-author-cthulu: curl failed (22): curl: (22) The requested URL returned error: 429"
+      "status": "ok"
     },
     {
       "slug": "the-widowmaker-live-vanta-black-svg-3-phase-boss",
@@ -371,7 +371,7 @@
     },
     {
       "slug": "cool-pixel-portraits",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/cool-pixel-portraits: curl failed (22): curl: (22) The requested URL returned error: 429"
+      "status": "ok"
     },
     {
       "slug": "megabot-rigging-concept-free",
@@ -399,7 +399,7 @@
     },
     {
       "slug": "blood-bound-scythe-svg-free",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/blood-bound-scythe-svg-free: curl failed (22): curl: (22) The requested URL returned error: 429"
+      "status": "ok"
     },
     {
       "slug": "gw3-style-2d-projected-3d-grid-world-engine",
@@ -419,7 +419,7 @@
     },
     {
       "slug": "svg-icon-starter-kit-pipeline",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/svg-icon-starter-kit-pipeline: curl failed (22): curl: (22) The requested URL returned error: 429"
+      "status": "ok"
     },
     {
       "slug": "holy-svg-png-icon-set",
@@ -475,7 +475,7 @@
     },
     {
       "slug": "free-haunter-sprites",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/free-haunter-sprites: curl failed (22): curl: (22) The requested URL returned error: 429"
+      "status": "ok"
     },
     {
       "slug": "action-command-charge-formula",
@@ -491,7 +491,7 @@
     },
     {
       "slug": "skully-asset-pack-lightweight-canvas-engine-demo",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/skully-asset-pack-lightweight-canvas-engine-demo: curl failed (22): curl: (22) The requested URL returned error: 429"
+      "status": "ok"
     },
     {
       "slug": "gravity-projectile-generator-formula",
@@ -518,7 +518,7 @@
     "checkedUrls": 228,
     "liveUrls": 228,
     "deadUrlsBeforeRepair": 0,
-    "deadCandidatesSkippedDuringEnrich": 324,
+    "deadCandidatesSkippedDuringEnrich": 353,
     "repairedCount": 0,
     "unresolvedCount": 0,
     "unverifiedUrls": 0
