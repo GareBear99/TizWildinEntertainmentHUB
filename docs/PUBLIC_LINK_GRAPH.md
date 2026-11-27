@@ -1,12 +1,12 @@
 # Public Link Graph
 
-Generated: 2026-11-26
+Generated: 2026-11-27
 
 This file documents every static route generated for the TizWildinEntertainmentHUB public ecosystem index.
 
 ## Summary
 
-- Total indexed records: **236**
+- Total indexed records: **240**
 - Total clusters: **12**
 - Generator: `scripts/build_public_index.py`
 - Validator: `scripts/validate_public_index.py`
@@ -138,6 +138,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Coin Physics & Triple Buffer Atomic Swap Pack & Engine Kit](pages/itch-coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts.html) | Itch Asset Pack | https://garebearproductionz.itch.io/coin-physics-pack-engine-kit-triple-buffer-atomic-swap-hash-receipts | itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [COSMIC DISRUPTION – Free Fast-Paced Game Music Pack](pages/itch-cosmic-disruption-free-fast-paced-game-music-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/cosmic-disruption-free-fast-paced-game-music-pack | itch, game-assets, garebearproductionz |
 | [Crawl Space SVG Live Backdrop Engine & Animated Prop Layers](pages/itch-crawl-space-svg-live-backdrop-engine-animated-props.html) | Itch Asset Pack | https://garebearproductionz.itch.io/crawl-space-svg-live-backdrop-engine-animated-props | itch, game-assets, garebearproductionz |
+| [Dark City - Rainy Industrial Night City Backdrop](pages/itch-dark-city-rainy-industrial-night-city-backdrop.html) | Itch Asset Pack | https://garebearproductionz.itch.io/dark-city-rainy-industrial-night-city-backdrop | itch, game-assets, garebearproductionz |
 | [Dark Fantasy Dungeon Builder - Free Four-Realm Tileset](pages/itch-dark-fantasy-dungeon-builder-free-four-realm-tileset.html) | Itch Asset Pack | https://garebearproductionz.itch.io/dark-fantasy-dungeon-builder-free-four-realm-tileset | itch, game-assets, garebearproductionz |
 | [Dark Fantasy Modular GUI Pack - 704 UI Assets + 160 Icons](pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons.html) | Itch Asset Pack | https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons | itch, game-assets, garebearproductionz |
 | [Dark Fantasy Modular GUI Pack - 704 UI Assets + 160 Icons + 64 Glyphs](pages/itch-dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs.html) | Itch Asset Pack | https://garebearproductionz.itch.io/dark-fantasy-modular-gui-pack-704-ui-assets-160-icons-64-glyphs | itch, game-assets, garebearproductionz |
@@ -147,6 +148,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [ENCHANTED SPRITE FX ENGINE](pages/itch-enchanted-sprite-fx-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/enchanted-sprite-fx-engine | itch, game-assets, garebearproductionz |
 | [ENCHANTED SPRITE VFX ENGINE](pages/itch-enchanted-sprite-vfx-engine.html) | Itch Asset Pack | https://garebearproductionz.itch.io/enchanted-sprite-vfx-engine | itch, game-assets, garebearproductionz, formula-a1-bundle |
 | [Eternal Dungeon Card Deck — Volume I & II Part One](pages/itch-eternal-dungeon-core-deck.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/eternal-dungeon-core-deck | itch, game-assets, garebearproductionz |
+| [Eternal Dungeon Card Matrix: P97 Runes, Tree of Life, 291 Doors](pages/itch-eternal-dungeon-matrix-p97-runes-tree-of-life-291-doors.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/eternal-dungeon-matrix-p97-runes-tree-of-life-291-doors | itch, game-assets, garebearproductionz |
 | [Eternal Dungeon — Volume II Part Two: System Cards (FREE)](pages/itch-eternal-dungeon-volume-ii-part-two-system-cards.html) | Itch Asset Pack | https://garebearproductionz.itch.io/eternal-dungeon-volume-ii-part-two-system-cards | itch, game-assets, garebearproductionz |
 | [Evil Eye Four Pack & Live SVG Animations](pages/itch-evil-eye-four-pack.html) | Itch Asset Pack | https://garebearproductionz.itch.io/evil-eye-four-pack | evil-eye, svg, animation, icons, pixel-art, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [EZ GUI Menu Panels](pages/itch-menu-panels.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/menu-panels | itch, game-assets, garebearproductionz |
@@ -155,6 +157,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Free Pixel SVG Portrait Asset Builder Kit (Generator & Pack)](pages/itch-cool-pixel-portraits.html) | Itch Playable Game / Engine | https://garebearproductionz.itch.io/cool-pixel-portraits | free, portrait, pixel, svg, generator, itch, game-assets, garebearproductionz |
 | [FreeEQ8 (Most Advanced EQ OpenSource)](pages/itch-freeeq8-most-advanced-free-eq-opensource.html) | Itch Asset Pack | https://garebearproductionz.itch.io/freeeq8-most-advanced-free-eq-opensource | freeeq8, audio, plugin, eq, open-source, itch, game-assets, garebearproductionz |
 | [Frostbound Arena - Winter Pixel Arena Kit (Tileset, Heroes, Enemies, Boss, UI, SFX + Music)](pages/itch-frostbound-arena-winter-pixel-arena-kit-tileset-heroes-enemies-boss-ui-sfx-music.html) | Itch Asset Pack | https://garebearproductionz.itch.io/frostbound-arena-winter-pixel-arena-kit-tileset-heroes-enemies-boss-ui-sfx-music | itch, game-assets, garebearproductionz |
+| [FrostFall - Christmas Elves](pages/itch-frostfall-christmas-elves.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/frostfall-christmas-elves | itch, game-assets, garebearproductionz |
 | [Gossamer — 289 Pixel Cobwebs, Corner Webs & Screen Overlays](pages/itch-gossamer-pixel-cobwebs-corner-webs-screen-overlays.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/gossamer-pixel-cobwebs-corner-webs-screen-overlays | itch, game-assets, garebearproductionz |
 | [GW3 Style 2D Projected 3D Grid World Synth Engine (Free)](pages/itch-gw3-style-2d-projected-3d-grid-world-engine.html) | Itch Playable Game / Engine | https://garebearproductionz.itch.io/gw3-style-2d-projected-3d-grid-world-engine | free, grid, engine, 2d, 3d, itch, game-assets, garebearproductionz |
 | [Halloween Asset & Audio SFX Pack (FREE)](pages/itch-halloween-asset-audio-sfx-pack-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/halloween-asset-audio-sfx-pack-free | itch, game-assets, garebearproductionz |
@@ -201,6 +204,7 @@ This file documents every static route generated for the TizWildinEntertainmentH
 | [Reward Pocket Generator Formula](pages/itch-reward-pocket-generator-formula.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/reward-pocket-generator-formula | reward, generator, formula, items, game-dev, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle |
 | [Rift Edge - Laser Sword & Glow Slash Pack](pages/itch-rift-edge-laser-sword-glow-slash-pack.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/rift-edge-laser-sword-glow-slash-pack | itch, game-assets, garebearproductionz |
 | [Riftedge - 1001 Slash FX Pack](pages/itch-riftedge-1001-slash-fx.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/riftedge-1001-slash-fx | itch, game-assets, garebearproductionz |
+| [Santa's Steampunk Workshop & Cursed Toys Bundle](pages/itch-santas-steampunk-workshop-cursed-toys-bundle.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/santas-steampunk-workshop-cursed-toys-bundle | itch, game-assets, garebearproductionz |
 | [Scarlet Witch DarkHold Sprite (FREE)](pages/itch-scarlette-witchs-darkhold-sprite-free.html) | Itch Asset Pack | https://garebearproductionz.itch.io/scarlette-witchs-darkhold-sprite-free | free, sprite, darkhold, pixel-art, itch, game-assets, garebearproductionz |
 | [Shadow Fighters — Dragon Knight, Iron Sentinel, Xeno Grunt (+ Raptor)](pages/itch-shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor.html) | Itch Game Tool / Formula | https://garebearproductionz.itch.io/shadow-fighters-dragon-knight-iron-sentinel-xeno-grunt-raptor | itch, game-assets, garebearproductionz |
 | [Shadow Pixel Character Pack - copies any sprite](pages/itch-shadow-pixel-character-pack-copies-any-sprite.html) | Itch Asset Pack | https://garebearproductionz.itch.io/shadow-pixel-character-pack-copies-any-sprite | itch, game-assets, garebearproductionz |

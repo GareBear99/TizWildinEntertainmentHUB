@@ -1,10 +1,26 @@
 {
-  "generatedAt": "2026-11-26T19:02:40Z",
+  "generatedAt": "2026-11-27T18:59:20Z",
   "profileUrl": "https://garebearproductionz.itch.io/",
-  "itemsParsed": 127,
-  "itemsWritten": 127,
-  "mediaReadyItems": 127,
+  "itemsParsed": 131,
+  "itemsWritten": 131,
+  "mediaReadyItems": 131,
   "detailStatus": [
+    {
+      "slug": "dark-city-rainy-industrial-night-city-backdrop",
+      "status": "ok"
+    },
+    {
+      "slug": "frostfall-christmas-elves",
+      "status": "ok"
+    },
+    {
+      "slug": "santas-steampunk-workshop-cursed-toys-bundle",
+      "status": "ok"
+    },
+    {
+      "slug": "eternal-dungeon-matrix-p97-runes-tree-of-life-291-doors",
+      "status": "ok"
+    },
     {
       "slug": "eternal-dungeon-volume-ii-part-two-system-cards",
       "status": "ok"
@@ -203,7 +219,7 @@
     },
     {
       "slug": "rift-edge-laser-sword-glow-slash-pack",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/rift-edge-laser-sword-glow-slash-pack: curl failed (22): curl: (22) The requested URL returned error: 429"
+      "status": "ok"
     },
     {
       "slug": "shoji-dojo",
@@ -211,7 +227,7 @@
     },
     {
       "slug": "hemorrhage-blood-fx",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/hemorrhage-blood-fx: curl failed (22): curl: (22) The requested URL returned error: 429"
+      "status": "ok"
     },
     {
       "slug": "ichor-glyph",
@@ -355,7 +371,7 @@
     },
     {
       "slug": "pride-crown-concept-art",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/pride-crown-concept-art: curl failed (22): curl: (22) The requested URL returned error: 429"
+      "status": "ok"
     },
     {
       "slug": "scarlette-witchs-darkhold-sprite-free",
@@ -423,7 +439,7 @@
     },
     {
       "slug": "holy-svg-png-icon-set",
-      "status": "detail-fetch-failed:failed to fetch https://garebearproductionz.itch.io/holy-svg-png-icon-set: curl failed (22): curl: (22) The requested URL returned error: 429"
+      "status": "ok"
     },
     {
       "slug": "spectral-icon-svg-pipeline-kit",
@@ -515,10 +531,10 @@
     }
   ],
   "mediaVerification": {
-    "checkedUrls": 228,
-    "liveUrls": 228,
+    "checkedUrls": 235,
+    "liveUrls": 235,
     "deadUrlsBeforeRepair": 0,
-    "deadCandidatesSkippedDuringEnrich": 353,
+    "deadCandidatesSkippedDuringEnrich": 375,
     "repairedCount": 0,
     "unresolvedCount": 0,
     "unverifiedUrls": 0

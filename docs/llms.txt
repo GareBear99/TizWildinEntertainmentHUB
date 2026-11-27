@@ -1,6 +1,6 @@
 # TizWildin Entertainment HUB Public Index
 
-Generated: 2026-11-26
+Generated: 2026-11-27
 Base URL: https://garebear99.github.io/TizWildinEntertainmentHUB
 
 This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin / ARC ecosystem.
@@ -565,6 +565,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
+- Dark City - Rainy Industrial Night City Backdrop: Rainy industrial night-city backdrop: 3 fences, wet streets, rain, embers. 282 files. Official GareBearProductionz itch product ($6.37 -25%) in the Live Backdrops & Scene Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-dark-city-rainy-industrial-night-city-backdrop.html
+  Public URL: https://garebearproductionz.itch.io/dark-city-rainy-industrial-night-city-backdrop
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
 - Dark Fantasy Dungeon Builder - Free Four-Realm Tileset: Build dungeons across 4 realms: 1,056 modular tiles, 80 objects, 40 premade rooms, 12 demo maps, Tiled files, painter. Official GareBearProductionz itch product (Free) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-dark-fantasy-dungeon-builder-free-four-realm-tileset.html
   Public URL: https://garebearproductionz.itch.io/dark-fantasy-dungeon-builder-free-four-realm-tileset
@@ -619,6 +625,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
+- Eternal Dungeon Card Matrix: P97 Runes, Tree of Life, 291 Doors: 420 cards: 97 P97 runes, 32 Tree of Life routes, 291 closed doors. The full Eternal Dungeon matrix. Official GareBearProductionz itch product ($3.49 -65%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-eternal-dungeon-matrix-p97-runes-tree-of-life-291-doors.html
+  Public URL: https://garebearproductionz.itch.io/eternal-dungeon-matrix-p97-runes-tree-of-life-291-doors
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
 - Eternal Dungeon — Volume II Part Two: System Cards (FREE): 3 free System cards: Nekral Catalyst, Clean Chaos, All-State Leylines. V1/V2 faces and backs, viewer included. Official GareBearProductionz itch product (FREE) in the Free Samples & Lead Magnets line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-eternal-dungeon-volume-ii-part-two-system-cards.html
   Public URL: https://garebearproductionz.itch.io/eternal-dungeon-volume-ii-part-two-system-cards
@@ -664,6 +676,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
 - Frostbound Arena - Winter Pixel Arena Kit (Tileset, Heroes, Enemies, Boss, UI, SFX + Music): Winter arena kit: 16×16 autotile tileset, parallax, 3 heroes, 5 enemies, Frost Giant boss, 74 SFX, 5 music tracks Official GareBearProductionz itch product (paid) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-frostbound-arena-winter-pixel-arena-kit-tileset-heroes-enemies-boss-ui-sfx-music.html
   Public URL: https://garebearproductionz.itch.io/frostbound-arena-winter-pixel-arena-kit-tileset-heroes-enemies-boss-ui-sfx-music
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
+- FrostFall - Christmas Elves: Two packs in one: a snowbound gothic village at night plus 12 Christmas elves with gift bombs, huts and rain FX. Official GareBearProductionz itch product ($4.50 -55%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-frostfall-christmas-elves.html
+  Public URL: https://garebearproductionz.itch.io/frostfall-christmas-elves
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
@@ -721,7 +739,7 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
   GitHub: N/A
   Tags: icons, holy, svg, png, live-fx, itch, game-assets, garebearproductionz, formula-a1-bundle, live-svg-fx-bundle
 
-- Impact FX - Christmas Edition | Pixel Winter VFX + SFX Pack: 10 animated winter VFX in 4 colourways, shattering ornaments, blooming snowflakes, crashing icicles, 36 SFX, 336 frames Official GareBearProductionz itch product ($0.96 -20%) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.
+- Impact FX - Christmas Edition | Pixel Winter VFX + SFX Pack: 10 animated winter VFX in 4 colourways, shattering ornaments, blooming snowflakes, crashing icicles, 36 SFX, 336 frames Official GareBearProductionz itch product ($0.54 -55%) in the Audio, Music & DSP line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-impact-fx-christmas-edition-pixel-winter-vfx-sfx-pack.html
   Public URL: https://garebearproductionz.itch.io/impact-fx-christmas-edition-pixel-winter-vfx-sfx-pack
   GitHub: N/A
@@ -940,6 +958,12 @@ This is the crawler/LLM-friendly plain text index for the GareBear99 / TizWildin
 - Riftedge - 1001 Slash FX Pack: The full Riftedge set: 1,001 slash VFX animations for combat, dashes, finishers - free Slash FX 101 is just a tenth. Official GareBearProductionz itch product ($2.22 -50%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
   Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-riftedge-1001-slash-fx.html
   Public URL: https://garebearproductionz.itch.io/riftedge-1001-slash-fx
+  GitHub: N/A
+  Tags: itch, game-assets, garebearproductionz
+
+- Santa's Steampunk Workshop & Cursed Toys Bundle: Two packs in one: a steampunk toy-factory backdrop plus 6 haunted toys — 24 characters, 5 animations each. Official GareBearProductionz itch product ($9 -55%) in the Game Tools & Metadata Engines line; checkout and downloads happen on the official itch page.
+  Page: https://garebear99.github.io/TizWildinEntertainmentHUB/pages/itch-santas-steampunk-workshop-cursed-toys-bundle.html
+  Public URL: https://garebearproductionz.itch.io/santas-steampunk-workshop-cursed-toys-bundle
   GitHub: N/A
   Tags: itch, game-assets, garebearproductionz
 
